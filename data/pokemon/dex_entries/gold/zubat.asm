@@ -1,10 +1,10 @@
-	db "BAT@" ; species name
-	dw 207, 170 ; height, weight
+	db "MURCIÉLAGO@" ; species name
+	dbw 8, 75 ; height, weight
 
-	db   "During the day, it"
-	next "gathers with"
-	next "others and hangs"
+	db   "Durante el día, se"
+	next "reúne con otros de"
+	next "su especie y se"
 
-	page "from the ceilings"
-	next "of old buildings"
-	next "and caves.@"
+	page "cuelga de los"
+	next "techos de cuevas y"
+	next "edificios.@"

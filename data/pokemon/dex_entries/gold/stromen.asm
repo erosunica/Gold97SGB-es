@@ -1,10 +1,10 @@
-	db "HAUNTED@" ; species name
-	dw 106, 20 ; height, weight
-
-	db   "When a wandering"
-	next "spirit inhabits"
-	next "household objects,"
-
-	page "it comes together"
-	next "and animates into"
-	next "a STROMEN.@"
+	db "EMBRUJADO@" ; species name
+	dbw 4, 9 ; height, weight
+	
+	db   "Cuando un espíritu"
+	next "errante posee un"
+	next "objeto doméstico,"
+	
+	page "lo asimila y se"
+	next "convierte en un"
+	next "STROMEN.@"

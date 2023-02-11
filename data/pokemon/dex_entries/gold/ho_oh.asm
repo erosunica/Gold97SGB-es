@@ -1,10 +1,10 @@
-	db "RAINBOW@" ; species name
-	dw 1206, 4390 ; height, weight
+	db "ARCO IRIS@" ; species name
+	dbw 38, 1990 ; height, weight
 
-	db   "It will reveal"
-	next "itself before a"
-	next "pure-hearted"
+	db   "Se revelará ante"
+	next "entrenadores de"
+	next "corazón puro"
 
-	page "trainer by shining"
-	next "its bright rain-"
-	next "bow-colored wings.@"
+	page "mostrando sus"
+	next "brillantes alas"
+	next "arco iris.@"

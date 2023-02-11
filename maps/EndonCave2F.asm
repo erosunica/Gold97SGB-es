@@ -55,60 +55,61 @@ EndonCave2FEther:
 	itemball ETHER
 
 BirdKeeperTheoSeenText:
-	text "My beautiful birds"
-	line "have no room to"
-	cont "FLY in here!"
+	text "¡Mis preciosos"
+	line "pájaros no pueden"
+	cont "VOLAR aquí!"
 	done
 
 BirdKeeperTheoBeatenText:
-	text "Do you know the"
-	line "way out of here?"
+	text "¿Sabes cómo se"
+	line "sale de aquí?"
 	done
 
 BirdKeeperTheoAfterBattleText:
-	text "How the heck do"
-	line "you get out?"
-
-	para "I want to FLY!"
-	line "FLY, far away!"
+	text "¿Cómo rayos se"
+	line "sale?"
+	
+	para "¡Quiero VOLAR!"
+	line "¡VOLAR muy lejos!"
 	done
 
 SailorTerrellSeenText:
-	text "Sailors are both"
-	line "kind and strong."
-	cont "How about you?"
+	text "Los marineros"
+	line "somos fuertes y"
+	cont "simpáticos. ¿Y tú?"
 	done
 
 SailorTerrellBeatenText:
-	text "You are both kind"
-	line "and strong…"
+	text "Eres fuerte y"
+	line "amable…"
 	done
 
 SailorTerrellAfterBattleText:
-	text "I hear there's a"
-	line "new BOARDWALK open"
-	para "south of SANSKRIT"
-	line "TOWN."
+	text "He oído que han"
+	line "abierto una nueva"
+	para "PASARELA al sur de"
+	line "PUEBLO SÁNSCRITO."
 	done
-	
+
 CooltrainermNickSeenText:
-	text "Do your #MON"
-	line "know the ability"
-	para "to carry you over"
-	line "water?"
-	para "There's an old man"
-	line "over in BIRDON who"
-	cont "taught mine!"
+	text "¿Tus #MON"
+	line "tienen la habili-"
+	cont "dad de llevarte"
+	cont "por el agua?"
+
+	para "¡En BIRDON hay un"
+	line "anciano que se lo"
+	cont "enseñó al mío!"
 	done
 
 CooltrainermNickBeatenText:
-	text "Have you met him?"
+	text "¿Lo conoces?"
 	done
 
 CooltrainermNickAfterBattleText:
-	text "Not many people"
-	line "come through here"
-	cont "to battle."
+	text "No mucha gente"
+	line "viene aquí a"
+	cont "combatir."
 	done
 
 

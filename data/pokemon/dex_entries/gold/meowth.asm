@@ -1,10 +1,10 @@
-	db "SCRATCHCAT@" ; species name
-	dw 104, 90 ; height, weight
+	db "GATO ARAÑA@" ; species name
+	dbw 4, 42 ; height, weight
 
-	db   "It loves things"
-	next "that sparkle. When"
-	next "it sees a shiny"
+	db   "Le fascina todo lo"
+	next "que brilla. Si ve"
+	next "algo que destelle,"
 
-	page "object, the gold"
-	next "coin on its head"
-	next "shines too.@"
+	page "la moneda de oro"
+	next "que tiene en la"
+	next "cabeza brillará.@"

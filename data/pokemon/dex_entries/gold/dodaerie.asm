@@ -1,10 +1,10 @@
-	db "HATCHLING@" ; species name
-	dw 203, 450 ; height, weight
-
-	db   "Each one of its"
-	next "three heads has"
-	next "its own brain."
-
-	page "But one of the"
-	next "brains go dormant"
-	next "as it grows.@"
+	db "POLLUELO@" ; species name
+	dbw 7, 204 ; height, weight
+	
+	db   "Cada una de sus"
+	next "tres cabezas tiene"
+	next "su propio cerebro,"
+	
+	page "pero uno de ellos"
+	next "está inactivo"
+	next "mientras crece.@"

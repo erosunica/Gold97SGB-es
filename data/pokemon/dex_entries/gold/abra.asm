@@ -1,10 +1,10 @@
 	db "PSI@" ; species name
-	dw 211, 430 ; height, weight
+	dbw 9, 195 ; height, weight
 
-	db   "It hypnotizes"
-	next "itself so that it"
-	next "can teleport away"
+	db   "Se hipnotiza a sí"
+	next "mismo para usar"
+	next "TELETRANSPORTE"
 
-	page "when it senses"
-	next "danger, even"
-	next "if it is asleep.@"
+	page "si hay peligro."
+	next "Lo usa incluso"
+	next "mientras duerme.@"

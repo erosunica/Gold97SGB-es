@@ -21,19 +21,20 @@ RyukyuMartCooltrainerFScript:
 	jumptextfaceplayer RyukyuMartCooltrainerFText
 
 RyukyuMartCooltrainerMText:
-	text "There's a guy in"
-	line "this town who"
-	para "wants to be a"
-	line "GYM LEADER."
-	para "Have you given"
-	line "him a challenge"
-	cont "yet?"
+	text "Hay alguien en"
+	line "esta ciudad que"
+	para "quiere ser LÍDER"
+	line "de GIMNASIO."
+
+	para "¿Ya has combatido"
+	line "contra él?"
 	done
 
 RyukyuMartCooltrainerFText:
-	text "This city has the"
-	line "warmest climate on"
-	cont "the ISLANDS."
+	text "Esta ciudad tiene"
+	line "el clima más"
+	cont "cálido en las"
+	cont "ISLAS."
 	done
 
 RyukyuMart_MapEvents:
@@ -49,5 +50,5 @@ RyukyuMart_MapEvents:
 
 	db 3 ; object events
 	object_event  1,  3, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, RyukyuMartClerkScript, -1
-	object_event  7,  2, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, RyukyuMartCooltrainerMScript, -1
+	object_event  7,  2, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, RyukyuMartCooltrainerMScript, -1
 	object_event  7,  6, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, RyukyuMartCooltrainerFScript, -1

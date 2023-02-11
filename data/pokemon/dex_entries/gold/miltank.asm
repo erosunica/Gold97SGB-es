@@ -1,10 +1,10 @@
-	db "MILK COW@" ; species name
-	dw 311, 1660 ; height, weight
+	db "LECHERA@" ; species name
+	dbw 12, 755 ; height, weight
 
-	db   "In order to milk a"
-	next "MILTANK, one must"
-	next "have a knack for"
+	db   "Para poder ordeñar"
+	next "a MILTANK, se re-"
+	next "quiere destreza a"
 
-	page "rhythmically pull-"
-	next "ing up and down"
-	next "on its udders.@"
+	page "la hora de mover"
+	next "sus ubres arriba y"
+	next "abajo con ritmo.@"

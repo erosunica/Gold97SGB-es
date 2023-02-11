@@ -1,10 +1,10 @@
-	db "TRANSFORM@" ; species name
-	dw 100, 90 ; height, weight
+	db "TRANSFORM.@" ; species name
+	dbw 3, 40 ; height, weight
 
-	db   "When it encount-"
-	next "ers another DITTO,"
-	next "it will move"
+	db   "Cuando se enfrenta"
+	next "a otro DITTO, se"
+	next "mueve más rápido"
 
-	page "faster than normal"
-	next "to duplicate that"
-	next "opponent exactly.@"
+	page "de lo normal para"
+	next "copiarle en todo"
+	next "lo que haga.@"

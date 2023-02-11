@@ -6,7 +6,7 @@ NewGame:
 	call OakSpeech
 	call InitializeWorld
 
-	ld a, SPAWN_HOME
+	ld a, SPAWN_HOME ; erosunica: initial spawn, constant names in map_data_constants.asm
 	ld [wDefaultSpawnpoint], a
 
 	ld a, MAPSETUP_WARP
@@ -168,7 +168,7 @@ SetDefaultBoxNames:
 	ret
 
 .Box:
-	db "BOX@"
+	db "CAJA @"
 
 InitializeMagikarpHouse:
 	ld hl, wBestMagikarpLengthFeet
@@ -181,7 +181,7 @@ InitializeMagikarpHouse:
 	ret
 
 .Ralph:
-	db "RALPH@"
+	db "JOSERRA@"
 
 InitializeNPCNames:
 	ld hl, .Rival
@@ -204,10 +204,10 @@ InitializeNPCNames:
 	call CopyBytes
 	ret
 
-.Rival:  db "???@"
-.Red:    db "RED@"
-.Green:  db "GREEN@"
-.Mom:    db "MOM@"
+.Rival:  db "¿¿??@"
+.Red:    db "ROJO@"
+.Green:  db "VERDE@"
+.Mom:    db "MAMÁ@"
 
 InitializeWorld:
 	call ShrinkPlayer
@@ -353,12 +353,12 @@ DisplaySaveInfoOnContinue:
 	call CheckRTCStatus
 	and %10000000
 	jr z, .clock_ok
-	lb de, 4, 8
+	lb de, 2, 8
 	call DisplayContinueDataWithRTCError
 	ret
 
 .clock_ok
-	lb de, 4, 8
+	lb de, 2, 8
 	call DisplayNormalContinueData
 	ret
 
@@ -395,61 +395,61 @@ Continue_LoadMenuHeader:
 
 .MenuHeader_Dex:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 0, 15, 9
+	menu_coords 0, 0, 17, 9
 	dw .MenuData_Dex
 	db 1 ; default option
 
 .MenuData_Dex:
 	db 0 ; flags
 	db 4 ; items
-	db "PLAYER <PLAYER>@"
-	db "BADGES@"
+	db "JUGADOR  <PLAYER>@"
+	db "MEDALLAS@"
 	db "#DEX@"
-	db "TIME@"
+	db "TIEMPO J.@"
 
 .MenuHeader_NoDex:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 0, 15, 9
+	menu_coords 0, 0, 17, 9
 	dw .MenuData_NoDex
 	db 1 ; default option
 
 .MenuData_NoDex:
 	db 0 ; flags
 	db 4 ; items
-	db "PLAYER <PLAYER>@"
-	db "BADGES@"
+	db "JUGADOR  <PLAYER>@"
+	db "MEDALLAS@"
 	db " @"
-	db "TIME@"
+	db "TIEMPO J.@"
 
 Continue_DisplayBadgesDex:
 	call MenuBoxCoord2Tile
 	push hl
-	decoord 13, 4, 0
+	decoord 15, 4, 0
 	add hl, de
 	call Continue_DisplayBadgeCount
 	pop hl
 	push hl
-	decoord 12, 6, 0
+	decoord 14, 6, 0
 	add hl, de
 	call Continue_DisplayPokedexNumCaught
 	pop hl
 	ret
 
 Continue_PrintGameTime:
-	decoord 9, 8, 0
+	decoord 11, 8, 0
 	add hl, de
 	call Continue_DisplayGameTime
 	ret
 
 Continue_UnknownGameTime:
-	decoord 9, 8, 0
+	decoord 11, 8, 0
 	add hl, de
 	ld de, .three_question_marks
 	call PlaceString
 	ret
 
 .three_question_marks
-	db " ???@"
+	db " ¿?@"
 
 Continue_DisplayBadgeCount:
 	push hl
@@ -532,19 +532,19 @@ OakSpeech:
 	call PrintText
 	ld hl, OakText4
 	call PrintText
-	call RotateThreePalettesRight
-	call ClearTilemap
-
-	xor a
-	ld [wCurPartySpecies], a
-	ld a, POKEMON_PROF
-	ld [wTrainerClass], a
-	call Intro_PrepTrainerPic
-
-	ld b, SCGB_TRAINER_OR_MON_FRONTPIC_PALS
-	call GetSGBLayout
-	call Intro_RotatePalettesLeftFrontpic
-
+;	call RotateThreePalettesRight
+;	call ClearTilemap
+;
+;	xor a
+;	ld [wCurPartySpecies], a
+;	ld a, POKEMON_PROF
+;	ld [wTrainerClass], a
+;	call Intro_PrepTrainerPic
+;
+;	ld b, SCGB_TRAINER_OR_MON_FRONTPIC_PALS
+;	call GetSGBLayout
+;	call Intro_RotatePalettesLeftFrontpic
+;
 	ld hl, OakText5
 	call PrintText
 	call RotateThreePalettesRight
@@ -671,7 +671,7 @@ NamePlayer:
 	ld de, wPlayerName
 	call StorePlayerName
 	farcall ApplyMonOrTrainerPals
-	call MovePlayerPicLeft
+	;call MovePlayerPicLeft
 	ret
 
 .NewName:
@@ -702,6 +702,7 @@ NamePlayer:
 
 INCLUDE "data/player_names.asm"
 INCLUDE "data/rival_names.asm"
+INCLUDE "data/mom_names.asm"
 
 NameRivalIntro:
 	call MovePlayerPicRight
@@ -713,7 +714,7 @@ NameRivalIntro:
 	ld de, wRivalName
 	call StorePlayerName
 	farcall ApplyMonOrTrainerPals
-	call MovePlayerPicLeft
+	;call MovePlayerPicLeft
 	ret
 
 .NewName:
@@ -742,6 +743,28 @@ NameRivalIntro:
 	call InitName
 	ret
 
+NameMom:
+	hlcoord 18, 17
+	ld a, "─"
+	ld [hli], a
+	ld hl, MomNameMenuHeader
+	call ShowPlayerNamingChoices
+	ld a, [wMenuCursorY]
+	dec a
+	jr z, .NewName
+	ld de, wMomsName
+	call StorePlayerName
+	ret
+
+.NewName:
+	ld b, NAME_MOM
+	ld de, wMomsName
+	farcall _NamingScreen
+
+	ld hl, wMomsName
+	ld de, MomNameArray
+	call InitName
+	ret
 
 ShowPlayerNamingChoices:
 	call LoadMenuHeader
@@ -823,7 +846,7 @@ MovePlayerPicLeft:
 	hlcoord 13, 4
 	ld de, -1	; offset
 MovePlayerPic:
-	ld c, 7 + 1
+	ld c, 6 + 1
 .loop
 	push bc
 	push hl
@@ -842,7 +865,7 @@ MovePlayerPic:
 	  predef PlaceGraphic
 
 	  call WaitBGMap
-	  call DelayFrame
+	  ;call DelayFrame
 	pop de
 	pop hl
 	add hl, de

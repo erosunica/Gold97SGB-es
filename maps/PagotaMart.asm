@@ -21,29 +21,31 @@ PagotaMartCooltrainerMScript:
 	jumptextfaceplayer PagotaMartCooltrainerMText
 
 PagotaMartGrannyText:
-	text "When you first"
-	line "catch a #MON,"
-	cont "it may be weak."
+	text "Cuando atrapas un"
+	line "#MON, puede"
+	cont "estar débil."
 
-	para "But it will even-"
-	line "tually grow to be"
-	cont "strong."
+	para "Pero éste crecerá"
+	line "y se hará más"
+	cont "fuerte."
 
-	para "It's important to"
-	line "treat #MON with"
-	cont "love."
+	para "Es importante"
+	line "tratar a todos los"
+
+	para "#MON con mucho"
+	line "cariño."
 	done
 
 PagotaMartCooltrainerMText:
-	text "#MON can hold"
-	line "items like POTION"
-	cont "and ANTIDOTE."
+	text "Los #MON pueden"
+	line "ir equipados con"
+	para "objetos como"
+	line "POCIÓN y ANTÍDOTO."
 
-	para "But they don't"
-	line "appear to know how"
-
-	para "to use manmade"
-	line "items."
+	para "Pero parece que"
+	line "no saben usar los"
+	para "objetos hechos"
+	line "por el hombre."
 	done
 
 PagotaMart_MapEvents:

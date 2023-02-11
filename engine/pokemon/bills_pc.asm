@@ -227,17 +227,17 @@ BillsPCDepositFuncCancel:
 
 BillsPCDepositMenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 9, 4, SCREEN_WIDTH - 1, 13
+	menu_coords 11, 4, SCREEN_WIDTH - 1, 13
 	dw .MenuData
 	db 1 ; default option
 
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "DEPOSIT@"
-	db "STATS@"
-	db "RELEASE@"
-	db "CANCEL@"
+	db "DEJAR@"
+	db "ESTADO@"
+	db "SOLTAR@"
+	db "SALIR@"
 
 _WithdrawPKMN:
 	ld hl, wOptions
@@ -465,17 +465,17 @@ BillsPC_Withdraw:
 
 .MenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 9, 4, SCREEN_WIDTH - 1, 13
+	menu_coords 11, 4, SCREEN_WIDTH - 1, 13
 	dw .MenuData
 	db 1 ; default option
 
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "WITHDRAW@"
-	db "STATS@"
-	db "RELEASE@"
-	db "CANCEL@"
+	db "SACAR@"
+	db "ESTADO@"
+	db "SOLTAR@"
+	db "SALIR@"
 
 _MovePKMNWithoutMail:
 	ld hl, wOptions
@@ -675,16 +675,16 @@ _MovePKMNWithoutMail:
 
 .MenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 9, 4, SCREEN_WIDTH - 1, 13
+	menu_coords 11, 4, SCREEN_WIDTH - 1, 13
 	dw .MenuData
 	db 1 ; default option
 
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
-	db "MOVE@"
-	db "STATS@"
-	db "CANCEL@"
+	db "MOVER@"
+	db "ESTADO@"
+	db "SALIR@"
 
 .PrepInsertCursor:
 	xor a
@@ -993,7 +993,7 @@ BillsPC_BoxName:
 	ret
 
 .PartyPKMN:
-	db "PARTY <PK><MN>@"
+	db "EQUIPO@"
 
 PCMonInfo:
 ; Display a monster's pic and
@@ -1240,7 +1240,7 @@ BillsPC_RefreshTextboxes:
 	ret
 
 .CancelString:
-	db "CANCEL@"
+	db "SALIR@"
 
 .PlaceNickname:
 	ld a, [de]
@@ -1777,7 +1777,7 @@ DepositPokemon:
 	ld h, b
 	ld de, wStringBuffer1
 	call PlaceString
-	ld a, "!"
+	ld a, "."
 	ld [bc], a
 	ld c, 50
 	call DelayFrames
@@ -1832,7 +1832,7 @@ TryWithdrawPokemon:
 	ld h, b
 	ld de, wStringBuffer1
 	call PlaceString
-	ld a, "!"
+	ld a, "."
 	ld [bc], a
 	ld c, 50
 	call DelayFrames
@@ -1891,7 +1891,7 @@ ReleasePKMN_ByePKMN:
 	call PlaceString
 	ld l, c
 	ld h, b
-	ld [hl], "!"
+	ld [hl], "."
 	ld c, 50
 	call DelayFrames
 	ret
@@ -1945,7 +1945,7 @@ MovePKMNWitoutMail_InsertMon:
 	ret
 
 .Saving_LeaveOn:
-	db "Saving… Leave ON!@"
+	db "Guardando-No Apag.@"
 
 .Jumptable:
 	dw .BoxToBox
@@ -2188,24 +2188,25 @@ BillsPC_InitGFX:
 PCSelectLZ: INCBIN "gfx/pc/pc.2bpp.lz"
 PCMailGFX:  INCBIN "gfx/pc/pc_mail.2bpp"
 
-PCString_ChooseaPKMN: db "Choose a <PK><MN>.@"
-PCString_WhatsUp: db "What's up?@"
-PCString_ReleasePKMN: db "Release <PK><MN>?@"
-PCString_MoveToWhere: db "Move to where?@"
-PCString_ItsYourLastPKMN: db "It's your last <PK><MN>!@"
-PCString_TheresNoRoom: db "There's no room!@"
-PCString_NoMoreUsablePKMN: db "No more usable <PK><MN>!@"
-PCString_RemoveMail: db "Remove MAIL.@"
-PCString_ReleasedPKMN: db "Released <PK><MN>.@"
-PCString_Bye: db "Bye,@"
-PCString_Stored: db "Stored @"
-PCString_Got: db "Got @"
-PCString_Non: db "Non.@"
-PCString_BoxFull: db "The BOX is full.@"
-PCString_PartyFull: db "The party's full!@"
-PCString_NoReleasingEGGS: db "No releasing EGGS!@"
+PCString_ChooseaPKMN: db "Elige un <PK><MN>.@"
+PCString_WhatsUp: db "¿Qué hacer?@"
+PCString_ReleasePKMN: db "¿Soltar <PK><MN>?@"
+PCString_MoveToWhere: db "¿Mover adónde?@"
+PCString_ItsYourLastPKMN: db "Es tu último <PK><MN>.@"
+PCString_TheresNoRoom: db "¡No hay sitio!@"
+PCString_NoMoreUsablePKMN: db "¡No quedan <PK><MN>!@"
+PCString_RemoveMail: db "Debe ir sin CARTA.@"
+PCString_ReleasedPKMN: db "Liberado <PK><MN>.@"
+PCString_Bye: db "Adiós @"
+PCString_Stored: db "Dejado @"
+PCString_Got: db "Sacado @"
+PCString_Non: db "Ninguno@"
+PCString_BoxFull: db "CAJA llena.@"
+PCString_PartyFull: db "¡Equipo completo!@"
+PCString_NoReleasingEGGS: db "No soltar HUEVOS.@"
 
 _ChangeBox:
+	call ClearSprites ; added
 	call LoadStandardMenuHeader
 	call BillsPC_ClearTilemap
 .loop
@@ -2384,7 +2385,7 @@ BillsPC_PrintBoxName:
 	ret
 
 .Current:
-	db "CURRENT@"
+	db "ACTUAL@"
 
 BillsPC_ChangeBoxSubmenu:
 	ld hl, .MenuHeader
@@ -2464,24 +2465,24 @@ BillsPC_ChangeBoxSubmenu:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "SWITCH@"
-	db "NAME@"
-	db "PRINT@"
-	db "QUIT@"
+	db "CAMBIO@"
+	db "NOMBRE@"
+	db "IMPR.@"
+	db "SALIR@"
 
 BillsPC_PlaceChooseABoxString:
 	ld de, .ChooseABox
 	jr BillsPC_PlaceChangeBoxString
 
 .ChooseABox:
-	db "Choose a BOX.@"
+	db "Elige una caja.@"
 
 BillsPC_PlaceWhatsUpString:
 	ld de, .WhatsUp
 	jr BillsPC_PlaceChangeBoxString
 
 .WhatsUp:
-	db "What's up?@"
+	db "¿Qué hacer?@"
 
 BillsPC_PlaceEmptyBoxString_SFX:
 	ld de, .NoMonString
@@ -2494,7 +2495,7 @@ BillsPC_PlaceEmptyBoxString_SFX:
 	ret
 
 .NoMonString:
-	db "There's no #MON.@"
+	db "No hay #MON.@"
 
 BillsPC_PlaceChangeBoxString:
 	push de

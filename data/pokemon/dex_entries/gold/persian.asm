@@ -1,10 +1,10 @@
-	db "CLASSY CAT@" ; species name
-	dw 303, 710 ; height, weight
+	db "GATO FINO@" ; species name
+	dbw 10, 320 ; height, weight
 
-	db   "Behind its lithe,"
-	next "elegant appearance"
-	next "lies a barbaric"
+	db   "Tras su aspecto"
+	next "ligero y elegante,"
+	next "se esconde su lado"
 
-	page "side. It will tear"
-	next "apart its prey on"
-	next "a mere whim.@"
+	page "cruel. Hará trizas"
+	next "a su víctima a la"
+	next "mínima de cambio.@"

@@ -27,27 +27,32 @@ Route104GeoffsHouseBookshelf:
 	jumpstd MagazineBookshelfScript
 
 Route104GeoffsHouseMonEatBerriesText:
-	text "You know, I really"
-	line "love taking care"
-	cont "of my garden."
-	para "It's so dry around"
-	line "here."
-	para "I work really hard"
-	line "to make my flowers"
-	cont "grow."
-	para "Recently, I was"
-	line "even able to get"
-	para "a BERRY tree to"
-	line "grow out back."
-	para "Here! Let me share"
-	line "some of its fruit"
-	cont "with you!"
+	text "Me gusta mucho"
+	line "cuidar mi jardín."
+
+	para "Toda esta zona es"
+	line "muy seca."
+
+	para "Me he esforzado"
+	line "mucho para que"
+	cont "crezcan estas"
+	cont "flores."
+
+	para "Hace poco, incluso"
+	line "conseguí que"
+	para "creciese un árbol"
+	line "frutal."
+
+	para "¡Toma! ¡Deja que"
+	line "comparta sus"
+	cont "frutos contigo!"
 	done
 
 Route104GeoffsHouseCheckTreesText:
-	text "Maybe one day I'll"
-	line "be able to get two"
-	cont "trees to grow."
+	text "Un día a lo mejor"
+	line "consigo que"
+	cont "crezcan dos"
+	cont "árboles."
 	done
 
 Route104GeoffsHouse_MapEvents:

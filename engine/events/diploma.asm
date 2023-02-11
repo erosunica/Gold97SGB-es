@@ -5,6 +5,8 @@ ret_e0000:
 
 _Diploma:
 	call PlaceDiplomaOnScreen
+	call WaitPressAorB_BlinkCursor ; erosunica: extra wait step to show the 2nd page of the diploma
+	call PrintDiplomaPage2 ; erosunica: show the 2nd page of the diploma
 	call WaitPressAorB_BlinkCursor
 	ret
 
@@ -21,16 +23,19 @@ PlaceDiplomaOnScreen:
 	ld bc, SCREEN_WIDTH * SCREEN_HEIGHT
 	call CopyBytes
 	ld de, .Player
-	hlcoord 2, 5
+	hlcoord 3, 5
 	call PlaceString
 	ld de, .EmptyString
-	hlcoord 15, 5
+	hlcoord 16, 5
 	call PlaceString
 	ld de, wPlayerName
-	hlcoord 9, 5
+	hlcoord 11, 5
 	call PlaceString
 	ld de, .Certification
 	hlcoord 2, 8
+	call PlaceString
+	ld de, .GameFreak
+	hlcoord 8, 16
 	call PlaceString
 	call EnableLCD
 	call WaitBGMap
@@ -41,18 +46,18 @@ PlaceDiplomaOnScreen:
 	ret
 
 .Player:
-	db "PLAYER@"
+	db "JUGADOR@"
 
 .EmptyString:
 	db "@"
 
 .Certification:
-	db   "This certifies"
-	next "that you have"
-	next "completed the"
-	next "new #DEX."
-	next "Congratulations!"
-	db   "@"
+	db   "Se certifica que"
+	next "has completado"
+	next "con éxito tu"
+	next "POKéDEX.@"
+
+.GameFreak: db "GAME FREAK@"
 
 PrintDiplomaPage2:
 	hlcoord 0, 0
@@ -63,13 +68,10 @@ PrintDiplomaPage2:
 	decoord 0, 0
 	ld bc, SCREEN_WIDTH * SCREEN_HEIGHT
 	call CopyBytes
-	ld de, .GameFreak
-	hlcoord 8, 0
-	call PlaceString
 	ld de, .PlayTime
-	hlcoord 3, 15
+	hlcoord 2, 15
 	call PlaceString
-	hlcoord 12, 15
+	hlcoord 11, 15
 	ld de, wGameTimeHours
 	lb bc, 2, 4
 	call PrintNum
@@ -80,8 +82,7 @@ PrintDiplomaPage2:
 	call PrintNum
 	ret
 
-.PlayTime: db "PLAY TIME@"
-.GameFreak: db "GAME FREAK@"
+.PlayTime: db "TIEMPO J.@"
 
 DiplomaGFX:
 INCBIN "gfx/diploma/diploma.2bpp.lz"

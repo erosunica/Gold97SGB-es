@@ -1,10 +1,10 @@
-	db "POISON PIN@" ; species name
-	dw 211, 430 ; height, weight
+	db "PIN VENENO@" ; species name
+	dbw 9, 195 ; height, weight
 
-	db   "It is easily"
-	next "agitated and uses"
-	next "its horn for"
+	db   "Se altera con"
+	next "facilidad y usa"
+	next "el cuerno para"
 
-	page "offense as soon as"
-	next "it notices an"
-	next "attacker.@"
+	page "embestir al mínimo"
+	next "indicio de algún"
+	next "ataque.@"

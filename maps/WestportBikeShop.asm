@@ -47,56 +47,53 @@ WestportBikeShopBicycle:
 	jumptext WestportBikeShopBicycleText
 
 WestportBikeShopClerkIntroText:
-	text "…sigh… I moved"
-	line "here, but I can't"
+	text "(Suspiro…)"
+	line "Me trasladé aquí,"
+	para "pero no vendo mis"
+	line "BICIS. ¿Por qué?"
 
-	para "sell my BICYCLES."
-	line "Why is that?"
-
-	para "Could you ride a"
-	line "BICYCLE and adver-"
-	cont "tise for me?"
+	para "¿Montarías en una"
+	line "BICI para hacerme"
+	cont "publicidad?"
 	done
 
 WestportBikeShopClerkAgreedText:
-	text "Really? Great!"
+	text "¿De verdad? ¡Bien!"
 
-	para "Give me your name"
-	line "and phone number,"
-
-	para "and I'll loan you"
-	line "a BICYCLE."
+	para "Dime tu nombre y"
+	line "número de teléfono"
+	cont "y te prestaré una"
+	cont "BICI."
 	done
 
 BorrowedABicycleText:
-	text "<PLAYER> borrowed a"
-	line "BICYCLE."
+	text "<PLAYER> tomó"
+	line "prestada una BICI."
 	done
 
 WestportBikeShopClerkFirstRateBikesText:
-	text "My BICYCLES are"
-	line "first-rate! You"
+	text "¡Mis BICIS son de"
+	line "gran calidad!"
 
-	para "can ride them"
-	line "anywhere."
+	para "Puedes usarlas en"
+	line "cualquier lugar."
 	done
 
 WestportBikeShopClerkRefusedText:
-	text "…sigh… Oh, for"
-	line "the kindness of"
-	cont "people…"
+	text "(Suspiro…)"
+	line "¡Oh, rayos y"
+	cont "centellas…!"
 	done
 
 WestportBikeShopJustReleasedCompactBikeText:
-	text "Just released!"
-
-	para "First-rate compact"
-	line "BICYCLES!"
+	text "¡Lo último! ¡BICIS"
+	line "compactas de"
+	cont "máxima calidad!"
 	done
 
 WestportBikeShopBicycleText:
-	text "It's a shiny new"
-	line "BICYCLE!"
+	text "¡Es una BICI"
+	line "novísima!"
 	done
 
 WestportBikeShop_MapEvents:

@@ -9,7 +9,7 @@ InitClock:
 	ldh [hInMenu], a
 
 .SkipSavingMenuState:
-
+;	call SetDayOfWeek.OnIntro ; erosunica: moved after .TimeConfirmed
 	ld a, $0
 	ld [wSpriteUpdatesEnabled], a
 	;ld a, $10
@@ -70,12 +70,12 @@ InitClock:
 	ld a, [wInitHourBuffer]
 	ld [wStringBuffer2 + 1], a
 
-	ld hl, OakTimeWhatHoursText
-	call PrintText
-	call YesNoBox
-	jr nc, .HourIsSet
-
-	jr .loop
+;	ld hl, OakTimeWhatHoursText
+;	call PrintText
+;	call YesNoBox
+;	jr nc, .HourIsSet
+;
+;	jr .loop
 
 .HourIsSet:
 	ld hl, OakTimeHowManyMinutesText
@@ -97,11 +97,11 @@ InitClock:
 	ld a, [wInitMinuteBuffer]
 	ld [wStringBuffer2 + 2], a
 	;call .ClearScreen
-	ld hl, OakTimeWhoaMinutesText
-	call PrintText
-	call YesNoBox
-	jr nc, .MinutesAreSet
-	jr .HourIsSet
+;	ld hl, OakTimeWhoaMinutesText
+;	call PrintText
+;	call YesNoBox
+;	jr nc, .MinutesAreSet
+;	jr .HourIsSet
 
 .MinutesAreSet:
 	call InitTimeOfDay
@@ -111,7 +111,7 @@ InitClock:
 	jr nc, .TimeConfirmed
 	jp .SkipSavingMenuState
 .TimeConfirmed:
-	call SetDayOfWeek.OnIntro
+	call SetDayOfWeek.OnIntro ; erosunica: the Time must be set before the Day for the day to be saved successfully
 	pop af
 	ldh [hInMenu], a
 	ret
@@ -167,7 +167,7 @@ SetHour:
 .okay
 	hlcoord 1, $10
 	ld a, " "
-	ld bc, 15
+	ld bc, 17 ; OLD 15
 	call ByteFill
 	hlcoord 1, $10
 	call DisplayHourOClock
@@ -185,10 +185,21 @@ DisplayHourOClock:
 	ld c, a
 	ld e, l
 	ld d, h
-	call PrintHour
+	push bc
+	call PrintAdjustedHour
+	ld h, d
+	ld l, e
 	inc hl
 	ld de, String_oclock
 	call PlaceString
+	ld d, b
+	ld e, c
+	inc de
+	pop bc
+	call PrintTimeOfDay
+	ld b, d
+	ld c, e
+;endc
 	pop hl
 	ret
 
@@ -294,7 +305,7 @@ OakTimeWhatTimeIsItText:
 	text_end
 
 String_oclock:
-	db "o'clock@"
+	db "en punto@"
 
 OakTimeWhatHoursText:
 	; What?@ @
@@ -302,11 +313,14 @@ OakTimeWhatHoursText:
 	text_asm
 	hlcoord 1, 16
 	call DisplayHourOClock
+	ld a, "?"
+	ld [bc], a
+	inc bc
 	ld hl, .OakTimeHoursQuestionMarkText
 	ret
 
 .OakTimeHoursQuestionMarkText:
-	text_far _OakTimeHoursQuestionMarkText
+;	text_far _OakTimeHoursQuestionMarkText ;OLD ENABLED
 	text_end
 
 OakTimeHowManyMinutesText:
@@ -320,32 +334,59 @@ OakTimeWhoaMinutesText:
 	; Whoa!@ @
 	text_far _OakTimeWhoaMinutesText
 	text_asm
-	hlcoord 7, 14
+	hlcoord 9, 14
 	call DisplayMinutesWithMinString
+	ld a, "?"
+	ld [bc], a
+	inc bc
 	ld hl, .OakTimeMinutesQuestionMarkText
 	ret
 
 .OakTimeMinutesQuestionMarkText:
-	text_far _OakTimeMinutesQuestionMarkText
+;	text_far _OakTimeMinutesQuestionMarkText ;OLD ENABLED
 	text_end
 
 OakText_ResponseToSetTime:
 	text_asm
-	hlcoord 1, 14
-;	call SetDayOfWeek.PlaceWeekdayString
-	ld d, b
-	ld e, c
-	inc de
-	call PrintHourAndMinutesAdjusted
-	ld b, h
-	ld c, l
+	decoord 1, 14
 	ld a, [wInitHourBuffer]
+	ld c, a
+	push bc
+	call PrintAdjustedHour
+	ld h, d
+	ld l, e
+	ld [hl], ":"
+	inc hl
+	ld de, wInitMinuteBuffer
+	lb bc, PRINTNUM_LEADINGZEROS | 1, 2
+	call PrintNum
+	ld d, h
+	ld e, l
+	inc de
+	pop bc
+	call PrintTimeOfDay
+	ld b, d
+	ld c, e
+	ld a, [wInitHourBuffer]
+	cp MORN_HOUR
+	jr c, .nite
+	cp DAY_HOUR + 1
+	jr c, .morn
+	cp NITE_HOUR
+	jr c, .day
+.nite
 	ld hl, .OakTimeYikesText
 	ret
+.morn
+	ld hl, .OakTimeYikesText
+	ret
+.day
+	ld hl, .OakTimeYikesText
+	ret
+
 .OakTimeYikesText:
 	text_far _OakTimeYikesText
 	text_end
-
 
 TimeSetBackgroundGFX:
 INCBIN "gfx/new_game/timeset_bg.1bpp"
@@ -547,27 +588,28 @@ SetDayOfWeek:
 	dw .Saturday
 	dw .Sunday
 
-.Sunday:    db "SUNDAY@"
-.Monday:    db "MONDAY@"
-.Tuesday:   db "TUESDAY@"
-.Wednesday: db "WEDNESDAY@"
-.Thursday:  db "THURSDAY@"
-.Friday:    db "FRIDAY@"
-.Saturday:  db "SATURDAY@"
+.Sunday:    db "DOMINGO@"
+.Monday:    db "LUNES@"
+.Tuesday:   db "MARTES@"
+.Wednesday: db "MIÉRCOLES@"
+.Thursday:  db "JUEVES@"
+.Friday:    db "VIERNES@"
+.Saturday:  db "SÁBADO@"
 
 .OakTimeWhatDayIsItText:
 	text_far _OakTimeWhatDayIsItText
 	text_end
 
 .ConfirmWeekdayText:
+	text_far _OakTimeIsItText1
 	text_asm
-	hlcoord 1, 14
+	hlcoord 1, 16
 	call .PlaceWeekdayString
 	ld hl, .OakTimeIsItText
 	ret
 
 .OakTimeIsItText:
-	text_far _OakTimeIsItText
+	text_far _OakTimeIsItText2
 	text_end
 
 InitialSetDSTFlag:
@@ -575,56 +617,14 @@ InitialSetDSTFlag:
 	set 7, a
 	ld [wDST], a
 	predef UpdateTimePredef
-	hlcoord 1, 14
-	lb bc, 3, 18
-	call ClearBox
-	ld hl, .Text
-	call PlaceHLTextAtBC
 	ret
-
-.Text:
-	text_asm
-	call UpdateTime
-	ldh a, [hHours]
-	ld b, a
-	ldh a, [hMinutes]
-	ld c, a
-	decoord 1, 14
-	farcall PrintHoursMins
-	ld hl, .DSTIsThatOKText
-	ret
-
-.DSTIsThatOKText:
-	text_far _DSTIsThatOKText
-	text_end
 
 InitialClearDSTFlag:
 	ld a, [wDST]
 	res 7, a
 	ld [wDST], a
 	predef UpdateTimePredef
-	hlcoord 1, 14
-	lb bc, 3, 18
-	call ClearBox
-	ld hl, .Text
-	call PlaceHLTextAtBC
 	ret
-
-.Text:
-	text_asm
-	call UpdateTime
-	ldh a, [hHours]
-	ld b, a
-	ldh a, [hMinutes]
-	ld c, a
-	decoord 1, 14
-	farcall PrintHoursMins
-	ld hl, .TimeAskOkayText
-	ret
-
-.TimeAskOkayText:
-	text_far _TimeAskOkayText
-	text_end
 
 MrChrono:
 	hlcoord 1, 14
@@ -711,14 +711,14 @@ PrintHourAndMinutesAdjusted:
 	ld h, d
 	call AdjustHourForAMorPM
 	push af
-	  ld [wDeciramBuffer], a
-	  ld de, wDeciramBuffer
-	  call PrintTwoDigitNumberLeftAlign
-	  ld [hl], ":"
-	  inc hl
-	  ld de, wInitMinuteBuffer
-	  lb bc, PRINTNUM_LEADINGZEROS | 1, 2
-	  call PrintNum
+	ld [wDeciramBuffer], a
+	ld de, wDeciramBuffer
+	call PrintTwoDigitNumberLeftAlign
+	ld [hl], ":"
+	inc hl
+	ld de, wInitMinuteBuffer
+	lb bc, PRINTNUM_LEADINGZEROS | 1, 2
+	call PrintNum
 	pop af
 	jr nc, .not_am
 	ld de, .am
@@ -732,20 +732,21 @@ PrintHourAndMinutesAdjusted:
 .am: db "AM@"
 .pm: db "PM@"
 
-PrintHour:
-	ld l, e
-	ld h, d
+PrintHour::
+	call PrintTimeOfDay
+	inc de
+	call PrintAdjustedHour
+	ret
+
+PrintTimeOfDay:
 	push bc
+	ld h, d
+	ld l, e
 	call GetTimeOfDayString
 	call PlaceString
-	ld l, c
-	ld h, b
-	inc hl
+	ld d, b
+	ld e, c
 	pop bc
-	call AdjustHourForAMorPM
-	ld [wDeciramBuffer], a
-	ld de, wDeciramBuffer
-	call PrintTwoDigitNumberLeftAlign
 	ret
 
 GetTimeOfDayString:
@@ -766,9 +767,22 @@ GetTimeOfDayString:
 	ld de, .day_string
 	ret
 
-.nite_string: db "NITE@"
-.morn_string: db "MORN@"
-.day_string:  db "DAY@"
+.nite_string: db "NOCH@"
+.morn_string: db "MAÑ@"
+.day_string:  db "DÍA@"
+
+PrintAdjustedHour:
+	push bc
+	call AdjustHourForAMorPM
+	ld [wDeciramBuffer], a
+	ld h, d
+	ld l, e
+	ld de, wDeciramBuffer
+	call PrintTwoDigitNumberLeftAlign
+	ld d, h
+	ld e, l
+	pop bc
+	ret
 
 AdjustHourForAMorPM:
 ; Convert the hour stored in c (0-23) to a 1-12 value

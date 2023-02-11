@@ -1,10 +1,10 @@
-	db "FIRE HORSE@" ; species name
-	dw 303, 660 ; height, weight
+	db "CABALLO F.@" ; species name
+	dbw 10, 300 ; height, weight
 
-	db   "Training by"
-	next "jumping over grass"
-	next "that grows longer"
+	db   "Tras largos perio-"
+	next "dos de entrena-"
+	next "miento en zonas de"
 
-	page "every day has made"
-	next "it a world-class"
-	next "jumper.@"
+	page "exhuberante vege-"
+	next "tación, es todo un"
+	next "experto en salto.@"

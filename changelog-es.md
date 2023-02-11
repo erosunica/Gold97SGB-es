@@ -1,0 +1,51 @@
+## Changelog
+
+*Versión EN: 7.22 (Historial detallado en el fichero [changelog.txt](changelog.txt))*  
+*Versión ES: 1.0.0*
+
+- Corregido el tilemap del fragmento con Pikachu y Jigglypuff en la película de introducción.
+- Corregidos los gráficos de Charizard en la película de introducción, para que sean exactamente iguales que en SW97.
+- Modificada la película de introducción y la pantalla de título para ser más similar a la de SW97.
+- Asignada la paleta correcta a los objetos del minijuego de Pikachu.
+- Corregida la caja de texto que aparece tras dar nombre a tu madre.
+- Arregladas colisiones UP_WALL en TropicalIslandOutside.
+- Ahora pueden aparecer las Rutas 116-120 en La Hora de Ken.
+- La sprites del overworld que deben integrarse con el mapa, como el árbol frutal o la animación de Golpe Cabeza, ahora utilizan dos tonos en lugar de únicamente uno.
+- Añadida la pantalla que muestra la Pokédex en el segmento de elegir tu starter.
+- Restaurada la animación original de Bomba Sónica (la utilizada en la versión japonesa).
+- Asignada la paleta de Pueblo Silente al menú de Opciones.
+- Alineados los sprites con los tiles del mapa, como ocurre en SW97.
+- Eliminado el sprite del movimiento de hierba, como en SW97.
+- Transición de los combates más similar a la de SW97.
+- Nueva interfaz en la Pokédex para asemejarse más a la de SW97.
+- Modificados los gráficos y animación de Slowpoke en la búsqueda de la Pokédex con los de SW97.
+- Actualizado el gráfico del Nido de Pokémon por el de SW97.
+- Ajustada la pantalla del menú de la Mochila.
+- Modificado el parpadeo de la flecha en la caja de texto para que sea igual a SW97.
+- Modificada la pantalla de nombre para ser más similar a la de SW97.
+- Modificada la pantalla del equipo Pokémon para asemejarse más a lo que sería una localización de la de SW97 (mismo criterio que en Rojo/Azul). 
+- Pantalla de Estado más similar a la de SW97.
+- Paletas de batallas y pantalla de Estado adaptadas a las utilizadas en la de SW97.
+- Paletas del Pokégear adaptadas a las utilizadas en SW97.
+- Modificado el PC de Bill, para asemejarse más a SW97 (tamaño cajas de texto, orden y paletas).
+- En el mapa de Vuelo, reemplazada la última fila con el tile de agua.
+- Añadidos tiles de "Nombre" en la primera página de la Ficha de Entrenador, igual que en SW97.
+- Movido un pixel a la izquierda el sprite del jugador en la Ficha de Entrenador, igual que en SW97.
+- En el Tiempo Jugado de la Ficha de Entrenador, el símbolo de dos puntos ahora es estático y utiliza el mismo tile que en Rojo/Azul.
+- Añadidos nombres de los líderes en la segunda página de la Ficha de Entrenador.
+- En la Ficha de Entrenador, el último líder permanece oculto hasta que no ganas su medalla.
+- Adaptado Diploma al diseño de SW99.
+- Añadida la segunda página del Diploma visible sin necesidad de usar el Printer.
+- Pequeños ajustes en algunos mapas para asemejarse más a los originales de SW97.
+- Corregido un, presumiblemente, error gráfico cerca de la valla interior en el tejado del Edificio Kanto.
+- Modificado el bloque de justo detrás de los paneles de control en el mapa TeamRocketBaseB1F.
+- Añadidos parches de hierba baja en la entrada y salida de la Ruta 101 (del backup 05/06/98).
+- Tapado un hueco con árboles en la Ruta 109 (del backup 05/06/98).
+- Reemplazado sprite del que te da el monopatín en Ciudad Calorina por uno único recuperado de SOUTHM.DAT.
+- Actualizados los gráficos del final de la introducción de Juego Nuevo, cuando el sprite del jugador se vuelve pequeño, por los de SW97.
+- Adaptadas las secuencias y textos iniciales de la introducción de Juego Nuevo para que sean más similares a las de SW97.
+- Actualizada la habitación del protagonista para que sea más similar a la de SW97.
+- Añadidos nuevos textos de SW97 en la habitación del protagonista y la del rival.
+- Actualizado el texto al interactuar con la TV de la casa del protagonista por el de SW97.
+- Adaptadas las secuencias y textos iniciales de la historia para que sean más similares a las de SW97.
+- Reemplazado el texto de PC del Laboratorio de Oak por el de SW97.

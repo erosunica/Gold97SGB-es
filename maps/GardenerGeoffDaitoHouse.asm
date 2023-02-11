@@ -46,40 +46,41 @@ papayas:
 	
 	
 WantFactText:
-	text "Want to hear"
-	line "about some of"
-	para "the tropical"
-	line "fruits I've"
-	cont "been growing?"
+	text "¿Quieres que te"
+	line "hable sobre"
+	para "algunas de las"
+	line "frutas tropicales"
+	para "que he estado"
+	line "cultivando?"
 	done
-	
+
 AhOkText:
-	text "Ah, alright."
-	line "Maybe another"
-	cont "time, then."
+	text "Está bien. Tal vez"
+	line "en otro momento."
 	done
-	
+
 PapayaText:
-	text "Papayas are one"
-	line "of the easiest"
-	para "tropical fruit"
-	line "to grow."
-	para "All you really"
-	line "need to do is"
-	para "throw the seeds in"
-	line "your yard and"
-	cont "watch 'em grow!"
-	
-	para "The things take"
-	line "so well that"
-	para "they're almost"
-	line "like a weed!"
-	
-	para "The male plants"
-	line "won't produce"
-	para "any fruit - feel"
-	line "free to just"
-	cont "chop them down."
+	text "Las papayas son"
+	line "unas de las frutas"
+	para "tropicales más"
+	line "fáciles de"
+	cont "cultivar."
+
+	para "Lo único que"
+	line "tienes que hacer"
+	para "es arrojar las"
+	line "semillas en tu"
+	cont "jardín y verlas"
+	cont "crecer."
+
+	para "¡Germinan tan bien"
+	line "que es como ver"
+	cont "crecer la hierba!"
+
+	para "Las plantas macho"
+	line "no producen fruto,"
+	para "así que no dudes"
+	line "en cortarlas."
 	done
 	
 coconuts:
@@ -88,33 +89,33 @@ coconuts:
 	jump NoRoomGeoff
 	
 CoconutText:
-	text "People usually"
-	line "think of a"
-	para "coconut as a"
-	line "hairy, brown"
-	cont "sphere."
-	
-	para "Actually, they"
-	line "only look like"
-	para "that after their"
-	line "dense, fibrous"
-	cont "husk is removed."
-	
-	para "The best way to"
-	line "husk a coconut is"
-	para "with the nail"
-	line "removing end"
-	para "of a hammer, by"
-	line "making slats in"
-	para "the husk then"
-	line "prying it back"
-	cont "in parts!"
-	
-	para "Try this trick"
-	line "if you ever"
-	para "end up stranded"
-	line "on an island"
-	cont "with a carpenter."
+	text "La gente suele"
+	line "pensar que los"
+	para "cocos son esferas"
+	line "marrones y"
+	cont "peludas."
+
+	para "En realidad, sólo"
+	line "tienen ese aspecto"
+	para "cuando se les"
+	line "quita la cáscara"
+	cont "densa y fibrosa."
+
+	para "La mejor manera de"
+	line "descascarar un"
+	para "coco es con la"
+	line "garra de un marti-"
+	para "llo de carpintero,"
+	line "abriendo a golpes"
+	para "la cáscara y luego"
+	line "separándola en"
+	cont "partes."
+
+	para "Este truco te"
+	line "vendrá bien si"
+	para "acabas naufragando"
+	line "en una isla con un"
+	cont "carpintero."
 	done
 	
 mangoes:
@@ -123,30 +124,31 @@ mangoes:
 	jump NoRoomGeoff
 	
 MangoText:
-	text "Mangoes take a"
-	line "few months to"
-	para "fully mature on"
-	line "the tree."
-	
-	para "And the trees"
-	line "themselves can"
-	para "take years to"
-	line "get large enough"
-	para "to produce a"
-	line "single mango."
-	
-	para "Some cultures eat"
-	line "mangoes unripe."
-	
-	para "They're painfully"
-	line "hard to bite"
-	para "into, and very"
-	line "ascorbic."
-	
-	para "I eat them like"
-	line "that anyways"
-	para "because I'm"
-	line "impatient!"
+	text "Los mangos tardan"
+	line "unos cuantos meses"
+	para "en madurar"
+	line "completamente en"
+	cont "el árbol."
+
+	para "Y los árboles"
+	line "pueden tardar años"
+	para "en crecer lo"
+	line "suficiente como"
+	cont "para dar un solo"
+	cont "mango."
+
+	para "Algunas culturas"
+	line "comen los mangos"
+	cont "inmaduros."
+
+	para "Son ascórbicos, y"
+	line "morderlos es un"
+	cont "suplicio."
+
+	para "¡Yo me los como"
+	line "así de todas"
+	para "formas porque no"
+	line "tengo paciencia!"
 	done
 	
 	
@@ -156,40 +158,43 @@ bananas:
 	jump NoRoomGeoff
 	
 BananaText:
-	text "Bananas are one"
-	line "of the most"
-	para "recognizable of"
-	line "all the fruits."
-	
-	para "But did you know"
-	line "all the bananas"
-	para "you see at the"
-	line "supermarket are"
-	para "genetically the"
-	line "same?"
-	
-	para "Commercial banana"
-	line "crops have no"
-	para "seeds due to"
-	line "domestication, so"
-	para "they have to be"
-	line "stem-propagated."
-	
-	para "This means all"
-	line "banana plants in a"
-	para "crop are basically"
-	line "identical!"
-	
-	para "This backfired"
-	line "once when a"
-	para "blight made an"
-	line "entire cultivar"
-	para "of banana go"
-	line "extinct, and"
-	para "growers had"
-	line "to switch to"
-	para "one that was"
-	line "immune!"
+	text "Los plátanos son"
+	line "una de las frutas"
+	cont "más reconocibles."
+
+	para "¿Pero sabías que"
+	line "los plátanos que"
+	para "ves en el"
+	line "supermercado son"
+	cont "genéticamente"
+	cont "idénticos?"
+
+	para "Los cultivos"
+	line "comerciales de"
+	para "plátano no tienen"
+	line "semillas debido a"
+	para "la domesticación,"
+	line "por lo que deben"
+	cont "propagarse por el"
+	cont "tallo."
+
+	para "¡Significa que"
+	line "todos los platane-"
+	para "ros que veas en un"
+	line "cultivo son"
+	cont "prácticamente"
+	cont "idénticos!"
+
+	para "Hubo una vez que"
+	line "una plaga provocó"
+	para "la extinción por"
+	line "completo de un"
+	para "cultivar de"
+	line "plátanos, ¡así que"
+	para "los productores"
+	line "tuvieron que"
+	para "cambiar a uno que"
+	line "fuese inmune!"
 	done
 	
 	
@@ -200,60 +205,54 @@ pineapples:
 	jump NoRoomGeoff
 
 PineappleText:
-	text "Similar to the"
-	line "banana, most"
-	para "pineapples are"
-	line "exactly the"
-	para "same because of"
-	line "how they're"
-	cont "propagated!"
-	
-	para "Try this at"
-	line "home if you live"
-	para "somewhere warm"
-	line "enough:"
-	
-	para "Keep the top"
-	line "spines of your"
-	para "pineapple from"
-	line "the store, and"
-	para "plant it right"
-	line "back into the"
-	cont "ground."
-	
-	para "Water it and"
-	line "take good care"
-	para "and you'll soon"
-	line "find it growing"
-	para "again, and it'll"
-	line "even sprout a"
-	cont "new pineapple!"
+	text "Al igual que los"
+	line "plátanos, ¡la"
+	para "mayoría de las"
+	line "piñas son iguales"
+	para "debido a su forma"
+	line "de propagación!"
 
-	para "Repeat this"
-	line "process for an"
-	para "endless supply of"
-	line "free pineapples."
+	para "Prueba esto en"
+	line "casa si vives en"
+	para "un lugar lo"
+	line "bastante cálido:"
+
+	para "Guarda la parte"
+	line "superior de la"
+	para "piña que hayas"
+	line "comprado y"
+	cont "plántala."
+
+	para "Riégala, cuídala"
+	line "bien y pronto la"
+	para "verás crecer de"
+	line "nuevo, ¡e incluso"
+	para "le saldrá una"
+	line "nueva piña!"
+
+	para "Repite el proceso"
+	line "para tener tantas"
+	cont "piñas como"
+	cont "quieras."
 	done
 
 GeoffInsideMeetText:
-	text "Hey, didn't we"
-	line "meet back over on"
-	cont "ROUTE 104?"
-	
-	para "I was sick of"
-	line "trying to grow"
-	para "crops out in the"
-	line "desert, so I've"
-	para "moved myself out"
-	line "here to work on"
-	cont "this RANCH!"
+	text "Oye, ¿no nos"
+	line "conocimos en la"
+	cont "RUTA 104?"
 
-	para "Since you took"
-	line "the time to come"
-	para "all the way out"
-	line "here to see me,"
-	para "this drink's on"
-	line "the house!"
+	para "Era agotador"
+	line "cultivar en el"
+	para "desierto, ¡así que"
+	line "vine a trabajar"
+	cont "en este RANCHO!"
+
+	para "Ya que te has"
+	line "tomado la molestia"
+	para "de venir hasta"
+	line "aquí para verme,"
+	para "¡a esta bebida"
+	line "invita la casa!"
 	done
 
 
@@ -261,10 +260,13 @@ GeoffOutNote:
 	jumptext GeoffOutNoteText
 	
 GeoffOutNoteText:
-	text "Out getting some"
-	line "supplies, be back"
-	cont "in the afternoon" 
-	para "- GEOFFREY"
+	text "Salí a buscar"
+	line "provisiones,"
+	cont "volveré por la"
+	cont "tarde."
+
+	para "Firmado:"
+	line "GODOFREDO"
 	done
 
 GardenerGeoffDaitoHouse_MapEvents:
@@ -279,5 +281,5 @@ GardenerGeoffDaitoHouse_MapEvents:
 	db 0 ; bg events
 
 	db 2 ; object events
-	object_event 7,  4, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN,0, 0, -1, NITE, PAL_NPC_BROWN , OBJECTTYPE_SCRIPT, 0, GeoffInsideScript, -1
+	object_event 7,  4, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN,0, 0, -1, NITE, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, GeoffInsideScript, -1
 	object_event  5,  4, SPRITE_PAPER, 0, 0, 0, -1, MORN, PAL_OW_GRAY, OBJECTTYPE_SCRIPT, 0, GeoffOutNote, -1

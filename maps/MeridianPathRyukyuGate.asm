@@ -11,11 +11,11 @@ MeridianPathRyukyuGateOfficerScript:
 
 
 MeridianPathRyukyuGateOfficerText:
-	text "RYUKYU CITY is"
-	line "probably the most"
-	para "popular tourist"
-	line "attraction on the"
-	cont "ISLANDS."
+	text "CIUDAD RYUKYU debe"
+	line "ser la atracción"
+	para "turística más"
+	line "popular de las"
+	cont "ISLAS."
 	done
 
 MeridianPathRyukyuGate_MapEvents:
@@ -32,4 +32,4 @@ MeridianPathRyukyuGate_MapEvents:
 	db 0 ; bg events
 
 	db 1 ; object events
-	object_event  5,  2, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, MeridianPathRyukyuGateOfficerScript, -1
+	object_event  5,  2, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, MeridianPathRyukyuGateOfficerScript, -1

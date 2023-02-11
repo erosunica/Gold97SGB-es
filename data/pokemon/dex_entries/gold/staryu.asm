@@ -1,10 +1,10 @@
-	db "STARSHAPE@" ; species name
-	dw 207, 760 ; height, weight
+	db "ESTRELLA@" ; species name
+	dbw 8, 345 ; height, weight
 
-	db   "When the stars"
-	next "twinkle at night,"
-	next "it floats up from"
+	db   "Por la noche, con"
+	next "el centelleo de"
+	next "las estrellas,"
 
-	page "the sea floor, and"
-	next "its body's center"
-	next "core flickers.@"
+	page "emergen del agua y"
+	next "les parpadea el"
+	next "núcleo del cuerpo.@"

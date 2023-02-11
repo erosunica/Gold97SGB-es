@@ -148,72 +148,71 @@ MovementData_0x580c5:
 	step_end
 
 RuinsOfAlphOutsideScientistText:
-	text "Hm? That's a #-"
-	line "DEX, isn't it?"
-	cont "May I see it?"
+	text "¿Eh? Es una"
+	line "#DEX, ¿verdad?"
+	cont "¿Puedo verla?"
 
-	para "There are so many"
-	line "kinds of #MON."
+	para "Hay muchos tipos"
+	line "de #MON."
 
-	para "Hm? What's this?"
+	para "¿Y esto qué es?"
 
-	para "What is this"
+	para "¿Cuál es este"
 	line "#MON?"
 
-	para "It looks like the"
-	line "strange writing on"
+	para "Se parece a las"
+	line "raras escrituras"
+	para "de las paredes"
+	line "de las RUINAS."
 
-	para "the walls of the"
-	line "RUINS."
+	para "Si esos dibujos"
+	line "son #MON,"
+	para "debería haber"
+	line "muchos más."
 
-	para "If those drawings"
-	line "are really #-"
-	cont "MON, there should"
-	cont "be many more."
-
-	para "I know! Let me up-"
-	line "grade your #-"
-	cont "DEX."
+	para "¡Ya sé! Voy a"
+	line "actualizar tu"
+	cont "#DEX."
 	
-	para "Come visit me in"
-	line "the lab just down"
-	cont "in SANSKRIT TOWN."
+	para "Ven a visitarme en"
+	line "el laboratorio que"
+	cont "hay en PUEBLO"
+	cont "SÁNSCRITO."
 	done
 
 SuperNerdStanSeenText:
-	text "What do you want?"
-	line "I'm studying--"
-	cont "don't disturb me!"
+	text "¿Qué quieres?"
+	line "Estoy estudiando."
+	cont "¡No me molestes!"
 	done
 
 SuperNerdStanBeatenText:
-	text "Sorry…"
-	line "I'm frustrated by"
-
-	para "our lack of real"
-	line "understanding…"
+	text "Perdona…"
+	line "Me deprime"
+	para "nuestra falta de"
+	line "conocimientos…"
 	done
 
 SuperNerdStanAfterBattleText:
-	text "The RUINS are from"
-	line "about 1500 years"
-	cont "ago."
+	text "Las RUINAS datan"
+	line "de hace unos"
+	cont "1.500 años."
 
-	para "Nobody knows who"
-	line "built them."
+	para "Nadie sabe quién"
+	line "las construyó."
 
-	para "It's also not"
-	line "known if the #-"
-	cont "MON statues have"
-	cont "any meaning."
+	para "Y tampoco sabemos"
+	line "si las estatuas"
+	para "de los #MON"
+	line "significan algo."
 
-	para "It's all one big"
-	line "mystery…"
+	para "Es un gran"
+	line "misterio…"
 	done
 
 PsychicNathanSeenText:
-	text "Hmmm… This is a"
-	line "strange place."
+	text "¡Mmm…! ¡Qué"
+	line "lugar tan extraño!"
 	done
 
 PsychicNathanBeatenText:
@@ -221,58 +220,63 @@ PsychicNathanBeatenText:
 	done
 
 PsychicNathanAfterBattleText:
-	text "I like thinking"
-	line "here."
+	text "Me gusta pensar"
+	line "aquí."
 	done
 
-
 RuinsOfAlphSignText:
-	text "SANSKRIT RUINS"
-	line "OBSERVATION CENTER"
+	text "RUINAS SÁNSCRITAS"
+	
+	para "CENTRO DE"
+	line "OBSERVACIÓN"
 	done
 
 RuinsOfAlphResearchCenterSignText:
-	text "SANSKRIT RUINS"
-	line "RESEARCH CENTER"
+	text "RUINAS SÁNSCRITAS"
+	
+	para "CENTRO DE"
+	line "INVESTIGACIÓN"
 	done
 
 RuinsOfAlphOutsideFisherText1:
-	text "While exploring"
-	line "the RUINS, we"
+	text "Mientras explorá-"
+	line "bamos las RUINAS,"
+	para "de repente notamos"
+	line "una extraña"
+	cont "presencia."
 
-	para "suddenly noticed"
-	line "an odd presence."
+	para "Nos asustamos y"
+	line "huimos."
 
-	para "We all got scared"
-	line "and ran away."
-
-	para "You should be"
-	line "careful too."
+	para "Tu también debes"
+	line "tener cuidado."
 	done
 
 RuinsOfAlphOutsideFisherText2:
-	text "The RUINS hide a"
-	line "huge secret!"
+	text "¡Las RUINAS"
+	line "esconden un gran"
+	cont "secreto!"
 
-	para "…I think…"
+	para "Creo…"
 	done
 
 RuinsOfAlphOutsideYoungster1Text:
-	text "There are many"
-	line "kinds of UNOWN, so"
-
-	para "we use them for"
-	line "our secret codes."
+	text "Hay muchas clases"
+	line "de UNOWN, así que"
+	para "los utilizamos"
+	line "como nuestro"
+	cont "código secreto."
 	done
 
 RuinsOfAlphOutsideYoungster2Text:
-	text "A… H… E… A… D…"
-	line "Hmm…"
+	text "A… D… E… L…"
+	line "A… N… T… E…"
+	cont "Mmmmmm…"
 
-	para "What?"
+	para "¿Qué?"
 
-	para "I'm decoding this"
-	line "message!"
+	para "¡Estoy decodifi-"
+	line "cando el mensaje!"
 	done
 
 RuinsOfAlphOutside_MapEvents:

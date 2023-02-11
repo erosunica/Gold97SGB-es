@@ -194,122 +194,128 @@ RyukyuRestaurantGameCornerTMVendorMenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "FIRE STONE    800@"
-	db "WATER STONE   800@"
-	db "THUNDERSTONE  800@"
-	db "CANCEL@"
+	db "PIEDRA FUEGO  800@"
+	db "PIEDRA AGUA   800@"
+	db "PIEDRATRUENO  800@"
+	db "SALIR@"
 	
 RyukyuRestaurantPokefanM2Text:
-	text "My #MON love"
-	line "the food here"
-	cont "more than I do!"
+	text "¡A mis #MON les"
+	line "gusta la comida de"
+	cont "este sitio más que"
+	cont "a mí!"
 	done
-	
+
 RyukyuRestaurantSuperNerdText:
-	text "This is the best"
-	line "place to eat in"
-	cont "all of NIHON!"
+	text "¡Este es el lugar"
+	line "donde mejor se"
+	cont "come de todo"
+	cont "NIHON!"
 	done
-	
+
 RyukyuRestaurantJanineText:
-	text "The service here"
-	line "is as good as the"
-	cont "food is!"
+	text "¡El servicio aquí"
+	line "es tan bueno como"
+	cont "la comida!"
 	done
-	
+
 RyukyuRestaurantCooltrainerFText:
-	text "Waiter!"
-	para "More water,"
-	line "please!"
+	text "¡Camarero!"
+
+	para "¡Más agua, por"
+	line "favor!"
 	done
-	
+
 RyukyuRestaurantCooltrainerMText:
-	text "The food here is"
-	line "delicious!"
+	text "¡La comida aquí es"
+	line "deliciosa!"
 	done
-	
+
 RyukyuRestaurantTwinText:
-	text "I want a piece"
-	line "of cake!"
+	text "¡Quiero un trozo"
+	line "de tarta!"
 	done
-	
+
 RyukyuRestaurantTeacherText:
-	text "Be sure to eat"
-	line "your vegetables!"
+	text "¡Debes comer"
+	line "verduras!"
 	done
-	
+
 RyukyuRestaurantPokefanMText:
-	text "This machine is"
-	line "lucky!"
-	para "No one else is"
-	line "going to use it!"
+	text "¡Esta máquina está"
+	line "trucada!"
+
+	para "¡Nadie más va a"
+	line "usarla!"
 	done
-	
+
 RyukyuRestaurantTheatreText:
-	text "Downstairs to"
-	line "RYUKYU THEATRE"
+	text "TEATRO RYUKYU"
+	line "Abajo"
 	done
 
 RyukyuRestaurantGameCornerPrizeVendorIntroText:
-	text "Welcome!"
-
-	para "We exchange your"
-	line "game coins for"
-	cont "fabulous prizes!"
+	text "¡Hola!"
+	line "¡Aquí cambiamos"
+	para "tus fichas por"
+	line "premios fabulosos!"
 	done
 
 RyukyuRestaurantGameCornerPrizeVendorWhichPrizeText:
-	text "Which prize would"
-	line "you like?"
+	text "¿Qué premio"
+	line "quieres?"
 	done
 
 RyukyuRestaurantGameCornerPrizeVendorConfirmPrizeText:
 	text_ram wStringBuffer3
 	text "."
-	line "Is that right?"
+	line "¿De acuerdo?"
 	done
 
 RyukyuRestaurantGameCornerPrizeVendorHereYouGoText:
-	text "Here you go!"
+	text "¡Aquí tienes!"
 	done
 
 RyukyuRestaurantGameCornerPrizeVendorNeedMoreCoinsText:
-	text "Sorry! You need"
-	line "more coins."
+	text "¡Vaya! ¡Necesitas"
+	line "más fichas!"
 	done
 
 RyukyuRestaurantGameCornerPrizeVendorNoMoreRoomText:
-	text "Sorry. You can't"
-	line "carry any more."
+	text "Lo siento. No"
+	line "tienes más sitio."
 	done
 
 RyukyuRestaurantGameCornerPrizeVendorQuitText:
-	text "OK. Please save"
-	line "your coins and"
-	cont "come again!"
+	text "Vale. ¡Guarda tus"
+	line "fichas y vuelve"
+	cont "cuando quieras!"
 	done
 
 RyukyuRestaurantGameCornerPrizeVendorNoCoinCaseText:
-	text "Oh? You don't have"
-	line "a COIN CASE."
+	text "¡Vaya! No tienes"
+	line "MONEDERO."
 	done
 	
 RyukyuRestaurantClerkText:
-	text "I'm sorry, but"
-	line "access to the"
-	para "THEATRE is for"
-	line "HOTEL guests only."
-	para "You'll need a ROOM"
-	line "PASS to enter."
+	text "Lo siento, pero el"
+	line "acceso al TEATRO"
+	para "es sólo para los"
+	line "huéspedes del"
+	cont "HOTEL."
+
+	para "Necesitas un PASE"
+	line "HOTEL para entrar."
 	done
-	
+
 RyukyuRestaurantBarText:
-	text "Welcome!"
-	para "I hope you enjoy"
-	line "our many options"
-	para "for entertainment"
-	line "here at RYUKYU"
-	cont "HOTEL!"
+	text "¡Bienvenido!"
+
+	para "¡Espero que"
+	line "disfrute de nues-"
+	cont "tras ofertas de"
+	cont "ocio en el HOTEL"
+	cont "RYUKYU!"
 	done
 
 RyukyuRestaurant_MapEvents:
@@ -338,12 +344,12 @@ RyukyuRestaurant_MapEvents:
 	object_event 14,  2, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, RyukyuRestaurantClerk, EVENT_HOTEL_UPSTAIRS_IS_BLOCKED
 	object_event  0,  6, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, RyukyuRestaurantGameCornerTMVendorScript, -1
 	object_event  0,  7, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, RyukyuRestaurantGameCornerCoinVendorScript, -1
-	object_event  5,  1, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, RyukyuRestaurantBarScript, -1
+	object_event  5,  1, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, RyukyuRestaurantBarScript, -1
 	object_event  2, 12, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, RyukyuRestaurantPokefanMScript, -1
 	object_event  5, 13, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, RyukyuRestaurantCooltrainerFScript, -1
 	object_event  8, 13, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, RyukyuRestaurantCooltrainerMScript, -1
 	object_event  7, 10, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, RyukyuRestaurantTwinScript, -1
-	object_event  5,  9, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, RyukyuRestaurantTeacherScript, -1
+	object_event  5,  9, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, RyukyuRestaurantTeacherScript, -1
 	object_event 11, 10, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, RyukyuRestaurantPokefanM2Script, -1
 	object_event 12,  4, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, RyukyuRestaurantSuperNerdScript, -1
 	object_event 14, 10, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, RyukyuRestaurantJanineScript, -1

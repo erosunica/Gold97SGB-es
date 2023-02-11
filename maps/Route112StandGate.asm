@@ -193,100 +193,116 @@ R36GSilverWalksToYou:
 	step_end
 	
 Route102GSilverWinText:
-	text "What? Again!?"
+	text "¿Qué? ¡¿Otra vez?!"
 	done
-	
+
 Route102GSilverLossText:
-	text "Haha! Yes!"
+	text "¡Jaja! ¡Toma!"
 	done
-	
+
 Route102GRivalAfterText:
-	text "Wow, you actually"
-	line "seem to be raising"
-	para "your #MON to be"
-	line "pretty strong!"
-	para "I gotta step it up"
-	line "even more!"
-	para "Also, be careful"
-	line "if you're heading"
-	cont "into STAND CITY."
-	para "There seems to be"
-	line "some sort of"
-	para "#MON illness"
-	line "going around."
-	para "Don't want your"
-	line "#MON getting"
-	para "sick if you want"
-	line "them to be strong!"
-	para "Anyways, I'm off!"
-	line "see you around!"
+	text "¡Uau, sí que te"
+	line "estás esforzando"
+	para "en criar a tus"
+	line "#MON para que"
+	cont "sean tan fuertes!"
+
+	para "¡Voy a tener que"
+	line "hacerlo aún más!"
+
+	para "Por cierto,"
+	line "cuidado si vas a"
+	cont "CIUDAD ENHIESTA."
+
+	para "Parece que hay"
+	line "algunos #MON"
+	cont "enfermos."
+
+	para "¡No dejes que los"
+	line "tuyos se enfermen"
+	cont "si quieres que se"
+	cont "fortalezcan!"
+
+	para "¡Bueno, me voy!"
+	line "¡Nos vemos!"
 	done
-	
+
 R36GSilverGreets:
 	text "<RIVAL>:"
-	line "<PLAYER>!"
+	line "¡<PLAYER>!"
 	done
-	
+
 R36GSilverGreets2:
-	text "Long time no see!"
-	para "How have your"
-	line "travels been"
-	cont "going?"
-	para "Wait, hold on!"
-	para "I don't really"
-	line "care about that!"
-	para "What I want to"
-	line "know is how strong"
-	para "your team has"
-	line "gotten!"
-	para "My #MON are so"
-	line "strong!"
-	para "I'm almost ready"
-	line "to take on the"
-	cont "LEAGUE!"
-	para "Here, let me show"
-	line "you!"
+	text "¡Cuánto tiempo!"
+
+	para "¿Cómo te ha ido"
+	line "en tu viaje?"
+	para "¡Espera!"
+
+	para "¡La verdad es que"
+	line "no me importa!"
+
+	para "¡Lo que quiero"
+	line "saber es cómo de"
+	para "fuerte se ha hecho"
+	line "tu equipo!"
+
+	para "¡Mis #MON son"
+	line "muy fuertes!"
+
+	para "¡Ya casi estoy"
+	line "listo para la"
+	cont "LIGA!"
+
+	para "¡Te lo voy a"
+	line "demostrar!"
 	done
-	
+
 R36GSilverGreets3:
-	text "Oh, wait!"
-	para "Let me make sure"
-	line "we're okay to"
-	cont "battle in here!"
+	text "¡Ah, espera!"
+
+	para "¡Debemos asegurar-"
+	line "nos de que podemos"
+	cont "combatir aquí!"
 	done
-	
+
 R36GSilverGreets3_5:
 	text "…"
 	done
-	
+
 R36GSilverGreets4:
-	text "Okay!"
-	para "He says we're good"
-	line "as long as we're"
-	cont "careful!"
-	para "Here I come!"
+	text "¡Bien!"
+
+	para "¡Ha dicho que"
+	line "podemos mientras"
+	cont "tengamos cuidado!"
+
+	para "¡Allá voy!"
 	done
-	
+
 StandCityIsDoingBetterText:
-	text "I'm glad all of"
-	line "the #MON are"
-	cont "feeling better."
+	text "Me alegra que los"
+	line "#MON se sientan"
+	cont "mejor."
 	done
 
 Route112StandGateOfficerText:
-	text "STAND CITY is"
-	line "known for its"
-	para "beautiful greenery"
-	line "and parks."
+	text "CIUDAD ENHIESTA es"
+	line "conocida por sus"
+	para "preciosos parques"
+	line "y espacios verdes."
 	done
 
 StandCitySomethingIsUpText:
-	text "Something is going"
-	line "on in STAND CITY."
-	para "I swear I've seen"
-	line "men who look like"
-	para "members of TEAM"
-	line "ROCKET."
+	text "Está pasando"
+	line "algo en CIUDAD"
+	cont "ENHIESTA."
+
+	para "Juraría que he"
+	line "visto a unos tipos"
+	para "que parecen"
+	line "miembros del"
+	cont "TEAM ROCKET."
 	done
 
 Route112StandGate_MapEvents:

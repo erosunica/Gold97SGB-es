@@ -1,10 +1,10 @@
-	db "LOUDCAT@" ; species name
-	dw 109, 220 ; height, weight
-
-	db   "Is very playful"
-	next "and is constantly"
-	next "making noise in"
-
-	page "order to be the"
-	next "center of"
-	next "attention.@"
+	db "GATO RUIDO@" ; species name
+	dbw 5, 100 ; height, weight
+	
+	db   "Es muy juguetón y"
+	next "siempre está"
+	next "haciendo ruido con"
+	
+	page "tal de ser el"
+	next "centro de"
+	next "atención.@"

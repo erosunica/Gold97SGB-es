@@ -1,10 +1,10 @@
-	db "SPIKES@" ; species name
-	dw 303, 2540 ; height, weight
+	db "CLAVOS@" ; species name
+	dbw 10, 1150 ; height, weight
 
-	db   "It can remember"
-	next "only one thing at"
-	next "a time. Once it"
+	db   "La cabeza no le da"
+	next "para retener más"
+	next "de una cosa. Si se"
 
-	page "starts rushing, it"
-	next "forgets why it"
-	next "started.@"
+	page "pone a correr, se"
+	next "le olvida por qué"
+	next "empezó a hacerlo.@"

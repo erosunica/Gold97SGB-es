@@ -10,16 +10,19 @@ KobanHouse2GuruScript:
 	jumptextfaceplayer KobanHouse2GuruText
 	
 KobanHouse2GuruText:
-	text "It's said that"
-	line "dragon #MON"
-	para "still inhabit the"
-	line "DRAGON'S MAW."
-	para "I've never found"
-	line "any by fishing."
-	para "Maybe you have to"
-	line "have something"
-	para "better than an"
-	line "OLD ROD…"
+	text "Se dice que los"
+	line "#MON dragón aún"
+	para "viven en la"
+	line "MANDÍBULA DRAGÓN."
+
+	para "Nunca he"
+	line "encontrado ninguno"
+	cont "pescando."
+
+	para "Quizás haya que"
+	line "tener algo mejor"
+	cont "que una CAÑA"
+	cont "VIEJA…"
 	done
 
 KobanHouse2_MapEvents:

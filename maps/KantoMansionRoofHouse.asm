@@ -34,83 +34,77 @@ KantoMansionRoofHousePharmacistScript:
 	end
 
 KantoMansionRoofHousePharmacistIntroText:
-	text "Let me recount a"
-	line "terrifying tale…"
+	text "Te contaré una"
+	line "historia de miedo."
 	done
 
 KantoMansionRoofHousePharmacistNotNightText:
-	text "Then again, it's"
-	line "not as scary while"
+	text "Pero no te dará"
+	line "tanto miedo si aún"
+	cont "es de día."
 
-	para "it's still light"
-	line "outside."
-
-	para "Come back after"
-	line "sunset, OK?"
+	para "Vuelve cuando"
+	line "anochezca, ¿vale?"
 	done
 
 KantoMansionRoofHousePharmacistStoryText:
-	text "Once upon a time,"
-	line "there was a little"
+	text "Érase una vez un"
+	line "niño pequeño al"
+	para "que le regalaron"
+	line "una BICICLETA…"
 
-	para "boy who was given"
-	line "a new BICYCLE…"
+	para "Quería probarla"
+	line "enseguida…"
 
-	para "He wanted to try"
-	line "it right away…"
+	para "Se lo estaba"
+	line "pasando tan bien"
+	para "que olvidó que"
+	line "anochecía…"
 
-	para "He was having so"
-	line "much fun that he"
+	para "De vuelta a casa,"
+	line "en plena noche,"
 
-	para "didn't notice the"
-	line "sun had set…"
+	para "¡la bici empezó"
+	line "a frenarse!"
 
-	para "While riding home"
-	line "in the pitch-black"
+	para "¡Cada vez era más"
+	line "difícil pedalear!"
 
-	para "night, the bike"
-	line "suddenly slowed!"
+	para "Y cuando dejó de"
+	line "pedalear, ¡la bici"
+	para "empezó a moverse"
+	line "hacia atrás!"
 
-	para "The pedals became"
-	line "heavy!"
-
-	para "When he stopped"
-	line "pedaling, the bike"
-
-	para "began slipping"
-	line "backwards!"
-
-	para "It was as if the"
-	line "bike were cursed"
-
-	para "and trying to drag"
-	line "him into oblivion!"
+	para "Era como si la"
+	line "bici tuviera vida"
+	para "y quisiera llevár-"
+	line "selo con ella."
 
 	para "…"
 
-	para "…"
+	para "<……>"
 
-	para "SHRIEEEEK!"
+	para "(¡CHILLIDO!)"
 
-	para "The boy had been"
-	line "riding uphill!"
+	para "¡Y el niño siguió"
+	line "subiendo!"
 
-	para "…"
-	line "Ba-dum ba-dum!"
+	para "¡Ba-dum!"
+	line "¡Ba-dum, ba-dum!"
 
-	para "For listening so"
-	line "patiently, you may"
-	cont "take this--TM03!"
+	para "Por haberme"
+	line "escuchado, ¡aquí"
+	cont "tienes esta MT03!"
 	done
 
 KantoMansionRoofHousePharmacistCurseText:
-	text "TM03 is CURSE."
+	text "MT03 es MALDICIÓN."
 
-	para "It's a terrifying"
-	line "move that slowly"
+	para "Es un movimiento"
+	line "terrible que redu-"
+	cont "ce poco a poco los"
 
-	para "whittles down the"
-	line "victim's HP."
+	para "PS de la víctima."
 	done
 
 KantoMansionRoofHouse_MapEvents:

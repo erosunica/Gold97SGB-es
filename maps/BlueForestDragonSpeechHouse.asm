@@ -27,24 +27,27 @@ BlueForestDragonSpeechHouseMagazineBookshelf:
 	jumpstd MagazineBookshelfScript
 
 BlueForestDragonSpeechHouseGrannyText:
-	text "North of town, out"
-	line "in the ocean, lies"
-	cont "WHIRL ISLAND."
-	para "It is named so"
-	line "because of the"
-	para "many whirlpools"
-	line "that surround it."
-	para "It is a dangerous"
-	line "maze that leads"
-	cont "nowhere."
-	para "Make sure you know"
-	line "what you're doing"
-	para "if you intend to"
-	line "explore it."
+	text "Al norte del"
+	line "pueblo, en el"
+	para "océano, se halla"
+	line "la ISLA REMOLINO."
+
+	para "Se le llama así"
+	line "por los remolinos"
+	cont "que la rodean."
+
+	para "Es un peligroso"
+	line "laberinto en el"
+	cont "que es fácil"
+	cont "perderse."
+
+	para "Debes saber lo que"
+	line "haces si piensas"
+	cont "ir a explorarla."
 	done
 
 BlueForestDragonSpeechHouseDratiniText:
-	text "SLOWPOKE: Bwa?"
+	text "SLOWPOKE: ¿Slow?"
 	done
 
 BlueForestDragonSpeechHouse_MapEvents:

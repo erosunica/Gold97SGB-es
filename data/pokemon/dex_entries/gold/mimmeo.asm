@@ -1,10 +1,10 @@
-	db "TRANSFORM@" ; species name
-	dw 110, 270 ; height, weight
-
-	db   "Much heavier than"
-	next "it would appear to"
-	next "be."
-
-	page "Its body is made"
-	next "of a dense and"
-	next "metallic material.@"
+	db "TRANSFORM.@" ; species name
+	dbw 5, 122 ; height, weight
+	
+	db   "Tiene un peso"
+	next "mucho mayor del"
+	next "que parece. Su"
+	
+	page "cuerpo es de un"
+	next "material metálico"
+	next "y denso.@"

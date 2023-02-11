@@ -140,106 +140,112 @@ TrainerBlackbeltLung:
 	end
 	
 UnknownText_0x7e3551:
-	text "<PLAYER> received"
-	line "TYROGUE."
+	text "<PLAYER> recibió"
+	line "a TYROGUE."
 	done
 	
 UnknownText_0x7e3df1:
-	text "You have no room"
-	line "in your party!"
+	text "¡No tienes sitio"
+	line "en tu equipo!"
 	done
 	
 Text_FocusBandDescription:
-	text "TYROGUE can evolve"
-	line "into one of three"
-	para "different fighting"
-	line "#MON!"
-	para "A trainer like you"
-	line "should have no"
-	cont "issue raising it!"
+	text "¡TYROGUE puede"
+	line "evolucionar en"
+	para "tres #MON"
+	line "distintos del tipo"
+	cont "lucha!"
+
+	para "¡Un entrenador"
+	line "como tú no debería"
+	cont "tener problemas"
+	cont "criándolo!"
 	done
-	
+
 Text_GoodJob:
-	text "WAHA! You should"
-	line "train in our DOJO,"
-	cont "kid!"
+	text "¡Uau! ¡Deberías"
+	line "entrenar en nues-"
+	cont "tro DOJO, chico!"
 	done
-	
+
 Text_BeatEm:
-	text "Wow, kid!"
-	para "That was an"
-	line "impressive show!"
-	para "You've earned"
-	line "this!"
+	text "¡Uau, chico!"
+
+	para "¡Has estado"
+	line "impresionante!"
+
+	para "¡Te has ganado"
+	line "esto!"
 	done
 
 Text_GoBeatBlackbelts:
-	text "Hey, kid!"
-	para "If you can defeat"
-	line "my students, I'll"
-	para "reward you with"
-	line "a prize!"
+	text "¡Eh, niño!"
+
+	para "¡Si puedes vencer"
+	line "a mis estudiantes,"
+	cont "te daré un premio!"
 	done
 
 FightingDojoBlackBeltText:
-	text "Hello!"
+	text "¡Hola!"
 
-	para "KARATE KING, the"
-	line "FIGHTING DOJO's"
+	para "El REY del KARATE,"
+	line "el maestro del"
 
-	para "master, is in a"
-	line "cave in NIHON for"
-	cont "training."
+	para "DOJO-KARATE, está"
+	line "entrenando en una"
+	cont "cueva de NIHON."
 	done
 
 FightingDojoSign1Text:
-	text "What goes around"
-	line "comes around!"
+	text "¡Lo que tenga que"
+	line "ser… será!"
 	done
 
 FightingDojoSign2Text:
-	text "Enemies on every"
-	line "side!"
+	text "¡Enemigos por"
+	line "todas partes!"
 	done
 
 BlackbeltYoshiSeenText:
-	text "My #MON and I"
-	line "are bound togeth-"
-	cont "er by friendship."
+	text "A mis #MON y"
+	line "a mí nos une una"
+	cont "gran amistad."
 
-	para "Our bond will"
-	line "never be broken!"
+	para "¡Nuestro vínculo"
+	line "nunca se romperá!"
 	done
 
 BlackbeltYoshiBeatenText:
-	text "This isn't real!"
+	text "¡No puede ser!"
 	done
 
 BlackbeltYoshiAfterText:
-	text "You seem to have a"
-	line "strong bond with"
-	cont "your #MON too!"
+	text "¡Parece que tú y"
+	line "tus #MON estáis"
+	cont "muy unidos!"
 	done
 
 BlackbeltLaoSeenText:
-	text "We martial artists"
-	line "fear nothing!"
+	text "¡Los expertos en"
+	line "artes marciales no"
+	cont "tememos a nada!"
 	done
 
 BlackbeltLaoBeatenText:
-	text "That's shocking!"
+	text "¡Es increíble!"
 	done
 
 BlackbeltLaoAfterText:
-	text "Fighting #MON"
-	line "are afraid of psy-"
-	cont "chics…"
+	text "Los #MON de"
+	line "lucha temen a los"
+	cont "psíquicos…"
 	done
 
 BlackbeltNobSeenText:
-	text "Words are useless."
-	line "Let your fists do"
-	cont "the talking!"
+	text "Las palabras no"
+	line "sirven. ¡Deja que"
+	cont "hablen tus puños!"
 	done
 
 BlackbeltNobBeatenText:
@@ -247,24 +253,25 @@ BlackbeltNobBeatenText:
 	done
 
 BlackbeltNobAfterText:
-	text "I lost! "
-	line "I'm speechless!"
+	text "¡He perdido!"
+	line "¡No sé qué decir!"
 	done
 
 BlackbeltLungSeenText:
-	text "My raging fists"
-	line "will shatter your"
-	cont "#MON!"
+	text "¡Mis furiosos"
+	line "puños destrozarán"
+	cont "a tus #MON!"
 	done
 
 BlackbeltLungBeatenText:
-	text "I got shattered!"
+	text "¡Me has"
+	line "aplastado!"
 	done
 
 BlackbeltLungAfterText:
-	text "My #MON lost…"
-	line "My… my pride is"
-	cont "shattered…"
+	text "¡Mis #MON han"
+	line "perdido! Has"
+	cont "herido mi orgullo."
 	done
 
 FightingDojo_MapEvents:

@@ -35,35 +35,39 @@ SkateboarderHouseSkateboarderDude:
 	end
 
 SkateboarderHouseSkateboarderDudeText:
-	text "Woah, dude!"
-	para "You still riding"
-	line "around on a bike?"
-	para "Get with the"
-	line "times!"
-	para "And it's time for"
-	line "you to shred!"
-	para "Here, take this!"
+	text "¡Pero bueno,"
+	line "chaval!"
+
+	para "¿Sigues yendo por"
+	line "ahí en bici?"
+	para "¡Ponte a la moda!"
+
+	para "¡Va siendo hora de"
+	line "que patines!"
+
+	para "¡Anda, toma esto!"
 	done
 	
 SkateboarderHouseSkateboarderDudeText2:
-	text "Woah, dude!"
-	para "With that board,"
-	line "you can get around"
-	para "quickly in even"
-	line "more places than"
-	cont "on a bike!"
+	text "¡Así sí, chaval!"
+
+	para "¡Con este"
+	line "monopatín, puedes"
+	para "ir rápidamente por"
+	line "hasta más sitios"
+	cont "que con una bici!"
 	done
 	
 SkateboarderHouseSkateboarderDudeTextNoBike:
-	text "Woah, dude!"
-	para "What are you doing"
-	line "walking around"
-	cont "on your feet?"
-	para "If you're not used"
-	line "to riding a bike,"
-	para "there's no way"
-	line "you're ready to"
-	cont "shred!"
+	text "¡Pero bueno,"
+	line "chaval!"
+
+	para "¿Qué haces yendo"
+	line "a pata?"
+	para "¡Si no sueles ir"
+	line "en bici, menos"
+	cont "podrás ir en"
+	cont "monopatín!"
 	done
 	
 
@@ -79,4 +83,4 @@ SkateboarderHouse_MapEvents:
 	db 0 ; bg events
 
 	db 1 ; object events
-	object_event  2,  3, SPRITE_ROCKER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, SkateboarderHouseSkateboarderDude, -1
+	object_event  2,  3, SPRITE_SOUTH, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, SkateboarderHouseSkateboarderDude, -1

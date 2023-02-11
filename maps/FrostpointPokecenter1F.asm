@@ -18,19 +18,21 @@ FrostpointPokecenter1FFisherScript:
 	jumptextfaceplayer FrostpointPokecenter1FFisherText
 
 FrostpointPokecenter1FCooltrainerFText:
-	text "It's too difficult"
-	line "to travel here by"
-	cont "land or sea."
-	para "I have my #MON"
-	line "FLY me here."
+	text "Es muy difícil"
+	line "viajar hasta aquí"
+	cont "por tierra o mar."
+
+	para "Hago que mi"
+	line "#MON me traiga"
+	cont "usando VUELO."
 	done
 
 FrostpointPokecenter1FFisherText:
-	text "The DEEPWATER"
-	line "PASSAGE is"
-	para "larger than just"
-	line "the path to get"
-	cont "to this town."
+	text "El PASAJE ABISAL"
+	line "es más largo que"
+	para "el camino que"
+	line "lleva hasta este"
+	cont "pueblo."
 	done
 
 FrostpointPokecenter1F_MapEvents:

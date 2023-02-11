@@ -6,7 +6,12 @@ NUM_PAL_COLORS EQU 4
 PAL_COLOR_SIZE EQU 2
 PALETTE_SIZE EQU NUM_PAL_COLORS * PAL_COLOR_SIZE
 
+IF MGB
+PALRGB_WHITE EQUS "palred 22 + palgreen 23 + palblue 19" ; erosunica: MGB lightest color
+PALRGB_BLACK EQUS "palred 3 + palgreen 5 + palblue 4" ; erosunica: MGB darkest color (new constant)
+ELSE
 PALRGB_WHITE EQUS "palred 31 + palgreen 31 + palblue 31" ; $7fff
+ENDC
 
 SCREEN_WIDTH  EQU 20 ; tiles
 SCREEN_HEIGHT EQU 18 ; tiles

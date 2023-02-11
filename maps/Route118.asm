@@ -102,76 +102,76 @@ Route118HiddenUltraBall:
 	
 	
 SwimmermHalSeenText:
-	text "Are you going to"
-	line "SUNPOINT?"
+	text "¿Vas hacia"
+	line "CALORINA?"
 
-	para "How about a quick"
-	line "battle first?"
+	para "¿Te apetece luchar"
+	line "antes?"
 	done
 	
 SwimmermHalBeatenText:
-	text "I lost that one!"
+	text "¡He perdido!"
 	done
 
-
 SwimmermHalAfterBattleText:
-	text "I'd say I'm a bet-"
-	line "ter swimmer than"
-	cont "you. Yeah!"
+	text "Creo que nado"
+	line "mejor que tú."
+	cont "¡Sin duda!"
 	done
 
 BirdKeeperHankSeenText:
-	text "I'm raising my"
-	line "#MON. Want to"
-	cont "battle with me?"
+	text "Estoy mejorando"
+	line "mis #MON."
+
+	para "¿Quieres luchar"
+	line "contra mí?"
 	done
 
 BirdKeeperHankBeatenText:
-	text "Ack! I lost that"
-	line "one…"
+	text "¡Argh! He perdido"
+	line "esta vez…"
 	done
 
 BirdKeeperHankAfterBattleText:
-	text "If you have a"
-	line "specific #MON"
+	text "Si tienes un"
+	line "#MON que desees"
+	para "mejorar, ponlo en"
+	line "primer lugar y"
+	para "cámbialo nada más"
+	line "empezar."
 
-	para "that you want to"
-	line "raise, put it out"
-
-	para "first, then switch"
-	line "it right away."
-
-	para "That's how to do"
-	line "it."
+	para "Así es como hay"
+	line "que hacerlo."
 	done
 
 PicnickerHopeSeenText:
-	text "I have a feeling"
-	line "that I can win."
+	text "Presiento que"
+	line "puedo ganar."
 
-	para "Let's see if I'm"
-	line "right!"
+	para "¡Veamos si tengo"
+	line "razón!"
 	done
 
 PicnickerHopeBeatenText:
-	text "Aww, you are too"
-	line "strong."
+	text "¡Uau! Eres"
+	line "demasiado fuerte."
 	done
 
 PicnickerHopeAfterBattleText:
-	text "I hear that some"
-	line "#MON have baby"
-	para "forms that hatch"
-	line "from EGGS."
+	text "He oído que algu-"
+	line "nos #MON tienen"
+	para "formas bebé que"
+	line "nacen de HUEVOS."
 
-	para "But where does one"
-	line "get #MON EGGS?"
+	para "¿Pero de dónde"
+	line "saca uno un HUEVO"
+	cont "#MON?"
 	done
 
 PicnickerSharonSeenText:
-	text "Um…"
-	line "I…"
-	para "Battle me?"
+	text "Eh…"
+	line "Yo…"
+	para "¿Combates conmigo?"
 	done
 
 PicnickerSharonBeatenText:
@@ -179,56 +179,54 @@ PicnickerSharonBeatenText:
 	done
 
 PicnickerSharonAfterBattleText:
-	text "……I came here to"
-	line "look for CLEFAIRY,"
-	para "but I haven't"
-	line "found any."
+	text "Vine aquí por los"
+	line "CLEFAIRY, pero no"
+	cont "he encontrado ni"
+	cont "uno…"
 	done
 	
-
-	
 SwimmermRandallSeenText:
-	text "Hey, you're young"
-	line "and fit!"
+	text "¡Eres joven y"
+	line "estás en forma!"
 
-	para "Don't ride your"
-	line "#MON! Swim!"
+	para "¡No vayas sobre tu"
+	line "#MON! ¡Nada!"
 	done
 
 SwimmermRandallBeatenText:
-	text "Uh-oh. I lost…"
+	text "¡Oh, he perdido…!"
 	done
 
 SwimmermRandallAfterBattleText:
-	text "Swimming exercises"
-	line "your entire body."
-	cont "It's healthy."
+	text "La natación"
+	line "fortalece tu"
+	cont "cuerpo. Es sana."
 	done
 
 Route118SignText:
-	text "ROUTE 118"
-	para "SUNPOINT CITY -"
-	line "SANSKRIT TOWN"
+	text "RUTA 118"
+	
+	para "CIUDAD CALORINA -"
+	line "PUEBLO SÁNSCRITO"
 	done
 	
 SwimmermBerkeSeenText:
-	text "The water's warm"
-	line "here. I'm loose"
-	cont "and limber."
+	text "Aquí el agua está"
+	line "templada. Estoy"
+	cont "muy a gusto."
 
-	para "Sure, I'll take"
-	line "you on!"
+	para "¡Claro que lucharé"
+	line "contigo!"
 	done
 	
 SwimmermBerkeBeatenText:
-	text "Yikes! I've got"
-	line "prune skin!"
+	text "¡Vaya! ¡Estoy"
+	line "como una pasa!"
 	done
 
 SwimmermBerkeAfterBattleText:
-	text "Isn't it relaxing"
-	line "just floating like"
-	cont "this?"
+	text "¡Qué relajante es"
+	line "flotar así!"
 	done
 
 Route118_MapEvents:
@@ -250,7 +248,7 @@ Route118_MapEvents:
 	object_event 20,  4, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route118HPUp, EVENT_ROUTE_118_HP_UP
 	object_event 72,  4, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, SanskritTownRouteCooltrainermScript, -1
 	object_event 72,  5, SPRITE_MONSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GRAY, OBJECTTYPE_SCRIPT, 0, SanskritTownRouteMonsterScript, -1
-	object_event  5,  5, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route118FruitTree, -1
+	object_event  5,  5, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, Route118FruitTree, -1
 	object_event 55,  8, SPRITE_SWIMMER_GUY, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 4, TrainerSwimmermRandall, -1
 	object_event 44,  9, SPRITE_SWIMMER_GUY, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_PINK, OBJECTTYPE_TRAINER, 4, TrainerSwimmermBerke, -1
 	object_event 30,  5, SPRITE_SWIMMER_GUY, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_TRAINER, 4, TrainerSwimmermHal, -1

@@ -29,27 +29,30 @@ RyukyuHotel5FPokefanm:
 	jumptextfaceplayer RyukyuHotel5FPokefanmText
 	
 RyukyuHotel5FPokefanmText:
-	text "I hear PROF.OAK"
-	line "stays somewhere on"
-	para "this floor on"
-	line "weekends."
+	text "He oído que el"
+	line "PROF. OAK reserva"
+	para "habitación en esta"
+	line "planta los fines"
+	cont "de semana."
 	done
-	
+
 RyukyuHotel5FGentlemanText:
-	text "My, this sure is"
-	line "a lovely place"
-	cont "to vacation!"
+	text "¡Este sí que es un"
+	line "sitio ideal para"
+	cont "estar de"
+	cont "vacaciones!"
 	done
-	
+
 RyukyuHotel5FJanineText:
-	text "Have you tried"
-	line "battling any of"
-	cont "the KIMONO GIRLS?"
+	text "¿Has probado a"
+	line "combatir contra"
+	para "alguna de las"
+	line "CHICAS KIMONO?"
 	done
-	
+
 HotelDoorLockedText5F:
-	text "The door is"
-	line "locked…"
+	text "La puerta está"
+	line "cerrada…"
 	done
 
 RyukyuHotel5F_MapEvents:

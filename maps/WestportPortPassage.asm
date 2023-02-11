@@ -95,10 +95,10 @@ DollSalesmanMondayMenu:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "POLIWRATH   ¥5000@"
-	db "JIGGLYPUFF  ¥5000@"
-	db "BULBASAUR   ¥5000@"
-	db "CANCEL@"
+	db "POLIWRATH   5000¥@"
+	db "JIGGLYPUFF  5000¥@"
+	db "BULBASAUR   5000¥@"
+	db "SALIR@"
 	
 DollSalesmanMonday_FinishScript:
 	waitsfx
@@ -121,49 +121,56 @@ DollSalesmanMondayNoMoney:
 	end
 	
 SendItemToPCTextDollMonday:
-	text "Send this DOLL to"
-	line "your bedroom PC?"
+	text "¿Quieres enviar"
+	line "este MUÑECO al PC"
+	cont "de tu habitación?"
 	done
 
 AlreadyHaveDecorItemTextSalesmanMonday:
-	text "You already have"
-	line "this DOLL!"
+	text "¡Ya tienes este"
+	line "MUÑECO!"
 	done
 
 DollSalesmanMonday_HereYouGoText:
-	text "Here you go!"
+	text "¡Listo!"
 	done
 	
 DollSalesmanMondayComeAgain:
-	text "Hope to see you"
-	line "again somewhere!"
+	text "¡Espero que"
+	line "volvamos a vernos!"
 	done
 	
 DollSalesmanMondayNoMoneyText:
-	text "Sorry, you'll"
-	line "need more money!"
+	text "¡Lo siento, no"
+	line "tienes suficiente"
+	cont "dinero!"
 	done
 	
 DollSalesmanTextMonday:
-	text "Hiya!"
-	para "I'm a traveling"
-	line "DOLL salesman!"
-	para "What does that"
-	line "mean?"
-	para "It means that I'm"
-	line "who you talk to"
-	para "if you want to"
-	line "deck out your"
-	cont "bedroom!"
-	para "My stock and my"
-	line "location change"
-	para "daily, so keep an"
-	line "eye out for me!"
+	text "¡Hola!"
+	
+	para "¡Soy un vendedor"
+	line "de MUÑECOS"
+	cont "ambulante!"
+	
+	para "¿Sabes lo que"
+	line "significa?"
+	
+	para "¡Que soy la"
+	line "persona que buscas"
+	para "si quieres decorar"
+	line "tu habitación!"
+	
+	para "¡Mi ubicación y lo"
+	line "que vendo cambia a"
+	para "diario, así que no"
+	line "me pierdas de"
+	cont "vista!"
 	done
 	
 DollSalesmanTextMonday_AskWhichPrizeText:
-	text "Now which DOLL"
-	line "would you like?"
+	text "¿Qué MUÑECO"
+	line "quieres?"
 	done
 	
 ;---------------------------------
@@ -207,37 +214,44 @@ AbraScript2:
 	
 
 TeleportGuyText12:
-	text "Don't feel like"
-	line "taking the ship?"
-	para "Or maybe it isn't"
-	line "running today?"
-	para "Well look here!"
-	para "My beloved ABRA"
-	line "can send you over"
-	para "to the ISLANDS in"
-	line "an instant!"
-	para "I got a buddy"
-	line "waiting at the"
-	cont "AMAMI DOCKS."
-	para "I'll send you to"
-	line "him!"
-	para "How about it?"
+	text "¿No te apetece"
+	line "subir al barco?"
+	
+	para "¿O es que hoy no"
+	line "zarpa?"
+	
+	para "¡Bueno, escucha!"
+	
+	para "¡Mi querido ABRA"
+	line "puede hacerte"
+	para "regresar a las"
+	line "ISLAS en un"
+	cont "instante!"
+	
+	para "Tengo un compañero"
+	line "esperándome en el"
+	cont "MUELLE AMAMI."
+	
+	para "¡Te enviaré con"
+	line "él!"
+	
+	para "¿Qué me dices?"
 	done
 	
 TeleportGuyText12_2:
-	text "Want to go to"
-	line "AMAMI TOWN?"
+	text "¿Quieres ir a"
+	line "PUEBLO AMAMI?"
 	done
 
 TeleportGuyYesText2:
-	text "OK, OK. Picture"
-	line "AMAMI TOWN in your"
-	cont "mind…"
+	text "Vale. Concéntrate"
+	line "en la imagen de"
+	cont "PUEBLO AMAMI…"
 	done
 
 TeleportGuyNoText2:
-	text "OK, OK. I'll be"
-	line "here!"
+	text "Vale, vale. ¡Aquí"
+	line "estaré!"
 	done
 
 AbraText2:
@@ -246,10 +260,10 @@ AbraText2:
 
 
 WestportPortPassagePokefanMText:
-	text "FAST SHIP S.S.AQUA"
-	line "sails to AMAMI"
-	para "TOWN on Mondays"
-	line "and Fridays."
+	text "El FERRY S.S. AQUA"
+	line "zarpa hacia PUEBLO"
+	para "AMAMI los lunes y"
+	line "los viernes."
 	done
 
 WestportPortPassage_MapEvents:

@@ -1,10 +1,10 @@
-	db "COCOON@" ; species name
-	dw 204, 220 ; height, weight
+	db "CAPULLO@" ; species name
+	dbw 7, 99 ; height, weight
 
-	db   "This is its pre-"
-	next "evolved form. At"
-	next "this stage, it can"
+	db   "Ésta es la forma"
+	next "pre-evolucionada."
+	next "En este estado,"
 
-	page "only harden, so it"
-	next "remains motionless"
-	next "to avoid attack.@"
+	page "sólo puede usar"
+	next "FORTALEZA, así que"
+	next "se queda inmóvil.@"

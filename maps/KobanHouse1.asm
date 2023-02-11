@@ -52,62 +52,66 @@ KobanHouse1ClairScript:
 	end
 	
 ClairPlayerReceivedDratiniText:
-	text "<PLAYER> received"
-	line "DRATINI!"
+	text "¡<PLAYER> recibió"
+	line "a DRATINI!"
 	done
-	
+
 ClairSymbolicDragonText:
-	text "Dragon #MON are"
-	line "difficult to"
-	para "raise, but their"
-	line "majesty and"
-	para "strength make it"
-	line "worth it."
-	para "I trust you can"
-	line "raise that DRATINI"
-	cont "properly."
+	text "Los #MON dragón"
+	line "son difíciles de"
+	para "criar, pero su"
+	line "majestuosidad y su"
+	cont "fuerza los hace"
+	cont "dignos."
+
+	para "Confío en que"
+	line "criarás este"
+	cont "DRATINI como se"
+	cont "merece."
 	done
 	
 KantoRestaurantPartyFullTextClair:
-	text "You have no room"
-	line "in your party for"
-	cont "this!"
+	text "¡No tienes sitio"
+	line "en tu equipo!"
 	done
 	
 ClairTakeThisDratiniText:
-	text "Ah, the DRAGON"
-	line "ORB!"
-	para "I see you have"
-	line "learned of the"
-	para "power of dragon"
-	line "#MON!"
-	para "I would like to"
-	line "reward you with"
-	para "a special #MON"
-	line "that deserves to"
-	para "be raised by a"
-	line "worthy trainer!"
+	text "¡Ah, la"
+	line "DRAGOESFERA!"
+
+	para "¡Veo que has"
+	line "comprendido el"
+	para "poder de los"
+	line "#MON dragón!"
+
+	para "¡Me gustaría"
+	line "recompensarte con"
+	para "un #MON espe-"
+	line "cial que merece"
+	para "ser criado por un"
+	line "entrenador digno!"
 	done
-	
+
 GoGetTheOrbText:
-	text "Retreive the"
-	line "DRAGON ORB from"
-	para "a trainer in the"
-	line "cave, and bring it"
-	cont "to me."
+	text "Recupera la"
+	line "DRAGOESFERA de un"
+	para "entrenador en la"
+	line "cueva, y tráemela."
 	done
-	
+
 DragonsAreGreatText:
-	text "Being a dragon"
-	line "trainer requires"
-	para "more dedication"
-	line "than most types."
-	para "It is very much a"
-	line "way of life."
+	text "Ser un entrenador"
+	line "del tipo dragón"
+	para "requiere más"
+	line "dedicación que"
+	cont "otros tipos."
+
+	para "Es un estilo de"
+	line "vida."
 	done
 
 KobanHouse1ClairText:
-	text "yo sup"
+	text "ey cómo va"
 	done
 
 KobanHouse1_MapEvents:

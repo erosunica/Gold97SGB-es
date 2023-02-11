@@ -97,7 +97,7 @@ PlayersHouse2F_Ken:
 	end
 
 .mapcardname
-	db "MAP CARD@"
+	db "TARJ. MAPA@"
 	
 
 
@@ -154,8 +154,13 @@ PlayersHousePCScript:
 	checkevent EVENT_GOT_A_POKEMON_FROM_OAK
 	iftrue .PlayersHousePC2
 	opentext
+	checkevent EVENT_READ_OAKS_EMAIL
+	iftrue .PlayersHousePC3
 	playsound SFX_BOOT_PC
 	writetext PlayersRadioText2
+	yesorno
+	iffalse .No
+	writetext PlayersRadioText2Yes
 	waitbutton
 	closetext
 	setevent EVENT_READ_OAKS_EMAIL
@@ -163,7 +168,13 @@ PlayersHousePCScript:
 	iffalse .DontSetKenScene
 	setscene SCENE_PLAYERS_HOUSE_2F_NOTHING
 	end
-	
+
+.No
+	writetext PlayersRadioText2No
+	waitbutton
+	closetext
+	end	
+
 .DontSetKenScene
 	end
 
@@ -178,6 +189,12 @@ PlayersHousePCScript:
 	closetext
 	end
 
+.PlayersHousePC3
+	writetext PlayersRadioTextAfter
+	waitbutton
+	closetext
+	end	
+
 PlayersDollScript:
 	opentext
 	writetext PlayersDollText
@@ -190,170 +207,217 @@ PlayerToReadEmailMovement:
 	step_end
 	
 PlayersRadioText5:
-	text "Looks like it"
-	line "isn't on…"
+	text "Parece que está"
+	line "apagada…"
 	done
 	
 KenGreeting1:
-	text "KEN: Hey, bro!"
-	para "That shiny thing"
-	line "on your wrist…"
-	para "You finally got"
-	line "a #GEAR!"
-	para "It won't do very"
-	line "much right out of"
-	cont "the box, though…"
-	para "Maybe I'll get you"
-	line "the MAP CARD"
-	cont "upgrade!"
-	para "You know, if there"
-	line "was ever a reason"
-	cont "you'd need it."
-	para "Come see me later"
-	line "before you head"
-	cont "out anywhere!"
+	text "KEN: ¡Qué pasa,"
+	line "hermano!"
+
+	para "Esa cosa"
+	line "reluciente en"
+	cont "tu muñeca…"
+	para "¡Por fin tienes"
+	line "un #GEAR!"
+
+	para "Aunque ahora mismo"
+	line "no te servirá de"
+	cont "mucho…"
+	para "¡Debería"
+	line "conseguirte una"
+	cont "TARJ. MAPA!"
+
+	para "Ya sabes, por si"
+	line "llegases a"
+	cont "necesitarla."
+
+	para "¡Ven a verme antes"
+	line "de que te vayas!"
 	done
 	
 KenGreeting1pt2:
-	text "Oh, yeah!"
-	para "I think I saw that"
-	line "you got a new"
-	cont "e-mail on your PC."
-	para "You might want to"
-	line "check that before"
-	cont "you leave."
+	text "¡Ah, sí!"
+
+	para "Creo que tienes"
+	line "un correo nuevo"
+	cont "en tu PC."
+
+	para "¡Deberías leerlo"
+	line "antes de irte!"
 	done
 	
 KenGreeting2:
-	text "Come see me later"
-	line "before you head"
-	cont "out anywhere!"
+	text "¡Ven a verme antes"
+	line "de que te vayas!"
 	done
 	
 KenGreeting3:
-	text "KEN: Hey, bro!"
-	para "PROF.OAK asked you"
-	line "to help him make"
-	cont "a new #DEX?"
-	para "Wow, good thing I"
-	line "got this for you!"
+	text "KEN: ¡Qué pasa,"
+	line "hermano!"
+
+	para "¿El PROF. OAK te"
+	line "pidió que lo"
+	para "ayudases a"
+	line "completar una"
+	cont "nueva #DEX?"
+	para "¡Uau! ¡Hice bien"
+	line "en pillarte esto!"
 	done
 	
 KenGreeting4:
-	text "Now your #GEAR"
-	line "can help you keep"
-	para "track of where you"
-	line "are at!"
-	para "You'll never get"
-	line "lost with this!"
-	para "Also, guess what?"
-	para "I got an interview"
-	line "for a job as a"
-	para "radio DJ in"
-	line "WESTPORT CITY!"
-	para "I could be on the"
-	line "radio, bro!"
-	para "Wish me luck!"
-	para "And good luck out"
-	line "there to you, too!"
+	text "¡Ahora podrás"
+	line "saber por dónde"
+	para "andas con ayuda"
+	line "de tu #GEAR!"
+
+	para "¡Con esto nunca"
+	line "te vas a perder!"
+
+	para "Por cierto,"
+	line "¿sabes qué?"
+	para "¡Me han llamado"
+	line "para una"
+	para "entrevista de"
+	line "trabajo como DJ de"
+	para "radio en CIUDAD"
+	line "PONIENTE!"
+
+	para "¡Podrías escuchar"
+	line "a tu hermano en"
+	cont "la radio!"
+
+	para "¡Deséame suerte!"
+
+	para "¡La misma que yo"
+	line "te deseo a ti!"
 	done
 	
 KenGreeting5:
-	text "I got an interview"
-	line "for a job as a"
-	para "radio DJ in"
-	line "WESTPORT CITY!"
-	para "I could be on the"
-	line "radio, bro!"
-	para "Wish me luck!"
-	para "And good luck out"
-	line "there to you, too!"
+	text "¡Me han llamado"
+	line "para una"
+	para "entrevista de"
+	line "trabajo como DJ de"
+	para "radio en CIUDAD"
+	line "PONIENTE!"
+
+	para "¡Podrías escuchar"
+	line "a tu hermano en"
+	cont "la radio!"
+
+	para "¡Deséame suerte!"
+
+	para "¡La misma que yo"
+	line "te deseo a ti!"
 	done
 
 PlayersDollText:
-	text "It's a doll you"
-	line "got as a Christmas"
-	para "present from a"
-	line "relative in KANTO."
+	text "Es un muñeco que"
+	line "un familiar de"
+	para "KANTO te regaló"
+	line "en Navidad."
 	done
 
 PlayersRadioText1:
-	text "<PLAYER> turned"
-	line "on the radio."
+	text "<PLAYER> encendió"
+	line "la radio."
 	
-	para "…"
-
-	para "You're listening"
-	line "to JOPM, the"
-	para "#MON broadcast"
-	line "station!"
+	para "¡Estás escuchando"
+	line "JOPM, la emisora"
+	cont "#MON!"
 	
-	para "Coming up next is"
-	line "#MON News!"
+	para "¡A continuación,"
+	line "NOTICIAS #MON!"
 	
-	para "… World famous"
-	line "#MON researcher"
-	para "PROF. OAK has"
-	line "disappeared from"
-	cont "KANTO!"
+	para "¡El PROF. OAK,"
+	line "investigador"
+	para "#MON de fama"
+	line "mundial, ha"
+	para "desaparecido"
+	line "de KANTO!"
 	
-	para "Although some"
-	line "consider he may"
-	para "have moved in"
-	line "search of a new"
-	para "place to study,"
-	line "there is also"
-	para "the possibility"
-	line "he was involved"
-	para "in some sort of"
-	line "incident."
+	para "Aunque hay quien"
+	line "considera que se"
+	para "ha trasladado en"
+	line "busca de un nuevo"
+	para "lugar de estudio,"
+	line "existe la"
+	para "posibilidad de que"
+	line "se haya visto"
+	para "envuelto en un"
+	line "incidente."
 	
-	para "Concerned parties"
-	line "are very worried."
-	
-	para "…"
-	
-	para "And that was"
-	line "#MON News."
+	para "Las partes"
+	line "implicadas están"
+	cont "muy preocupadas."
 	
 	para "…"
 	
-	
-	
+	para "¡Y hasta aquí las"
+	line "Noticias #MON!"
 	done
 
 PlayersRadioText2:
-	text "<PLAYER> turned"
-	line "on the PC."
+	text "<PLAYER> encendió"
+	line "el PC."
 	
-	para "What's this?"
-	line "A new e-mail?"
+	para "¿Eh? ¡Parece que"
+	line "hay un nuevo"
+	para "correo dirigido a"
+	line "<PLAYER>! ¿Leerlo?"
+	done
+	
+PlayersRadioText2Yes:
+	text "Espero que me"
+	line "disculpes por"
+	para "enviarte un correo"
+	line "tan de repente,"
+	para "pero hay algo que"
+	line "me gustaría"
+	cont "entregarte."
+	
+	para "¿Te importaría"
+	line "venir a recogerlo?"
+	
+	para "OAK, investigador"
+	line "#MON"	
+	done
+
+PlayersRadioText2No:
+	text "Lo leeré más"
+	line "tarde…"
+	done
+
+PlayersRadioTextAfter:
+	text "DIARIO #MON"
+	line "PÁGINA DE INICIO"
 	
 	para "…"
 	
-	para "I hope you'll"
-	line "excuse the sudden"
-	para "e-mail, but there"
-	line "is something that"
-	para "I would like to"
-	line "entrust you with."
+	para "¡Se ha descubierto"
+	line "un nuevo #MON!"
 	
-	para "Won't you come by"
-	line "to collect it?"
+	para "Sus fuertes alas "
+	line "son duras como el"
+	para "acero. No sólo es"
+	line "de tipo volador,"
+	para "¡sino que también"
+	line "forma parte del"
+	cont "nuevo tipo acero!"
 	
-	para "#MON researcher"
-	line "OAK"
-	
+	para "Se están llevando"
+	line "a cabo más"
+	cont "investigaciones…"
 	done
 
 PlayersRadioText3:
-	text "This is DJ MARY,"
-	line "your co-host!"
+	text "¡Soy DJ ROSA,"
+	line "la presentadora!"
 	done
 
 PlayersRadioText4:
-	text "#MON!"
-	line "#MON CHANNEL…"
+	text "¡#MON!"
+	line "El CANAL #MON…"
 	done
 
 PlayersHouse2F_MapEvents:

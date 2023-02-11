@@ -1,10 +1,10 @@
-	db "SHELLFISH@" ; species name
-	dw 503, 1890 ; height, weight
+	db "ARMAZÓN@" ; species name
+	dbw 16, 855 ; height, weight
 
-	db   "It firmly plants"
-	next "its feet on the"
-	next "ground before"
+	db   "Planta firmemente"
+	next "las patas en el"
+	next "suelo antes de"
 
-	page "shooting water"
-	next "from the jets on"
-	next "its back.@"
+	page "disparar chorros"
+	next "de agua desde la"
+	next "espalda.@"

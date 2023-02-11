@@ -1,10 +1,10 @@
-	db "LICKING@" ; species name
-	dw 311, 1440 ; height, weight
+	db "LAMETAZO@" ; species name
+	dbw 12, 655 ; height, weight
 
-	db   "It has a tongue"
-	next "that is over 6'6''"
-	next "long. It uses this"
+	db   "Este #MON está"
+	next "provisto de una"
+	next "lengua de más de"
 
-	page "long tongue to"
-	next "lick its body"
-	next "clean.@"
+	page "2 m que le viene"
+	next "muy bien para"
+	next "asearse a diario.@"

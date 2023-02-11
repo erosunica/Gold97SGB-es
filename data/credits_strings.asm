@@ -25,11 +25,8 @@ Credits_NobuhiroSeya::        db "   NOBUHIRO SEYA@"          ; "せや　のぶ
 Credits_KazuhitoSekine::      db "  KAZUHITO SEKINE@"         ; "せきね　かずひと@"
 Credits_TetsujiOota::         db "    TETSUJI OOTA@"          ; "おおた　てつじ@"
 Credits_NclSuperMarioClub::   db "NCL SUPER MARIO CLUB@"      ; "スーパーマりオクラブ@"
-Credits_Sarugakucho::         db "    SARUGAKUCHO@"           ; "さるがくちょう@"
 Credits_AkitoMori::           db "     AKITO MORI@"           ; "もり　あきと@"
 Credits_TakahiroHarada::      db "  TAKAHIRO HARADA@"         ; "はらだ　たかひろ@"
-Credits_TohruHashimoto::      db "  TOHRU HASHIMOTO@"         ; "はしもと　とおる@"
-Credits_NoboruMatsumoto::     db "  NOBORU MATSUMOTO@"        ; "まつもと　のぼる@"
 Credits_TakehiroIzushi::      db "  TAKEHIRO IZUSHI@"         ; "いずし　たけひろ@"
 Credits_TakashiKawaguchi::    db " TAKASHI KAWAGUCHI@"        ; "かわぐち　たかし@"
 Credits_TsunekazuIshihara::   db " TSUNEKAZU ISHIHARA@"       ; "いしはら　つねかず@"
@@ -39,54 +36,57 @@ Credits_AtsushiTada::         db "    ATSUSHI TADA@"          ; "ただ　あつ
 Credits_NaokoKawakami::       db "   NAOKO KAWAKAMI@"         ; "かわかみ　なおこ@"
 Credits_HiroyukiZinnai::      db "  HIROYUKI ZINNAI@"         ; "じんない　ひろゆき@"
 Credits_KunimiKawamura::      db "  KUNIMI KAWAMURA@"         ; "かわむら　くにみ@"
-Credits_GailTilden::          db "    GAIL TILDEN@"
-Credits_HiroNakamura::        db "   HIRO NAKAMURA@"
-Credits_JeffKalles::          db "    JEFF KALLES@"
-Credits_WilliamGiese::        db "   WILLIAM GIESE@"
-Credits_NobOgasawara::        db "   NOB OGASAWARA@"
-Credits_RandyShoemake::       db "   RANDY SHOEMAKE@"
-Credits_KathyHuguenard::      db "  KATHY HUGUENARD@"
-Credits_JoelSimon::           db "     JOEL SIMON@"
 Credits_TerukiMurakawa::      db "  TERUKI MURAKAWA@"
 Credits_KazuyoshiOsawa::      db "  KAZUYOSHI OSAWA@"
 Credits_KimikoNakamichi::     db "  KIMIKO NAKAMICHI@"
-Credits_End::                 db "END@"                       ; "おしまい@"
+Credits_End::                 db "FIN@"                       ; "おしまい@"
 Credits_Staff::               db "      #MON"                 ; "ポケットモンスター"
-                            IF DEF(_GOLD)
-                            next "    GOLD VERSION"
-                            ELIF DEF(_SILVER)
-                            next "   SILVER VERSION"
-                            ENDC
+                            next "    EDICIÓN ORO"
                             next "       STAFF@"
 Credits_Director::            db "      DIRECTOR@"            ; "エグゼクティブ　ディレクター@"
-Credits_SubDirector::         db "    SUB DIRECTOR@"
-Credits_Programmers::         db "    PROGRAMMERS@"           ; "プログラム@"
-Credits_GraphicsDirector::    db " GRAPHICS DIRECTOR@"        ; "グラフィック　ディレクター@"
-Credits_MonsterDesign::       db "   MONSTER DESIGN@"         ; "#　デザイン@"
-Credits_GraphicsDesign::      db "  GRAPHICS DESIGN@"         ; "グラフィック　デザイン@"
-Credits_Music::               db "       MUSIC@"              ; "おんがく@"
-Credits_SoundEffects::        db "   SOUND EFFECTS@"          ; "サウンド　エフェクト@"
-Credits_GameDesign::          db "    GAME DESIGN@"           ; "ゲームデザイン@"
-Credits_GameScenario::        db "   GAME SCENARIO@"          ; "シナりオ@"
-Credits_ToolProgramming::     db "  TOOL PROGRAMMING@"        ; "ツール　プログラム@"
-Credits_ParametricDesign::    db " PARAMETRIC DESIGN@"        ; "パラメーター　せってい@"
-Credits_ScriptDesign::        db "   SCRIPT DESIGN@"          ; "スクりプト　せってい@"
-Credits_MapDataDesign::       db "  MAP DATA DESIGN@"         ; "マップデータ　せってい@"
-Credits_MapDesign::           db "     MAP DESIGN@"           ; "マップ　デザイン@"
-Credits_ProductTesting::      db "  PRODUCT TESTING@"         ; "デバッグプレイ@"
-Credits_SpecialThanks::       db "   SPECIAL THANKS@"         ; "スぺシャルサンクス@"
-Credits_Producers::           db "     PRODUCERS@"            ; "プロデューサー@"
-Credits_ExecutiveProducer::   db " EXECUTIVE PRODUCER@"       ; "エグゼクティブ　プロデューサー@"
-Credits_UsVersionStaff::      db "  US VERSION STAFF@"
-Credits_UsCoordination::      db "  US COORDINATION@"
-Credits_TextTranslation::     db "  TEXT TRANSLATION@"
-Credits_PaadTesting::         db "    PAAD TESTING@"
+Credits_SubDirector::         db "    SUBDIRECTOR@" 
+Credits_Programmers::         db "   PROGRAMADORES@"          ; "プログラム@"
+Credits_GraphicsDirector::    db "  DIRECTOR GRÁFICO@"        ; "グラフィック　ディレクター@"
+Credits_MonsterDesign::       db "  DISEÑO CRIATURAS@"        ; "#　デザイン@"
+Credits_GraphicsDesign::      db "   DISEÑO GRÁFICO@"         ; "グラフィック　デザイン@"
+Credits_Music::               db "       MÚSICA@"             ; "おんがく@"
+Credits_SoundEffects::        db "  EFECTOS SONOROS@"         ; "サウンド　エフェクト@"
+Credits_GameDesign::          db "  DISEÑO DEL JUEGO@"        ; "ゲームデザイン@"
+Credits_GameScenario::        db " ESCENARIO DE JUEGO@"       ; "シナりオ@"
+Credits_ToolProgramming::     db "    PROGRAMACIÓN@"          ; "ツール　プログラム@"
+Credits_ParametricDesign::    db " DISEÑO PARAMÉTRICO@"       ; "パラメーター　せってい@"
+Credits_ScriptDesign::        db "       SCRIPT@"             ; "スクりプト　せってい@"
+Credits_MapDataDesign::       db "DISEÑO DATOS MAPEADO@"      ; "マップデータ　せってい@"
+Credits_MapDesign::           db " DISEÑO DEL MAPEADO@"       ; "マップ　デザイン@"
+Credits_ProductTesting::      db "       TESTEO@"             ; "デバッグプレイ@"
+Credits_SpecialThanks::       db "  AGRADECIMIENTOS@"         ; "スぺシャルサンクス@"
+Credits_Producers::           db "    PRODUCTORES@"           ; "プロデューサー@"
+Credits_ExecutiveProducer::   db "  PROD. EJECUTIVO@"         ; "エグゼクティブ　プロデューサー@"
+Credits_UsVersionStaff::      db " EQUIPO V. ESPAÑOLA@"
+Credits_UsCoordination::      db " COORDINACIÓN EUROPA@"
+Credits_TextTranslation::     db "  TEXTO CASTELLANO@"
+;;; new
+Credits_TanjaBaar::           db "     TANJA BAAR@"
+Credits_KaiNeumann::          db "    KAI NEUMANN@"
+Credits_KaiZeh::              db "      KAI ZEH@"
+Credits_HiroyukiUesugi::      db "  HIROYUKI UESUGI@"
+Credits_MauriceTisdale::      db "  MAURICE TISDALE@"
+Credits_Lvl3::                db "       LVL-3@"
+Credits_Erosunica::           db "     EROSUNICA@"
+Credits_HoshiNoBani::         db "   HOSHI NO BANI@"
+Credits_SusaAlcami::          db "    SUSA ALCAMÍ@"
+Credits_RuthGarcia::          db "    RUTH GARCÍA@"
+Credits_InfanteMontilla::     db "N.INFANTE/C.MONTILLA@"
+Credits_PokemonNE::           db "    #MON NE@"
+Credits_EhlertDiesing::       db " P.EHLERT/P.DIESING@"
+;;;
+
 
 Credits_Copyright::
-	;    (C) 1  9  9  5 - 2  0  0  0     N  i  n  t  e  n  d  o
-	db   $60,$61,$62,$63,$7a,$7b,$7c,$7d,$65,$66,$67,$68,$69,$6a
-	;    (C) 1  9  9  5 - 2  0  0  0    C  r  e  a  t  u  r  e  s     i  n  c .
-	next $60,$61,$62,$63,$7a,$7b,$7c,$7d,$6b,$6c,$6d,$6e,$6f,  $70,$71,$72
-	;    (C) 1  9  9  5 - 2  0  0  0  G  A  M  E  F  R  E  A  K     i  n  c .
-	next $60,$61,$62,$63,$7a,$7b,$7c,$7d,$73,$74,$75,$76,$77,$78,  $79,$71,$72
-	db "@"
+;    (C) 1  9  9  5 - 2  0  0  0     N  i  n  t  e  n  d  o
+db   $60,$61,$62,$63,$7a,$7b,$7c,$7d,$65,$66,$67,$68,$69,$6a
+;    (C) 1  9  9  5 - 2  0  0  0    C  r  e  a  t  u  r  e  s     i  n  c .
+next $60,$61,$62,$63,$7a,$7b,$7c,$7d,$6b,$6c,$6d,$6e,$6f,  $70,$71,$72
+;    (C) 1  9  9  5 - 2  0  0  0  G  A  M  E  F  R  E  A  K     i  n  c .
+next $60,$61,$62,$63,$7a,$7b,$7c,$7d,$73,$74,$75,$76,$77,$78,  $79,$71,$72
+db "@"

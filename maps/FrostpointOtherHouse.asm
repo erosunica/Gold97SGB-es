@@ -15,13 +15,16 @@ FrostpointOtherHouse:
 	end
 	
 FrostpointOtherHouseText:
-	text "FROSTPOINT TOWN is"
-	line "cold and remote."
-	para "We don't get many"
-	line "visitors."
-	para "But those who live"
-	line "here are a close"
-	cont "community."
+	text "En PUEBLO ESCARCHA"
+	line "hace frío y además"
+	cont "está lejos."
+
+	para "No recibimos"
+	line "muchos turistas."
+
+	para "Pero quienes vivi-"
+	line "mos aquí somos una"
+	cont "comunidad unida."
 	done
 
 

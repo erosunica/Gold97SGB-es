@@ -1,299 +1,329 @@
 Oak2PhoneHealYourMonText:
-	text "Hello, <PLAYER>?"
+	text "Hola. ¿<PLAYER>?"
 
-	para "Try not to overdo"
-	line "it."
+	para "Intenta no"
+	line "pasarte."
 
-	para "Be sure to heal"
-	line "your #MON if"
-	cont "they are hurt."
+	para "Asegúrate de curar"
+	line "a tus #MON"
+	cont "si están heridos."
 	done
 
 Oak2PhoneSawMrPokemonText:
-	text "Hello, <PLAYER>?"
+	text "Hola. ¿<PLAYER>?"
 
-	para "Did you meet MR."
-	line "#MON? Great!"
-	cont "Come back safely!"
+	para "¿Conociste al SR."
+	line "#MON? ¡Genial!"
+	cont "¡Ve con cuidado!"
 	done
 
 Oak2PhonePokemonStolenText:
-	text "<PLAYER>? I'm very"
-	line "upset now."
+	text "¿<PLAYER>? Estoy"
+	line "muy enfadado."
 
-	para "We had a #MON"
-	line "stolen from here."
+	para "Nos acaban de"
+	line "robar un #MON."
 
-	para "How could anyone"
-	line "do that?"
+	para "¿Quién podría"
+	line "hacer algo así?"
 	done
 
 Oak2PhoneCheckingTheEggText:
-	text "Hello, <PLAYER>?"
+	text "Hola. ¿<PLAYER>?"
 
-	para "We're checking the"
-	line "EGG now. It does"
+	para "Estamos examinando"
+	line "el HUEVO."
 
-	para "appear to be a"
-	line "#MON EGG."
+	para "Parece ser un"
+	line "HUEVO #MON."
 	done
 
 Oak2PhoneAssistantText:
-	text "Hello, <PLAYER>?"
+	text "Hola. ¿<PLAYER>?"
 
-	para "Did you see my"
-	line "assistant? He's at"
+	para "¿Has visto a mi"
+	line "ayudante? Está en"
 
-	para "the #MON CENTER"
-	line "in PAGOTA CITY."
+	para "el CENTRO #MON"
+	line "de CIUDAD PAGOTA."
 	done
 
 Oak2PhoneHowIsTheEggText:
-	text "Hello, <PLAYER>?"
-	line "I hear you're"
-	para "taking the NIHON"
-	line "#MON LEAGUE"
-	cont "challenge."
-	para "That's great!"
-	line "I'm sure you've"
-	para "got a fighting"
-	line "chance to do"
-	cont "great things!"
+	text "Hola. ¿<PLAYER>?"
+	line "He oído que"
+	para "afrontarás el reto"
+	line "de la LIGA #MON"
+	cont "de NIHON."
+	para "¡Estupendo!"
+	line "¡Veo que tienes"
+	para "mucha voluntad"
+	line "para lograr lo que"
+	cont "que te propongas!"
 	done
 
 Oak2PhoneEggHatchedText:
-	text "Hello, <PLAYER>?"
-	line "How is the EGG?"
+	text "Hola. ¿<PLAYER>?"
+	line "¿Cómo está el"
+	cont "HUEVO?"
 
-	para "What? It hatched?"
-	line "Wow! What kind of"
-	cont "#MON is it?"
+	para "¿Qué…? "
+	line "¿Ha eclosionado?"
 
-	para "Please come show"
-	line "me now!"
+	para "¡Uau! ¿Qué clase"
+	line "de #MON es?"
+
+	para "¡Por favor, ven a"
+	line "enseñármelo!"
 	done
 
 Oak2PhoneDiscoveredHatchTimeText:
-	text "Hello, <PLAYER>?"
+	text "Hola. ¿<PLAYER>?"
 
-	para "I just made a new"
-	line "discovery."
+	para "He hecho un nuevo"
+	line "descubrimiento."
 
-	para "The time it takes"
-	line "for an EGG to"
+	para "El tiempo que"
+	line "tarda un HUEVO en"
 
-	para "hatch depends on"
-	line "the #MON."
+	para "eclosionar, depen-"
+	line "de del #MON."
 	done
 
 Oak2PhoneInvestigatingEggMovesText:
-	text "Hello, <PLAYER>?"
+	text "Hola. ¿<PLAYER>?"
 
-	para "It's still a"
-	line "mystery what kinds"
+	para "Todavía son un"
+	line "misterio los"
 
-	para "of moves hatched"
-	line "#MON have."
+	para "movimientos que"
+	line "tendrá un #MON"
+	cont "al eclosionar."
 
-	para "We're investigat-"
-	line "ing that now."
+	para "Ahora lo estamos"
+	line "investigando."
 	done
 
 Oak2PhoneDiscoveredPokerusText:
-	text "Hello, <PLAYER>?"
+	text "Hola. ¿<PLAYER>?"
 
-	para "I discovered an"
-	line "odd thing."
+	para "He descubierto una"
+	line "cosa muy rara."
 
-	para "Apparently there's"
-	line "something called"
+	para "Aparentemente, hay"
+	line "una cosa llamada"
 
-	para "#RUS that in-"
-	line "fects #MON."
+	para "#RUS que infec-"
+	line "ta a los #MON."
 
-	para "Yes, it's like a"
-	line "virus, so it's"
-	cont "called #RUS."
+	para "Sí, es como un"
+	line "virus, así que se"
+	cont "llama #RUS."
 
-	para "It multiplies fast"
-	line "and infects other"
+	para "Se multiplica muy"
+	line "rápido e infecta a"
 
-	para "#MON too. But"
-	line "that's all."
+	para "los #MON."
+	line "Pero eso es todo."
 
-	para "It doesn't seem to"
-	line "do anything, and"
+	para "No parece que haga"
+	line "nada y se pasa con"
+	cont "el tiempo."
 
-	para "it goes away over"
-	line "time."
-
-	para "I guess it's"
-	line "nothing to worry"
-	cont "about. Bye!"
+	para "Creo que no hay"
+	line "por qué preocu-"
+	cont "parse. ¡Adiós!"
 	done
 
 Oak2PhoneDisasterText:
-	text "Hello, <PLAYER>?"
-	para "Long time no see!"
-	line "If I'm not"
-	para "mistaken, I hear"
-	line "you've already"
-	para "acquired three GYM"
-	line "BADGES!"
-	para "That's impressive!"
-	para "But if it's not"
-	line "too much to ask,"
-	para "I'd appreciate it"
-	line "if you could meet"
-	para "me over in BIRDON"
-	line "TOWN. It's a small"
-	para "town north of"
-	line "WESTPORT CITY."
-	para "The town has a"
-	line "WELL that's known"
-	para "to be a habitat"
-	line "for SLOWPOKE."
-	para "I'm studying the"
-	line "fascinating"
-	para "relationship"
-	line "between SLOWPOKE"
-	cont "and DISTURBAN."
-	para "I could use some"
-	line "assistance in"
-	para "capturing a few"
-	line "SLOWPOKE to help"
-	cont "with the study."
-	para "<RIVAL>, BLUE,"
-	line "and myself will"
-	para "all be meeting"
-	line "there!"
-	para "It'll be a good"
-	line "chance to catch"
-	cont "up for all of us!"
-	para "Please join us"
-	line "there when you get"
-	cont "the chance!"
+	text "Hola. ¿<PLAYER>?"
+	
+	para "¡Cuánto tiempo!"
+	line "He oído que ya"
+	para "tienes tres"
+	line "MEDALLAS de"
+	para "GIMNASIO, ¿es"
+	line "cierto?"
+	
+	para "¡Impresionante!"
+	
+	para "Pero si no es"
+	line "mucho pedir,"
+	para "me gustaría que te"
+	line "reunieras conmigo"
+	cont "en PUEBLO BIRDON."
+	
+	para "Es un pequeño"
+	line "pueblo al norte de"
+	para "CIUDAD PONIENTE."
+	line "Tiene un POZO"
+	para "que sirve como"
+	line "hábitat para los"
+	cont "SLOWPOKE."
+	
+	para "Estoy estudiando"
+	line "la fascinante"
+	para "relación entre los"
+	line "SLOWPOKE y los"
+	cont "DISTURBAN."
+	
+	para "Me vendría bien"
+	line "que capturases"
+	para "unos cuantos"
+	line "SLOWPOKE para"
+	para "ayudarme con mi"
+	line "investigación."
+	para "<RIVAL>, AZUL y"
+	line "yo estaremos allí,"
+	para "¡será una buena"
+	line "oportunidad para"
+	cont "que nos reunamos!"
+	
+	para "¡Únete a nosotros"
+	line "cuando puedas!"
 	done
 
 Oak2PhoneEggAssistantText:
-	text "Hello, <PLAYER>?"
-	para "I hope you and"
-	line "<RIVAL> are"
-	cont "doing well."
-	para "I've sent one of"
-	line "my AIDES out to"
-	para "the PAGOTA CITY"
-	line "#MON CENTER."
-	para "If you've got a"
-	line "moment, could you"
-	para "meet with him"
-	line "there?"
-	para "Thanks!"
+	text "Hola. ¿<PLAYER>?"
+	
+	para "Espero que os esté"
+	line "yendo bien a ti y"
+	cont "a <RIVAL>."
+	
+	para "He enviado a uno"
+	line "de mis AYUDANTES"
+	para "al CENTRO #MON"
+	line "de CIUDAD PAGOTA."
+	
+	para "Si tienes un"
+	line "momento, ¿podrías"
+	cont "hablar con él?"
+	
+	para "¡Gracias!"
 	done
 
 Oak2PhoneRadioTowerRocketTakeoverText:
-	text "<PLAYER>, how are"
-	line "things going?"
+	text "¿<PLAYER>, qué tal"
+	line "van las cosas?"
 
-	para "I called because"
-	line "something weird is"
+	para "Te llamo porque"
+	line "pasa algo raro"
 
-	para "happening with the"
-	line "radio broadcasts."
+	para "con las emisiones"
+	line "de radio."
 
-	para "They were talking"
-	line "about TEAM ROCKET."
+	para "Están hablando del"
+	line "TEAM ROCKET."
 
-	para "<PLAYER>, do you"
-	line "know anything"
-	cont "about it?"
+	para "<PLAYER>, ¿sabes"
+	line "algo acerca de"
+	cont "ellos?"
 
 	para "…"
-	para "Hm? You just dealt"
-	line "with TEAM ROCKET"
-	para "in their base in"
-	line "STAND CITY?"
-	para "You'll have to"
-	line "tell me all about"
-	cont "that soon!"
-	para "Do you know where"
-	line "they were planning"
-	cont "to go after that?"
-	para "If these weird"
-	line "radio broadcasts"
-	para "are anything to go"
-	line "by, I'd check the"
-	para "JOPM RADIO TOWER"
-	line "in WESTPORT CITY."
-	para "Keep me updated!"
-	line "I'm rooting for"
-	cont "you and <RIVAL>!"
+	
+	para "¿Qué? ¿Qué acabas"
+	line "de derrotar al"
+	para "TEAM ROCKET en su"
+	line "base de CIUDAD"
+	cont "ENHIESTA?"
+	
+	para "¡Cuéntamelo todo"
+	line "en cuanto puedas!"
+	
+	para "¿Sabes a dónde"
+	line "planeaban ir"
+	cont "después de eso?"
+	
+	para "Si esas extrañas"
+	line "tranmisiones de"
+	para "radio tienen algo"
+	line "que ver, debería"
+	para "ir a la TORRE"
+	line "RADIO de JOPM en"
+	cont "CIUDAD PONIENTE."
+	
+	para "¡Mantenme al"
+	line "tanto!"
+	
+	para "¡Cuento contigo y"
+	line "con <RIVAL>!"
 	done
 	
 Oak2PhoneRocketsText:
-	text "Hello, <PLAYER>?"
+	text "Hola. ¿<PLAYER>?"
 
-	para "I worry that TEAM"
-	line "ROCKET is planning"
-	para "something truly"
+	para "Me temo que el"
+	line "TEAM ROCKET trama"
+	para "algo realmente"
 	line "terrible…"
-	para "But you don't need"
-	line "to dwell on that!"
-	para "Keep up the great"
-	line "work with catching"
-	para "#MON and the"
-	line "LEAGUE challenge!"
+	
+	para "¡Pero no le des"
+	line "vueltas a eso!"
+	
+	para "¡Sigue trabajando"
+	line "así de bien"
+	para "capturando #MON"
+	line "y con el reto de"
+	cont "la LIGA!"
 	done
 	
 Oak2AfterRadioTower:
-	text "Hello, <PLAYER>?"
-	para "So what was going"
-	line "on with TEAM"
-	cont "ROCKET?"
-	para "I heard they were"
-	line "trying to generate"
-	para "a signal that"
-	line "could control"
-	cont "#MON!"
-	para "That's insane!"
-	para "And apparently"
-	line "they had a lackey"
-	cont "who resembled me?"
-	para "That's even more"
-	line "unbelievable!"
-	para "I'm so incredibly"
-	line "proud of you and"
-	para "<RIVAL> for"
-	line "getting rid of"
-	cont "them!"
-	para "When you work with"
-	line "#MON, there's"
-	para "no limit to what"
-	line "you can do!"
+	text "Hola. ¿<PLAYER>?"
+	
+	para "Entonces, ¿qué"
+	line "está pasando con"
+	cont "el TEAM ROCKET?"
+	
+	para "¡Oí que estaban"
+	line "intentando generar"
+	para "una señal con la"
+	line "que controlar a"
+	cont "los #MON!"
+	
+	para "¡Menuda locura!"
+	
+	para "¿Y encima tenían"
+	line "un lacayo que"
+	para "se hacía pasar"
+	line "por mí?"
+	
+	para "¡Cuesta creerlo!"
+	
+	para "¡Estoy muy"
+	line "orgulloso de ti y"
+	para "de <RIVAL> por"
+	line "haberos encargado"
+	cont "de ellos!"
+	
+	para "¡Cuando unís"
+	line "fuerzas con"
+	para "vuestros #MON,"
+	line "no hay nada que"
+	cont "os detenga!"
 	done
 
 Oak2PhoneGiftText:
-	text "Hello, <PLAYER>?"
+	text "Hola. ¿<PLAYER>?"
 
-	para "I have something"
-	line "here for you."
+	para "Tengo aquí algo"
+	line "para ti."
 
-	para "Could you swing by"
-	line "my LAB?"
+	para "¿Puedes venir a mi"
+	line "LABORATORIO?"
 
-	para "See you later!"
+	para "¡Hasta luego!"
 	done
 
 ; unused
 Oak2PhoneGotAholdOfSomethingNeatText:
-	text "Hello, <PLAYER>?"
-	line "How's it going?"
+	text "Hola. ¿<PLAYER>?"
+	line "¿Qué tal estás?"
 
-	para "I got ahold of"
-	line "something neat."
+	para "He conseguido"
+	line "algo estupendo."
 
-	para "Swing by my LAB"
-	line "and pick it up!"
+	para "¡Pásate por mi"
+	line "LABORATORIO para"
+	cont "recogerlo!"
 
-	para "See you later!"
+	para "¡Hasta luego!"
 	done

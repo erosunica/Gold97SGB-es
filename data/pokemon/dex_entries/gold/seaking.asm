@@ -1,10 +1,10 @@
-	db "GOLDFISH@" ; species name
-	dw 403, 860 ; height, weight
+	db "PEZ COLOR@" ; species name
+	dbw 13, 390 ; height, weight
 
-	db   "When autumn comes,"
-	next "the males patrol"
-	next "the area around"
+	db   "Con la llegada del"
+	next "otoño, los machos"
+	next "patrullan la zona"
 
-	page "their nests in"
-	next "order to protect"
-	next "their offspring.@"
+	page "donde están sus"
+	next "nidos para evitar"
+	next "cualquier peligro.@"

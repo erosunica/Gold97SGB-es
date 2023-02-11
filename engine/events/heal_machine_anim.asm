@@ -171,7 +171,11 @@ INCBIN "gfx/overworld/heal_machine.2bpp"
 	ret
 
 .palettes
+IF MGB
+INCLUDE "gfx/overworld/heal_machine_mgb.pal"
+ELSE
 INCLUDE "gfx/overworld/heal_machine.pal"
+ENDC
 
 .FlashPalettes8Times:
 	ld c, 8

@@ -86,6 +86,7 @@
 	const SPRITE_N64 ; 51
 	const SPRITE_BELLIGNAN ; 52
 	const SPRITE_SURF ; 53
+	const SPRITE_SOUTH ; 5X ; erosunica: new
 	const SPRITE_POKE_BALL ; 54
 	const SPRITE_POKEDEX ; 55
 	const SPRITE_PAPER ; 56

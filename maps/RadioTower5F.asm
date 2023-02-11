@@ -68,79 +68,83 @@ RadioTower5FStudiosSign:
 	jumptext RadioTower5FStudiosSignText
 	
 GruntM30SeenText:
-	text "Isn't our radio"
-	line "broadcast so much"
-	para "better than the"
-	line "regular stuff?"
+	text "¿No es nuestra"
+	line "emisión de radio"
+	para "mucho mejor que"
+	line "la habitual?"
 	done
 	
 GruntM30BeatenText:
-	text "I actually kind"
-	line "of like #MON"
-	cont "music…"
+	text "En realidad me"
+	line "gusta la música"
+	cont "#MON…"
 	done
 	
 GruntM30AfterBattleText:
-	text "Soon this tower"
-	line "will broadcast"
-	para "our mind control"
-	line "signal!"
+	text "¡Muy pronto esta"
+	line "torre emitirá"
+	para "nuestra señal de"
+	line "control mental!"
 	done
 	
 ScientistRichSeenText:
-	text "What happened to"
-	line "IMPOSTOR OAK?"
-	para "Well, he wasn't"
-	line "necessary to keep"
-	para "around since we"
-	line "aren't trying to"
-	cont "fool anyone now!"
-	para "So we got rid of"
-	line "him!"
+	text "¿Que qué pasó con"
+	line "el OAK IMPOSTOR?"
+	para "¡Pues que ya no"
+	line "era necesario"
+	para "seguir contando"
+	line "con él! ¡Ya no nos"
+	cont "interesa engañar a"
+	cont "nadie!"
+
+	para "¡Así que nos"
+	line "deshicimos de él!"
 	done
 	
 ScientistRichBeatenText:
-	text "You're too good"
-	line "for me…"
+	text "¡Demasiado"
+	line "fuerte!"
 	done
 	
 ScientistRichAfterBattleText:
-	text "I never liked that"
-	line "guy anyways."
+	text "Nunca me cayó bien"
+	line "ese tío, de todos"
+	cont "modos."
 	done
 	
 	
 RadioTower5FStudiosSignText:
-	text "5F STUDIO 3"
+	text "P4 ESTUDIO 3"
 	done
 
 RadioTower5fRockerText:
-	text "BEN: You like"
-	line "music made for"
-	cont "#MON?"
-	para "Tune into my"
-	line "show!"
+	text "NARDO: ¿Te gusta"
+	line "la música hecha"
+	cont "para los #MON?"
+	para "¡Sintoniza mi"
+	line "programa!"
 	done
 	
 RadioTower5fRockerTextTakeover:
-	text "BEN: I don't think"
-	line "TEAM ROCKET plans"
-	para "to play music for"
-	line "the benefit of"
+	text "NARDO: ¡No creo"
+	line "que el TEAM ROCKET"
+	para "quiera poner"
+	line "música que le"
+	cont "guste a los"
 	cont "#MON!"
 	done
 	
 RadioTower5fCooltrainerText:
-	text "REED: If you want"
-	line "to try your luck,"
-	para "tune into my"
-	line "broadcast!"
+	text "SALVA: ¡Si quieres"
+	line "probar tu suerte,"
+	cont "sintoniza mi"
+	cont "programa!"
 	done
 	
 RadioTower5fCooltrainerTextTakeover:
-	text "REED: I think"
-	line "we're having a bit"
-	cont "of bad luck here!"
+	text "SALVA: ¡Creo que"
+	line "hoy tenemos mala"
+	cont "suerte!"
 	done
 	
 

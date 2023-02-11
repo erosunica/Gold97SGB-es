@@ -34,47 +34,51 @@ AlloyCafeSailorScript:
 	jumptextfaceplayer AlloyCafeSailorText
 
 AlloyCafeStrengthSailorText:
-	text "Hah! Sailing is"
-	line "such an outdated"
-	cont "way to travel!"
-	para "Walking is, too!"
-	para "Why not have your"
-	line "#MON FLY you"
-	cont "everywhere?"
+	text "¡Jaja! ¡Navegar es"
+	line "una forma de"
+	cont "viajar anticuada!"
+
+	para "¡Y andar también!"
+
+	para "¿Por qué no dejas"
+	line "que tu #MON te"
+	cont "lleve volando?"
 	done
 
 AlloyCafeStrengthSailorText_GotStrength:
-	text "Ships still have"
-	line "to set sail since"
-	para "flying #MON"
-	line "can't carry cargo."
+	text "Los barcos aún"
+	line "tienen que navegar"
+	para "porque los #MON"
+	line "voladores no"
+	cont "pueden llevar"
+	cont "carga."
 	done
 
 AlloyCafeFishingGuruText:
-	text "ALLOY CAFE's"
-	line "menu is chock full"
-
-	para "of hearty fare for"
-	line "hungry people!"
+	text "¡El menú del CAFÉ"
+	line "ALEAR está repleto"
+	para "de buena comida"
+	line "para quien venga"
+	cont "con hambre!"
 	done
 
 AlloyCafeSailorText:
-	text "Whenever I roll"
-	line "into this town, I"
+	text "Cuando estoy de"
+	line "paso, siempre"
+	cont "visito el CAFÉ"
+	cont "ALEAR."
 
-	para "always visit the"
-	line "ALLOY CAFE."
-
-	para "Everything here is"
-	line "delicious!"
+	para "¡Aquí todo está de"
+	line "rechupete!"
 	done
-	
+
 AlloyCafeClerkText:
-	text "Welcome to ALLOY"
-	line "CAFE!"
-	para "We have food to"
-	line "satisfy every"
-	cont "appetite!"
+	text "¡Bienvenido al"
+	line "CAFÉ ALEAR!"
+
+	para "¡Tenemos comida al"
+	line "gusto de todo"
+	cont "paladar!"
 	done
 
 AlloyCafe_MapEvents:

@@ -67,80 +67,91 @@ SunpointCityHiddenMaxEther:
 
 
 SunpointCityLassText:
-	text "The climate on"
-	line "this side of NIHON"
-	para "is considerably"
-	line "warmer than the"
-	cont "rest of it."
+	text "El clima en esta"
+	line "parte de NIHON es"
+	para "mucho más cálido"
+	line "que en el resto."
 	done
 
 ChucksWifeChubbyText:
-	text "My husband lost to"
-	line "you, so he needs"
-	cont "to train harder."
+	text "Mi marido perdió"
+	line "contra ti. Debería"
+	cont "entrenarse más."
 
-	para "That's good, since"
-	line "he was getting a"
-	cont "little chubby."
+	para "Menos mal, porque"
+	line "ya estaba"
+	cont "engordando."
 	done
 
 SunpointCityFishingGuruText:
-	text "Have you ever been"
-	line "to BLUE FOREST?"
-	para "It's cold and"
-	line "snowy over there."
-	para "I couldn't live"
-	line "there!"
-	para "The cold is not"
-	line "for me."
+	text "¿Has ido alguna"
+	line "vez al BOSQUE"
+	cont "AZUL?"
+	para "Hace frío y está"
+	line "cubierto de nieve."
+
+	para "¡No podría vivir"
+	line "allí!"
+
+	para "No estoy hecho"
+	line "para el frío."
 	done
 
 SunpointCityTwinText:
-	text "Rare #MON are"
-	line "said to live in"
-	cont "the MAGMA SHAFT."
-	para "It's hard to get"
-	line "into the cave"
-	para "because rocks from"
-	line "it often fall down"
-	para "and block the"
-	line "entrance."
+	text "Se dice que viven"
+	line "#MON raros en"
+	cont "el EJE MAGMA."
+
+	para "Es difícil entrar"
+	line "en la cueva porque"
+	para "suelen desplomarse"
+	line "las rocas y"
+	cont "bloquean la"
+	cont "entrada."
 	done
 
 SunpointCityRockerText:
-	text "This city doesn't"
-	line "have a GYM."
-	para "I don't think it"
-	line "needs one, though."
+	text "Esta ciudad no"
+	line "tiene GIMNASIO."
+
+	para "No creo que"
+	line "necesite uno, de"
+	cont "todos modos."
 	done
 
-
 SunpointCitySignText:
-	text "SUNPOINT CITY"
-	para "NIHON's Hub For"
-	line "International"
-	cont "Trade"
+	text "CIUDAD CALORINA"
+	
+	para "El enclave de"
+	line "NIHON para el"
+	cont "comercio"
+	cont "internacional"
 	done
 
 SunpointTrainerTipsSignText:
-	text "TRAINER TIPS"
-	para "Certain HM moves"
-	line "require BADGES to"
-	para "use outside of"
-	line "battle!"
-	para "The moves can"
-	line "still be used in"
-	cont "battle, though."
+	text "PISTAS ENTRENADOR"
+	
+	para "¡Hacen falta"
+	line "MEDALLAS para usar"
+	para "los movimientos de"
+	line "MO fuera de"
+	cont "combate!"
+
+	para "Aun así, pueden"
+	line "usarse en combate."
 	done
 
 SunpointMagmaShaftWarningSignText:
-	text "NOTICE:"
-	para "Dangerous rocks"
-	line "frequently fall"
-	para "from the MAGMA"
-	line "SHAFT."
-	para "Use proper caution"
-	line "if approaching."
+	text "AVISO:"
+	
+	para "Desplome frecuente"
+	line "de rocas peligro-"
+	cont "sas desde el EJE"
+	cont "MAGMA."
+
+	para "Toma la debida"
+	line "precaución si te"
+	cont "acercas."
 	done
 
 SunpointCity_MapEvents:
@@ -172,7 +183,7 @@ SunpointCity_MapEvents:
 
 	db 6 ; object events
 	object_event 28, 13, SPRITE_FISHING_GURU, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, SunpointCityFishingGuru, -1
-	object_event 23, 22, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_DOWN, 1, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, SunpointCityTwin, -1
+	object_event 23, 22, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_DOWN, 1, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, SunpointCityTwin, -1
 	object_event 24, 17, SPRITE_ROCKER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, SunpointCityRocker, -1
 	object_event 19, 16, SPRITE_ROCK, SPRITEMOVEDATA_SMASHABLE_ROCK, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, SunpointCityRock, -1
 	object_event 18, 17, SPRITE_ROCK, SPRITEMOVEDATA_SMASHABLE_ROCK, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, SunpointCityRock, -1

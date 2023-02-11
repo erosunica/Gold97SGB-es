@@ -4,6 +4,8 @@
 
 	charmap "<NULL>",    $00
 	charmap "<CR>",      $16
+	charmap "<->",       $1d ; hyphen split, same as "-<LF>"
+	charmap "<¯>",       $1e ; soft hyphen split
 	charmap "¯",         $1f ; soft linebreak
 	charmap "<LF>",      $22
 	charmap "<POKE>",    $24 ; "<PO><KE>"
@@ -157,20 +159,44 @@
 	charmap "y",         $b8
 	charmap "z",         $b9
 
+	charmap "à",         $ba
+	charmap "è",         $bb
+	charmap "é",         $bc
+	charmap "ù",         $bd
+	charmap "À",         $be
+	charmap "Á",         $bf
 	charmap "Ä",         $c0
 	charmap "Ö",         $c1
 	charmap "Ü",         $c2
 	charmap "ä",         $c3
 	charmap "ö",         $c4
 	charmap "ü",         $c5
+	charmap "È",         $c6
+	charmap "É",         $c7
+	charmap "Ì",         $c8
+	charmap "Í",         $c9
+	charmap "Ñ",         $ca
+	charmap "Ò",         $cb
+	charmap "Ó",         $cc
+	charmap "Ù",         $cd
+	charmap "Ú",         $ce
+	charmap "á",         $cf
+	charmap "ì",         $d0
+	charmap "í",         $d1
+	charmap "ñ",         $d2
+	charmap "ò",         $d3
+	charmap "ó",         $d4
+	charmap "ú",         $d5
 
-	charmap "'d",        $d0
-	charmap "'l",        $d1
-	charmap "'m",        $d2
-	charmap "'r",        $d3
-	charmap "'s",        $d4
-	charmap "'t",        $d5
-	charmap "'v",        $d6
+	charmap "°",         $d6
+	charmap "<&>",       $d7
+	charmap "'d",        $d8
+	charmap "'l",        $d9
+	charmap "'m",        $da
+	charmap "'r",        $db
+	charmap "'s",        $dc
+	charmap "'t",        $dd
+	charmap "+",         $de
 
 	charmap "←",         $df
 	charmap "'",         $e0
@@ -178,12 +204,14 @@
 	charmap "<MN>",      $e2
 	charmap "-",         $e3
 
+	charmap "¿",         $e4
+	charmap "¡",         $e5
 	charmap "?",         $e6
 	charmap "!",         $e7
 	charmap ".",         $e8
 	charmap "&",         $e9
 
-	charmap "é",         $ea
+	charmap "<é>",       $ea
 	charmap "→",         $eb
 	charmap "▷",         $ec
 	charmap "▶",         $ed
@@ -281,6 +309,7 @@
 	charmap "「", $70
 	charmap "」", $71
 	charmap "』", $73
+	charmap "・", $74
 	charmap "⋯", $75
 
 	charmap "　", $7f

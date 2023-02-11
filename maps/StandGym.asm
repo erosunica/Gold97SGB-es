@@ -325,242 +325,255 @@ LightSwitch5:
 	end
 
 OkeraGivesYouSomething:
-	text "Hey, man."
-	para "I guess I owe ya"
-	line "one for kicking"
-	para "out those ROCKET"
-	line "losers."
-	para "Here, I got some-"
-	line "thing you could"
-	cont "use."
+	text "Buenas tío."
+
+	para "Supongo que te"
+	line "debo una por haber"
+	para "espantado a esos"
+	line "ROCKET de"
+	cont "pacotilla."
+
+	para "Toma, tengo algo"
+	line "que te puede"
+	cont "servir."
 	done
-	
+
 OkeraGivesYouSomething2:
-	text "Maybe you'll find"
-	line "that useful if"
-	para "you have some"
-	line "dark #MON."
+	text "Te será útil si"
+	line "tienes #MON de"
+	cont "tipo siniestro."
 	done
 
 ItsASwitch:
-	text "It's labeled"
-	line "'FAULTY'."
-	para "Press it?"
+	text "Aquí pone"
+	line "“DEFECTUOSO”."
+
+	para "¿Lo pulsas?"
 	done
-	
+
 ItsASwitch2:
-	text "The lights don't"
-	line "stay on!"
+	text "¡Las luces no se"
+	line "quedan encendidas!"
 	done
-	
 	
 CooltrainerfIreneSeenText:
-	text "Kyaaah!"
-	line "Someone found me!"
+	text "¡Kiaaa! ¡Nos han"
+	line "encontrado!"
 	done
 
 CooltrainerfIreneBeatenText:
-	text "Ohhh!"
-	line "Too strong!"
+	text "¡Ohhh!"
+	line "¡Demasiado fuerte!"
 	done
 
 CooltrainerfIreneAfterText:
-	text "The dark can be"
-	line "scary."
+	text "La oscuridad puede"
+	line "dar miedo."
 
-	para "But it can be"
-	line "safe too."
+	para "Pero también puede"
+	line "dar seguridad."
 	done
-	
+
 CooltrainerfJuliaSeenText:
-	text "Do you believe in"
-	line "bad luck?"
+	text "¿Crees en la mala"
+	line "suerte?"
 	done
 
 CooltrainerfJuliaBeatenText:
-	text "I certainly have"
-	line "bad luck!"
+	text "¡Yo desde luego"
+	line "tengo mala suerte!"
 	done
 
 CooltrainerfJuliaAfterText:
-	text "These switches"
-	line "have never worked"
-	cont "correctly."
+	text "Esos interruptores"
+	line "nunca han"
+	cont "funcionado bien."
 	done
-	
-
 
 OkeraRematchText:
-	text "What do you want?"
+	text "¿Qué quieres?"
 	
-	para "Aren't you the"
-	line "CHAMPION now?"
-	
-	para "You want a second"
-	line "BADGE from me or"
-	cont "something?"
-	
-	para "Don't think I'll"
-	line "back down from"
-	para "a challenge like"
-	line "this!"
+	para "¿No eres ahora el"
+	line "CAMPEÓN?"
+	para "¿Quieres una"
+	line "segunda MEDALLA o"
+	cont "qué?"
+	para "¡No creas que me"
+	line "echaré para atrás"
+	para "contra un desafío"
+	line "como este!"
 	done
 
 OkeraRematchWinText:
-	text "Heh."
+	text "Bah…"
 	done
 
 OkeraAfterRematchText:
-	text "I wasn't really"
-	line "expecting to win,"
-	para "but I'd never"
-	line "back out of a"
-	cont "fight."
-	para "Even if all bets"
-	line "are against me."
-	
-	para "You're the same"
-	line "way, aren't you?"
+	text "No esperaba poder"
+	line "ganar, pero nunca"
+	para "me echo atrás en"
+	line "un combate."
+
+	para "Incluso si todo"
+	line "está en mi contra."
+
+	para "Tú eres igual,"
+	line "¿no?"
 	done
 
-
 CooltrainerfKellySeenText:
-	text "What do you see"
-	line "when you open"
-	para "your eyes in the"
-	line "dark?"
+	text "¿Qué ves cuando"
+	line "abres los ojos en"
+	cont "la oscuridad?"
 	done
 
 CooltrainerfKellyBeatenText:
-	text "Fine. I lost."
+	text "Vale. He perdido."
 	done
 
 CooltrainerfKellyAfterBattleText:
-	text "Where is the GYM"
-	line "LEADER?"
-	para "He lives in the"
-	line "shadows, beyond"
-	cont "what can be seen."
+	text "¿Dónde está"
+	line "el LÍDER del"
+	cont "GIMNASIO?"
+	para "Vive en las"
+	line "sombras, más allá"
+	cont "de lo que puedas"
+	cont "ver."
 	done
 
 CooltrainermAaronSeenText:
-	text "Are you afraid"
-	line "of the dark?"
+	text "¿Te da miedo la"
+	line "oscuridad?"
 	done
 
 CooltrainermAaronBeatenText:
-	text "Whew…"
-	line "Good battle."
+	text "¡Uauu…!"
+	line "Buen combate."
 	done
 
 CooltrainermAaronAfterBattleText:
-	text "This GYM isn't"
-	line "really that scary."
-	para "The lights are"
-	line "just turned off."
+	text "El GIMNASIO no da"
+	line "tanto miedo."
+
+	para "Es solo que las"
+	line "luces están"
+	cont "apagadas."
 	done
 
 StandGymGuyText2:
-	text "Hey, champ-in-the-"
-	line "making!"
-	para "It sure is dark in"
-	line "here!"
-	para "OKERA can be kind"
-	line "of moody, and he"
-	cont "likes it dark."
-	para "But don't let his"
-	line "age and behavior"
-	cont "fool you."
-	para "He's one tough"
-	line "trainer!"
+	text "¡Hola, joven"
+	line "promesa!"
+
+	para "¡Esto está muy"
+	line "oscuro!"
+
+	para "VELASCO suele"
+	line "estar de mal"
+	para "humor, y le gusta"
+	line "la oscuridad."
+
+	para "Pero no dejes que"
+	line "su edad y su"
+	cont "temperamento te"
+	cont "engañen."
+
+	para "¡Es un entrenador"
+	line "duro!"
 	done
-	
+
 StandGymGuyWinText2:
-	text "I knew you weren't"
-	line "afraid of the"
-	cont "dark!"
+	text "¡Sabía que no"
+	line "tendrías miedo de"
+	cont "la oscuridad!"
 	done
 
 ChuckIntroText1:
-	text "Heh."
-	para "You've traveled a"
-	line "long way from"
-	cont "home, haven't you?"
-	para "You've experienced"
-	line "a lot of new"
-	cont "things."
-	para "Met a lot of"
-	line "people."
-	para "Faced a lot of"
-	line "challenges."
+	text "Je, je…"
+
+	para "Has hecho un largo"
+	line "camino desde casa,"
+	cont "¿verdad?"
+	para "Has experimentado"
+	line "muchas cosas"
+	cont "nuevas."
+
+	para "Conocido a mucha"
+	line "gente."
+
+	para "Afrontado muchos"
+	line "desafíos."
+
 	para "…"
-	para "But have you"
-	line "faced the sheer"
-	para "power that finds"
-	line "its strength in"
-	cont "the dark?"
-	para "Dark-type #MON"
-	line "possess a power"
-	cont "like none other."
-	para "Even in the short"
-	line "time that I've"
-	cont "been a GYM LEADER,"
-	para "I've learned much"
-	line "about what they"
-	cont "are capable of."
-	para "I will show you"
-	line "now."
+	para "¿Pero has enfren-"
+	line "tado el poder puro"
+	para "que encuentra su"
+	line "fortaleza en la"
+	cont "oscuridad?"
+	para "Los #MON de"
+	line "tipo siniestro"
+	cont "tienen un poder"
+	cont "incomparable."
+
+	para "Incluso aunque sea"
+	line "LÍDER de GIMNASIO"
+	para "desde hace poco,"
+	line "he aprendido mucho"
+	cont "sobre lo que son"
+	cont "capaces."
+
+	para "Te lo demostraré."
 	done
 
-
 OkeraLossText:
-	text "Hm. I lost."
+	text "Pues he perdido."
 
-	para "This is"
-	line "unexpected."
-	para "But it proves you"
-	line "are worthy to earn"
-	cont "DUSKBADGE."
+	para "No me lo esperaba."
+
+	para "Pero esto"
+	line "demuestra que eres"
+	para "digno de tener la"
+	line "MEDALLA OCASO."
 	done
 
 GetStormBadgeText:
-	text "<PLAYER> received"
-	line "DUSKBADGE."
+	text "<PLAYER> recibió"
+	line "la MEDALLA OCASO."
 	done
 
 ChuckExplainBadgeText:
-	text "DUSKBADGE makes"
-	line "all #MON up to"
+	text "Con la MEDALLA"
+	line "OCASO, te obedece-"
+	cont "rán los #MON"
+	cont "hasta el nivel 70."
 
-	para "L70 obey, even"
-	line "traded ones."
+	para "Tus #MON podrán"
+	line "usar GOLPE ROCA"
+	cont "cuando no estén"
+	cont "combatiendo."
 
-	para "Your #MON can"
-	line "now use ROCK SMASH"
-
-	para "when you're not in"
-	line "a battle."
-	
-	para "I guess I'm in a"
-	line "good mood, so you"
-	cont "can have this too."
+	para "Me pillas de buen"
+	line "humor, así que"
+	cont "toma esto."
 	done
 
 OkeraExplainTMText:
-	text "That move is"
-	line "THIEF."
+	text "Se trata de"
+	line "LADRÓN."
 
-	para "It causes damage,"
-	line "and also can steal"
-	para "an opponent's held"
-	line "item."
+	para "Además de provocar"
+	line "daño, puede robar"
+	para "el objeto que"
+	line "tenga equipado el"
+	cont "oponente."
 	done
 
 OkeraAfterText:
-	text "That was a good"
-	line "battle."
-	para "Your challenge was"
-	line "worth my time."
+	text "Ha sido un buen"
+	line "combate."
+
+	para "Tu desafío no me"
+	line "ha hecho perder el"
+	cont "tiempo."
 	done
 
 StandGym_MapEvents:

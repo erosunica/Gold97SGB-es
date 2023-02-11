@@ -116,11 +116,11 @@ PrintTempMonStats:
 	ret
 
 .StatNames:
-	db   "ATTACK"
-	next "DEFENSE"
-	next "SPCL.ATK"
-	next "SPCL.DEF"
-	next "SPEED"
+	db   "ATAQUE"
+	next "DEFENSA"
+	next "AT. ESP."
+	next "DEF. ESP."
+	next "VELOCIDAD@"
 	next "@"
 
 GetGender:
@@ -373,7 +373,7 @@ PlaceStatusString:
 	ret
 
 FntString:
-	db "FNT@"
+	db "DEB@"
 
 CopyStatusString:
 	ld a, [de]
@@ -414,10 +414,10 @@ PlaceNonFaintStatus:
 	pop de
 	ret
 
-SlpString: db "SLP@"
-PsnString: db "PSN@"
-BrnString: db "BRN@"
-FrzString: db "FRZ@"
+SlpString: db "DOR@"
+PsnString: db "ENV@"
+BrnString: db "QUE@"
+FrzString: db "CON@"
 ParString: db "PAR@"
 
 ListMoves:

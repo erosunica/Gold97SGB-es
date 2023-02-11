@@ -1,10 +1,10 @@
-	db "POISON GAS@" ; species name
-	dw 200, 20 ; height, weight
+	db "GAS VENENO@" ; species name
+	dbw 6, 10 ; height, weight
 
-	db   "If one gets close"
-	next "enough to it when"
-	next "it expels poison-"
+	db   "Si alguien se le"
+	next "acerca cuando li-"
+	next "bera gas venenoso,"
 
-	page "ous gas, the gas"
-	next "swirling inside it"
-	next "can be seen.@"
+	page "se puede ver el"
+	next "remolino gaseoso"
+	next "que tiene dentro.@"

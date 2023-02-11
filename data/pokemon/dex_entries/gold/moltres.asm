@@ -1,10 +1,10 @@
-	db "FLAME@" ; species name
-	dw 607, 1320 ; height, weight
+	db "LLAMA@" ; species name
+	dbw 20, 600 ; height, weight
 
-	db   "Legendary bird"
-	next "#MON. It is"
-	next "said to migrate"
+	db   "Parece ser que"
+	next "este legendario"
+	next "#MON emigraba"
 
-	page "from the south"
-	next "along with the"
-	next "spring.@"
+	page "desde el sur"
+	next "mientras duraba"
+	next "la primavera.@"

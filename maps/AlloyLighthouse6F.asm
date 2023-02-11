@@ -161,99 +161,95 @@ MovementData_0x112db5:
 	step_end
 
 JasmineCrownHouse2Text:
-	text "JASMINE: … This"
-	line "#MON always"
+	text "YASMINA: Este"
+	line "#MON siempre"
+	para "iluminaba el mar"
+	line "por la noche."
 
-	para "kept the sea lit"
-	line "at night."
+	para "Pero de pronto"
+	line "enfermó… Le"
+	cont "cuesta respirar…"
 
-	para "…But it suddenly"
-	line "got sick… It's"
-	cont "gasping for air…"
+	para "Dicen que hay"
+	line "una FARMACIA"
+	cont "estupenda en"
+	cont "CALORINA…"
 
-	para "…I understand"
-	line "that there is a"
+	para "Pero está al otro"
+	line "lado del mar…"
 
-	para "wonderful PHARMACY"
-	line "in SUNPOINT…"
-
-	para "But that's across"
-	line "the sea…"
-
-	para "And I can't leave"
-	line "AMPHY unattended…"
+	para "Y no puedo dejar"
+	line "solo a AMPHY…"
 	done
 
 JasmineGetSomeMedicineText:
-	text "…May I ask you to"
-	line "get some medicine"
-	cont "for me? Please?"
+	text "¿Podrías traerme"
+	line "su medicina?"
+	cont "¿Por favor?"
 	done
 
 JasmineCureAmphyText:
-	text "JASMINE: …Will"
-	line "that medicine cure"
+	text "YASMINA: ¿Le hará"
+	line "la medicina algo a"
 	cont "AMPHY?"
 	done
 
 PlayerHandedSecretpotionText:
-	text "<PLAYER> handed the"
-	line "SECRETPOTION to"
-	cont "JASMINE."
+	text "<PLAYER> entregó"
+	line "la POCIÓN SECRETA"
+	cont "a YASMINA."
 	done
 
 JasmineDontBeOffendedText:
-	text "JASMINE: …Um,"
-	line "please don't be"
-	cont "offended…"
+	text "YASMINA: ¡Mmm!"
+	line "Por favor, no te"
+	cont "ofendas…"
 
-	para "…AMPHY will not"
-	line "take anything from"
-	cont "anyone but me…"
+	para "AMPHY no aceptaría"
+	line "nada de nadie."
+	cont "Sólo confía en mí."
 	done
 
 JasmineAmphyHowAreYouFeelingText:
-	text "JASMINE: …"
+	text "YASMINA: …"
 
-	para "AMPHY, how are you"
-	line "feeling?"
+	para "AMPHY, ¿cómo te"
+	line "sientes?"
 	done
 
 JasmineThankYouText:
-	text "JASMINE: …Oh, I'm"
-	line "so relieved…"
+	text "YASMINA: ¡Oh…!"
+	line "¡Menos mal…!"
 
-	para "This is just so"
-	line "wonderful…"
+	para "Es tan estupendo…"
+	line "Muchísimas"
+	cont "gracias."
 
-	para "Thank you so very,"
-	line "very much."
-
-	para "…I will return to"
-	line "the GYM…"
+	para "Regresaré"
+	line "al GIMNASIO…"
 	done
 
 JasmineISeeText:
-	text "JASMINE: …I see…"
+	text "YASMINA: Ya veo…"
 	done
 
 JasmineAmphyHangOnText:
-	text "…AMPHY, hang on!"
+	text "¡AMPHY, aguanta!"
 	done
 
 AmphyPalPalooText:
-	text "AMPHY: …"
-	line "…Pa… paloo…"
+	text "AMPHY: ¡Am…"
+	line "Am… phyphy…!"
 	done
 
 AmphyBreathingLaboredText:
-	text "Its breathing is"
-	line "terribly labored…"
+	text "Apenas puede"
+	line "respirar…"
 	done
 
 AmphyPaluPaluluText:
-	text "AMPHY: Palu!"
-	line "Palulu!"
+	text "AMPHY: ¡Amphy!"
+	line "¡Amphy!"
 	done
 
 AlloyLighthouse6F_MapEvents:

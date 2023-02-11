@@ -41,42 +41,46 @@ PlayersNeighborsHouseRadioScript:
 	end
 
 PlayersNeighborsDaughterText:
-	text "PIKACHU is an"
-	line "evolved #MON."
+	text "PIKACHU es un"
+	line "#MON"
+	cont "evolucionado."
 
-	para "I was amazed by"
-	line "PROF.OAK2's find-"
-	cont "ings."
+	para "El descubrimiento"
+	line "del PROF. OAK me"
+	cont "deja impresionada."
 
-	para "He's so famous for"
-	line "his research on"
-	cont "#MON evolution."
+	para "Es muy famoso por"
+	line "su investigación"
+	para "sobre la evolución"
+	line "#MON."
 
-	para "…sigh…"
+	para "(Suspiro…)"
 
-	para "I wish I could be"
-	line "a researcher like"
-	cont "him…"
+	para "Ojalá fuera una"
+	line "investigadora como"
+	cont "él…"
 	done
 
 PlayerNeighborRadioText1:
-	text "PROF.OAK'S #MON"
-	line "TALK! Please tune"
-	cont "in next time!"
+	text "¡La HORA #MON"
+	line "del PROF. OAK!"
+
+	para "¡Sintonízanos la"
+	line "próxima vez!"
 	done
 
 PlayerNeighborRadioText2:
-	text "#MON CHANNEL!"
+	text "¡CANAL #MON!"
 	done
 
 PlayerNeighborRadioText3:
-	text "This is DJ MARY,"
-	line "your co-host!"
+	text "¡Soy DJ ROSA,"
+	line "la presentadora!"
 	done
 
 PlayerNeighborRadioText4:
-	text "#MON!"
-	line "#MON CHANNEL…"
+	text "¡#MON!"
+	line "El CANAL #MON…"
 	done
 
 PlayersNeighborsHouse_MapEvents:

@@ -414,368 +414,397 @@ ImposterWalksUp:
 	step_end
 	
 StandCityNationalBlockRocketAfterBaseText:
-	text "I always feel left"
-	line "out…"
-	para "No one tells me"
-	line "what's going on"
-	cont "over here…"
+	text "Siempre me siento"
+	line "fuera de lugar…"
+	para "Nadie me dice lo"
+	line "que está pasando"
+	cont "aquí…"
 	done
-	
+
 BlockRocket4AfterBaseText:
-	text "Everyone else is"
-	line "gone?"
-	para "You didn't have"
-	line "anything to do"
-	para "with this, did"
-	line "you?"
+	text "¿Se ha ido todo el"
+	line "mundo?"
+	para "Tú no habrás"
+	line "tenido nada que"
+	cont "ver, ¿no?"
 	done
 
 BlockRocket3AfterBaseText:
-	text "Rumor is that the"
-	line "gang is over in"
-	cont "WESTPORT CITY."
-	para "What does that"
-	line "mean, though?"
-	para "What happened to"
-	line "our base?"
+	text "Dicen que han"
+	line "acabado con nues-"
+	cont "tra banda en"
+	cont "CIUDAD PONIENTE."
+
+	para "¿Pero eso qué"
+	line "significa?"
+	para "¿Qué ha pasado con"
+	line "nuestra base?"
 	done
-	
+
 BlockRocket2AfterBaseText:
-	text "Is that right?"
-	para "I'm hearing the"
-	line "base is empty."
-	para "Why are we still"
-	line "here, then?"
+	text "¿Es verdad?"
+	para "He oído que la"
+	line "base está vacía."
+
+	para "¿Entonces por qué"
+	line "seguimos aquí?"
 	done
-	
+
 BlockRocket1AfterBaseText:
-	text "Is the base empty?"
-	para "Where did everyone"
-	line "go?"
+	text "¿La base está"
+	line "vacía?"
+	para "¿Dónde han ido"
+	line "todos?"
 	done
-	
+
 StandCityHQBlockRocketText:
-	text "All of us hate"
-	line "guarding the"
-	para "entrance to this"
-	line "building."
-	para "My shift is almost"
-	line "over, though."
-	para "I hope my"
-	line "replacement"
-	para "actually shows up"
-	line "this time…"
+	text "A ninguno nos"
+	line "gusta proteger la"
+	cont "entrada de este"
+	cont "edificio."
+
+	para "Yo casi he acabado"
+	line "ya mi turno."
+
+	para "Espero que mi"
+	line "relevo se presente"
+	cont "esta vez…"
 	done
-	
+
 StandCityNationalBlockRocketText:
-	text "No one needs to"
-	line "enter the NATIONAL"
-	cont "PARK right now!"
-	para "Not while #MON"
-	line "are getting sick."
-	para "I care about their"
-	line "health, see?"
+	text "¡Nadie tiene por"
+	line "qué entrar al"
+	cont "PARQUE NACIONAL"
+	cont "ahora!"
+
+	para "No mientras los"
+	line "#MON estén"
+	cont "enfermos."
+
+	para "¿Ves? Me importa"
+	line "su salud."
 	done
-	
+
 BlockRocket1BeforeText:
-	text "There's nothing"
-	line "south of here!"
-	para "You should just"
-	line "stay in town!"
-	para "You don't want to"
-	line "miss our celebrity"
-	cont "speaker!"
+	text "¡No hay nada al"
+	line "sur de aquí!"
+
+	para "¡Deberías quedarte"
+	line "en el pueblo!"
+
+	para "¡No te pierdas a"
+	line "nuestro gran"
+	cont "orador!"
 	done
 
 BlockRocket1AfterText:
-	text "Hey, kid!"
-	para "Wasn't that a"
-	line "great speech by"
-	para "the real, actual"
-	line "PROF.OAK?"
+	text "¡Eh, niño!"
+
+	para "¿No te parece que"
+	line "el verdadero y"
+	para "único PROF. OAK ha"
+	line "dado un gran"
+	cont "discurso?"
 	done
-	
+
 BlockRocket2BeforeText:
-	text "You don't want"
-	line "to leave town."
-	para "We've got a"
-	line "special guest"
-	cont "coming soon!"
+	text "No te marches del"
+	line "pueblo."
+
+	para "¡Pronto tendremos"
+	line "a un invitado"
+	cont "especial!"
 	done
-	
+
 BlockRocket2AfterText:
-	text "Our research will"
-	line "benefit the world!"
+	text "¡Nuestra investi-"
+	line "gación mejorará el"
+	cont "mundo!"
 	done
-	
+
 BlockRocket3BeforeText:
-	text "There's nothing"
-	line "south of here!"
-	para "You should just"
-	line "stay in town!"
+	text "¡No hay nada al"
+	line "sur de aquí!"
+
+	para "¡Deberías quedarte"
+	line "en el pueblo!"
 	done
-	
+
 BlockRocket3AfterText:
-	text "The people love"
-	line "PROF.OAK!"
+	text "¡Esta gente adora"
+	line "al PROF. OAK!"
 	done
-	
+
 BlockRocket4BeforeText:
-	text "It's almost time"
-	line "for the world to"
-	cont "hear our plan!"
+	text "¡Ya casi es hora"
+	line "de que el mundo"
+	cont "escuche nuestro"
+	cont "plan!"
 	done
-	
+
 BlockRocket4AfterText:
-	text "We're doing great"
-	line "things, didn't you"
-	cont "hear?"
+	text "Estamos preparando"
+	line "algo grande, ¿no"
+	cont "lo has oído?"
 	done
-	
+
 ImposterText1:
-	text "Citizens of STAND"
-	line "CITY!"
+	text "¡Habitantes de"
+	line "CIUDAD ENHIESTA!"
 	done
-	
+
 ImposterText2:
-	text "It is I, the"
-	line "world-renowned"
-	cont "PROF.OAK!"
-	para "I have some"
-	line "exciting news"
-	para "about a break-"
-	line "through in #MON"
-	cont "research!"
-	para "I have partnered"
-	line "with TEAM ROCKET"
-	para "to bring to you"
-	line "this new"
-	cont "technology!"
+	text "¡Soy yo, el mun-"
+	line "dialmente conocido"
+	cont "PROF. OAK!"
+
+	para "¡Os traigo grandes"
+	line "noticias sobre un"
+	para "descubrimiento en"
+	line "la investigación"
+	cont "#MON!"
+
+	para "¡Me he unido al"
+	line "TEAM ROCKET para"
+	cont "traeros esta nueva"
+	cont "tecnología!"
 	done
-	
+
 ImposterText3:
-	text "Do not be alarmed!"
-	para "TEAM ROCKET is"
-	line "doing great work"
-	para "in developing a"
-	line "high-powered radio"
-	para "signal that is"
-	line "able to read the"
-	para "thoughts of"
-	line "#MON!"
-	para "And this signal is"
-	line "being developed"
-	para "right here in"
-	line "STAND CITY!"
-	para "Though the signal"
-	line "might have the"
-	para "effect of making"
-	line "#MON that are"
-	para "exposed to it feel"
-	line "unwell…"
+	text "¡Que no cunda el"
+	line "pánico!"
+
+	para "¡El TEAM ROCKET ha"
+	line "hecho un gran"
+	para "trabajo desarro-"
+	line "llando una potente"
+	para "señal de radio que"
+	line "es capaz de leer"
+	para "los pensamientos"
+	line "de los #MON!"
+
+	para "¡Y está siendo"
+	line "desarrollada aquí,"
+	cont "en CIUDAD"
+	cont "ENHIESTA!"
+
+	para "Aunque la señal"
+	line "puede tener el"
+	para "efecto secundario"
+	line "de hacer enfermar"
+	para "a los #MON"
+	line "expuestos…"
 	para "…"
-	para "But just ignore"
-	line "that!"
-	para "They'll be fine!"
-	para "The results of"
-	line "this research will"
-	para "allow us a greater"
-	line "understanding of"
-	para "#MON than ever"
-	line "before!"
-	para "And you can trust"
-	line "me, because as you"
-	para "can see, I am"
-	line "PROF.OAK."
-	para "That is all!"
+	para "¡Pero ignorad eso!"
+
+	para "¡Estarán bien!"
+
+	para "¡Los resultados de"
+	line "esta investigación"
+	para "nos permitirán"
+	line "comprender a los"
+	cont "#MON mejor que"
+	cont "nunca!"
+
+	para "Podéis creerme,"
+	line "porque tal y como"
+	cont "veis, soy el PROF."
+	cont "OAK."
+
+	para "¡Eso es todo!"
 	done
 
 StandCityRockerText:
-	text "The #MON that"
-	line "usually are in the"
-	para "ZOO over there"
-	line "aren't feeling"
-	cont "well."
-	para "STAND CITY park"
-	line "officials are"
-	para "keeping them at"
-	line "their park #MON"
-	cont "CENTER."
+	text "Los #MON que"
+	line "suelen estar en el"
+	cont "ZOO no se sienten"
+	cont "bien."
+
+	para "Los guardias del"
+	line "parque de CIUDAD"
+	para "ENHIESTA los están"
+	line "manteniendo en su"
+	cont "CENTRO #MON."
 	done
-	
+
 StandCityRockerAllGoodText:
-	text "That wasn't the"
-	line "real PROF.OAK?"
-	para "That's crazy!"
-	para "I'm so glad the"
-	line "#MON are doing"
-	cont "better now."
+	text "¿No era el verda-"
+	line "dero PROF. OAK?"
+	para "¡Qué locura!"
+
+	para "Me alegra que los"
+	line "#MON se estén"
+	cont "sintiendo mejor."
 	done
-	
+
 StandCityRockerImposterText:
-	text "TEAM ROCKET is"
-	line "behind the #MON"
-	cont "not feeling well?"
-	para "But PROF.OAK tells"
-	line "me that they'll be"
-	para "okay and it's a"
-	line "part of important"
-	cont "research…"
-	para "And I trust him."
+	text "¿El TEAM ROCKET"
+	line "tiene la culpa de"
+	para "que los #MON se"
+	line "sientan mal?"
+	para "Pero el PROF. OAK"
+	line "me dijo que"
+	para "estarían bien y"
+	line "que era parte de"
+	para "una importante"
+	line "investigación…"
+	para "Y yo confío en él."
 	done
 
 StandCityPokefanMText:
-	text "I'm disappointed"
-	line "the #MON aren't"
-	cont "outside."
-	para "But it's more"
-	line "important that"
-	cont "they get well."
+	text "Me decepciona que"
+	line "los #MON no"
+	cont "estén fuera."
+
+	para "Pero es más"
+	line "importante que se"
+	cont "pongan bien."
 	done
-	
+
 StandCityPokefanImposterText:
-	text "PROF.OAK is"
-	line "responsible for"
-	para "the #MON not"
-	line "feeling well?"
-	para "He must have a"
-	line "good reason…"
+	text "¿El PROF. OAK"
+	line "tiene la culpa de"
+	para "que los #MON se"
+	line "sientan mal?"
+	para "Debe tener un buen"
+	line "motivo…"
 	done
-	
+
 StandCityPokefanAllGoodText:
-	text "I'm so glad all of"
-	line "the #MON are"
-	cont "well again!"
+	text "¡Me alegra que los"
+	line "#MON ya se"
+	cont "sientan bien!"
 	done
 
 StandCityTwinText:
-	text "The STAND CITY ZOO"
-	line "is closed…"
-	
-	para "It's sad,"
-	line "considering it's"
-	para "STAND CITY's main"
-	line "attraction."
-	
-	para "I hope the #MON"
-	line "are okay."
+	text "El ZOO de CIUDAD"
+	line "ENHIESTA está"
+	cont "cerrado…"
+	para "Es una lástima,"
+	line "porque es la"
+	para "atracción princi-"
+	line "pal de la ciudad."
+
+	para "Espero que los"
+	line "#MON estén"
+	cont "bien."
 	done
-	
+
 StandCityTwinImposterText:
-	text "TEAM ROCKET is"
-	line "back?"
-	para "And with PROF.OAK?"
-	para "This can't be"
-	line "right…"
+	text "¿Ha vuelto el TEAM"
+	line "ROCKET?"
+	para "¿Y con el PROF."
+	line "OAK?"
+	para "Algo no me cuadra…"
 	done
-	
+
 StandCityTwinAllGoodText:
-	text "Yay! The ZOO is"
-	line "open again!"
+	text "¡Bien! ¡Han vuelto"
+	line "a abrir el ZOO!"
 	done
 
 StandCityTeacherText:
-	text "What are all of"
-	line "these TEAM ROCKET"
-	para "members doing"
-	line "here?"
-	para "This can't be"
-	line "good!"
+	text "¿Qué hacen todos"
+	line "esos miembros del"
+	cont "TEAM ROCKET aquí?"
+	para "¡Me da mala"
+	line "espina!"
 	done
-	
+
 StandCityTeacherImposterText:
-	text "Something didn't"
-	line "seem right about"
-	cont "PROF.OAK…"
+	text "El PROF. OAK"
+	line "estaba raro…"
 	done
 
 StandCityTeacherAllGoodText:
-	text "I'm so glad things"
-	line "are normal again."
+	text "Me alegra que todo"
+	line "haya vuelto a la"
+	cont "normalidad."
 	done
 
 StandCitySignText:
-	text "STAND CITY"
+	text "CIUDAD ENHIESTA"
 
-	para "A Utopia for"
-	line "People and #MON"
-	cont "Alike"
+	para "Una utopía para"
+	line "humanos y #MON"
+	cont "por igual"
 	done
 
 StandCityGymSignText:
-	text "STAND CITY"
-	line "#MON GYM"
-	cont "LEADER: OKERA"
+	text "LÍDER DEL GIMNASIO"
+	line "#MON DE CIUDAD"
+	cont "ENHIESTA: VELASCO"
 
-	para "The Kid Who"
-	line "Thrives In the"
-	cont "Dark"
+	para "El chico que"
+	line "brilla en la"
+	cont "oscuridad"
 	done
 
-
 ZooMedicalSignText:
-	text "STAND CITY ZOO"
-	line "Medical Center"
+	text "ZOO DE CIUDAD"
+	line "ENHIESTA"
+	para "CENTRO MÉDICO"
 	done
 
 StandZooKangaskhanSignText:
 	text "#MON:"
 	line "KANGASKHAN"
-	para "To avoid"
-	line "crushing the"
-	para "baby it carries in"
-	line "its pouch, it"
-	para "always sleeps"
-	line "standing up."
+	para "Tiene la costumbre"
+	line "de dormir de pie"
+	para "para no aplastar a"
+	line "la cría que lleva"
+	cont "acurrucada en la"
+	cont "bolsa."
 	done
 
 StandZooClefairySignText:
 	text "#MON:"
 	line "CLEFAIRY"
-	para "Though rarely"
-	line "seen, it becomes"
-	para "easier to spot,"
-	line "for some reason,"
-	para "on the night of a "
-	line "full moon."
+	para "Aunque no es muy"
+	line "común, se le puede"
+	para "ver por la noche."
+	line "Curiosamente,"
+	para "ocurre en noches"
+	line "de luna llena."
 	done
 	
 StandZooAmpharosSignText:
 	text "#MON:"
 	line "AMPHAROS"
-	para "When it gets dark,"
-	line "the light from its"
-	para "bright, shiny tail"
-	line "can be seen from"
-	para "far away on the"
-	line "ocean's surface."
+	para "Al anochecer, la"
+	line "luz intensa que se"
+	para "desprende del ex-"
+	line "tremo de la cola"
+	para "puede apreciarse"
+	line "desde muy lejos."
 	done
 	
 StandZooSkarmorySignText:
 	text "#MON:"
 	line "SKARMORY"
-	para "The feathers that"
-	line "it sheds are very"
-	para "sharp. It is said"
-	line "that people once"
-	para "used the feathers"
-	line "as swords."
+	para "Tiene unas plumas"
+	line "en las alas muy"
+	para "afiladas. Dicen"
+	line "que, antiguamente,"
+	para "se utilizaban a"
+	line "modo de espadas."
 	done
 	
 StandZooGolduckSignText:
 	text "#MON:"
 	line "GOLDUCK"
-	para "It swims grace-"
-	line "fully along on the"
-	para "quiet, slow-moving"
-	line "rivers and lakes"
-	para "of which it is so"
-	line "fond."
+	para "Nada con elegancia"
+	line "por las tranquilas"
+	para "aguas de ríos y"
+	line "lagos, donde se"
+	cont "siente como pez en"
+	cont "el agua."
 	done
 
 StandZooOfficeSignText:
-	text "STAND CITY ZOO"
-	line "Main Office"
+	text "ZOO DE CIUDAD"
+	line "ENHIESTA"
+	para "Oficina principal"
 	done
 
 StandCity_MapEvents:
@@ -819,8 +848,8 @@ StandCity_MapEvents:
 	object_event 14, 10, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, StandCityPokefanM, -1
 	object_event 14, 17, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_UP, 1, 1, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, StandCityTwin, -1
 	object_event 28, 30, SPRITE_TEACHER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, StandCityTeacher, -1
-	object_event 26, 11, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, StandCityFruitTree, -1
-	object_event 20,  8, SPRITE_MONSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_STAND_CITY_ZOO_MONS
+	object_event 26, 11, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, StandCityFruitTree, -1
+	object_event 20,  8, SPRITE_MONSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_STAND_CITY_ZOO_MONS
 	object_event  7, 21, SPRITE_MONSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_STAND_CITY_ZOO_MONS
 	object_event  7,  6, SPRITE_MONSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_STAND_CITY_ZOO_MONS
 	object_event 15, 14, SPRITE_BIRD, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_GRAY, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_STAND_CITY_ZOO_MONS

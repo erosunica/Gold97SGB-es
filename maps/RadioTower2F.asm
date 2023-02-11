@@ -89,82 +89,91 @@ TrainerGruntM26:
 	end
 	
 RadioTower2fBuenaText:
-	text "Hi! I'm BUENA!"
-	para "I was just hired"
-	line "to host a new"
-	cont "radio show!"
-	para "I can't wait until"
-	line "it starts airing!"
+	text "¡Hola! ¡Soy BUENA!"
+
+	para "¡Me acaban de"
+	line "contratar para"
+	para "presentar un nuevo"
+	line "programa de radio!"
+
+	para "¡No puedo esperar"
+	line "a que empiece su"
+	cont "emisión!"
 	done
-	
+
 RadioTower2fBuenaTextTakeover:
-	text "Eek!"
-	para "This is not what"
-	line "I expected out of"
-	cont "radio business!"
+	text "¡Ay!"
+
+	para "¡Esto no es lo que"
+	line "esperaba al traba-"
+	cont "jar en la radio!"
 	done
 	
 	
 GruntM24SeenText:
-	text "TEAM ROCKET can"
-	line "conduct operations"
-	cont "in secret bases."
-	para "But we also have"
-	line "no problem barging"
-	para "in and taking what"
-	line "we need if it's"
-	cont "necessary!"
+	text "El TEAM ROCKET"
+	line "puede operar en"
+	cont "bases secretas."
+
+	para "¡Pero no tenemos"
+	line "inconveniente en"
+	para "irrumpir y llevar-"
+	line "nos lo que haga"
+	cont "falta si es"
+	cont "necesario!"
 	done
 	
 GruntM24BeatenText:
-	text "And you had no"
-	line "problem defeating"
-	cont "me!"
+	text "¡Tú no has tenido"
+	line "inconveniente en"
+	cont "derrotarme!"
 	done
 	
 GruntM24AfterBattleText:
-	text "Have you met our"
-	line "leader?"
-	para "I have a feeling"
-	line "you two wouldn't"
-	cont "get along."
+	text "¿Conoces a nuestro"
+	line "líder?"
+	para "Me da a mí que no"
+	line "os llevaríais"
+	cont "bien."
 	done
 
 GruntM26SeenText:
-	text "Why are we here?"
-	para "Because you and"
-	line "your friend"
-	para "destroyed our"
-	line "antenna!"
-	para "Why build another"
-	line "when we could just"
-	cont "take this one?"
+	text "¿Que por qué"
+	line "estamos aquí?"
+	para "¡Porque tu amigo y"
+	line "tú destruisteis"
+	cont "nuestra antena!"
+
+	para "¿Por qué crear"
+	line "otra cuando pode-"
+	cont "mos robar esta?"
 	done
 	
 GruntM26BeatenText:
-	text "Yeowch!"
+	text "¡Auch!"
 	done
 	
 GruntM26AfterBattleText:
-	text "I blame you for"
-	line "all the problems"
-	cont "we've had!"
+	text "¡Hemos tenido"
+	line "muchos problemas"
+	cont "por vuestra culpa!"
 	done
 
 	
 RadioTower2fRockerTextTakeover:
-	text "Every radio"
-	line "station is talking"
-	cont "about TEAM ROCKET!"
+	text "¡Todas las"
+	line "estaciones de"
+	para "radio están"
+	line "hablando sobre el"
+	cont "TEAM ROCKET!"
 	done
 
 RadioTower2fRockerText:
-	text "Have you listened"
-	line "to the #MON"
-	cont "March?"
-	para "It makes wild"
-	line "#MON appear"
-	cont "more frequently."
+	text "¿Has escuchado la"
+	line "Marcha #MON?"
+	para "Hace que aparezcan"
+	line "más #MON"
+	cont "salvajes."
 	done
 
 MovementData_0x5d921:
@@ -178,22 +187,23 @@ RadioTowerJigglypuffText:
 	line "Jiggly…"
 	done
 
-
 RadioTower2FSalesSignText:
-	text "2F STUDIO 1"
+	text "P1 ESTUDIO 1"
 	done
 
 RadioTower2FOaksPKMNTalkSignText:
-	text "PROF.OAK'S #MON"
-	line "TALK"
+	text "La HORA #MON"
+	line "de KEN"
 
-	para "The Hottest Show"
-	line "on the Air!"
+	para "¡El mejor programa"
+	line "de la radio!"
 	done
 
 RadioTower2FPokemonRadioSignText:
-	text "Anywhere, Anytime"
-	line "#MON Radio"
+	text "RADIO #MON"
+	
+	para "A cualquier hora"
+	line "y en todas partes."
 	done
 
 RadioTower2F_MapEvents:

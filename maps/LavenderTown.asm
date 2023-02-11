@@ -45,62 +45,69 @@ FrostpointMartSignText:
 	jumpstd MartSignScript
 
 LavenderTownPokefanMText:
-	text "That's quite some"
-	line "building, eh?"
+	text "Menudo edificio,"
+	line "¿eh?"
 
-	para "It's SWISLANDS's RADIO"
-	line "TOWER."
+	para "Es la TORRE RADIO"
+	line "de las ISLAS"
+	cont "PONIENTES."
 	done
 
 LavenderTownTeacherText:
-	text "SWISLANDS has many"
-	line "good radio shows."
+	text "Las ISLAS"
+	line "PONIENTES tienen"
+	cont "muchos programas"
+	cont "de radio buenos."
 	done
 
 LavenderTownGrampsText:
-	text "People come from"
-	line "all over to pay"
+	text "Viene gente de"
+	line "todas partes a"
+	para "rendir homenaje a"
+	line "las almas de los"
 
-	para "their respects to"
-	line "the departed souls"
-	cont "of #MON."
+	para "#MON que han"
+	line "partido."
 	done
 
 LavenderTownYoungsterText:
-	text "You need a #"
-	line "FLUTE to wake"
-	cont "sleeping #MON."
+	text "Para despertar a"
+	line "los #MON,"
+	para "sintoniza FLAUTA"
+	line "#MON."
 
-	para "Every trainer has"
-	line "to know that!"
+	para "¡Todo entrenador"
+	line "debería saberlo!"
 	done
 
 LavenderTownSignText:
-	text "LAVENDER TOWN"
+	text "PUEBLO LAVANDA"
 
-	para "The Noble Purple"
-	line "Town"
+	para "El noble pueblo"
+	line "púrpura"
 	done
 
 SWIslandsRadioStationSignText:
-	text "SWISLANDS RADIO"
-	line "STATION"
+	text "EMISORA DE"
+	line "ISLAS PONIENTES"
 
-	para "Your Favorite"
-	line "Programs On-Air"
-	cont "Around the Clock!"
+	para "¡Tus programas"
+	line "favoritos a"
+	cont "cualquier hora!"
 	done
 
 VolunteerPokemonHouseSignText:
-	text "LAVENDER VOLUNTEER"
-	line "#MON HOUSE"
+	text "CASA #MON"
+	line "DE VOLUNTARIOS DE"
+	cont "PUEBLO LAVANDA"
 	done
 
 SoulHouseSignText:
-	text "SOUL HOUSE"
+	text "CEMENTERIO"
 
-	para "May the Souls of"
-	line "#MON Rest Easy"
+	para "Que las almas de"
+	line "los #MON"
+	cont "descansen en paz"
 	done
 
 LavenderTown_MapEvents:

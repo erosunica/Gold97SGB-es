@@ -1,10 +1,10 @@
-	db "SEED@" ; species name
-	dw 204, 150 ; height, weight
+	db "SEMILLA@" ; species name
+	dbw 7, 69 ; height, weight
 
-	db   "While it is young,"
-	next "it uses the"
-	next "nutrients that are"
+	db   "Cuando es joven,"
+	next "crece con los"
+	next "nutrientes que"
 
-	page "stored in the"
-	next "seeds on its back"
-	next "in order to grow.@"
+	page "almacena en las"
+	next "semillas de su"
+	next "espalda.@"

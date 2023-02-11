@@ -47,52 +47,60 @@ KumeCityRockerScript:
 	jumptextfaceplayer KumeCityRockerText
 	
 KumeCityFisherText:
-	text "It's cold over in"
-	line "ICED CAVERN."
-	para "Be prepared for"
-	line "that if you go"
-	cont "exploring."
+	text "Hace mucho frío en"
+	line "la GRUTA HELADA."
+
+	para "Prepárate si"
+	line "vas a explorarla."
 	done
-	
+
 KumeCityLassText:
-	text "You've been to"
-	line "FROSTPOINT TOWN?"
-	para "Wow, that's so far"
-	line "from here."
+	text "¿Has estado en"
+	line "PUEBLO ESCARCHA?"
+
+	para "Guau, eso está muy"
+	line "lejos de aquí."
 	done
-	
+
 KumeCityTeacherText:
-	text "You look like"
-	line "you're ready to go"
-	para "anywhere with"
-	line "#MON."
+	text "Parece que estás"
+	line "preparado para ir"
+	para "a cualquier lugar"
+	line "con tus #MON."
 	done
-	
+
 KumeCityRockerText:
-	text "The climate isn't"
-	line "as tropical here"
-	cont "as RYUKYU CITY,"
-	para "so we don't get as"
-	line "many tourists."
-	para "However, I hear"
-	line "the islands south"
-	para "of here are warm"
-	line "and tropical."
-	para "I've never seen"
-	line "them, though."
-	para "The whole area is"
-	line "off-limits."
+	text "Aquí el clima no"
+	line "es tan tropical"
+	para "como en CIUDAD"
+	line "RYUKYU, por lo que"
+	para "no recibimos"
+	line "tantos turistas."
+
+	para "Pero he oído que"
+	line "las ISLAS DEL SUR"
+	cont "son cálidas y"
+	cont "tropicales."
+
+	para "Aunque nunca las"
+	line "he visto, la"
+	cont "verdad."
+
+	para "Toda la zona es"
+	line "de acceso"
+	cont "restringido."
 	done
-	
+
 KumeCitySignText:
-	text "KUME CITY"
-	para "The Rocky Mountain"
-	line "Town"
+	text "CIUDAD KUME"
+
+	para "La ciudad de"
+	line "montañas rocosas"
 	done
-	
+
 UrumaCavernSignText:
-	text "ICED CAVERN"
-	line "ENTRANCE"
+	text "Entrada a la"
+	line "GRUTA HELADA"
 	done
 
 KumeCity_MapEvents:
@@ -115,8 +123,8 @@ KumeCity_MapEvents:
 	bg_event 18,  7, BGEVENT_READ, UrumaCavernSign
 
 	db 6 ; object events
-	object_event 18, 12, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, KumeCityFruitTree1, -1
-	object_event 16, 13, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, KumeCityFruitTree2, -1
+	object_event 18, 12, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, KumeCityFruitTree1, -1
+	object_event 16, 13, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, KumeCityFruitTree2, -1
 	object_event 12, 19, SPRITE_FISHER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, KumeCityFisherScript, -1
 	object_event 25, 23, SPRITE_LASS, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, KumeCityLassScript, -1
 	object_event 12,  8, SPRITE_TEACHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, KumeCityTeacherScript, -1

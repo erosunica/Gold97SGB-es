@@ -1423,4 +1423,85 @@ NihonGrassWildMons:
 	db 43, KANGASKHAN
 	db 43, KANGASKHAN
 
+	map_id ROUTE_107 ; no grass, only used in Ken's Pokémon Talk - this matches surfing wild mons for this route
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 21, TENTACOOL
+	db 18, TENTACOOL
+	db 21, TENTACOOL
+	db 18, TENTACOOL
+	db 18, TENTACOOL
+	db 21, TENTACRUEL
+	db 21, TENTACRUEL
+	; day
+	db 21, TENTACOOL
+	db 18, TENTACOOL
+	db 21, TENTACOOL
+	db 18, TENTACOOL
+	db 18, TENTACOOL
+	db 21, TENTACRUEL
+	db 21, TENTACRUEL
+	; nite
+	db 21, TENTACOOL
+	db 18, TENTACOOL
+	db 21, TENTACOOL
+	db 18, TENTACOOL
+	db 18, TENTACOOL
+	db 21, TENTACRUEL
+	db 21, TENTACRUEL
+
+	map_id ROUTE_111 ; no grass, only used in Ken's Pokémon Talk - this matches surfing wild mons for this route
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 21, TENTACOOL
+	db 18, TENTACOOL
+	db 21, TENTACOOL
+	db 18, TENTACOOL
+	db 18, TENTACRUEL
+	db 21, TENTACRUEL
+	db 21, MANTINE
+	; day
+	db 21, TENTACOOL
+	db 18, TENTACOOL
+	db 21, TENTACOOL
+	db 18, TENTACOOL
+	db 18, TENTACRUEL
+	db 21, TENTACRUEL
+	db 21, MANTINE
+	; nite
+	db 21, TENTACOOL
+	db 18, TENTACOOL
+	db 21, TENTACOOL
+	db 18, TENTACOOL
+	db 18, TENTACRUEL
+	db 21, TENTACRUEL
+	db 21, MANTINE
+
+	map_id ROUTE_117 ; no grass, only used in Ken's Pokémon Talk - this matches surfing wild mons for this route
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 21, TENTACOOL
+	db 18, TENTACOOL
+	db 21, TENTACOOL
+	db 18, TENTACOOL
+	db 18, TENTACOOL
+	db 21, TENTACRUEL
+	db 21, TENTACRUEL
+	; day
+	db 21, TENTACOOL
+	db 18, TENTACOOL
+	db 21, TENTACOOL
+	db 18, TENTACOOL
+	db 18, TENTACOOL
+	db 21, TENTACRUEL
+	db 21, TENTACRUEL
+	; nite
+	db 21, TENTACOOL
+	db 18, TENTACOOL
+	db 21, TENTACOOL
+	db 18, TENTACOOL
+	db 18, TENTACOOL
+	db 21, TENTACRUEL
+	db 21, TENTACRUEL
+
 	db -1 ; end

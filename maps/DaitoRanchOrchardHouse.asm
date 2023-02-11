@@ -11,34 +11,42 @@ AppleFarmerScript:
 	jumptextfaceplayer AppleFarmerText
 	
 AppleFarmerText:
-	text "Well, lookie here!"
-	
-	para "A trainer who came"
-	line "all the way here"
-	cont "to my ORCHARD!"
-	
-	para "I could use your"
-	line "help, kid."
-	para "My APPLES sell for"
-	line "a pretty penny"
-	para "on the mainland"
-	line "for their crisp"
-	cont "and fresh taste!"
-	
-	para "It's awfully hard"
-	line "to sell them that"
-	cont "far out, though."
-	
-	para "So if you wanna"
-	line "help, you can take"
-	para "them and sell them"
-	line "for me!"
-	
-	para "You can keep some"
-	line "of the profits!"
-	para "Don't worry, I'll"
-	line "get my cut back"
-	cont "from the MART!"
+	text "¡Vaya, qué tenemos"
+	line "aquí!"
+
+	para "¡Un entrenador que"
+	line "ha venido hasta"
+	cont "mi HUERTO!"
+
+	para "Me vendría bien tu"
+	line "ayuda, chico."
+
+	para "Mis MANZANAS se"
+	line "venden como pan"
+	para "caliente en el"
+	line "continente por su"
+	para "textura y sabor"
+	line "refrescante."
+
+	para "Pero venderlas"
+	line "allí es más"
+	para "complicado de lo"
+	line "que parece."
+
+	para "Si quieres"
+	line "ayudarme, ¡podrías"
+	para "llevarte unas"
+	line "cuantas y"
+	cont "venderlas por mí!"
+
+	para "Puedes quedarte"
+	line "con parte de los"
+	cont "beneficios."
+
+	para "No te preocupes,"
+	line "¡yo ya obtengo mi"
+	para "parte de la venta"
+	line "en TIENDAS!"
 	done
 
 

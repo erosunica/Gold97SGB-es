@@ -99,104 +99,103 @@ SilverGoesThroughGateMovement:
 	step_end
 	
 SilverAtTheGateText:
-	text "<PLAYER>!"
-	para "You made it out of"
-	line "SILENT HILLS!"
-	para "I wasn't sure you"
-	line "could do it!"
-	para "I already caught"
-	line "some super awesome"
-	cont "#MON!"
-	para "You better stay on"
-	line "top of your game"
-	para "if you want to"
-	line "keep up with me!"
-	para "Anyways, see ya!"
+	text "¡<PLAYER>!"
+	
+	para "¡Has conseguido"
+	line "atravesar las"
+	cont "COLINAS SILENTES!"
+	
+	para "¡No estaba seguro"
+	line "de si lo"
+	cont "lograrías!"
+	
+	para "¡Yo ya he"
+	line "capturado #MON"
+	cont "muy chulos!"
+	
+	para "¡Será mejor que"
+	line "espabiles si"
+	para "quieres ponerte a"
+	line "mi altura!"
+	
+	para "¡Bueno, nos vemos!"
 	done
 	
 FledglingHugoSeenText:
-	text "Um…"
-	para "Are you a new"
-	line "trainer too?"
+	text "Erm…"
+	
+	para "¿Tú también"
+	line "eres un nuevo"
+	cont "entrenador?"
 	done
 
 FledglingHugoBeatenText:
-	text "Wow, you don't"
-	line "seem new…"
+	text "Pues no pareces"
+	line "nuevo…"
 	done
 
 FledglingHugoAfterBattleText:
-	text "How did you get"
-	line "so good?"
+	text "¿Cómo se te da"
+	line "tan bien?"
 	done
-
 
 Route101FisherText:
-	text "I wanted to take a"
-	line "break, so I saved"
-
-	para "to record my"
-	line "progress."
+	text "Quería descansar"
+	line "un poco, así que"
+	cont "guardé la partida."
 	done
 
-; unused
 Text_WaitingForDay:
-	text "I'm waiting for"
-	line "#MON that"
-
-	para "appear only in the"
-	line "daytime."
+	text "Estoy esperando a"
+	line "los #MON que"
+	cont "aparecen sólo por"
+	cont "el día."
 	done
 
 Route101CooltrainerMText_WaitingForNight:
-	text "I'm waiting for"
-	line "#MON that"
-
-	para "appear only at"
-	line "night."
+	text "Estoy esperando a"
+	line "los #MON que"
+	cont "aparecen sólo por"
+	cont "la noche."
 	done
 
 Route101CooltrainerMText_WaitingForMorning:
-	text "I'm waiting for"
-	line "#MON that"
-
-	para "appear only in the"
-	line "morning."
+	text "Estoy esperando a"
+	line "los #MON que"
+	cont "aparecen sólo por"
+	cont "la mañana."
 	done
-
 
 Route101Sign2Text:
-	text "TRAINER TIPS"
+	text "PISTAS ENTRENADOR"
 
-	para "No stealing other"
-	line "people's #MON!"
+	para "¡No robes los"
+	line "#MON de otros!"
 
-	para "# BALLS are to"
-	line "be thrown only at"
-	cont "wild #MON!"
+	para "¡Las # BALLS"
+	line "sólo se lanzan a"
+	cont "#MON salvajes!"
 	done
 
-
 TeacherColetteSeenText:
-	text "My DODAERIE is the"
-	line "cutest in the"
-	cont "world."
+	text "Mi DODAERIE es el"
+	line "más mono del"
+	cont "mundo."
 	done
 
 TeacherColetteBeatenText:
-	text "My DODAERIE!"
+	text "¡Mi DODAERIE!"
 	done
 
 TeacherColetteAfterBattleText:
-	text "Look how adorable"
-	line "my DODAERIE acts!"
+	text "¡Mira lo adorable"
+	line "que es mi"
+	cont "DODAERIE!"
 
-	para "Isn't it cute"
-	line "enough to make"
-	cont "your heart melt?"
+	para "¿No te hace"
+	line "derretirte de lo"
+	cont "mono que es?"
 	done
-
-
 
 Route101N_MapEvents:
 	db 0, 0 ; filler

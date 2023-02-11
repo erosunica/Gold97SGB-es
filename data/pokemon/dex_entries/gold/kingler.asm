@@ -1,10 +1,10 @@
-	db "PINCER@" ; species name
-	dw 403, 1320 ; height, weight
+	db "TENAZA@" ; species name
+	dbw 13, 600 ; height, weight
 
-	db   "Its oversized claw"
-	next "is very powerful,"
-	next "but when it's not"
+	db   "Las grandes dimen-"
+	next "siones de la pinza"
+	next "que posee son muy"
 
-	page "in battle, the"
-	next "claw just gets in"
-	next "the way.@"
+	page "útiles en combate,"
+	next "pero un estorbo a"
+	next "la hora de andar.@"

@@ -26,53 +26,52 @@ BirdonPokecenter1FPokefanFScript:
 	jumptextfaceplayer BirdonPokecenter1FPokefanFText
 
 BirdonPokecenter1FGentlemanText:
-	text "Do your #MON"
-	line "know HM moves?"
+	text "¿Tus #MON saben"
+	line "movimientos MO?"
 
-	para "Those moves can"
-	line "be used even if"
-
-	para "your #MON has"
-	line "fainted."
+	para "Se pueden usar"
+	line "estos movimientos"
+	para "aunque el #MON"
+	line "esté debilitado."
 	done
 
 BirdonPokecenter1FUnusedText:
 ; unreferenced
-	text "This BILL guy"
-	line "created the system"
+	text "BILL creó el"
+	line "Sistema de"
 
-	para "for storing"
-	line "#MON in a PC."
+	para "Almacenamiento en"
+	line "PC de los #MON."
 
-	para "BILL's PC can"
-	line "store up to 20"
-	cont "#MON per BOX."
+	para "El PC de BILL"
+	line "almacena hasta 20"
+	cont "#MON por CAJA."
 	done
 
 BirdonPokecenter1FFishingGuruText:
-	text "BILL's PC can"
-	line "store up to 20"
-	cont "#MON per BOX."
+	text "El PC de BILL"
+	line "puede almacenar"
+	para "hasta 20 #MON"
+	line "por CAJA."
 	done
 
 BirdonPokecenter1FPokefanFText:
-	text "Do you know about"
-	line "APRICORNS?"
+	text "¿Sabes algo sobre"
+	line "los BONGURI?"
 
-	para "Crack one open,"
-	line "hollow it out and"
+	para "Abre uno, vacíalo"
+	line "y rellénalo con"
+	para "un aparato"
+	line "especial."
 
-	para "fit it with a"
-	line "special device."
+	para "Así podrás atrapar"
+	line "#MON."
 
-	para "Then you can catch"
-	line "#MON with it."
+	para "Antes de que se"
+	line "inventaran las"
 
-	para "Before # BALLS"
-	line "were invented,"
-
-	para "everyone used"
-	line "APRICORNS."
+	para "# BALL, todos"
+	line "usaban BONGURI."
 	done
 
 BirdonPokecenter1F_MapEvents:
@@ -88,7 +87,7 @@ BirdonPokecenter1F_MapEvents:
 	db 0 ; bg events
 
 	db 4 ; object events
-	object_event  5,  1, SPRITE_NURSE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, BirdonPokecenter1FNurseScript, -1
+	object_event  5,  1, SPRITE_NURSE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, BirdonPokecenter1FNurseScript, -1
 	object_event  11,  6, SPRITE_FISHER, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BirdonPokecenter1FGentlemanScript, -1
 	object_event  10,  1, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BirdonPokecenter1FFishingGuruScript, -1
 	object_event  1,  4, SPRITE_GENTLEMAN, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BirdonPokecenter1FPokefanFScript, -1

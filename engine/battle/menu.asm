@@ -24,22 +24,22 @@ Function24e78:
 
 BattleMenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 8, 12, SCREEN_WIDTH - 1, SCREEN_HEIGHT - 1
+	menu_coords 6, 12, SCREEN_WIDTH - 1, SCREEN_HEIGHT - 1
 	dw MenuData_0x24e93
 	db 1 ; default option
 
 MenuData_0x24e93:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	dn 2, 2 ; rows, columns
-	db 6 ; spacing
+	db 8 ; spacing
 	dba Strings24e9c
 	dbw BANK(MenuData_0x24e93), 0
 
 Strings24e9c:
-	db "FIGHT@"
-	db "<PK><MN>@"
-	db "PACK@"
-	db "RUN@"
+	db "LUCHA@"
+	db "<PKMN>@"
+	db "MOCHILA@"
+	db "ESC@"
 
 MenuHeader_0x24eae:
 	db MENU_BACKUP_TILES ; flags
@@ -69,25 +69,25 @@ Function24edc:
 
 MenuHeader_0x24ee9:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 2, 12, SCREEN_WIDTH - 1, SCREEN_HEIGHT - 1
+	menu_coords 6, 12, SCREEN_WIDTH - 1, SCREEN_HEIGHT - 1
 	dw MenuData_0x24ef1
 	db 1 ; default option
 
 MenuData_0x24ef1:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	dn 2, 2 ; rows, columns
-	db 12 ; spacing
+	db 8 ; spacing
 	dba Strings24efa
 	dba Strings24f13
 
 Strings24efa:
-	db "FIGHT@"
-	db "<PK><MN>@"
-	db "PARKBALL×  @"
-	db "RUN@"
+	db "LUCHA@"
+	db "<PKMN>@"
+	db "BALL×  @"
+	db "ESC@"
 
 Strings24f13:
-	hlcoord 13, 16
+	hlcoord 10, 16
 	ld de, wParkBallsRemaining
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 2
 	call PrintNum

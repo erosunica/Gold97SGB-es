@@ -1,10 +1,10 @@
-	db "DUCK@" ; species name
-	dw 507, 1690 ; height, weight
+	db "PATO@" ; species name
+	dbw 17, 766 ; height, weight
 
-	db   "It swims grace-"
-	next "fully along on the"
-	next "quiet, slow-moving"
+	db   "Nada con elegancia"
+	next "por las tranquilas"
+	next "aguas de ríos y"
 
-	page "rivers and lakes"
-	next "of which it is so"
-	next "fond.@"
+	page "lagos, donde se"
+	next "siente como pez en"
+	next "el agua.@"

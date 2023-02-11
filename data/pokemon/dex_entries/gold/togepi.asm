@@ -1,10 +1,10 @@
-	db "SPIKE BALL@" ; species name
-	dw 100, 30 ; height, weight
+	db "BOLACLAVOS@" ; species name
+	dbw 3, 15 ; height, weight
 
-	db   "It is considered"
-	next "to be a symbol of"
-	next "good luck. Its"
+	db   "Todo el mundo"
+	next "coincide en que es"
+	next "el símbolo de la"
 
-	page "shell is said to"
-	next "be filled with"
-	next "happiness.@"
+	page "buena suerte. Se"
+	next "dice que va reves-"
+	next "tido de felicidad.@"

@@ -1,10 +1,10 @@
-	db "MAGNET@" ; species name
-	dw 303, 1320 ; height, weight
+	db "IMÁN@" ; species name
+	dbw 10, 600 ; height, weight
 
-	db   "When many"
-	next "MAGNETON gather"
-	next "together, the"
+	db   "Al unirse varios"
+	next "MAGNETON, se crea"
+	next "una tormenta"
 
-	page "resulting magnetic"
-	next "storm disrupts"
-	next "radio waves.@"
+	page "magnética que"
+	next "trastorna las"
+	next "ondas de radio.@"

@@ -80,103 +80,117 @@ DocksSailorScript:
 	jumptextfaceplayer DocksSailorText
 	
 DocksRocket1Text:
-	text "Just an innocent"
-	line "DOCK worker"
-	para "bringing in some"
-	line "cargo!"
-	para "Nothing weird"
-	line "going on here!"
+	text "¡Solo soy un"
+	line "inocente trabaja-"
+	cont "dor del MUELLE"
+	cont "trayendo un poco"
+	cont "de carga!"
+
+	para "¡Todo bien por"
+	line "aquí!"
 	done
 	
 DocksRocket2Text:
-	text "The CAPTAIN is"
-	line "onboard working on"
-	para "the logistics of"
-	line "the final shipment"
-	cont "here at the DOCKS."
-	para "We're almost ready"
-	line "to ditch this"
-	cont "place!"
+	text "El CAPITÁN está a"
+	line "bordo trabajando"
+	para "en la logística"
+	line "del último envío"
+	cont "aquí en el"
+	cont "MUELLE."
+
+	para "¡Ya casi estamos"
+	line "listos para"
+	cont "largarnos de aquí!"
 	done
 	
 DocksRocket3Text:
-	text "Finally, our"
-	line "operations here"
-	cont "are almost done!"
-	para "I can't wait to"
-	line "get back to the"
-	para "east side of NIHON"
-	line "where it's much"
-	cont "cooler!"
+	text "¡Por fin! ¡Estamos"
+	line "a punto de termi-"
+	cont "nar nuestras"
+	cont "operaciones aquí!"
+
+	para "¡Qué ganas tengo"
+	line "de volver al este"
+	para "de NIHON, donde"
+	line "hace mucho menos"
+	cont "calor!"
 	done
 	
 DocksRocket4Text:
-	text "Don't bother me!"
-	line "I'm working!"
+	text "¡No me molestes!"
+	line "¡Estoy trabajando!"
 	done
 	
 DocksRocket5Text:
-	text "I'm a-working on"
-	line "the railroad…"
+	text "Soy mineroo…"
 	para "…"
-	para "Hm, wrong song."
+	para "Mmm… no, no era"
+	line "esa canción."
 	done
 	
 DocksRocket6Text:
-	text "Being a DOCK"
-	line "worker is hard!"
+	text "¡Es duro trabajar"
+	line "en el MUELLE!"
 	done
-
+	
 GruntM29SeenText:
-	text "What do you want,"
-	line "kid?"
-	para "Authorized"
-	line "personnel only!"
-	para "Get lost, or face"
-	line "my wrath!"
+	text "¿Qué quieres,"
+	line "niño?"
+	para "¡Aquí solo se"
+	line "permite personal"
+	cont "autorizado!"
+
+	para "¡Piérdete o"
+	line "enfrentarás mi"
+	cont "ira!"
 	done
 	
 GruntM29BeatenText:
-	text "Aieee!"
+	text "¡Ayy!"
 	done
 	
 GruntM29AfterBattleText:
-	text "You could be a"
-	line "problem."
-	para "And I don't want"
-	line "to deal with it!"
-	done
+	text "Podrías ser un"
+	line "problema."
 
+	para "¡Y no quiero ser"
+	line "yo quien lo"
+	cont "arregle!"
+	done
+	
 DocksGuruText:
-	text "There aren't any"
-	line "ships in the"
-	cont "harbor right now."
-	para "It's a slow day."
+	text "Hoy no hay ningún"
+	line "barco en el"
+	cont "MUELLE."
+
+	para "Es un día"
+	line "tranquilo."
 	done
 	
 DocksGuruText2:
-	text "There's a cafe"
-	line "over in ALLOY"
-	para "CITY that has"
-	line "the best food!"
-	para "I wish I didn't"
-	line "work so far from"
-	cont "it…"
-	done
+	text "¡Hay una cafetería"
+	line "en CIUDAD ALEAR"
+	para "que tiene una"
+	line "comida exquisita!"
 
+	para "Ojalá no trabajase"
+	line "tan lejos de allí…"
+	done
+	
 DocksFisherText:
-	text "I'm not a worker."
-	line "I just like"
-	para "watching ships"
-	line "come and go."
+	text "No trabajo aquí."
+	line "Solo me gusta ver"
+	cont "ir y venir los"
+	cont "barcos."
 	done
 	
 DocksSailorText:
-	text "I set sail in"
-	line "a few weeks."
-	para "It's been a while"
-	line "since I've been"
-	cont "out at sea!"
+	text "Zarpo en unas"
+	line "pocas semanas."
+
+	para "¡Ha pasado tiempo"
+	line "desde que estuve"
+	cont "en el mar!"
 	done
 
 SunpointDocks_MapEvents:

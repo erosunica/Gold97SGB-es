@@ -91,168 +91,191 @@ KantoLass2Script:
 	jumptextfaceplayer KantoLass2Text
 	
 KantoFisher3Text:
-	text "Doesn't returning"
-	line "to a familiar"
-	para "place give you a"
-	line "warm, fuzzy"
-	cont "feeling?"
+	text "¿Volver a un lugar"
+	line "conocido no te"
+	para "hace sentir cali-"
+	line "dez y nostalgia?"
 	done
-	
+
 KantoLass2Text:
-	text "The SCIENTISTS in"
-	line "this lab are"
-	cont "amazing!"
-	para "They were able to"
-	line "turn my fossil"
-	para "into a living"
-	line "#MON!"
+	text "¡Los CIENTÍFICOS"
+	line "de este labora-"
+	cont "torio son"
+	cont "asombrosos!"
+
+	para "¡Han revivido mi"
+	line "fósil y ahora es"
+	cont "un #MON!"
 	done
-	
+
 KantoFisher2Text:
-	text "Boy, I sure do"
-	line "love fishing!"
-	para "And this is such"
-	line "a peaceful spot"
-	cont "to do it!"
+	text "¡Chico, me encanta"
+	line "pescar!"
+
+	para "¡Y esta zona es"
+	line "estupenda para"
+	cont "hacerlo!"
 	done
-	
+
 KantoYoungsterText:
-	text "One day, I want"
-	line "to be just as"
-	cont "strong as RED."
-	para "I'm not sure that"
-	line "will happen,"
-	cont "though."
-	para "Very few people"
-	line "are as good as"
-	cont "him."
+	text "Un día, quiero ser"
+	line "tan fuerte como"
+	cont "ROJO."
+
+	para "Aunque no creo que"
+	line "lo consiga."
+
+	para "Muy pocos logran"
+	line "ser tan buenos"
+	cont "como él."
 	done
-	
+
 KantoSuperNerdText:
-	text "The owner of this"
-	line "GAME CORNER"
-	para "recently bought"
-	line "ownership of the"
-	para "newer one over on"
-	line "BOARDWALK."
+	text "El dueño de este"
+	line "CASINO adquirió"
+	para "hace poco la"
+	line "propiedad del"
+	para "nuevo que abrieron"
+	line "en la PASARELA."
 	done
-	
+
 KantoLassText:
-	text "Do you know about"
-	line "SILPH CO.?"
-	para "If not, you"
-	line "probably should."
-	para "There's a good"
-	line "chance they made"
-	para "the #BALLS your"
-	line "#MON are in!"
+	text "¿Conoces SILPH"
+	line "S.A.?"
+
+	para "Si no la conoces,"
+	line "deberías."
+
+	para "¡Seguramente las"
+	line "# BALLS en las"
+	para "que están tus"
+	line "#MON las"
+	cont "hicieron ellos!"
 	done
-	
+
 KantoPokefanMText:
-	text "I've never been a"
-	line "serious trainer."
-	para "I mean, I train"
-	line "#MON, and I"
-	cont "battle."
-	para "But it's been more"
-	line "of a hobby."
-	para "The guy inside of"
-	line "the KANTO BATTLE"
-	para "CLUB wouldn't let"
-	line "me inside…"
+	text "Nunca he sido un"
+	line "gran entrenador."
+
+	para "Sí, entreno"
+	line "#MON y combato"
+	cont "con ellos."
+
+	para "Pero es más bien"
+	line "un pasatiempo."
+
+	para "El tipo del CLUB"
+	line "BATALLA de KANTO"
+	cont "no me dejó pasar…"
 	done
-	
+
 KantoFisherText:
-	text "Technology is"
-	line "incredible!"
-	para "You can now trade"
-	line "#MON across"
-	cont "time!"
+	text "¡La tecnología es"
+	line "increíble!"
+
+	para "¡Ahora puedes"
+	line "intercambiar"
+	para "#MON a través"
+	line "del tiempo!"
 	done
-	
+
 KantoSignText:
-	text "KANTO REGION"
-	para "NIHON's Southern"
-	line "Crown Jewel"
+	text "KANTO"
+
+	para "La joya de la"
+	line "corona del sur de"
+	cont "NIHON"
 	done
-	
+
 KantoGymSignText:
-	text "KANTO #MON GYM"
-	line "LEADER: RED"
+	text "LÍDER DEL GIMNASIO"
+	line "#MON DE KANTO:"
+	cont "ROJO"
 
-	para "The Experienced"
-	line "Veteran Trainer"
+	para "El veterano"
+	line "entrenador experto"
 	done
-	
+
 KobanIslandSignText2:
-	text "PALLET TOWN"
+	text "PUEBLO PALETA"
 
-	para "A Tranquil Setting"
-	line "of Peace and"
-	cont "Purity"
+	para "Un tranquilo lugar"
+	line "de paz y pureza"
 	done
-	
+
 RedsHouseSignText2:
-	text "RED's house"
+	text "CASA DE ROJO"
 	done
-	
+
 BluesHouseSignText2:
-	text "BLUE's house"
+	text "CASA DE AZUL"
 	done
 
 OaksLabSign2Text:
-	text "OAK #MON LAB"
-	para "NOTICE: PROF.OAK"
-	line "is currently"
-	para "researching in"
-	line "SILENT TOWN."
-	done
-	
-KantoDeptSignText:
-	text "Full Selection of"
-	line "#MON Goods!"
+	text "LABORATORIO DE"
+	line "INVESTIGACIÓN"
+	cont "#MON del PROF."
+	cont "OAK"
 
-	para "KANTO DEPT.STORE"
+	para "AVISO: El PROF."
+	line "OAK se encuentra"
+	para "investigando en"
+	line "PUEBLO SILENTE."
+	done
+
+KantoDeptSignText:
+	text "CENTRO COMERCIAL"
+	line "DE KANTO"
+
+	para "¡Una gran gama de"
+	line "artículos #MON!"
 	done
 	
 KantoMansionSignText:
-	text "KANTO MANSION"
+	text "EDIFICIO KANTO"
 	done
 	
 KantoBattleClubSignText:
-	text "KANTO BATTLE CLUB"
-	para "A members-only"
-	line "club for serious"
-	cont "trainers."
+	text "CLUB BATALLA DE"
+	line "KANTO"
+
+	para "Un club de grandes"
+	line "entrenadores. Solo"
+	cont "para miembros."
 	done
-	
+
 PokemonTowerSignText:
-	text "#MON TOWER"
-	para "A monument to"
-	line "#MON who have"
-	cont "passed."
+	text "TORRE #MON"
+
+	para "Un monumento a los"
+	line "#MON que han"
+	cont "partido."
 	done
 
 KantoCooltrainerMText:
-	text "They're holding an"
-	line "eating contest in"
-	cont "the restaurant."
-	para "Just watching them"
-	line "go at it makes me"
-	cont "feel bloated…"
+	text "Hay un concurso de"
+	line "comida en el"
+	cont "restaurante."
+
+	para "Solo verlos comer"
+	line "me hace sentir"
+	cont "lleno…"
 	done
-	
+
 KantoTeacherText:
-	text "The KANTO DEPT."
-	line "STORE has the best"
-	cont "selection."
-	para "If you can't get"
-	line "it there, you"
-	para "can't get it any-"
-	line "where!"
-	para "…Gee, I sound"
-	line "like a sales"
-	cont "clerk."
+	text "El CENTRO"
+	line "COMERCIAL de KANTO"
+	para "tiene la mejor"
+	line "selección de"
+	cont "artículos."
+
+	para "¡Si no los"
+	line "consigues allí, no"
+	para "los conseguirás en"
+	line "ninguna parte!"
+
+	para "Sueno como una"
+	line "vendedora…"
 	done
 
 KantoRegion_MapEvents:
@@ -317,7 +340,7 @@ KantoRegion_MapEvents:
 	object_event 50, 26, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_UP, 1, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, KantoCooltrainerMScript, -1
 	object_event 11, 19, SPRITE_TEACHER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, 0, KantoTeacherScript, -1
 	object_event 38,  7, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, KantoPokefanMScript, -1
-	object_event 34, 21, SPRITE_LASS, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 1, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, KantoLassScript, -1
+	object_event 34, 21, SPRITE_LASS, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 1, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, KantoLassScript, -1
 	object_event 31, 28, SPRITE_SUPER_NERD, SPRITEMOVEDATA_SPINRANDOM_SLOW, 1, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, KantoSuperNerdScript, -1
 	object_event  5,  9, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 1, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, KantoYoungsterScript, -1
 	object_event 40, 43, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 1, 1, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, KantoFisher2Script, -1

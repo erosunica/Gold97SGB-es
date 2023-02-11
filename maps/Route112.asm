@@ -300,167 +300,174 @@ Route112Worker2Script:
 	jumptextfaceplayer Route112Worker2Text
 
 Route112OfficerText:
-	text "A recent snowstorm"
-	line "damaged this gate."
-	para "We're working on"
-	line "getting it"
-	cont "repaired."
+	text "Una tormenta de"
+	line "nieve destrozó"
+	cont "este acceso hace"
+	cont "poco."
+
+	para "Estamos trabajando"
+	line "para repararlo."
 	done
-	
+
 Route112Worker1Text:
-	text "Whew!"
-	para "STAND CITY is at"
-	line "a much lower"
-	para "altitude than"
-	line "BLUE FOREST."
-	para "The storm blew"
-	line "snow down the"
-	para "hill and right"
-	line "into this gate!"
+	text "¡Uf!"
+
+	para "CIUDAD ENHIESTA"
+	line "está a mucha menos"
+	para "altitud que el"
+	line "BOSQUE AZUL."
+
+	para "¡La tormenta ha"
+	line "arrastrado nieve"
+	para "por la colina y ha"
+	line "acabado en este"
+	cont "acceso!"
 	done
-	
+
 Route112Worker2Text:
-	text "Be careful, kid!"
-	para "There might be"
-	line "broken glass"
-	cont "around here."
-	para "You should stay"
-	line "back until we're"
-	cont "done with repairs."
+	text "¡Cuidado, chico!"
+
+	para "Podría haber"
+	line "cristales rotos"
+	cont "por aquí."
+
+	para "No deberías seguir"
+	line "hasta que hayamos"
+	cont "reparado todo."
 	done
 
 YoungsterGordonSeenText:
-	text "I found some good"
-	line "#MON in the"
-	cont "grass!"
+	text "¡He encontrado"
+	line "#MON muy buenos"
+	cont "en la hierba!"
 
-	para "I think they'll do"
-	line "it for me!"
+	para "¡Creo que me"
+	line "servirán!"
 	done
 
 YoungsterGordonBeatenText:
-	text "Darn. I thought I"
-	line "could win."
+	text "¡Maldición! Creía"
+	line "que podía ganar."
 	done
 
 YoungsterGordonAfterText:
-	text "The grass is full"
-	line "of clingy things."
+	text "En la hierba hay"
+	line "cosas pegajosas."
 	done
 
 CamperRolandSeenText:
-	text "I'm spending my"
-	line "day camping at"
-	para "the base of this"
-	line "snowy hill."
+	text "Estoy pasando el"
+	line "día acampando en"
+	para "la base de esta"
+	line "colina nevada."
 	done
 
 CamperRolandBeatenText:
-	text "Hmmm. This is"
-	line "disappointing."
+	text "¡Mmmm!"
+	line "¡Qué decepción!"
 	done
 
 CamperRolandAfterText:
-	text "A snowy hill is"
-	line "such a pleasant"
-	cont "camping location!"
+	text "¡Una colina nevada"
+	line "es buen sitio para"
+	cont "acampar!"
 	done
 
 PicnickerLiz1SeenText:
-	text "Uh-huh. Yeah, and"
-	line "you know…"
+	text "Sí. Y sabes que…"
 
-	para "Pardon? Battle?"
-	line "I'm on the phone."
+	para "¿Luchar? ¡Estoy"
+	line "al teléfono!"
 
-	para "Oh, all right. But"
-	line "make it fast."
+	para "Vale. Pero que sea"
+	line "rápido."
 	done
 
 PicnickerLiz1BeatenText:
-	text "Oh! I've got to"
-	line "relieve my anger!"
+	text "¡Oh! ¡Tengo que"
+	line "aliviar mi enfado!"
 	done
 
 PicnickerLiz1AfterText:
-	text "I was having a"
-	line "nice chat too."
+	text "Yo también estaba"
+	line "charlando."
 	done
 
 
 
 MeetFriedaText:
-	text "FRIEDA: Yahoo!"
-	line "It's Friday!"
+	text "VICKI: ¡Yuju!"
+	line "¡Es viernes!"
 
-	para "I'm FRIEDA of"
-	line "Friday!"
+	para "Soy VICKI, por"
+	line "viernes."
 
-	para "Nice to meet you!"
+	para "¡Mucho gusto!"
 	done
 
 FriedaGivesGiftText:
-	text "Here's a POISON"
-	line "BARB for you!"
+	text "¡Toma una FLECHA"
+	line "VENENOSA!"
 	done
 
 FriedaGaveGiftText:
-	text "FRIEDA: Give it to"
-	line "a #MON that has"
-	cont "poison-type moves."
+	text "VICKI: Dásela a un"
+	line "#MON de tipo"
+	cont "veneno."
 
-	para "Oh!"
+	para "¡Oh!"
 
-	para "It's wicked!"
+	para "¡Es terrible!"
 
-	para "You'll be shocked"
-	line "how good it makes"
-	cont "poison moves!"
+	para "¡Te sorprenderá"
+	line "ver cómo mejora"
+	para "los movimientos"
+	line "de tipo veneno!"
 	done
 
 FriedaFridayText:
-	text "FRIEDA: Hiya! What"
-	line "day do you like?"
+	text "VICKI: ¡Hola! ¿Qué"
+	line "día prefieres?"
 
-	para "I love Friday. No"
-	line "doubt about it!"
+	para "A mí me gusta el"
+	line "viernes. Sin duda."
 
-	para "Don't you think"
-	line "it's great too?"
+	para "¿No crees que es"
+	line "genial?"
 	done
 
 FriedaNotFridayText:
-	text "FRIEDA: Isn't it"
-	line "Friday today?"
+	text "VICKI: ¿Hoy no es"
+	line "viernes?"
 
-	para "It's so boring"
-	line "when it's not!"
+	para "¡Me aburro cuando"
+	line "no lo es!"
 	done
 
 Route112SignText:
-	text "ROUTE 112"
+	text "RUTA 112"
 
-	para "BLUE FOREST -"
-	line "STAND CITY"
+	para "BOSQUE AZUL -"
+	line "CIUDAD ENHIESTA"
 	done
 	
 
 PicnickerGina1SeenText:
-	text "Are you a trainer?"
+	text "¿Entrenas #MON?"
 
-	para "Let's have a"
-	line "practice battle."
+	para "Libremos un"
+	line "combate de prueba."
 	done
 
 PicnickerGina1BeatenText:
-	text "Oh, no! I just"
-	line "can't win…"
+	text "¡Oh, no! No puedo"
+	line "ganar…"
 	done
 
 PicnickerGina1AfterText:
-	text "You're too strong"
-	line "to be a practice"
-	cont "partner."
+	text "Eres demasiado"
+	line "fuerte para"
+	cont "practicar conmigo."
 	done
 
 
@@ -483,7 +490,7 @@ Route112_MapEvents:
 
 	db 11 ; object events
 	object_event 10, 23, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerYoungsterGordon, -1
-	object_event  8, 41, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_TRAINER, 3, TrainerCamperRoland, -1
+	object_event  8, 41, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_TRAINER, 3, TrainerCamperRoland, -1
 	object_event  6, 30, SPRITE_LASS, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 1, TrainerPicnickerLiz1, -1
 	object_event  2, 19, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route112GreatBall, EVENT_ROUTE_112_GREAT_BALL
 	object_event 14, 12, SPRITE_LASS, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, FriedaScript, EVENT_ROUTE_112_FRIEDA_OF_FRIDAY
@@ -492,4 +499,4 @@ Route112_MapEvents:
 	object_event 11, 48, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 3, Route112Worker1Script, EVENT_ROUTE_112_SNOW_STORM
 	object_event 13, 48, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 3, Route112Worker2Script, EVENT_ROUTE_112_SNOW_STORM
 	object_event  4,  9, SPRITE_LASS, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 2, TrainerPicnickerGina1, -1
-	object_event  4, 16, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route112Tree, -1
+	object_event  4, 16, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, Route112Tree, -1

@@ -27,28 +27,28 @@ BoardwalkTeknosGateLass:
 	jumptextfaceplayer BoardwalkTeknosGateLassText
 
 BoardwalkTeknosGateOfficerText:
-	text "I hear there are"
-	line "some sketchy"
-	para "business dealings"
-	line "going on behind"
-	para "the scenes for the"
-	line "GAME CORNER."
+	text "He oído que el"
+	line "CASINO está metido"
+	para "en algunos"
+	line "negocios sucios."
 	done
 
 BoardwalkTeknosGateOfficerRocketsClearedText:
-	text "I heard the GAME"
-	line "CORNER is under"
-	para "new management"
-	line "these days."
+	text "He oído que el"
+	line "CASINO ahora lo"
+	cont "llevan otras"
+	cont "personas."
 	done
 
 BoardwalkTeknosGateLassText:
-	text "I have a friend up"
-	line "in SANSKRIT TOWN."
-	para "This new BOARDWALK"
-	line "makes it so much"
-	para "easier for us to"
-	line "visit."
+	text "Tengo un amigo que"
+	line "vive en PUEBLO"
+	cont "SÁNSCRITO."
+
+	para "Esta nueva"
+	line "PASARELA hace"
+	para "mucho más fácil"
+	line "que vaya a verlo."
 	done
 
 BoardwalkTeknosGate_MapEvents:

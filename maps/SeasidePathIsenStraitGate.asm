@@ -15,24 +15,29 @@ SeasidePathIsenStraitGateBugCatcherScript:
 	jumptextfaceplayer SeasidePathIsenStraitGateBugCatcherText
 	
 SeasidePathIsenStraitGateBugCatcherText:
-	text "The wild #MON"
-	line "on the ISLANDS are"
-	cont "very strong."
-	para "Much more tough"
-	line "than the mainland,"
-	cont "I think."
+	text "Los #MON"
+	line "salvajes de aquí"
+	cont "son muy fuertes."
+
+	para "Mucho más que los"
+	line "del continente,"
+	cont "diría yo."
 	done
 
 SeasidePathIsenStraitGateOfficerText:
-	text "I've heard that"
-	line "ISEN STRAIT holds"
-	para "hidden remnants of"
-	line "secret experiments"
-	para "into creating a"
-	line "manmade #MON."
-	para "What could that"
-	line "mean?"
+	text "He oído que el"
+	line "ESTRECHO ISEN"
+	para "esconde restos"
+	line "ocultos de"
+	para "experimentos"
+	line "secretos para"
+	cont "crear un #MON"
+	cont "artificial."
+
+	para "¿Qué podría"
+	line "significar eso?"
 	done
+
 
 
 SeasidePathIsenStraitGate_MapEvents:
@@ -49,5 +54,5 @@ SeasidePathIsenStraitGate_MapEvents:
 	db 0 ; bg events
 
 	db 2 ; object events
-	object_event  5,  2, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, SeasidePathIsenStraitGateOfficerScript, -1
+	object_event  5,  2, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, SeasidePathIsenStraitGateOfficerScript, -1
 	object_event  1,  2, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, SeasidePathIsenStraitGateBugCatcherScript, -1

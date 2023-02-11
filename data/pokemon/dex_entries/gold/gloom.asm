@@ -1,10 +1,10 @@
-	db "WEED@" ; species name
-	dw 207, 190 ; height, weight
+	db "HIERBAJO@" ; species name
+	dbw 8, 86 ; height, weight
 
-	db   "The smell from its"
-	next "drool-like syrup"
-	next "and the pollen on"
+	db   "El aroma emitido"
+	next "por la miel de la"
+	next "boca y el polen de"
 
-	page "its petals is so"
-	next "bad, it may make"
-	next "opponents faint.@"
+	page "los pétalos, son"
+	next "fulminantes para"
+	next "sus oponentes.@"

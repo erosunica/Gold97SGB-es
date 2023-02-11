@@ -294,6 +294,7 @@ INCLUDE "maps/BirdonMilkBar.asm"
 INCLUDE "maps/BirdonMart.asm"
 INCLUDE "maps/KurtsHouse.asm"
 INCLUDE "maps/WestportGym.asm"
+INCLUDE "maps/StandCityNationalParkGate.asm"
 
 
 SECTION "Map Scripts 21", ROMX
@@ -309,7 +310,6 @@ INCLUDE "maps/Route106Pokecenter1F.asm"
 INCLUDE "maps/Route103WestportGate.asm"
 INCLUDE "maps/Route103NationalParkGate.asm"
 INCLUDE "maps/Route112StandGate.asm"
-INCLUDE "maps/StandCityNationalParkGate.asm"
 
 
 SECTION "Map Scripts 22", ROMX
@@ -500,11 +500,11 @@ INCLUDE "maps/Kanto2Pokecenter1F.asm"
 INCLUDE "maps/KantoMart.asm"
 INCLUDE "maps/SkateboarderHouse.asm"
 INCLUDE "maps/Route105Route106Gate.asm"
+INCLUDE "maps/CrownMart.asm"
 
 
 SECTION "Map Scripts 32", ROMX
 
-INCLUDE "maps/CrownMart.asm"
 INCLUDE "maps/CrownPokecenter1F.asm"
 INCLUDE "maps/BirdonElderHouse.asm"
 INCLUDE "maps/CrownEvolutionSpeechHouse.asm"

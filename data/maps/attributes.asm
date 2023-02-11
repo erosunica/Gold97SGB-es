@@ -37,7 +37,7 @@ _src = -_tgt
 _tgt = 0
 endc
 
-if "\1" == "north"
+if !STRCMP("\1", "north")
 _blk = \3_WIDTH * (\3_HEIGHT - 3) + _src
 _map = _tgt
 _win = (\3_WIDTH + 6) * \3_HEIGHT + 1
@@ -48,7 +48,7 @@ if _len > \3_WIDTH
 _len = \3_WIDTH
 endc
 
-elif "\1" == "south"
+elif !STRCMP("\1", "south")
 _blk = _src
 _map = (CURRENT_MAP_WIDTH + 6) * (CURRENT_MAP_HEIGHT + 3) + _tgt
 _win = \3_WIDTH + 7
@@ -59,7 +59,7 @@ if _len > \3_WIDTH
 _len = \3_WIDTH
 endc
 
-elif "\1" == "west"
+elif !STRCMP("\1", "west")
 _blk = (\3_WIDTH * _src) + \3_WIDTH - 3
 _map = (CURRENT_MAP_WIDTH + 6) * _tgt
 _win = (\3_WIDTH + 6) * 2 - 6
@@ -70,7 +70,7 @@ if _len > \3_HEIGHT
 _len = \3_HEIGHT
 endc
 
-elif "\1" == "east"
+elif !STRCMP("\1", "east")
 _blk = (\3_WIDTH * _src)
 _map = (CURRENT_MAP_WIDTH + 6) * _tgt + CURRENT_MAP_WIDTH + 3
 _win = \3_WIDTH + 7
@@ -110,7 +110,7 @@ ENDM
 	connection south, CrownCity, CROWN_CITY, 0
 
 	map_attributes PagotaCity, PAGOTA_CITY, $2F, WEST
-	connection west, Route102, ROUTE_102, 5
+	connection west, Route102, ROUTE_102, 2
 
 	map_attributes BirdonTown, BIRDON_TOWN, $2F, SOUTH | EAST
 	connection south, Route103, ROUTE_103, 0
@@ -121,7 +121,7 @@ ENDM
 
 	map_attributes WestportCity, WESTPORT_CITY, $21, NORTH | EAST
 	connection north, Route103, ROUTE_103, 5
-	connection east, Route102, ROUTE_102, 5
+	connection east, Route102, ROUTE_102, 2
 
 	map_attributes AlloyCity, ALLOY_CITY, $79, SOUTH | WEST | EAST
 	connection south, RouteU5U, ROUTE_U5U, 12
@@ -182,8 +182,8 @@ ENDM
 	connection east, RouteU4U, ROUTE_U4U, 18
 
 	map_attributes Route102, ROUTE_102, $05, WEST | EAST
-	connection west, WestportCity, WESTPORT_CITY, -5
-	connection east, PagotaCity, PAGOTA_CITY, -5
+	connection west, WestportCity, WESTPORT_CITY, -2
+	connection east, PagotaCity, PAGOTA_CITY, -2
 
 	map_attributes SilentHills, SILENT_HILLS, $00, 0
 
@@ -696,4 +696,3 @@ ENDM
 	map_attributes IejimaPokecenter1F, IEJIMA_POKECENTER_1F, $00, 0
 	map_attributes IejimaHouse1, IEJIMA_HOUSE_1, $00, 0
 	map_attributes IejimaHouse2, IEJIMA_HOUSE_2, $00, 0
-

@@ -58,7 +58,7 @@ PartyMenu_InitAnimatedMonIcon:
 	add a
 	add a
 	add a
-	add $1c
+	add $18 ; erosunica: modded to match its new location
 	ld d, a
 ; x coord
 	ld e, $10

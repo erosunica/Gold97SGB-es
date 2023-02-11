@@ -1,10 +1,10 @@
-	db "DOPEY@" ; species name
-	dw 311, 790 ; height, weight
+	db "ATONTADO@" ; species name
+	dbw 12, 360 ; height, weight
 
-	db   "It is always so"
-	next "absent-minded that"
-	next "it won't react,"
+	db   "Está siempre tan"
+	next "ensimismado que,"
+	next "aunque le muerdan"
 
-	page "even if its"
-	next "flavorful tail is"
-	next "bitten.@"
+	page "la cola tan apeti-"
+	next "tosa que tiene, ni"
+	next "se inmutará.@"

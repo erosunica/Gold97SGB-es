@@ -45,19 +45,19 @@ IcedCavern1FHiddenFullRestore:
 	hiddenitem FULL_RESTORE, EVENT_ICED_CAVERN_1F_HIDDEN_FULL_RESTORE
 
 SupernerdHughSeenText:
-	text "Ah!"
+	text "¡Ah!"
 	done
 
 SupernerdHughBeatenText:
-	text "Sorry, I was"
-	line "startled."
+	text "Me pillaste por"
+	line "sorpresa."
 	done
 
 SupernerdHughAfterBattleText:
-	text "I'm looking for"
-	line "rare #MON, but"
-	para "I haven't found"
-	line "any."
+	text "Estoy buscando"
+	line "#MON raros,"
+	para "pero no he dado"
+	line "con ninguno."
 	done
 
 IcedCavern1F_MapEvents:

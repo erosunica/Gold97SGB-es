@@ -57,37 +57,39 @@ IejimaTownHouse2Twin:
 	end
 	
 IejimaTownHouse2TeacherText2:
-	text "My children love"
-	line "to swim in the"
-	para "pond in front of"
-	line "the waterfall,"
-	para "but we can't do"
-	line "that right now."
+	text "A mis niños les"
+	line "encanta nadar en"
+	para "el estanque que"
+	line "hay frente a la"
+	para "cascada, pero"
+	line "ahora no podemos"
+	cont "hacerlo."
 	done
-	
+
 IejimaTownHouse2TeacherText:
-	text "I'll have to take"
-	line "my kids swimming"
-	cont "soon."
+	text "Tendré que llevar"
+	line "a mis niños a"
+	cont "nadar pronto."
 	done
-	
+
 IejimaTownHouse2BugCatcherText2:
-	text "I want to go"
-	line "swimming!"
+	text "¡Quiero ir a"
+	line "nadar!"
 	done
-	
+
 IejimaTownHouse2BugCatcherText:
-	text "Let's go swimming!"
+	text "¡Vamos a nadar!"
 	done
-	
+
 IejimaTownHouse2TwinText2:
-	text "Why can't we go"
-	line "swimming?"
+	text "¿Por qué no"
+	line "podemos ir a"
+	cont "nadar?"
 	done
-	
+
 IejimaTownHouse2TwinText:
-	text "I love going"
-	line "swimming!"
+	text "¡Me encanta ir a"
+	line "nadar!"
 	done
 	
 IejimaHouse2_MapEvents:

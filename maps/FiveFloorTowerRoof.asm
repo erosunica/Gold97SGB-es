@@ -40,22 +40,22 @@ TinTowerHoOh:
 	disappear TINTOWERROOF_HO_OH
 	reloadmapafterbattle
 	setevent EVENT_SET_WHEN_FOUGHT_HO_OH
-	pause 20
+	pause 10
 	playsound SFX_MEGA_PUNCH
 	waitsfx
-	pause 10
+	;pause 10
 	cry RAIKOU
-	pause 20
+	pause 10
 	playsound SFX_MEGA_PUNCH
 	waitsfx
-	pause 10
+	;pause 10
 	cry ENTEI
-	pause 20
+	pause 10
 	playsound SFX_MEGA_PUNCH
 	waitsfx
-	pause 10
+	;pause 10
 	cry SUICUNE
-	pause 20
+	pause 10
 	opentext
 	writetext BeastsHaveScatteredText
 	waitbutton
@@ -63,14 +63,15 @@ TinTowerHoOh:
 	end
 
 HoOhText:
-	text "Shaoooh!"
+	text "¡Shaoooh!"
 	done
 	
 BeastsHaveScatteredText:
-	text "It feels as though"
-	line "three gusts of"
-	para "wind have shaken"
-	line "the land…"
+	text "Sientes como si"
+	line "tres remolinos de"
+	para "viento hubiesen"
+	line "sacudido la"
+	cont "tierra…"
 	done
 
 FiveFloorTowerRoof_MapEvents:

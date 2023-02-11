@@ -1,10 +1,10 @@
-	db "BIRD@" ; species name
-	dw 411, 870 ; height, weight
+	db "PÁJARO@" ; species name
+	dbw 15, 395 ; height, weight
 
-	db   "Its outstanding"
-	next "vision allows it"
-	next "to spot splashing"
+	db   "Su excelente"
+	next "vista le permite"
+	next "ver MAGIKARP,"
 
-	page "MAGIKARP, even"
-	next "while flying at"
-	next "3300 feet.@"
+	page "incluso cuando"
+	next "vuela a 1.000 m"
+	next "de altura.@"

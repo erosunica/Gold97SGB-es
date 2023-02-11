@@ -346,227 +346,246 @@ MovementData_0x18e46c:
 	step_end
 
 UnknownText_0x18e473:
-	text "Climb the 5 FLOOR"
-	line "TOWER."
-	para "It is a great test"
-	line "of your potential"
-	cont "as a trainer."
+	text "Sube la TORRE"
+	line "GODAI."
+	
+	para "Pondrá a prueba"
+	line "tu potencial como"
+	cont "entrenador."
 	done
 
 UnknownText_0x18e615:
-	text "You have learned"
-	line "of the ways of"
+	text "Has aprendido"
+	line "mucho sobre los"
 	cont "#MON."
-	para "I would be honored"
-	line "to provide"
-	cont "assistance to you."
-	para "I can build"
-	line "# BALLS. Unique"
-	para "custom ones that"
-	line "may prove useful."
-	para "Here, I'll give"
-	line "one to you now."
+	
+	para "Sería un honor"
+	line "para mí ayudarte"
+	cont "en tu viaje."
+	
+	para "Puedo hacer"
+	line "# BALLS únicas"
+	para "y personalizadas"
+	line "que te serán"
+	cont "útiles."
+	
+	para "Ten, te daré esta."
 	done
 
 KurtsHouseKurtBallsFromApricornsText:
-	text "KURT: I make BALLS"
-	line "from APRICORNS."
+	text "CÉSAR: Fabrico las"
+	line "BALL de los"
+	cont "BONGURI."
 
-	para "Collect them from"
-	line "trees and bring"
-	cont "'em to me."
+	para "Recógelos de los"
+	line "árboles y"
+	cont "tráemelos."
 
-	para "I'll make BALLS"
-	line "out of them."
+	para "Los usaré para"
+	line "hacer las BALL."
 	done
 
 KurtsHouseKurtAskYouHaveAnApricornText:
-	text "KURT: You have an"
-	line "APRICORN for me?"
+	text "CÉSAR: ¿Tienes"
+	line "un BONGURI?"
 
-	para "Fine! I'll turn it"
-	line "into a BALL."
+	para "¡Vale! Te haré"
+	line "una BALL."
 	done
 
 KurtsHouseKurtItWillTakeADayText:
-	text "KURT: It'll take a"
-	line "day to make you a"
-
-	para "BALL. Come back"
-	line "for it later."
+	text "CÉSAR: Tardaré un"
+	line "día en fabricar"
+	para "una BALL. Vuelve"
+	line "mañana a por ella."
 	done
 
 KurtsHouseKurtThatsALetdownText:
-	text "KURT: Oh…"
-	line "That's a letdown."
+	text "CÉSAR: ¡Oh…!"
+	line "¡Qué decepción!"
 	done
 
 KurtsHouseKurtDontBotherMeText:
-	text "KURT: I'm working!"
-	line "Don't bother me!"
+	text "CÉSAR: ¡Estoy"
+	line "trabajando! ¡Vete!"
 	done
 
 KurtsHouseKurtJustFinishedYourBallText:
-	text "KURT: Ah, <PLAYER>!"
-	line "I just finished"
-	cont "your BALL. Here!"
+	text "CÉSAR: ¡<PLAYER>!"
+	line "Acabo de terminar"
+	cont "tu BALL. Tuya es."
 	done
 
 KurtsHouseKurtTurnedOutGreatText:
-	text "KURT: That turned"
-	line "out great."
+	text "CÉSAR: Ha salido"
+	line "muy bien."
 
-	para "Try catching"
-	line "#MON with it."
+	para "Intenta capturar"
+	line "#MON con ella."
 	done
 
 UnknownText_0x18e863:
-	text "I feel like I've"
-	line "improved at this,"
-
-	para "and can work much"
-	line "faster than I used"
-	cont "to be able to."
+	text "Siento que he"
+	line "mejorado y que"
+	para "puedo trabajar"
+	line "mucho más rápido"
+	cont "que antes."
 	done
 
 UnknownText_0x18e8ab:
-	text "Wh-what is that?"
+	text "¿Qué es eso?"
 
-	para "I've never seen"
-	line "one before."
+	para "Nunca lo había"
+	line "visto."
 
-	para "It looks a lot"
-	line "like a # BALL,"
+	para "Se parece mucho a"
+	line "una # BALL,"
+	para "pero parece que"
+	line "tiene algo más."
 
-	para "but it appears to"
-	line "be something else."
-
-	para "Let me check it"
-	line "for you."
+	para "Déjame que lo vea."
 	done
 
 UnknownText_0x18e934:
-	text "I'm checking it"
-	line "now."
+	text "Estoy viéndolo."
 	done
 
 UnknownText_0x18e949:
-	text "Ah-ha! I see!"
-	line "So…"
+	text "¡Ajá! ¡Ya veo!"
+	line "Entonces…"
 	done
 
 UnknownText_0x18e95c:
-	text "<PLAYER>!"
+	text "¡<PLAYER>!"
 
-	para "This BALL started"
-	line "to shake while I"
-	cont "was checking it."
+	para "Esta BALL comenzó"
+	line "a agitarse cuando"
+	cont "la examinaba."
 
-	para "There must be"
-	line "something to this!"
+	para "¡Tiene que haber"
+	line "algo!"
 	done
 
-
-
 KurtsHouseSlowpokeText:
-	text "SLOWPOKE: …"
-	line "Yawn?"
+	text "SLOWPOKE: ¡Mmm!"
+	line "(Bostezo)."
 	done
 
 KurtsHouseOakPhotoText:
-	text "It's KURT standing"
-	line "in the tower with"
-	para "a SAGE and a man"
-	line "in a CAPTAIN's"
-	cont "hat."
+	text "Es CÉSAR en la"
+	line "TORRE GODAI con un"
+	para "SABIO y un hombre"
+	line "con gorra de"
+	cont "CAPITÁN."
 	done
 
 KurtsHouseLeafeonStatueText:
-	text "It's a statue of"
-	line "the forest's pro-"
-	cont "tector."
+	text "Es una estatua del"
+	line "guardián del"
+	cont "bosque."
 	done
 	
 FalknerGreets:
-	text "FALKNER: Well who"
-	line "might you be?"
-	para "<PLAYER>, hm?"
-	line "What brings you"
-	cont "here?"
-	para "Well, I'm sure"
-	line "it's because I'm"
-	para "not where I should"
-	line "be right now."
-	para "I'll get on back"
-	line "to the GYM so you"
-	para "can challenge me"
-	line "for a BADGE."
+	text "PEGASO: ¿Quién"
+	line "eres tú?"
+	
+	para "Así que <PLAYER>."
+	line "¿Qué te trae aquí?"
+	
+	para "Debe ser porque no"
+	line "estoy donde"
+	para "debería estar en"
+	line "estos momentos."
+	
+	para "Volveré al"
+	line "GIMNASIO para que"
+	para "puedas retarme por"
+	line "la MEDALLA."
+	
 	para "…"
-	para "Hm?"
-	para "You're not taking"
-	line "the #MON LEAGUE"
-	cont "challenge?"
-	para "What brings you"
-	line "to PAGOTA CITY?"
+	
+	para "¿Qué?"
+	
+	para "¿No vas a afrontar"
+	line "el desafío de la"
+	cont "LIGA #MON?"
+	
+	para "¿Qué te trae a"
+	line "CIUDAD PAGOTA?"
+	
 	para "…"
-	para "Wow, it's very"
-	line "impressive that"
-	para "PROF.OAK has asked"
-	line "you to go out and"
-	para "help him research"
-	line "#MON."
-	para "But I see the"
-	line "glimmer in your"
-	cont "eye!"
-	para "If you feel the"
-	line "urge to start your"
-	para "own LEAGUE"
-	line "challenge,"
-	para "feel free to stop"
-	line "by to take me on!"
-	para "Anyways, I'll be"
-	line "on my way now."
-	para "I hope I'll be"
-	line "seeing you soon!"
+	
+	para "Vaya, es"
+	line "impresionante que"
+	para "el PROF. OAK te"
+	line "haya encargado"
+	para "ayudarlo con su"
+	line "investigación"
+	cont "#MON."
+	
+	para "¡Pero puedo ver el"
+	line "brillo en tu"
+	cont "mirada!"
+	
+	para "¡Si deseas iniciar"
+	line "tu desafío en la"
+	para "LIGA, siéntete"
+	line "libre de combatir"
+	cont "contra mí!"
+	
+	para "Ahora, me marcho."
+	
+	para "¡Espero que nos"
+	line "veamos pronto!"
 	done
 	
 KurtTalks:
-	text "KURT: I could tell"
-	line "when you walked"
-	cont "in the room."
-	para "You have great"
-	line "potential as a"
-	cont "trainer."
-	para "FALKNER could tell"
-	line "as well."
-	para "I strongly suggest"
-	line "you take the"
-	para "LEAGUE challenge"
-	line "while traveling."
-	para "But apart from"
-	line "that, I want to"
-	para "help you with your"
-	line "research by"
-	para "providing you with"
-	line "something that can"
-	para "help you catch"
-	line "#MON."
-	para "But I request that"
-	line "you prove yourself"
-	cont "first."
-	para "PAGOTA CITY's 5"
-	line "FLOOR TOWER is a"
-	para "sacred place where"
-	line "I spent many years"
-	para "strengthening my"
-	line "understanding of"
-	para "the relationship"
-	line "between people and"
+	text "CÉSAR: Lo supe"
+	line "desde el momento"
+	cont "en que entraste."
+	
+	para "Tienes un gran"
+	line "potencial como"
+	cont "entrenador."
+	
+	para "PEGASO también se"
+	line "dio cuenta."
+	
+	para "Te sugiero"
+	line "encarecidamente"
+	para "que afrontes el"
+	line "desafío de la LIGA"
+	cont "durante tu viaje."
+	
+	para "Aparte, me"
+	line "gustaría ayudarte"
+	para "con tu investiga-"
+	line "ción ofreciéndote"
+	para "algo que te"
+	line "ayudará a capturar"
 	cont "#MON."
-	para "I ask that you"
-	line "climb this tower."
-	para "Do this, then"
-	line "return to me."
+	
+	para "Pero primero"
+	line "quiero que"
+	cont "demuestres tu"
+	cont "valía."
+	
+	para "La TORRE GODAI de"
+	line "CIUDAD PAGOTA es"
+	para "un lugar sagrado"
+	line "en el que he"
+	para "pasado muchos años"
+	line "fortaleciendo todo"
+	para "lo que sé sobre la"
+	line "relación entre las"
+	cont "personas y los"
+	cont "#MON."
+	
+	para "Te encargo que"
+	line "subas esa torre."
+	
+	para "Hazlo, y entonces"
+	line "vuelve a verme."
 	done
 
 KurtsHouse_MapEvents:

@@ -87,7 +87,7 @@ RadioTower4fSuperNerd:
 	end
 
 .mapcardname
-	db "MAP CARD@"
+	db "TARJ. MAPA@"
 	
 
 	
@@ -142,148 +142,172 @@ TrainerGruntM28:
 	
 
 GruntM28SeenText:
-	text "Surprise!"
+	text "¡Sorpresa!"
 	done
 	
 GruntM28BeatenText:
-	text "You were prepared"
-	line "for this…"
+	text "Más bien me has"
+	line "sorprendido a mí…"
 	done
 	
 GruntM28AfterBattleText:
-	text "I'm sure you're"
-	line "used to seeing"
-	para "TEAM ROCKET grunts"
-	line "by now."
+	text "Ya debes estar"
+	line "acostumbrado a"
+	para "toparte con"
+	line "reclutas del TEAM"
+	cont "ROCKET."
 	done
 
 KenGiveMapInTower:
-	text "KEN: Hey, bro!"
-	line "I did it!"
-	para "I'm a DJ now!"
-	para "And the research"
-	line "you've been doing"
-	para "for PROF.OAK is"
-	line "super useful for"
-	cont "my radio show!"
-	para "I owe ya one!"
-	para "…Oh, wait!"
-	line "I never had a"
-	para "chance to give"
-	line "this to you!"
+	text "KEN: ¡Qué pasa,"
+	line "hermano!"
+	cont "¡Lo logré!"
+	
+	para "¡Ya soy un DJ!"
+	
+	para "¡Y la investiga-"
+	line "ción que estás"
+	para "haciendo con el"
+	line "PROF. OAK me está"
+	para "viniendo de"
+	line "maravilla para mi"
+	cont "programa de radio!"
+	
+	para "¡Te debo una!"
+	
+	para "…"
+	
+	para "¡Ah, espera!"
+	line "¡Al final no pude"
+	cont "darte esto!"
 	done
 	
 KenGiveMapInTower2:
-	text "How did you make"
-	line "it this far with-"
-	para "out a map and not"
-	line "get lost?"
+	text "¿Cómo has llegado"
+	line "hasta aquí sin"
+	cont "mapa y sin"
+	cont "perderte?"
 	done
 	
 GruntM27SeenText:
-	text "Going to the top?"
-	para "I don't think so!"
+	text "¿Vas a la planta"
+	line "más alta?"
+	para "¡Lo dudo!"
 	done
 	
 GruntM27BeatenText:
-	text "I hear the view"
-	line "is lovely up"
-	cont "there."
+	text "Escuché que la"
+	line "vista es preciosa"
+	cont "desde allí."
 	done
 	
 GruntM27AfterBattleText:
-	text "You can beat me,"
-	line "but you can't beat"
+	text "¡Podrás vencerme a"
+	line "mí, pero no a"
 	cont "GIOVANNI!"
 	done
-
 	
 ScientistMarcSeenText:
-	text "My research shows"
-	line "we have a brat!"
+	text "¡Mi investigación"
+	line "demuestra que hay"
+	cont "un mocoso!"
 	done
 	
 ScientistMarcBeatenText:
-	text "Oh, dear."
+	text "Maldita sea."
 	done
 	
 ScientistMarcAfterBattleText:
-	text "You stand in the"
-	line "way of science!"
+	text "¡Te estás interpo-"
+	line "niendo en el"
+	cont "camino de la"
+	cont "ciencia!"
 	done
 	
 RadioTower4fTeacherText:
-	text "MARY: Be sure to"
-	line "tune in to KEN's"
-	cont "#MON TALK,"
-	para "daily after 10"
-	line "in the morning!"
+	text "ROSA: ¡No olvides"
+	line "sintonizar la HORA"
+	cont "#MON de KEN,"
+	para "cada día a partir"
+	line "de las 10 de la"
+	cont "mañana!"
 	done
 	
 RadioTower4fTeacherTextTakeover:
-	text "MARY: I should've"
-	line "stayed home today!"
+	text "ROSA: ¡Debería"
+	line "haberme quedado"
+	cont "hoy en casa!"
 	done
 	
 RadioTower4fBurglarText:
-	text "Hiya, kid!"
-	para "I'm the production"
-	line "manager for KEN's"
-	cont "#MON TALK!"
-	para "Be sure to tune in"
-	line "to our show!"
+	text "¡Hola, chico!"
+
+	para "¡Soy el gerente de"
+	line "producción de la"
+	cont "HORA #MON de"
+	cont "KEN!"
+
+	para "¡No olvides"
+	line "sintonizarnos!"
 	done
 	
 RadioTower4fBurglarTextTakeover:
-	text "This isn't part of"
-	line "the production"
-	cont "plan!"
+	text "¡Esto no era parte"
+	line "de la producción!"
 	done
 
 RadioTower4fRockerText:
-	text "I listened to the"
-	line "radio while I was"
-	cont "at SANSKRIT RUINS."
-	para "I heard a strange"
-	line "broadcast there."
+	text "Estando en las"
+	line "RUINAS SÁNSCRITAS,"
+	cont "escuché la radio."
+
+	para "Oí una sintonía"
+	line "extraña."
 	done
 	
 RadioTower4fRockerTextTakeover:
-	text "All our regular"
-	line "shows are"
-	cont "currently off-air!"
+	text "¡Todos nuestros"
+	line "programas están"
+	para "ahora mismo fuera"
+	line "de emisión!"
 	done
 	
-	
 RadioTower4fSuperNerdText:
-	text "KEN: Hey, bro!"
-	line "I did it!"
-	para "I'm a DJ now!"
-	para "And the research"
-	line "you've been doing"
-	para "for PROF.OAK is"
-	line "super useful for"
-	cont "my radio show!"
-	para "I owe ya one!"
+	text "KEN: ¡Qué pasa,"
+	line "hermano!"
+	cont "¡Lo logré!"
+	
+	para "¡Ya soy un DJ!"
+	
+	para "¡Y la investiga-"
+	line "ción que estás"
+	para "haciendo con el"
+	line "PROF. OAK me está"
+	para "viniendo de"
+	line "maravilla para mi"
+	cont "programa de radio!"
+	
+	para "¡Te debo una!"
 	done
 	
 RadioTower4fSuperNerdTextTakeover:
-	text "KEN: Bro! What are"
-	line "you doing here!?"
-	para "Stay safe!"
+	text "KEN: ¡<PLAYER>!"
+	line "¡¿Qué haces aquí?!"
+
+	para "¡Ponte a salvo!"
 	done
 	
 RadioTower4fSuperNerdTextAfter:
-	text "KEN: Did you kick"
-	line "those ROCKETS out"
-	cont "of here?"
-	para "Bro, you and your"
-	line "#MON are"
-	cont "seriously strong!"
+	text "KEN: ¿Te has"
+	line "encargado tú de"
+	cont "los ROCKET?"
+	para "¡Hermano, tus"
+	line "#MON y tú sois"
+	cont "la mar de fuertes!"
 	done
 	
 RadioTower4FStudio2SignText:
-	text "4F STUDIO 2"
+	text "P3 ESTUDIO 2"
 	done
 
 RadioTower4F_MapEvents:

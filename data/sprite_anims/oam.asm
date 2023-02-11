@@ -87,19 +87,11 @@ SpriteAnimOAMData:
 	dbw $00, .OAMData_CutTree4                 ; SPRITE_ANIM_OAMSET_CUT_TREE_4
 	dbw $00, .OAMData_1x1_Palette0             ; SPRITE_ANIM_OAMSET_EGG_CRACK
 	dbw $01, .OAMData_1x1_Palette0             ; SPRITE_ANIM_OAMSET_EGG_HATCH
-IF DEF(_GOLD)
 	dbw $00, .OAMData_GSIntroHoOh1             ; SPRITE_ANIM_OAMSET_GS_INTRO_HO_OH_1
 	dbw $00, .OAMData_GSIntroHoOh2             ; SPRITE_ANIM_OAMSET_GS_INTRO_HO_OH_2
 	dbw $00, .OAMData_GSIntroHoOh3             ; SPRITE_ANIM_OAMSET_GS_INTRO_HO_OH_3
 	dbw $00, .OAMData_GSIntroHoOh4             ; SPRITE_ANIM_OAMSET_GS_INTRO_HO_OH_4
 	dbw $00, .OAMData_GSIntroHoOh5             ; SPRITE_ANIM_OAMSET_GS_INTRO_HO_OH_5
-ELIF DEF(_SILVER)
-	dbw $00, .OAMData_GSIntroBlissey1            ; SPRITE_ANIM_OAMSET_GS_INTRO_HO_OH_1
-	dbw $20, .OAMData_GSIntroBlissey1            ; SPRITE_ANIM_OAMSET_GS_INTRO_HO_OH_2
-	dbw $40, .OAMData_GSIntroBlissey2            ; SPRITE_ANIM_OAMSET_GS_INTRO_HO_OH_3
-	dbw $60, .OAMData_GSIntroBlissey2            ; SPRITE_ANIM_OAMSET_GS_INTRO_HO_OH_4
-	dbw $00, .OAMData_GSIntroBlissey1            ; SPRITE_ANIM_OAMSET_GS_INTRO_HO_OH_5
-ENDC
 	dbw $04, .OAMData_Tree                     ; SPRITE_ANIM_OAMSET_HEADBUTT_TREE_2
 
 .OAMData_1x1_Palette0:
@@ -477,12 +469,12 @@ ENDC
 	db 1
 	dbsprite -1, -1,  4,  4, $00, PAL_OW_GREEN
 
-.OAMData_Tree:
+.OAMData_Tree: ; erosunica: uses OBJ 7 palette aka green 2 shades
 	db 4
-	dbsprite -1, -1,  0,  0, $00, PAL_OW_GREEN
-	dbsprite  0, -1,  0,  0, $01, PAL_OW_GREEN
-	dbsprite -1,  0,  0,  0, $02, PAL_OW_GREEN
-	dbsprite  0,  0,  0,  0, $03, PAL_OW_GREEN
+	dbsprite -1, -1,  0,  0, $00, PAL_OW_YELLOW
+	dbsprite  0, -1,  0,  0, $01, PAL_OW_YELLOW
+	dbsprite -1,  0,  0,  0, $02, PAL_OW_YELLOW
+	dbsprite  0,  0,  0,  0, $03, PAL_OW_YELLOW
 
 .OAMData_TextEntryCursor:
 	db 4
@@ -599,26 +591,26 @@ ENDC
 	dbsprite  2,  0,  0,  0, $02, 0
 	dbsprite  3,  0,  0,  0, $03, 0
 
-.OAMData_CutTree2:
+.OAMData_CutTree2: ; erosunica: uses OBJ 7 palette aka green 2 shades
 	db 4
-	dbsprite -2, -1,  6,  0, $00, PAL_OW_GREEN
-	dbsprite  0, -1,  2,  0, $01, PAL_OW_GREEN
-	dbsprite -2,  0,  6,  0, $02, PAL_OW_GREEN
-	dbsprite  0,  0,  2,  0, $03, PAL_OW_GREEN
+	dbsprite -2, -1,  6,  0, $00, PAL_OW_YELLOW
+	dbsprite  0, -1,  2,  0, $01, PAL_OW_YELLOW
+	dbsprite -2,  0,  6,  0, $02, PAL_OW_YELLOW
+	dbsprite  0,  0,  2,  0, $03, PAL_OW_YELLOW
 
-.OAMData_CutTree3:
+.OAMData_CutTree3: ; erosunica: uses OBJ 7 palette aka green 2 shades
 	db 4
-	dbsprite -2, -1,  4,  0, $00, PAL_OW_GREEN
-	dbsprite  0, -1,  4,  0, $01, PAL_OW_GREEN
-	dbsprite -2,  0,  4,  0, $02, PAL_OW_GREEN
-	dbsprite  0,  0,  4,  0, $03, PAL_OW_GREEN
+	dbsprite -2, -1,  4,  0, $00, PAL_OW_YELLOW
+	dbsprite  0, -1,  4,  0, $01, PAL_OW_YELLOW
+	dbsprite -2,  0,  4,  0, $02, PAL_OW_YELLOW
+	dbsprite  0,  0,  4,  0, $03, PAL_OW_YELLOW
 
-.OAMData_CutTree4:
+.OAMData_CutTree4: ; erosunica: uses OBJ 7 palette aka green 2 shades
 	db 4
-	dbsprite -2, -1,  0,  0, $00, PAL_OW_GREEN
-	dbsprite  1, -1,  0,  0, $01, PAL_OW_GREEN
-	dbsprite -2,  0,  0,  0, $02, PAL_OW_GREEN
-	dbsprite  1,  0,  0,  0, $03, PAL_OW_GREEN
+	dbsprite -2, -1,  0,  0, $00, PAL_OW_YELLOW
+	dbsprite  1, -1,  0,  0, $01, PAL_OW_YELLOW
+	dbsprite -2,  0,  0,  0, $02, PAL_OW_YELLOW
+	dbsprite  1,  0,  0,  0, $03, PAL_OW_YELLOW
 
 
 .OAMData_GSTitleTrail:

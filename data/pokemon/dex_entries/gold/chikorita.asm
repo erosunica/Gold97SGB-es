@@ -1,10 +1,10 @@
-	db "LEAF@" ; species name
-	dw 211, 140 ; height, weight
+	db "HOJA@" ; species name
+	dbw 9, 64 ; height, weight
 
-	db   "It loves to bask"
-	next "in the sunlight."
-	next "It uses the leaf"
+	db   "Le encanta"
+	next "disfrutar del sol."
+	next "Usa la hoja que"
 
-	page "on its head to"
-	next "seek out warm"
-	next "places.@"
+	page "tiene en la cabeza"
+	next "para localizar"
+	next "sitios cálidos.@"

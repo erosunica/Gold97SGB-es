@@ -1,10 +1,10 @@
-	db "MOUSE@" ; species name
-	dw 303, 650 ; height, weight
+	db "RATÓN@" ; species name
+	dbw 10, 295 ; height, weight
 
-	db   "Adept at climbing"
-	next "trees, it rolls"
-	next "into a spiny ball,"
+	db   "Lo suyo es trepar"
+	next "árboles, hacerse"
+	next "una bola de púas"
 
-	page "then attacks its"
-	next "enemies from"
-	next "above.@"
+	page "y atacar desde"
+	next "arriba a sus"
+	next "enemigos.@"

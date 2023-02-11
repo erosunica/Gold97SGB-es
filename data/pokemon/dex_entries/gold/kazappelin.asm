@@ -1,10 +1,10 @@
-	db "BALLOON@" ; species name
-	dw 211, 180 ; height, weight
-
-	db   "The spines on its"
-	next "body emit electric"
-	next "shocks that can be"
-
-	page "used to immobilize"
-	next "foes much larger"
-	next "than its own size.@"
+	db "PEZ GLOBO@" ; species name
+	dbw 9, 82 ; height, weight
+	
+	db   "Sus púas emiten"
+	next "descargas de alto"
+	next "voltaje capaces de"
+	
+	page "paralizar enemigos"
+	next "que le superen por"
+	next "mucho en tamaño.@"

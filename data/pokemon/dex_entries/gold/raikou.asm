@@ -1,10 +1,10 @@
-	db "THUNDER@" ; species name
-	dw 603, 3920 ; height, weight
+	db "TRUENO@" ; species name
+	dbw 19, 1780 ; height, weight
 
-	db   "This rough #MON"
-	next "stores energy"
-	next "inside its body,"
+	db   "Este duro #MON"
+	next "almacena energía"
+	next "en su cuerpo."
 
-	page "then sweeps across"
-	next "the land, shooting"
-	next "off electricity.@"
+	page "Después, cuando"
+	next "se desplaza por"
+	next "tierra, la suelta.@"

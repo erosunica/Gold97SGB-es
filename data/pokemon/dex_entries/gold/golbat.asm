@@ -1,10 +1,10 @@
-	db "BAT@" ; species name
-	dw 503, 1210 ; height, weight
+	db "MURCIÉLAGO@" ; species name
+	dbw 16, 550 ; height, weight
 
-	db   "When it plunges"
-	next "its fangs into its"
-	next "prey, it instantly"
+	db   "Al precipitarse"
+	next "sobre su víctima,"
+	next "le clava los col-"
 
-	page "draws and gulps"
-	next "down more than ten"
-	next "ounces of blood.@"
+	page "millos al instante"
+	next "y le chupa más de"
+	next "300 ml de sangre.@"

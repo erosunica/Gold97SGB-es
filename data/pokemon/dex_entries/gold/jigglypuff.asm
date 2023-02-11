@@ -1,10 +1,10 @@
-	db "BALLOON@" ; species name
-	dw 108, 120 ; height, weight
+	db "GLOBO@" ; species name
+	dbw 5, 55 ; height, weight
 
-	db   "It rolls its cute"
-	next "eyes as it sings a"
-	next "soothing lullaby."
+	db   "Cierra los ojitos"
+	next "y usa su CANTO"
+	next "para deleitar a"
 
-	page "Its gentle song"
-	next "puts anyone who"
-	next "hears it to sleep.@"
+	page "quien le oye con"
+	next "una nana que"
+	next "invita a dormir.@"

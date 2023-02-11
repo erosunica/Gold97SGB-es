@@ -78,7 +78,7 @@ WritePartyMenuTilemap:
 	dw PlacePartyMonGender
 
 PlacePartyNicknames:
-	hlcoord 3, 1
+	hlcoord 3, 0
 	ld a, [wPartyCount]
 	and a
 	jr z, .end
@@ -104,12 +104,12 @@ PlacePartyNicknames:
 .end
 	dec hl
 	dec hl
-	ld de, .CancelString
-	call PlaceString
+;	ld de, .CancelString ; erosunica: do not place .CancelString
+;	call PlaceString
 	ret
 
-.CancelString:
-	db "CANCEL@"
+;.CancelString:
+;	db "SALIR@"
 
 PlacePartyHPBar:
 	xor a
@@ -119,7 +119,7 @@ PlacePartyHPBar:
 	ret z
 	ld c, a
 	ld b, 0
-	hlcoord 11, 0
+	hlcoord 4, 1
 .loop
 	push bc
 	push hl
@@ -226,7 +226,7 @@ PlacePartyMonLevel:
 	ret z
 	ld c, a
 	ld b, 0
-	hlcoord 8, 0
+	hlcoord 13, 0
 .loop
 	push bc
 	push hl
@@ -268,7 +268,7 @@ PlacePartyMonStatus:
 	ret z
 	ld c, a
 	ld b, 0
-	hlcoord 5, 0
+	hlcoord 17, 0
 .loop
 	push bc
 	push hl
@@ -300,7 +300,7 @@ PlacePartyMonTMHMCompatibility:
 	ret z
 	ld c, a
 	ld b, 0
-	hlcoord 12, 0
+	hlcoord 12, 1
 .loop
 	push bc
 	push hl
@@ -340,10 +340,10 @@ PlacePartyMonTMHMCompatibility:
 	ret
 
 .string_able
-	db "ABLE@"
+	db "PUEDE@"
 
 .string_not_able
-	db "NOT ABLE@"
+	db "NO PUEDE@"
 
 PlacePartyMonEvoStoneCompatibility:
 	ld a, [wPartyCount]
@@ -351,7 +351,7 @@ PlacePartyMonEvoStoneCompatibility:
 	ret z
 	ld c, a
 	ld b, 0
-	hlcoord 12, 0
+	hlcoord 12, 1
 .loop
 	push bc
 	push hl
@@ -420,9 +420,9 @@ PlacePartyMonEvoStoneCompatibility:
 	ret
 
 .string_able
-	db "ABLE@"
+	db "PUEDE@"
 .string_not_able
-	db "NOT ABLE@"
+	db "NO PUEDE@"
 
 PlacePartyMonGender:
 	ld a, [wPartyCount]
@@ -430,7 +430,7 @@ PlacePartyMonGender:
 	ret z
 	ld c, a
 	ld b, 0
-	hlcoord 12, 0
+	hlcoord 12, 1
 .loop
 	push bc
 	push hl
@@ -464,13 +464,13 @@ PlacePartyMonGender:
 	ret
 
 .male
-	db "♂…MALE@"
+	db "♂…MACHO@"
 
 .female
-	db "♀…FEMALE@"
+	db "♀…HEMBRA@"
 
 .unknown
-	db "…UNKNOWN@"
+	db "…DESCON.@"
 
 PartyMenuCheckEgg:
 	ld a, LOW(wPartySpecies)
@@ -530,16 +530,16 @@ InitPartyMenuGFX:
 	callfar PlaySpriteAnimations
 	ret
 
-InitPartyMenuWithCancel:
+InitPartyMenuWithCancel: ; erosunica: modified to remove cancel entry
 ; with cancel
 	xor a
 	ld [wSwitchMon], a
 	ld de, PartyMenuAttributes
 	call SetMenuAttributes
 	ld a, [wPartyCount]
-	inc a
+;	inc a
 	ld [w2DMenuNumRows], a ; list length
-	dec a
+;	dec a
 	ld b, a
 	ld a, [wPartyMenuCursor]
 	and a
@@ -579,19 +579,11 @@ InitPartyMenuNoCancel:
 	ret
 
 PartyMenuAttributes:
-; cursor y
-; cursor x
-; num rows
-; num cols
-; bit 6: animate sprites  bit 5: wrap around
-; ?
-; distance between items (hi: y, lo: x)
-; allowed buttons (mask)
-	db 1, 0
-	db 0, 1
-	db $60, $00
-	dn 2, 0
-	db 0
+	db 1, 0 ; cursor start y, x
+	db 0, 1 ; rows, columns
+	db $60, $00 ; flags. bit 6: animate sprites  bit 5: wrap around
+	dn 2, 0 ; cursor offset
+	db 0 ; accepted buttons
 
 PartyMenuSelect:
 ; sets carry if exitted menu.
@@ -632,8 +624,8 @@ PartyMenuSelect:
 	ret
 
 PrintPartyMenuText:
-	hlcoord 0, 14
-	lb bc, 2, 18
+	hlcoord 0, 12
+	lb bc, 4, 18
 	call Textbox
 	ld a, [wPartyCount]
 	and a
@@ -656,7 +648,7 @@ PrintPartyMenuText:
 	push af
 	set NO_TEXT_SCROLL, a
 	ld [wOptions], a
-	hlcoord 1, 16 ; Coord
+	hlcoord 1, 14 ; Coord
 	call PlaceString
 	pop af
 	ld [wOptions], a
@@ -674,33 +666,39 @@ PartyMenuStrings:
 	dw ToWhichPKMNString
 
 ChooseAMonString:
-	db "Choose a #MON.@"
+	db "Elige un #MON.@"
 
 UseOnWhichPKMNString:
-	db "Use on which <PK><MN>?@"
+	db   "¿En qué #MON"
+	next "quieres usarlo?@"
 
 WhichPKMNString:
-	db "Which <PK><MN>?@"
+	db   "¿Qué #MON"
+	next "quieres utilizar?@"
 
 TeachWhichPKMNString:
-	db "Teach which <PK><MN>?@"
+	db   "¿En qué #MON"
+	next "usas la MT/MO?@"
 
 MoveToWhereString:
-	db "Move to where?@"
+	db   "¿Adónde quieres"
+	next "mover al #MON?@"
 
 ChooseAFemalePKMNString:
 ; unused
-	db "Choose a ♀<PK><MN>.@"
+	db "Elige un #MON♀.@"
 
 ChooseAMalePKMNString:
 ; unused
-	db "Choose a ♂<PK><MN>.@"
+	db "Elige un #MON♂.@"
 
 ToWhichPKMNString:
-	db "To which <PK><MN>?@"
+	db   "¿A qué #MON le"
+	next "das el objeto?@"
 
 YouHaveNoPKMNString:
-	db "You have no <PK><MN>!@"
+	db   "¡No tienes ningún"
+	next "#MON!@"
 
 PrintPartyMenuActionText:
 	ld a, [wCurPartyMon]

@@ -1,10 +1,10 @@
-	db "WOOL@" ; species name
-	dw 200, 170 ; height, weight
+	db "LANA@" ; species name
+	dbw 6, 78 ; height, weight
 
-	db   "It stores lots of"
-	next "air in its soft"
-	next "fur, allowing it"
+	db   "Almacena aire en"
+	next "el lanudo pelaje"
+	next "que tiene. Así, se"
 
-	page "to stay cool in"
-	next "summer and warm"
-	next "in winter.@"
+	page "mantiene fresco en"
+	next "verano y caliente"
+	next "en invierno.@"

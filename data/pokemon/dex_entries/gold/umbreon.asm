@@ -1,10 +1,10 @@
-	db "MOONLIGHT@" ; species name
-	dw 303, 600 ; height, weight
+	db "LUZ LUNAR@" ; species name
+	dbw 10, 270 ; height, weight
 
-	db   "On the night of a"
-	next "full moon, or when"
-	next "it gets excited,"
+	db   "Cuando hay luna"
+	next "llena, o cuando"
+	next "se pone nervioso,"
 
-	page "the ring patterns"
-	next "on its body glow"
-	next "yellow.@"
+	page "le empiezan a bri-"
+	next "llar los anillos"
+	next "de color dorado.@"

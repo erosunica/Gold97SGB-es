@@ -99,98 +99,98 @@ Route110HiddenHyperPotion:
 	hiddenitem HYPER_POTION, EVENT_ROUTE_110_HIDDEN_HYPER_POTION
 
 EngineerRicardoSeenText:
-	text "The air here is"
-	line "buzzing with"
-	cont "energy!"
+	text "¡El aire aquí"
+	line "sopla con fuerza!"
 	done
 
 EngineerRicardoBeatenText:
-	text "I'm zapped!"
+	text "¡Electrocutado!"
 	done
 
 EngineerRicardoAfterText:
-	text "The sting of cold"
-	line "air reminds me of"
-	para "the sting of an"
-	line "electric shock."
+	text "El escozor del"
+	line "aire frío me"
+	para "recuerda al de"
+	line "una descarga"
+	cont "eléctrica."
 	done
 
 SwimmermSimonSeenText:
-	text "I wish the water"
-	line "was warmer here."
+	text "Ojalá el agua de"
+	line "aquí fuese más"
+	cont "cálida."
 	done
 
 SwimmermSimonBeatenText:
-	text "OK! Uncle! I give!"
+	text "¡Vale! ¡Me rindo!"
 	done
 
 SwimmermSimonAfterBattleText:
-	text "Constantly moving"
-	line "helps keep body"
-	cont "temperature up."
+	text "Moverse constante-"
+	line "mente ayuda a que"
+	para "el cuerpo se"
+	line "mantenga en calor."
 	done
 
 Route110Lass1Text:
-	text "Have you ever"
-	line "looked for #MON"
-	cont "in snowy grass?"
+	text "¿Has buscado"
+	line "#MON en la"
+	cont "hierba nevada?"
 	done
 
 Route110PokefanMText:
-	text "There's a strange"
-	line "lady who lives in"
-	para "that house on the"
-	line "water."
+	text "Hay una mujer"
+	line "misteriosa que"
+	para "vive en esa casa"
+	line "sobre el agua."
 	done
 
 
 MeetMonicaText:
-	text "MONICA: Glad to"
-	line "meet you. I'm"
-
-	para "MONICA of Monday."
+	text "LUNA: Encantada de"
+	line "conocerte. Soy"
+	cont "LUNA, por lunes."
 	done
 
 MonicaGivesGiftText:
-	text "As a token of our"
-	line "friendship, I have"
-	cont "a gift for you!"
+	text "¡Como prueba de"
+	line "nuestra amistad,"
+	para "tengo un regalo"
+	line "para ti!"
 	done
 
 MonicaGaveGiftText:
-	text "MONICA: It's an"
-	line "item that raises"
+	text "LUNA: Es un objeto"
+	line "que aumenta el"
+	para "poder de los"
+	line "movimientos de"
+	cont "tipo volador."
 
-	para "the power of fly-"
-	line "ing-type moves."
-
-	para "You should equip a"
-	line "bird #MON with"
-	cont "that item."
+	para "Deberías dar este"
+	line "objeto a un"
+	cont "#MON pájaro."
 	done
 
 MonicaMondayText:
-	text "MONICA: My broth-"
-	line "ers and sisters"
+	text "LUNA: Mis hermanos"
+	line "y hermanas están"
+	cont "por todas partes."
 
-	para "are all over the"
-	line "place."
-
-	para "See if you could"
-	line "find them all!"
+	para "¡A ver si los"
+	line "encuentras!"
 	done
 
 MonicaNotMondayText:
-	text "MONICA: I don't"
-	line "think today is"
-	cont "Monday. How sad…"
+	text "LUNA: No creo que"
+	line "hoy sea lunes."
+	cont "¡Qué pena…!"
 	done
 
 Route110SignText:
-	text "ROUTE 110"
-
-	para "ALLOY CITY -"
-	line "BLUE FOREST"
+	text "RUTA 110"
+	
+	para "CIUDAD ALEAR -"
+	line "BOSQUE AZUL"
 	done
 
 Route110_MapEvents:

@@ -1,10 +1,10 @@
-	db "HERB@" ; species name
-	dw 511, 2220 ; height, weight
-
-	db   "Anyone who stands"
-	next "beside it becomes"
-	next "refreshed, just as"
-
-	page "if they were"
-	next "relaxing in a"
-	next "sunny forest.@"
+	db "HIERBA@" ; species name
+	dbw 18, 1007 ; height, weight
+	
+	db   "Estar a su lado es"
+	next "muy refrescante."
+	next "Es una sensación"
+	
+	page "parecida a estar a"
+	next "la sombra en un"
+	next "día de verano.@"

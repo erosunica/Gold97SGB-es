@@ -1,10 +1,10 @@
-	db "MEGATON@" ; species name
-	dw 407, 6620 ; height, weight
+	db "MEGATÓN@" ; species name
+	dbw 14, 3000 ; height, weight
 
-	db   "Its rock-like body"
-	next "is so durable,"
-	next "even high-powered"
+	db   "Tiene un cuerpo"
+	next "rocoso tan fuerte"
+	next "que ni siquiera"
 
-	page "dynamite blasts"
-	next "fail to scratch"
-	next "its rugged hide.@"
+	page "la dinamita más"
+	next "potente le haría"
+	next "ningún rasguño.@"

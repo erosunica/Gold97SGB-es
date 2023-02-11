@@ -95,10 +95,10 @@ DollSalesmanTuesdayMenu:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "CHARMANDER  ¥5000@"
-	db "DIGLETT     ¥5000@"
-	db "STARYU      ¥5000@"
-	db "CANCEL@"
+	db "CHARMANDER  5000¥@"
+	db "DIGLETT     5000¥@"
+	db "STARYU      5000¥@"
+	db "SALIR@"
 	
 DollSalesmanTuesday_FinishScript:
 	waitsfx
@@ -121,61 +121,72 @@ DollSalesmanTuesdayNoMoney:
 	end
 	
 SendItemToPCTextDollTuesday:
-	text "Send this DOLL to"
-	line "your bedroom PC?"
+	text "¿Quieres enviar"
+	line "este MUÑECO al PC"
+	cont "de tu dormitorio?"
 	done
 
 AlreadyHaveDecorItemTextSalesmanTuesday:
-	text "You already have"
-	line "this DOLL!"
+	text "¡Ya tienes este"
+	line "MUÑECO!"
 	done
 
 DollSalesmanTuesday_HereYouGoText:
-	text "Here you go!"
+	text "¡Listo!"
 	done
 	
 DollSalesmanTuesdayComeAgain:
-	text "Hope to see you"
-	line "again somewhere!"
+	text "¡Espero que"
+	line "volvamos a vernos!"
 	done
 	
 DollSalesmanTuesdayNoMoneyText:
-	text "Sorry, you'll"
-	line "need more money!"
+	text "¡Lo siento, no"
+	line "tienes suficiente"
+	cont "dinero!"
 	done
 	
 DollSalesmanTextTuesday:
-	text "Hiya!"
-	para "I'm a traveling"
-	line "DOLL salesman!"
-	para "What does that"
-	line "mean?"
-	para "It means that I'm"
-	line "who you talk to"
-	para "if you want to"
-	line "deck out your"
-	cont "bedroom!"
-	para "My stock and my"
-	line "location change"
-	para "daily, so keep an"
-	line "eye out for me!"
+	text "¡Hola!"
+	
+	para "¡Soy un vendedor"
+	line "de MUÑECOS"
+	cont "ambulante!"
+	
+	para "¿Sabes lo que"
+	line "significa?"
+	
+	para "¡Que soy la"
+	line "persona que buscas"
+	para "si quieres decorar"
+	line "tu dormitorio!"
+	
+	para "¡Mi ubicación y lo"
+	line "que vendo cambia a"
+	para "diario, así que no"
+	line "me pierdas de"
+	cont "vista!"
 	done
 	
 DollSalesmanTextTuesday_AskWhichPrizeText:
-	text "Now which DOLL"
-	line "would you like?"
+	text "¿Qué MUÑECO"
+	line "quieres?"
 	done
 	
 ;---------------------------------
 
 Route118SunpointGuardSeriousText:
-	text "SUNPOINT CITY is a"
-	line "major trade hub"
-	para "for goods coming"
-	line "into NIHON."
-	para "The DOCKS north of"
-	line "town are always"
-	cont "busy."	
+	text "CIUDAD CALORINA es"
+	line "uno de los mayores"
+	para "puntos de comercio"
+	line "para artículos"
+	cont "importados a"
+	cont "NIHON."
+
+	para "El MUELLE al"
+	line "norte de la ciudad"
+	cont "siempre está"
+	cont "ocupado."
 	done
 
 Route118SunpointGate_MapEvents:

@@ -21,32 +21,32 @@ FrostpointMartRockerScript:
 	jumptextfaceplayer FrostpointMartRockerText
 
 FrostpointMartPokefanMText:
-	text "REPEL is a neces-"
-	line "sity if you are"
+	text "Si vas a explorar"
+	line "una cueva, debes"
+	para "llevar siempre"
+	line "REPELENTE."
 
-	para "going to explore a"
-	line "cave."
-
-	para "Even though I like"
-	line "exploring, I still"
-
-	para "haven't made it to"
-	line "all the caves."
+	para "Aunque me gusta la"
+	line "exploración, aún"
+	para "no he recorrido"
+	line "todas las cuevas."
 	done
 
 FrostpointMartRockerText:
-	text "I heard about a"
-	line "craftsman who"
+	text "He oído hablar de"
+	line "un artesano que"
+	para "fabrica # BALLS"
+	line "a medida en CIUDAD"
+	cont "PAGOTA."
 
-	para "makes custom BALLS"
-	line "down in PAGOTA"
-	cont "CITY."
-	para "I've never used"
-	line "any."
-	para "I bet they work"
-	line "better than even"
-	para "an ULTRA BALL in"
-	line "certain scenarios."
+	para "Nunca he usado"
+	line "ninguna."
+
+	para "Seguro que funcio-"
+	line "nan incluso mejor"
+	para "que una ULTRA BALL"
+	line "en algunas"
+	cont "situaciones."
 	done
 
 FrostpointMart_MapEvents:

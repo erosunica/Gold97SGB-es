@@ -1,10 +1,10 @@
-	db "FIRE HORSE@" ; species name
-	dw 507, 2090 ; height, weight
+	db "CABALLO F.@" ; species name
+	dbw 17, 950 ; height, weight
 
-	db   "It just loves to"
-	next "gallop. The faster"
-	next "it goes, the long-"
+	db   "Le encanta ir al"
+	next "galope. Cuanta más"
+	next "velocidad alcanza,"
 
-	page "er the swaying"
-	next "flames of its mane"
-	next "will become.@"
+	page "mayor es la estela"
+	next "de fuego que dejan"
+	next "sus crines.@"

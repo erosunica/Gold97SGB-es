@@ -759,16 +759,16 @@ MartWelcomeText:
 
 MenuHeader_BuySell:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 0, 11, 8
+	menu_coords 0, 0, 14, 8
 	dw .MenuData
 	db 1 ; default option
 
 .MenuData
 	db STATICMENU_CURSOR ; strings
 	db 3 ; items
-	db "BUY@"
-	db "SELL@"
-	db "QUIT@"
+	db "COMPRAR@"
+	db "VENDER@"
+	db "¡NOS VEMOS!@"
 
 MartThanksText:
 	text_far _MartThanksText

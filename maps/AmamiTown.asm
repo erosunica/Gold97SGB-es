@@ -48,46 +48,52 @@ AmamiTownGrampsScript:
 	jumptextfaceplayer AmamiTownGrampsText
 	
 AmamiTownGrampsText:
-	text "I've lived on this"
-	line "island my whole"
-	cont "life."
-	para "I wouldn't have"
-	line "had it any other"
-	cont "way."
+	text "He vivido toda mi"
+	line "vida en esta isla."
+
+	para "No lo hubiese"
+	line "querido de otra"
+	cont "manera."
 	done
-	
+
 AmamiTownLassText1:
-	text "This is your first"
-	line "visit to AMAMI"
-	cont "TOWN, right?"
-	para "Welcome!"
+	text "Es la primera vez"
+	line "que vienes a"
+	cont "PUEBLO AMAMI,"
+	cont "¿verdad?"
+
+	para "¡Bienvenido!"
 	done
-	
+
 AmamiTownLassText2:
-	text "We get a lot of"
-	line "visitors here."
-	para "Tourism is a very"
-	line "important industry"
-	cont "in this area."
+	text "Viene mucha gente"
+	line "de visita."
+
+	para "El turismo es uno"
+	line "de nuestros"
+	cont "sectores más"
+	cont "importantes."
 	done
 
 AmamiTownBugCatcherText:
-	text "I've never been to"
-	line "the mainland."
-	para "One day, I want to"
-	line "ride on a FAST"
-	cont "SHIP!"
+	text "Nunca he ido al"
+	line "continente."
+
+	para "¡Un día, quiero"
+	line "subir a un FERRY!"
 	done
 
 AmamiTownSignText:
-	text "AMAMI TOWN"
-	para "A Destination For"
-	line "Adventurers!"
+	text "PUEBLO AMAMI"
+
+	para "¡Un destino para"
+	line "todo aventurero!"
 	done
-	
+
 AmamiPoolText:
-	text "AMAMI TOWN"
-	line "COMMUNITY POOL"
+	text "PISCINA"
+	line "COMUNITARIA DE"
+	cont "PUEBLO AMAMI"
 	done
 	
 AmamiTown_MapEvents:
@@ -113,6 +119,6 @@ AmamiTown_MapEvents:
 	bg_event 24, 10, BGEVENT_READ, AmamiTownMartSign
 
 	db 3 ; object events
-	object_event  8,  7, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, AmamiTownBugCatcherScript, -1
+	object_event  8,  7, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, AmamiTownBugCatcherScript, -1
 	object_event 15, 11, SPRITE_LASS, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, AmamiTownLassScript, -1
 	object_event 27,  8, SPRITE_GRAMPS, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AmamiTownGrampsScript, -1

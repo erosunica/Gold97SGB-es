@@ -1,10 +1,10 @@
-	db "MAGNET@" ; species name
-	dw 100, 130 ; height, weight
+	db "IMÁN@" ; species name
+	dbw 3, 60 ; height, weight
 
-	db   "The electricity"
-	next "emitted by the"
-	next "units on each side"
+	db   "La gran cantidad"
+	next "de electricidad"
+	next "que libera por"
 
-	page "of its body cause"
-	next "it to become a"
-	next "strong magnet.@"
+	page "todos lados, le"
+	next "convierte en un"
+	next "potente imán.@"

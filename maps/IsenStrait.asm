@@ -54,65 +54,67 @@ FrostpointGymSign:
 	jumptext FrostpointGymSignText
 
 SwimmerfNicoleSeenText:
-	text "I feel so much"
-	line "lighter in water."
+	text "Me siento más"
+	line "ligera en el agua."
 	done
 
 SwimmerfNicoleBeatenText:
-	text "Oh, no!"
+	text "¡Oh, no!"
 	done
 
 SwimmerfNicoleAfterBattleText:
-	text "Swimming exercises"
-	line "your full body."
-
-	para "It's really good"
-	line "for you."
+	text "La natación forta-"
+	line "lece todo tu cuer-"
+	cont "po. ¡Es muy sana!"
 	done
 
 SwimmerfLoriSeenText:
-	text "What an impressive"
-	line "collection of GYM"
-
-	para "BADGES. We should"
-	line "battle!"
+	text "¡Vaya colección de"
+	line "MEDALLAS de"
+	para "GIMNASIO!"
+	line "¡Luchemos!"
 	done
 
 SwimmerfLoriBeatenText:
-	text "No!"
+	text "¡No!"
 	done
 
 SwimmerfLoriAfterBattleText:
-	text "SURF is no longer"
-	line "the only HM move"
-	cont "you use in water."
+	text "SURF ya no es el"
+	line "único movimiento"
+	para "que se utiliza en"
+	line "el agua."
 	done
 
 SwimmermCameronSeenText:
-	text "I guess it's im-"
-	line "possible to swim"
-
-	para "all the way to"
-	line "the mainland."
+	text "Supongo que es"
+	line "imposible ir"
+	para "nadando hasta"
+	line "tierra firme."
 	done
 
 SwimmermCameronBeatenText:
-	text "Aiyah!"
+	text "¡Aiyaa!"
 	done
 
 SwimmermCameronAfterBattleText:
-	text "Besides the sea, I"
-	line "can also swim in"
-	cont "ponds and rivers."
+	text "Además de nadar"
+	line "en el mar, puedo"
+	para "nadar en estanques"
+	line "y ríos."
 	done
 
 FrostpointGymSignText:
-	text "#MON RESEARCH"
-	line "FACILITY"
-	para "…The sign reads,"
-	line "with the word"
-	para "'CONDEMNED'"
-	line "written over it…"
+	text "CENTRO DE"
+	line "INVESTIGACIÓN"
+	cont "#MON"
+
+	para "Eso pone en el"
+	line "cartel…"
+	para "Con la palabra"
+	line "“CONDENADO”"
+	cont "escrita por"
+	cont "encima…"
 	done
 
 IsenStrait_MapEvents:

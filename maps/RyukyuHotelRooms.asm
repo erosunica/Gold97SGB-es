@@ -182,189 +182,206 @@ TrainerLassEliza:
 	end
 	
 LassElizaSeenText:
-	text "Just because I'm"
-	line "on vacation"
-	para "doesn't mean I'm"
-	line "not up for a good"
-	cont "battle!"
+	text "¡Que esté de"
+	line "vacaciones no"
+	para "significa que no"
+	line "esté dispuesta a"
+	cont "combatir!"
 	done
 
 LassElizaBeatenText:
-	text "Still a good"
-	line "battle!"
+	text "¡Ha sido un buen"
+	line "combate!"
 	done
 
 LassElizaAfterBattleText:
-	text "Even if I lose,"
-	line "every battle is a"
-	cont "good experience."
+	text "Aunque pierda,"
+	line "cada combate es"
+	cont "una buena"
+	cont "experiencia."
 	done
-	
-	
+
 CooltrainermWozniakSeenText:
-	text "Time for my daily"
-	line "battle victory!"
+	text "¡Es la hora de mi"
+	line "victoria diaria!"
 	done
 
 CooltrainermWozniakBeatenText:
-	text "Doesn't count!"
+	text "¡Este combate no"
+	line "cuenta!"
 	done
 
 CooltrainermWozniakAfterBattleText:
-	text "I'll find someone"
-	line "else to defeat"
-	cont "today."
+	text "Tendré que buscar"
+	line "a alguien a quien"
+	cont "derrotar hoy."
 	done
 
 CooltrainerfAyakaSeenText:
-	text "Sure, I'll battle"
-	line "you!"
+	text "¡Claro, combatiré"
+	line "contigo!"
 	done
 
 CooltrainerfAyakaBeatenText:
-	text "I lost this one!"
+	text "¡He perdido!"
 	done
 
 CooltrainerfAyakaAfterBattleText:
-	text "I need to spend"
-	line "more time raising"
-	cont "my #MON."
+	text "Tengo que pasar"
+	line "más tiempo entre-"
+	cont "nando a mis"
+	cont "#MON."
 	done
 
 CooltrainerfYukaSeenText:
-	text "A battle?"
-	para "I'll never turn"
-	line "that down!"
+	text "¿Un combate?"
+
+	para "¡A eso nunca me"
+	line "niego!"
 	done
 
 CooltrainerfYukaBeatenText:
-	text "No good!"
+	text "¡Muy mal!"
 	done
 
 CooltrainerfYukaAfterBattleText:
-	text "My #MON and I"
-	line "should go train."
+	text "Mis #MON y yo"
+	line "deberíamos"
+	cont "entrenar."
 	done
 
 CooltrainerfAyanoSeenText:
-	text "Oh, a battle?"
-	para "I'm pretty good at"
-	line "those."
+	text "Oh, ¿un combate?"
+
+	para "Se me dan de lujo."
 	done
 
 CooltrainerfAyanoBeatenText:
-	text "Not good enough!"
+	text "¡Parece que no"
+	line "tan de lujo!"
 	done
 
 CooltrainerfAyanoAfterBattleText:
-	text "Where do you train"
-	line "your #MON?"
+	text "¿Dónde entrenas a"
+	line "tus #MON?"
 	done
-	
+
 PsychicRaphaelSeenText:
-	text "I can read your"
-	line "mind!"
+	text "¡Puedo leer tu"
+	line "mente!"
 	done
 
 PsychicRaphaelBeatenText:
-	text "I know why you're"
-	line "here!"
+	text "¡Sé por qué estás"
+	line "aquí!"
 	done
 
 PsychicRaphaelAfterBattleText:
-	text "You're here"
-	line "because you're"
-	cont "on vacation!"
+	text "¡Estás aquí porque"
+	line "estás de"
+	cont "vacaciones!"
 	done
-	
 
 CamperQuentinSeenText:
-	text "Does a hotel count"
-	line "as camping?"
+	text "¿Un hotel cuenta"
+	line "como sitio de"
+	cont "acampada?"
 	done
 
 CamperQuentinBeatenText:
-	text "Smacked down!"
+	text "¡Me has"
+	line "machacado!"
 	done
 
 CamperQuentinAfterBattleText:
-	text "If I say that I'm"
-	line "camping, then I'm"
-	cont "camping!"
+	text "¡Si digo que estoy"
+	line "de acampada, es"
+	cont "que estoy de"
+	cont "acampada!"
 	done
-	
+
 SoldierWarnellSeenText:
-	text "This ISLAND is"
-	line "my official post!"
+	text "¡Esta ISLA es mi"
+	line "puesto oficial!"
 	done
 
 SoldierWarnellBeatenText:
-	text "Nothing to report!"
+	text "¡Nada que"
+	line "informar!"
 	done
 
 SoldierWarnellAfterBattleText:
-	text "I really am"
-	line "stationed here,"
-	cont "believe it or not."
+	text "Realmente estoy"
+	line "destinado aquí, lo"
+	cont "creas o no."
 	done
-	
-	
+
 RyukyuHotelRoomsOakBefore2:
-	text "Let's both give"
-	line "it our best!"
+	text "¡Vamos a dar lo"
+	line "mejor!"
 	done
-	
+
 RyukyuHotelRoomsOakNoBattle:
-	text "Not a problem!"
-	para "Some other time,"
-	line "then."
+	text "¡No pasa nada!"
+
+	para "Otra vez será."
 	done
-	
+
 RyukyuHotelRoomsOakBefore:
-	text "PROF.OAK: Why,"
+	text "PROF. OAK: ¡Vaya,"
 	line "<PLAYER>!"
-	para "How good to see"
-	line "you here!"
-	para "It seems like"
-	line "you've had an"
-	para "exciting and ful-"
-	line "filling adventure"
-	cont "with #MON!"
-	para "I've been so in-"
-	line "spired by you and"
-	cont "<RIVAL>!"
-	para "I've taken up"
-	line "raising some #-"
-	cont "MON."
-	para "It's something I"
-	line "haven't done in"
-	cont "quite some time!"
-	para "If you would like,"
-	line "we could battle!"
-	para "I'm sure both of"
-	line "our #MON would"
-	cont "enjoy it."
-	para "How about it?"
+
+	para "¡Me alegra verte"
+	line "por aquí!"
+
+	para "¡Parece que has"
+	line "vivido una"
+	para "aventura de lo más"
+	line "enriquecedora y"
+	para "emocionante con"
+	line "tus #MON!"
+
+	para "¡<RIVAL> y tú me"
+	line "habéis inspirado!"
+
+	para "He estado entre-"
+	line "nando algunos"
+	cont "#MON."
+
+	para "¡Es algo que no"
+	line "había hecho en"
+	cont "mucho tiempo!"
+
+	para "¡Si quieres,"
+	line "podemos combatir!"
+
+	para "Estoy seguro que a"
+	line "nuestros #MON"
+	cont "les encantará."
+
+	para "¿Qué me dices?"
 	done
-	
+
 RyukyuHotelRoomsOakTextWin:
-	text "That was so"
-	line "exciting!"
+	text "¡Fascinante!"
 	done
-	
+
 RyukyuHotelRoomsOakTextLoss:
-	text "Oh, dear!"
+	text "¡Oh, vaya!"
 	done
-	
+
 RyukyuHotelRoomsOakAfter:
-	text "PROF.OAK: I can't"
-	line "thank you enough"
-	cont "for your help!"
-	para "I've reached new"
-	line "heights in my"
-	para "research and love"
-	line "of #MON that I"
-	cont "never have before!"
+	text "PROF. OAK: ¡No"
+	line "puedo agradecer tu"
+	cont "ayuda lo"
+	cont "suficiente!"
+
+	para "¡He alcanzado"
+	line "nuevas cotas en mi"
+	para "investigación y"
+	line "amor por los"
+	para "#MON a las que"
+	line "nunca creí llegar!"
 	done
 
 HotelBed:	
@@ -386,14 +403,13 @@ HotelBed:
 	end
 	
 HotelBedText1:
-	text "It's your hotel"
-	line "bed."
-	para "Time for a rest…"
+	text "Es tu cama."
+
+	para "Hora de descansar…"
 	done
-	
+
 HotelBedText2:
-	text "Refreshed and"
-	line "restored!"
+	text "¡Como nuevo!"
 	done
 
 
@@ -434,7 +450,7 @@ RyukyuHotelRooms_MapEvents:
 	object_event  0, 14, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerPsychicRaphael, -1
 	object_event 14, 12, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_TRAINER, 2, TrainerCooltrainerfAyano, -1
 	object_event 10, 15, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 2, TrainerCooltrainerfYuka, -1
-	object_event 15, 15, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_TRAINER, 2, TrainerCooltrainerfAyaka, -1
+	object_event 15, 15, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_TRAINER, 2, TrainerCooltrainerfAyaka, -1
 	object_event 25,  3, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_TRAINER, 3, TrainerCooltrainermWozniak, -1
 	object_event 23, 15, SPRITE_LASS, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerLassEliza, -1
 

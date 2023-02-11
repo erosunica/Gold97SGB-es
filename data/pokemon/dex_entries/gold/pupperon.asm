@@ -1,10 +1,10 @@
-	db "PUPPY@" ; species name
-	dw 111, 300 ; height, weight
-
-	db   "Is territorial"
-	next "but has not yet"
-	next "developed the"
-
-	page "strength to defend"
-	next "itself fully. Is"
-	next "also affectionate.@"
+	db "PERRITO@" ; species name
+	dbw 5, 136 ; height, weight
+	
+	db   "Aunque es"
+	next "territorial, aún"
+	next "no tiene fuerza"
+	
+	page "para defenderse"
+	next "por su cuenta. Es"
+	next "cariñoso.@"

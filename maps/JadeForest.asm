@@ -132,131 +132,137 @@ RouteU4UFruitTree3:
 	fruittree FRUITTREE_TREE_JADE_FOREST_3
 	
 Text_HeadbuttIntro:
-	text "What am I doing?"
+	text "¿Que qué hago?"
 
-	para "I'm shaking trees"
-	line "using HEADBUTT."
+	para "Agitar los árboles"
+	line "con GOLPE CABEZA."
 
-	para "It's fun. Here,"
-	line "you try it too!"
+	para "Es muy divertido."
+	line "¡Toma, pruébalo!"
 	done
 
 Text_HeadbuttOutro:
-	text "Rattle trees with"
-	line "HEADBUTT. Some-"
-	cont "times, sleeping"
-	cont "#MON fall out."
+	text "Agita los árboles"
+	line "con GOLPE CABEZA."
+
+	para "A veces caen"
+	line "#MON dormidos."
 	done
 
 Text_JadeForestLass:
-	text "There are a lot"
-	line "of #MON in the"
-	para "FOREST with moves"
-	line "that can inflict"
-	cont "status conditions."
-	para "It's a good idea"
-	line "to stock up on"
-	cont "items."
+	text "Hay muchos #MON"
+	line "en el BOSQUE con"
+	para "movimientos que"
+	line "provocan cambios"
+	cont "de estado."
+	
+	para "No te vendría mal"
+	line "llevar objetos"
+	cont "curativos."
 	done
 
 JadeForestSignpostText:
-	text "JADE FOREST is"
-	line "so overgrown with"
+	text "Hay tantos árboles"
+	line "en el BOSQUE JADE"
+	para "que no se ve ni"
+	line "el cielo."
 
-	para "trees that you"
-	line "can't see the sky."
-
-	para "Please watch out"
-	line "for items that may"
-	cont "have been dropped."
+	para "Por favor, busca"
+	line "objetos que puedan"
+	cont "haber caído."
 	done
 	
 JadeForestSignpost2Text:
-	text "Exit to the right"
-	line "for ROUTE 106"
+	text "Salida por la"
+	line "derecha a RUTA 106"
 	done
 
 BugCatcherWayneSeenText:
-	text "Don't sneak up on"
-	line "me like that!"
+	text "¡No me des estos"
+	line "sustos!"
 
-	para "You frightened a"
-	line "#MON away!"
+	para "¡Un #MON ha"
+	line "escapado asustado!"
 	done
 
 BugCatcherWayneBeatenText:
-	text "I hadn't seen that"
-	line "#MON before…"
+	text "Nunca antes había"
+	line "visto a ese"
+	cont "#MON…"
 	done
 
 BugCatcherWayneAfterBattleText:
-	text "A #MON I've"
-	line "never seen before"
+	text "Al usar GOLPE CA-"
+	line "BEZA en ese árbol,"
+	para "cayó un #MON"
+	line "que no había visto"
+	cont "en mi vida."
 
-	para "fell out of the"
-	line "tree when I used"
-	cont "HEADBUTT."
-
-	para "I ought to use"
-	line "HEADBUTT in other"
-	cont "places too."
+	para "Creo que debo usar"
+	line "GOLPE CABEZA en"
+	cont "más sitios."
 	done
 
-
 HikerLeonardSeenText:
-	text "I'm walking"
-	line "through this"
-	para "FOREST until I see"
-	line "every #MON that"
-	cont "lives here!"
+	text "¡Voy a seguir en"
+	line "este BOSQUE hasta"
+	para "que haya visto a"
+	line "todos los #MON"
+	cont "que viven aquí!"
 	done
 
 HikerLeonardBeatenText:
-	text "I should stick to"
-	line "hiking!"
+	text "¡Debería seguir"
+	line "dedicándome al"
+	cont "alpinismo!"
 	done
 
 HikerLeonardAfterBattleText:
-	text "The FOREST has"
-	line "many species of"
-	para "#MON that don't"
-	line "appear anywhere"
-	cont "else."
+	text "El BOSQUE tiene"
+	line "muchas especies de"
+	para "#MON que no"
+	line "aparecen en ningu-"
+	cont "na otra parte."
 	done
 
 
 FirebreatherBillSeenText:
-	text "Nothing in this"
-	line "FOREST can handle"
-	cont "my fire #MON!"
+	text "¡Mis #MON de"
+	line "fuego arrasan con"
+	para "todo lo que haya"
+	line "en este BOSQUE!"
 	done
 
 FirebreatherBillBeatenText:
-	text "Yeowch!"
+	text "¡Auch!"
 	done
 
 FirebreatherBillAfterBattleText:
-	text "I gotta be careful"
-	line "not to set the"
-	cont "trees on fire."
+	text "Debo tener cuidado"
+	line "de no incendiar"
+	cont "los árboles."
 	done
 	
 
 CooltrainerfGwenSeenText:
-	text "I'm not lost!"
-	para "And even if I was,"
-	line "my team is ready"
-	cont "for any trainer!"
+	text "¡No me he perdido!"
+
+	para "¡E incluso si lo"
+	line "estuviera, mi"
+	para "equipo está"
+	line "preparado contra"
+	cont "cualquier"
+	cont "entrenador!"
 	done
 
 CooltrainerfGwenBeatenText:
-	text "It's important to"
-	line "be prepared."
+	text "Es importante"
+	line "estar preparado."
 	done
 
 CooltrainerfGwenAfterBattleText:
-	text "I definitely know"
-	line "where I'm going!"
+	text "¡Te digo que sé"
+	line "por dónde voy!"
 	done
 
 JadeForest_MapEvents:
@@ -294,7 +300,7 @@ JadeForest_MapEvents:
 	object_event 27, 35, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 4, TrainerHikerLeonard, -1
 	object_event 43, 51, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 4, TrainerFirebreatherBill, -1
 	object_event 19, 46, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_SPINRANDOM_FAST, 1, 1, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 4, TrainerCooltrainerfGwen, -1
-	object_event 13, 49, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, RouteU4UFruitTree1, -1
-	object_event 12, 51, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, RouteU4UFruitTree2, -1
-	object_event 15, 51, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, RouteU4UFruitTree3, -1
+	object_event 13, 49, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, RouteU4UFruitTree1, -1
+	object_event 12, 51, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, RouteU4UFruitTree2, -1
+	object_event 15, 51, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, RouteU4UFruitTree3, -1
 

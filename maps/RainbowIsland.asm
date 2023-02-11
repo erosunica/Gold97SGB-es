@@ -38,74 +38,72 @@ BlueScriptRI:
 	end
 	
 BlueWinLossText:
-	text "It's all over!"
-	
-	para "That was a battle"
-	line "for the history"
-	para "books, no doubt"
-	line "about it!"
+	text "¡Se acabó!"
+
+	para "¡Ha sido un"
+	line "combate histórico,"
+	cont "sin duda!"
 	done
 
 BlueSeenText:
-	text "Hi, <PLAYER>!"
-	para "I'm here studying"
-	line "the many species"
-	para "of #MON that"
-	line "live on this"
-	cont "island."
-	
-	
-	para "But I see you have"
-	line "a fire in your"
-	cont "eyes."
-	
-	para "I know that"
-	line "feeling well."
-	
-	para "It was what drove"
-	line "me to become the"
-	cont "CHAMPION."
-	
-	para "Well… There's"
-	line "only one thing"
-	para "I could imagine"
-	line "you'd want!"
-	
-	para "<PLAYER>!"
-	
-	para "As the former"
-	line "CHAMPION of the"
-	para "#MON LEAGUE,"
-	line "I challenge you!"
+	text "¡Hola, <PLAYER>!"
+
+	para "He venido a"
+	line "estudiar las"
+	para "numerosas especies"
+	line "de #MON que"
+	cont "viven en esta"
+	cont "isla."
+
+	para "Vaya, veo el"
+	line "fuego en tus ojos."
+
+	para "Conozco bien ese"
+	line "sentimiento."
+
+	para "Es lo que me"
+	line "impulsó a conver-"
+	cont "tirme en CAMPEÓN."
+
+	para "Bueno… ¡Solo hay"
+	line "una cosa que puedo"
+	cont "imaginar que"
+	cont "deseas!"
+
+	para "¡<PLAYER>!"
+
+	para "Como antiguo"
+	line "CAMPEÓN de la"
+	para "LIGA #MON,"
+	line "¡te desafío!"
 	done
-	
+
 BlueLeavesText:
-	text "Whew…"
-	
-	para "I haven't had"
-	line "someone give me a"
-	para "run for my money"
-	line "like that since"
-	para "I fought my old"
-	line "pal when I was"
-	cont "CHAMPION!"
-	
-	para "Man… That still"
-	line "feels like it was"
-	cont "just yesterday…"
-	
-	para "Welp! I guess it's"
-	line "time for me to"
-	para "wrap up my"
-	line "research tour."
-	
-	para "What a time it's"
-	line "been!"
-	
-	para "<PLAYER>! I guess"
-	line "I'll…"
-	
-	para "Smell ya later!"
+	text "Uf…"
+
+	para "¡Nadie me había"
+	line "puesto en tantos"
+	para "aprietos desde que"
+	line "combatí contra mi"
+	para "viejo amigo cuando"
+	line "era CAMPEÓN!"
+
+	para "Todavía parece"
+	line "que fue ayer…"
+
+	para "…"
+
+	para "¡Qué tiempos"
+	line "aquellos!"
+
+	para "En fin <PLAYER>,"
+	line "supongo que ha"
+	para "llegado el momento"
+	line "de dar por"
+	para "concluida mi"
+	line "investigación."
+
+	para "¡Hasta luego!"
 	done
 
 RainbowIsland_MapEvents:

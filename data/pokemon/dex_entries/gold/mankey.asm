@@ -1,10 +1,10 @@
-	db "PIG MONKEY@" ; species name
-	dw 108, 620 ; height, weight
+	db "MONO CERDO@" ; species name
+	dbw 5, 280 ; height, weight
 
-	db   "It lives in groups"
-	next "in the treetops."
-	next "If it loses sight"
+	db   "Vive en grupos en"
+	next "las copas de los"
+	next "árboles."
 
-	page "of its group, it"
-	next "becomes infuriated"
-	next "by its loneliness.@"
+	page "Al alejarse de la"
+	next "manada se siente"
+	next "solo y se enfada.@"

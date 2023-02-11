@@ -1,10 +1,10 @@
-	db "VOLCANO@" ; species name
-	dw 607, 4370 ; height, weight
+	db "VOLCÁN@" ; species name
+	dbw 21, 1980 ; height, weight
 
-	db   "This brawny"
-	next "#MON courses"
-	next "around the earth,"
+	db   "Este musculoso"
+	next "#MON recorre el"
+	next "mundo expulsando"
 
-	page "spouting flames"
-	next "hotter than a"
-	next "volcano's magma.@"
+	page "llamas tan calien-"
+	next "tes como el magma"
+	next "de un volcán.@"

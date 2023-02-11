@@ -1,10 +1,10 @@
-	db "SEA LION@" ; species name
-	dw 307, 1980 ; height, weight
+	db "LEÓN MAR.@" ; species name
+	dbw 11, 900 ; height, weight
 
-	db   "The light blue fur"
-	next "that covers it"
-	next "keeps it protected"
+	db   "Está cubierto de"
+	next "un pelaje de color"
+	next "azul que le sirve"
 
-	page "against the cold."
-	next "It loves iceberg-"
-	next "filled oceans.@"
+	page "de protección para"
+	next "el frío. Adora los"
+	next "océanos helados.@"

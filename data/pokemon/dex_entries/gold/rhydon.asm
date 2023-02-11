@@ -1,10 +1,10 @@
-	db "DRILL@" ; species name
-	dw 603, 2650 ; height, weight
+	db "TALADRO@" ; species name
+	dbw 19, 1200 ; height, weight
 
-	db   "By lightly spin-"
-	next "ning its drill-"
-	next "like horn, it can"
+	db   "Con poco que haga"
+	next "girar el cuerno"
+	next "anillado de la"
 
-	page "easily shatter"
-	next "even a diamond in"
-	next "the rough.@"
+	page "cabeza, será capaz"
+	next "de horadar el"
+	next "diamante más duro.@"

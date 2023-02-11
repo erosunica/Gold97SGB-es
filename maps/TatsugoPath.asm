@@ -24,25 +24,26 @@ TrainerSailorEugene:
 
 
 SailorEugeneSeenText:
-	text "I just got back"
-	line "from sea."
+	text "Acabo de volver"
+	line "del mar."
 
-	para "So how about a"
-	line "#MON battle?"
+	para "¿Te apetece luchar"
+	line "con mis #MON?"
 	done
 
 SailorEugeneBeatenText:
-	text "Awaaargh!"
+	text "¡Awaaargh!"
 	done
 
 SailorEugeneAfterBattleText:
-	text "My #MON were"
-	line "caught and raised"
-	cont "overseas."
+	text "Mis #MON han"
+	line "sido atrapados y"
+	para "entrenados en el"
+	line "extranjero."
 
-	para "They're my compan-"
-	line "ions on those long"
-	cont "voyages."
+	para "Me han acompañado"
+	line "en esos largos"
+	cont "viajes."
 	done
 
 
@@ -59,20 +60,22 @@ TrainerTeacherHolly:
 	
 
 TeacherHollySeenText:
-	text "Um, excuse me"
-	line "but this is a"
-	cont "private date!"
+	text "¡Perdona, pero"
+	line "esto es una cita"
+	cont "privada!"
 	done
 
 TeacherHollyBeatenText:
-	text "Buzz off twerp!"
+	text "¡Largo de aquí,"
+	line "pelmazo!"
 	done
 
 TeacherHollyAfterBattleText:
-	text "As if I don't"
-	line "have to deal"
-	para "with enough kids"
-	line "at work already!"
+	text "¡Como si no"
+	line "tuviera que lidiar"
+	para "ya con suficientes"
+	line "niños en el"
+	cont "colegio!"
 	done
 
 
@@ -89,22 +92,23 @@ TrainerInstrMoshe:
 	
 
 InstrMosheSeenText:
-	text "If you're looking"
-	line "for tutoring, then"
-	para "you've come at"
-	line "the wrong time!"
+	text "Si estás buscando"
+	line "clases particula-"
+	cont "res, ¡has llegado"
+	cont "en el momento"
+	cont "equivocado!"
 	done
 
 InstrMosheBeatenText:
-	text "Ah, come on!"
+	text "¡Venga ya!"
 	done
 
 InstrMosheAfterBattleText:
-	text "It's typical that"
-	line "I can't even go"
-	para "on a date without"
-	line "being pestered by"
-	cont "some kid."
+	text "Es habitual que no"
+	line "pueda siquiera"
+	para "tener una cita sin"
+	line "que venga un niño"
+	cont "a incordiar."
 	done
 
 TrainerSNNorton:
@@ -120,23 +124,25 @@ TrainerSNNorton:
 	
 
 SNNortonSeenText:
-	text "I hang around at"
-	line "HEART POND every"
-	cont "day!"
-	para "So why can't I"
-	line "find a girlfriend?"
+	text "¡Vengo todos los"
+	line "días a la LAGUNA"
+	cont "CORAZÓN!"
+
+	para "¿Entonces por qué"
+	line "todavía no tengo"
+	cont "novia?"
 	done
 
 SNNortonBeatenText:
-	text "The life of a NERD"
-	line "is a tough one."
+	text "Qué dura es la"
+	line "vida de un NECIO."
 	done
 
 SNNortonAfterBattleText:
-	text "Would bathing in"
-	line "the HEART POND"
-	para "help my chances"
-	line "at all?"
+	text "¿Bañarme en la"
+	line "LAGUNA CORAZÓN"
+	para "aumentaría mis"
+	line "posibilidades?"
 	done
 	
 TatsugoPathHiddenPPUP:
@@ -152,18 +158,21 @@ HeartPondSign:
 	jumptext HeartPondSignText
 	
 HeartPondSignText:
-	text "HEART POND"
-	para "A Place Where"
-	line "Lovers Meet"
+	text "LAGUNA CORAZÓN"
+
+	para "Un lugar de"
+	line "encuentro para"
+	cont "los amantes"
 	done
 
 KikaiStraitSign:
 	jumptext KikaiStraitSignText
 	
 KikaiStraitSignText:
-	text "TATSUGO PATH"
-	para "AMAMI TOWN -"
-	line "KIKAI VILLAGE"
+	text "SENDA TATSUGO"
+
+	para "PUEBLO AMAMI -"
+	line "VILLA KIKAI"
 	done
 
 TatsugoPath_MapEvents:

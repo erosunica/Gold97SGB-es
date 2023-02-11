@@ -135,208 +135,216 @@ TeknosCityHiddenHyperPotion:
 	hiddenitem HYPER_POTION, EVENT_TEKNOS_CITY_HIDDEN_HYPER_POTION
 	
 TeknosCityRocket3Text:
-	text "Oh, man!"
-	para "This is going to"
-	line "be fun!"
+	text "¡Arrea!"
+
+	para "¡Esto se va a"
+	line "poner bueno!"
 	done
 	
 TeknosCityRocket4Text:
-	text "Almost time to"
-	line "make our presence"
-	cont "known!"
+	text "¡Ya casi es hora"
+	line "de que nos demos a"
+	cont "conocer!"
 	done
 	
 TeknosCityRocket5Text:
-	text "The AQUARIUM won't"
-	line "know what hit it!"
+	text "¡El ACUARIO no"
+	line "sabe lo que le"
+	cont "espera!"
 	done
 
 TeknosCityRocket1Text:
-	text "Stay out of the"
-	line "AQUARIUM if you"
-	para "know what's good"
-	line "for you, kid!"
+	text "¡Aléjate del"
+	line "ACUARIO si sabes"
+	para "lo que te"
+	line "conviene, niño!"
 	done
 	
 TeknosCityRocket2Text:
-	text "Hehehehe!"
-	para "This place has to"
-	line "be full of rare"
-	para "#MON we can"
-	line "sell off to the"
-	cont "highest bidder!"
-	
+	text "¡Jejejeje!"
+
+	para "¡Este lugar debe"
+	line "estar lleno de"
+	para "#MON raros que"
+	line "podemos vender al"
+	cont "mejor postor!"
 	done
 
 UnusedMissingDaughterText:
 ; unused
 	text "Oh, no. Oh, no…"
 
-	para "My daughter is"
-	line "missing."
+	para "Mi hija ha"
+	line "desaparecido."
 
-	para "No… She couldn't"
-	line "have gone to the"
-	cont "BURNED TOWER."
+	para "No… No creo que"
+	line "haya ido a la"
+	cont "TORRE QUEMADA."
 
-	para "I told her not to"
-	line "go near it…"
+	para "Le dije que no se"
+	line "acercase…"
 
-	para "People seem to"
-	line "disappear there…"
+	para "Dicen que la gente"
+	line "que va allí"
+	cont "desaparece…"
 
-	para "Oh, what should I"
-	line "do…?"
+	para "Ay, ¿qué debería ?"
+	line "hacer…"
 	done
 
 TeknosCityGramps1Text:
-	text "I've lived here"
-	line "my whole life."
-	para "This city is a"
-	line "whole lot busier"
-	para "than when I was"
-	line "young."
+	text "He vivido aquí"
+	line "toda mi vida."
+
+	para "La ciudad es mucho"
+	line "más bulliciosa que"
+	cont "cuando era joven."
 	done
 
 TeknosCityGramps2Text:
-	text "This city is going"
-	line "to grow even more"
-	para "once the BOARDWALK"
-	line "is finished."
-	para "Many more people"
-	line "will be passing"
-	cont "through."
+	text "La ciudad va a"
+	line "crecer aún más"
+	para "cuando hayan"
+	line "terminado la"
+	cont "PASARELA."
+
+	para "Mucha gente irá y"
+	line "vendrá por ella."
 	done
 	
 TeknosCityGramps2Text2:
-	text "I have to admit,"
-	line "I'm a big fan of"
-	para "the new GAME"
-	line "CORNER that just"
-	para "opened north of"
-	line "here."
+	text "Debo admitirlo, me"
+	line "encanta el CASINO"
+	para "que acaba de abrir"
+	line "al norte de aquí."
 	done
 
 TeknosCityLass1Text:
-	text "TEKNOS used to be"
-	line "a quiet town."
-	para "But it's grown"
-	line "quickly, and I"
-	para "don't think"
-	line "everyone has"
-	para "adjusted to it"
-	line "yet."
+	text "TEKNOS solía ser"
+	line "tranquila."
+
+	para "Pero ha crecido"
+	line "rápido, y creo que"
+	para "no todo el mundo"
+	line "se ha acostumbrado"
+	cont "todavía."
 	done
 
 TeknosCityLass2Text:
-	text "WHITNEY is our GYM"
-	line "LEADER here!"
-	para "She's always been"
-	line "a huge help to"
-	cont "the town!"
-	para "Sometimes it's"
-	line "hard to catch her"
-	para "at her GYM, since"
-	line "she'll always be"
-	para "out if there's"
-	line "some issue that"
-	para "she feels she can"
-	line "help with."
+	text "¡BLANCA es nuestra"
+	line "LÍDER de GIMNASIO!"
+
+	para "¡Siempre ha sido"
+	line "de gran ayuda para"
+	cont "la ciudad!"
+
+	para "A veces es difícil"
+	line "encontrarla en el"
+	para "GIMNASIO, porque"
+	line "suele estar fuera"
+	para "comprobando si"
+	line "puede ayudar en"
+	cont "algo."
 	done
 
 TeknosCityLass2Text_ReleasedBeasts:
-	text "Three big #MON"
-	line "ran off in differ-"
-	cont "ent directions."
-	cont "What were they?"
+	text "Tres #MON"
+	line "huyeron en tres"
+	para "direcciones."
+	line "¿Qué eran?"
 	done
 
 TeknosCityFisherText:
-	text "The AQUARIUM isn't"
-	line "too interesting to"
-	cont "SAILORS like me."
-	para "We see all these"
-	line "#MON out on the"
-	cont "sea! Ohoho!"
+	text "A los MARINEROS"
+	line "como yo no nos"
+	cont "interesa mucho el"
+	cont "ACUARIO."
+
+	para "¡Ya vemos a todos"
+	line "estos #MON en"
+	cont "el mar! ¡Jojojo!"
 	done
 
 TeknosCityFisherText_TheresRockets:
-	text "These guys sure do"
-	line "look like TEAM"
-	cont "ROCKET members."
-	para "I thought they"
-	line "weren't around"
-	cont "anymore?"
+	text "Esos tipos parecen"
+	line "miembros del TEAM"
+	cont "ROCKET."
+
+	para "¿No se habían"
+	line "esfumado?"
 	done
 
 TeknosCityYoungsterText:
-	text "I've tried many"
-	line "times, but I've"
-	para "never been able to"
-	line "defeat WHITNEY…"
+	text "Lo he intentado"
+	line "muchas veces, pero"
+	para "nunca he podido"
+	line "derrotar a BLANCA…"
 	done
 
 TeknosCityGramps3Text:
-	text "TEKNOS is starting"
-	line "to grow as another"
-	cont "port town."
-	para "It's always been"
-	line "a favorite of mine"
-	cont "to visit."
-	para "I hope it doesn't"
-	line "get too crowded"
-	cont "here!"
+	text "TEKNOS empieza a"
+	line "ser otra ciudad"
+	cont "portuaria más."
+
+	para "Siempre me ha"
+	line "gustado visitarla."
+
+	para "¡Espero que no"
+	line "llegue a llenarse"
+	cont "de gente!"
 	done
 
 TeknosCitySignText:
-	text "TEKNOS CITY"
-	para "A City that"
-	line "Embraces the"
-	cont "Future"
+	text "CIUDAD TEKNOS"
+	
+	para "Una ciudad que"
+	line "abraza el futuro"
 	done
 
 TinTowerSignText:
-	text "COMING SOON!"
-	para "BOARDWALK and"
-	line "BOARDWALK GAME"
-	cont "CORNER!"
-	para "A walkable seaside"
-	line "connection from"
-	para "TEKNOS CITY to"
-	line "SANSKRIT TOWN,"
-	para "with games and"
-	line "prizes galore!"
+	text "¡PRÓXIMAMENTE!"
+
+	para "¡PASARELA y"
+	line "CASINO MARÍTIMO!"
+
+	para "¡Un enclave junto"
+	line "al mar que"
+	para "conectará CIUDAD"
+	line "TEKNOS y PUEBLO"
+	para "SÁNSCRITO, con"
+	line "juegos y premios"
+	cont "a gogó!"
 	done
 
 TinTowerSignText2:
-	text "North to BOARDWALK"
-	line "and BOARDWALK"
-	cont "GAME CORNER!"
-	para "Games, prizes, and"
-	line "fun!"
+	text "¡PASARELA y CASINO"
+	line "MARÍTIMO al norte!"
+
+	para "¡Juegos, premios y"
+	line "diversión!"
 	done
 
 BirdonGymSignText:
-	text "TEKNOS CITY"
-	line "#MON GYM"
-	cont "LEADER: WHITNEY"
+	text "LÍDER DEL GIMNASIO"
+	line "#MON DE CIUDAD"
+	cont "TEKNOS: BLANCA"
 
-	para "The Energetic"
-	line "Go-Getter!"
+	para "¡Enérgica y"
+	line "ambiciosa!"
 	done
 
 TeknosDanceTheaterSignText:
-	text "TEKNOS CITY"
-	line "AQUARIUM"
+	text "ACUARIO DE"
+	line "CIUDAD TEKNOS"
 	done
 
 BurnedTowerSignText:
-	text "FISHING GURU"
-	line "ARNOLD'S HOUSE"
+	text "CASA DEL GURÚ"
+	line "PESCADOR ARNOLDO"
 	done
 	
 TeknosCityDocksText:
-	text "TEKNOS CITY DOCKS"
+	text "MUELLE TEKNOS"
 	done
 
 TeknosCity_MapEvents:
@@ -375,7 +383,7 @@ TeknosCity_MapEvents:
 	object_event 14, 21, SPRITE_GRAMPS, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, TeknosCityGramps1Script, -1
 	object_event 19,  9, SPRITE_GRAMPS, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, TeknosCityGramps2Script, -1
 	object_event 28, 27, SPRITE_LASS, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, TeknosCityLass1Script, -1
-	object_event 23, 14, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, TeknosCityLass2Script, -1
+	object_event 23, 14, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, TeknosCityLass2Script, -1
 	object_event 10, 30, SPRITE_SAILOR, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, TeknosCityFisherScript, -1
 	object_event 10, 14, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, TeknosCityYoungsterScript, -1
 	object_event 22, 13, SPRITE_SAILOR, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, TeknosCityGramps3Script, -1

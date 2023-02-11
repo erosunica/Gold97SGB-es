@@ -44,17 +44,16 @@ SanskritRuinsOmanyteChamberDescriptionSign:
 	jumptext SanskritRuinsOmanyteChamberDescriptionText
 
 SanskritRuinsOmanyteChamberAncientReplicaText:
-	text "It's a replica of"
-	line "an ancient #-"
-	cont "MON."
+	text "Es una réplica de"
+	line "un #MON"
+	cont "antiguo."
 	done
 
 SanskritRuinsOmanyteChamberDescriptionText:
-	text "This #MON"
-	line "drifted in the"
-
-	para "sea by twisting"
-	line "its ten tentacles."
+	text "Este #MON"
+	line "se desplazaba por"
+	para "el mar con sus"
+	line "diez tentáculos."
 	done
 
 SanskritRuinsOmanyteChamber_MapEvents:

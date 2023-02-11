@@ -1,10 +1,10 @@
-	db "ATROCIOUS@" ; species name
-	dw 2104, 5180 ; height, weight
+	db "ATROCIDAD@" ; species name
+	dbw 65, 2350 ; height, weight
 
-	db   "It appears when-"
-	next "ever there is"
-	next "world conflict,"
+	db   "Huele las batallas"
+	next "a leguas. Allá"
+	next "donde haya una,"
 
-	page "burning down any"
-	next "place it travels"
-	next "through.@"
+	page "irá arrasándolo"
+	next "todo con su fuego"
+	next "devastador.@"

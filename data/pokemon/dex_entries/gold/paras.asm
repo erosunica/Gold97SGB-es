@@ -1,10 +1,10 @@
-	db "MUSHROOM@" ; species name
-	dw 100, 120 ; height, weight
+	db "HONGO@" ; species name
+	dbw 3, 54 ; height, weight
 
-	db   "The tochukaso"
-	next "growing on this"
-	next "#MON's back"
+	db   "La gran seta que"
+	next "lleva a cuestas"
+	next "le sirve para"
 
-	page "orders it to"
-	next "extract juice from"
-	next "tree trunks.@"
+	page "obtener savia"
+	next "de los troncos"
+	next "de los árboles.@"

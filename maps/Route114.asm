@@ -96,132 +96,132 @@ Route114HiddenEther:
 	hiddenitem ETHER, EVENT_ROUTE_114_HIDDEN_ETHER
 	
 SportsmanJacobSeenText:
-	text "I'm taking a break"
-	line "after a long jog"
-	cont "here."
+	text "Estoy descansando"
+	line "tras haber corrido"
+	cont "hasta aquí."
 	done
-	
+
 SportsmanJacobBeatenText:
-	text "Now that's not"
-	line "what I expected."
+	text "Eso no es lo que"
+	line "esperaba."
 	done
-	
+
 SportsmanJacobAfterBattleText:
-	text "Jogging with"
-	line "#MON is a good"
-	cont "way to train."
+	text "Correr con tus"
+	line "#MON es una"
+	cont "buena forma de"
+	cont "entrenar."
 	done
 
 CamperDeanSeenText:
-	text "Have you ever been"
-	line "to the KANTO"
-	cont "REGION?"
+	text "¿Has estado alguna"
+	line "vez en KANTO?"
 	done
 
 CamperDeanBeatenText:
-	text "Whoa! Danger, man."
+	text "¡Uau! Peligro."
 	done
 
 CamperDeanAfterBattleText:
-	text "I prefer camping"
-	line "in JADE FOREST."
+	text "Prefiero acampar"
+	line "en el BOSQUE JADE."
 	done
 
 PicnickerHeidiSeenText:
-	text "Have you ever been"
-	line "to a picnic?"
+	text "¿Has estado alguna"
+	line "vez de picnic?"
 
-	para "They're so much"
-	line "fun!"
+	para "¡Son muy"
+	line "divertidos!"
 	done
 
 PicnickerHeidiBeatenText:
-	text "Ohhhh!"
+	text "¡Ohhhh!"
 	done
 
 PicnickerHeidiAfterBattleText:
-	text "We bake lots of"
-	line "goodies and share"
-
-	para "them all around."
-	line "They're delicious!"
+	text "Hacemos dulces y"
+	line "los repartimos"
+	para "entre todos."
+	line "¡Son deliciosos!"
 	done
 
 CamperSidSeenText:
-	text "Hey, you!"
-	line "Don't litter!"
+	text "¡Eh, tú!"
+	line "¡No tires basura!"
 	done
 
 CamperSidBeatenText:
-	text "I was just point-"
-	line "ing out…"
+	text "Sólo estaba"
+	line "diciendo que…"
 	done
 
 CamperSidAfterBattleText:
-	text "Sorry. You weren't"
-	line "littering. It was"
-	cont "my mistake."
+	text "Perdón. No estabas"
+	line "tirando basura."
+	cont "Me he equivocado."
 	done
 
 PicnickerEdnaSeenText:
-	text "People shouldn't"
-	line "leave any litter"
-	cont "behind."
+	text "La gente no"
+	line "debería dejar la"
+	cont "basura por ahí."
 	done
 
 PicnickerEdnaBeatenText:
-	text "Ohh… I lost…"
+	text "¡Ohh…! Perdí…"
 	done
 
 PicnickerEdnaAfterBattleText:
-	text "Conserving energy"
-	line "is important, but"
-
-	para "the environment is"
-	line "even more vital."
+	text "Ahorrar energía es"
+	line "importante, pero"
+	cont "el entorno aún lo"
+	cont "es más."
 	done
 
 HikerTimSeenText:
-	text "She'll be coming"
-	line "'round MT.FUJI"
-	cont "when she comes…"
+	text "Cuando venga, lo"
+	line "hará por el"
+	cont "MT. FUJI…"
 	done
 
 HikerTimBeatenText:
-	text "I was too busy"
-	line "singing…"
+	text "Estaba ocupado"
+	line "cantando…"
 	done
 
 HikerTimAfterBattleText:
-	text "Battles are about"
-	line "concentration."
+	text "Los combates son"
+	line "cuestión de"
+	cont "concentración."
 	done
 
 HikerSidneySeenText:
-	text "I'll tell you a"
-	line "secret."
+	text "Te contaré un"
+	line "secreto."
 
-	para "But first, we"
-	line "battle!"
+	para "Pero primero,"
+	line "¡luchemos!"
 	done
 
 HikerSidneyBeatenText:
-	text "Oh, dang!"
-	line "I lost that…"
+	text "¡Caray!"
+	line "He perdido…"
 	done
 
 HikerSidneyAfterBattleText:
-	text "I was just kidding"
-	line "about the secret."
-	para "I don't know any-"
-	line "thing interesting."
+	text "Lo del secreto era"
+	line "broma."
+
+	para "No sé nada"
+	line "interesante."
 	done
 
 Route114SignText:
-	text "ROUTE 114"
+	text "RUTA 114"
 
-	para "STAND CITY -"
-	line "KANTO REGION"
+	para "CIUDAD ENHIESTA -"
+	line "KANTO"
 	done
 
 Route114_MapEvents:
@@ -240,7 +240,7 @@ Route114_MapEvents:
 	db 7 ; object events
 	object_event 18, 14, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 4, TrainerCamperDean, -1
 	object_event 28, 10, SPRITE_LASS, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerPicnickerHeidi, -1
-	object_event 10,  9, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_TRAINER, 4, TrainerCamperSid, -1
+	object_event 10,  9, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_TRAINER, 4, TrainerCamperSid, -1
 	object_event  8, 13, SPRITE_LASS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 1, TrainerPicnickerEdna, -1
 	object_event 14, 10, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 1, TrainerHikerTim, -1
 	object_event 21,  8, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 4, TrainerHikerSidney, -1

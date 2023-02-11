@@ -21,23 +21,22 @@ AlloyMartLassScript:
 	jumptextfaceplayer AlloyMartLassText
 
 AlloyMartCooltrainerFText:
-	text "Do your #MON"
-	line "already know the"
-
-	para "move for carrying"
-	line "people on water?"
+	text "¿Tus #MON saben"
+	line "un movimiento para"
+	para "llevar personas"
+	line "por el agua?"
 	done
 
 AlloyMartLassText:
-	text "My PIDGEOTTO came"
-	line "from my boyfriend"
-	cont "overseas."
+	text "Mi PIDGEOTTO ha"
+	line "estado con mi"
+	cont "novio."
 
-	para "It flew here on"
-	line "its own."
+	para "Voló solo hasta"
+	line "aquí."
 	
-	para "Do your #MON"
-	line "know how to FLY?"
+	para "¿Tu #MON sabe"
+	line "usar VUELO?"
 	done
 
 AlloyMart_MapEvents:

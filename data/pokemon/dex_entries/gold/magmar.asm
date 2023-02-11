@@ -1,10 +1,10 @@
-	db "SPITFIRE@" ; species name
-	dw 403, 980 ; height, weight
+	db "ESCUPEFUE.@" ; species name
+	dbw 13, 445 ; height, weight
 
-	db   "It moves more"
-	next "frequently in hot"
-	next "areas. It can heal"
+	db   "Es más frecuente"
+	next "encontrarle en"
+	next "zonas cálidas. Se"
 
-	page "itself by dipping"
-	next "its wound into"
-	next "lava.@"
+	page "puede curar a sí"
+	next "mismo al sumer-"
+	next "girse en lava.@"

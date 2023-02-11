@@ -25,11 +25,8 @@ CreditsStringsPointers:
 	dw Credits_KazuhitoSekine
 	dw Credits_TetsujiOota
 	dw Credits_NclSuperMarioClub
-	dw Credits_Sarugakucho
 	dw Credits_AkitoMori
 	dw Credits_TakahiroHarada
-	dw Credits_TohruHashimoto
-	dw Credits_NoboruMatsumoto
 	dw Credits_TakehiroIzushi
 	dw Credits_TakashiKawaguchi
 	dw Credits_TsunekazuIshihara
@@ -39,14 +36,6 @@ CreditsStringsPointers:
 	dw Credits_NaokoKawakami
 	dw Credits_HiroyukiZinnai
 	dw Credits_KunimiKawamura
-	dw Credits_GailTilden
-	dw Credits_HiroNakamura
-	dw Credits_JeffKalles
-	dw Credits_WilliamGiese
-	dw Credits_NobOgasawara
-	dw Credits_RandyShoemake
-	dw Credits_KathyHuguenard
-	dw Credits_JoelSimon
 	dw Credits_TerukiMurakawa
 	dw Credits_KazuyoshiOsawa
 	dw Credits_KimikoNakamichi
@@ -75,4 +64,17 @@ CreditsStringsPointers:
 	dw Credits_UsVersionStaff
 	dw Credits_UsCoordination
 	dw Credits_TextTranslation
-	dw Credits_PaadTesting
+;;; new
+	dw Credits_TanjaBaar
+	dw Credits_KaiNeumann
+	dw Credits_KaiZeh
+	dw Credits_HiroyukiUesugi
+	dw Credits_MauriceTisdale
+	dw Credits_Lvl3
+	dw Credits_Erosunica
+	dw Credits_HoshiNoBani
+	dw Credits_SusaAlcami
+	dw Credits_RuthGarcia
+	dw Credits_InfanteMontilla
+	dw Credits_PokemonNE
+	dw Credits_EhlertDiesing

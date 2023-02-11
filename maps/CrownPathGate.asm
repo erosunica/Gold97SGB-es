@@ -61,59 +61,69 @@ CrownPathGateCooltrainerFScript:
 	jumptextfaceplayer CrownPathGateCooltrainerFText
 	
 CrownPathGateCooltrainerMText:
-	text "I can't believe"
-	line "it!"
-	para "It's almost time"
-	line "for me to take on"
-	cont "the LEAGUE!"
-	para "I've been waiting"
-	line "my whole life for"
-	cont "this!"
+	text "¡No puedo creerlo!"
+
+	para "¡Ya casi es la"
+	line "hora de que"
+	cont "desafíe a la LIGA!"
+
+	para "¡He esperado toda"
+	line "mi vida para este"
+	cont "momento!"
 	done
-	
+
 CrownPathGateCooltrainerFText:
-	text "CROWN PATH may"
-	line "be a cakewalk, but"
-	para "the real challenge"
-	line "is making it to"
-	para "the top of MT.FUJI"
-	line "from CROWN CITY."
+	text "SENDA CORONA puede"
+	line "ser un camino de"
+	para "rosas, pero el"
+	line "verdadero desafío"
+	para "es llegar a la"
+	line "cima del MT. FUJI"
+	cont "desde CIUDAD"
+	cont "CORONA."
 	done
-	
+
 CrownPathGateNotEvenATrainer:
-	text "You don't even"
-	line "appear to be a"
-	cont "#MON trainer."
-	para "Sorry, kid. But I"
-	line "can only let"
-	para "qualified trainers"
-	line "pass through."
+	text "No pareces siquie-"
+	line "ra un entrenador"
+	cont "#MON."
+
+	para "Lo siento, chico,"
+	line "pero solo puedo"
+	para "dejar pasar a"
+	line "entrenadores"
+	cont "cualificados."
 	done
 
 CrownPathGateOfficerText:
-	text "Only trainers who"
-	line "have proven them-"
-	cont "selves may pass."
+	text "Sólo pueden pasar"
+	line "los entrenadores"
+	cont "que demuestren su"
+	cont "valía."
 	done
 
 CrownPathGateNotEnoughBadgesText:
-	text "You don't have"
-	line "eight BADGES."
-	para "I'm sorry, but"
-	line "only trainers with"
-	para "enough BADGES are"
-	line "permitted to enter"
-	para "CROWN CITY and"
-	line "climb MT.FUJI."
+	text "No tienes ocho"
+	line "MEDALLAS."
+
+	para "Lo siento, pero"
+	line "solo los entrena-"
+	para "dores que tengan"
+	line "ocho MEDALLAS"
+	para "pueden entrar a"
+	line "CIUDAD CORONA y"
+	cont "escalar el MT."
+	cont "FUJI."
 	done
 
 CrownPathGateEightBadgesText:
-	text "Ah! Eight BADGES!"
+	text "¡Oh! ¡Las ocho"
+	line "MEDALLAS!"
 
-	para "You have proven"
-	line "yourself worthy."
-	para "Please, go on"
-	line "through!"
+	para "Has demostrado tu"
+	line "valía."
+
+	para "¡Por favor, pasa!"
 	done
 
 CrownPathGate_MapEvents:

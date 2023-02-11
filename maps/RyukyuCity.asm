@@ -78,83 +78,85 @@ GrassStarterTest:
 	jumptext GrassStarterTestText
 	
 GrassStarterTestText:
-	text "grass"
+	text "planta"
 	done
 
 WaterStarterTestText:
-	text "water"
+	text "agua"
 	done
-	
+
 FireStarterTestText:
-	text "fire"
+	text "fuego"
 	done
-	
+
 RyukyuPokefanM2Text:
-	text "I just enjoy"
-	line "watching the waves"
-	cont "on the sea."
+	text "Me gusta ver las"
+	line "olas del mar."
 	done
-	
+
 RyukyuCitySignText:
-	text "RYUKYU CITY"
-	para "The SOUTHWEST"
-	line "ISLANDS' Shining"
-	cont "Gem"
+	text "CIUDAD RYUKYU"
+
+	para "La piedra angular"
+	line "de las ISLAS"
+	cont "PONIENTES"
 	done
 
 RyukyuCityHotelSignText:
-	text "RYUKYU HOTEL AND"
-	line "RESTAURANT"
-	para "The ultimate"
-	line "SOUTHWEST ISLANDS"
-	cont "travel experience!"
+	text "HOTEL GOURMET"
+	line "RYUKYU"
+
+	para "¡La experiencia"
+	line "turística defini-"
+	cont "tiva de las ISLAS"
+	cont "PONIENTES!"
 	done
 
 RyukyuTeacherText:
-	text "Now now, children."
-	para "Don't just run off"
-	line "into the ocean!"
+	text "Calma, niños."
+
+	para "¡No vayáis"
+	line "corriendo hacia"
+	cont "el mar!"
 	done
-	
+
 RyukyuPokefanMText:
-	text "The weather is"
-	line "perfect here, if a"
-	cont "bit humid."
+	text "El clima aquí es"
+	line "perfecto, aunque"
+	cont "un poco húmedo."
 	done
-	
+
 RyukyuBugCatcherText:
-	text "I wanna go"
-	line "swimming!"
+	text "¡Quiero ir a"
+	line "nadar!"
 	done
-	
+
 RyukyuTwinText:
-	text "Let's get some"
-	line "ice cream!"
+	text "¡Vamos a por unos"
+	line "helados!"
 	done
-	
+
 RyukyuCooltrainerMText:
-	text "I think I'll go"
-	line "out on a boat"
-	cont "today."
+	text "Creo que hoy"
+	line "saldré en barco."
 	done
-	
+
 RyukyuLassText:
-	text "Many of the people"
-	line "you see in this"
-	para "city don't live"
-	line "here."
+	text "Mucha gente que"
+	line "ves aquí por no es"
+	cont "de esta ciudad."
 	done
-	
+
 RyukyuSwimmerGuyText:
-	text "I come here on"
-	line "vacation whenever"
-	cont "I get the chance!"
+	text "¡Vengo aquí de"
+	line "vacaciones siempre"
+	cont "que puedo!"
 	done
-	
+
 RyukyuSwimmerGirlText:
-	text "There's nowhere"
-	line "better to relax"
-	cont "than right here!"
+	text "¡No hay mejor"
+	line "lugar para rela-"
+	cont "jarse que este!"
 	done
 
 RyukyuCity_MapEvents:

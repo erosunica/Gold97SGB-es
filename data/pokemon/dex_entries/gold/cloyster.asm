@@ -1,10 +1,10 @@
-	db "BIVALVE@" ; species name
-	dw 411, 2920 ; height, weight
+	db "BIVALVO@" ; species name
+	dbw 15, 1325 ; height, weight
 
-	db   "Even a missile"
-	next "can't break the"
-	next "spikes it uses to"
+	db   "Ni el misil más"
+	next "devastador podría"
+	next "destrozarle los"
 
-	page "stab opponents."
-	next "They're even hard-"
-	next "er than its shell.@"
+	page "pinchos que tiene."
+	next "Son aún más duros"
+	next "que la concha.@"

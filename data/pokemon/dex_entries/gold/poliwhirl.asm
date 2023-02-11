@@ -1,10 +1,10 @@
-	db "TADPOLE@" ; species name
-	dw 303, 440 ; height, weight
+	db "RENACUAJO@" ; species name
+	dbw 10, 200 ; height, weight
 
-	db   "Though it is"
-	next "skilled at walk-"
-	next "ing, it prefers to"
+	db   "Aunque es hábil en"
+	next "tierra, prefiere"
+	next "vivir bajo el"
 
-	page "live underwater"
-	next "where there is"
-	next "less danger.@"
+	page "agua, pues hay"
+	next "menos peligros al"
+	next "acecho.@"

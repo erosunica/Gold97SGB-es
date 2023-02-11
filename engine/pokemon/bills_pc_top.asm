@@ -22,7 +22,7 @@ _BillsPC:
 	xor a
 	ldh [hBGMapMode], a
 	call LoadStandardMenuHeader
-	call ClearPCItemScreen
+	;call ClearPCItemScreen ; erosunica: don't need to use it
 	ld hl, wOptions
 	ld a, [hl]
 	push af
@@ -39,7 +39,8 @@ _BillsPC:
 	text_end
 
 .LogOut:
-	call CloseSubmenu
+    call LoadFontsExtra ; erosunica: added
+	call ExitMenu ; erosunica: changed from CloseSubmenu
 	ret
 
 .UseBillsPC:
@@ -68,7 +69,7 @@ _BillsPC:
 
 .MenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 0, SCREEN_WIDTH - 1, SCREEN_HEIGHT - 1
+	menu_coords 0, 0, 15, 12
 	dw .MenuData
 	db 1 ; default option
 
@@ -80,25 +81,25 @@ _BillsPC:
 	dw .strings
 
 .strings
-	db "WITHDRAW <PK><MN>@"
-	db "DEPOSIT <PK><MN>@"
-	db "CHANGE BOX@"
-	db "MOVE <PK><MN>@"
-	db "SEE YA!@"
+	db "SACAR <PK><MN>@"
+	db "DEJAR <PK><MN>@"
+	db "MOVER <PKMN>@"
+	db "CAMBIA CAJA@"
+	db "¡NOS VEMOS!@"
 
 .Jumptable:
 	dw BillsPC_WithdrawMenu
 	dw BillsPC_DepositMenu
-	dw BillsPC_ChangeBoxMenu
 	dw BillsPC_MovePKMNMenu
+	dw BillsPC_ChangeBoxMenu
 	dw BillsPC_SeeYa
 
 .items
 	db 5 ; # items
 	db 0 ; WITHDRAW
 	db 1 ; DEPOSIT
-	db 2 ; CHANGE BOX
-	db 3 ; MOVE PKMN
+	db 2 ; MOVE PKMN
+	db 3 ; CHANGE BOX
 	db 4 ; SEE YA!
 	db -1
 
@@ -133,10 +134,19 @@ BillsPC_MovePKMNMenu:
 BillsPC_DepositMenu:
 	call LoadStandardMenuHeader
 	farcall _DepositPKMN
+;;; erosunica: added
+	ld b, SCGB_MAPPALS
+	call GetSGBLayout
+	call WaitBGMap2
+;;;
 	call ReturnToMapFromSubmenu
 	call ClearPCItemScreen
 	call CloseWindow
 	and a
+;;; erosunica: added
+	farcall ResetPalettes
+	call EnableSpriteUpdates
+;;;
 	ret
 
 Functione4ed: ; unreferenced
@@ -200,10 +210,19 @@ CheckCurPartyMonFainted:
 BillsPC_WithdrawMenu:
 	call LoadStandardMenuHeader
 	farcall _WithdrawPKMN
+;;; erosunica: added
+	ld b, SCGB_MAPPALS
+	call GetSGBLayout
+	call WaitBGMap2
+;;;
 	call ReturnToMapFromSubmenu
 	call ClearPCItemScreen
 	call CloseWindow
 	and a
+;;; erosunica: added
+	farcall ResetPalettes
+	call EnableSpriteUpdates
+;;;
 	ret
 
 Functione548: ; unreferenced
@@ -232,14 +251,15 @@ ClearPCItemScreen:
 	call DisableSpriteUpdates
 	xor a
 	ldh [hBGMapMode], a
+	call ReloadTilesetAndPalettes ; erosunica: added
 	call ClearBGPalettes
 	call ClearSprites
 	hlcoord 0, 0
 	ld bc, SCREEN_HEIGHT * SCREEN_WIDTH
-	ld a, " "
+	ld a, $3d ; erosunica: changed
 	call ByteFill
 	hlcoord 0, 0
-	lb bc, 10, 18
+	lb bc, 10, 14
 	call Textbox
 	hlcoord 0, 12
 	lb bc, 4, 18

@@ -1,10 +1,10 @@
 	db "GAS@" ; species name
-	dw 403, 2 ; height, weight
+	dbw 13, 1 ; height, weight
 
-	db   "It wraps its op-"
-	next "ponent in its gas-"
-	next "like body, slowly"
+	db   "Su estrategia con-"
+	next "siste en envolver"
+	next "a su rival con su"
 
-	page "weakening its prey"
-	next "by poisoning it"
-	next "through the skin.@"
+	page "gaseoso cuerpo"
+	next "envenenándole a"
+	next "través de la piel.@"

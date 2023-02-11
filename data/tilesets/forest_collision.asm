@@ -62,3 +62,5 @@
 	tilecoll WALL, WALL, WALL, FLOOR ; 3d
 	tilecoll HEADBUTT_TREE, HEADBUTT_TREE, HEADBUTT_TREE, HEADBUTT_TREE ; 3e
 	tilecoll HEADBUTT_TREE, WALL, FLOOR, WALL ; 3f
+	tilecoll WARP_CARPET_UP, WARP_CARPET_UP, FLOOR, FLOOR ; 40 ; erosunica: new block, used in Silent Hills
+	tilecoll FLOOR, WARP_CARPET_RIGHT, FLOOR, WARP_CARPET_RIGHT ; 41 ; erosunica: new block, used in Silent Hills

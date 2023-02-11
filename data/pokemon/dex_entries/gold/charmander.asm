@@ -1,10 +1,10 @@
-	db "LIZARD@" ; species name
-	dw 200, 190 ; height, weight
+	db "LAGARTIJA@" ; species name
+	dbw 6, 85 ; height, weight
 
-	db   "If it's healthy,"
-	next "the flame on the"
-	next "tip of its tail"
+	db   "Si está sano, la"
+	next "llama que tiene"
+	next "en la cola arderá"
 
-	page "will burn vigor-"
-	next "ously, even if it"
-	next "gets a bit wet.@"
+	page "vigorosamente,"
+	next "aunque se le moje"
+	next "un poco.@"

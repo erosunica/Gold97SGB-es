@@ -8,7 +8,7 @@ TropicalIslandJungle_MapScripts:
 	db 0 ; callbacks
 
 MewTextCommon1:
-	text "MEW!"
+	text "Miu…"
 	done
 
 MewSpot1Script:

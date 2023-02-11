@@ -87,59 +87,63 @@ MistysRoom_EnterMovement:
 	step_end
 
 MistyScript_MistyBeforeText:
-	text "Hi, there!"
+	text "¡Hola!"
 
-	para "I am MISTY of the"
-	line "ELITE FOUR."
+	para "Soy MISTY del"
+	line "ALTO MANDO."
 
-	para "You're <PLAYER>?"
-	line "Well it's nice to"
-	cont "meet you."
-	
-	para "But I'm not just"
-	line "here for friendly"
-	cont "greetings!"
-	
-	para "My water #MON"
-	line "are ready to"
-	cont "battle."
-	para "And I'm ready to"
-	line "work with them to"
-	cont "defeat you!"
-	
-	para "Ready? I accept"
-	line "your challenge!"
+	para "¿Eres <PLAYER>?"
+	line "Encantada de"
+	cont "conocerte."
+
+	para "¡Pero no estoy"
+	line "aquí para hacer"
+	cont "amigos!"
+
+	para "Mis #MON de"
+	line "agua están listos"
+	cont "para combatir."
+
+	para "¡Y yo para ayudar-"
+	line "los a derrotarte!"
+
+	para "¿Preparado?"
+	line "¡Acepto tu"
+	cont "desafío!"
 	done
 
 MistyScript_MistyBeatenText:
-	text "Well, looks like"
-	line "you were ready to"
-	para "battle alongside"
-	line "your #MON as"
-	cont "well!"
+	text "¡Parece que tú"
+	line "también estás"
+	para "listo para"
+	line "combatir junto a"
+	cont "tus #MON!"
 	done
 
 MistyScript_MistyDefeatText:
-	text "The best #MON"
-	line "trainers aren't"
-	para "the ones who pick"
-	line "the strongest"
-	cont "#MON."
-	para "They're the ones"
-	line "who battle with"
-	cont "their favorites,"
-	para "and build a bond"
-	line "between trainer"
-	cont "and #MON."
-	
-	para "And that's how"
-	line "they win."
-	
-	para "I think you've"
-	line "figured that out."
+	text "Los mejores"
+	line "entrenadores"
+	para "#MON no son los"
+	line "que escogen a los"
+	cont "#MON más"
+	cont "fuertes."
 
-	para "Go on--the CHAM-"
-	line "PION is waiting."
+	para "Son los que"
+	line "combaten con sus"
+	para "favoritos, y crean"
+	line "un vínculo entre"
+	cont "ellos y sus"
+	cont "#MON."
+
+	para "Y así es como"
+	line "ganan."
+
+	para "Creo que ya"
+	line "has podido"
+	cont "averiguarlo."
+
+	para "Adelante. El"
+	line "CAMPEÓN te espera."
 	done
 
 MistysRoom_MapEvents:

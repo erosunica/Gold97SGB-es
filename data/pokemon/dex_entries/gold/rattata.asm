@@ -1,10 +1,10 @@
-	db "RAT@" ; species name
-	dw 100, 80 ; height, weight
+	db "RATÓN@" ; species name
+	dbw 3, 35 ; height, weight
 
-	db   "This #MON's"
-	next "impressive vital-"
-	next "ity allows it to"
+	db   "La impresionante"
+	next "vitalidad de este"
+	next "#MON le permite"
 
-	page "live anywhere. It"
-	next "also multiplies"
-	next "very quickly.@"
+	page "vivir y reprodu-"
+	next "cirse deprisa en"
+	next "cualquier parte.@"

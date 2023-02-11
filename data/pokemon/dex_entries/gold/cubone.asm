@@ -1,10 +1,10 @@
-	db "LONELY@" ; species name
-	dw 104, 140 ; height, weight
+	db "SOLITARIO@" ; species name
+	dbw 4, 65 ; height, weight
 
-	db   "It lost its mother"
-	next "after its birth."
-	next "It wears its"
+	db   "Nada más nacer"
+	next "perdió a su madre."
+	next "Lleva puesto su"
 
-	page "mother's skull,"
-	next "never revealing"
-	next "its true face.@"
+	page "cráneo para no"
+	next "desvelar a nadie"
+	next "su identidad.@"

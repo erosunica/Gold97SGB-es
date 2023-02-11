@@ -16,12 +16,15 @@ AmamiTatsugoPathGuardScript:
 
 
 AmamiTatsugoPathGuardWelcomeText:
-	text "Head east from"
-	line "here to get to"
-	cont "KIKAI VILLAGE."
-	para "But be ready to"
-	line "face the heat of"
-	cont "the CALDERA."
+	text "Dirígete hacia al"
+	line "este para llegar"
+	cont "a VILLA KIKAI."
+
+	para "Pero será mejor"
+	line "que te prepares"
+	para "para soportar el"
+	line "calor de la"
+	cont "CALDERA KIKAI."
 	done
 
 
@@ -39,4 +42,4 @@ AmamiTatsugoPathGate_MapEvents:
 	db 0 ; bg events
 
 	db 1 ; object events
-	object_event  5,  2, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, AmamiTatsugoPathGuardScript, -1
+	object_event  5,  2, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, AmamiTatsugoPathGuardScript, -1

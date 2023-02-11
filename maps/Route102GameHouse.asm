@@ -98,7 +98,7 @@ N64HouseScientistScript:
 	end
 	
 .eggname3
-	db "EGG@"
+	db "HUEVO@"
 	
 .GetStarter3Egg:
 	jumpstd ReceiveTogepiEggScript
@@ -162,150 +162,181 @@ N64HouseN64Script:
 	jumptext N64HouseN64Text
 	
 N64HouseN64Text:
-	text "<PLAYER> played the"
-	line "N64."
+	text "<PLAYER> jugó a"
+	line "la N64."
 
-	para "Better get going--"
-	line "no time to lose!"
+	para "Mejor irse. No hay"
+	line "tiempo que perder."
 	done
 	
 N64HouseFisherText:
-	text "Should I try to"
-	line "play the racing"
-	para "game with those"
-	line "guys?"
-	para "I think I'd be no"
-	line "good at it."
+	text "¿Debería jugar con"
+	line "ellos a ese juego"
+	cont "de carreras?"
+	
+	para "No creo que se me"
+	line "dé bien."
 	done
 	
 N64HouseCooltrainerMText:
-	text "This place has a"
-	line "great selection of"
-	cont "sports games!"
+	text "¡Este sitio tiene"
+	line "una gran colección"
+	cont "de juegos de"
+	cont "deportes!"
 	done
 	
 N64HouseLassText:
-	text "I'm no good at"
-	line "sports games, but"
-	para "my friend here"
-	line "helps me learn."
+	text "No soy buena en"
+	line "los juegos de"
+	para "deportes, pero mi"
+	line "amigo me ayuda a"
+	cont "mejorar."
 	done
 	
 TakeGoodCareOfStarter3:
-	text "I know you'll take"
-	line "great care of that"
+	text "Sé que cuidarás"
+	line "bien de este"
 	cont "#MON."
 	done
 	
 NoRoomForStarter3:
-	text "Oh, wait! You have"
-	line "no room for this!"
+	text "¡Espera! ¡No"
+	line "tienes sitio para"
+	cont "esto!"
 	done
 	
 AlreadyGotStarter3Text:
-	text "This place is the"
-	line "coolest spot for"
-	para "trainers to come"
-	line "socialize and play"
-	cont "games!"
-	para "All thanks to you!"
+	text "¡Este sitio es el"
+	line "mejor punto de"
+	para "encuentro para los"
+	line "entrenadores que"
+	para "quieren charlar y"
+	line "jugar videojuegos!"
+	
+	para "¡Y todo gracias"
+	line "a ti!"
 	done
 	
 N64HouseScientistText5:
-	text "Wow, look at all"
-	line "of these trainers."
-	para "It's incredible!"
-	line "I owe you a ton!"
-	para "Here, take this"
-	line "#MON EGG."
-	para "It's a rare"
-	line "#MON, I'm sure"
-	para "you'd appreciate"
-	line "it."
+	text "Guau, mira todos"
+	line "esos entrenadores."
+	
+	para "¡Es increíble!"
+	line "¡Te debo mucho!"
+	
+	para "Ten, toma este"
+	line "HUEVO #MON."
+	
+	para "Es un #MON"
+	line "raro, estoy seguro"
+	cont "que te gustará."
 	done
 	
 N64HouseRockerText:
-	text "I'm gonna win!"
+	text "¡Voy a ganar!"
 	done
 
 RockerN64AloneText:
-	text "This racing game"
-	line "is neat, but"
-	para "there's no one"
-	line "here to race"
-	cont "against!"
-	para "I came here to"
-	line "meet other"
-	para "trainers, but I'm"
-	line "alone so far."
+	text "Este juego de"
+	line "carreras mola,"
+	para "¡pero no hay"
+	line "nadie con quien"
+	cont "competir!"
+	
+	para "Vine para conocer"
+	line "a otros entrenado-"
+	cont "res, pero estoy"
+	cont "solo."
 	done
 	
 RockerN64TwoPeopleText:
-	text "Hey, this is much"
-	line "more fun with"
-	cont "another person!"
+	text "¡Eh, es mucho más"
+	line "divertido con otra"
+	cont "persona!"
 	done
 
 N64HouseScientistText4:
-	text "Wow, two people!"
-	para "I may realize my"
-	line "dream of owning"
-	para "a hot gathering"
-	line "place for #MON"
-	cont "trainers!"
-	para "See if you can"
-	line "find another!"
-	para "Maybe somewhere"
-	line "that people meet"
-	para "to socialize, but"
-	line "doesn't have any"
-	cont "games to play…"
+	text "¡Guau, dos"
+	line "personas!"
+	
+	para "¡Puede que mi"
+	line "sueño de tener un"
+	para "buen sitio de"
+	line "encuentro para"
+	para "entrenadores"
+	line "#MON se haga"
+	cont "realidad!"
+	
+	para "¡A ver si puedes"
+	line "encontrar a otro"
+	cont "más!"
+	
+	para "A lo mejor en"
+	line "algún sitio donde"
+	para "se reúna gente,"
+	line "pero no tengan"
+	cont "videojuegos que"
+	cont "jugar…"
 	done
 	
 N64HouseScientistText3:
-	text "Hey, someone"
-	line "showed up!"
-	para "That's great!"
-	para "Did you let him"
-	line "know about this"
-	cont "place?"
-	para "I'm very grateful."
-	para "See if you can"
-	line "find anyone else!"
-	para "Maybe look some-"
-	line "where that people"
-	para "play other types"
-	line "of games…"
+	text "¡Anda, ha venido"
+	line "alguien!"
+	
+	para "¡Qué bien!"
+	
+	para "¿Le has hablado de"
+	line "este sitio?"
+	
+	para "Te lo agradezco"
+	line "mucho."
+	
+	para "¡A ver si puedes"
+	line "encontrar a otro"
+	cont "más!"
+	
+	para "A lo mejor en"
+	line "algún sitio donde"
+	para "la gente pruebe"
+	line "otra clase de"
+	cont "juegos…"
 	done
 	
 N64HouseScientistText2:
-	text "How about it?"
-	para "Let any trainers"
-	line "who might be"
-	para "interested know"
-	line "about this place."
-	para "Maybe look in a"
-	line "town where there"
-	para "isn't too much"
-	line "to do…"
+	text "¿Qué te parece?"
+	
+	para "Si conoces"
+	line "entrenadores a los"
+	para "que pudiera"
+	line "interesarles venir"
+	cont "aquí, díselo."
+	
+	para "A lo mejor en"
+	line "algún pueblo donde"
+	cont "no haya mucho que"
+	cont "hacer…"
 	done
 
 N64HouseScientistText:
-	text "Hmmm."
-	para "I opened this game"
-	line "house as a place"
-	para "for trainers to"
-	line "come and socialize"
-	cont "between battles."
-	para "But it doesn't"
-	line "seem to be"
-	cont "catching on…"
-	para "Hey, if you find"
-	line "any trainers who"
-	para "might be interest-"
-	line "ed in a place like"
-	para "this, could you"
-	line "let them know?"
+	text "Mmm."
+	
+	para "Abrí este salón"
+	line "recreativo para"
+	para "que los entrenado-"
+	line "res tuvieran"
+	para "donde reunirse y"
+	line "charlar entre sus"
+	cont "combates."
+	
+	para "Pero no parece que"
+	line "atraiga a nadie…"
+	
+	para "Oye, si conoces"
+	line "algún entrenador"
+	para "al que pudiera"
+	line "interesarle un"
+	para "sitio como este,"
+	line "¿se lo dirías?"
 	done
 	
 Route102GameHouse_MapEvents:

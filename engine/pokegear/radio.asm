@@ -556,7 +556,7 @@ OaksPKMNTalk12:
 	jp PlaceRadioString
 
 .pokemon_channel_string
-	db "#MON Channel@"
+	db "Canal #MON@"
 
 OaksPKMNTalk13:
 	ld hl, wRadioTextDelay
@@ -660,7 +660,7 @@ PokedexShow2:
 	pop hl
 	pop af
 	call CopyDexEntryPart2
-rept 4
+rept 3
 	inc hl
 endr
 	ld a, l

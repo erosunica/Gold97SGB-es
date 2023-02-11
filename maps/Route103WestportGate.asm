@@ -18,14 +18,14 @@ RandyScript:
 	
 GiftSpearowMail:
 	db FLOWER_MAIL
-	db   "DARK CAVE leads"
-	next "to another road@"
+	db   "CUEVA OSCURA lleva"
+	next "a otro camino@"
 
 GiftSpearowName:
-	db "KENYA@"
+	db "ESPI@"
 
 GiftSpearowOTName:
-	db "RANDY@"
+	db "LUCAS@"
 
 	db 0 ; filler
 
@@ -49,105 +49,109 @@ Route103WestportGateFisherScript:
 	jumptextfaceplayer Route103WestportGateFisherText
 
 UnknownText_0x69ddd:
-	text "WESTPORT CITY kind"
-	line "of bores me."
-	para "Everyone loves the"
-	line "city, but I'd"
-	para "rather live where"
-	line "it's quiet."
+	text "CIUDAD PONIENTE"
+	line "me aburre."
+	
+	para "A todo el mundo le"
+	line "encanta la ciudad,"
+	para "pero me gustaría"
+	line "vivir en un sitio"
+	cont "tranquilo."
 	done
 
 UnknownText_0x69e48:
-	text "You will? Perfect!"
-	line "Thanks, kid!"
+	text "¿Lo harás? Genial."
+	line "¡Gracias, joven!"
 
-	para "My pal's a chubby"
-	line "guy who snoozes"
-	cont "all the time."
+	para "Mi amigo es un"
+	line "chico gordinflón"
+	para "que siempre está"
+	line "durmiendo."
 
-	para "You'll recognize"
-	line "him right away!"
+	para "¡Le reconocerás"
+	line "enseguida!"
 	done
 
 UnknownText_0x69eb8:
-	text "<PLAYER> received a"
-	line "#MON with MAIL."
+	text "<PLAYER> recibió"
+	line "#MON con CARTA."
 	done
 
 UnknownText_0x69ed6:
-	text "You can read it,"
-	line "but don't lose it!"
-	cont "ROUTE 31!"
+	text "Puedes leerla,"
+	line "¡pero no la"
+	cont "pierdas! ¡RUTA 31!"
 
-	para "Oh, yeah. There"
-	line "was a weird tree"
-	cont "blocking the road."
+	para "Ah, sí. Un extraño"
+	line "árbol bloqueaba el"
+	cont "camino."
 
-	para "I wonder if it's"
-	line "been cleared?"
+	para "¿Lo habrán"
+	line "retirado ya?"
 	done
 
 UnknownText_0x69f56:
-	text "You can't carry"
-	line "another #MON…"
+	text "No puedes llevar"
+	line "otro #MON…"
 	done
 
 UnknownText_0x69f74:
-	text "Oh… Never mind,"
-	line "then…"
+	text "¡Oh…! Entonces,"
+	line "no importa…"
 	done
 
 UnknownText_0x69f8b:
-	text "Thanks, kid! You"
-	line "made the delivery"
-	cont "for me!"
+	text "¡Gracias, joven!"
+	line "¡Muchas gracias"
+	para "por habérselo"
+	line "llevado!"
 
-	para "Here's something"
-	line "for your trouble!"
+	para "¡Toma esto por"
+	line "las molestias!"
 	done
 
 UnknownText_0x69fd9:
-	text "My pal was snooz-"
-	line "ing, right? Heh,"
-	cont "what'd I say?"
+	text "¿A que mi amigo"
+	line "estaba durmiendo?"
+	cont "Te lo dije."
 	done
 
 Route103WestportGatePokefanFText:
-	text "The ground north"
-	line "of here is prone"
-	para "to instability"
-	line "due to the lack"
-	cont "of foliage."
-	para "Some rocks have"
-	line "moved and blocked"
-	cont "the road ahead."
-	para "I don't think"
-	line "you'll be able"
-	para "to get by right"
-	line "now."
+	text "El sitio al norte"
+	line "de aquí suele ser"
+	para "inestable por la"
+	line "falta de follaje."
+	
+	para "El camino ha sido"
+	line "bloqueado por un"
+	cont "desplome de rocas."
+	
+	para "No creo que puedas"
+	line "ir ahora hacia"
+	cont "allí."
 	done
 
 Route103WestportGatePokefanFText_FoughtBellignan:
-	text "The path ahead has"
-	line "been cleared."
-	para "That's good, since"
-	line "travelers have"
-	para "been wanting to"
-	line "visit BIRDON TOWN."
+	text "El camino ya está"
+	line "despejado."
+	
+	para "Menos mal, porque"
+	line "los viajeros"
+	para "querían visitar"
+	line "PUEBLO BIRDON."
 	done
 
 Route103WestportGateFisherText:
-	text "I wonder how many"
-	line "kinds of #MON"
+	text "Me pregunto"
+	line "cuántos tipos de"
 
-	para "there are in the"
-	line "world."
+	para "#MON hay en"
+	line "el mundo."
 
-	para "One year ago,"
-	line "PROF.OAK said that"
-
-	para "there were 150"
-	line "different kinds."
+	para "Hace un año, el"
+	line "PROF. OAK dijo que"
+	para "había 150 tipos"
+	line "distintos."
 	done
 
 Route103WestportGate_MapEvents:

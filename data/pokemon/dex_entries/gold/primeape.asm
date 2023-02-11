@@ -1,10 +1,10 @@
-	db "PIG MONKEY@" ; species name
-	dw 303, 710 ; height, weight
+	db "MONO CERDO@" ; species name
+	dbw 10, 320 ; height, weight
 
-	db   "It will beat up"
-	next "anyone who makes"
-	next "it mad, even if it"
+	db   "Ataca a todo aquel"
+	next "que le enfade."
+	next "No parará hasta"
 
-	page "has to chase them"
-	next "until the end of"
-	next "the world.@"
+	page "dar caza a quien"
+	next "le moleste, esté"
+	next "donde esté.@"

@@ -1,10 +1,10 @@
-	db "DRAGON@" ; species name
-	dw 703, 4630 ; height, weight
+	db "DRAGÓN@" ; species name
+	dbw 22, 2100 ; height, weight
 
-	db   "It is said that"
-	next "somewhere in the"
-	next "ocean lies an"
+	db   "Dicen que viven en"
+	next "una isla en algún"
+	next "lugar del océano."
 
-	page "island where these"
-	next "gather. Only they"
-	next "live there.@"
+	page "Es el único lugar"
+	next "donde se les puede"
+	next "encontrar.@"

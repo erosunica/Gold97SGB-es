@@ -1,10 +1,10 @@
-	db "BONEKEEPER@" ; species name
-	dw 303, 990 ; height, weight
+	db "APILAHUESO@" ; species name
+	dbw 10, 450 ; height, weight
 
-	db   "Somewhere in the"
-	next "world is a ceme-"
-	next "tery just for"
+	db   "En algún rincón"
+	next "del mundo, hay un"
+	next "cementerio sólo"
 
-	page "MAROWAK. It gets"
-	next "its bones from"
-	next "those graves.@"
+	page "para MAROWAK."
+	next "De ahí es de donde"
+	next "coge los huesos.@"

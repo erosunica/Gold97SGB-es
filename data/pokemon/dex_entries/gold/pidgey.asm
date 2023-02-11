@@ -1,10 +1,10 @@
-	db "TINY BIRD@" ; species name
-	dw 100, 40 ; height, weight
+	db "PAJARITO@" ; species name
+	dbw 3, 18 ; height, weight
 
-	db   "It rapidly flaps"
-	next "its wings in the"
-	next "grass, stirring up"
+	db   "Aletea rápidamente"
+	next "sobre la hierba"
+	next "para levantar una"
 
-	page "a dust cloud that"
-	next "drives insect prey"
-	next "out into the open.@"
+	page "nube de polvo que"
+	next "le permite cazar"
+	next "insectos.@"

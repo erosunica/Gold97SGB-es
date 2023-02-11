@@ -23,34 +23,38 @@ KobanPokecenter1FYoungsterScript:
 	
 
 KobanPokecenter1FGentlemanText:
-	text "This town doesn't"
-	line "get too many"
-	cont "visitors."
-	para "Mainly just people"
-	line "wanting to train"
-	cont "in the cave."
+	text "Este pueblo no"
+	line "recibe muchos"
+	cont "visitantes."
+
+	para "Solo viene gente"
+	line "que quiere entre-"
+	cont "nar en la cueva."
 	done
 
 KobanPokecenter1FTeacherText:
-	text "I've lived on this"
-	line "island my whole"
-	para "life and I've not"
-	line "seen you before."
-	para "I assume you're"
-	line "here to learn of"
-	cont "dragon #MON."
+	text "He vivido en esta"
+	line "isla toda mi vida"
+	cont "y no te he visto"
+	cont "antes."
+
+	para "Supongo que vienes"
+	line "a aprender sobre"
+	cont "los #MON"
+	cont "dragón."
 	done
 
 KobanPokecenter1FYoungsterText:
-	text "I'm not too"
-	line "interested in"
-	cont "dragon #MON."
-	para "There isn't much"
-	line "for me to do here."
-	para "I might move away"
-	line "someday."
-	done
+	text "No me interesan"
+	line "los #MON"
+	cont "dragón."
 
+	para "No tengo mucho que"
+	line "hacer aquí."
+
+	para "Algún día me"
+	line "marcharé."
+	done
 
 
 KobanPokecenter1F_MapEvents:

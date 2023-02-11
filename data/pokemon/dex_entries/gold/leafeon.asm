@@ -1,10 +1,10 @@
-	db "LEAF@" ; species name
-	dw 211, 580 ; height, weight
-
-	db   "The leaves growing"
-	next "from its body"
-	next "are able to absorb"
+	db "HOJA@" ; species name
+	dbw 9, 263 ; height, weight
 	
-	page "nutrients from the"
-	next "sun similar to"
-	next "species of plants.@"
+	db   "Al igual que las"
+	next "plantas, hace la"
+	next "fotosíntesis con"
+	
+	page "las hojas que"
+	next "crecen en su"
+	next "cuerpo.@"

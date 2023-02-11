@@ -1,10 +1,10 @@
-	db "SEED@" ; species name
-	dw 303, 290 ; height, weight
+	db "SEMILLA@" ; species name
+	dbw 10, 130 ; height, weight
 
-	db   "The bulb on its"
-	next "back grows as it"
-	next "absorbs nutrients."
+	db   "El bulbo de la"
+	next "espalda crece al"
+	next "absorber"
 
-	page "The bulb gives off"
-	next "a pleasant aroma"
-	next "when it blooms.@"
+	page "nutrientes. Cuando"
+	next "florece, emite un"
+	next "aroma delicioso.@"

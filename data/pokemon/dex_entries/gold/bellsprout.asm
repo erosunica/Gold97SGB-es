@@ -1,10 +1,10 @@
-	db "FLOWER@" ; species name
-	dw 204, 90 ; height, weight
+	db "FLOR@" ; species name
+	dbw 7, 40 ; height, weight
 
-	db   "If it notices"
-	next "anything that"
-	next "moves, it"
+	db   "Si detecta algún"
+	next "movimiento, no du-"
+	next "dará ni un segundo"
 
-	page "immediately flings"
-	next "its vine at the"
-	next "object.@"
+	page "en inclinar el"
+	next "tallo hacia el"
+	next "objeto sospechoso.@"

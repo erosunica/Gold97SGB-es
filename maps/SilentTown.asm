@@ -48,10 +48,10 @@ SilentTownPokecenterSign:
 	jumpstd PokecenterSignScript
 	
 SilentTown_RivalGreets:
-	applymovement SILENTTOWN_SILVER, Movement_SilverComesFromTheShadows_NBT
-	applymovement PLAYER, Movement_PlayerTurnsHead
 	special FadeOutMusic
 	playmusic MUSIC_RIVAL_ENCOUNTER
+	applymovement SILENTTOWN_SILVER, Movement_SilverComesFromTheShadows_NBT
+	applymovement PLAYER, Movement_PlayerTurnsHead
 	opentext
 	writetext SilentTownRivalText1
 	waitbutton
@@ -59,12 +59,10 @@ SilentTown_RivalGreets:
 	showemote EMOTE_SHOCK, SILENTTOWN_SILVER, 15
 	opentext
 	writetext SilentTownRivalText2
-	waitbutton
-	special NameMom 
-	closetext 
+	promptbutton
+	special NameMomS
 	setevent EVENT_NAMED_MOM_CHECK_FOR_SAVES
 	showemote EMOTE_SHOCK, SILENTTOWN_SILVER, 15
-	opentext
 	writetext SilentTownRivalText3
 	waitbutton
 	closetext
@@ -109,18 +107,11 @@ SilentTown_TeacherStopsYouScene1:
 	end
 	
 SilentTown_TeacherStopsYouScene3:
-	moveobject SILENTTOWN_BLUE, 7, 9
+	moveobject SILENTTOWN_BLUE, 6, 9
 	appear SILENTTOWN_BLUE
 	applymovement SILENTTOWN_BLUE, Movement_TeacherRunsToYou1_NBT
 	opentext
 	writetext Text_WhatDoYouThinkYoureDoing
-	waitbutton
-	closetext
-	follow SILENTTOWN_BLUE, PLAYER
-	applymovement SILENTTOWN_BLUE, Movement_TeacherBringsYouBack1_NBT
-	stopfollow
-	opentext
-	writetext Text_ItsDangerousToGoAlone
 	waitbutton
 	closetext
 	follow SILENTTOWN_BLUE, PLAYER
@@ -166,7 +157,7 @@ SilentTownTeacherScript:
 	iftrue .TellMomYoureLeaving
 	checkevent EVENT_GOT_A_POKEMON_FROM_OAK
 	iftrue .MonIsAdorable
-	writetext Text_GearIsImpressive
+	writetext Text_BagIsImpressive
 	waitbutton
 	closetext
 	end
@@ -221,7 +212,7 @@ SilentTownPlayersHouseSign:
 	writetext NameMomAgainText
 	yesorno
 	iffalse .DontNameMomAgain
-	special NameMom 
+	special NameMomS
 	closetext 
 	setevent EVENT_NAMED_MOM_CHECK_FOR_SAVES
 	opentext
@@ -252,6 +243,11 @@ Movement_BlueIntoLab:
 	step_end
 	
 Movement_BlueTakesToLab:
+	step RIGHT
+	step RIGHT
+	step RIGHT
+	step RIGHT
+	step RIGHT
 	step RIGHT
 	step DOWN
 	step DOWN
@@ -289,14 +285,6 @@ Movement_TeacherRunsToYou2_NBT:
 	step LEFT
 	step LEFT
 	turn_head DOWN
-	step_end
-
-Movement_TeacherBringsYouBack1_NBT:
-	step RIGHT
-	step RIGHT
-	step RIGHT
-	step RIGHT
-	turn_head LEFT
 	step_end
 
 Movement_TeacherBringsYouBack2_NBT:
@@ -338,187 +326,197 @@ Movement_PlayerTurnsHead:
 	step_end
 	
 MomHasBeenRenamed:
-	text "Your Mother's name"
-	line "is now <MOM>!"
+	text "¡Ahora tu madre se"
+	line "llama <MOM>!"
 	done
 	
 NameMomAgainText:
-	text "Hello!"
-	para "This message only"
-	line "appears on older"
-	para "save files that"
-	line "may have your MOM"
-	para "incorrectly named"
-	line "in the # GEAR"
-	cont "phone."
-	para "Check to see if"
-	line "MOM's name appears"
-	para "correct in the"
-	line "phone."
-	para "A common issue is"
-	line "having the name of"
-	para "the Player instead"
-	line "of MOM."
-	para "You can rename her"
-	line "here to fix any"
-	para "issues or if you"
-	line "just want to give"
-	para "her a different"
-	line "name."
-	para "This can only be"
-	line "done one time."
-	para "Rename your MOM?"
+	text "¡Hola!"
+
+	para "Este mensaje sólo"
+	line "aparece en"
+	para "archivos de"
+	line "guardado antiguos"
+	para "en los que MAMÁ"
+	line "tiene un nombre"
+	para "incorrecto en el"
+	line "TELÉFONO."
+
+	para "Comprueba si el"
+	line "nombre de MAMÁ"
+	para "aparece correcta-"
+	line "mente en el"
+	cont "TELÉFONO."
+
+	para "Suele ser un error"
+	line "común que tenga el"
+	para "nombre del jugador"
+	line "en lugar de MAMÁ."
+
+	para "Ahora, puedes"
+	line "renombrarla para"
+	para "arreglar el error"
+	line "o si tan sólo"
+	para "quieres ponerle"
+	line "otro nombre."
+
+	para "Esto sólo puede"
+	line "hacerse una vez."
+
+	para "¿Quieres renombrar"
+	line "a tu MAMÁ?"
 	done
 	
 NameMomAgainText2:
-	text "Talk to this sign"
-	line "again to name your"
-	cont "MOM."
+	text "Habla de nuevo con"
+	line "este cartel para"
+	cont "nombrar a tu MAMÁ."
 	done
 	
 Text_Study101:
-	text "…And if we spend"
-	line "just a few more"
-	para "days observing the"
-	line "#MON living in"
-	para "ROUTE 101…"
+	text "Y si pasamos"
+	line "unos días más"
+	para "observando a los"
+	line "#MON que viven"
+	cont "en la RUTA 101…"
 	
 	para "…"
-	para "He seems to be"
-	line "completely"
-	cont "occupied…"
-	
+	para "Parece estar muy"
+	line "ocupado…"
 	done
 
 Text_GearIsImpressive:
-	text "Wow, your #GEAR"
-	line "is impressive!"
+	text "¡Uau! ¡Tu #GEAR"
+	line "es impresionante!"
 
-	para "Did your mom get"
-	line "it for you?"
+	para "¿Te lo ha dado tu"
+	line "madre?"
 	done
 
 Text_WaitPlayer:
-	text "Wait! Stop!"
+	text "¡Eh! ¡Espera!"
+	line "¡Alto ahí!"
 	done
 
 Text_WhatDoYouThinkYoureDoing:
-	text "What do you think"
-	line "you're doing?"
-	done
-
-Text_ItsDangerousToGoAlone:
-	text "It's dangerous to"
-	line "go out without a"
-	cont "#MON!"
-
-	para "Wild #MON"
-	line "jump out of the"
-
-	para "grass on the way"
-	line "to the next town."
+	text "¿Qué crees que"
+	line "estás haciendo?"
 	
-	para "You need your own"
-	line "#MON for"
-	cont "protection!"
+	para "¡En la hierba"
+	line "alta viven"
+	cont "#MON salvajes!"
 	
-	para "Ah! Wait, are you"
-	line "perhaps…?"
+	para "Necesitas tu"
+	line "propio #MON"
+	cont "como protección."
 	
-	para "…Come with me!"
+	para "¡Ah! ¿Acaso"
+	line "eres…?"
+	
+	para "¡Ven conmigo un"
+	line "segundo!"
 	done
 
 Text_YourMonIsAdorable:
-	text "Oh! Your #MON"
-	line "is adorable!"
-	cont "I wish I had one!"
+	text "¡Oh, tu #MON es"
+	line "adorable! ¡Ojalá"
+	cont "tuviera yo uno!"
 	done
 
 Text_TellMomIfLeaving:
-	text "Hi, <PLAYER>!"
-	line "Leaving again?"
+	text "¡Hola, <PLAYER>!"
+	line "¿Te vas otra vez?"
 
-	para "You should tell"
-	line "your mom if you"
-	cont "are leaving."
+	para "Deberías avisar"
+	line "a tu madre de que"
+	cont "te vas."
 	done
 
 Text_CallMomOnGear:
-	text "Call your mom on"
-	line "your #GEAR to"
-
-	para "let her know how"
-	line "you're doing."
+	text "Llama a tu madre"
+	line "con el #GEAR"
+	cont "y cuéntale cómo"
+	cont "te va."
 	done
 
 Text_Oak2DiscoveredNewMon:
-	text "Yo, <PLAYER>!"
-
-	para "I hear PROF.OAK"
-	line "discovered some"
-	cont "new #MON."
+	text "¿Hay alguien en el"
+	line "mundo a quien no"
+	cont "le gusten los"
+	cont "#MON?"
 	done
 
 SilentTownRivalText1:
-	text "<RIVAL>: Hey,"
+	text "<RIVAL>: ¡Eh,"
 	line "<PLAYER>!"
-	para "There's something"
-	line "I gotta brag to"
-	cont "you about!"
-	
-	para "I got an e-mail"
-	line "from PROF.OAK!"
 
-	para "Yeah, the famous"
-	line "one!"
+	para "¡Tengo algo de lo"
+	line "que presumir!"
+	
+	para "¡Recibí un correo"
+	line "del PROF. OAK!"
+
+	para "¡Sí, el mismísimo!"
 	done
 
 SilentTownRivalText2:
-	text "You got one too?!"
-	line "Man, that's no"
-	cont "fun! Hmph!"
+	text "¡¿Tú también"
+	line "recibiste uno?!"
+	cont "¡Venga ya!"
 	
-	para "Hmm…well…you…uh…"
+	para "Bueno, bueno, eh…"
 	
-	para "What do you call"
-	line "your mother again?"
+	para "¿Y tú cómo decías"
+	line "que llamabas a tu"
+	cont "madre?"
 	done
 	
 SilentTownRivalText3:
-	text "Bahaha!"
-	para "Don't make me"
-	line "laugh!"
-	para "Calling her"
-	line "something so"
-	para "childish is"
-	line "hilarious!"
+	text "¡Jajaja!"
+
+	para "¡No me hagas reír!"
+
+	para "¡Qué gracia,"
+	line "pareces un niño"
+	cont "pequeño!"
 	
-	para "You better be sure"
-	line "that '<MOM>'"
-	para "is okay with you"
-	line "stopping by OAK's"
-	cont "LAB!"
+	para "¡Pues bueno, a ver"
+	line "si a tu “<MOM>”"
+	para "le parece bien"
+	line "que vayas al"
+	cont "LABORATORIO de"
+	cont "OAK!"
 	
-	para "Well, I'm off!"
-	para "See you at the"
-	line "LAB!"
+	para "¡En fin, me voy!"
+
+	para "¡Te espero en el"
+	line "LABORATORIO!"
 	done
 
 SilentTownSignText:
-	text "SILENT TOWN"
-	para "Forever Peaceful"
+	text "PUEBLO SILENTE"
+	
+	para "Un remanso de paz"
 	done
 
 SilentTownPlayersHouseSignText:
-	text "<PLAYER>'s House"
+	text "CASA DE <PLAYER>"
 	done
 
 SilentTownOakLabSignText:
-	text "OAK #MON LAB"
+	text "LABORATORIO DE"
+	line "INVESTIGACIÓN"
+	cont "#MON DE OAK"
 	done
 
 SilentTownRivalsHouseSignText:
-	text "<RIVAL>'s House"
+	text "CASA DE <RIVAL>"
+	done
+
+Text_BagIsImpressive:
+	text "¡Qué MOCHILA tan"
+	line "mona! ¿Dónde la"
+	cont "has comprado?"
 	done
 
 SilentTown_MapEvents:
@@ -534,8 +532,8 @@ SilentTown_MapEvents:
 
 
 	db 3 ; coord events
-	coord_event  1,  8, SCENE_TEACHER_STOPS, SilentTown_TeacherStopsYouScene1
-	coord_event  1,  9, SCENE_TEACHER_STOPS, SilentTown_TeacherStopsYouScene2
+	coord_event  0,  8, SCENE_TEACHER_STOPS, SilentTown_TeacherStopsYouScene1
+	coord_event  0,  9, SCENE_TEACHER_STOPS, SilentTown_TeacherStopsYouScene2
 	coord_event  5,  5, SCENE_DEFAULT, SilentTown_RivalGreets
 
 	db 5 ; bg events

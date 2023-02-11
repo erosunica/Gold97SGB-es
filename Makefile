@@ -1,4 +1,4 @@
-roms := pokegold.gbc
+roms := pokegold97-es.gbc
 
 rom_obj := \
 audio.o \
@@ -20,9 +20,7 @@ data/pokemon/dex_entries \
 gfx/pics
 
 gold_excl_obj := $(addsuffix _gold.o,$(gs_excl_asm))
-silver_excl_obj := $(addsuffix _silver.o,$(gs_excl_asm))
 gold_obj := $(rom_obj:.o=_gold.o) $(gold_excl_obj)
-silver_obj := $(rom_obj:.o=_silver.o) $(silver_excl_obj)
 
 
 ### Build tools
@@ -43,21 +41,21 @@ RGBLINK ?= $(RGBDS)rgblink
 ### Build targets
 
 .SUFFIXES:
-.PHONY: all gold silver clean tidy compare tools
+.PHONY: all gold clean tidy compare tools
 .SECONDEXPANSION:
 .PRECIOUS:
 .SECONDARY:
 
 all: $(roms)
-gold:   pokegold.gbc
+gold:   pokegold97-es.gbc
 
 clean:
-	rm -f $(roms) $(gold_obj) $(silver_obj) $(roms:.gbc=.map) $(roms:.gbc=.sym) rgbdscheck.o
+	rm -f $(roms) $(gold_obj) $(roms:.gbc=.map) $(roms:.gbc=.sym) rgbdscheck.o
 	find gfx \( -name "*.[12]bpp" -o -name "*.lz" -o -name "*.gbcpal" -o -name "*.dimensions" -o -name "*.sgb.tilemap" \) -delete
 	$(MAKE) clean -C tools/
 
 tidy:
-	rm -f $(roms) $(gold_obj) $(silver_obj) $(roms:.gbc=.map) $(roms:.gbc=.sym) rgbdscheck.o
+	rm -f $(roms) $(gold_obj) $(roms:.gbc=.map) $(roms:.gbc=.sym) rgbdscheck.o
 	$(MAKE) clean -C tools/
 
 compare: $(roms)
@@ -74,7 +72,6 @@ RGBASMFLAGS += -E
 endif
 
 $(gold_obj):   RGBASMFLAGS += -D _GOLD
-$(silver_obj): RGBASMFLAGS += -D _SILVER
 
 rgbdscheck.o: rgbdscheck.asm
 	$(RGBASM) -o $@ $<
@@ -96,22 +93,16 @@ $(info $(shell $(MAKE) -C tools))
 # Dependencies for shared objects (drop _gold and _silver from asm file basenames)
 $(foreach obj, $(filter-out $(gold_excl_obj), $(gold_obj)), \
 	$(eval $(call DEP,$(obj),$(obj:_gold.o=.asm))))
-$(foreach obj, $(filter-out $(silver_excl_obj), $(silver_obj)), \
-	$(eval $(call DEP,$(obj),$(obj:_silver.o=.asm))))
 
 # Dependencies for game-exclusive objects (keep _gold and _silver in asm file basenames)
-$(foreach obj, $(gold_excl_obj) $(silver_excl_obj), $(eval $(call DEP,$(obj),$(obj:.o=.asm))))
+$(foreach obj, $(gold_excl_obj), $(eval $(call DEP,$(obj),$(obj:.o=.asm))))
 
 endif
 
 
-pokegold.gbc: $(gold_obj) layout.link
-	$(RGBLINK) -n pokegold.sym -m pokegold.map -l layout.link -o $@ $(gold_obj)
-	$(RGBFIX) -cjsv -t POKEMON_GLD -i AAUE -k 01 -l 0x33 -m 0x10 -r 3 -p 0 $@
-
-pokesilver.gbc: $(silver_obj) layout.link
-	$(RGBLINK) -n pokesilver.sym -m pokesilver.map -l layout.link -o $@ $(silver_obj)
-	$(RGBFIX) -cjsv -t POKEMON_SLV -i AAXE -k 01 -l 0x33 -m 0x10 -r 3 -p 0 $@
+pokegold97-es.gbc: $(gold_obj) layout.link
+	$(RGBLINK) -n pokegold97-es.sym -m pokegold97-es.map -l layout.link -o $@ $(gold_obj)
+	$(RGBFIX) -cjsv -t POKEMON_GLD -i 1997 -k 01 -l 0x33 -m 0x10 -r 3 -p 0 $@
 
 
 ### LZ compression rules
@@ -127,18 +118,11 @@ include gfx/lz.mk
 
 gfx/pokemon/%/front.2bpp: rgbgfx += -h
 gfx/pokemon/%/front_gold.2bpp: rgbgfx += -h
-gfx/pokemon/%/front_silver.2bpp: rgbgfx += -h
 
 gfx/pokemon/%/back.2bpp: rgbgfx += -h
 gfx/pokemon/%/back_gold.2bpp: rgbgfx += -h
-gfx/pokemon/%/back_silver.2bpp: rgbgfx += -h
 
 gfx/pokemon/%/back_gold.2bpp: gfx/pokemon/%/back.png
-	$(RGBGFX) $(rgbgfx) -o $@ $<
-	$(if $(tools/gfx),\
-		tools/gfx $(tools/gfx) -o $@ $@)
-
-gfx/pokemon/%/back_silver.2bpp: gfx/pokemon/%/back.png
 	$(RGBGFX) $(rgbgfx) -o $@ $<
 	$(if $(tools/gfx),\
 		tools/gfx $(tools/gfx) -o $@ $@)
@@ -171,9 +155,7 @@ gfx/mystery_gift/mystery_gift_2.2bpp: tools/gfx += --trim-whitespace
 gfx/mystery_gift/question_mark.1bpp: tools/gfx += --remove-whitespace
 
 gfx/title/logo_bottom_gold.2bpp: tools/gfx += --trim-whitespace
-gfx/title/logo_bottom_silver.2bpp: tools/gfx += --trim-whitespace
 gfx/title/hooh_gold.2bpp: tools/gfx += --interleave --png=$<
-gfx/title/blissey_silver.2bpp: tools/gfx += --interleave --png=$<
 
 gfx/trade/ball.2bpp: tools/gfx += --remove-whitespace
 gfx/trade/game_boy.2bpp: tools/gfx += --remove-duplicates --preserve=0x23,0x27
@@ -218,9 +200,7 @@ gfx/battle/dude.2bpp: rgbgfx += -h
 gfx/font/unused_bold_font.1bpp: tools/gfx += --trim-whitespace
 
 gfx/sgb/gold_border.2bpp: tools/gfx += --trim-whitespace
-gfx/sgb/silver_border.2bpp: tools/gfx += --trim-whitespace
 gfx/sgb/gold_border.sgb.tilemap: gfx/sgb/gold_border.bin ; tr < $< -d '\000' > $@
-gfx/sgb/silver_border.sgb.tilemap: gfx/sgb/silver_border.bin ; tr < $< -d '\000' > $@
 
 
 ### Catch-all graphics rules

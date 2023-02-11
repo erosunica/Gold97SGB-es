@@ -1,10 +1,10 @@
-	db "BALLOON@" ; species name
-	dw 100, 20 ; height, weight
+	db "GLOBO@" ; species name
+	dbw 3, 10 ; height, weight
 
-	db   "Instead of walking"
-	next "with its short"
-	next "legs, it moves"
+	db   "Para caminar, en"
+	next "lugar de usar los"
+	next "pies que tiene,"
 
-	page "around by bouncing"
-	next "on its soft,"
-	next "tender body.@"
+	page "opta por dar botes"
+	next "con su cuerpo re-"
+	next "dondo y blandito.@"

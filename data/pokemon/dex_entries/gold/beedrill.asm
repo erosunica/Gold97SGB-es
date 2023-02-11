@@ -1,10 +1,10 @@
-	db "POISON BEE@" ; species name
-	dw 303, 650 ; height, weight
+	db "ABEJA VEN.@" ; species name
+	dbw 10, 295 ; height, weight
 
-	db   "It uses sharp,"
-	next "poisonous stings"
-	next "to defeat prey,"
+	db   "Usa aguijones"
+	next "venenosos para"
+	next "derrotar a su"
 
-	page "then takes the"
-	next "victim back to its"
-	next "nest for food.@"
+	page "presa. Entonces,"
+	next "lleva a la víctima"
+	next "hasta su nido.@"

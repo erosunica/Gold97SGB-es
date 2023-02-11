@@ -1,10 +1,10 @@
-	db "HERMITCRAB@" ; species name
-	dw 503, 1730 ; height, weight
-
-	db   "An attached"
-	next "DISTURBAN won't"
-	next "let go because of"
-
-	page "the tasty flavor"
-	next "that oozes out of"
-	next "its tail.@"
+	db "ERMITAÑO@" ; species name
+	dbw 16, 785 ; height, weight
+	
+	db   "Al DISTURBAN que"
+	next "va enganchado a su"
+	next "cola se le hace"
+	
+	page "tan sabrosa que no"
+	next "se soltará por"
+	next "nada del mundo.@"

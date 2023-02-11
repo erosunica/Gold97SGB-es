@@ -1,10 +1,10 @@
-	db "JET@" ; species name
-	dw 211, 630 ; height, weight
+	db "REACTOR@" ; species name
+	dbw 9, 285 ; height, weight
 
-	db   "Its instinct is to"
-	next "bury itself in"
-	next "holes. It often"
+	db   "Por instinto, se"
+	next "entierra en hoyos."
+	next "A menudo ocupa los"
 
-	page "steals the nesting"
-	next "holes of others to"
-	next "sleep in them.@"
+	page "que han hecho"
+	next "otros para anidar"
+	next "y duerme en ellos.@"

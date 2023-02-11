@@ -47,61 +47,58 @@ Route105HiddenSuperPotion:
 	hiddenitem SUPER_POTION, EVENT_ROUTE_105_HIDDEN_POTION
 
 
-
-
 YoungsterMikeySeenText:
-	text "You're a #MON"
-	line "trainer, right?"
+	text "Entrenas #MON,"
+	line "¿verdad?"
 
-	para "Then you have to"
-	line "battle!"
+	para "¡Pues entonces"
+	line "luchemos!"
 	done
 
 YoungsterMikeyBeatenText:
-	text "That's strange."
-	line "I won before."
+	text "¡Qué extraño!"
+	line "¡Creí que ganaría!"
 	done
 
 YoungsterMikeyAfterText:
-	text "Becoming a good"
-	line "trainer is really"
-	cont "tough."
+	text "Es muy duro llegar"
+	line "a ser un buen"
+	cont "entrenador."
 
-	para "I'm going to bat-"
-	line "tle other people"
-	cont "to get better."
+	para "Tengo que luchar"
+	line "contra más gente"
+	cont "para mejorar."
 	done
 
-
-
-
-
 Route105YoungsterText_DirectionsToMrPokemonsHouse:
-	text "I'm tired."
-	para "I don't want to"
-	line "walk anymore."
-	para "I wish my #MON"
-	line "could FLY me to"
-	cont "another town."
+	text "Estoy agotado."
+
+	para "No quiero caminar"
+	line "más."
+
+	para "Ojalá mi #MON"
+	line "pudiera VOLAR para"
+	cont "llevarme a algún"
+	cont "pueblo."
 	done
 
 Route105CooltrainerFText:
-	text "I'm looking for"
-	line "electric-type"
-	cont "#MON."
-	para "I know there's a"
-	line "few different"
-	para "species that live"
-	line "in this grass."
+	text "Estoy buscando"
+	line "#MON de tipo"
+	cont "eléctrico."
+
+	para "Sé que hay varias"
+	line "especies que viven"
+	cont "en esta hierba"
+	cont "alta."
 	done
 
 Route105SignText:
-	text "ROUTE 105"
-
-	para "JADE FOREST"
-	line "Just Ahead"
+	text "RUTA 105"
+	
+	para "En frente, el"
+	line "BOSQUE JADE"
 	done
-
 
 
 Route105_MapEvents:

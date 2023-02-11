@@ -1,10 +1,10 @@
-	db "RIVER CRAB@" ; species name
-	dw 104, 140 ; height, weight
+	db "CANGREJO@" ; species name
+	dbw 4, 65 ; height, weight
 
-	db   "If it is unable"
-	next "to find food, it"
-	next "will absorb"
+	db   "Si no consigue"
+	next "encontrar comida,"
+	next "se conformará con"
 
-	page "nutrients by"
-	next "swallowing a"
-	next "mouthful of sand.@"
+	page "absorber los nu-"
+	next "trientes que pueda"
+	next "haber en la arena.@"

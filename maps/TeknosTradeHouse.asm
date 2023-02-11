@@ -19,15 +19,14 @@ Kyle:
 	end
 
 TeknosTradeHousePokefanMText:
-	text "A #MON you get"
-	line "in a trade grows"
-	cont "quickly."
+	text "Los #MON que"
+	line "se intercambian"
+	cont "crecen rápido."
 
-	para "But if you don't"
-	line "have the right GYM"
-
-	para "BADGE, they may"
-	line "disobey you."
+	para "Pero, si no tienes"
+	line "la MEDALLA"
+	para "adecuada, podrían"
+	line "desobedecerte."
 	done
 
 TeknosTradeHouse_MapEvents:

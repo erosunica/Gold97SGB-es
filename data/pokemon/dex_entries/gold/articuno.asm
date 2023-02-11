@@ -1,10 +1,10 @@
-	db "FREEZE@" ; species name
-	dw 507, 1220 ; height, weight
+	db "CONGELAR@" ; species name
+	dbw 17, 554 ; height, weight
 
-	db   "Legendary bird"
-	next "#MON. As it"
-	next "flies through the"
+	db   "Este legendario"
+	next "pájaro #MON es"
+	next "capaz de hacer que"
 
-	page "sky, it cools the"
-	next "air, causing snow"
-	next "to fall.@"
+	page "nieve. Al volar,"
+	next "llega a helar el"
+	next "aire.@"

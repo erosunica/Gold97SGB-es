@@ -1,10 +1,10 @@
-	db "BALLOON@" ; species name
-	dw 108, 90 ; height, weight
+	db "GLOBO@" ; species name
+	dbw 5, 39 ; height, weight
 
-	db   "When faced with a"
-	next "larger opponent,"
-	next "it swallows as"
+	db   "Cuando su rival es"
+	next "mayor que él, bebe"
+	next "unos buenos tragos"
 
-	page "much water as it"
-	next "can to match the"
-	next "opponent's size.@"
+	page "de agua hasta con-"
+	next "seguir igualarle"
+	next "en tamaño.@"

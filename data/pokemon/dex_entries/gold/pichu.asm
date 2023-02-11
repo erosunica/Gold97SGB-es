@@ -1,10 +1,10 @@
-	db "TINY MOUSE@" ; species name
-	dw 100, 40 ; height, weight
+	db "RATONCITO@" ; species name
+	dbw 3, 20 ; height, weight
 
-	db   "It is unskilled at"
-	next "storing electric"
-	next "power. Any kind of"
+	db   "No se le da muy"
+	next "bien el almacena-"
+	next "miento de electri-"
 
-	page "shock causes it to"
-	next "discharge energy"
-	next "spontaneously.@"
+	page "cidad. A la mínima"
+	next "descargará energía"
+	next "sin darse cuenta.@"

@@ -1,10 +1,10 @@
-	db "MOUSE@" ; species name
-	dw 200, 260 ; height, weight
+	db "RATÓN@" ; species name
+	dbw 6, 120 ; height, weight
 
-	db   "It prefers dry,"
-	next "sandy places"
-	next "because it uses"
+	db   "Habita zonas"
+	next "secas y arenosas."
+	next "Cuando se siente"
 
-	page "the sand to"
-	next "protect itself"
-	next "when threatened.@"
+	page "amenazado utiliza"
+	next "la arena como"
+	next "camuflaje.@"

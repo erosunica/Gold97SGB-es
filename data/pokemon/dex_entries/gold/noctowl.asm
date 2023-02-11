@@ -1,10 +1,10 @@
-	db "OWL@" ; species name
-	dw 503, 900 ; height, weight
+	db "BÚHO@" ; species name
+	dbw 16, 408 ; height, weight
 
-	db   "Its extremely soft"
-	next "feathers make no"
-	next "sound in flight."
+	db   "Tiene un plumaje"
+	next "tan suave que,"
+	next "cuando vuela, no"
 
-	page "It silently sneaks"
-	next "up on prey without"
-	next "being detected.@"
+	page "se le oye. Siempre"
+	next "coge a su víctima"
+	next "por sorpresa.@"

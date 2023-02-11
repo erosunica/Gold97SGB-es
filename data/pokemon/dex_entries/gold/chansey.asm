@@ -1,10 +1,10 @@
-	db "EGG@" ; species name
-	dw 307, 760 ; height, weight
+	db "HUEVO@" ; species name
+	dbw 11, 346 ; height, weight
 
-	db   "People try to"
-	next "catch it for its"
-	next "extremely"
+	db   "Es un #MON muy"
+	next "codiciado por los"
+	next "nutritivos huevos"
 
-	page "nutritious eggs,"
-	next "but it rarely can"
-	next "be found.@"
+	page "que lleva. Pero,"
+	next "es realmente difí-"
+	next "cil dar con él.@"

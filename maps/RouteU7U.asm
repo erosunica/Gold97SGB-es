@@ -7,10 +7,10 @@ MtFujiInteriorLowerEntranceSign:
 	jumptext MtFujiInteriorLowerEntranceSignText
 
 MtFujiInteriorLowerEntranceSignText:
-	text "#MON LEAGUE"
+	text "LIGA #MON"
 
-	para "VICTORY ROAD"
-	line "ENTRANCE"
+	para "Entrada a la"
+	line "CALLE VICTORIA"
 	done
 
 RouteU7U_MapEvents:

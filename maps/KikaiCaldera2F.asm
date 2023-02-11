@@ -19,21 +19,21 @@ TrainerBBOkuma:
 	end
 
 OkumaSeenText:
-	text "My strength…"
-	
-	para "Comes from"
-	line "fanning the flame"
-	cont "within me!"
+	text "Mi fuerza…"
+
+	para "¡Viene de avivar"
+	line "la llama en mi"
+	cont "interior!"
 	done
 
 OkumaBeatenText:
-	text "Never give in!"
+	text "¡Nunca te rindas!"
 	done
-	
+
 OkumaAfterBattleText:
-	text "Beat me down and"
-	line "I'll come back"
-	cont "burning brighter!"
+	text "¡Derrótame y"
+	line "volveré a arder"
+	cont "con más fuerza!"
 	done
 
 KKC2Itemball:

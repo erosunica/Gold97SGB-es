@@ -29,19 +29,20 @@ DaitoRanchSign:
 	jumptext DaitoRanchSignText
 	
 DaitoRanchSignText:
-	text "DAITO RANCH"
-	para "Dairy Producers"
-	line "Of the SOUTHWEST"
-	cont "ISLANDS"
+	text "RANCHO DAITO"
+
+	para "Productores de"
+	line "leche de las ISLAS"
+	cont "PONIENTES"
 	done
 
 SummerHomeSign:
 	jumpstd PokecenterSignScript
 	
 SummerHomeSignText:
-	text "GEOFFREY the"
-	line "Gardener's summer"
-	cont "resort house."
+	text "CASA DE VERANEO DE"
+	line "GODOFREDO EL"
+	cont "JARDINERO"
 	done
 
 DaitoRanchMiltank:
@@ -59,15 +60,14 @@ AppleOrchardSign:
 	jumptext AppleOrchardSignText
 	
 DaitoRanchJanineText:
-	text "This is such a"
-	line "lovely place,"
-	cont "isn't it?"
+	text "Es un lugar"
+	line "encantador,"
+	cont "¿verdad?"
 	done
-	
-	
+
 AppleOrchardSignText:
-	text "DAITO APPLE"
-	line "ORCHARD"
+	text "HUERTO DE MANZANAS"
+	line "DAITO"
 	done
 
 Appletree1:
@@ -99,41 +99,41 @@ Route105FruitTree2:
 
 
 DaitoRanchMiltankText:
-	text "MILTANK: Mooo!"
+	text "MILTANK: ¡Muu!"
 	done
 	
 DaitoFarmer1Script:
 	jumptextfaceplayer DaitoFarmer1Text
 	
 DaitoFarmer1Text:
-	text "See those trees?"
-	
-	para "This is called"
-	line "a windbreak."
-	para "It protects the"
-	line "crops from being"
-	para "damaged by the"
-	line "winds that blow"
-	cont "through here."
+	text "¿Ves esos árboles?"
+
+	para "Esto es lo que se"
+	line "llama un"
+	cont "cortavientos."
+
+	para "Protege los"
+	line "cultivos de ser"
+	cont "dañados por el"
+	cont "vendaval."
 	done
 
 DaitoFarmer2Script:
 	jumptextfaceplayer DaitoFarmer2Text
 	
 DaitoFarmer2Text:
-	text "This crop field"
-	line "is full of"
-	para "flowers right now"
-	line "because we're"
-	para "cycling the land"
-	line "in preparation"
-	para "for next planting"
-	line "season!"
-	
-	para "If you look around"
-	line "you might find"
-	para "some left over"
-	line "berries."
+	text "Este campo de"
+	line "cultivo ahora está"
+	para "lleno de flores"
+	line "porque estamos"
+	para "ciclando la tierra"
+	line "de cara a la"
+	para "próxima estación"
+	line "de siembra."
+
+	para "Si miras bien a lo"
+	line "mejor encuentras"
+	cont "algunas bayas."
 	done
 
 HiddenBerry1:
@@ -167,45 +167,44 @@ DaitoGeoffPatioScript:
 	end
 
 GeoffThanksVisitText:
-	text "Hey, didn't we"
-	line "meet back over on"
-	cont "ROUTE 104?"
-	
-	para "I was sick of"
-	line "trying to grow"
-	para "crops out in the"
-	line "desert, so I've"
-	para "moved myself out"
-	line "here to work on"
-	cont "this RANCH!"
+	text "Oye, ¿no nos"
+	line "conocimos en la"
+	cont "RUTA 104?"
 
-	para "Since you took"
-	line "the time to come"
-	para "all the way out"
-	line "here to see me,"
-	para "this drink's on"
-	line "the house!"
+	para "Era agotador"
+	line "cultivar en el"
+	para "desierto, ¡así que"
+	line "vine a trabajar"
+	cont "en este RANCHO!"
+
+	para "Ya que te has"
+	line "tomado la molestia"
+	para "de venir hasta"
+	line "aquí para verme,"
+	para "¡a esta bebida"
+	line "invita la casa!"
 	done
 
 GeoffIslandLifeText:
-	text "What do you"
-	line "think of this"
-	cont "place?"
-	
-	para "Great view, isn't"
-	line "it?"
-	para "Much better than"
-	line "dusty old ROUTE"
-	cont "104."
-	
-	para "I can grow all"
-	line "kinds of tropical"
-	cont "plants here too!"
-	
-	para "Come inside some-"
-	line "time later and"
-	para "I'll tell you"
-	line "all about it."
+	text "¿Qué te parece"
+	line "este sitio?"
+
+	para "Una vista"
+	line "preciosa, ¿verdad?"
+
+	para "Mucho mejor que el"
+	line "esperpento de la"
+	cont "RUTA 104."
+
+	para "¡Aquí también"
+	line "puedo cultivar"
+	para "toda clase de"
+	line "plantas"
+	cont "tropicales!"
+
+	para "Ven más tarde y te"
+	line "contaré todo sobre"
+	cont "ellas."
 	done
 
 
@@ -238,11 +237,11 @@ DaitoRanch_MapEvents:
 	object_event 13, 34, SPRITE_JANINE, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DaitoRanchJanine, -1
 	object_event 18, 45, SPRITE_FISHING_GURU, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, DaitoFarmer1Script, -1
 	object_event 14, 48, SPRITE_FISHING_GURU, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, DaitoFarmer2Script, -1
-	object_event 22, 29, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_RIGHT,0, 0, -1, DAY, PAL_NPC_BROWN , OBJECTTYPE_SCRIPT, 0, DaitoGeoffPatioScript, -1
-	object_event 14,  8, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Appletree1, -1
-	object_event 15, 10, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Appletree2, -1
-	object_event 20,  8, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Appletree3, -1
-	object_event 18,  8, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route105FruitTree1, -1
-	object_event 17, 10, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route105FruitTree2, -1
-	object_event 19, 10, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Appletree6, -1
-	object_event 16,  8, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Appletree7, -1
+	object_event 22, 29, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_RIGHT,0, 0, -1, DAY, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, DaitoGeoffPatioScript, -1
+	object_event 14,  8, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, Appletree1, -1
+	object_event 15, 10, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, Appletree2, -1
+	object_event 20,  8, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, Appletree3, -1
+	object_event 18,  8, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, Route105FruitTree1, -1
+	object_event 17, 10, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, Route105FruitTree2, -1
+	object_event 19, 10, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, Appletree6, -1
+	object_event 16,  8, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, Appletree7, -1

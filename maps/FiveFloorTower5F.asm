@@ -93,89 +93,99 @@ PlayerWalksToHoOhGroup1:
 	step_end
 	
 KurtKnewIt:
-	text "KURT: I knew I was"
-	line "right when I"
-	para "sensed something"
-	line "about you."
+	text "CÉSAR: Sabía que"
+	line "tenía razón cuando"
+	cont "sentí algo en ti."
 	done
 	
 CaptainCantBelieve:
-	text "I can't believe"
-	line "it!"
-	para "The return of the"
-	line "bird!"
-	para "It's happening!"
+	text "¡No puedo creerlo!"
+	
+	para "¡El regreso del"
+	line "ave!"
+	
+	para "¡Se ha cumplido!"
 	done
 	
 SageTellsYouToSeeBird:
 	text "<PLAYER>."
-	para "HO-OH roosts above"
-	line "our heads."
-	para "The bird has"
-	line "returned, as"
-	para "predicted in"
-	line "legend."
-	para "I sense that it"
-	line "wants to meet"
-	cont "you."
-	para "It has determined"
-	line "that actions you"
-	para "have taken have"
-	line "shown that you are"
-	para "worthy of"
-	line "approaching it."
-	para "Make your way to"
-	line "the roof."
+	
+	para "HO-OH reposa"
+	line "por encima de"
+	cont "nosotros."
+	
+	para "El ave ha regre-"
+	line "sado, tal y como"
+	para "predijo la"
+	line "leyenda."
+	
+	para "Siento que quiere"
+	line "conocerte."
+
+	para "Ha dictado que tus"
+	line "acciones y"
+	para "decisiones son"
+	line "dignas de que te"
+	cont "acerques."
+
+	para "Sube al tejado."
 	done
 	
 Text_5FSageDuringHoOh:
-	text "The bird awaits."
+	text "El ave aguarda"
+	line "por ti."
 	done
 
 Text_5FSageAfterHoOh:
-	text "Such an encounter"
-	line "with the bird is"
-	cont "a legendary event."
+	text "Un encuentro con"
+	line "el ave es un"
+	cont "suceso legendario."
 	done
 	
 Text_5FSageNope:
-	text "You have reached"
-	line "the top of the"
-	cont "tower."
-	para "But you have not"
-	line "heard all of its"
-	cont "messages."
-	para "Please be sure you"
-	line "have read all"
-	para "signs on every"
-	line "floor."
-	para "Each one teaches"
-	line "a valuable lesson."
+	text "Has alcanzado la"
+	line "cima de la torre."
+	
+	para "Pero no has"
+	line "escuchado todos"
+	cont "sus mensajes."
+	
+	para "Asegúrate de leer"
+	line "las inscripciones"
+	cont "de cada piso."
+	
+	para "Cada una enseña"
+	line "una valiosa"
+	cont "lección."
 	done
 	
 Text_5FSageYup:
-	text "Welcome to the top"
-	line "of the 5 FLOOR"
-	cont "TOWER."
-	para "This is a sacred"
-	line "place that should"
-	para "only be visited"
-	line "by those willing"
-	para "to show proper"
-	line "respect."
-	para "I understand that"
-	line "KURT has asked"
-	para "you to scale its"
-	line "floors."
-	para "I hope you can"
-	line "go forward with"
-	para "the knowledge and"
-	line "understanding of"
-	para "how to properly"
-	line "treat #MON."
-	para "Return now to see"
-	line "KURT. You have my"
-	cont "blessing."
+	text "Bienvenido a la"
+	line "cima de la TORRE"
+	cont "GODAI."
+	
+	para "Este es un lugar"
+	line "sagrado que solo"
+	para "puede ser visitado"
+	line "por aquellos que"
+	para "desean mostrar el"
+	line "debido respeto."
+	
+	para "Asumo que CÉSAR te"
+	line "sugirió ascender"
+	cont "por estos pisos."
+	
+	para "Espero que puedas"
+	line "llegar lejos tras"
+	para "haber comprendido"
+	line "cómo tratar"
+	para "debidamente a"
+	line "los #MON."
+	
+	para "Regresa con CÉSAR."
+	
+	para "Tienes mi"
+	line "bendición."
 	done
 
 FiveFloorTower5FSign:
@@ -184,26 +194,31 @@ FiveFloorTower5FSign:
 
 	
 FiveFloorTower5FSignText:
-	text "This is a statue"
-	line "of an ABRA."
-	para "ABRA are easily"
-	line "startled and quick"
-	para "to flee when"
-	line "encountered in the"
-	cont "wild."
-	para "Be sure to honor"
-	line "and respect all"
-	para "#MON in their"
-	line "natural habitats."
+	text "Es una estatua de"
+	line "ABRA."
+	
+	para "Los ABRA se asus-"
+	line "tan con facilidad"
+	para "y huyen cuando se"
+	line "encuentran en"
+	cont "estado salvaje."
+	
+	para "Has de honrar y"
+	line "respetar a todos"
+	para "los #MON en"
+	line "sus hábitats"
+	cont "naturales."
 	done
 	
 FiveFloorTower5FIncense:
 	jumptext FiveFloorTower5FIncenseText
 
 FiveFloorTower5FIncenseText:
-	text "What is this?"
-	para "Oh, it's an"
-	line "incense burner!"
+	text "Es un altar"
+	line "budista."
+	
+	para "Mmm… huele a"
+	line "incienso."
 	done
 
 FiveFloorTower5F_MapEvents:

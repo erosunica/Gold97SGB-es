@@ -133,165 +133,171 @@ SilentHillsRockerScript:
 	jumptextfaceplayer SilentHillsRockerText
 	
 SilentHillsRockerText:
-	text "I'm not a trainer,"
-	line "but there are"
-	cont "several up ahead!"
-	para "If they see you,"
-	line "you'll have to"
-	cont "battle."
-	para "Make sure you're"
-	line "ready!"
+	text "¡Yo no soy"
+	line "entrenador, pero"
+	cont "hay unos cuantos"
+	cont "más adelante!"
+	
+	para "Si te ven, tendrás"
+	line "que combatir."
+	
+	para "¡Asegúrate de"
+	line "estar preparado!"
 	done
 
 BugCatcherDonSeenText:
-	text "These hills seem"
-	line "like a good place"
-	cont "to find more bugs!"
+	text "¡Estas colinas"
+	line "parecen un buen"
+	para "lugar para"
+	line "encontrar más"
+	cont "bichos!"
 	done
 
 BugCatcherDonBeatenText:
-	text "I lost. That's"
-	line "no good…"
+	text "Perdí. Qué mal…"
 	done
 
 BugCatcherDonAfterBattleText:
-	text "I ran out of #"
-	line "BALLS while I was"
-	cont "catching #MON."
+	text "Me quedé sin #"
+	line "BALLS mientras"
+	cont "capturaba #MON."
 
-	para "I should've bought"
-	line "some more…"
+	para "Tendría que haber"
+	line "comprado más…"
 	done
 	
 YoungsterAlbertSeenText:
-	text "I haven't seen you"
-	line "around before."
+	text "No te he visto"
+	line "antes por aquí."
 
-	para "So you think you"
-	line "are pretty tough?"
+	para "¿Crees que eres"
+	line "fuerte?"
 	done
 
 YoungsterAlbertBeatenText:
-	text "You're strong!"
+	text "¡Sí eres fuerte!"
 	done
 
 YoungsterAlbertAfterBattleText:
-	text "I'm going to try"
-	line "to be the best"
-	cont "with my favorites."
+	text "Quiero intentar"
+	line "ser el mejor con"
+	cont "mis #MON"
+	cont "favoritos."
 
-	para "I'm not using the"
-	line "same tough #MON"
-	cont "as everyone else."
+	para "No pienso usar los"
+	line "mismos que todos"
+	cont "los demás."
 	done
 	
 FledglingClaytonSeenText:
-	text "I'm… I'm pretty"
-	line "new at this."
-	para "Oh, are you too?"
+	text "Soy nuevo en esto…"
+	line "Ah, ¿tú también?"
 	done
 
 FledglingClaytonBeatenText:
-	text "You're tough!"
+	text "¡Eres duro!"
 	done
 
 FledglingClaytonAfterBattleText:
-	text "I like to think"
-	line "that even losing"
-	para "can help me grow"
-	line "as a trainer."
+	text "Me gusta pensar"
+	line "que incluso perder"
+	para "me ayuda a crecer"
+	line "como entrenador."
 	done
 	
 LassEllenSeenText:
-	text "Oh, you are a cute"
-	line "little trainer! "
+	text "¡Pero qué mono"
+	line "eres!"
 
-	para "I like you, but I"
-	line "won't hold back!"
+	para "¡Me gustas, pero"
+	line "no por eso me"
+	cont "contendré!"
 	done
 
 LassEllenBeatenText:
-	text "Let's see… Oops,"
-	line "it's over?"
+	text "Veamos…"
+	line "Uy, ¿ya está?"
 	done
 
 LassEllenAfterBattleText:
-	text "Wow, you must be"
-	line "good to beat me!"
-	cont "Keep it up!"
+	text "¡Debes ser bueno"
+	line "si me has"
+	cont "derrotado!"
+	
+	para "¡Sigue así!"
 	done
 
 MeetSunnyText:
-	text "SUNNY: Hi!"
+	text "DOMINGO: ¡Hola!"
 
-	para "I'm SUNNY of Sun-"
-	line "day, meaning it's"
-	cont "Sunday today!"
+	para "Soy DOMINGO, por"
+	line "el día. Es decir,"
+	cont "¡hoy es domingo!"
 	done
 
 SunnyGivesGiftText1:
-	text "I was told to give"
-	line "you this if I saw"
-	cont "you!"
+	text "¡Me dijeron que te"
+	line "diera esto si te"
+	cont "veía!"
 	done
 
 SunnyGivesGiftText2:
-	text "I was told to give"
-	line "you this if I saw"
-	cont "you!"
+	text "¡Me dijeron que te"
+	line "diera esto si te"
+	cont "veía!"
 	done
 
 SunnyGaveGiftText:
-	text "SUNNY: That thing…"
+	text "DOMINGO: Eso…"
 
-	para "Um…"
+	para "¡Um…!"
 
-	para "… What was it now…"
+	para "¿Qué era…?"
 
 	para "…"
 
-	para "Oh! I remember"
-	line "now!"
+	para "¡Ah! ¡Ahora lo"
+	line "recuerdo!"
 
-	para "A #MON that"
-	line "knows electric"
+	para "Debería llevarlo"
+	line "un #MON con"
+	cont "habilidades"
+	cont "eléctricas."
 
-	para "moves should hold"
-	line "it."
-
-	para "My sis MONICA said"
-	line "it powers up"
-	cont "electric moves!"
+	para "¡Mi hermana LUNA"
+	line "dice que mejora"
+	cont "las habilidades"
+	cont "eléctricas!"
 	done
 
 SunnySundayText:
-	text "SUNNY: My sisters"
-	line "and brothers are"
-	cont "MONICA, TUSCANY,"
-	cont "WESLEY, ARTHUR,"
-	cont "FRIEDA and SANTOS."
+	text "DOMINGO: Mis"
+	line "hermanos son"
+	para "LUNA, MARTA,"
+	line "MIGUEL, JOSUÉ,"
+	cont "VICKI y SABINO."
 
-	para "They're all older"
-	line "than me!"
+	para "¡Son todos"
+	line "mayores que yo!"
 	done
 
 SunnyNotSundayText:
-	text "SUNNY: Isn't today"
-	line "Sunday?"
-	cont "Um… I forgot!"
+	text "DOMINGO: ¿Hoy no"
+	line "es domingo?"
+	cont "¡Um…! ¡Lo olvidé!"
 	done
 
 SilentHillsSignText:
-	text "SILENT HILLS"
-	para "A Gathering Spot"
-	line "For Trainers"
+	text "COLINAS SILENTES"
+	
+	para "Un punto de"
+	line "encuentro para"
+	cont "entrenadores"
 	done
 
 SilentHillsSign2Text:
-	text "SILENT HILLS"
-	para "North to exit."
-	para "Continue north to"
-	line "PAGOTA CITY."
+	text "Hacia el norte"
+	line "CIUDAD PAGOTA"
 	done
 
 SilentHills_MapEvents:
@@ -321,9 +327,9 @@ SilentHills_MapEvents:
 	object_event  7, 19, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_TRAINER, 4, TrainerYoungsterAlbert, -1
 	object_event 41, 19, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 3, TrainerBugCatcherDon, -1
 	object_event 15, 20, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 1, TrainerFledglingClayton, -1
-	object_event 25, 26, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, SilentHillsFruitTree1, -1
+	object_event 25, 26, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, SilentHillsFruitTree1, -1
 	object_event 26, 14, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SunnyScript, EVENT_SILENT_HILLS_SUNNY_OF_SUNDAY
-	object_event 24, 27, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, SilentHillsFruitTree2, -1
-	object_event 27, 29, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, SilentHillsFruitTree3, -1
+	object_event 24, 27, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, SilentHillsFruitTree2, -1
+	object_event 27, 29, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, SilentHillsFruitTree3, -1
 	object_event 41, 28, SPRITE_ROCKER, SPRITEMOVEDATA_STANDING_DOWN, 1, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, SilentHillsRockerScript, -1
 	object_event 19,  5, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, AmpareCavernB1FPotion, EVENT_AMPARE_CAVERN_B1F_POTION

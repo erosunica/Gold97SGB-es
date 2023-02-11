@@ -174,11 +174,21 @@ ClearPalettes::
 	ret
 
 .cgb
-; Fill wBGPals2 and wOBPals2 with $ffff (white)
 	ld hl, wBGPals2
+IF MGB ; erosunica: Fill wBGPals2 and wOBPals2 with MGB lightest color (code from polishedcrystal)
+	ld b, (16 palettes) / 2
+.mono_loop
+	ld a, LOW(PALRGB_WHITE)
+	ld [hli], a
+	ld a, HIGH(PALRGB_WHITE)
+	ld [hli], a
+	dec b
+	jr nz, .mono_loop
+ELSE ; Fill wBGPals2 and wOBPals2 with $ffff (white)
 	ld bc, 16 palettes
 	ld a, $ff
 	call ByteFill
+ENDC
 ; Request palette update
 	ld a, 1
 	ldh [hCGBPalUpdate], a

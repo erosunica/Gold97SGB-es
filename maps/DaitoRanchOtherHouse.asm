@@ -10,18 +10,19 @@ DaitoRanchOtherHouseFarmhandScript:
 	jumptextfaceplayer DaitoRanchOtherHouseFarmhandText
 	
 DaitoRanchOtherHouseFarmhandText:
-	text "Hi there!"
-	para "I'm in charge of"
-	line "tending to those"
-	cont "MILTANK!"
-	para "Being a ranch hand"
-	line "is such a pleasant"
-	para "job when you work"
-	line "in a scenic place"
-	cont "like this!"
-	done
-	
+	text "¡Hola!"
 
+	para "¡Soy el encargado"
+	line "de cuidar estos"
+	cont "MILTANK!"
+
+	para "¡Ser criador"
+	line "#MON es de lo"
+	para "mejor cuando"
+	line "trabajas en un"
+	para "lugar tan especta-"
+	line "cular como este!"
+	done
 
 DaitoRanchOtherHouse_MapEvents:
 	db 0, 0 ; filler

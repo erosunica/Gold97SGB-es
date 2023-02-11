@@ -25,28 +25,31 @@ RedsHouse1FBookshelf:
 	jumpstd PictureBookshelfScript
 
 RedsMomText1:
-	text "Hi!"
+	text "¡Hola!"
 
-	para "My boy RED is the"
-	line "GYM LEADER here."
-	
-	para "He also defeated"
-	line "the LEAGUE last"
-	cont "year."
-	
-	para "I'm so proud of"
-	line "what my boy has"
-	cont "accomplished."
+	para "Mi hijo ROJO es el"
+	line "LÍDER de GIMNASIO"
+	cont "de aquí."
+
+	para "También consiguió"
+	line "ser el CAMPEÓN de"
+	cont "la LIGA el año"
+	cont "pasado."
+
+	para "Estoy muy"
+	line "orgullosa de todo"
+	cont "lo que ha logrado"
+	cont "mi hijo."
 	done
 
-
 RedsHouse1FTVText:
-	text "I've never seen"
-	line "this show…"
+	text "Nunca he visto"
+	line "esta película…"
 	done
 
 RedsHouse1FTVWrongSideText:
-	text "Oops, wrong side."
+	text "Ups. Lado"
+	line "equivocado."
 	done
 
 RedsHouse1F_MapEvents:

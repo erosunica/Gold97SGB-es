@@ -56,7 +56,7 @@ PagotaPokecenter1F_Oak2sAideScript:
 	end
 
 .eggname
-	db "EGG@"
+	db "HUEVO@"
 
 .AideGivesEgg:
 	jumpstd ReceiveTogepiEggScript
@@ -110,133 +110,148 @@ MovementData_AideFinishesLeavingPokecenter:
 	step_end
 
 UnknownText_0x69555:
-	text "<PLAYER>, long"
-	line "time, no see."
+	text "<PLAYER>, cuánto"
+	line "tiempo sin vernos."
 
-	para "PROF.OAK asked me"
-	line "to find you."
+	para "El PROF. OAK me ha"
+	line "pedido que te"
+	cont "encontrase."
 
-	para "He has another"
-	line "favor to ask."
+	para "Tiene otro favor"
+	line "que pedirte."
 
-	para "Would you take"
-	line "this #MON EGG?"
+	para "¿Podrías quedarte"
+	line "con este HUEVO"
+	cont "#MON?"
 	
-	para "It would benefit"
-	line "our research to"
-	para "learn a bit more"
-	line "about how baby"
-	para "#MON interact"
-	line "with other"
-	para "#MON and how"
-	line "this affects their"
-	cont "growth."
-	para "So could you keep"
-	line "this egg with you?"
+	para "Saber un poco más" 
+	line "sobre cómo se"
+	para "relacionan los"
+	line "bebés #MON con"
+	para "otros #MON y"
+	line "cómo puede influir"
+	para "en su desarrollo"
+	line "sería de ayuda"
+	cont "para nuestra"
+	cont "investigación."
+	
+	para "Así que, ¿podrías"
+	line "encargarte del"
+	cont "HUEVO?"
 	done
 
 UnknownText_0x695c5:
-	text "What's in the egg?"
-	para "Well, we thought"
-	line "we'd keep that a"
-	cont "surprise!"
-	para "I'm sure it could"
-	line "be a helpful"
-	para "addition to your"
-	line "party!"
-	para "Consider it a"
-	line "gift!"
-	para "Also, did you hear"
-	line "that BILL is in"
-	cont "town?"
-	para "If you don't know,"
-	line "BILL created the"
-	cont "PC storage system!"
-	para "He's highly"
-	line "respected among"
-	para "#MON"
-	line "researchers."
-	para "You should pay him"
-	line "a visit if you've"
-	cont "got a chance."
-	para "Anyways, I'm off!"
-	line "See you around!"
+	text "¿Qué #MON hay"
+	line "en el huevo?"
+	
+	para "¡Bueno, preferimos"
+	line "que sea una"
+	cont "sorpresa!"
+	
+	para "¡Estoy seguro de"
+	line "que será una buena"
+	para "adición para tu"
+	line "equipo!"
+	
+	para "¡Considéralo un"
+	line "regalo!"
+	
+	para "Por cierto, ¿has"
+	line "oído que BILL está"
+	cont "en la ciudad?"
+	
+	para "Por si no lo"
+	line "sabías, ¡él creó"
+	para "el sistema de"
+	line "almacenamiento de"
+	cont "los PC!"
+	
+	para "Es muy respetado"
+	line "por los investi-"
+	cont "gadores #MON."
+	
+	para "Deberías ir a"
+	line "visitarlo si"
+	cont "tienes la"
+	cont "oportunidad."
+	
+	para "¡Bueno, me marcho!"
+	line "¡Nos vemos!"
 	done
 
 UnknownText_0x69693:
-	text "Oh, no. You can't"
-	line "carry any more"
-	cont "#MON with you."
+	text "¡Oh, no! No puedes"
+	line "llevar más"
+	cont "#MON."
 
-	para "I'll wait here"
-	line "while you make"
-	cont "room for the EGG."
+	para "Esperaré aquí a"
+	line "que le hagas"
+	cont "sitio al HUEVO."
 	done
 
 UnknownText_0x696f2:
-	text "B-but… PROF.OAK"
-	line "asked for you…"
+	text "Pero…"
+	line "El PROF. OAK"
+	cont "preguntó por ti."
 	done
 
 UnknownText_0x69712:
-	text "<PLAYER>, will you"
-	line "take the EGG?"
+	text "<PLAYER>, ¿tomas"
+	line "el HUEVO?"
 	done
 
 UnknownText_0x6972d:
-	text "I've been thinking"
-	line "it'd be great to"
-
-	para "be able to link up"
-	line "and battle with my"
-
-	para "friends who live"
-	line "far away."
+	text "He pensado que"
+	line "sería genial co-"
+	cont "nectarme y luchar"
+	cont "con mis amigos que"
+	cont "viven lejos."
 	done
 
 UnknownText_0x69791:
-	text "I just battled a"
-	line "friend in SUNPOINT"
-	cont "over a link."
+	text "Combatí con un"
+	line "amigo de CALORINA"
+	para "mediante un enlace"
+	line "móvil."
 
-	para "If you connect a"
-	line "MOBILE ADAPTER,"
-
-	para "you can link with"
-	line "a friend far away."
+	para "Si conectas un"
+	line "ADAPTADOR DE MÓVIL"
+	para "puedes enlazar con"
+	line "un/a amigo/a"
+	cont "lejano/a."
 	done
 
 PagotaPokecenter1FGameboyKidText:
-	text "A guy named BILL"
-	line "made the #MON"
-	cont "PC storage system."
+	text "Un tal BILL creó"
+	line "el Sistema de"
+
+	para "Almacenamiento"
+	line "de #MON."
 	done
 
 PagotaPokecenter1FGentlemanText:
-	text "It was around"
-	line "a year or so ago."
+	text "Fue hace un año"
+	line "más o menos."
 
-	para "TEAM ROCKET was up"
-	line "to no good with"
-	cont "#MON."
+	para "El TEAM ROCKET"
+	line "quería hacer daño"
+	cont "a los #MON."
 
-	para "But justice pre-"
-	line "vailed--a young"
-	cont "kid broke 'em up."
+	para "Pero prevaleció la"
+	line "justicia y un niño"
+	cont "acabó con ellos."
 	done
 
 PagotaPokecenter1FYoungsterText:
-	text "#MON are smart."
-	line "They won't obey a"
+	text "Los #MON son"
+	line "listos y no"
+	para "obedecen a quien"
+	line "no respetan."
 
-	para "trainer they don't"
-	line "respect."
-
-	para "Without the right"
-	line "GYM BADGES, they"
-
-	para "will just do as"
-	line "they please."
+	para "Sin las MEDALLAS"
+	line "necesarias, harán"
+	cont "lo que ellos"
+	cont "quieran."
 	done
 
 PagotaPokecenter1F_MapEvents:

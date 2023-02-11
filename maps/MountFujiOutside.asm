@@ -68,77 +68,86 @@ HealerLassScript:
 	end
 	
 LassIntroText:
-	text "We're already"
-	line "pretty high up the"
-	cont "mountain."
-	para "Hm? Yes, I'm a"
-	line "trainer, but I'm"
-	cont "taking a break."
-	para "I've brought"
-	line "plenty of medicine"
-	cont "with me."
-	para "If your #MON"
-	line "need restored, let"
-	para "me know, and I can"
-	line "help you out."
+	text "Ya estamos en lo"
+	line "alto de la"
+	cont "montaña."
+
+	para "¿Qué? Sí, soy una"
+	line "entrenadora, pero"
+	cont "estoy descansando."
+
+	para "He traído muchas"
+	line "medicinas."
+
+	para "Si necesitas curar"
+	line "a tus #MON,"
+	cont "dímelo y te"
+	cont "ayudaré."
 	done
-	
+
 LassAsksToHeal:
-	text "How about it?"
-	para "Want me to heal"
-	line "your #MON?"
+	text "¿Entonces qué?"
+
+	para "¿Quieres que cure"
+	line "a tus #MON?"
 	done
-	
+
 NoHealThisTime:
-	text "Well, okay."
-	para "I'll be here a"
-	line "while, so stop by"
-	cont "if you need to."
+	text "Bueno, vale."
+
+	para "Seguiré por aquí"
+	line "un rato más, así"
+	cont "que pásate si lo"
+	cont "necesitas."
 	done
-	
+
 LassHealTimeText:
-	text "Okay, let me see"
-	line "your #MON for"
-	cont "just a second…"
+	text "Vale, déjame ver"
+	line "un momento a tus"
+	cont "#MON…"
 	done
-	
+
 LassHealTimeText2:
-	text "There we are!"
-	para "Your team looks"
-	line "ready to go!"
+	text "¡Ya está!"
+
+	para "¡Tu equipo está"
+	line "listo para seguir!"
 	done
 
 SportsmanArthurSeenText:
-	text "I think I can jog"
-	line "my way to the top."
+	text "Creo que puedo"
+	line "llegar corriendo"
+	cont "hasta la cima."
 	done
 
 SportsmanArthurBeatenText:
-	text "Out of breath!"
+	text "¡Me he quedado"
+	line "sin aliento!"
 	done
 
 SportsmanArthurAfterBattleText:
-	text "I'm not much of a"
-	line "HIKER, after all."
+	text "No soy un"
+	line "MONTAÑERO, después"
+	cont "de todo."
 	done
 
 HikerBenjaminSeenText:
-	text "Ah, it's good to"
-	line "be outside!"
-	cont "I feel so free!"
+	text "¡Ah! ¡Qué bien se"
+	line "está fuera! ¡Me"
+	cont "siento tan libre!"
 	done
 
 HikerBenjaminBeatenText:
-	text "Gahahah!"
+	text "¡Gahahah!"
 	done
 
 HikerBenjaminAfterBattleText:
-	text "It takes a long"
-	line "time to reach the"
-	cont "summit."
-	para "Stepping outside"
-	line "is a breath of"
-	cont "fresh air!"
+	text "Lleva mucho tiempo"
+	line "alcanzar la cima."
+
+	para "¡Salir al exterior"
+	line "es un soplo de"
+	cont "aire fresco!"
 	done
 
 MountFujiOutside_MapEvents:

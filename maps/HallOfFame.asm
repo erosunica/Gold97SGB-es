@@ -68,49 +68,46 @@ HallOfFame_SlowlyApproachMachine:
 	step_end
 
 HallOfFame_LanceText:
-	text "LANCE: It's been a"
-	line "long time since I"
-	cont "last came here."
+	text "LANCE: Ha pasado"
+	line "mucho tiempo desde"
+	para "la última vez que"
+	line "vine aquí."
 
-	para "This is where we"
-	line "honor the LEAGUE"
+	para "Aquí es donde"
+	line "honramos a los"
 
-	para "CHAMPIONS for all"
-	line "eternity."
+	para "CAMPEONES de la"
+	line "LIGA por toda la"
+	cont "eternidad."
 
-	para "Their courageous"
-	line "#MON are also"
-	cont "inducted."
+	para "Y a sus valerosos"
+	line "#MON también."
 
-	para "Here today, we"
-	line "witnessed the rise"
+	para "Hoy, hemos sido"
+	line "testigos de la"
+	para "aparición de un"
+	line "nuevo CAMPEÓN de"
+	para "la LIGA, alguien"
+	line "que ha creído y"
+	para "ha sabido confiar"
+	line "en sus #MON."
 
-	para "of a new LEAGUE"
-	line "CHAMPION--a"
+	para "Alguien que ha"
+	line "logrado el éxito"
+	para "gracias a la"
+	line "perseverancia y la"
+	cont "determinación."
 
-	para "trainer who feels"
-	line "compassion for,"
+	para "¡Un nuevo triunfo"
+	line "en la LIGA,"
+	para "conseguido con"
+	line "grandeza!"
 
-	para "and trust toward,"
-	line "all #MON."
-
-	para "A trainer who"
-	line "succeeded through"
-
-	para "perseverance and"
-	line "determination."
-
-	para "The new LEAGUE"
-	line "CHAMPION who has"
-
-	para "all the makings"
-	line "of greatness!"
-
-	para "<PLAYER>, allow me"
-	line "to register you"
-
-	para "and your partners"
-	line "as CHAMPIONS!"
+	para "¡<PLAYER>, permite"
+	line "que te registre"
+	para "a ti y a tus"
+	line "compañeros como"
+	cont "CAMPEONES!"
 	done
 
 HallOfFame_MapEvents:

@@ -181,128 +181,140 @@ IejimaTownSwimmerGuy:
 	jumptextfaceplayer IejimaTownSwimmerGuyText
 	
 ItemWashedUpText:
-	text "Hey, check this"
-	line "out!"
-	para "Something washed"
-	line "onto the shore"
-	para "when the water"
-	line "started flowing"
-	cont "again!"
-	para "It looks like a"
-	line "wing of some sort."
-	para "I don't know what"
-	line "to do with this,"
-	cont "so you take it!"
+	text "¡Anda, mira esto!"
+
+	para "Llegó a la orilla"
+	line "cuando el agua"
+	cont "empezó a fluir de"
+	cont "nuevo."
+
+	para "Parece una especie"
+	line "de pluma."
+
+	para "No sé qué hacer"
+	line "con ella, puedes"
+	cont "quedártela."
 	done
-	
+
 GotTriWingText:
-	text "<PLAYER> got"
-	line "TRI-WING!"
+	text "¡<PLAYER> recibió"
+	line "PLUMA IRIS!"
 	done
-	
+
 IejimaTownLassText:
-	text "I'm glad things"
-	line "are okay at the"
-	cont "HYDRO PLANT now."
+	text "Me alegra que todo"
+	line "vaya bien ahora en"
+	cont "la PLANTA"
+	cont "HIDRÁULICA."
 	done
-	
+
 IejimaTownLassText2:
-	text "The waterfall and"
-	line "the pond it feeds"
-	para "into are the pride"
-	line "and joy of this"
-	cont "town."
-	para "It's definitely"
-	line "bad that the water"
-	cont "isn't flowing now."
+	text "La cascada y el"
+	line "estanque al que"
+	para "alimenta son el"
+	line "orgullo de este"
+	cont "pueblo."
+
+	para "Es terrible que el"
+	line "agua no esté"
+	cont "fluyendo."
 	done
-	
+
 IejimaTownSwimmerGirlText:
-	text "This pond is so"
-	line "peaceful."
+	text "Este estanque es"
+	line "de lo más"
+	cont "tranquilo."
 	done
-	
+
 IejimaTownSwimmerGuyText:
-	text "I like swimming"
-	line "laps around here"
-	cont "to exercise!"
+	text "¡Me gusta hacer"
+	line "largos aquí para"
+	cont "ejercitarme!"
 	done
-	
+
 IejimaTownBiker4Text:
-	text "We got chased"
-	line "out of the basin"
-	cont "by some cops."
-	para "Good thing, too,"
-	line "cause the water"
-	cont "started flowing!"
+	text "Los polis nos han"
+	line "echado de la zona."
+
+	para "Menos mal, ¡porque"
+	line "el agua ya vuelve"
+	cont "a fluir!"
 	done
-	
+
 IejimaTownBiker5Text:
-	text "People really"
-	line "didn't like it"
-	para "when we stopped"
-	line "the waterfall."
-	para "Maybe we shouldn't"
-	line "do that again if"
-	para "we want to stay"
-	line "out of trouble."
+	text "A la gente no le"
+	line "gustó nada que"
+	cont "secásemos la"
+	cont "cascada."
+
+	para "No deberíamos"
+	line "volver a hacerlo"
+	cont "si no queremos más"
+	cont "problemas."
 	done
 
 IejimaTownBiker6Text:
-	text "I'm up for riding"
-	line "somewhere else."
+	text "Iré a montar en"
+	line "moto a otra parte."
 	done
-	
+
 IejimaTownBiker1Text:
-	text "Hehe!"
-	para "This place is"
-	line "great for riding"
-	cont "our bikes around!"
+	text "¡Jeje!"
+
+	para "¡Este sitio es"
+	line "estupendo para ir"
+	cont "en moto!"
 	done
-	
+
 IejimaTownBiker2Text:
-	text "Watch out, IEJIMA"
-	line "TOWN!"
-	para "We're here to"
-	line "stay!"
+	text "¡Escuchadnos,"
+	line "PUEBLO IEJIMA!"
+
+	para "¡Hemos venido para"
+	line "quedarnos!"
 	done
-	
+
 IejimaTownBiker3Text:
-	text "This land has"
-	line "dried up now that"
-	para "we closed the dam"
-	line "in the HYDRO"
-	cont "PLANT!"
-	para "There's so much"
-	line "room to ride!"
+	text "¡Ahora que hemos"
+	line "cerrado la presa"
+	para "de la PLANTA"
+	line "HIDRÁULICA, este"
+	cont "sitio se ha"
+	cont "secado!"
+
+	para "¡Podremos conducir"
+	line "a gusto!"
 	done
-	
+
 IejimaTownYoungsterText:
-	text "It's so nice to"
-	line "stand here by"
-	cont "the water."
+	text "Da gusto estar"
+	line "aquí, junto al"
+	cont "agua."
 	done
-	
+
 IejimaTownYoungsterText2:
-	text "This is horrible!"
-	para "The water should"
-	line "be coming up to"
-	cont "my feet here!"
-	para "What could be"
-	line "going on at the"
-	cont "HYDRO PLANT?"
+	text "¡Esto es terrible!"
+
+	para "¡El agua debería"
+	line "estar mojándome"
+	cont "los pies!"
+
+	para "¿Qué estará"
+	line "ocurriendo en la"
+	cont "PLANTA HIDRÁULICA?"
 	done
-	
+
 IejimaTownGrampsBeforeText:
-	text "Oh, dear!"
-	para "What has happened"
-	line "to our beloved"
-	cont "waterfall?"
-	para "This has to have"
-	line "something to do"
-	para "with all of these"
-	line "BIKERS that have"
-	cont "shown up here!"
+	text "¡Cielos!"
+
+	para "¿Qué le ha pasado"
+	line "a nuestra querida"
+	cont "cascada?"
+
+	para "¡Debe tener algo"
+	line "que ver con esos"
+	para "MOTORISTAS que han"
+	line "pasado por aquí!"
 	done
 
 IejimaTown_MapEvents:

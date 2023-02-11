@@ -1,10 +1,10 @@
-	db "BALL@" ; species name
-	dw 108, 230 ; height, weight
+	db "BOLA@" ; species name
+	dbw 5, 104 ; height, weight
 
-	db   "During the study"
-	next "of this #MON,"
-	next "it was discovered"
+	db   "Tras muchas inves-"
+	next "tigaciones, se vio"
+	next "que los elementos"
 
-	page "that its compo-"
-	next "nents are not"
-	next "found in nature.@"
+	page "que componen este"
+	next "#MON no están"
+	next "en la naturaleza.@"

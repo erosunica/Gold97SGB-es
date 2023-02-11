@@ -211,218 +211,220 @@ FashShipB1FSailorBlocksLeftMovement:
 	step_end
 
 FastShipB1FOnDutySailorText:
-	text "Hey, kid. Could I"
-	line "get you to look"
-	cont "for my buddy?"
+	text "¡Eh! ¿Podrías"
+	line "buscar a mi"
+	cont "compañero?"
 
-	para "He's goofing off"
-	line "somewhere, that"
-	cont "lazy bum!"
+	para "¡Está haciendo de"
+	line "las suyas en algún"
+	para "sitio!"
+	line "¡El muy vago!"
 
-	para "I want to go find"
-	line "him, but I'm on"
-	cont "duty right now."
+	para "Me gustaría ir a"
+	line "buscarle, pero"
+	cont "estoy de servicio."
 	done
 
 FastShipB1FOnDutySailorRefusedText:
-	text "Oh, gee…"
+	text "¡Oh…!"
 
-	para "The CAPTAIN will"
-	line "be furious…"
+	para "El CAPITÁN se"
+	line "pondrá furioso…"
 	done
 
 FastShipB1FOnDutySailorThanksText:
-	text "Thanks, kid!"
-	line "I chewed him out"
-
-	para "good so he'll quit"
-	line "slacking off!"
+	text "¡Gracias, joven!"
+	line "¡Le he echado una"
+	para "buena bronca y se"
+	line "ha tranquilizado!"
 	done
 
-
 FastShipB1FOnDutySailorDirectionsText:
-	text "The dining room is"
-	line "up ahead."
+	text "El comedor está"
+	line "ahí delante."
 
-	para "The stairs at the"
-	line "end lead to the"
-	cont "CAPTAIN's cabin."
+	para "Las escaleras del"
+	line "fondo conducen al"
+	cont "camarote del"
+	cont "CAPITÁN."
 	done
 
 SailorJeffSeenText:
-	text "Nothing beats a"
-	line "battle when I'm"
-	cont "on my break."
+	text "No hay nada mejor"
+	line "que un combate en"
+	cont "mi tiempo libre."
 	done
 
 SailorJeffBeatenText:
-	text "Win or lose, my"
-	line "break's over!"
+	text "¡Gane o pierda, se"
+	line "acabó el descanso!"
 	done
 
 SailorJeffAfterBattleText:
-	text "I guess I can't"
-	line "win if I don't get"
-	cont "serious."
+	text "Supongo que no"
+	line "ganaré si no me"
+	cont "lo tomo en serio."
 	done
 
 PicnickerDebraSeenText:
-	text "I'm so bored."
-	line "Want to battle?"
+	text "Me aburro tanto…"
+	line "¿Quieres luchar?"
 	done
 
 PicnickerDebraBeatenText:
-	text "Yow! You're too"
-	line "strong!"
+	text "¡Uau! ¡Eres"
+	line "demasiado fuerte!"
 	done
 
 PicnickerDebraAfterBattleText:
-	text "I hear there are"
-	line "many quaint towns"
-	cont "on the ISLANDS."
+	text "Dicen que hay"
+	line "muchos pueblos"
+	cont "pintorescos en las"
+	cont "ISLAS."
 	done
 
 JugglerFritzSeenText:
-	text "Urrf…"
-	line "I'm seasick!"
+	text "¡Urrf…!"
+	line "¡Estoy mareado!"
 	done
 
 JugglerFritzBeatenText:
-	text "I can't move any-"
-	line "more…"
+	text "No me puedo"
+    line "mover…"
 	done
 
 JugglerFritzAfterBattleText:
-	text "Ugh…"
-	para "I can hold it"
-	line "together…"
+	text "Uf…"
+	para "Puedo aguantar…"
 	done
 
 SailorGarrettSeenText:
-	text "This is where we"
-	line "sailors work!"
+	text "¡Aquí es donde"
+	line "trabajamos!"
 	done
 
 SailorGarrettBeatenText:
-	text "I lost on my home"
-	line "field…"
+	text "He perdido en mi"
+	line "propio campo…"
 	done
 
 SailorGarrettAfterBattleText:
-	text "We get different"
-	line "passengers from"
+	text "Llevamos a muchos"
+	line "pasajeros desde"
 
-	para "AMAMI TOWN to"
-	line "WESTPORT CITY."
+	para "PUEBLO AMAMI a"
+	line "CIUDAD PONIENTE."
 	done
 
 FisherJonahSeenText:
-	text "Even though we're"
-	line "out on the sea, I"
-	cont "can't fish!"
+	text "¡Aunque estemos en"
+	line "el mar, no puedo"
+	cont "pescar!"
 
-	para "This is boring!"
-	line "Let's battle!"
+	para "¡Qué aburrido!"
+	line "¡Luchemos!"
 	done
 
 FisherJonahBeatenText:
-	text "I… I'm not bored"
-	line "anymore…"
+	text "Ya… Ya no"
+	line "me aburro…"
 	done
 
 FisherJonahAfterBattleText:
-	text "I plan to fish off"
-	line "AMAMI's pier."
+	text "Pienso pescar en"
+	line "el MUELLE de"
+	cont "PUEBLO AMAMI."
 	done
 
 BlackbeltWaiSeenText:
-	text "I'm building up my"
-	line "legs by bracing"
-
-	para "against the ship's"
-	line "rocking!"
+	text "¡Fortalezco mis"
+	line "piernas nadando en"
+	cont "la estela del"
+	cont "barco!"
 	done
 
 BlackbeltWaiBeatenText:
-	text "Rocked and rolled"
-	line "over!"
+	text "¡Bailemos el Rock"
+	line "and Roll!"
 	done
 
 BlackbeltWaiAfterBattleText:
-	text "Have you ever"
-	line "trained in the"
-	para "DOJO in ALLOY"
-	line "CITY?"
+	text "¿Has entrenado"
+	line "alguna vez en el"
+	cont "DOJO de CIUDAD"
+	cont "ALEAR?"
 	done
 
 SailorKennethSeenText:
-	text "I'm a sailor man!"
+	text "¡Soy marinero!"
 
-	para "But I'm training"
-	line "#MON, so I can"
-	cont "beat the LEAGUE!"
+	para "Pero entreno"
+	line "#MON para poder"
+	cont "vencer a la LIGA."
 	done
 
 SailorKennethBeatenText:
-	text "My lack of train-"
-	line "ing is obvious…"
+	text "Me falta"
+	line "entrenamiento…"
 	done
 
 SailorKennethAfterBattleText:
-	text "Eight BADGES!"
-	line "They must prove"
+	text "¡Ocho MEDALLAS!"
+	line "Eso demuestra que"
+	para "has vencido a los"
+	line "LÍDERES de"
+	cont "GIMNASIO."
 
-	para "that you've beaten"
-	line "GYM LEADERS."
-
-	para "No wonder you're"
-	line "so good!"
+	para "¡No me extraña que"
+	line "seas tan fuerte!"
 	done
 
 TeacherShirleySeenText:
-	text "Don't lay a finger"
-	line "on my students!"
+	text "¡No toques a mis"
+	line "alumnos!"
 	done
 
 TeacherShirleyBeatenText:
-	text "Aaack!"
+	text "¡Aaah!"
 	done
 
 TeacherShirleyAfterBattleText:
-	text "We're on a field"
-	line "trip to the RUINS"
-	cont "outside SANSKRIT."
+	text "Vamos de excursión"
+	line "a las RUINAS de"
+	para "las afueras de"
+	line "PUEBLO SÁNSCRITO."
 	done
 
 SchoolboyNateSeenText:
-	text "Do you know the"
-	line "SANSKRIT RUINS?"
+	text "¿Conoces las"
+	line "RUINAS SÁNSCRITAS?"
 	done
 
 SchoolboyNateBeatenText:
-	text "Yaargh!"
+	text "¡Aarg!"
 	done
 
 SchoolboyNateAfterBattleText:
-	text "Radios pick up"
-	line "strange signals"
-	cont "inside the RUINS."
+	text "Las radios captan"
+	line "señales extrañas"
+	cont "en las RUINAS."
 	done
 
 SchoolboyRickySeenText:
-	text "There are some odd"
-	line "stone panels over"
-	cont "in SANSKRIT RUINS."
+	text "En las RUINAS"
+	line "SÁNSCRITAS hay"
+	para "unos extraños"
+	line "paneles de piedra."
 	done
 
 SchoolboyRickyBeatenText:
-	text "I was done in!"
+	text "¡Estoy agotado!"
 	done
 
 SchoolboyRickyAfterBattleText:
-	text "I read that there"
-	line "are four of those"
-	cont "stone panels."
+	text "He leído que hay"
+	line "cuatro paneles de"
+	cont "piedra como ésos."
 	done
 
 FastShipB1F_MapEvents:

@@ -128,88 +128,99 @@ BarN64YoungsterDownMovement:
 	step_end
 	
 BarN64YoungsterBoredText:
-	text "Man, I'm bored."
-	para "There's nothing to"
-	line "do in this town."
-	para "I'd love to meet"
-	line "some other"
-	para "trainers, and hang"
-	line "out and play video"
-	cont "games with them."
-	para "But I don't know"
-	line "anywhere I could"
-	cont "do that."
+	text "Vaya aburrimiento."
+
+	para "En este pueblo no"
+	line "hay nada que"
+	cont "hacer."
+
+	para "Me encantaría"
+	line "conocer otros"
+	para "entrenadores,"
+	line "quedar con ellos y"
+	cont "jugar videojuegos."
+
+	para "Pero no sé dónde"
+	line "podría hacer algo"
+	cont "así."
 	done
 	
 SendN64YoungsterOffText:
-	text "Oh?"
-	para "There's a place"
-	line "by WESTPORT CITY"
-	cont "where I could go?"
-	para "What the heck, I"
-	line "have nothing else"
-	cont "to do."
-	para "I'll check it out,"
-	line "thanks!"
+	text "¿Qué?"
+	para "¿Que hay un sitio"
+	line "por CIUDAD"
+	para "PONIENTE donde"
+	line "podría ir?"
+	para "Pues mira, no"
+	line "tengo nada mejor"
+	cont "que hacer."
+
+	para "¡Iré a pasarme!"
+	line "¡Gracias!"
 	done
 	
 BarFisherScriptText:
-	text "I come here just"
-	line "about every day."
-	para "I swear, that"
-	line "MOOMOO MILK must"
-	cont "be addictive."
+	text "Vengo aquí cada"
+	line "día."
+
+	para "La LECHE MU-MU"
+	line "está riquísima,"
+	cont "en serio."
 	done
 	
 BarLassScriptText:
-	text "There isn't too"
-	line "much to do in this"
-	cont "town."
-	para "A lot of us spend"
-	line "our time here just"
-	cont "drinking milk."
+	text "No hay mucho que"
+	line "hacer en este"
+	cont "pueblo."
+
+	para "Muchos pasamos"
+	line "aquí el tiempo"
+	cont "bebiendo leche."
 	done
 
 FarmerMText_BuyMilk:
-	text "How'd you like a"
-	line "drink?"
-	para "We serve MOOMOO"
-	line "MILK here."
-	para "Ya want some?"
+	text "¿Te apetece beber"
+	line "algo?"
+	para "Aquí servimos"
+	line "LECHE MU-MU."
+
+	para "¿Quieres una"
+	line "botella?"
 	done
 
 FarmerMText_GotMilk:
-	text "Here ya go!"
-	line "Drink up'n enjoy!"
+	text "¡Toma! ¡Bébetela"
+	line "y disfruta!"
 	done
 
 FarmerMText_NoMoney:
-	text "Sorry, there."
-	line "No cash, no sale!"
+	text "Lo siento."
+	line "¡Si no hay dinero,"
+	cont "no hay trato!"
 	done
 
 FarmerMText_NoRoom:
-	text "I reckon yer"
-	line "PACK's full."
+	text "Vaya, tu MOCHILA"
+	line "está llena."
 	done
 
 FarmerMText_NoSale:
-	text "You don't want it?"
-	line "Come again, hear?"
+	text "¿No la quieres?"
+	line "Vuelve otro día."
 	done
 
 FarmerMText_Milking:
-	text "It goes down real"
-	line "smooth."
-	para "#MON love it"
-	line "as well!"
+	text "Se bebe que da"
+	line "gusto."
+
+	para "¡Y a los #MON"
+	line "también les"
+	cont "encanta!"
 	done
 
-
 FarmerFText_SnoreSpeech:
-	text "MOOMOO MILK is"
-	line "just plain"
-	cont "delicious!"
+	text "¡La LECHE MU-MU es"
+	line "toda una delicia!"
 	done
 
 BirdonMilkBar_MapEvents:
@@ -227,5 +238,5 @@ BirdonMilkBar_MapEvents:
 	object_event  4,  1, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, PokefanM_DairyFarmer, -1
 	object_event  7,  5, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, PokefanF_SnoreFarmer, -1
 	object_event  3,  3, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, BarFisherScript, -1
-	object_event  2,  3, SPRITE_LASS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, BarLassScript, -1
+	object_event  2,  3, SPRITE_LASS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, BarLassScript, -1
 	object_event  0,  5, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, BarN64YoungsterScript, EVENT_YOUNGSTER_IN_BIRDON_MILK_BAR

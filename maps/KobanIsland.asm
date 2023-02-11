@@ -58,77 +58,92 @@ KobanIslandClairScript:
 	end
 
 KobanIslandTeacherText:
-	text "Water currents"
-	line "help keep this"
-	para "island slightly"
-	line "warmer than BLUE"
-	para "FOREST, which is"
-	line "just east of here."
+	text "Las corrientes de"
+	line "agua mantienen"
+	para "esta isla algo más"
+	line "cálida que el"
+	para "BOSQUE AZUL, al"
+	line "este de aquí."
 	done
 
 KobanIslandGrampsText:
-	text "The trainers of"
-	line "this town have a"
-	para "longstanding"
-	line "tradition of"
-	cont "raising dragons."
+	text "Es una vieja"
+	line "tradición en este"
+	para "pueblo que los"
+	line "entrenadores críen"
+	cont "dragones."
 	done
 
 KobanIslandFisherText:
-	text "One day I want"
-	line "to raise a dragon!"
+	text "¡Un día quiero"
+	line "criar un dragón!"
 	done
 
 OaksLabSignText:
-	text "KOBAN ISLAND"
-	para "A Small Island"
-	line "With Big History"
+	text "ISLA KOBAN"
+	
+	para "Una pequeña isla"
+	line "con una gran"
+	cont "historia"
 	done
 
 BluesHouseSignText:
-	text "DRAGON'S MAW"
+	text "MANDÍBULA DRAGÓN"
 	done
-	
+
 ClairGreetingsText:
-	text "Greetings."
-	para "Who might you be?"
+	text "Hola."
+
+	para "¿Quién eres tú?"
 	para "…"
-	para "Well, <PLAYER>,"
-	line "my name is CLAIR."
-	para "I am NIHON's most"
-	line "notable dragon"
-	cont "master."
-	para "…Well, the"
-	line "second most."
-	para "But what matters"
-	line "here is that"
-	para "behind me is the"
-	line "DRAGON'S MAW."
-	para "It is a mystical"
-	line "place where it"
-	para "is said dragon"
-	line "#MON first came"
-	cont "to live."
-	para "Do you have any"
-	line "dragon #MON?"
-	para "If you want to"
-	line "be respected among"
-	para "dragon trainers,"
-	line "you should train"
-	cont "in the cave."
-	para "Inside are several"
-	line "dragon trainers."
-	para "One of them holds"
-	line "the DRAGON ORB."
-	para "Find which trainer"
-	line "has the ORB, and"
-	cont "bring it to me."
-	para "This is your first"
-	line "step to being a"
-	para "respected dragon"
-	line "trainer."
-	para "I'll be waiting in"
-	line "my house."
+	para "Vale, <PLAYER>, mi"
+	line "nombre es DÉBORA."
+
+	para "Soy la mejor"
+	line "maestra dragón de"
+	cont "NIHON."
+
+	para "Bueno… la segunda"
+	line "mejor."
+
+	para "Pero a lo que voy"
+	line "es que detrás de"
+	para "mí se encuentra la"
+	line "MANDÍBULA DRAGÓN."
+
+	para "Es un lugar"
+	line "místico, y se dice"
+	para "que es donde"
+	line "vivieron los"
+	cont "primeros #MON"
+	cont "dragón."
+	
+	para "¿Tienes algún"
+	line "#MON dragón?"
+	para "Si quieres ser"
+	line "respetado entre"
+	para "los entrenadores"
+	line "dragón, deberías"
+	cont "entrenar en esta"
+	cont "cueva."
+	
+	para "Dentro hay muchos"
+	line "de ellos."
+	
+	para "Uno de ellos tiene"
+	line "la DRAGOESFERA."
+	
+	para "Encuentra al"
+	line "entrenador que la"
+	cont "tiene, y tráemela."
+	
+	para "Este es tu primer"
+	line "paso para conver-"
+	cont "tirte en un digno"
+	cont "entrenador dragón."
+
+	para "Te estaré esperan-"
+	line "do en mi casa."
 	done
 
 ClairLeavesMovement:

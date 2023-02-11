@@ -77,55 +77,60 @@ BoulderMine1FBoulder:
 	jumpstd StrengthBoulderScript
 	
 CooltrainerFEmmaSeenText:
-	text "This cave is very"
-	line "confusing to"
-	cont "navigate."
+	text "En esta cueva"
+	line "puedes perderte"
+	cont "con facilidad."
 	done
 
 CooltrainerFEmmaBeatenText:
-	text "I couldn't cut it!"
+	text "¡No he podido"
+	line "ganarte!"
 	done
 	
 CooltrainerFEmmaAfterBattleText:
-	text "I hope no one has"
-	line "gotten lost in"
-	cont "here."
-	para "That could be"
-	line "pretty scary."
+	text "Espero que nadie"
+	line "se pierda por"
+	cont "aquí."
+	
+	para "Sería algo"
+	line "aterrador."
 	done
 
 PokemaniacLarrySeenText:
-	text "I wonder what"
-	line "gets mined from"
-	cont "this cave…"
+	text "Me pregunto qué se"
+	line "mina en esta"
+	cont "cueva…"
 	done
 
 PokemaniacLarryBeatenText:
-	text "How are you so"
-	line "strong?"
+	text "¿Cómo eres tan"
+	line "fuerte?"
 	done
 	
 PokemaniacLarryAfterBattleText:
-	text "I wonder if there"
-	line "is anything worth"
-	cont "any money…"
+	text "Me pregunto si hay"
+	line "algo que valga la"
+	cont "pena…"
 	done
 
 Text_FoundMe:
-	text "Oh, hi!"
-	para "Um…"
-	line "Do you happen to"
-	para "know the way out"
-	line "of here?"
+	text "¡Uy, hola!"
+	
+	para "Esto… ¿Sabes cómo"
+	line "salir de aquí?"
+	
 	para "…"
-	para "Oh! Grandpa is"
-	line "looking for me?"
-	para "I didn't mean to"
-	line "make him worry…"
-	para "Okay! You'll help"
-	line "me get out of"
-	cont "here?"
-	para "Let's go!"
+	
+	para "¡Oh! ¿El abuelo me"
+	line "está buscando?"
+
+	para "No quería"
+	line "preocuparlo…"
+	
+	para "¡Vale! ¿Me ayudas"
+	line "a salir de aquí?"
+	
+	para "¡Vamos!"
 	done
 
 BoulderMine1F_MapEvents:

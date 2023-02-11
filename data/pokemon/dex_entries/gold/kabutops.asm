@@ -1,10 +1,10 @@
-	db "SHELLFISH@" ; species name
-	dw 403, 890 ; height, weight
+	db "ARMAZÓN@" ; species name
+	dbw 13, 405 ; height, weight
 
-	db   "It was able to"
-	next "swim quickly thro-"
-	next "ugh the water by"
+	db   "Era capaz de nadar"
+	next "rápidamente por el"
+	next "agua al replegar"
 
-	page "compactly folding"
-	next "up its razor-sharp"
-	next "sickles.@"
+	page "sus afiladas"
+	next "extremidades"
+	next "superiores.@"

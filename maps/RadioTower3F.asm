@@ -103,106 +103,112 @@ TrainerScientistJed:
 	
 
 ScientistJedSeenText:
-	text "It shouldn't be"
-	line "too much work to"
-	para "get our mind"
-	line "control signal to"
-	cont "broadcast here!"
+	text "¡No debería ser"
+	line "complicado sinto-"
+	cont "nizar aquí nuestra"
+	cont "señal de control"
+	cont "mental!"
 	done
 	
 ScientistJedBeatenText:
-	text "#MON battles"
-	line "are more difficult"
-	cont "than science…"
+	text "Los combates"
+	line "#MON son más"
+	cont "difíciles que la"
+	cont "ciencia…"
 	done
 	
 ScientistJedAfterBattleText:
-	text "How about you stop"
-	line "interfering in our"
-	cont "business?"
+	text "¿Qué tal si dejas"
+	line "de meterte en"
+	cont "nuestros planes?"
 	done
 	
 GruntF5SeenText:
-	text "These employees"
-	line "didn't know what"
-	cont "hit them!"
+	text "¡Esos empleados no"
+	line "sabían lo que les"
+	cont "esperaba!"
 	done
 	
 GruntF5BeatenText:
-	text "Oof, I know what"
-	line "hit me!"
+	text "¡Uf! ¡Sí que sé lo"
+	line "que me esperaba a"
+	cont "mí!"
 	done
 	
 GruntF5AfterBattleText:
-	text "Looks like all"
-	line "these people will"
-	para "be out of a job"
-	line "soon!"
+	text "¡Esta gente se va"
+	line "a quedar pronto"
+	cont "sin trabajo!"
 	done
-
 	
 RadioTower3fRockerText:
-	text "We have recordings"
-	line "of the cries of"
-	para "all #MON that"
-	line "have been found."
-	para "We must have about"
-	line "200 kinds."
+	text "Hemos grabado los"
+	line "gritos de todos"
+	para "los #MON"
+	line "descubiertos."
+
+	para "Debemos de tener"
+	line "más de 200 tipos."
 	done
 	
 RadioTower3fRockerTextTakeover:
-	text "What is going on"
-	line "here!? I can't do"
-	para "my job with all of"
-	line "these criminals"
-	cont "in my workspace!"
+	text "¡¿Qué está pasando"
+	line "aquí?! ¡No puedo"
+	para "trabajar con todos"
+	line "estos criminales"
+	cont "en mi oficina!"
 	done
 	
 RadioTower3fJanineText:
-	text "KEN is probably"
-	line "the most popular"
-	cont "DJ here."
+	text "Diría que KEN es"
+	line "el DJ más popular"
+	cont "aquí."
 	done
 	
 RadioTower3fJanineTextTakeover:
-	text "Help! What does"
-	line "TEAM ROCKET plan"
-	para "to do with our"
-	line "radio antenna?"
+	text "¡Ayuda! ¿Qué"
+	line "piensa hacer el"
+	para "TEAM ROCKET con"
+	line "nuestra antena de"
+	cont "radio?"
 	done
 	
 RadioTower3fSuperNerdText:
-	text "We run 24 hours a"
-	line "day to broadcast"
-	para "entertaining pro-"
-	line "grams."
-	para "I'll do my best to"
-	line "run around the"
-	cont "clock too!"
+	text "Emitimos programas"
+	line "de entretenimiento"
+	para "las 24 horas del"
+	line "día."
+
+	para "¡Intentaremos"
+	line "hacerlo lo mejor"
+	cont "posible!"
 	done
 	
 RadioTower3fSuperNerdTextTakeover:
-	text "This can't be a"
-	line "good thing!"
-	para "TEAM ROCKET will"
-	line "hurt #MON if"
-	para "they keep control"
-	line "of this tower!"
+	text "¡Esto no tiene"
+	line "buena pinta!"
+
+	para "¡El TEAM ROCKET"
+	line "hará daño a los"
+	para "#MON si se"
+	line "apoderan de esta"
+	cont "torre!"
 	done
 	
 RadioTower3fTeacherText:
-	text "Lullabies on the"
-	line "radio may make"
-	cont "#MON sleep."
+	text "Las nanas de la"
+	line "radio pueden hacer"
+	para "que los #MON"
+	line "se duerman."
 	done
 	
 RadioTower3fTeacherTextTakeover:
-	text "What do we do"
-	line "about this?"
+	text "¿Qué podemos"
+	line "hacer?"
 	done
 	
 RadioTower3FPersonelSignText:
-	text "3F PERSONNEL"
+	text "P2 PERSONAL"
 	done
 
 RadioTower3F_MapEvents:

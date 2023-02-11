@@ -199,110 +199,116 @@ SlowpokeTailSalesmanScript:
 	
 
 Text_MillionDollarSlowpokeTail:
-	text "Hey, kid!"
-	para "How would you like"
-	line "to have this"
+	text "¡Eh, tú!"
 
-	para "tasty, nutritious"
-	line "SLOWPOKETAIL?"
+	para "¿Te gustaría tener"
+	line "esta sabrosa y"
+	para "nutritiva"
+	line "COLASLOWPOKE?"
 
-	para "For you right now,"
-	line "just ¥1,000,000!"
+	para "¡Sólo te costará"
+	line "1.000.000¥!"
 
-	para "You'll want this!"
+	para "¡Te gustará!"
+	
+	para "¿Qué me dices?"
 	done
 
 Text_ThoughtKidsWereLoaded:
-	text "Tch! I thought"
-	line "kids these days"
-	cont "were loaded…"
+	text "¡Vaya! Pensaba que"
+	line "los niños de hoy"
+	cont "en día estaban"
+	cont "forrados…"
 	done
 
 Text_RefusedToBuySlowpokeTail:
-	text "You don't want it?"
-	line "Then scram. Shoo!"
+	text "¿No la quieres?"
+	line "Pues lárgate."
 	done
 
 CamperIvanSeenText:
-	text "I've been getting"
-	line "#MON data off"
-
-	para "my radio. I think"
-	line "I'm good."
+	text "He estado cogiendo"
+	line "datos de #MON"
+	para "de mi radio. Creo"
+	line "que soy bueno."
 	done
 
 CamperIvanBeatenText:
-	text "I give!"
+	text "¡Me rindo!"
 	done
 
 CamperIvanAfterBattleText:
-	text "Music on the radio"
-	line "changes the moods"
-	cont "of wild #MON."
+	text "La música de la"
+	line "radio cambia el"
+
+	para "ánimo de los"
+	line "#MON salvajes."
 	done
 
-
-
 PicnickerKimSeenText:
-	text "Have you been to"
-	line "any #MON GYMS?"
+	text "¿Has ido a algún"
+	line "GIMNASIO #MON?"
 	done
 
 PicnickerKimBeatenText:
-	text "Oh. I couldn't"
-	line "win…"
+	text "¡Vaya! No pude"
+	line "ganar…"
 	done
 
 PicnickerKimAfterBattleText:
-	text "The GYM BADGES are"
-	line "pretty. I collect"
-	cont "them."
+	text "Me gustan las"
+	line "MEDALLAS de los"
+	cont "GIMNASIOS."
+
+	para "Las colecciono."
 	done
 
 BirdKeeperBryanSeenText:
-	text "What kinds of"
-	line "BALLS do you use?"
+	text "¿Qué tipo de"
+	line "# BALL usas?"
 	done
 
 BirdKeeperBryanBeatenText:
-	text "Yikes! Not fast"
-	line "enough!"
+	text "¡Vaya! ¡No lo"
+	line "bastante rápido!"
 	done
 
 BirdKeeperBryanAfterBattleText:
-	text "Some #MON flee"
-	line "right away."
+	text "Algunos #MON"
+	line "huyen enseguida."
 
-	para "If you can get"
-	line "ahold of KURT's"
-	para "custom FAST BALLS,"
-	line "they're great for"
-	cont "quick #MON."
+	para "Si puedes hazte"
+	line "con algunas"
+	para "RAPID BALLS de"
+	line "CÉSAR, te ayudarán"
+	cont "contra #MON"
+	cont "escurridizos."
 	done
 
 JugglerIrwin1SeenText:
-	text "Behold my graceful"
-	line "BALL dexterity!"
+	text "¡Observa cómo uso"
+	line "las # BALL!"
 	done
 
 JugglerIrwin1BeatenText:
-	text "Whew! That was a"
-	line "jolt!"
+	text "¡Uauuu! ¡Vaya"
+	line "sacudida!"
 	done
 
 JugglerIrwinAfterBattleText:
-	text "I was going to"
-	line "dazzle you with my"
-	cont "prize #MON."
+	text "Te iba a"
+	line "deslumbrar con mi"
+	cont "preciado #MON."
 
-	para "But your prowess"
-	line "electrified me!"
+	para "¡Pero tu habilidad"
+	line "me electrificó!"
 	done
 
 Route103SignText:
-	text "ROUTE 103"
-	para "WESTPORT CITY -"
-	line "BIRDON TOWN"
+	text "RUTA 103"
+	
+	para "CIUDAD PONIENTE -"
+	line "PUEBLO BIRDON"
 	done
 
 Route103_MapEvents:
@@ -322,7 +328,7 @@ Route103_MapEvents:
 	object_event 11,  9, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 3, TrainerCamperIvan, -1
 	object_event  6, 23, SPRITE_LASS, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 2, TrainerPicnickerKim, -1
 	object_event 10, 44, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerBirdKeeperBryan, -1
-	object_event  8, 37, SPRITE_SUPER_NERD, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_TRAINER, 3, TrainerJugglerIrwin, -1
-	object_event 14, 31, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route103FruitTree, -1
+	object_event  8, 37, SPRITE_SUPER_NERD, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_TRAINER, 3, TrainerJugglerIrwin, -1
+	object_event 14, 31, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, Route103FruitTree, -1
 	object_event 15, 30, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route103TMRollout, EVENT_ROUTE_103_TM_ROLLOUT
 	object_event  8, 13, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SlowpokeTailSalesmanScript, EVENT_103_SLOWPOKE_SALESMAN

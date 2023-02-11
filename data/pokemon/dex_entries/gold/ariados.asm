@@ -1,10 +1,10 @@
-	db "LONG LEG@" ; species name
-	dw 307, 740 ; height, weight
+	db "PATA LARGA@" ; species name
+	dbw 11, 335 ; height, weight
 
-	db   "Rather than mak-"
-	next "ing a nest in one"
-	next "specific spot, it"
+	db   "Por las noches, en"
+	next "lugar de hacer el"
+	next "nido en un sitio"
 
-	page "wanders in search"
-	next "of food after"
-	next "darkness falls.@"
+	page "determinado, va de"
+	next "un lado para otro"
+	next "buscando comida.@"

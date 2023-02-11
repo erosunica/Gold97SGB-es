@@ -1,10 +1,10 @@
-	db "LONG TAIL@" ; species name
-	dw 207, 250 ; height, weight
+	db "COLA LARGA@" ; species name
+	dbw 8, 115 ; height, weight
 
-	db   "It uses its tail"
-	next "to hang on to tree"
-	next "branches. It uses"
+	db   "Se vale de la cola"
+	next "para colgarse de"
+	next "las ramas de los"
 
-	page "its momentum to"
-	next "swing from one"
-	next "branch to another.@"
+	page "árboles y coge"
+	next "impulso para pasar"
+	next "de una a otra.@"

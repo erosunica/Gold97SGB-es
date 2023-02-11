@@ -13,11 +13,13 @@ GreatEastSign:
 	jumptext GreatEastSignText
 	
 GreatEastSignText:
-	text "GREAT EAST STRAIT"
-	para "NANJO FOREST -"
-	line "DAITO RANCH"
-	para "Watch Out For"
-	line "Whirlpools!"
+	text "GRAN CANAL LEVANTE"
+
+	para "BOSQUE NANJO -"
+	line "RANCHO DAITO"
+
+	para "¡Cuidado con los"
+	line "torbellinos!"
 	done
 
 
@@ -56,58 +58,59 @@ TrainerSwimmermParker:
 	
 	
 SwimmermLewisSeenText:
-	text "Glub…"
+	text "¡Glup…!"
 
-	para "I'm up! Come and"
-	line "get me!"
+	para "¡Aquí estoy!"
+	line "¡Ven a por mí!"
 	done
 
 SwimmermLewisBeatenText:
-	text "This can't be…"
+	text "No puede ser…"
 	done
 
 SwimmermLewisAfterBattleText:
-	text "Don't let your"
-	line "guard down, or"
-	cont "you'll be crushed!"
+	text "¡No bajes la"
+	line "guardia o acabarás"
+	cont "mal!"
 	done
 
 DanSeenText:
-	text "This island is"
-	line "my battleground,"
-	para "the waves my war"
-	line "siren."
-	
-	para "As long as I'm"
-	line "above water, you"
-	para "will never take"
-	line "me alive!"
+	text "Esta isla es mi"
+	line "campo de batalla,"
+	para "y las olas mi"
+	line "sirena de guerra."
+
+	para "¡Mientras esté en"
+	line "el agua, jamás me"
+	cont "atraparás con"
+	cont "vida!"
 	done
 
 DanBeatenText:
-	text "TELSOOOOOON!"
+	text "¡TELSOOOOOOON!"
 	done
-	
+
 DanAfterBattleText:
-	text "The war is never"
-	line "over! I fight my"
-	para "own war every day"
-	line "in this place!"
+	text "¡La guerra nunca"
+	line "acaba! ¡Cada día"
+	para "libro mi propia"
+	line "guerra en este"
+	cont "lugar!"
 	done
-	
+
 SwimmermParkerSeenText:
-	text "Rough waters here,"
-	line "eh?"
+	text "Aguas revueltas"
+	line "por aquí, ¿eh?"
 	done
 
 SwimmermParkerBeatenText:
-	text "This was not"
-	line "the plan!"
+	text "¡Este no era el"
+	line "plan!"
 	done
 
 SwimmermParkerAfterBattleText:
-	text "Watch out for all"
-	line "the WHIRLPOOLs!"
+	text "¡Ten cuidado con"
+	line "los TORBELLINOS!"
 	done
 
 GESItemball:

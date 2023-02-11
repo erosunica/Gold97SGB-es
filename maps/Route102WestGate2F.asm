@@ -24,46 +24,49 @@ Route102WestGate2FFisherScript:
 	end
 
 Route102WestGate2FFisherText:
-	text "The WESTPORT DOCK"
-	line "has resumed taking"
-	para "ferries out to"
-	line "TEKNOS CITY."
-	para "You should check"
-	line "it out if you get"
-	cont "a chance."
+	text "El MUELLE PONIENTE"
+	line "vuelve a tener"
+	para "barcos que llevan"
+	line "hasta CIUDAD"
+	cont "TEKNOS."
+	
+	para "Deberías ir si"
+	line "tienes la"
+	cont "oportunidad."
 	done
 	
 DocksClosedText:
-	text "WESTPORT CITY has"
-	line "a dock where"
-	para "ferries depart for"
-	line "TEKNOS CITY, but"
-	para "it's closed right"
-	line "now."
+	text "CIUDAD PONIENTE"
+	line "tiene un MUELLE en"
+	para "el que hay barcos"
+	line "que van hasta"
+	para "CIUDAD TEKNOS,"
+	line "pero ahora mismo"
+	cont "está cerrado."
 	done
-	
 	
 Route102WestGate2FSign:
 	jumptext Route102WestGate2FSignText
 	
 Route102WestGate2FSignText:
-	text "<PLAYER> peeked"
-	line "through the"
-	cont "telescope!"
-	para "I see a small"
-	line "desert town north"
-	cont "of here!"
+	text "¡<PLAYER> miró por"
+	line "los prismáticos!"
+	
+	para "¡Veo un pequeño"
+	line "pueblo desierto al"
+	cont "norte de aquí!"
 	done
 
 Route102WestGate2FSign2:
 	jumptext Route102WestGate2FSign2Text
 	
 Route102WestGate2FSign2Text:
-	text "<PLAYER> peeked"
-	line "through the"
-	cont "telescope!"
-	para "Is that WESTPORT"
-	line "CITY RADIO TOWER?"
+	text "¡<PLAYER> miró por"
+	line "los prismáticos!"
+	
+	para "¿Esa es la TORRE"
+	line "RADIO de CIUDAD"
+	cont "PONIENTE?"
 	done
 	
 Route102WestGate2F_MapEvents:

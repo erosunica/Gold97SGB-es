@@ -1,10 +1,10 @@
-	db "POISON GAS@" ; species name
-	dw 311, 210 ; height, weight
+	db "GAS VENENO@" ; species name
+	dbw 12, 95 ; height, weight
 
-	db   "When it inhales"
-	next "poisonous gases"
-	next "from garbage, its"
+	db   "Al inhalar los"
+	next "gases tóxicos que"
+	next "se desprenden de"
 
-	page "body expands, and"
-	next "its insides smell"
-	next "much worse.@"
+	page "la basura, se hin-"
+	next "cha y el hedor que"
+	next "emite es horrible.@"

@@ -91,114 +91,121 @@ MagikarpHouseBookshelf:
 	jumpstd DifficultBookshelfScript
 
 MagikarpLengthRaterText_KikaiVillageHistory:
-	text "You should never"
-	line "see this dialogue."
-	para "If you are, you've"
-	line "either stumbled"
-	para "upon a glitch, or"
-	line "you're sequence"
-	cont "breaking."
-	para "This text only"
-	line "displays if you"
-	para "talk to this guy"
-	line "before beating"
-	para "TEAM ROCKET in the"
-	line "RADIO TOWER."
-	para "And you shouldn't"
-	line "be here if you"
-	cont "haven't done that."
-	para "The developer"
-	line "didn't feel like"
-	para "changing the"
-	line "script for this"
-	para "guy since it's not"
-	line "really necessary."
-	para "So what are you up"
-	line "to here?"
-	para "You should go back"
-	line "and do what you're"
-	cont "supposed to do."
+	text "Nunca deberías"
+	line "poder leer este"
+	cont "diálogo."
+
+	para "Si lo estás"
+	line "leyendo, debe ser"
+	para "un error, o estás"
+	line "manipulando el"
+	cont "juego."
+
+	para "Este texto solo"
+	line "aparece si hablas"
+	para "con este tipo"
+	line "antes de derrotar"
+	para "al TEAM ROCKET en"
+	line "la TORRE RADIO."
+
+	para "Y no deberías"
+	line "estar aquí si no"
+	cont "lo has hecho."
+
+	para "Al desarrollador"
+	line "no le importó"
+	para "cambiar el evento"
+	line "de este tipo"
+	para "porque no es que"
+	line "fuese necesario."
+
+	para "¿Qué te trae por"
+	line "aquí?"
+
+	para "Deberías dar"
+	line "marcha atrás y"
+	para "hacer lo que"
+	line "tengas que hacer."
 	done
 
 MagikarpLengthRaterText_MenInBlack:
-	text "Get out of here,"
-	line "kid."
+	text "Vete de aquí,"
+	line "niño."
 	done
 
 MagikarpLengthRaterText_WorldsLargestMagikarp:
-	text "Ever since I was a"
-	line "boy, I've loved"
+	text "Desde que era"
+	line "pequeño, he"
+	cont "adorado a los"
 	cont "MAGIKARP."
 
-	para "I may yet realize"
-	line "my dream of see-"
-	cont "ing the world's"
-	cont "largest MAGIKARP."
+	para "Quizá se cumpla mi"
+	line "sueño de ver al"
 
-	para "Do you have a ROD?"
-	line "Please help me if"
-	cont "you do."
+	para "MAGIKARP más"
+	line "grande del mundo."
+
+	para "¿Tienes una CAÑA?"
+	line "Si tienes una,"
+	cont "ayúdame por favor."
 	done
 
 MagikarpLengthRaterText_YouHaveAMagikarp:
-	text "Ah, you have a"
-	line "MAGIKARP! Let's"
-
-	para "see how big that"
-	line "baby is."
+	text "¡Ah, tienes un"
+	line "MAGIKARP! A ver lo"
+	cont "grande que es ese"
+	cont "bebé."
 	done
 
 MagikarpLengthRaterText_Memento:
-	text "Wow! This one is"
-	line "outstanding!"
+	text "¡Uau! ¡Éste es"
+	line "impresionante!"
 
-	para "I tip my hat to"
-	line "you!"
+	para "¡Me quito el"
+	line "sombrero ante ti!"
 
-	para "Take this as a"
-	line "memento!"
+	para "¡Toma esto como"
+	line "recuerdo!"
 	done
 
 MagikarpLengthRaterText_Bonus:
-	text "The record is the"
-	line "important thing."
-
-	para "Think of that as"
-	line "a bonus!"
+	text "Lo importante es"
+	line "el récord. ¡Piensa"
+	para "en él como una"
+	line "bonificación!"
 	done
 
 MagikarpLengthRaterText_TooShort:
-	text "Wow! This one is"
-	line "outstanding!"
+	text "¡Uau! ¡Éste es"
+	line "impresionante!"
 
-	para "…I wish I could"
-	line "say that, but I've"
-
-	para "seen a bigger one"
-	line "before."
+	para "Ojalá no tuviera"
+	line "que decirlo, pero"
+	para "he visto uno más"
+	line "grande antes."
 	done
 
 MagikarpLengthRaterText_NotMagikarp:
-	text "What? That's not a"
-	line "MAGIKARP!"
+	text "¿Qué? ¡Eso no es"
+	line "un MAGIKARP!"
 	done
 
 MagikarpLengthRaterText_Refused:
-	text "Oh… So you didn't"
-	line "get one good"
-
-	para "enough to show me?"
-	line "Maybe next time."
+	text "¿No tienes ninguno"
+	line "bueno que"
+	para "enseñarme? Quizá"
+	line "la próxima vez."
 	done
 
 KikaiVillageMagikarpHouseUnusedRecordText:
-	text "CURRENT RECORD"
+	text "RÉCORD ACTUAL"
 
 	para "@"
 	text_ram wStringBuffer3
-	text " caught by"
-	line "@"
+	text " cm, atrapado"
+	line "por @"
 	text_ram wStringBuffer4
+	text ".@"
 	text_end
 
 	text_end ; unused

@@ -1,10 +1,10 @@
-	db "SPIRAL@" ; species name
-	dw 104, 170 ; height, weight
+	db "ESPIRAL@" ; species name
+	dbw 4, 75 ; height, weight
 
-	db   "In prehistoric"
-	next "times, it swam on"
-	next "the sea floor,"
+	db   "En tiempos prehis-"
+	next "tóricos, vivía en"
+	next "el fondo del mar y"
 
-	page "eating plankton."
-	next "Its fossils are"
-	next "sometimes found.@"
+	page "se alimentaba de"
+	next "plancton. Aún se"
+	next "ven sus fósiles.@"

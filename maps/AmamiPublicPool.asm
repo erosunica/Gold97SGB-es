@@ -65,91 +65,103 @@ AmamiPublicPoolLassScript:
 	jumptextfaceplayer AmamiPublicPoolLassText
 	
 AmamiPublicPoolLassText:
-	text "A more controlled"
-	line "environment like"
-	para "an indoor pool can"
-	line "be a better place"
-	para "to train weaker"
-	line "#MON than out"
-	cont "on the open sea."
+	text "Un ambiente más"
+	line "controlado, como"
+	para "una piscina"
+	line "cubierta, puede"
+	para "ser un lugar mejor"
+	line "para entrenar"
+	para "#MON débiles"
+	line "que en mar"
+	cont "abierto."
 	done
-	
+
 AmamiPublicPoolBugCatcherText:
-	text "I want to go"
-	line "swimming!"
+	text "¡Quiero ir a"
+	line "nadar!"
 	done
-	
+
 AmamiPublicPoolGrannyText:
-	text "I can't really"
-	line "swim so well any-"
-	cont "more."
-	para "But my #MON"
-	line "love the water,"
-	para "so I bring them"
-	line "here frequently."
+	text "Ya no nado tan"
+	line "bien como antes."
+
+	para "Pero a mis #MON"
+	line "les encanta el"
+	para "agua, así que los"
+	line "traigo aquí a"
+	cont "menudo."
 	done
-	
+
 AmamiPublicPoolSwimmerGirlText:
-	text "Water type #MON"
-	line "love being in the"
-	cont "water!"
-	para "Makes sense,"
-	line "right?"
+	text "¡A los #MON de"
+	line "agua les encanta"
+	cont "nadar!"
+
+	para "Tiene sentido,"
+	line "¿no?"
 	done
-	
+
 AmamiPublicPoolSwimmerGuyText:
-	text "Swimming is good"
-	line "exercise for both"
-	para "people and #-"
-	line "MON!"
+	text "¡Nadar es un buen"
+	line "ejercicio tanto"
+	cont "para personas como"
+	cont "#MON!"
 	done
-	
+
 ReceiveSquirtleText:
-	text "<PLAYER> received"
+	text "<PLAYER> recibió a"
 	line "SQUIRTLE."
 	done
-	
+
 AlreadyGotSquirtleText:
-	text "I come here to"
-	line "swim with my"
-	para "SQUIRTLE almost"
-	line "every day!"
+	text "¡Vengo a nadar"
+	line "aquí con mi"
+	cont "SQUIRTLE casi a"
+	cont "diario!"
 	done
-	
+
 PartyFullSquirtleText:
-	text "You've already got"
-	line "too many #MON"
-	cont "with you!"
+	text "¡Ya llevas muchos"
+	line "#MON en tu"
+	cont "equipo!"
 	done
-	
+
 NoSquirtleText:
-	text "You sure?"
-	para "They're such great"
+	text "¿Seguro?"
+
+	para "¡Es un gran"
 	line "#MON!"
 	done
-	
-	
+
 ILoveSquirtleText:
-	text "SQUIRTLE are great"
-	line "swimmers!"
-	para "Have you ever gone"
-	line "swimming with a"
-	cont "SQUIRTLE?"
-	para "You have to try"
-	line "it!"
-	para "They're also great"
-	line "#MON to raise!"
-	para "I've got a young"
-	line "one that needs"
-	para "someone to train"
-	line "it."
-	para "Here, you should"
-	line "raise a SQUIRTLE!"
+	text "¡Los SQUIRTLE son"
+	line "fantásticos"
+	cont "nadadores!"
+
+	para "¿Has nadado alguna"
+	line "vez con uno?"
+
+	para "¡Tienes que"
+	line "intentarlo!"
+
+	para "Entrenarlos"
+	line "también es una"
+	cont "gran experiencia."
+
+	para "Tengo uno joven"
+	line "que necesita que"
+	cont "alguien lo cuide."
+
+	para "¡Deberías entrenar"
+	line "a este SQUIRTLE!"
+
+	para "¿Te gustaría"
+	line "llevártelo?"
 	done
-	
+
 GiveSquirtleText:
-	text "Help it grow up"
-	line "big and strong!"
+	text "¡Ayúdalo a crecer"
+	line "sano y fuerte!"
 	done
 	
 AmamiPublicPool_MapEvents:
@@ -166,7 +178,7 @@ AmamiPublicPool_MapEvents:
 	db 6 ; object events
 	object_event  5,  6, SPRITE_SWIMMER_GIRL, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, AmamiPublicPoolSwimmerSquirtle, -1
 	object_event  9,  9, SPRITE_SWIMMER_GUY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, AmamiPublicPoolSwimmerGuyScript, -1
-	object_event  11, 10, SPRITE_SWIMMER_GIRL, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, AmamiPublicPoolSwimmerGirlScript, -1
+	object_event  11, 10, SPRITE_SWIMMER_GIRL, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, AmamiPublicPoolSwimmerGirlScript, -1
 	object_event  7, 13, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, AmamiPublicPoolGrannyScript, -1
 	object_event  3, 14, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, AmamiPublicPoolBugCatcherScript, -1
 	object_event 18,  5, SPRITE_LASS, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, AmamiPublicPoolLassScript, -1

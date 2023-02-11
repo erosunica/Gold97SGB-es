@@ -1,10 +1,10 @@
-	db "JELLYFISH@" ; species name
-	dw 211, 1000 ; height, weight
+	db "MEDUSA@" ; species name
+	dbw 9, 455 ; height, weight
 
-	db   "As it floats along"
-	next "on the waves, it"
-	next "uses its toxic"
+	db   "Mientras está flo-"
+	next "tando en el agua,"
+	next "usa sus tóxicos"
 
-	page "feelers to stab"
-	next "anything it"
-	next "touches.@"
+	page "tentáculos para"
+	next "envenenar a quien"
+	next "le roce.@"

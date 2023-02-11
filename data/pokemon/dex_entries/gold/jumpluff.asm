@@ -1,10 +1,10 @@
-	db "COTTONWEED@" ; species name
-	dw 207, 70 ; height, weight
+	db "ALGADÓN@" ; species name
+	dbw 8, 30 ; height, weight
 
-	db   "Even in the fierc-"
-	next "est wind, it can"
-	next "control its fluff"
+	db   "Aunque sople el"
+	next "viento más fuerte,"
+	next "es capaz de con-"
 
-	page "to make its way to"
-	next "any place in the"
-	next "world it wants.@"
+	page "trolar los pompo-"
+	next "nes y moverse por"
+	next "donde quiera.@"

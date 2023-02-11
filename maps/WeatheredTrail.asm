@@ -59,81 +59,89 @@ TrainerBikerJermaine:
 	
 
 BikerBlazeSeenText:
-	text "Hey! No outsiders"
-	line "allowed!"
+	text "¡Aquí no se permi-"
+	line "ten forasteros!"
 	done
-	
+
 BikerBlazeBeatenText:
-	text "Urf…"
+	text "Uf…"
 	done
-	
+
 BikerBlazeAfterBattleText:
-	text "Just let us have"
-	line "our fun, man!"
+	text "¡Deja que nos"
+	line "divirtamos, tío!"
 	done
-	
 
 BikerRafaelSeenText:
-	text "There's no need"
-	line "for you to come"
-	cont "this way!"
+	text "¡No hay necesidad"
+	line "de que vengas por"
+	cont "aquí!"
 	done
-	
+
 BikerRafaelBeatenText:
-	text "I'm crushed!"
+	text "¡Destrozado!"
 	done
-	
+
 BikerRafaelAfterBattleText:
-	text "All we want to"
-	line "do is ride!"
+	text "¡Lo único que"
+	line "queremos es montar"
+	cont "en moto!"
 	done
-	
 
 BikerColtonSeenText:
-	text "Hey punk!"
-	para "…Well, I guess"
-	line "I'm the punk."
-	para "But you should get"
-	line "outta our way!"
+	text "¡Eh, piltrafa!"
+
+	para "…"
+
+	para "Bueno, supongo"
+	line "que el piltrafa"
+	cont "soy yo."
+
+	para "Aun así, ¡fuera de"
+	line "nuestro camino!"
 	done
-	
+
 BikerColtonBeatenText:
-	text "Argh, no way!"
+	text "¡No puede ser!"
 	done
-	
+
 BikerColtonAfterBattleText:
-	text "Why you getting"
-	line "in our territory?"
+	text "¿Por qué te metes"
+	line "en nuestro"
+	cont "territorio?"
 	done
-	
 
 BikerJermaineSeenText:
-	text "Kids like you have"
-	line "no chance!"
+	text "¡Los niños como tú"
+	line "no tienen nada que"
+	cont "hacer!"
 	done
-	
+
 BikerJermaineBeatenText:
-	text "Not what I"
-	line "expected…"
+	text "No lo que"
+	line "esperaba…"
 	done
-	
+
 BikerJermaineAfterBattleText:
-	text "We're not causing"
-	line "any trouble,"
-	cont "promise!"
+	text "No estamos causan-"
+	line "do problemas,"
+	cont "¡lo juro!"
 	done
-	
+
 WeatheredOfficer1Text:
-	text "We're beefing up"
-	line "security after"
-	cont "this incident."
+	text "Vamos a aumentar"
+	line "la seguridad"
+	cont "después de este"
+	cont "incidente."
 	done
-	
+
 WeatheredOfficer2Text:
-	text "Hey, kid!"
-	para "Thanks for your"
-	line "help."
-	para "You can go in!"
+	text "¡Hola chico!"
+
+	para "Gracias por tu"
+	line "ayuda."
+
+	para "¡Puedes pasar!"
 	done
 	
 	
@@ -181,4 +189,4 @@ WeatheredTrail_MapEvents:
 	object_event 31, 12, SPRITE_BIKER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 4, TrainerBikerJermaine, EVENT_IEJIMA_TOWN_FIXED
 	object_event 11, 10, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 1, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, WeatheredOfficer1, EVENT_IEJIMA_TOWN_NOT_FIXED
 	object_event 14, 10, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 1, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, WeatheredOfficer2, EVENT_IEJIMA_TOWN_NOT_FIXED
-	object_event  9, 14, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, TatsugoPathTree, -1
+	object_event  9, 14, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, TatsugoPathTree, -1

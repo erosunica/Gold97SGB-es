@@ -18,27 +18,29 @@ KantoHouse1Teacher:
 	jumptextfaceplayer KantoHouse1TeacherText
 	
 KantoHouse1TwinText:
-	text "One day, I'll be"
-	line "stronger than RED!"
+	text "¡Un día, seré más"
+	line "fuerte que ROJO!"
 	done
-	
+
 KantoHouse1BugCatcherText:
-	text "Maybe I could"
-	line "beat the LEAGUE"
-	para "with just BUG"
-	line "#MON…"
+	text "A lo mejor puedo"
+	line "ganar la LIGA"
+	para "usando solo"
+	line "#MON bicho…"
 	done
-	
+
 KantoHouse1TeacherText:
-	text "Both of my young"
-	line "children just love"
+	text "A mis dos hijos"
+	line "pequeños les"
+	cont "encantan los"
 	cont "#MON."
-	para "I was never a"
-	line "trainer, so some-"
-	para "times I'm not sure"
-	line "what to tell them"
-	para "about raising"
-	line "#MON."
+
+	para "Nunca fui"
+	line "entrenadora, así"
+	para "que a veces no sé"
+	line "qué decirles sobre"
+	cont "la crianza"
+	cont "#MON."
 	done
 
 KantoHouse1_MapEvents:

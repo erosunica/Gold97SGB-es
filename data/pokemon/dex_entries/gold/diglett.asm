@@ -1,10 +1,10 @@
-	db "MOLE@" ; species name
-	dw 8, 20 ; height, weight
+	db "TOPO@" ; species name
+	dbw 2, 8 ; height, weight
 
-	db   "It digs under-"
-	next "ground and chews"
-	next "on tree roots,"
+	db   "Cava bajo tierra"
+	next "y roe las raíces"
+	next "de los árboles."
 
-	page "sticking its head"
-	next "out only when the"
-	next "sun isn't bright.@"
+	page "Asomará la cabeza"
+	next "sólo cuando el sol"
+	next "no brille.@"

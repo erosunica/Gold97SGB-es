@@ -36,35 +36,37 @@ WestportDeptStore3FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 WestportDeptStore3FSuperNerdText:
-	text "It's tough to"
-	line "choose."
-	para "Certain items,"
-	line "like X ATTACK,"
-	para "only work if the"
-	line "trainer uses them."
-	para "But other items,"
-	line "like SHARP HORNS,"
-	para "can be used by"
-	line "a #MON that"
-	cont "holds it."
-	para "Which type is"
-	line "better?"
+	text "Es difícil elegir."
+	
+	line "Algunos objetos,"
+	para "como ATAQUE X,"
+	line "solo funcionan si"
+	para "el entrenador los"
+	line "usa."
+	
+	para "Pero otros, como"
+	line "CUERNOS FILO,"
+	para "pueden equiparse a"
+	line "los #MON."
+	
+	para "¿Cuál es la mejor"
+	line "opción?"
 	done
 
 WestportDeptStore3FRockerText:
-	text "X SPECIAL is very"
-	line "useful if you have"
-	para "a #MON with"
-	line "offensive SPECIAL"
-	cont "moves."
+	text "AT. ESP. X es muy"
+	line "útil si tienes un"
+	para "#MON con movi-"
+	line "mientos ofensivos"
+	cont "ESPECIALES."
 	done
 
 WestportDeptStore3FDirectoryText:
-	text "For Victory"
-	line "Seekers"
+	text "Para los amantes"
+	line "de la victoria"
 
-	para "3F BATTLE"
-	line "   COLLECTION"
+	para "P2 ARTÍCULOS"
+	line "   DE COMBATE"
 	done
 
 WestportDeptStore3F_MapEvents:

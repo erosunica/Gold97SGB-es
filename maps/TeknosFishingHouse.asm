@@ -42,43 +42,40 @@ TeknosFishingHouseFishingGuruScript:
 
 
 TeknosFishingHouseFishingGuruText_Question:
-	text "The river on"
-	line "ROUTE 119 is a"
-	para "popular fishing"
-	line "spot."
+	text "El río de la RUTA"
+	line "119 es un punto de"
+	cont "pesca popular."
 	
-	para "You want to fish?"
+	para "¿Quieres pescar?"
 
-	para "Would you like one"
-	line "of my RODS?"
+	para "¿Quieres una de"
+	line "mis CAÑAS?"
 	done
 
 TeknosFishingHouseFishingGuruText_Yes:
-	text "Heh, that's good"
-	line "to hear."
+	text "Eso está bien."
 
-	para "Now you're an"
-	line "angler too!"
+	para "¡Ahora ya puedes"
+	line "pescar!"
 	done
 
 TeknosFishingHouseFishingGuruText_GiveOldRod:
-	text "Fishing is great!"
+	text "¡Pescar es genial!"
 
-	para "If there's water,"
-	line "be it the sea or a"
-
-	para "stream, try out"
-	line "your ROD."
+	para "Si ves agua, ya"
+	line "sea el mar o un"
+	cont "río, utiliza tu"
+	cont "CAÑA."
 	done
 
 TeknosFishingHouseFishingGuruText_No:
-	text "Oh. That's rather"
-	line "disappointing…"
+	text "¡Vaya! Me has"
+	line "decepcionado…"
 	done
 
 TeknosFishingHouseFishingGuruText_After:
-	text "Yo, kid. How are"
-	line "they biting?"
+	text "Hola."
+	line "¿Están picando?"
 	done
 
 TeknosFishingHouse_MapEvents:

@@ -76,10 +76,10 @@ WestportVendingMachine:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "FRESH WATER  ¥200@"
-	db "SODA POP     ¥300@"
-	db "LEMONADE     ¥350@"
-	db "CANCEL@"
+	db "AGUA FRESCA  200¥@"
+	db "REFRESCO     300¥@"
+	db "LIMONADA     350¥@"
+	db "SALIR@"
 
 
 WestportDeptStore6FSuperNerdScript:
@@ -111,54 +111,57 @@ WestportDeptStore6FBirdScript:
 	
 WestportDeptStore6FMonText:
 	text "AMPHAROS:"
-	line "Ampha!"
+	line "¡Ampha!"
 	done
 	
 WestportDeptStore6FBirdText:
 	text "LUXWAN:"
-	line "Kwaa!"
+	line "¡Waan!"
 	done
 
 WestportVendingText:
-	text "A vending machine!"
-	line "Here's the menu."
+	text "¡Una máquina"
+	line "expendedora!"
 	done
 
 WestportClangText:
-	text "Clang! A can of"
-	line "@"
+	text "¡Clang! ¡Salió"
+	line "una lata de"
+	cont "@"
 	text_ram wStringBuffer3
-	text_start
-	cont "popped out!"
+	text "!"
 	done
 
 WestportVendingNoMoneyText:
-	text "Oops, not enough"
-	line "money."
+	text "¡Uups! No tienes"
+	line "bastante dinero."
 	done
 
 WestportVendingNoSpaceText:
-	text "There's no more"
-	line "room for stuff."
+	text "No hay sitio para"
+	line "nada más."
 	done
-
-
 
 WestportDeptStore6FSuperNerdText:
-	text "I'm off duty."
-	para "I like to take my"
-	line "#MON up here"
-	para "when I have the"
-	line "time."
-	para "#MON love the"
-	line "drinks from the"
-	cont "vending machines!"
+	text "Estoy fuera de"
+	line "servicio."
+	
+	para "Me gusta traer a"
+	line "mis #MON aquí"
+	para "cuando tengo"
+	line "tiempo libre."
+	
+	para "¡A los #MON les"
+	line "encantan las"
+	para "bebidas de"
+	line "las máquinas"
+	cont "expendedoras!"
 	done
 WestportDeptStore6FDirectoryText:
-	text "Take a Break from"
-	line "Shopping!"
+	text "¡Descansa de las"
+	line "compras!"
 
-	para "6F TRANQUIL SQUARE"
+	para "P5 PLAZA TRANQUILA"
 	done
 
 WestportDeptStore6F_MapEvents:
@@ -180,6 +183,6 @@ WestportDeptStore6F_MapEvents:
 
 	db 3 ; object events
 	object_event  8,  3, SPRITE_OFFICER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 3, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, WestportDeptStore6FSuperNerdScript, -1
-	object_event  6,  5, SPRITE_MONSTER, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 2, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, WestportDeptStore6FMonScript, -1
+	object_event  6,  5, SPRITE_MONSTER, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 2, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, WestportDeptStore6FMonScript, -1
 	object_event  3,  6, SPRITE_BIRD, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 2, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, WestportDeptStore6FBirdScript, -1
 

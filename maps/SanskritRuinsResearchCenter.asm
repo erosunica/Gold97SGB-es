@@ -221,239 +221,240 @@ MovementData_0x59276:
 	step_end
 	
 GotUnownDollText:
-	text "<PLAYER> got"
-	line "UNOWN DOLL!"
+	text "¡<PLAYER> recibió"
+	line "MUÑECO UNOWN!"
 	done
-	
+
 SanskritRuinsResearchCenterScientist2Text_GetDoll:
-	text "Wow! You got every"
-	line "kind of UNOWN!"
-	para "Here's a small"
-	line "gift to celebrate"
-	cont "the occasion!"
+	text "¡Uau! ¡Tienes"
+	line "todos los tipos de"
+	cont "UNOWN!"
+
+	para "¡Aquí tienes un"
+	line "pequeño regalo"
+	cont "para celebrarlo!"
 	done
-	
+
 SanskritRuinsResearchCenterScientist2Text_GetDoll2:
-	text "It's a decorative"
-	line "UNOWN DOLL."
-	para "Set it up in your"
-	line "bedroom!"
+	text "Es un MUÑECO UNOWN"
+	line "de decoración."
+
+	para "¡Colócalo en tu"
+	line "dormitorio!"
 	done
-	
+
 SanskritRuinsResearchCenterComputer2Text:
-	text "It's a computer"
-	line "displaying images"
-	cont "of strange glyphs."
+	text "Es un ordenador"
+	line "que muestra imáge-"
+	cont "nes de extraños"
+	cont "jeroglíficos."
 	done
-	
+
 SanskritRuinsResearchCenterModifiedDexBeforeText:
-	text "Ah!"
-	line "There you are!"
-	para "Here, let me see"
-	line "your #DEX for"
-	cont "a second."
+	text "¡Ah! ¡Aquí estás!"
+
+	para "Muy bien, déjame"
+	line "ver tu #DEX"
+	cont "un momento."
 	done
 
 SanskritRuinsResearchCenterModifiedDexText:
-	text "Done!"
+	text "¡Ya está!"
 
-	para "I modified your"
+	para "He modificado tu"
 	line "#DEX."
 
-	para "I added an"
-	line "optional #DEX"
+	para "Añadí una #DEX"
+	line "opcional para"
+	para "guardar los datos"
+	line "de UNOWN."
 
-	para "to store UNOWN"
-	line "data."
-
-	para "It records them in"
-	line "the sequence that"
-	cont "they were caught."
+	para "Los registra en el"
+	line "orden en que son"
+	cont "atrapados."
 	done
 
 SanskritRuinsResearchCenterDexUpgradedText:
-	text "<PLAYER>'s #DEX"
-	line "was upgraded."
+	text "Mejorada #DEX"
+	line "de <PLAYER>."
 	done
 
 SanskritRuinsResearchCenterScientist3Text:
-	text "The UNOWN you"
-	line "catch will all be"
-	cont "recorded."
+	text "Todos los UNOWN"
+	line "que atrapes serán"
+	cont "registrados aquí."
 
-	para "Check to see how"
-	line "many kinds exist."
+	para "A ver cuántos"
+	line "tipos existen."
 	done
 
 SanskritRuinsResearchCenterScientist3_PrinterAvailable:
-	text "You caught all the"
-	line "UNOWN variations?"
+	text "¿Atrapaste a todos"
+	line "los UNOWN?"
 
-	para "That's a great"
-	line "achievement!"
+	para "¡Es un gran logro!"
 
-	para "I've set up the"
-	line "printer here for"
-	cont "handling UNOWN."
+	para "He ajustado la"
+	line "impresora para"
+	cont "UNOWN."
 
-	para "Feel free to use"
-	line "it anytime."
+	para "Puedes usarla"
+	line "cuando quieras."
 	done
 
 SanskritRuinsResearchCenterScientist1Text:
-	text "The RUINS are"
-	line "about 1500 years"
-	cont "old."
+	text "Las RUINAS datan"
+	line "de hace unos"
+	cont "1.500 años."
 
-	para "But it's not known"
-	line "why they were"
-	cont "built--or by whom."
+	para "Pero ignoramos"
+	line "por qué o por"
+	para "quién fueron"
+	line "construidas."
 	done
 
 SanskritRuinsResearchCenterScientist1Text_GotUnownDex:
-	text "I wonder how many"
-	line "kinds of #MON"
-	cont "are in the RUINS?"
+	text "¿Cuántos tipos de"
+	line "#MON habrá en"
+	cont "las RUINAS?"
 	done
 
 SanskritRuinsResearchCenterScientist1Text_UnownAppeared:
-	text "#MON appeared"
-	line "in the RUINS?"
+	text "¿Hay #MON"
+	line "en las RUINAS?"
 
-	para "That's incredible"
-	line "news!"
+	para "¡Qué noticia"
+	line "tan increíble!"
 
-	para "We'll need to"
-	line "investigate this."
+	para "Tendremos que"
+	line "investigarlo."
 	done
 
 SanskritRuinsResearchCenterScientist1Text_GotAllUnown:
-	text "Our investigation,"
-	line "with your help, is"
+	text "Nuestra investiga-"
+	line "ción, con tu"
+	para "ayuda, nos está"
+	line "reportando infor-"
+	cont "mación acerca de"
+	cont "las RUINAS."
 
-	para "giving us insight"
-	line "into the RUINS."
-
-	para "The RUINS appear"
-	line "to have been built"
-
-	para "as a habitat for"
-	line "#MON."
+	para "Las RUINAS parecen"
+	line "haber sido cons-"
+	cont "truidas como un"
+	cont "hábitat para"
+	cont "#MON."
 	done
 
 SanskritRuinsResearchCenterScientist2Text:
-	text "There are odd pat-"
-	line "terns drawn on the"
+	text "En las paredes de"
+	line "las RUINAS hay"
+	para "unos dibujos muy"
+	line "raros."
 
-	para "walls of the"
-	line "RUINS."
-
-	para "They must be the"
-	line "keys for unravel-"
-	cont "ing the mystery"
-	cont "of the RUINS."
+	para "Son la clave para"
+	line "resolver el"
+	cont "misterio de las"
+	cont "RUINAS."
 	done
 
 SanskritRuinsResearchCenterScientist2Text_UnownAppeared:
-	text "The strange #-"
-	line "MON you saw in the"
-	cont "RUINS?"
+	text "¿Los #MON"
+	line "raros que viste"
+	cont "en las RUINAS?"
 
-	para "They appear to be"
-	line "very much like the"
+	para "Son muy parecidos"
+	line "a los dibujos de"
+	para "esas paredes de"
+	line "ahí."
 
-	para "drawings on the"
-	line "walls there."
+	para "¡Mmm…!"
 
-	para "Hmm…"
-
-	para "That must mean"
-	line "there are many"
-	cont "kinds of them…"
+	para "Debe de significar"
+	line "que hay muchos"
+	cont "tipos diferentes…"
 	done
 
 SanskritRuinsResearchCenterUnusedText1:
 ; unused
-	text "We think something"
-	line "caused the cryptic"
+	text "Pensamos que algo"
+	line "hizo aparecer en"
+	para "las RUINAS esos"
+	line "enigmáticos"
+	cont "dibujos."
 
-	para "patterns to appear"
-	line "in the RUINS."
-
-	para "We've focused our"
-	line "studies on that."
+	para "Basamos nuestros"
+	line "estudios en ello."
 	done
 
 SanskritRuinsResearchCenterUnusedText2:
 ; unused
-	text "According to my"
-	line "research…"
+	text "De acuerdo con mi"
+	line "investigación…"
 
-	para "Those mysterious"
-	line "patterns appeared"
+	para "Esos misteriosos"
+	line "dibujos aparecie-"
+	cont "ron cuando se"
+	cont "construyó el"
+	cont "CENTRO #COM."
 
-	para "when the #COM"
-	line "CENTER was built."
-
-	para "It must mean that"
-	line "radio waves have"
-
-	para "some sort of a"
-	line "link…"
+	para "Debe de ser que"
+	line "las ondas de radio"
+	para "tienen algún tipo"
+	line "de relación…"
 	done
 
 SanskritRuinsResearchCenterScientist2Text_GotAllUnown:
-	text "Why did those"
-	line "ancient patterns"
+	text "¿Por qué estos"
+	line "antiguos dibujos"
+	para "aparecen ahora en"
+	line "el muro?"
 
-	para "appear on the wall"
-	line "now?"
-
-	para "The mystery"
-	line "deepens…"
+	para "Esto es cada vez"
+	line "más misterioso…"
 	done
 
 SanskritRuinsResearchCenterComputerText:
-	text "RUINS OF ALPH"
+	text "RUINAS ALFA"
 
-	para "Exploration"
-	line "Year 10"
+	para "10 Años"
+	line "de Exploración"
 	done
 
 SanskritRuinsResearchCenterComputerText_GotAllUnown:
-	text "Mystery #MON"
-	line "Name: UNOWN"
+	text "Nombre de #MON"
+	line "misterioso: UNOWN"
 
-	para "A total of 26"
-	line "kinds found."
+	para "Encontrados un"
+	line "total de 26 tipos."
 	done
 
 SanskritRuinsResearchCenterPrinterText_DoesntWork:
-	text "This doesn't seem"
-	line "to work yet."
+	text "Parece que esto"
+	line "aún no funciona."
 	done
 
 SanskritRuinsResearchCenterUnownPrinterText:
-	text "UNOWN may be"
-	line "printed out."
+	text "Se puede imprimir"
+	line "UNOWN."
 	done
 
 SanskritRuinsResearchCenterProfSilktreePhotoText:
 ; unused
-	text "It's a photo of"
-	line "the RESEARCH"
+	text "Es una foto del"
+	line "fundador del"
 
-	para "CENTER'S founder,"
-	line "PROF.SILKTREE."
+	para "CENTRO de INVES-"
+	line "TIGACIÓN, el"
+	cont "PROF. SILKTREE."
 	done
 
 SanskritRuinsResearchCenterAcademicBooksText:
-	text "There are many"
-	line "academic books."
+	text "Hay muchos libros"
+	line "académicos."
 
-	para "Ancient Ruins…"
-	line "Mysteries of the"
-	cont "Ancients…"
+	para "Ruinas Antiguas…"
+	line "Los Misterios de"
+	cont "los Antiguos…"
 	done
 
 SanskritRuinsResearchCenter_MapEvents:

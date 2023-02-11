@@ -236,166 +236,177 @@ WhitneyDummyMovement:
 	step_end
 	
 WhitneyInAquaText:
-	text "Don't think I'll"
-	line "hold back!"
+	text "¡No creas que me"
+	line "contendré!"
 	done
 	
 WhitneyRocket1Text:
-	text "Ugh, she's tough."
+	text "Uf, es dura."
 	done
 	
 WhitneyRocket2Text:
-	text "I don't know if"
-	line "I've ever seen a"
-	para "MILTANK that's"
-	line "this strong…"
+	text "Creo que nunca he"
+	line "visto un MILTANK"
+	cont "tan fuerte…"
 	done
 	
 WhitneyWhatIsThisText:
-	text "What is going on"
-	line "here?"
-	para "This is unaccept-"
-	line "able!"
-	para "TEAM ROCKET has no"
-	line "business here!"
+	text "¿Qué está pasando"
+	line "aquí?"
+	para "¡Esto es inacep-"
+	line "table!"
+
+	para "¡Aquí sobra el"
+	line "TEAM ROCKET!"
 	done
 	
 WhitneyWhatIsThisText2:
-	text "You're <PLAYER>,"
-	line "right?"
-	para "Didn't I see you"
-	line "in the MINE?"
-	para "How about I take"
-	line "these guys down,"
-	para "and you go on up"
-	line "ahead?"
-	para "Let's show them"
-	line "a thing or two!"
+	text "Eres <PLAYER>,"
+	line "¿verdad?"
+	para "¿No nos hemos"
+	line "visto en la MINA?"
+	para "¿Qué te parece si"
+	line "yo me encargo de"
+	para "los de abajo y tú"
+	line "de los de arriba?"
+	para "¡Vamos a enseñar-"
+	line "les un par de"
+	cont "cosas!"
 	done
 	
 Aqua1FExhibit1Text:
-	text "KRABBY like to"
-	line "hide under sand."
-	para "Look closely to"
-	line "find the burrowed"
-	cont "#MON."
+	text "A los KRABBY les"
+	line "gusta esconderse"
+	cont "bajo la arena."
+
+	para "Mira atentamente"
+	line "para descubrir a"
+	cont "los #MON"
+	cont "enterrados."
 	done
 	
 Aqua1FExhibit2Text:
-	text "NEW EXHIBIT COMING"
-	line "SOON"
+	text "NUEVA EXHIBICIÓN"
+	line "PRÓXIMAMENTE"
 	done
 
 Aqua1FExhibit3Text:
-	text "MOLAMBINO and"
-	line "MAGIKARP can"
-	para "peacefully share"
-	line "the same living"
-	cont "space."
-	para "These #MON"
-	line "often inhabit"
-	cont "the same waters."
+	text "Los MOLAMBINO y"
+	line "los MAGIKARP"
+	para "pueden compartir"
+	line "sin problemas el"
+	cont "mismo espacio."
+
+	para "Estos #MON"
+	line "suelen vivir en"
+	cont "las mismas aguas."
 	done
 	
 GruntM2SeenText:
-	text "We're gonna come"
-	line "in here, take what"
-	para "we want, and sell"
-	line "it off!"
-	para "We need the money,"
-	line "cause we've got"
-	cont "big plans, kid!"
+	text "¡Vamos a entrar,"
+	line "robar lo que que-"
+	cont "ramos y venderlo!"
+
+	para "¡Necesitamos"
+	line "dinero porque"
+	para "tenemos grandes"
+	line "planes, chaval!"
 	done
 	
 Aqua1FExhibit4Text:
-	text "LAPRAS STATUE"
-	para "Occasional reports"
-	line "have claimed that"
-	para "LAPRAS can be"
-	line "found living deep"
-	para "in the MINE west"
-	line "of town."
+	text "ESTATUA DE LAPRAS"
+	para "Se ha informado en"
+	line "varias ocasiones"
+	para "de que se pueden"
+	line "encontrar LAPRAS"
+	para "en las profundida-"
+	line "des de la MINA"
+	cont "al oeste de la"
+	cont "ciudad."
 	done
 
 GruntM2BeatenText:
-	text "Just…"
-	line "Too strong…"
+	text "Simplemente…"
+	line "Muy fuerte…"
 	done
 
 GruntM2AfterBattleText:
-	text "You'll be seeing"
-	line "more of us!"
+	text "¡Pronto sabrás más"
+	line "de nosotros!"
 	done
 	
-
 AquaReceptionistRocketsText:
-	text "Be careful! Kids"
-	line "shouldn't be here"
-	cont "right now."
-	para "We're having an"
-	line "issue with"
-	para "dangerous criminal"
-	line "activity here."
+	text "¡Cuidado! No"
+	line "debería haber"
+	cont "niños aquí ahora."
+	
+	para "Estamos teniendo"
+	line "problemas con una"
+	para "peligrosa activi-"
+	line "dad criminal."
 	done
 
 AquaReceptionistNoRocketsText:
-	text "Welcome to the"
-	line "TEKNOS CITY"
-	cont "AQUARIUM!"
-	para "Please feel free"
-	line "to look around."
+	text "¡Bienvenido al"
+	line "ACUARIO DE CIUDAD"
+	cont "TEKNOS!"
+
+	para "No dudes en echar"
+	line "un vistazo."
 	done
 
 GruntF1SeenText:
-	text "This place has"
-	line "rare #MON that"
-	para "we can steal and"
-	line "sell off!"
-	para "Don't get in our"
-	line "way, kid!"
+	text "¡Este sitio tiene"
+	line "#MON raros que"
+	para "podemos robar para"
+	line "venderlos!"
+
+	para "¡Aparta de nuestro"
+	line "camino, niñato!"
 	done
 
 GruntF1BeatenText:
-	text "You rotten brat!"
+	text "¡Maldición!"
 	done
 
 GruntF1AfterBattleText:
-	text "TEAM ROCKET won't"
-	line "forget this!"
+	text "¡El TEAM ROCKET"
+	line "recordará esto!"
 	done
 	
 AquaYoungsterRocketsText:
-	text "Hmm… I don't"
-	line "think these guys"
-	para "in black are"
-	line "supposed to be"
-	cont "here…"
+	text "Mmm… Creo que esos"
+	line "tipos de negro no"
+	cont "deberían estar"
+	cont "aquí…"
 	done
 
 AquaYoungsterNoRocketsText:
-	text "I was hoping I'd"
-	line "see an ANGORE"
-	para "in person, but"
-	line "there isn't one"
-	cont "here."
+	text "Esperaba ver un"
+	line "ANGORE en persona,"
+	cont "pero aquí no hay"
+	cont "ninguno."
 	done
 	
 AquaLassRocketsText:
-	text "Eeek!"
-	para "Oh, you're not"
-	line "with them."
-	para "These people here"
-	line "are scaring me."
-	para "I should probably"
-	line "leave."
+	text "¡Auxilio!"
+
+	para "Ah, no vas con"
+	line "ellos."
+
+	para "Esa gente me"
+	line "asusta."
+
+	para "Creo que debería"
+	line "irme."
 	done
 
 AquaLassNoRocketsText:
-	text "This AQUARIUM is"
-	line "pretty new."
-	para "They don't have"
-	line "too many exhibits"
-	cont "yet."
+	text "El ACUARIO es"
+	line "nuevo."
+
+	para "Todavía no tienen"
+	line "mucho que mostrar."
 	done
 
 TeknosAquarium1F_MapEvents:

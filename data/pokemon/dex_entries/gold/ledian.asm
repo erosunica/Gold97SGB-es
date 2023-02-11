@@ -1,10 +1,10 @@
-	db "FIVE STAR@" ; species name
-	dw 407, 780 ; height, weight
+	db "5ESTRELLAS@" ; species name
+	dbw 14, 356 ; height, weight
 
-	db   "In the daytime"
-	next "when it gets warm,"
-	next "it curls up inside"
+	db   "Por la mañana,"
+	next "cuando hace calor,"
+	next "se enrosca en una"
 
-	page "a big leaf and"
-	next "drifts off into"
-	next "a deep slumber.@"
+	page "hoja bien grande y"
+	next "va cayendo en un"
+	next "dulce sueño.@"

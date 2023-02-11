@@ -13,22 +13,22 @@ KantoMansionRoofGraffiti:
 	jumptext KantoMansionRoofGraffitiText
 
 KantoMansionRoofFisherText:
-	text "High places--I do"
-	line "love them so!"
+	text "Las alturas…"
+	line "¡me encantan!"
 
-	para "I'd say the only"
-	line "thing that loves"
-
-	para "heights as much as"
-	line "me is smoke!"
+	para "¡Me atrevería a"
+	line "decir que lo único"
+	para "que ama las"
+	line "alturas tanto como"
+	cont "yo es el humo!"
 	done
 
 KantoMansionRoofGraffitiText:
-	text "There's graffiti"
-	line "on the wall…"
+	text "Hay un graffiti"
+	line "en la pared…"
 
-	para "<PLAYER> added a"
-	line "moustache!"
+	para "¡<PLAYER> añadió"
+	line "un bigote!"
 	done
 
 KantoMansionRoof_MapEvents:

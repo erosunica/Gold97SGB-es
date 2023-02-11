@@ -103,140 +103,146 @@ MeridianPathSign:
 	jumptext MeridianPathSignText
 	
 MeridianPathSignText:
-	text "MERIDIAN PATH"
-	para "NAGO VILLAGE -"
-	line "RYUKYU CITY"
+	text "SENDA MERIDIONAL"
+
+	para "VILLA NAGO -"
+	line "CIUDAD RYUKYU"
 	done
 
-
 BeautyVictoriaSeenText:
-	text "You ever climbed"
-	line "the CHARRED"
-	cont "SUMMIT?"
+	text "¿Has escalado ya"
+	line "la CUMBRE"
+	cont "CALCINADA?"
 	done
 
 BeautyVictoriaBeatenText:
-	text "How could I lose?"
+	text "¿Cómo he podido"
+	line "perder?"
 	done
 
 BeautyVictoriaAfterBattleText:
-	text "The view is very"
-	line "pretty up there."
+	text "La vista es muy"
+	line "bonita desde allí."
 	done
 
 SchoolboyJoeSeenText:
-	text "You've traveled"
-	line "all of NIHON?"
-	para "That's cool."
-	para "But do you stand"
-	line "a chance against"
-	cont "a trainer like me?"
+	text "¿Has viajado por"
+	line "todo NIHON?"
+
+	para "Fascinante."
+
+	para "¿Pero tendrás"
+	line "alguna posibilidad"
+	para "contra un entrena-"
+	line "dor como yo?"
 	done
 
 SchoolboyJoeBeatenText:
-	text "Ow! Stomped flat!"
+	text "¡Au! ¡Se acabó!"
 	done
 
 SchoolboyJoeAfterBattleText:
-	text "Looks like you had"
-	line "plenty of time to"
-	para "raise your #MON"
-	line "while traveling."
+	text "Parece que tuviste"
+	line "tiempo de sobra"
+	para "para entrenar a"
+	line "tus #MON"
+	cont "mientras viajabas."
 	done
 
 LassLauraSeenText:
-	text "You look like"
-	line "you're far from"
-	cont "home."
+	text "Parece que vienes"
+	line "de muy lejos."
 	done
 
 LassLauraBeatenText:
-	text "I'm out!"
+	text "¡Estoy acabada!"
 	done
 
 LassLauraAfterBattleText:
-	text "Where are you"
-	line "from?"
-	para "SILENT TOWN?"
-	para "I've never been"
-	line "there."
+	text "¿De dónde eres?"
+
+	para "¿PUEBLO SILENTE?"
+
+	para "Nunca he estado"
+	line "allí."
 	done
 
 CamperLloydSeenText:
-	text "Going to CHARRED"
-	line "SUMMIT?"
+	text "¿Vas a la CUMBRE"
+	line "CALCINADA?"
 	done
 
 CamperLloydBeatenText:
-	text "Whoa! Too much."
+	text "¡Uau! Demasiado."
 	done
 
 CamperLloydAfterBattleText:
-	text "Legend says that a"
-	line "rare #MON"
-	cont "roosts here."
-	para "But I've climbed"
-	line "to the top and"
-	para "never seen any-"
-	line "thing."
+	text "Cuenta la leyenda"
+	line "que aquí vive un"
+	cont "#MON raro."
+
+	para "Pero subiendo a la"
+	line "cima nunca vi"
+	cont "nada."
 	done
 
 LassShannonSeenText:
-	text "Let me tell you,"
-	line "I'm a tough"
-	cont "trainer!"
+	text "¡Que sepas que soy"
+	line "una entrenadora"
+	cont "muy fuerte!"
 	done
 
 LassShannonBeatenText:
-	text "You're kidding."
+	text "¿Estás bromeando?"
 	done
 
 LassShannonAfterBattleText:
-	text "I did my best."
-	line "But you did"
-	cont "better, I guess."
+	text "Hice lo que pude."
+	line "Pero supongo que"
+	cont "tú eres mejor."
 	done
 
 SupernerdPatSeenText:
-	text "Mufufufu…"
+	text "¡Jujujuju…!"
 
-	para "Battle me."
+	para "Combate contra mí."
 	done
 
 SupernerdPatBeatenText:
-	text "You weren't"
-	line "supposed to win."
+	text "No deberías haber"
+	line "ganado."
 	done
 
 SupernerdPatAfterBattleText:
-	text "There's a lady"
-	line "in NAGO VILLAGE"
-	para "who has like a"
-	line "million CHARMANDER"
-	cont "in her house."
-	para "I worry that it'll"
-	line "catch fire."
+	text "Hay una mujer en"
+	line "VILLA NAGO que"
+	para "tiene un montón de"
+	line "CHARMANDER en su"
+	cont "casa."
+
+	para "A este paso se va"
+	line "a incendiar."
 	done
 
-
 CooltrainermKevinSeenText:
-	text "You want to"
-	line "battle, right?"
-	para "Right."
+	text "Quieres combatir,"
+	line "¿no?"
+
+	para "Pues vale."
 	done
 
 CooltrainermKevinBeatenText:
-	text "I've never had a"
-	line "battle this good!"
+	text "¡Nunca había"
+	line "visto nada igual!"
 	done
 
 CooltrainermKevinAfterBattleText:
-	text "That was a great"
-	line "battle!"
+	text "¡Ha sido"
+	line "fantástico!"
 
-	para "You and your #-"
-	line "MON are truly out-"
-	cont "standing!"
+	para "Tus #MON y tú"
+	line "sois realmente"
+	cont "buenos."
 	done
 
 

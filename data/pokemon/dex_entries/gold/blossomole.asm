@@ -1,10 +1,10 @@
-	db "BUD@" ; species name
-	dw 311, 350 ; height, weight
-
-	db   "The scent that"
-	next "wafts from its"
-	next "large petals"
-
-	page "causes anyone who"
-	next "smells it to"
-	next "become energetic.@"
+	db "BROTE@" ; species name
+	dbw 12, 159 ; height, weight
+	
+	db   "Los pétalos que le"
+	next "adornan el cuello"
+	next "emiten un aroma"
+	
+	page "que resulta"
+	next "vigorizante para"
+	next "quien lo perciba.@"

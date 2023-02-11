@@ -200,9 +200,9 @@ ENDM
 	dict "<MOM>",     PrintMomsName
 	dict "<PLAYER>",  PrintPlayerName
 	dict "<RIVAL>",   PrintRivalName
-	dict "<ROUTE>",   PlaceJPRoute
-	dict "<WATASHI>", PlaceWatashi
-	dict "<KOKO_WA>", PlaceKokoWa
+;	dict "<ROUTE>",   PlaceJPRoute
+;	dict "<WATASHI>", PlaceWatashi
+;	dict "<KOKO_WA>", PlaceKokoWa
 	dict "<RED>",     PrintRedsName
 	dict "<GREEN>",   PrintGreensName
 	dict "#",         PlacePOKe
@@ -224,9 +224,9 @@ ENDM
 	dict "<TARGET>",  PlaceMoveTargetsName
 	dict "<USER>",    PlaceMoveUsersName
 	dict "<ENEMY>",   PlaceEnemysName
-	dict "ﾟ",         .diacritic
-	cp "ﾞ"
-	jr nz, .not_diacritic
+	dict "ﾟ",         .place ; should be .diacritic
+	dict "ﾞ",         .place ; should be .diacritic
+	jr .not_diacritic
 
 .diacritic
 	ld b, a
@@ -289,9 +289,9 @@ PlaceKougeki: print_name KougekiText
 SixDotsChar:  print_name SixDotsCharText
 PlacePKMN:    print_name PlacePKMNText
 PlacePOKE:    print_name PlacePOKEText
-PlaceJPRoute: print_name PlaceJPRouteText
-PlaceWatashi: print_name PlaceWatashiText
-PlaceKokoWa:  print_name PlaceKokoWaText
+;PlaceJPRoute: print_name PlaceJPRouteText
+;PlaceWatashi: print_name PlaceWatashiText
+;PlaceKokoWa:  print_name PlaceKokoWaText
 
 PlaceMoveTargetsName::
 	ldh a, [hBattleTurn]
@@ -329,7 +329,8 @@ PlaceEnemysName::
 	jr z, .rival
 	cp RIVAL2
 	jr z, .rival
-
+	
+;;; erosunica: fixed the order of trainer class and trainer name, which was reversed in the Spanish release
 	ld de, wOTClassName
 	call PlaceString
 	ld h, b
@@ -341,6 +342,7 @@ PlaceEnemysName::
 	pop hl
 	ld de, wStringBuffer1
 	jr PlaceCommandCharacter
+;;;
 
 .rival
 	ld de, wRivalName
@@ -357,21 +359,21 @@ PlaceCommandCharacter::
 	pop de
 	jp NextChar
 
-TMCharText::      db "TM@"
-TrainerCharText:: db "TRAINER@"
+TMCharText::      db "MT@"
+TrainerCharText:: db "ENTREN.@"
 PCCharText::      db "PC@"
 RocketCharText::  db "ROCKET@"
-PlacePOKeText::   db "POKé@"
+PlacePOKeText::   db "POK<é>@"
 KougekiText::     db "こうげき@"
 SixDotsCharText:: db "……@"
-EnemyText::       db "Enemy @"
+EnemyText::       db "Enem. @"
 PlacePKMNText::   db "<PK><MN>@"
 PlacePOKEText::   db "<PO><KE>@"
 String_Space::    db " @"
 ; These strings have been dummied out.
-PlaceJPRouteText::
-PlaceWatashiText::
-PlaceKokoWaText:: db "@"
+;PlaceJPRouteText::
+;PlaceWatashiText::
+;PlaceKokoWaText:: db "@"
 
 NextLineChar::
 	pop hl
@@ -881,7 +883,7 @@ TextCommand_LINK_PROMPT_BUTTON::
 ; wait for button press; display arrow
 	push hl
 	push bc
-	call PromptButton
+	call WaitButton
 	pop bc
 	pop hl
 	ret
@@ -945,11 +947,11 @@ TextCommand_DAY::
 	dw .Fri
 	dw .Satur
 
-.Sun:    db "SUN@"
-.Mon:    db "MON@"
-.Tues:   db "TUES@"
-.Wednes: db "WEDNES@"
-.Thurs:  db "THURS@"
-.Fri:    db "FRI@"
-.Satur:  db "SATUR@"
-.Day:    db "DAY@"
+.Sun:    db "DOMINGO@"
+.Mon:    db "LUNES@"
+.Tues:   db "MARTES@"
+.Wednes: db "MIÉRCOLES@"
+.Thurs:  db "JUEVES@"
+.Fri:    db "VIERNES@"
+.Satur:  db "SÁBADO@"
+.Day:    db "@"

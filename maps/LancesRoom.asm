@@ -188,152 +188,145 @@ LancesRoomMovementData_OakWalksToHoFDoor:
 
 
 LanceBattleIntroText:
-	text "LANCE: I've been"
-	line "waiting for you."
+	text "LANCE: Te estaba"
+	line "esperando."
 
-	para "<PLAYER>!"
+	para "¡<PLAYER>!"
 
-	para "I've heard of you,"
-	line "and what you've"
-	cont "accomplished."
-	
-	para "It's inevitable"
-	line "that someone with"
-	para "your skills would"
-	line "eventually reach"
-	cont "me here."
+	para "He oído hablar de"
+	line "ti y de todo lo"
+	cont "que has logrado."
 
-	para "There's no need"
-	line "for words now."
+	para "Era inevitable que"
+	line "alguien con tus"
+	para "habilidades"
+	line "llegase en algún"
+	cont "momento hasta mí."
 
-	para "We will battle to"
-	line "determine who is"
+	para "No necesitamos"
+	line "más palabras."
 
-	para "the stronger of"
-	line "the two of us."
+	para "Debemos luchar"
+	line "para determinar"
+	para "quién es más"
+	line "fuerte de los dos."
 
-	para "As the most power-"
-	line "ful trainer and as"
+	para "Como el entrenador"
+	line "más poderoso y el"
+	para "CAMPEÓN de la LIGA"
+	line "#MON…"
 
-	para "the #MON LEAGUE"
-	line "CHAMPION…"
-
-	para "I, LANCE the drag-"
-	line "on master, accept"
-	cont "your challenge!"
+	para "¡Yo, LANCE, el"
+	line "maestro dragón,"
+	cont "acepto tu desafío!"
 	done
 
 LanceBattleWinText:
-	text "…It's over."
+	text "Se acabó…"
 
-	para "But it's an odd"
-	line "feeling."
+	para "Pero es extraño."
 
-	para "I'm not angry that"
-	line "I lost. In fact, I"
-	cont "feel happy."
+	para "No estoy enfadado"
+	line "por perder."
 
-	para "Happy that I"
-	line "witnessed the rise"
+	para "De hecho, estoy"
+	line "contento."
 
-	para "of a great new"
-	line "CHAMPION!"
+	para "Estoy contento por"
+	line "haber presenciado"
+	para "tu triunfo."
+	line "¡No tienes igual!"
 	done
 
 LanceBattleAfterText:
-	text "…Whew."
+	text "Fiuuu…"
 
-	para "You have become"
-	line "truly powerful,"
-	cont "<PLAYER>."
+	para "Eres realmente"
+	line "fuerte, <PLAYER>."
 
-	para "Your #MON have"
-	line "responded to your"
+	para "Tus #MON han"
+	line "respondido a tu"
+	cont "fuerte naturaleza."
 
-	para "strong and up-"
-	line "standing nature."
-
-	para "As a trainer, you"
-	line "will continue to"
-
-	para "grow strong with"
-	line "your #MON."
+	para "Debes continuar"
+	line "fortaleciéndote"
+	cont "con tus #MON."
 	done
 
 UnknownText_0x1811dd:
-	text "MARY: Oh, no!"
-	line "It's all over!"
+	text "ROSA: ¡Oh, no!"
+	line "¡Todo ha acabado!"
 
-	para "PROF.OAK, if you"
-	line "weren't so slow…"
+	para "PROF. OAK, si no"
+	line "fuera tan lento…"
 	done
 
 UnknownText_0x18121b:
-	text "PROF.OAK: Ah,"
+	text "PROF. OAK: ¡Ah,"
 	line "<PLAYER>!"
 
-	para "Congratulations!"
+	para "¡Enhorabuena!"
 
-	para "Your conquest of"
-	line "the LEAGUE is just"
-	cont "fantastic!"
+	para "¡Tu conquista de"
+	line "la LIGA ha sido"
+	cont "fantástica!"
 
-	para "Your dedication,"
-	line "trust and love for"
+	para "Tu dedicación,"
+	line "confianza y amor"
+	para "por tus #MON lo"
+	line "han conseguido."
 
-	para "your #MON made"
-	line "this happen."
+	para "Tus #MON"
+	line "también han estado"
+	cont "increíbles."
 
-	para "Your #MON were"
-	line "outstanding too."
-
-	para "Because they be-"
-	line "lieved in you as a"
-
-	para "trainer, they per-"
-	line "severed."
+	para "Han perseverado"
+	line "porque han creído"
+	para "en ti y en tu"
+	line "entrenamiento."
 	
-	para "When I asked if"
-	line "you would be able"
-	para "to help me with"
-	line "my research, I did"
-	para "not realize how"
-	line "much of a help"
-	cont "you could be!"
-	para "And even more,"
-	line "you've defeated"
-	cont "the LEAGUE!"
-	
-	para "You've been able"
-	line "to accomplish so"
-	cont "much!"
+	para "¡Cuando te pedí si"
+	line "podías ayudarme"
+	para "con mi investiga-"
+	line "ción, nunca creí"
+	cont "que lo harías"
+	cont "tanto!"
 
-	para "Congratulations,"
+	para "Y lo que es más,"
+	line "¡has ganado la"
+	cont "LIGA!"
+
+	para "¡Has sido capaz de"
+	line "lograr mucho!"
+
+	para "¡Felicidades,"
 	line "<PLAYER>!"
 	done
 
 UnknownText_0x18134b:
-	text "LANCE: Yes, you"
-	line "should be very"
-	cont "proud."
-	para "Not just of your-"
-	line "self, but of your"
-	cont "#MON."
+	text "LANCE: Sí,"
+	line "deberías estar"
+	cont "muy orgulloso."
+
+	para "No solo de ti,"
+	line "sino también de"
+	cont "tus #MON."
 	done
 
 UnknownText_0x18137b:
 	text "LANCE: <PLAYER>,"
-	line "could you come"
-	cont "with me?"
-	para "It is time for you"
-	line "and your #MON's"
-	para "accomplishments to"
-	line "be recognized."
+	line "¿podrías"
+	cont "acompañarme?"
+
+	para "Es el momento de"
+	line "que tus logros y"
+	para "los de tus #MON"
+	line "sean reconocidos."
 	done
 
 UnknownText_0x1813c5:
-	text "OAK: Congrat-"
-	line "ulations again!"
+	text "OAK: ¡Felicidades"
+	line "de nuevo!"
 	done
 
 LancesRoom_MapEvents:

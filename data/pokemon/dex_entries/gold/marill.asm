@@ -1,10 +1,10 @@
-	db "AQUAMOUSE@" ; species name
-	dw 104, 190 ; height, weight
+	db "RATÓN-AGUA@" ; species name
+	dbw 4, 85 ; height, weight
 
-	db   "The fur on its"
-	next "body naturally"
-	next "repels water. It"
+	db   "Tiene una piel que"
+	next "repele el agua."
+	next "De hecho, puede"
 
-	page "can stay dry, even"
-	next "when it plays in"
-	next "the water.@"
+	page "pasarse horas"
+	next "jugando en el agua"
+	next "sin mojarse.@"

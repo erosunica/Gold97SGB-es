@@ -485,10 +485,10 @@ CardFlip_UpdateCoinBalanceDisplay:
 	ret
 
 CardFlip_PrintCoinBalance:
-	hlcoord 9, 15
-	lb bc, 1, 9
+	hlcoord 7, 15
+	lb bc, 1, 11
 	call Textbox
-	hlcoord 10, 16
+	hlcoord 8, 16
 	ld de, .CoinStr
 	call PlaceString
 	hlcoord 15, 16
@@ -498,7 +498,7 @@ CardFlip_PrintCoinBalance:
 	ret
 
 .CoinStr:
-	db "COIN@"
+	db "FICHAS@"
 
 CardFlip_InitTilemap:
 	xor a
@@ -1584,7 +1584,11 @@ CardFlip_InitAttrPals:
 	ret
 
 .palettes
+IF MGB
+INCLUDE "gfx/card_flip/card_flip_mgb.pal"
+ELSE
 INCLUDE "gfx/card_flip/card_flip.pal"
+ENDC
 
 CardFlipLZ03:
 INCBIN "gfx/card_flip/card_flip_3.2bpp.lz"

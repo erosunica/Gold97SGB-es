@@ -62,10 +62,10 @@ GiveMoibelle:
 	ret
 
 SpecialMoibelleOT:
-	db "MANIA@"
+	db "MANÍA@"
 
 SpecialMoibelleNick:
-	db "SHUCKIE@"
+	db "SHUCKI@"
 
 ReturnMoibelle:
 	farcall SelectMonFromParty

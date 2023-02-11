@@ -183,9 +183,9 @@ WestportDocksAfterHOFMenu:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
-	db "TEKNOS CITY@"
-	db "SOUTHWEST ISLANDS@"
-	db "CANCEL@"
+	db "CIUDAD TEKNOS@"
+	db "ISLAS PONIENTES@"
+	db "SALIR@"
 	
 WestportDocksCancel:
 	writetext HopeToSeeYouAgainText
@@ -233,55 +233,8 @@ WestportPortNotRidingMoveAwayScript:
 WestportPortSailorAfterHOFScript:
 	faceplayer
 	opentext
-;	checkevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1; this will always be true, right? You can't talk to him normally, the background event covers the script.
 	jump WestportPortAlreadyRodeScript
-;	checkevent EVENT_FAST_SHIP_FIRST_TIME
-;	iffalse .FirstTime
-;	checkcode VAR_WEEKDAY
-;	ifequal SUNDAY, .NextShipMonday
-;	ifequal SATURDAY, .NextShipMonday
-;	ifequal TUESDAY, .NextShipFriday
-;	ifequal WEDNESDAY, .NextShipFriday
-;	ifequal THURSDAY, .NextShipFriday
-;.FirstTime:
-;	writetext NowAlsoOfferIslandsText
-;	yesorno
-;	iffalse WestportPortNotRidingScript
-;	writetext AskForTicketText
-;	buttonsound
-;	checkitem S_S_TICKET
-;	iffalse .NoTicket
-;	writetext FlashTheTicketText
-;	waitbutton
-;	closetext
-;	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_2
-;	checkcode VAR_FACING
-;	ifequal RIGHT, .Right
-;	applymovement PLAYER, MovementData_0x74a3f
-;	jump WestportPortSailorAtGangwayScript
 
-;.Right:
-;	applymovement PLAYER, MovementData_0x74a49
-;	jump WestportPortSailorAtGangwayScript
-;
-;.NoTicket:
-;	writetext DontHaveTicketWhoopsText
-;	waitbutton
-;	closetext
-;	end
-;
-;.NextShipMonday:
-;	writetext NoTripsToIslandsTodayText
-;	waitbutton
-;	closetext
-;	end
-;
-;.NextShipFriday:
-;	writetext NoTripsToIslandsToday2Text
-;	waitbutton
-;	closetext
-;	end
-;
 WestportPortSailorBeforeHOFScript:
 
 	end
@@ -377,166 +330,155 @@ MovementData_0x74a49:
 	step_end
 	
 WelcomeToTheDocksAfterHOF:
-	text "Welcome to the"
-	line "WESTPORT DOCKS!"
-	para "We have expanded"
-	line "our services and"
-	para "now offer rides"
-	line "to both TEKNOS"
-	para "CITY as well as"
-	line "NIHON's SOUTHWEST"
-	cont "ISLANDS!"
-	para "Where would you"
-	line "like to go today?"
+	text "Bienvenido al"
+	line "MUELLE PONIENTE."
+
+	para "Nuestros servicios"
+	line "ahora incluyen"
+	para "viajes tanto a"
+	line "CIUDAD TEKNOS"
+	para "como a ISLAS"
+	line "PONIENTES."
+
+	para "¿Dónde te gustaría"
+	line "ir hoy?"
 	done
 
 WestportPortSailorNotGoingToTeknosText:
-	text "Please join us"
-	line "another time!"
+	text "¡Esperamos volver"
+	line "a verte!"
 	done
 
 WestportPortSailorGoToTeknosText:
-	text "Welcome to the"
-	line "WESTPORT DOCKS."
-	para "Would you like to"
-	line "take a ferry to"
-	cont "TEKNOS CITY?"
+	text "Bienvenido al"
+	line "MUELLE PONIENTE."
+
+	para "¿Te gustaría ir en"
+	line "barco hasta CIUDAD"
+	cont "TEKNOS?"
 	done
 
 WestportPortSailorGoToTeknosText2:
-	text "Okay! Departing to"
-	line "TEKNOS CITY."
+	text "¡Muy bien!"
+
+	para "Zarpamos a CIUDAD"
+	line "TEKNOS."
 	done
 
 DepartureTimeText:
-	text "We're departing"
-	line "soon. Please get"
-	cont "on board."
+	text "El barco va a"
+	line "zarpar. Por favor,"
+	cont "sube a bordo."
 	done
-
-;	text "This ship is"
-;	line "planned to take"
-;	para "you to TEKNOS CITY,"
-;	line "but this is"
-;	para "actually the end"
-;	line "of the demo at"
-;	cont "this point."
-;	para "We're just gonna"
-;	line "warp you back to"
-;	para "the WESTPORT CITY"
-;	line "#MON CENTER."
-;	para "Thanks for"
-;	line "playing!"
-;	done
 
 SorryCantBoardText:
-	text "Sorry. You can't"
-	line "board now."
+	text "Lo siento. No"
+	line "puedes embarcar."
 	done
 
-
 AskForTicketText:
-	text "May I see your"
-	line "S.S.TICKET?"
+	text "¿Puedo ver tu"
+	line "TICKET BARCO?"
 	done
 
 HopeToSeeYouAgainText:
-	text "We hope to see you"
-	line "again!"
+	text "¡Esperamos volver"
+	line "a verte!"
 	done
 
 FlashTheTicketText:
-	text "<PLAYER> flashed"
-	line "the S.S.TICKET."
+	text "<PLAYER> enseña"
+	line "el TICKET BARCO."
 
-	para "That's it."
-	line "Thank you!"
+	para "Muy bien."
+	line "¡Gracias, joven!"
 	done
 
 DontHaveTicketWhoopsText:
-	text "<PLAYER> tried to"
-	line "show the S.S."
-	cont "TICKET…"
+	text "<PLAYER> intenta"
+	line "enseñar el TICKET"
+	cont "BARCO…"
 
-	para "…But no TICKET!"
+	para "¡Pero no lo tiene!"
 
-	para "Sorry!"
-	line "Trips to the"
-	para "ISLANDS require"
-	line "you to have an"
-	cont "S.S.TICKET."
+	para "¡Lo siento!"
+	line "Para viajar a"
+	para "ISLAS PONIENTES,"
+	line "necesitas un"
+	cont "TICKET BARCO."
 	done
 
 NoTripsToIslandsTodayText:
-	text "Sorry, but the"
-	line "next boat to the"
-	para "SOUTHWEST ISLANDS"
-	line "will set sail on"
-	cont "Monday."
-	para "Today, we only"
-	line "offer ferries to"
-	cont "TEKNOS CITY."
+	text "Lo sentimos, pero"
+	line "el siguiente barco"
+	para "a ISLAS PONIENTES"
+	line "zarpará el lunes."
+
+	para "Hoy solo tenemos"
+	line "barcos a CIUDAD"
+	cont "TEKNOS."
 	done
 
 NoTripsToIslandsToday2Text:
-	text "Sorry, but the"
-	line "next boat to the"
-	para "SOUTHWEST ISLANDS"
-	line "will set sail on"
-	cont "Friday."
-	para "Today, we only"
-	line "offer ferries to"
-	cont "TEKNOS CITY."
+	text "Lo sentimos, pero"
+	line "el próximo barco a"
+	para "ISLAS PONIENTES"
+	line "zarpará el"
+	cont "viernes."
+
+	para "Hoy solo tenemos"
+	line "barcos a CIUDAD"
+	cont "TEKNOS."
 	done
 
 WestportPortFishingGuru1Text:
-	text "SHELLDER are easy"
-	line "to catch here."
+	text "Aquí es fácil"
+	line "atrapar SHELLDER."
 
-	para "They're kind of"
-	line "rare elsewhere."
+	para "En otros sitios"
+	line "son raros."
 	done
 
 WestportPortFishingGuru2Text:
-	text "Do you have any"
-	line "fishing RODS?"
+	text "¿Tienes alguna"
+	line "CAÑA?"
 
-	para "Different RODS"
-	line "catch different"
+	para "Las distintas"
+	line "CAÑAS sirven para"
+	cont "atrapar distintos"
 	cont "#MON."
 	done
 
 WestportPortYoungsterText:
-	text "S.S.AQUA uses jets"
-	line "to skim over the"
-	cont "waves!"
+	text "¡El S.S. AQUA usa"
+	line "propulsores para"
+	cont "surcar las olas!"
 	done
 
 WestportPortCooltrainerFText:
-	text "There are lots of"
-	line "#MON on the"
-	cont "ISLANDS."
+	text "En las ISLAS hay"
+	line "muchos #MON."
 
-	para "I wish I could go…"
+	para "¡Ojalá pudiera ir!"
 	done
 
 WestportPortSailorBeforeHiveBadgeText:
-	text "We're very sorry,"
-	line "but at this time,"
-	para "the WESTPORT CITY"
-	line "DOCKS are closed"
-	cont "for maintenance."
-	para "You look like a"
-	line "tough trainer,"
-	cont "though."
-	para "Have you given"
-	line "BUGSY a challenge?"
-	para "Why don't you give"
-	line "that a try and"
-	cont "come back later."
-	para "We'll probably be"
-	line "done with our work"
-	cont "by then."
+	text "Lo sentimos mucho,"
+	line "pero por ahora,"
+	para "el MUELLE PONIENTE"
+	line "está cerrado por"
+	cont "mantenimiento."
+
+	para "Aunque pareces un"
+	line "entrenador fuerte…"
+	para "¿Ya has desafiado"
+	line "a ANTÓN?"
+	para "Inténtalo y"
+	line "regresa más tarde."
+
+	para "Para entonces,"
+	line "seguro que ya"
+	cont "habremos acabado."
 	done
 
 

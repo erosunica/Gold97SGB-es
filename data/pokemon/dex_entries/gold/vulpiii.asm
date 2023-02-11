@@ -1,10 +1,10 @@
-	db "FOX@" ; species name
-	dw 170, 170 ; height, weight
-
-	db   "Its three tails"
-	next "are its primary"
-	next "source of warmth."
-
-	page "Most of its body"
-	next "heat is stored"
-	next "in its tails.@"
+	db "ZORRO@" ; species name
+	dbw 6, 77 ; height, weight
+	
+	db   "Sus tres colas son"
+	next "su principal"
+	next "fuente de calor."
+	
+	page "La mayor parte de"
+	next "su calor corporal"
+	next "se concentra ahí.@"

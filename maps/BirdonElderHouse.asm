@@ -52,59 +52,67 @@ BirdonElderHouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 ElderSlowpokeProblem:
-	text "My old bones sense"
-	line "trouble in the"
-	para "WELL beneath the"
-	line "town."
-	para "It's always been"
-	line "my job to make"
-	para "sure the SLOWPOKE"
-	line "stay safe."
-	para "I don't know if I"
-	line "have the strength"
-	cont "to protect them."
-	para "I hope they're"
-	line "okay…"
+	text "Estos viejos"
+	line "huesos sienten que"
+	para "hay problemas en"
+	line "el POZO bajo el"
+	cont "pueblo."
+	
+	para "Mi trabajo siempre"
+	line "ha consistido en"
+	para "mantener a los"
+	line "SLOWPOKE a salvo."
+	
+	para "No sé si sigo"
+	line "teniendo la fuerza"
+	cont "para protegerlos."
+	
+	para "Espero que estén"
+	line "bien…"
 	done
 
 ElderTakeThisSurfText:
-	text "Ah!"
-	para "Thank you for"
-	line "stopping by!"
-	para "I am ever so"
-	line "grateful."
-	para "And I'm sure the"
-	line "SLOWPOKE are as"
-	cont "well!"
-	para "Here, let me"
-	line "give you something"
-	cont "for your troubles."
+	text "¡Ah!"
+
+	para "¡Gracias por tu"
+	line "ayuda!"
+
+	para "Te estoy muy"
+	line "agradecido."
+
+	para "¡Y no dudo de que"
+	line "los SLOWPOKE"
+	cont "también!"
+
+	para "¿Aceptarías que te"
+	line "diese algo como"
+	cont "compensación?"
 	done
 	
 ElderNoSurf:
-	text "Are you sure?"
-	line "You might need"
-	cont "this."
+	text "¿Estás seguro?"
+	line "Podría serte útil."
 	done
 	
 ElderSurfDescriptionText:
-	text "This HM allows you"
-	line "to teach your"
-	para "#MON a move"
-	line "that will let them"
-	para "ferry you across"
-	line "the water."
-	para "There isn't much"
-	line "water in this"
-	para "town, but I'm sure"
-	line "it'll be useful"
-	cont "elsewhere."
+	text "Esta MO le enseña"
+	line "a tus #MON un"
+	para "movimiento con el"
+	line "que te podrán"
+	para "llevar a través"
+	line "del agua."
+	
+	para "No es que haya"
+	line "mucha agua en este"
+	para "pueblo, pero te"
+	line "será de ayuda en"
+	cont "otros lugares."
 	done
 	
 ElderStandardText:
-	text "The SLOWPOKE of"
-	line "the WELL deserve"
-	cont "to be protected."
+	text "Los SLOWPOKE del"
+	line "POZO merecen ser"
+	cont "protegidos."
 	done
 
 

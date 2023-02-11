@@ -75,74 +75,87 @@ KumeSocialHouseN64LassUpMovement:
 	step_end
 	
 KumeSocialHouseYoungsterText:
-	text "I think WILL is"
-	line "the coolest member"
-	cont "of the ELITE FOUR."
-	para "It's not even"
-	line "close!"
+	text "Creo que MENTO es"
+	line "el miembro más"
+	cont "guay del ALTO"
+	cont "MANDO."
+
+	para "¡Ni punto de"
+	line "comparación!"
 	done
-	
+
 KumeSocialHouseSailorText:
-	text "Has anyone been"
-	line "able to get access"
-	para "to the SOUTHERN"
-	line "ISLANDS?"
-	para "I hear some very"
-	line "rare #MON live"
-	cont "there."
+	text "¿Ha podido alguien"
+	line "acceder a las"
+	cont "ISLAS DEL SUR?"
+
+	para "He oído que allí"
+	line "viven algunos"
+	cont "#MON muy raros."
 	done
-	
+
 KumeSocialHouseCooltrainerfText:
-	text "It's definitely"
-	line "MISTY who is the"
-	cont "coolest!"
-	para "She has so much"
-	line "style!"
+	text "¡La más guay"
+	line "es MISTY, te lo"
+	cont "digo yo!"
+
+	para "¡Tiene mucho más"
+	line "estilo!"
 	done
-	
+
 KumeSocialHousePokefanfText:
-	text "I hear that some"
-	line "kids took down"
-	cont "TEAM ROCKET!"
-	para "That sounds un-"
-	line "believeable to"
-	cont "me, honestly."
+	text "¡He oído que un"
+	line "par de niños"
+	para "derrotaron al"
+	line "TEAM ROCKET!"
+
+	para "La verdad es que"
+	line "me cuesta creerlo."
 	done
 
 KumeSocialHouseFisherText:
-	text "This place is"
-	line "where people come"
-	para "to socialize and"
-	line "gossip around"
-	cont "here."
-	para "I just prefer"
-	line "listening."
+	text "La gente viene"
+	line "aquí a charlar y"
+	cont "cotillear."
+
+	para "Yo prefiero"
+	line "escuchar."
 	done
-	
+
 SendN64LassOffText:
-	text "I haven't been to"
-	line "the mainland in"
-	cont "a while."
-	para "It'd be good to"
-	line "make a trip."
-	para "I have a friend"
-	line "in WESTPORT CITY"
-	cont "I'd like to see."
-	para "It'd be fun for"
-	line "us to just meet"
-	para "up and play video"
-	line "games and chat."
-	para "Hm?"
-	para "You know of a"
-	line "place for us to"
-	cont "do just that?"
-	para "Well, I guess"
-	line "there's never been"
-	para "a better time for"
-	line "me to make a trip."
-	para "I'm gonna start"
-	line "making plans!"
-	para "Thanks!"
+	text "Hace tiempo que no"
+	line "voy al continente."
+
+	para "Estaría bien ir"
+	line "allí otra vez."
+
+	para "Tengo un amigo en"
+	line "CIUDAD PONIENTE al"
+	cont "que me gustaría"
+	cont "visitar."
+
+	para "Nos lo pasamos"
+	line "bien solo con"
+	para "vernos y jugar"
+	line "videojuegos mien-"
+	cont "tras charlamos."
+
+	para "¿Qué?"
+
+	para "¿Qué conoces un"
+	line "sitio donde justo"
+	cont "se hace eso?"
+
+	para "Bueno, supongo que"
+	line "no podría haber"
+	para "mejor momento"
+	line "para viajar hasta"
+	cont "allí."
+
+	para "¡Voy a ir prepa-"
+	line "rando las maletas!"
+
+	para "¡Gracias!"
 	done
 	
 KumeSocialHouse_MapEvents:

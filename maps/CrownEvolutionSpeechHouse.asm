@@ -10,24 +10,29 @@ CrownEvolutionSpeechHouseLassScript:
 	jumptextfaceplayer CrownEvolutionSpeechHouseLassText
 
 CrownEvolutionSpeechHouseLassText:
-	text "Many years ago, my"
-	line "mother told me of"
-	para "a mythical #MON"
-	line "that appeared as"
-	para "fire across the"
-	line "daytime sky,"
-	para "leaving behind a"
-	line "trail of ashes as"
-	cont "it burnt the air."
-	para "That #MON"
-	line "created from its"
-	para "ashes, three"
-	line "beasts of legend"
-	para "that were sent"
-	line "across the land."
-	para "To this day, no"
-	line "one has seen these"
-	cont "beasts in person."
+	text "Hace muchos años,"
+	line "mi madre me contó"
+	para "la historia de un"
+	line "#MON mítico que"
+	para "aparecía como un"
+	line "fuego atravesando"
+	para "el cielo diurno,"
+	line "dejando una estela"
+	cont "de ardientes"
+	cont "cenizas."
+	
+	para "De las cenizas de"
+	line "ese #MON,"
+	para "nacieron tres"
+	line "bestias legenda-"
+	cont "rias que se"
+	cont "dispersaron por la"
+	cont "tierra."
+	
+	para "A día de hoy,"
+	line "nadie ha visto a"
+	cont "esas bestias en"
+	cont "persona."
 	done
 
 CrownEvolutionSpeechHouse_MapEvents:

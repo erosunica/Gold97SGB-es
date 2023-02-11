@@ -166,149 +166,165 @@ SanskritRocketHouseShipKeyItem:
 	itemball BASEMENT_KEY
 
 SanskritRocketHouseKeyGuyText:
-	text "Ha!"
-	para "Supplies are"
-	line "rolling in fast"
-	para "over at the SUN-"
-	line "POINT DOCKS!"
-	para "We've almost got"
-	line "everything we need"
-	para "to begin the next"
-	line "phase of our plan!"
-	para "The crew over in"
-	line "STAND CITY will be"
-	para "so impressed with"
-	line "our work here!"
-	done
+	text "¡Já!"
 
+	para "¡Los suministros"
+	line "no están tardando"
+	para "en llegar al"
+	line "MUELLE CALORINA!"
+
+	para "¡Ya tenemos casi"
+	line "todo lo que"
+	para "necesitamos para"
+	line "la siguiente fase"
+	cont "de nuestro plan!"
+
+	para "¡La banda de"
+	line "CIUDAD ENHIESTA va"
+	para "a quedar encantada"
+	line "con nuestro"
+	cont "trabajo!"
+	done
+	
 SanskritRocketHouseBirdText:
-	text "MURKROW: KRAWW!"
+	text "MURKROW: ¡Kroow!"
 	done
-
+	
 SanskritRocketHouseRocket1Text:
-	text "GAME CORNERS are"
-	line "always reliable"
-	cont "sources of income!"
-	para "Remember that!"
+	text "¡Los CASINOS"
+	line "siempre son"
+	cont "fuentes fiables"
+	cont "de ingresos!"
+
+	para "¡Recuérdalo!"
 	done
 	
 SanskritRocketHouseRocket1TextKey:
-	text "Hm? A key?"
-	para "Nah, I don't have"
-	line "that."
-	para "But why would you"
-	line "want it?"
-	para "Stay out of TEAM"
-	line "ROCKET's way, kid!"
-	done
+	text "¿Yo? ¿Una llave?"
+	para "Qué va, no tengo"
+	line "ninguna."
 
+	para "¿Para qué querrías"
+	line "una?"
+	para "¡No te metas en el"
+	line "camino del TEAM"
+	cont "ROCKET, niño!"
+	done
+	
 SanskritRocketHouseRocket2Text:
-	text "Some kid has been"
-	line "messing with our"
-	cont "plans."
-	para "First the AQUARIUM"
-	line "heist, then the"
-	cont "SLOWPOKE WELL…"
-	para "But it doesn't"
-	line "matter!"
-	para "Minor setbacks,"
-	line "those were!"
-	para "HA!"
-	done
+	text "Un niño ha estado"
+	line "estorbando"
+	cont "nuestros planes."
 
+	para "Primero en el"
+	line "ACUARIO, luego en"
+	cont "el POZO SLOWPOKE…"
+	para "¡Pero da igual!"
+
+	para "¡Solo fueron"
+	line "pequeños"
+	cont "contratiempos!"
+
+	para "¡JÁ!"
+	done
+	
 SanskritRocketHouseRocket2TextKey:
-	text "What key?"
-	line "I don't have any"
-	cont "keys."
-	para "Hey!"
-	para "I hope you're not"
-	line "that kid that's"
-	para "been messing with"
-	line "our plans!"
-	para "Cut it out, if"
-	line "you know what's"
-	cont "good for you!"
+	text "¿Qué llave? No"
+	line "tengo ninguna"
+	cont "llave."
+
+	para "¡Oye!"
+
+	para "¡Espero que no"
+	line "seas el niño que"
+	para "ha estado frus-"
+	line "trando nuestros"
+	cont "planes!"
+
+	para "¡Lárgate o sabrás"
+	line "lo que es bueno!"
 	done
-
-
+	
 SanskritRocketHouseRocket3Text:
-	text "Just a bit longer"
-	line "until we can show"
-	para "the world what"
-	line "TEAM ROCKET is"
-	cont "truly capable of!"
-	done
-
-SanskritRocketHouseRocket3TextKey:
-	text "Nah, I don't have"
-	line "any keys."
-	para "The CAPTAIN"
-	line "doesn't trust me"
-	cont "with any of those."
-	done
-
-SanskritRocketHouseRocket3Text_GotExpnCard:
-	text "Hey there!"
-
-	para "I am the super"
-	line "MUSIC DIRECTOR!"
-
-	para "I'm responsible"
-	line "for the gorgeous"
-
-	para "melodies that go"
-	line "out over the air."
-
-	para "Don't be square."
-	line "Grab your music"
-	cont "off the air!"
-	done
-
-SanskritRocketHousePosterText:
-	text "All #MON exist"
-	line "for the glory of"
+	text "¡No queda mucho"
+	line "para demostrar al"
+	para "mundo de lo que es"
+	line "realmente capaz el"
 	cont "TEAM ROCKET!"
 	done
+	
+SanskritRocketHouseRocket3TextKey:
+	text "Qué va, no tengo"
+	line "ninguna llave."
 
+	para "El CAPITÁN no"
+	line "confía en mí para"
+	cont "esas cosas."
+	done
+	
+SanskritRocketHouseRocket3Text_GotExpnCard:
+	text "¡Hola!"
+
+	para "¡Soy el súper"
+	line "DIRECTOR MUSICAL!"
+
+	para "Todas las maravi-"
+	line "llosas melodías"
+	para "que escuchas son"
+	line "cosa mía."
+
+	para "No te cortes."
+	line "¡Siente la música!"
+	done
+	
+SanskritRocketHousePosterText:
+	text "¡Todos los #MON"
+	line "existen para la"
+	cont "gloria del TEAM"
+	cont "ROCKET!"
+	done
+	
 SanskritRocketHouseTelevisionSignText:
-	text "It's a rerun…"
+	text "Está en bucle…"
 	done
 
 SanskritRocketHouseReferenceLibraryText:
-	text "Wow! A full rack"
-	line "of #MON CDs and"
-	cont "videos."
+	text "¡Uau! Un estante"
+	line "lleno de CD y"
+	cont "vídeos de #MON."
 
-	para "This must be the"
-	line "reference library."
+	para "Debe de ser una"
+	line "biblioteca."
 	done
 	
 SanskritRocketHouseKeyGuyTextKeyTime:
-	text "A SHIP KEY?"
-	para "Maybe I have it."
-	line "What's it to you?"
+	text "¿La LLAVE del"
+	line "BARCO?"
+	para "A lo mejor la"
+	line "tengo. ¿Para qué"
+	cont "la quieres?"
 	done
-
+	
 RocketKey_WinText:
-	text "What!?"
+	text "¡¿Qué?!"
 	done
 	
 RocketKey_LossText:
-	text "Ha!"
+	text "¡Já!"
 	done
 	
 RocketKey_AfterText:
-	text "Oh no, the CAPTAIN"
-	line "will have my head"
-	cont "for this!"
+	text "¡Oh, no, el"
+	line "CAPITÁN me va a"
+	cont "matar!"
 	done
-
+	
 RocketKey_AfterText2:
-	text "Get out of here!"
+	text "¡Largo de aquí!"
 	done
 	
 RocketKey_Afterwards:
-	text "Don't talk to me!"
+	text "¡No me hables!"
 	done
 
 SanskritRocketHouse_MapEvents:

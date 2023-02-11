@@ -119,123 +119,129 @@ Warden2FOneStepLeftAndUp:
 	step_end
 	
 StandCityRocketHouse2FTVText:
-	text "It's a rerun…"
+	text "Es una reposición…"
 	done
 
 StandCityRocketHouse2FPosterText:
-	text "TEAM ROCKET aims"
-	line "to make money from"
-	cont "all #MON!"
+	text "¡El TEAM ROCKET"
+	line "usará a todos los"
+	cont "#MON para ganar"
+	cont "dinero!"
 	done
-	
+
 Warden2FFineYouWin:
-	text "Heh. Fine."
-	para "You win."
-	para "We'll head out"
-	line "now."
-	para "Nothing else left"
-	line "here for you to"
-	cont "see."
-	para "Bye, kid."
+	text "Bah…"
+	line "Está bien."
+
+	para "Tú ganas."
+
+	para "Nos vamos."
+
+	para "Aquí ya no hay"
+	line "nada que te quede"
+	cont "por ver."
+
+	para "Adiós, niño."
 	done
-	
+
 ImposterWinText:
-	text "You little brat!"
+	text "¡Pequeño mocoso!"
 	done
 
 ImposterLossText:
-	text "Haha!"
+	text "¡Jaja!"
 	done
-	
+
 Warden2FWhoDoYouThinkYouAreText:
-	text "Just who do you"
-	line "think you are?"
-	para "Why are you trying"
-	line "to interfere with"
-	cont "our amazing work?"
-	para "TEAM ROCKET is"
-	line "about to launch"
-	para "the biggest"
-	line "revolution in"
-	para "#MON technology"
-	line "ever!"
+	text "¿Quién te crees"
+	line "que eres?"
+	para "¿Por qué intentas"
+	line "interferir en"
+	cont "nuestro asombroso"
+	cont "trabajo?"
+	para "¡El TEAM ROCKET"
+	line "está a punto de"
+	para "lanzar la mayor"
+	line "revolución en la"
+	cont "tecnología"
+	cont "#MON!"
+
 	para "…"
-	para "Clearly you don't"
-	line "feel the same."
-	para "I guess I'll have"
-	line "to help you"
-	cont "understand!"
-	para "I'm through"
-	line "letting you get in"
-	cont "the way!"
+	para "Está claro que no"
+	line "piensas lo mismo."
+
+	para "¡Tendré que"
+	line "ayudarte a que lo"
+	cont "entiendas!"
+
+	para "¡No permitiré que"
+	line "te metas en"
+	cont "nuestro camino!"
 	done
 
 ImposterHeyYouText:
-	text "Hey, you!"
-	line "Kid!"
+	text "¡Eh, tú! ¡Mocoso!"
 	done
 
 GruntM7SeenText:
-	text "I've been given"
-	line "strict orders."
+	text "He recibido"
+	line "órdenes."
 
-	para "I'm to crush any-"
-	line "one who challenges"
-	cont "TEAM ROCKET!"
+	para "¡Aplastaré a todo"
+	line "aquel que desafíe"
+	cont "al TEAM ROCKET!"
 	done
 
 GruntM7BeatenText:
-	text "What?!"
+	text "¿¡Qué!?"
 	done
 
 GruntM7AfterBattleText:
-	text "I failed in my"
-	line "duties…"
+	text "No he cumplido con"
+	line "mi deber…"
 
-	para "I'll be docked pay"
-	line "for this…"
+	para "Me van a bajar el"
+	line "sueldo…"
 	done
 
 GruntF4SeenText:
-	text "Don't I think"
-	line "#MON are cute?"
+	text "¿Son buenos mis"
+	line "#MON?"
 
-	para "I'll think my"
-	line "#MON are cute--"
-
-	para "after they beat"
-	line "yours!"
+	para "¡Creeré que mis"
+	line "#MON son buenos"
+	para "cuando derroten a"
+	line "los tuyos!"
 	done
 
 GruntF4BeatenText:
-	text "Oh, no! They're so"
-	line "useless!"
+	text "¡Oh, no! ¡Son"
+	line "tan inútiles!"
 	done
 
 GruntF4AfterBattleText:
-	text "I love my"
-	line "beautiful self!"
+	text "¡Me amo a mí"
+	line "misma!"
 
-	para "Who cares about"
+	para "¿Qué importan los"
 	line "#MON?"
 	done
 
-
 GruntM6SeenText:
-	text "Hey, hey! Keep out"
-	line "of our way!"
+	text "¡Oye! ¡Fuera de"
+	line "nuestro camino!"
 	done
 
 GruntM6BeatenText:
-	text "Arggh. I give up."
+	text "¡Arggh! Me rindo."
 	done
 
 GruntM6AfterBattleText:
-	text "The EXECUTIVE"
-	line "won't like hearing"
-	para "about more kids"
-	line "getting in the way"
-	cont "of the plan…"
+	text "Al EJECUTIVO no le"
+	line "va a gustar saber"
+	para "que hay más moco-"
+	line "sos interfiriendo"
+	cont "en su plan…"
 	done
 
 StandCityRocketHouse2F_MapEvents:

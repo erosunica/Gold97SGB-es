@@ -1,10 +1,10 @@
-	db "SLUDGE@" ; species name
-	dw 101, 400 ; height, weight
-
-	db   "Loves to float in"
-	next "polluted water."
-	next "Seeing these in a"
-
-	page "lake is a sign of"
-	next "a larger pollution"
-	next "issue.@"
+	db "LODO@" ; species name
+	dbw 3, 181 ; height, weight
+	
+	db   "Adora flotar en"
+	next "agua ponzoñosa."
+	next "Verlos en un lago"
+	
+	page "es un indicio de"
+	next "que está muy"
+	next "contaminado.@"

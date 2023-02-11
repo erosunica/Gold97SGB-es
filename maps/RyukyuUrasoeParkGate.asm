@@ -86,9 +86,9 @@ DollSalesmanSaturdayMenu:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
-	db "MACHOP      ¥5000@"
-	db "TENTACOOL   ¥5000@"
-	db "CANCEL@"
+	db "MACHOP      5000¥@"
+	db "TENTACOOL   5000¥@"
+	db "SALIR@"
 	
 DollSalesmanSaturday_FinishScript:
 	waitsfx
@@ -111,49 +111,56 @@ DollSalesmanSaturdayNoMoney:
 	end
 	
 SendItemToPCTextDollSaturday:
-	text "Send this DOLL to"
-	line "your bedroom PC?"
+	text "¿Quieres enviar"
+	line "este MUÑECO al PC"
+	cont "de tu dormitorio?"
 	done
 
 AlreadyHaveDecorItemTextSalesmanSaturday:
-	text "You already have"
-	line "this DOLL!"
+	text "¡Ya tienes este"
+	line "MUÑECO!"
 	done
 
 DollSalesmanSaturday_HereYouGoText:
-	text "Here you go!"
+	text "¡Listo!"
 	done
 	
 DollSalesmanSaturdayComeAgain:
-	text "Hope to see you"
-	line "again somewhere!"
+	text "¡Espero que"
+	line "volvamos a vernos!"
 	done
 	
 DollSalesmanSaturdayNoMoneyText:
-	text "Sorry, you'll"
-	line "need more money!"
+	text "¡Lo siento, no"
+	line "tienes suficiente"
+	cont "dinero!"
 	done
 	
 DollSalesmanTextSaturday:
-	text "Hiya!"
-	para "I'm a traveling"
-	line "DOLL salesman!"
-	para "What does that"
-	line "mean?"
-	para "It means that I'm"
-	line "who you talk to"
-	para "if you want to"
-	line "deck out your"
-	cont "bedroom!"
-	para "My stock and my"
-	line "location change"
-	para "daily, so keep an"
-	line "eye out for me!"
+	text "¡Hola!"
+	
+	para "¡Soy un vendedor"
+	line "de MUÑECOS"
+	cont "ambulante!"
+	
+	para "¿Sabes lo que"
+	line "significa?"
+	
+	para "¡Que soy la"
+	line "persona que buscas"
+	para "si quieres decorar"
+	line "tu dormitorio!"
+	
+	para "¡Mi ubicación y lo"
+	line "que vendo cambia a"
+	para "diario, así que no"
+	line "me pierdas de"
+	cont "vista!"
 	done
 	
 DollSalesmanTextSaturday_AskWhichPrizeText:
-	text "Now which DOLL"
-	line "would you like?"
+	text "¿Qué MUÑECO"
+	line "quieres?"
 	done
 	
 ;---------------------------------
@@ -161,11 +168,12 @@ DollSalesmanTextSaturday_AskWhichPrizeText:
 
 
 Route101NRyukyuGuardWelcomeText:
-	text "Somedays I wish"
-	line "I could leave my"
-	para "guard post and go"
-	line "relax out on the"
-	cont "beach."
+	text "Hay días en los"
+	line "que desearía dejar"
+	para "mi puesto de"
+	line "guardia e ir a"
+	cont "relajarme a la"
+	cont "playa."
 	done
 
 
@@ -183,5 +191,5 @@ RyukyuUrasoeParkGate_MapEvents:
 	db 0 ; bg events
 
 	db 2 ; object events
-	object_event  0,  4, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, Route101NRyukyuGuardScript, -1
+	object_event  0,  4, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Route101NRyukyuGuardScript, -1
 	object_event  3,  2, SPRITE_CLERK, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 1, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, 0, TravelingDollSalesmanSaturday, EVENT_DOLL_SALESMAN_SATURDAY

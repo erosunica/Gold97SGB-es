@@ -62,82 +62,82 @@ UrasoeTrailHiddenElixer:
 
 
 FisherStephenSeenText:
-	text "I feel so content,"
-	line "fishing while lis-"
-	cont "tening to some"
-	cont "tunes on my radio."
+	text "Me gusta pescar"
+	line "mientras escucho"
+	cont "canciones por la"
+	cont "radio."
 	done
 
 FisherStephenBeatenText:
-	text "My stupid radio"
-	line "distracted me!"
+	text "¡Mi estúpida radio"
+	line "me ha distraído!"
 	done
 
 FisherStephenAfterBattleText:
-	text "Have you ever met"
-	line "any of the radio"
-	cont "hosts?"
-	para "I wonder if"
-	line "they're as cool"
-	cont "as they sound."
+	text "¿Has conocido a"
+	line "alguno de los"
+	cont "presentadores de"
+	cont "la radio?"
+
+	para "Me pregunto si son"
+	line "igual de estupen-"
+	cont "dos en persona."
 	done
 
 FisherBarneySeenText:
-	text "Nothing beats a"
-	line "day of fishing!"
+	text "¡Nada mejor que un"
+	line "día de pesca!"
 	done
 
 FisherBarneyBeatenText:
-	text "Oof!"
+	text "¡Uf!"
 	done
 
 FisherBarneyAfterBattleText:
-	text "Rumors going"
-	line "around say that"
-	para "KUME POINT on"
-	line "the other side of"
-	para "the STRAIT is a"
-	line "better spot for"
-	cont "fishing."
-	para "That's a bunch of"
-	line "nonsense."
-	para "This side is"
-	line "clearly better!"
+	text "Dicen los rumores"
+	line "que PUNTO KUME, al"
+	para "otro lado del"
+	line "ESTRECHO, es un"
+	cont "mejor lugar para"
+	cont "pescar."
+
+	para "Vaya tontería."
+
+	para "¡Este lado es"
+	line "claramente mejor!"
 	done
 
-
 PokemaniacShaneSeenText:
-	text "What does rarity"
-	line "mean to you?"
+	text "¿Qué significa"
+	line "para ti la rareza?"
 	done
 
 PokemaniacShaneBeatenText:
-	text "I should have used"
-	line "my MOON STONE…"
+	text "Debí haber usado"
+	line "mi PIEDRA LUNAR…"
 	done
 
 PokemaniacShaneAfterBattleText:
-	text "You're working on"
-	line "a #DEX?"
+	text "¿Tienes una"
+	line "#DEX?"
 
-	para "Wow, you must know"
-	line "some pretty rare"
-	cont "#MON!"
+	para "¡Uau, habrás visto"
+	line "#MON muy raros!"
 
-	para "May I please see"
-	line "it. Please?"
+	para "¿Puedo verla, por"
+	line "favor?"
 	done
 
 UrasoeTrailSignText:
-	text "URASOE TRAIL"
+	text "SENDA URASOE"
 
-	para "RYUKYU CITY -"
-	line "KUME CITY"
+	para "CIUDAD RYUKYU -"
+	line "CIUDAD KUME"
 	done
 
 FishingSpotSignText:
-	text "NANJO FOREST"
-	line "ENTRANCE"
+	text "Entrada al"
+	line "BOSQUE NANJO"
 	done
 
 UrasoeTrail_MapEvents:

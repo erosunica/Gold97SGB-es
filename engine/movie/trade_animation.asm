@@ -1,5 +1,5 @@
 TRADEANIM_RIGHT_ARROW EQU "▶" ; $ed
-TRADEANIM_LEFT_ARROW  EQU "▼" ; $ee
+TRADEANIM_LEFT_ARROW  EQU "▷" ; $ec
 
 ; TradeAnim_TubeAnimJumptable.Jumptable indexes
 	const_def
@@ -883,8 +883,8 @@ TrademonStats_MonTemplate:
 .OTMonData:
 	db   "─── №."
 	next ""
-	next "OT/"
-	next "<ID>№.@"
+	next "EO/"
+	next "№<ID> @"
 
 TrademonStats_Egg:
 	call WaitTop
@@ -902,9 +902,9 @@ TrademonStats_Egg:
 	ret
 
 .EggData:
-	db   "EGG"
-	next "OT/?????"
-	next "<ID>№.?????@"
+	db   "HUEVO"
+	next "EO/¿¿??"
+	next "№<ID> ¿¿??@"
 
 TrademonStats_WaitBGMap:
 	call WaitBGMap

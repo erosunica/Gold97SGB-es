@@ -24,54 +24,60 @@ KumeIslandLegendSpeechHouseLadyScript:
 	end
 	
 KumeIslandLegendSpeechHouseLadyText1:
-	text "Have you heard any"
-	line "of our local"
-	cont "legends?"
+	text "¿Has oído hablar"
+	line "de nuestras"
+	cont "leyendas locales?"
 	done
-	
-KumeIslandLegendSpeechHouseLadyText2:
 
-	text "Ah, then I won't"
-	line "bother repeating"
-	cont "them."
+KumeIslandLegendSpeechHouseLadyText2:
+	text "Ah, entonces no me"
+	line "molestaré en con-"
+	cont "tarlas de nuevo."
 	done
 
 KumeIslandLegendSpeechHouseLadyText3:
-	text "Allow me to share"
-	line "with you, then…"
-	para "According to tales"
-	line "told through many"
-	cont "generations,"
-	para "three mythical"
-	line "bird #MON of"
-	para "fire, ice, and"
-	line "thunder watch over"
-	cont "our ISLANDS."
-	para "The three of them"
-	line "work together in"
-	para "harmony to keep"
-	line "the delicate"
-	para "balance of nature"
-	line "intact."
-	para "It is said they"
-	line "roost within JOULE"
-	para "CAVE, on top of"
-	line "CHARRED SUMMIT,"
-	para "and right behind"
-	line "us in the ICED"
-	cont "CAVERN."
-	para "No one I know has"
-	line "ever seen them."
-	para "The legend is that"
-	line "they will only"
-	para "show themselves to"
-	line "a person who has"
-	para "something that"
-	line "has the essence"
-	para "of all three of"
-	line "them…"
-	para "I wonder what that"
-	line "could be…"
+	text "Permíteme"
+	line "iluminarte"
+	cont "entonces…"
+
+	para "De acuerdo a las"
+	line "historias contadas"
+	para "durante generacio-"
+	line "nes, tres míticas"
+	para "aves #MON que"
+	line "encarnan el rayo,"
+	para "el fuego y el"
+	line "hielo velan por"
+	cont "nuestras ISLAS."
+
+	para "Las tres trabajan"
+	line "juntas en armonía"
+	para "para mantener"
+	line "intacto el delica-"
+	cont "do equilibrio de"
+	cont "la naturaleza."
+
+	para "Se dice que anidan"
+	line "en la CUEVA JULIO,"
+	para "en la cima de la"
+	line "CUMBRE CALCINADA y"
+	para "justo detrás de"
+	line "nosotros, en la"
+	cont "GRUTA HELADA."
+
+	para "Nadie que conozca"
+	line "las ha visto"
+	cont "alguna vez."
+
+	para "La leyenda cuenta"
+	line "que solo se"
+	para "revelarán frente a"
+	line "quien tenga algo"
+	para "con la esencia de"
+	line "las tres…"
+
+	para "Me pregunto qué"
+	line "podría ser…"
 	done
 	
 	

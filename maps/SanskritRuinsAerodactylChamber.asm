@@ -44,17 +44,16 @@ SanskritRuinsAerodactylChamberDescriptionSign:
 	jumptext SanskritRuinsAerodactylChamberDescriptionText
 
 SanskritRuinsAerodactylChamberAncientReplicaText:
-	text "It's a replica of"
-	line "an ancient #-"
-	cont "MON."
+	text "Es una réplica de"
+	line "un #MON"
+	cont "antiguo."
 	done
 
 SanskritRuinsAerodactylChamberDescriptionText:
-	text "This flying #-"
-	line "MON attacked its"
-
-	para "prey with saw-like"
-	line "fangs."
+	text "Este #MON"
+	line "volador ataca a"
+	para "su presa con sus"
+	line "fuertes colmillos."
 	done
 
 SanskritRuinsAerodactylChamber_MapEvents:

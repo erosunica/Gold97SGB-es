@@ -15,16 +15,19 @@ FiveFloorTower4FSign:
 	jumptext FiveFloorTower4FSignText
 	
 FiveFloorTower4FSignText:
-	text "This is a statue"
-	line "of HO-OH."
-	para "The legendary bird"
-	line "#MON that once"
-	para "made roost on the"
-	line "top of this tower."
-	para "May we honor its"
-	line "nesting place so"
-	para "that one day it"
-	line "may return."
+	text "Es una estatua de"
+	line "HO-OH."
+
+	para "El #MON ave"
+	line "de la leyenda que"
+	para "antaño anidó en la"
+	line "cima de esta"
+	cont "torre."
+
+	para "Debemos honrar"
+	line "su nido para que"
+	cont "un día pueda"
+	cont "regresar."
 	done
 
 
@@ -45,20 +48,21 @@ TrainerSageLi:
 
 
 SageLiSeenText:
-	text "I sense that it"
-	line "was the right"
-	para "decision for you"
-	line "to make this"
-	cont "journey."
+	text "Siento que"
+	line "sugerirte que"
+	para "emprendieras este"
+	line "viaje fue la"
+	cont "decisión correcta."
 	done
 
 SageLiBeatenText:
-	text "I know it!"
+	text "¡Lo sabía!"
 	done
 
 SageLiAfterBattleText:
-	text "Please, continue"
-	line "to the last floor."
+	text "Por favor,"
+	line "continúa hasta el"
+	cont "último piso."
 	done
 	
 TrainerSageGaku:
@@ -74,20 +78,22 @@ TrainerSageGaku:
 
 
 SageGakuSeenText:
-	text "We spend our days"
-	line "in serious"
-	cont "reflection."
+	text "Pasamos nuestros"
+	line "días reflexionando"
+	cont "con diligencia."
 	done
 
 SageGakuBeatenText:
-	text "I feel whole."
+	text "Me siento"
+	line "realizado."
 	done
 
 SageGakuAfterBattleText:
-	text "The mind is able"
-	line "to think of and"
-	para "pass along many"
-	line "thoughts in a day."
+	text "La mente puede"
+	line "dejar ir y venir"
+	para "incontables"
+	line "recuerdos día tras"
+	cont "día."
 	done
 	
 TrainerSageMasa:
@@ -103,8 +109,8 @@ TrainerSageMasa:
 
 
 SageMasaSeenText:
-	text "I have little to"
-	line "say."
+	text "No tengo mucho que"
+	line "decir."
 	done
 
 SageMasaBeatenText:
@@ -112,8 +118,7 @@ SageMasaBeatenText:
 	done
 
 SageMasaAfterBattleText:
-	text "Complete the"
-	line "climb."
+	text "Llega a la cima."
 	done
 	
 TrainerSageKoji:
@@ -129,19 +134,20 @@ TrainerSageKoji:
 
 
 SageKojiSeenText:
-	text "I one day wish"
-	line "to see the sacred"
-	para "bird with my own"
-	line "eyes."
+	text "Deseo ver al ave"
+	line "sagrada algún día"
+	cont "con mis propios"
+	cont "ojos."
 	done
 
 SageKojiBeatenText:
-	text "It shall be."
+	text "Ojalá así sea."
 	done
 
 SageKojiAfterBattleText:
-	text "I hope you have"
-	line "felt enlightened."
+	text "Espero que te"
+	line "hayas sentido"
+	cont "iluminado."
 	done
 
 

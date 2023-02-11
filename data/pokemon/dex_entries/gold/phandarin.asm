@@ -1,10 +1,10 @@
-	db "HAUNTED@" ; species name
-	dw 211, 240 ; height, weight
-
-	db   "Beware when this"
-	next "#MON leaps,"
-	next "as it is able to"
-
-	page "envelop and steal"
-	next "the soul of its"
-	next "target.@"
+	db "EMBRUJADO@" ; species name
+	dbw 9, 109 ; height, weight
+	
+	db   "Cuidado cuando"
+	next "este #MON"
+	next "brinque. Puede"
+	
+	page "envolver y robar"
+	next "el alma de su"
+	next "objetivo.@"

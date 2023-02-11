@@ -25,22 +25,22 @@ HotelDoorLockedScript4F:
 	jumptextfaceplayer HotelDoorLockedText4F
 
 RyukyuHotel4FPokefanMText:
-	text "Are you from"
-	line "around here?"
-	para "Hm, SILENT TOWN?"
-	line "That's pretty far."
+	text "¿Eres de por aquí?"
+
+	para "¿PUEBLO SILENTE,"
+	line "dices? Eso está"
+	cont "muy lejos."
 	done
-	
+
 RyukyuHotel4FFisherText:
-	text "I can't wait for"
-	line "another day of"
-	para "fishing out on the"
-	line "shore!"
+	text "¡No puedo esperar"
+	line "a pescar otro día"
+	cont "más en la costa!"
 	done
-	
+
 HotelDoorLockedText4F:
-	text "The door is"
-	line "locked…"
+	text "La puerta está"
+	line "cerrada…"
 	done
 
 RyukyuHotel4F_MapEvents:

@@ -40,38 +40,39 @@ GoodRodHouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 OfferGoodRodText:
-	text "The canal that"
-	line "runs through the"
-	para "city is a popular"
-	line "fishing spot."
-	para "Wouldn't you like"
-	line "to take up a ROD"
-	cont "and fish in it?"
+	text "El canal que pasa"
+	line "a través de la"
+	para "ciudad es un sitio"
+	line "popular para"
+	cont "pescar."
+
+	para "¿No te gustaría"
+	line "tener una CAÑA y"
+	cont "pescar ahí?"
 	done
 
 GiveGoodRodText:
-	text "Ah, hahah!"
-	line "We have ourselves"
-	cont "a new angler!"
+	text "¡Ah, ja, ja! ¡Ya"
+	line "tenemos alguien"
+	cont "más que pesca!"
 	done
 
 GaveGoodRodText:
-	text "Fish aren't found"
-	line "in the sea alone."
-
-	para "They go wherever"
-	line "there is water."
+	text "No sólo hay peces"
+	line "en el mar. Allá"
+	para "donde haya agua"
+	line "los encontrarás."
 	done
 
 DontWantGoodRodText:
-	text "Whaaat? You don't"
-	line "like to fish!?"
-	cont "Incomprehensible!"
+	text "¿Quééé? ¿¡No te"
+	line "gusta pescar!?"
+	cont "¡Incomprensible!"
 	done
 
 HaveGoodRodText:
-	text "How are things?"
-	line "Land the big one?"
+	text "¿Qué tal va todo?"
+	line "¿Pica el grande?"
 	done
 
 AlloyGoodRodHouse_MapEvents:

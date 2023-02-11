@@ -23,26 +23,25 @@ TrainerFS1:
 	end
 
 FisherStirnerSeenText:
-	text "I want to go"
-	line "fishing in the"
-	cont "SOUTHERN ISLANDS,"
-	para "but they only let"
-	line "scientists go"
-	cont "there!"
+	text "Quiero ir a pescar"
+	line "a las ISLAS DEL"
+	para "SUR, ¡pero solo"
+	line "dejan ir a los"
+	cont "científicos!"
 	done
-	
+
 FisherStirnerBeatenText:
-	text "Philosophy is"
-	line "a science! Let"
-	cont "me in!"
+	text "¡La filosofía es"
+	line "una ciencia!"
+	cont "¡Dejadme pasar!"
 	done
-	
+
 FisherStirnerAfterBattleText:
-	text "Legality is a"
-	line "spook!"
-	
-	para "I'll fish where"
-	line "I please!"
+	text "¡La ley es un"
+	line "espejismo!"
+
+	para "¡Pescaré donde me"
+	line "plazca!"
 	done
 
 
@@ -58,35 +57,39 @@ TrainerFS2:
 	end
 
 FisherDaltonSeenText:
-	text "I am the strongest"
-	line "angler in the"
-	cont "world!"
-	para "Challenge me…"
-	line "If you dare!"
+	text "¡Soy el pescador"
+	line "más fuerte del"
+	cont "mundo!"
+
+	para "Desafíame… ¡Si te"
+	line "atreves!"
 	done
 
 FisherDaltonBeatenText:
-	text "You are worthy of"
-	line "a SUPER ROD…"
+	text "Eres digno de"
+	line "tener una"
+	cont "SUPERCAÑA…"
 	done
-	
+
 FisherDaltonAfterBattleText:
-	text "I have nothing to"
-	line "teach you, young"
-	cont "one."
-	para "You are the fish"
-	line "master now."
+	text "No tengo nada más"
+	line "que enseñarte,"
+	cont "joven."
+
+	para "Ahora tú eres el"
+	line "maestro pescador."
 	done
 
 CheckpointSignpost:
 	jumptext CheckpointSignpostText
 	
 CheckpointSignpostText:
-	text "SOUTHERN ISLANDS"
-	line "ACCESS CHECKPOINT"
-	
-	para "OFFICIAL CLEARANCE"
-	line "REQUIRED TO ENTER"
+	text "ISLAS DEL SUR"
+	line "PUESTO DE CONTROL"
+
+	para "AUTORIZACIÓN"
+	line "OFICIAL REQUERIDA"
+	cont "PARA ENTRAR"
 	done
 
 ForkedStraitNorth_MapEvents:

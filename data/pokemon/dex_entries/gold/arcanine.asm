@@ -1,10 +1,10 @@
-	db "LEGENDARY@" ; species name
-	dw 603, 3420 ; height, weight
+	db "LEYENDA@" ; species name
+	dbw 19, 1550 ; height, weight
 
-	db   "An ancient picture"
-	next "scroll shows that"
-	next "people were"
+	db   "Cuenta un antiguo"
+	next "pergamino que la"
+	next "gente se sentía"
 
-	page "attracted to its"
-	next "movement as it ran"
-	next "through prairies.@"
+	page "atraída por cómo"
+	next "corría por las"
+	next "praderas.@"

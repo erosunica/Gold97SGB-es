@@ -1,10 +1,10 @@
-	db "FROG@" ; species name
-	dw 307, 750 ; height, weight
+	db "RANA@" ; species name
+	dbw 11, 339 ; height, weight
 
-	db   "When it expands"
-	next "its throat to"
-	next "croak out a tune,"
+	db   "Cuando hincha el"
+	next "buche para croar,"
+	next "si hay cerca algún"
 
-	page "nearby POLIWAG and"
-	next "POLIWHIRL gather"
-	next "immediately.@"
+	page "POLIWAG o algún"
+	next "POLIWHIRL, no tar-"
+	next "darán en llegar.@"

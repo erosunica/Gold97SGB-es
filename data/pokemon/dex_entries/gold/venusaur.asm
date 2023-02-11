@@ -1,10 +1,10 @@
-	db "SEED@" ; species name
-	dw 607, 2210 ; height, weight
+	db "SEMILLA@" ; species name
+	dbw 20, 1000 ; height, weight
 
-	db   "As it warms it-"
-	next "self and absorbs"
-	next "the sunlight, its"
+	db   "Cuando se calienta"
+	next "al absorber la luz"
+	next "del sol, sus"
 
-	page "flower petals"
-	next "release a pleasant"
-	next "fragrance.@"
+	page "pétalos emiten"
+	next "una placentera"
+	next "fragancia.@"

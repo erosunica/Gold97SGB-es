@@ -57,73 +57,76 @@ TrainerPokemaniacCalvin:
 	end
 
 EndonCave1FRichGuyText:
-	text "Hello!"
-	para "I may not look it,"
-	line "but I'm fabulously"
-	cont "wealthy."
+	text "¡Hola!"
 	
-	para "But alas! Wealth"
-	line "does bore me."
+	para "Puede que no lo"
+	line "parezca, pero soy"
+	cont "fabulosamente"
+	cont "rico."
 	
-	para "So I spend my time"
-	line "wandering in"
-	para "search of anything"
-	line "that can amuse me."
+	para "¡Pero, ay! Me"
+	line "aburre la riqueza."
 	
-	para "Right now, I've"
-	line "decided to explore"
-	cont "caves!"
+	para "Así que me dedico"
+	line "a viajar en busca"
+	cont "de algo que pueda"
+	cont "entretenerme."
 	
-	para "Caves are"
-	line "fascinating!"
+	para "¡Por ahora, he"
+	line "decidido explorar"
+	cont "cuevas!"
 	
-	para "It's so easy to"
-	line "get lost in them!"
+	para "¡Son fascinantes!"
 	
-	para "Around every turn"
-	line "is a new surprise!"
+	para "¡Es muy fácil"
+	line "perderse en ellas!"
 	
-	para "Oh, and thank you"
-	line "for listening!"
+	para "¡En cada giro te"
+	line "espera una nueva"
+	cont "sorpresa!"
 	
-	para "Here, take this!"
+	para "¡Oh, gracias por"
+	line "escucharme!"
+	
+	para "¡Ten, toma esto!"
 	done
 
 EndonCave1FRichGuyText_GotNugget:
-	text "That's a NUGGET."
-
-	para "It's worth a lot"
-	line "of money."
+	text "Es una PEPITA."
 	
-	para "It's actually not"
-	line "taken from my"
-	cont "saved wealth!"
+	para "Vale mucho dinero."
 	
-	para "I found it in this"
-	line "cave!"
+	para "¡No es parte de la"
+	line "riqueza que tengo"
+	cont "ahorrada!"
 	
-	para "Ahahahahah!"
+	para "¡La encontré en"
+	line "esta cueva!"
+	
+	para "¡Jajajajaja!"
 	done
 	
 PokemaniacCalvinSeenText:
-	text "I spend all my"
-	line "time raising my"
-	para "#MON in this"
-	line "cave."
-	para "I wish to battle"
-	line "with you."
+	text "Me paso los días"
+	line "entrenando a mis"
+	cont "#MON en esta"
+	cont "cueva."
+	
+	para "Quiero combatir"
+	line "contigo."
 	done
 	
 PokemaniacCalvinBeatenText:
-	text "…sigh… I must"
-	line "train some more…"
+	text "Ufffff…"
+	line "Debo entrenar más."
 	done
 
 PokemaniacCalvinAfterBattleText:
-	text "Have you ever been"
-	line "to SANSKRIT TOWN?"
-	para "It's a mysterious"
-	line "place."
+	text "¿Has estado en"
+	line "PUEBLO SÁNSCRITO?"
+
+	para "Es un sitio"
+	line "misterioso."
 	done
 
 EndonCave1F_MapEvents:

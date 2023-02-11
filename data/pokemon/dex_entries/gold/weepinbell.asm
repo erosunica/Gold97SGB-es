@@ -1,10 +1,10 @@
-	db "FLYCATCHER@" ; species name
-	dw 303, 140 ; height, weight
+	db "MATAMOSCAS@" ; species name
+	dbw 10, 64 ; height, weight
 
-	db   "When it's hungry,"
-	next "it swings its"
-	next "razor-sharp"
+	db   "Cuando tiene"
+	next "hambre, agita las"
+	next "hojas afiladas que"
 
-	page "leaves, slicing up"
-	next "any unlucky object"
-	next "nearby for food.@"
+	page "tiene y rebana lo"
+	next "que tenga a mano"
+	next "para alimentarse.@"

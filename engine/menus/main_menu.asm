@@ -32,10 +32,10 @@ MainMenu:
 	call MainMenu_PrintCurrentTimeAndDay
 	ld hl, .MenuHeader
 	call LoadMenuHeader
-	hlcoord 1, 11
-	ld de, MainMenu_PrintCurrentTimeAndDay.VersionNumberPrint;new
-	ld de, MainMenu_PrintCurrentTimeAndDay.VersionSpacePrint;new
-	call PlaceString;new
+;	hlcoord 1, 11
+;	ld de, MainMenu_PrintCurrentTimeAndDay.VersionNumberPrint;new
+;	ld de, MainMenu_PrintCurrentTimeAndDay.VersionSpacePrint;new
+;	call PlaceString;new
 	call MainMenuJoypadLoop
 	call CloseWindow
 	jr c, .quit
@@ -50,7 +50,7 @@ MainMenu:
 
 .MenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 0, 14, 7
+	menu_coords 0, 0, 13, 7
 	dw .MenuData
 	db 1 ; default option
 
@@ -63,10 +63,10 @@ MainMenu:
 
 .Strings:
 ; entries correspond to MAINMENUITEM_* constants
-	db "CONTINUE@"
-	db "NEW GAME@"
-	db "OPTION@"
-	db "MYSTERY GIFT@"
+	db "CONTINUAR@"
+	db "JUEGO NUEVO@"
+	db "OPCIÓN@"
+	db "REGALO MIST@"
 
 .Jumptable:
 ; entries correspond to MAINMENUITEM_* constants
@@ -169,7 +169,7 @@ MainMenu_PrintCurrentTimeAndDay:
 	jr nz, .TimeFail
 	hlcoord 0, 12
 	ld b, 4
-	ld c, 18
+	ld c, 14
 	call Textbox
 	ret
 
@@ -192,7 +192,7 @@ MainMenu_PrintCurrentTimeAndDay:
 	ld b, a
 	decoord 1, 14
 	call PrintDayOfWeek
-	decoord 1, 16
+	decoord 4, 16
 	ldh a, [hHours]
 	ld c, a
 	farcall PrintHour
@@ -214,17 +214,17 @@ MainMenu_PrintCurrentTimeAndDay:
 	ret
 
 .TimeNotSet:
-	db "TIME NOT SET@"
+	db "HORA NO FIJADA@"
 
 .MainMenuTimeUnknownText:
 	text_far _MainMenuTimeUnknownText
 	text_end
 	
-.VersionSpacePrint:
-	db "             "
-
-.VersionNumberPrint:
-	db "v7.22@"
+;.VersionSpacePrint:
+;	db "             "
+;
+;.VersionNumberPrint:
+;	db "v7.22@"
 
 PrintDayOfWeek:
 	push de
@@ -245,13 +245,13 @@ PrintDayOfWeek:
 
 
 .Days:
-	db "SUNDAY       @"
-	db "MONDAY       @"
-	db "TUESDAY      @"
-	db "WEDNESDAY    @"
-	db "THURSDAY     @"
-	db "FRIDAY       @"
-	db "SATURDAY     @"
+	db "DOMINGO@"
+	db "LUNES@"
+	db "MARTES@"
+	db "MIÉRCOLES@"
+	db "JUEVES@"
+	db "VIERNES@"
+	db "SÁBADO@"
 .Day:
 	db "@"
 

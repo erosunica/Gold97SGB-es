@@ -1,10 +1,10 @@
-	db "SLUDGE@" ; species name
-	dw 311, 660 ; height, weight
+	db "LODO@" ; species name
+	dbw 12, 300 ; height, weight
 
-	db   "As it moves, a"
-	next "very strong poison"
-	next "leaks from it,"
+	db   "A medida que se"
+	next "mueve, va goteando"
+	next "un veneno letal"
 
-	page "making the ground"
-	next "there barren for"
-	next "three years.@"
+	page "que deja estéril"
+	next "el terreno"
+	next "durante tres años.@"

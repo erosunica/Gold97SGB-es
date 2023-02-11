@@ -17,33 +17,33 @@ FishingDudesHouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 FishingDudeText:
-	text "I am the FISHING"
-	line "GURU, the elder of"
-	cont "the FISHING BROS."
+	text "Soy el GURÚ PESCA-"
+	line "DOR, el mayor de"
+	para "los HERMANOS"
+	line "PESCADORES."
 
-	para "Do you happen to"
-	line "know FISHERMAN"
+	para "¿Sabes quién es el"
+	line "PESCADOR DAVID?"
+	para "Suele pescar en la"
+	line "RUTA 44."
 
-	para "WILTON? He fishes"
-	line "on ROUTE 44."
+	para "Me contó un truco"
+	line "asombroso por"
+	cont "teléfono."
 
-	para "He came through"
-	line "with an amazing"
-	cont "tip on the phone."
-
-	para "Thanks to him, I"
-	line "caught a whole lot"
-
-	para "of a rare #MON."
-	line "What a day it was!"
+	para "Gracias a él,"
+	line "capturé un montón"
+	para "de #MON raros."
+	line "¡Menudo día fue"
+	cont "ese!"
 	done
 
 FishingDudesHousePhotoText:
-	text "It's a photo of"
-	line "people fishing…"
+	text "Es una foto de"
+	line "gente pescando…"
 
-	para "They're having a"
-	line "great time…"
+	para "Lo están pasando"
+	line "muy bien…"
 	done
 
 AmamiFishingSpeechHouse_MapEvents:

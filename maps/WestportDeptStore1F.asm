@@ -28,52 +28,53 @@ WestportDeptStore1FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 WestportDeptStore1FReceptionistText:
-	text "Welcome to the"
-	line "WESTPORT CITY"
-	cont "DEPT. STORE."
+	text "Éste es el CENTRO"
+	line "COMERCIAL de"
+	cont "CIUDAD PONIENTE."
 	done
 
 WestportDeptStore1FGentlemanText:
-	text "The DEPT.STORE"
-	line "has a decent se-"
-	cont "lection."
+	text "El CENTRO"
+	line "COMERCIAL tiene"
+	cont "buenos artículos."
 
-	para "But some items"
-	line "are only available"
-
-	para "in the vendor"
-	line "shops in the"
-	cont "basement."
+	para "Pero algunos"
+	line "objetos sólo están"
+	para "disponibles en las"
+	line "tiendas de los"
+	
+	para "vendedores del"
+	line "sótano."
 	done
 
 WestportDeptStore1FPokefanFText:
-	text "I'm raring to shop"
-	line "again today!"
+	text "¡Me encanta ir de"
+	line "compras!"
 	done
 
 WestportDeptStore1FBugCatcherText:
-	text "Mom's good at"
-	line "bargain hunting."
+	text "Mamá es experta en"
+	line "conseguir gangas."
 
-	para "She always buys"
-	line "stuff at lower"
-	cont "prices."
+	para "Siempre compra"
+	line "cosas a precios"
+	cont "más bajos."
 	done
 
 WestportDeptStore1FDirectoryText:
-	text "1F SERVICE COUNTER"
+	text "PB INFORMACIÓN"
 
-	para "2F TRAINER'S"
-	line "   MARKET"
+	para "P1 TIENDA DE"
+	line "   ENTRENADORES"
 
-	para "3F BATTLE"
-	line "   COLLECTION"
+	para "P2 ARTÍCULOS"
+	line "   DE COMBATE"
 
-	para "4F MEDICINE BOX"
+	para "P3 BOTIQUÍN"
 
-	para "5F TM CORNER"
+	para "P4 TIENDA DE MT"
 
-	para "6F TRANQUIL SQUARE"
+	para "P5 PLAZA TRANQUILA"
 	done
 
 WestportDeptStore1F_MapEvents:

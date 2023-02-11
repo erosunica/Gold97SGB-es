@@ -68,7 +68,7 @@ _Option:
 	inc a
 	ldh [hBGMapMode], a
 	call WaitBGMap
-	ld b, SCGB_DIPLOMA
+	ld b, SCGB_OPTIONS_MENU
 	call GetSGBLayout
 	call SetPalettes
 
@@ -94,17 +94,6 @@ _Option:
 	pop af
 	ldh [hInMenu], a
 	ret
-
-
-
-
-
-
-
-
-
-
-
 
 PlaceOptionsString:
 ; fill the screen with border tiles
@@ -165,32 +154,32 @@ PlaceOptionsString:
 	ret
 
 .Page1_text:
-	db "TEXT SPEED        <LF>"
+	db "VELOCIDAD TEXTO   <LF>"
 	db "                  <LF>"
-	db " FAST  MED    SLOW<LF><LF>"
-	db "BATTLE SCENE      <LF>"
+	db " RÁP.  MED.   LEN.<LF><LF>"
+	db "ANIMACIÓN BATALLA <LF>"
 	db "                  <LF>"
-	db " ON       OFF     <LF><LF>"
-	db "BATTLE STYLE      <LF>"
+	db " SÍ       NO      <LF><LF>"
+	db "ESTILO BATALLA    <LF>"
 	db "                  <LF>"
-	db " SHIFT    SET     <LF><LF>"
-	db " MONO    STEREO   @"
+	db " CAMBIAR  MANTENER<LF><LF>"
+	db " MONO    ESTÉREO  @"
 
 .Page2_text:
-	db "PRINT BRIGHTNESS  <LF>"
+	db "BRILLO IMPRESIÓN  <LF>"
 	db "                  <LF>"
-	db " -2  -1  0  +1  +2<LF><LF>"
-	db "MENU ACCOUNT      <LF>"
+	db " -2  -1  0   1   2<LF><LF>"
+	db "DESCRIPCIÓN MENÚ  <LF>"
 	db "                  <LF>"
-	db " ON       OFF     <LF><LF>@"
+	db " SÍ       NO      <LF><LF>@"
 
 .Page2_CGB_text:
 	db "COLOR:  SGB   GBC @"
 
-.Page2_textframe_text: db "TEXT FRAME@"
+.Page2_textframe_text: db "MARCO@"
 
-.ExitText: db "EXIT@"
-.PageText: db "PAGE  @"
+.ExitText: db "SALIR@"
+.PageText: db "PÁG. @"
 
 
 

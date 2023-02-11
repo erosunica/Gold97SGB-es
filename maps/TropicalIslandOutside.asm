@@ -13,7 +13,7 @@ TropicalIslandOutside_MapScripts:
 	db 0 ; callbacks
 
 MewTextCommon2:
-	text "MEW!"
+	text "Miu…"
 	done
 
 MewSpot2Script:
@@ -101,7 +101,7 @@ MewSpot7Script:
 	end
 
 MewTextPrebattle:
-	text "MEEEWW!"
+	text "Miuu…"
 	done
 
 MewSpot8Script:
@@ -174,62 +174,61 @@ SlowkingScript:
 SlowkingHint1Text:
 	text "…"
 	line "Slow…"
-	
-	para "SLOWKING gestures"
-	line "toward the jungle"
-	cont "as if to tell you"
-	cont "something…"
+
+	para "SLOWKING señala la"
+	line "selva, como si"
+	cont "intentase decirte"
+	cont "algo…"
 	done
 
 SlowkingHint2Text:
-	text "SLOWKING gestures"
-	line "toward the far"
-	cont "northeast of the"
-	cont "island…"
+	text "SLOWKING señala un"
+	line "punto lejano del"
+	cont "noreste de la"
+	cont "isla…"
 	done
 
 SlowkingHint3Text:
-	text "SLOWKING gestures"
-	line "to the upper-"
-	cont "middle of the"
-	cont "island…"
+	text "SLOWKING señala la"
+	line "parte superior de"
+	cont "la isla…"
 	done
 
 SlowkingHint4Text:
-	text "SLOWKING gestures"
-	line "to the far west"
-	cont "of the island…"
+	text "SLOWKING señala un"
+	line "punto lejano al"
+	cont "oeste de la isla…"
 	done
 
 SlowkingHint5Text:
-	text "SLOWKING gestures"
-	line "into the jungle"
-	cont "again…"
+	text "SLOWKING vuelve a"
+	line "señalar la selva…"
 	done
 
 SlowkingHint6Text:
-	text "SLOWKING gestures"
-	line "along the beach…"
+	text "SLOWKING señala a"
+	line "lo largo de la"
+	cont "playa…"
 	done
 
 SlowkingHint7Text:
-	text "SLOWKING gestures"
-	line "to the far north"
-	cont "of the island…"
+	text "SLOWKING señala un"
+	line "punto lejano al"
+	cont "norte de la isla…"
 	done
-	
+
 SlowkingHint8Text:
-	text "SLOWKING gestures"
-	line "to the highest"
-	cont "point of the"
-	cont "whole island…"
+	text "SLOWKING señala el"
+	line "punto más alto de"
+	cont "toda la isla…"
 	done
 
 SlowkingFinalText:
-	text "… … …"
-	
-	para "SLOWKING nods"
-	line "in approval…"
+	text "<……> <……>"
+
+	para "SLOWKING asiente"
+	line "en señal de"
+	cont "aprobación…"
 	done
 
 TropicalIslandOutside_MapEvents:

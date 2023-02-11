@@ -86,109 +86,130 @@ TeknosPokecenter1FPlayerMovement1:
 	step_end
 
 TeknosPokecenter1F_BillText1:
-	text "Oh dear, oh dear."
-	para "She's not here"
-	line "either!"
-	para "I've looked"
-	line "everywhere!"
-	para "Oh dear, oh dear."
-	para "Excuse me, son."
-	line "You wouldn't have"
-	para "happened to see"
-	line "a young girl come"
-	para "through here,"
-	line "have you?"
-	para "It's my"
-	line "granddaughter."
-	para "I can't find her"
-	line "anywhere!"
-	para "She's gone missing"
-	line "and I can't find"
-	cont "her."
+	text "¡Ay, mi madre!"
+
+	para "¡Aquí tampoco"
+	line "está!"
+
+	para "¡He buscado por"
+	line "todas partes!"
+
+	para "¡Ay, mi madre!"
+
+	para "Perdona, chico."
+	line "¿No habrás visto"
+	para "por aquí a una"
+	line "niña pequeña, no?"
+	
+	para "Es mi nieta."
+
+	para "¡No la encuentro"
+	line "por ninguna parte!"
+
+	para "Ha desaparecido y"
+	line "no hay rastro de"
+	cont "ella."
+
 	para "…"
-	para "Oh, no. I hope she"
-	line "didn't get trapped"
-	cont "in the MINE…"
-	para "Listen, there's an"
-	line "old MINE just west"
-	para "of town that has"
-	line "become a popular"
-	para "spot for kids to"
-	line "run off to play"
-	cont "at."
-	para "But it's obviously"
-	line "not safe!"
-	para "Could you go look"
-	line "there to see if"
-	para "my granddaughter"
-	line "could be stuck"
-	cont "inside?"
-	para "I don't know where"
-	line "else she could be."
-	para "Oh dear, oh dear."
+	
+	para "Oh, no. Espero que"
+	line "no haya ido a la"
+	cont "MINA PEÑASCO…"
+	
+	para "Escucha, hay una"
+	line "vieja MINA al"
+	para "oeste de la ciudad"
+	line "que se ha vuelto"
+	para "un sitio muy"
+	line "popular entre los"
+	cont "niños para jugar."
+
+	para "¡Pero obviamente"
+	line "no es un lugar"
+	cont "seguro!"
+
+	para "¿Podrías ir a"
+	line "comprobar si mi"
+	para "nieta se ha"
+	line "quedado atrapada"
+	cont "allí?"
+	
+	para "¡No sé dónde más"
+	line "podría estar!"
+
+	para "¡Ay, mi madre!"
 	done
 
 TeknosPokecenter1F_BillText2:
-	text "I made the #MON"
-	line "storage system!"
+	text "¡Yo creé el"
+	line "Sistema de"
+	cont "Almacenamiento"
+	cont "#MON!"
 
-	para "I truly hope you"
-	line "find it useful."
+	para "Espero que te sea"
+	line "de utilidad."
 	
-	para "It's a great tool"
-	line "if you want to"
-	para "catch every single"
-	line "#MON! Anyways,"
+	para "¡Es una gran"
+	line "herramienta si"
+	para "quieres capturar a"
+	line "todos y cada uno"
+	cont "de los #MON!"
 
-	para "I have to hurry on"
-	line "back to WESTPORT"
-	cont "and see my folks."
+	para "Bueno, tengo que"
+	line "irme a PONIENTE"
+	cont "para ver a los"
+	cont "míos."
 
-	para "Buh-bye!"
+	para "¡Adiós!"
 	done
 
 TeknosPokecenter1FPokefanMText:
-	text "Your #MON will"
-	line "become more"
-	para "friendly towards"
-	line "you if you treat"
-	cont "them well."
+	text "Tus #MON serán"
+	line "más amigables"
+	para "contigo si los"
+	line "tratas bien."
 	done
 
 TeknosPokecenter1FPokefanMTextMobile:
-	text "You must be hoping"
-	line "to battle more"
+	text "Supongo que"
+	line "quieres combatir"
+	cont "contra más gente,"
+	cont "¿verdad?"
 
-	para "people, right?"
-	line "There's apparently"
+	para "Pues hay un lugar"
+	line "donde suelen"
+	cont "reunirse los"
+	cont "entrenadores."
 
-	para "some place where"
-	line "trainers gather."
+	para "¿Que dónde, dices?"
 
-	para "Where, you ask?"
-
-	para "It's a little past"
-	line "ALLOY CITY."
+	para "Está un poco más"
+	line "allá de CIUDAD"
+	cont "ALEAR."
 	done
 
 TeknosPokecenter1FCooltrainerFText:
-	text "Your #MON know"
-	line "HM moves, right?"
-	para "Those moves can"
-	line "be used outside of"
-	para "battle even if the"
-	line "#MON fainted."
+	text "Tus #MON"
+	line "conocen movimien-"
+	cont "tos de MO, ¿no?"
+	
+	para "Pueden usarse"
+	line "fuera de combate"
+	para "incluso si el"
+	line "#MON está"
+	cont "debilitado."
 	done
 
 TeknosPokecenter1FGymGuyText:
-	text "Have you ever been"
-	line "to the SUNPOINT"
-	cont "DOCKS?"
-	para "Forget any other"
-	line "port in NIHON,"
-	para "that's where the"
-	line "most trade"
-	cont "happens."
+	text "¿Has estado alguna"
+	line "vez en el MUELLE"
+	cont "CALORINA?"
+	
+	para "Olvídate de"
+	line "cualquier otro"
+	para "MUELLE en NIHON,"
+	line "ahí es donde más"
+	cont "se comercia."
 	done
 
 TeknosPokecenter1F_MapEvents:

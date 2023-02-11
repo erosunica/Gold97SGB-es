@@ -274,135 +274,149 @@ DragonOrbGetScript:
 	end
 	
 HeresTheOrb:
-	text "At last, you"
-	line "figured out who"
-	para "has the DRAGON"
-	line "ORB."
-	para "Take this, and"
-	line "bring it to CLAIR."
+	text "Al fin has"
+	line "descubierto quién"
+	para "tiene la"
+	line "DRAGOESFERA."
+	
+	para "Toma, llévasela a"
+	line "DÉBORA."
 	done
 	
 HeresTheOrb2:
-	text "got orb"
+	text "recibió orbe"
 	done
 
 
 CooltrainermDarinSeenText:
-	text "You! Do you have"
-	line "what it takes to"
-	para "train the powerful"
-	line "dragon #MON?"
+	text "¡Tú! ¿Tienes lo"
+	line "que hace falta"
+	para "para entrenar a"
+	line "los poderosos"
+	cont "#MON dragón?"
 	done
 
 CooltrainermDarinBeatenText:
-	text "S-strong!"
+	text "¡Cuánta fuerza!"
 	done
 
 CooltrainermDarinAfterBattleText:
-	text "I trust you will"
-	line "find these grounds"
-	para "a great place to"
-	line "train."
+	text "Seguro que este te"
+	line "parecerá un gran"
+	cont "lugar para"
+	cont "entrenar."
 	done
 
 CooltrainermDarinAfterBattleTextNotDone:
-	text "DRAGON ORB?"
-	para "It is not me who"
-	line "is holding it."
+	text "¿La DRAGOESFERA?"
+	para "Yo no soy quien la"
+	line "tiene."
 	done
 
 CooltrainerfCaraSeenText:
-	text "Did CLAIR give you"
-	line "permission to be"
-	cont "in here?"
+	text "¿DÉBORA te ha dado"
+	line "permiso para estar"
+	cont "aquí?"
 	done
 
 CooltrainerfCaraBeatenText:
-	text "Oh yikes, I lost!"
+	text "¡Ay, perdí!"
 	done
 
 CooltrainerfCaraAfterBattleTextNotDone:
-	text "Nope, I'm not the"
-	line "holder of the ORB."
-	para "Try again!"
+	text "No, no soy quien"
+	line "tiene la"
+	cont "DRAGOESFERA."
+	
+	para "¡Sigue"
+	line "intentándolo!"
 	done
 
 CooltrainerfCaraAfterBattleText:
-	text "Raising dragons is"
-	line "more rewarding"
-	para "than other types,"
-	line "I think."
+	text "Creo que entrenar"
+	line "a dragones acaba"
+	para "compensando más"
+	line "que el resto de"
+	cont "tipos."
 	done
 
 
 InstructorRandSeenText:
-	text "Have you learned"
-	line "enough about"
-	para "mystical dragon"
-	line "#MON in order"
-	para "to respect them"
-	line "properly?"
+	text "¿Has aprendido lo"
+	line "suficiente sobre"
+	para "los místicos"
+	line "#MON dragón"
+	para "para respetarlos"
+	line "como es debido?"
 	done
 
 InstructorRandBeatenText:
-	text "Oh yikes, I lost!"
+	text "¡Vaya, he"
+	line "perdido!"
 	done
 
 InstructorRandAfterBattleText:
-	text "The history of"
-	line "people training"
-	para "dragon #MON is"
-	line "long and storied."
-	para "But some suspect"
-	line "it began here."
+	text "La historia de las"
+	line "personas que"
+	para "entrenan #MON"
+	line "dragón es tan"
+	para "larga como"
+	line "conocida."
+	
+	para "Hay quien cree que"
+	line "dio comienzo aquí."
 	done
 
 InstructorRandAfterBattleTextNotDone:
-	text "The ORB? Not here."
-	line "Try someone else."
+	text "¿La DRAGOESFERA?"
+	line "No la tengo."
+	
+	para "Prueba con alguien"
+	line "más."
 	done
 
 TwinsLeaandpia1SeenText:
-	text "It's a stranger we"
-	line "don't know."
+	text "Es un desconocido."
 	done
 
 TwinsLeaandpia1BeatenText:
-	text "Ouchies."
+	text "Mecachis."
 	done
 
 TwinsLeaandpia1AfterBattleText:
-	text "Have you ever"
-	line "battled LANCE?"
-	para "He is the only"
-	line "dragon trainer"
-	para "considered CLAIR's"
-	line "superior."
+	text "¿Has combatido"
+	line "contra LANCE?"
+	
+	para "Es el único"
+	line "entrenador dragón"
+	cont "por encima de"
+	cont "DÉBORA."
 	done
 	
 TwinsLeaandpia1AfterBattleTextNotDone:
-	text "A DRAGON ORB?"
-	line "Nope, not here!"
+	text "¿Una DRAGOESFERA?"
+	line "¡Aquí no está!"
 	done
 
 TwinsLeaandpia2SeenText:
-	text "Who are you?"
+	text "¿Quién eres?"
 	done
 
 TwinsLeaandpia2BeatenText:
-	text "Meanie."
+	text "Eres malo."
 	done
 
 TwinsLeaandpia2AfterBattleTextNotDone:
-	text "DRAGON ORB? I"
-	line "don't have it!"
+	text "¿La DRAGOESFERA?"
+	line "¡Yo no la tengo!"
 	done
 
 TwinsLeaandpia2AfterBattleText:
-	text "Me and my sister"
-	line "are going to rival"
-	para "CLAIR and LANCE"
-	line "someday!"
+	text "¡Algún día mi"
+	line "hermana y yo vamos"
+	para "a ser tan fuertes"
+	line "como DÉBORA y"
+	cont "LANCE!"
 	done
 
 DragonsMaw1F_MapEvents:
@@ -421,7 +435,7 @@ DragonsMaw1F_MapEvents:
 	db 8 ; object events
 	object_event 33, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, DragonsMaw1FDragonFangScript, EVENT_DRAGONS_MAW_1F_DRAGON_FANG
 	object_event 23,  7, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 4, TrainerCooltrainermDarin, -1
-	object_event 16,  2, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_TRAINER, 3, TrainerCooltrainerfCara, -1
+	object_event 16,  2, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_TRAINER, 3, TrainerCooltrainerfCara, -1
 	object_event  2, 12, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 1, TrainerTwinsLeaandpia1, -1
 	object_event  2, 13, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 1, TrainerTwinsLeaandpia2, -1
 	object_event 19, 13, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, DragonsMaw1FDragonBreath, EVENT_DRAGONS_MAW_TM_24_DRAGONBREATH

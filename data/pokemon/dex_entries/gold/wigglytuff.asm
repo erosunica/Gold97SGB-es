@@ -1,10 +1,10 @@
-	db "BALLOON@" ; species name
-	dw 303, 260 ; height, weight
+	db "GLOBO@" ; species name
+	dbw 10, 120 ; height, weight
 
-	db   "The rich, fluffy"
-	next "fur that covers"
-	next "its body feels so"
+	db   "Es como un peluche"
+	next "suave, tan lanudo"
+	next "al tacto que,"
 
-	page "good that anyone"
-	next "who feels it can't"
-	next "stop touching it.@"
+	page "cuando lo tocas,"
+	next "no puedes dejar de"
+	next "acariciarle.@"

@@ -90,40 +90,40 @@ PostRematchScriptBugsy:
 	end
 
 BugsyRematchText:
-	text "I've continued"
-	line "my deep study"
-	cont "on bug #MON!"
+	text "¡He seguido con"
+	line "mis estudios sobre"
+	cont "los #MON bicho!"
 	
-	para "Allow me to"
-	line "show you the"
-	para "fruits of my"
-	line "labor!"
+	para "¡Permíteme"
+	line "mostrarte los"
+	cont "frutos de mi"
+	cont "labor!"
 	done
 
 BugsyRematchWinText:
-	text "Amazing!"
+	text "¡Asombroso!"
 	
-	para "I still have"
-	line "much to learn!"
+	para "¡Aún tengo mucho"
+	line "que aprender!"
 	done
 
 BugsyAfterRematchText:
-	text "CHAMPION, huh?"
+	text "¿Eres el CAMPEÓN?"
 	
-	para "So I guess that"
-	line "makes you an"
-	para "expert on all"
-	line "#MON types!"
+	para "¡Supongo que eso"
+	line "te hace experto en"
+	para "todos los tipos"
+	line "de #MON!"
 	
-	para "I think I'll"
-	line "continue to"
-	para "specialize in"
-	line "bug #MON."
+	para "Yo creo que"
+	line "seguiré enfocán-"
+	cont "dome en los"
+	cont "#MON bicho."
 	
-	para "There's so much"
-	line "to learn about"
-	para "every type of"
-	line "#MON!"
+	para "¡Hay mucho que"
+	line "aprender sobre"
+	cont "cada tipo de"
+	cont "#MON!"
 	done
 
 
@@ -219,211 +219,215 @@ WestportGymStatue:
 	jumpstd GymStatue2Script
 
 BugsyText_INeverLose:
-	text "I'm BUGSY!"
-	para "I've dedicated my"
-	line "life to learning"
-	cont "about bug #MON!"
-	para "My family has"
-	line "always been"
-	para "disgusted by bugs,"
-	line "but not me!"
-	para "bug #MON are"
-	line "fascinating, and"
-	para "grow strong very"
-	line "quickly!"
-	para "Here, let me show"
-	line "you what I've"
-	cont "learned!"
+	text "¡Soy ANTÓN!"
+	
+	para "¡He dedicado mi"
+	line "vida a aprender"
+	cont "sobre los #MON"
+	cont "bicho!"
+	
+	para "¡A mi familia"
+	line "siempre le han"
+	para "dado asco los"
+	line "bichos, pero a"
+	cont "mí no!"
+	
+	para "¡Los #MON bicho"
+	line "son fascinantes,"
+	para "y crecen muy"
+	line "rápido!"
+	
+	para "¡Déjame enseñarte"
+	line "cuánto he"
+	cont "aprendido!"
 	done
 
 BugsyText_ResearchIncomplete:
-	text "Whoa, amazing!"
-	line "You're an expert"
-	cont "on #MON!"
+	text "¡Uauu, increíble!"
+	line "¡No hay #MON"
+	cont "que se te resista!"
 
-	para "My research isn't"
-	line "complete yet."
+	para "Mi investigación"
+	line "aún no ha acabado."
 
-	para "OK, you win. Take"
-	line "this BADGE."
+	para "Vale, tú ganas."
+	line "Toma esta MEDALLA."
 	done
 
 Text_ReceivedHiveBadge:
-	text "<PLAYER> received"
-	line "HIVEBADGE."
+	text "<PLAYER> recibió la"
+	line "MEDALLA COLMENA."
 	done
 
 BugsyText_HiveBadgeSpeech:
-	text "Do you know the"
-	line "benefits of HIVE-"
-	cont "BADGE?"
+	text "¿Conoces las"
+	line "ventajas de la"
+	cont "MEDALLA COLMENA?"
 
-	para "If you have it,"
-	line "#MON up to L30"
+	para "Si la tienes, los"
+	line "#MON hasta N.30"
+	cont "te obedecerán."
 
-	para "will obey you,"
-	line "even traded ones."
+	para "Y los #MON"
+	line "que sepan FUERZA"
+	para "pueden usarla"
+	line "fuera del combate."
 
-	para "#MON that know"
-	line "STRENGTH can now"
-
-	para "use it outside"
-	line "of battle too."
-
-	para "Here, I also want"
-	line "you to have this."
+	para "Mira, también te"
+	line "daré esto."
 	done
 
 BugsyText_FuryCutterSpeech:
-	text "TM49 contains"
-	line "FURY CUTTER."
+	text "MT49 contiene"
+	line "CORTE FURIA."
 
-	para "If you don't miss,"
-	line "it gets stronger"
-	cont "every turn."
+	para "Si no fallas, se"
+	line "hace cada vez más"
+	cont "fuerte."
 
-	para "The longer your"
-	line "battle goes, the"
-	cont "better it gets."
+	para "Cuanto más dure"
+	line "el combate, más"
+	cont "fuerte será."
 
-	para "Isn't that great?"
-	line "I discovered it!"
+	para "¿No es genial?"
+	line "¡Lo descubrí yo!"
 	done
 
 BugsyText_BugMonsAreDeep:
-	text "Bug #MON are"
-	line "deep. There are"
+	text "Los #MON bicho"
+	line "son muy complejos."
 
-	para "many mysteries to"
-	line "be explored."
+	para "Quedan muchos"
+	line "misterios por"
+	cont "resolver."
 
-	para "Study your favor-"
-	line "ites thoroughly."
+	para "Estudia a fondo"
+	line "tus favoritos."
 	done
 
 BugCatcherBennySeenText:
-	text "Bug #MON evolve"
-	line "young. So they get"
-
-	para "stronger that much"
-	line "faster."
+	text "Los #MON bicho"
+	line "evolucionan pronto"
+	para "y se hacen fuertes"
+	line "mucho antes."
 	done
 
 BugCatcherBennyBeatenText:
-	text "Just evolving"
-	line "isn't enough!"
+	text "¡No se trata sólo"
+	line "de evolucionar!"
 	done
 
 BugCatcherBennyAfterBattleText:
-	text "#MON become"
-	line "stronger if they"
-	cont "evolve. Really!"
+	text "Los #MON se"
+	line "hacen más fuertes"
+	cont "si evolucionan."
 	done
 
 BugCatcherAlSeenText:
-	text "Bug #MON are"
-	line "cool and tough!"
-
-	para "I'll prove it to"
-	line "you!"
+	text "¡Los #MON bicho"
+	line "son buenos y muy"
+	para "fuertes! ¡Te lo"
+	line "demostraré!"
 	done
 
 BugCatcherAlBeatenText:
-	text "You proved how"
-	line "tough you are…"
+	text "Has demostrado lo"
+	line "fuerte que eres…"
 	done
 
 BugCatcherAlAfterBattleText:
-	text "They're so cool,"
-	line "but most girls"
+	text "Son geniales,"
+	line "pero la mayoría de"
+	para "las chicas odian"
+	line "los #MON bicho."
 
-	para "don't like bug"
-	line "#MON."
-
-	para "I don't know why…"
+	para "No sé por qué…"
 	done
 
 BugCatcherJoshSeenText:
-	text "Bug #MON get"
-	line "strong quickly!"
-	para "Want to see?"
+	text "¡Los #MON bicho"
+	line "se hacen fuertes"
+	cont "muy rápido!"
+	
+	para "¿Quieres"
+	line "comprobarlo?"
 	done
 
 BugCatcherJoshBeatenText:
-	text "Urrgggh!"
+	text "¡Urrggg!"
 	done
 
 BugCatcherJoshAfterBattleText:
-	text "I guess I should"
-	line "teach them better"
-	cont "moves…"
+	text "Supongo que"
+	line "debería enseñarles"
+	cont "mejores ataques…"
 	done
 
 TwinsAmyandmay1SeenText:
-	text "AMY: Hi! Are you"
-	line "challenging the"
-	cont "LEADER? No way!"
+	text "AMY: ¡Hola! ¿Estás"
+	line "retando al LÍDER?"
+	cont "¡No puede ser!"
 	done
 
 TwinsAmyandmay1BeatenText:
-	text "AMY & MAY: Oh,"
-	line "double goodness!"
+	text "AMY-MAY: ¡Ay,"
+	line "Dios mío!"
 	done
 
 TwinsAmyandmay1AfterBattleText:
-	text "AMY: You're"
-	line "really strong!"
+	text "AMY: ¡Eres muy"
+	line "fuerte!"
 	done
 
 TwinsAmyandmay2SeenText:
-	text "MAY: You want to"
-	line "see the LEADER?"
-	cont "We come first!"
+	text "MAY: ¿Quieres ver"
+	line "al LÍDER? ¡Antes"
+	cont "vamos nosotras!"
 	done
 
 TwinsAmyandmay2BeatenText:
-	text "AMY & MAY: Oh,"
-	line "double goodness!"
+	text "AMY-MAY: ¡Ay,"
+	line "Dios mío!"
 	done
 
 TwinsAmyandmay2AfterBattleText:
-	text "MAY: Our bug #-"
-	line "MON lost! Oh, what"
-	cont "a shame."
+	text "MAY: Han perdido"
+	line "nuestros #MON."
+	cont "¡Qué lástima!"
 	done
 
 WestportGymGuyText:
-	text "Yo, challenger!"
+	text "¡Hola, valiente!"
 
-	para "BUGSY's young, but"
-	line "his knowledge of"
+	para "ANTÓN es joven,"
+	line "pero conoce muy"
+	para "bien a los #MON"
+	line "bicho."
 
-	para "bug #MON is for"
-	line "real."
+	para "Y sin mis consejos"
+	line "te resultaría aún"
+	cont "más duro."
 
-	para "It's going to be"
-	line "tough without my"
-	cont "advice."
+	para "Veamos… A los"
+	line "#MON bicho no"
+	cont "les va el fuego."
 
-	para "Let's see… Bug"
-	line "#MON don't like"
-	cont "fire."
-
-	para "Flying-type moves"
-	line "are super-effec-"
-	cont "tive too."
+	para "Y los ataques de"
+	line "tipo volador son"
+	cont "muy efectivos."
 	done
 
 WestportGymGuyWinText:
-	text "Well done! That"
-	line "was a great clash"
+	text "¡Eso es! Ha sido"
+	line "un gran encuentro"
+	para "entre jóvenes con"
+	line "talento."
 
-	para "of talented young"
-	line "trainers."
+	para "Con gente como tú,"
+	line "¡el futuro de los"
 
-	para "With people like"
-	line "you, the future of"
-	cont "#MON is bright!"
+	para "#MON será"
+	line "maravilloso!"
 	done
 
 WestportGym_MapEvents:
@@ -442,7 +446,7 @@ WestportGym_MapEvents:
 	db 7 ; object events
 	object_event  5,  7, SPRITE_BUGSY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, WestportGymBugsyScript, -1
 	object_event  5,  3, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 1, TrainerBugCatcherBenny, -1
-	object_event  8,  6, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_TRAINER, 3, TrainerBugCatcherAl, -1
+	object_event  8,  6, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_TRAINER, 3, TrainerBugCatcherAl, -1
 	object_event  1,  2, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 3, TrainerBugCatcherJosh, -1
 	object_event  4, 10, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_TRAINER, 1, TrainerTwinsAmyandmay1, -1
 	object_event  5, 10, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_TRAINER, 1, TrainerTwinsAmyandmay2, -1

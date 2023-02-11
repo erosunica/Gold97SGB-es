@@ -161,16 +161,30 @@ Function9102:
 	ret
 
 .BGPal:; lapras intro
+IF MGB
+	RGB 22, 23, 19
+	RGB 14, 15, 12
+	RGB 08, 09, 07
+	RGB 04, 05, 04
+ELSE
 	RGB 31, 31, 31
-	RGB 15, 29, 27
-	RGB 12, 23, 27
+	RGB 15, 28, 26
+	RGB 12, 22, 26
 	RGB 03, 16, 14
+ENDC
 
 .OBPal:
+IF MGB
+	RGB 22, 23, 19
+	RGB 14, 15, 12
+	RGB 08, 09, 07
+	RGB 04, 05, 04
+ELSE
 	RGB 31, 31, 31
-	RGB 15, 29, 27
-	RGB 12, 23, 27
+	RGB 15, 28, 26
+	RGB 12, 22, 26
 	RGB 03, 16, 14
+ENDC
 
 Function9136:
 	call CheckCGB
@@ -345,7 +359,11 @@ LoadMailPalettes:
 	ret
 
 .MailPals:
+IF MGB
+INCLUDE "gfx/mail/mail_mgb.pal"
+ELSE
 INCLUDE "gfx/mail/mail.pal"
+ENDC
 
 INCLUDE "engine/gfx/cgb_layouts.asm"
 
@@ -429,9 +447,16 @@ LoadPalette_White_Col1_Col2_Black:
 	dec c
 	jr nz, .loop
 
+IF MGB ;erosunica: replace pure black with MGB darkest color
+	ld a, LOW(PALRGB_BLACK)
+ELSE
 	xor a
+ENDC
 	ld [de], a
 	inc de
+IF MGB ;erosunica: replace pure black with MGB darkest color
+	ld a, HIGH(PALRGB_BLACK)
+ENDC
 	ld [de], a
 	inc de
 	ret
@@ -546,7 +571,7 @@ CGB_ApplyPartyMenuHPPals:
 	ld a, [de]
 	inc a
 	ld e, a
-	hlcoord 11, 0, wAttrmap
+	hlcoord 4, 1, wAttrmap ; erosunica: modded to match its new location
 	ld bc, 2 * SCREEN_WIDTH
 	ld a, [wSGBPals]
 .loop
@@ -613,7 +638,11 @@ GetMonPalettePointer:
 	ret
 
 BattleObjectPals:
+IF MGB
+INCLUDE "gfx/battle_anims/battle_anims_mgb.pal"
+ELSE
 INCLUDE "gfx/battle_anims/battle_anims.pal"
+ENDC
 
 _GetMonPalettePointer:
 	ld l, a
@@ -999,10 +1028,18 @@ INCLUDE "gfx/sgb/pal_packets.asm"
 INCLUDE "data/sgb_ctrl_packets.asm"
 
 PredefPals:
+IF MGB
+INCLUDE "gfx/sgb/predef_mgb.pal"
+ELSE
 INCLUDE "gfx/sgb/predef.pal"
+ENDC
 
 PredefPals_CGB:
+IF MGB
+INCLUDE "gfx/sgb/predef_cgb_mgb.pal"
+ELSE
 INCLUDE "gfx/sgb/predef_cgb.pal"
+ENDC
 
 SGBBorderMap:
 ; interleaved tile ids and palette ids, without the center 20x18 screen area
@@ -1014,10 +1051,18 @@ SGBBorderGFX:
 INCBIN "gfx/sgb/gold_border.2bpp"
 
 HPBarPals:
+IF MGB
+INCLUDE "gfx/battle/hp_bar_mgb.pal"
+ELSE
 INCLUDE "gfx/battle/hp_bar.pal"
+ENDC
 
 ExpBarPalette:
+IF MGB
+INCLUDE "gfx/battle/exp_bar_mgb.pal"
+ELSE
 INCLUDE "gfx/battle/exp_bar.pal"
+ENDC
 
 INCLUDE "data/pokemon/palettes.asm"
 
@@ -1112,31 +1157,78 @@ endr
 INCLUDE "data/maps/environment_colors.asm"
 
 TilesetBGPalette:
+IF MGB
+INCLUDE "gfx/tilesets/bg_tiles_mgb.pal"
+ELSE
 INCLUDE "gfx/tilesets/bg_tiles.pal"
+ENDC
 
 MapObjectPals::
+IF MGB
+INCLUDE "gfx/overworld/npc_sprites_mgb.pal"
+ELSE
 INCLUDE "gfx/overworld/npc_sprites.pal"
+ENDC
 
 RoofPals:
+IF MGB
+INCLUDE "gfx/tilesets/roofs_mgb.pal"
+ELSE
 INCLUDE "gfx/tilesets/roofs.pal"
+ENDC
 
 DiplomaPalettes:
+IF MGB
+INCLUDE "gfx/diploma/diploma_mgb.pal"
+ELSE
 INCLUDE "gfx/diploma/diploma.pal"
+ENDC
 
 PartyMenuOBPals:
+IF MGB
+INCLUDE "gfx/stats/party_menu_ob_mgb.pal"
+ELSE
 INCLUDE "gfx/stats/party_menu_ob.pal"
+ENDC
 
 GSTitleBGPals:
+IF MGB
+INCLUDE "gfx/title/title_bg_gold_mgb.pal"
+ELSE
 INCLUDE "gfx/title/title_bg_gold.pal"
+ENDC
 
 GSTitleOBPals:
+IF MGB
+INCLUDE "gfx/title/title_fg_mgb.pal"
+ELSE
 INCLUDE "gfx/title/title_fg.pal"
+ENDC
 
 PokegearPals:
+IF MGB
+INCLUDE "gfx/pokegear/pokegear_mgb.pal"
+ELSE
 INCLUDE "gfx/pokegear/pokegear.pal"
+ENDC
 
 BetaPokerPals:
+IF MGB
+INCLUDE "gfx/beta_poker/beta_poker_mgb.pal"
+ELSE
 INCLUDE "gfx/beta_poker/beta_poker.pal"
+ENDC
 
 SlotMachinePals:
+IF MGB
+INCLUDE "gfx/slots/slots_gold_mgb.pal"
+ELSE
 INCLUDE "gfx/slots/slots_gold.pal"
+ENDC
+
+NamingScreenPals:
+IF MGB
+INCLUDE "gfx/naming_screen/naming_screen_mgb.pal"
+ELSE
+INCLUDE "gfx/naming_screen/naming_screen.pal"
+ENDC

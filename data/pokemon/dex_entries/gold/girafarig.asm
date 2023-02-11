@@ -1,10 +1,10 @@
-	db "LONG NECK@" ; species name
-	dw 411, 910 ; height, weight
+	db "GRANCUELLO@" ; species name
+	dbw 15, 415 ; height, weight
 
-	db   "When it is in"
-	next "danger, its tail"
-	next "uses some sort of"
+	db   "Cuando está en"
+	next "peligro, la cola"
+	next "entra en acción."
 
-	page "mysterious powers"
-	next "to drive away the"
-	next "enemy.@"
+	page "Usa sus poderes"
+	next "y consigue ahuyen-"
+	next "tar al enemigo.@"

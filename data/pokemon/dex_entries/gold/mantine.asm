@@ -1,10 +1,10 @@
-	db "KITE@" ; species name
-	dw 611, 4850 ; height, weight
+	db "MILANO@" ; species name
+	dbw 21, 2200 ; height, weight
 
-	db   "It swims along"
-	next "freely, eating"
-	next "things that swim"
+	db   "Va nadando por ahí"
+	next "tranquilamente,"
+	next "comiendo lo que le"
 
-	page "into its mouth."
-	next "Its whole body is"
-	next "very coarse.@"
+	page "cae en la boca."
+	next "Tiene un cuerpo"
+	next "muy resistente.@"

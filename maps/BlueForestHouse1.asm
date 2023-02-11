@@ -35,32 +35,38 @@ BlueForestHouse1MimmeoScript:
 	
 BlueForestHouse1MonText:
 	text "MIMMEO:"
-	line "Uoi!"
+	line "¡Mim!"
 	done
 
 Text_NightmareIntro:
-	text "I had a terrible"
-	line "nightmare last"
-	para "night that my"
-	line "MIMMEO had dis-"
-	cont "appeared."
-	para "I was so heart-"
-	line "broken."
-	para "Fortunately it was"
-	line "not real."
-	para "But I did find"
-	line "this in my house"
-	cont "today."
-	para "I don't want it."
-	line "Take it, please."
+	text "Anoche tuve una"
+	line "terrible pesadilla"
+	para "en la que mi"
+	line "MIMMEO había"
+	cont "desaparecido."
+
+	para "Me sentí"
+	line "devastada."
+
+	para "Por suerte, no fue"
+	line "real."
+
+	para "Pero hoy encontré"
+	line "esto en mi casa."
+
+	para "No lo quiero."
+	line "Quédatelo, por"
+	cont "favor."
 	done
-	
+
 Text_NightmareOutro:
-	text "TM50 teaches"
-	line "NIGHTMARE."
-	para "It can do great"
-	line "damage to #MON"
-	cont "that are asleep."
+	text "La MT50 enseña"
+	line "PESADILLA."
+
+	para "Provoca un gran"
+	line "daño a los"
+	cont "#MON que están"
+	cont "dormidos."
 	done
 
 BlueForestHouse1_MapEvents:

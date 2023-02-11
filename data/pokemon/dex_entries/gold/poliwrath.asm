@@ -1,10 +1,10 @@
-	db "TADPOLE@" ; species name
-	dw 403, 1190 ; height, weight
+	db "RENACUAJO@" ; species name
+	dbw 13, 540 ; height, weight
 
-	db   "It can use its"
-	next "well-developed"
-	next "arms and legs to"
+	db   "Puede utilizar sus"
+	next "fornidos brazos y"
+	next "piernas para ir"
 
-	page "run on the surface"
-	next "of the water for a"
-	next "split second.@"
+	page "por la superficie"
+	next "del agua durante"
+	next "medio segundo.@"

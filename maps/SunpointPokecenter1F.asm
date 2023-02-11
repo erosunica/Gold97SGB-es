@@ -36,72 +36,71 @@ SunpointPokecenter1FSuperNerdScript:
 	jumptextfaceplayer SunpointPokecenter1FSuperNerdText
 
 SunpointPokecenter1FLassText:
-	text "Don't you get the"
-	line "urge to show off"
-
-	para "your #MON to"
-	line "friends?"
-	para "I always brag"
-	line "about my beautiful"
+	text "¿A veces no te dan"
+	line "ganas de enseñar"
+	cont "tus #MON a tus"
+	cont "amigos?"
+	para "Yo siempre presumo"
+	line "de mi precioso"
 	cont "BELLEDAM."
 	done
 
 StandGymGuyText:
-	text "Did you go up to"
-	line "the DOCKS?"
-	para "Something fishy is"
-	line "going on up there."
+	text "¿Has ido al"
+	line "MUELLE?"
+	para "Se está cociendo"
+	line "algo sospechoso"
+	cont "allí."
 	done
 
 StandGymGuyWinText:
-	text "Those were TEAM"
-	line "ROCKET members at"
-	cont "the docks?"
-	para "I can't believe"
-	line "they showed their"
-	cont "faces again!"
+	text "¿Esos que estaban"
+	line "en el MUELLE no"
+	para "eran miembros del"
+	line "TEAM ROCKET?"
+	para "¡No puedo creer"
+	line "que hayan vuelto"
+	cont "a dar la cara!"
 	done
 
 SunpointPokecenter1FUnusedText1:
 ; unreferenced
-	text "Don't you get the"
-	line "urge to show off"
+	text "¿A veces no te dan"
+	line "ganas de enseñar"
+	cont "tus #MON a tus"
+	cont "amigos?"
 
-	para "your #MON to"
-	line "friends?"
-
-	para "I wish I could"
-	line "show the #MON I"
-
-	para "raised to my pal"
-	line "in PAGOTA."
+	para "Ojalá pudiera"
+	line "enseñarle a mi"
+	para "amigo en PAGOTA"
+	line "el #MON que he"
+	cont "criado."
 	done
 
 SunpointPokecenter1FUnusedText2:
 ; unreferenced
-	text "I've been battling"
-	line "my pal in PAGOTA"
+	text "He estado comba-"
+	line "tiendo contra mi"
+	para "amigo en PAGOTA"
+	line "usando el cable"
+	cont "del ADAPTADOR"
+	cont "MÓVIL."
 
-	para "using a MOBILE"
-	line "ADAPTER link."
-
-	para "I'm down 5-7"
-	line "against him. I've"
-	cont "gotta crank it up!"
+	para "Voy perdiendo 5 a"
+	line "7. ¡Tengo que"
+	cont "remontar!"
 	done
 
 SunpointPokecenter1FSuperNerdText:
-	text "I love showing off"
-	line "the #MON that"
+	text "Me encanta enseñar"
+	line "los #MON que"
+	cont "he criado."
 
-	para "I've raised."
-	line "Don't you?"
-
-	para "I'm going to get"
-	line "into a bunch of"
-
-	para "battles, and show"
-	line "off my #MON!"
+	para "¿A ti no?"
+	para "¡Voy a participar"
+	line "en muchos combates"
+	para "para poder mostrar"
+	line "a mis #MON!"
 	done
 
 SunpointPokecenter1F_MapEvents:

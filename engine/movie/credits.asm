@@ -553,7 +553,11 @@ GetCreditsPalette:
 	ret
 
 CreditsPalettes:
+IF MGB
+INCLUDE "gfx/credits/credits_mgb.pal"
+ELSE
 INCLUDE "gfx/credits/credits.pal"
+ENDC
 
 Credits_LoadBorderGFX:
 	ld hl, wCreditsBorderFrame

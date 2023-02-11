@@ -1,10 +1,10 @@
-	db "POISONMOTH@" ; species name
-	dw 411, 280 ; height, weight
+	db "POLILLA V.@" ; species name
+	dbw 15, 125 ; height, weight
 
-	db   "The scales it"
-	next "scatters will"
-	next "paralyze anyone"
+	db   "Lanza unas escamas"
+	next "que paralizan a"
+	next "cualquiera."
 
-	page "who touches them,"
-	next "making that person"
-	next "unable to stand.@"
+	page "Quien las toque,"
+	next "no podrá ni"
+	next "ponerse de pie.@"

@@ -1,10 +1,10 @@
-	db "LITTLE BIRD@" ; species name
-	dw 8, 40 ; height, weight
+	db "PAJARITO@" ; species name
+	dbw 2, 20 ; height, weight
 
-	db   "It is extremely"
-	next "good at climbing"
-	next "tree trunks and"
+	db   "Sabe trepar muy"
+	next "bien por el tronco"
+	next "de los árboles."
 
-	page "likes to eat the"
-	next "new sprouts on"
-	next "the trees.@"
+	page "Además, aprovecha"
+	next "para zamparse los"
+	next "nuevos brotes.@"

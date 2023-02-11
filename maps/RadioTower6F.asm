@@ -180,211 +180,237 @@ PlayerWalksToDirector:
 	step_end
 	
 DirectorThanksText:
-	text "Oh, dear!"
-	para "Where have those"
-	line "nasty TEAM ROCKET"
-	cont "members gone?"
-	para "Have they left?"
-	para "Hello, kid!"
-	line "Did you get rid"
-	cont "of them?"
-	para "Oh, you did?"
-	line "I am forever"
-	cont "grateful!"
-	para "They had kicked me"
-	line "out of my office,"
-	para "and my poor"
-	line "CLEFABLE was left"
-	cont "behind!"
-	para "I had no way to"
-	line "battle my way"
-	cont "back up!"
-	para "I must give you"
-	line "something to show"
-	cont "my gratitude!"
-	para "Here, take this!"
+	text "¡Cielos!"
+	
+	para "¿A dónde han ido"
+	line "esos impresenta-"
+	cont "bles del TEAM"
+	cont "ROCKET?"
+	
+	para "¿Se han ido?"
+	
+	para "¡Hola, chico!"
+	line "¿Te has encargado"
+	cont "de ellos?"
+	
+	para "¿En serio?"
+	line "¡Te lo agradezco"
+	cont "muchísimo!"
+	
+	para "¡Me echaron a"
+	line "patadas de mi"
+	para "oficina y mi pobre"
+	line "CLEFABLE se quedó"
+	cont "ahí!"
+	
+	para "¡No tenía modo de"
+	line "abrirme paso!"
+	
+	para "¡Tengo que darte"
+	line "algo como muestra"
+	cont "de gratitud!"
+	
+	para "¡Ya sé, toma esto!"
 	done
 	
 DirectorThanksText2:
-	text "With that move,"
-	line "your #MON can"
-	para "break rocks you"
-	line "may find blocking"
-	cont "certain locations."
-	para "I'm sure you'd"
-	line "get more use out"
-	cont "of it than me!"
-	para "I don't ever want"
-	line "to leave this"
-	cont "office again!"
+	text "Con este movimien-"
+	line "to, tus #MON"
+	para "podrán romper"
+	line "rocas que bloquean"
+	cont "algunos caminos."
+
+	para "¡Seguro que le"
+	line "darás más uso que"
+	cont "yo!"
+
+	para "¡No quiero salir"
+	line "de esta oficina"
+	cont "nunca más!"
 	done
 	
 GiovanniExitingText:
-	text "I tell you now."
-	para "The world has not"
-	line "seen the end of"
+	text "Te diré algo."
+
+	para "El mundo volverá a"
+	line "ser testigo del"
 	cont "TEAM ROCKET."
-	para "We rose from the"
-	line "ashes before, and"
-	para "one day, we shall"
-	line "do it again!"
+
+	para "¡Ya resurgimos"
+	line "antes de las"
+	para "cenizas, y un día,"
+	line "volveremos a"
+	cont "hacerlo!"
 	done
 	
 GiovanniWinText:
-	text "No! Not again!"
+	text "¡No! ¡Otra vez no!"
 	
-	para "My plans…"
+	para "Mis planes…"
 	
-	para "My efforts…"
+	para "Mis esfuerzos…"
 	
-	para "Was it all for"
-	line "naught!?"
+	para "¡¿Todo ha sido en"
+	line "vano?!"
 	done
 	
 GiovanniLossText:
-	text "Heh."
+	text "Bah…"
 	done
 	
 GiovanniGreeting:
-	text "Ah."
-	para "I assume you are"
-	line "one of the two"
-	para "children I've been"
-	line "hearing about."
-	para "Are you <RIVAL>?"
-	para "No, you must be"
+	text "Ah…"
+
+	para "Supongo que eres"
+	line "uno de los dos"
+	para "niños de los que"
+	line "he oído hablar."
+
+	para "¿Eres <RIVAL>?"
+	para "No, debes de ser"
 	line "<PLAYER>."
-	para "Well, <PLAYER>,"
-	line "do you understand"
-	para "why you stand here"
-	line "before me?"
-	para "I know why."
+
+	para "Bueno, <PLAYER>,"
+	line "¿entiendes por qué"
+	para "estás aquí ahora"
+	line "frente a mí?"
+	para "Yo sé por qué."
 	
-	para "It is because you"
-	line "are very brave…"
-	para "Or very foolish."
+	para "Es porque eres muy"
+	line "valiente…"
+	para "O muy necio."
 	
-	para "I am the leader of"
+	para "Soy el líder del"
 	line "TEAM ROCKET."
 	
-	para "I have endured"
-	line "much to restore"
-	para "my organization to"
-	line "its former glory."
+	para "Me he esforzado"
+	line "mucho por hacer"
+	para "que mi organiza-"
+	line "ción vuelva a su"
+	cont "vieja gloria."
 	
-	para "And you remind me"
-	line "of another certain"
-	para "child I once"
-	line "faced."
+	para "Me recuerdas a"
+	line "otro niño al que"
+	cont "me enfrenté una"
+	cont "vez."
 
 	para "…"
 	
-	para "It truly angers"
-	line "me."
+	para "Lo detesto, no"
+	line "sabes cuánto."
 
-	para "I know exactly"
-	line "what your flawed"
-	cont "intentions are."
+	para "Sé perfectamente"
+	line "cuáles son tus"
+	cont "erróneas"
+	cont "intenciones."
 	
-	para "You wish to stop"
-	line "my plans."
+	para "Quieres frustrar"
+	line "mis planes."
 	
-	para "Well I won't allow"
-	line "it."
+	para "Pues no lo voy a"
+	line "permitir."
 	
-	para "Not again!"
+	para "¡No esta vez!"
 	
-	para "I, GIOVANNI, the"
-	line "mighty LEADER of"
+	para "Yo, GIOVANNI, el"
+	line "poderoso LÍDER del"
 	cont "TEAM ROCKET,"	
-	para "will crush you!"	
+	para "¡acabaré contigo!"	
 	done
 	
 
 	
 Executive6FSeenText:
-	text "EXECUTIVE: No!"
+	text "EJECUTIVO: ¡No!"
 
-	para "You will go no"
-	line "further!"
+	para "¡No darás ni un"
+	line "paso más!"
 	
-	para "Brats like you do"
-	line "not deserve an"
-	cont "audience with our"
-	cont "leader!"
+	para "¡Los mocosos como"
+	line "tú no son dignos"
+	cont "de reunirse con"
+	cont "nuestro jefe!"
 	
-	para "This ends here!"
+	para "¡Esto acaba aquí"
+	line "y ahora!"
 	done
 	
 Executive6FBeatenText:
-	text "No!"
+	text "¡No!"
 	
-	para "GIOVANNI,"
-	line "forgive me!"
+	para "¡GIOVANNI,"
+	line "perdóneme!"
 	done
 	
 Executive6FAfterBattleText:
 	text "…"
-	para "I have no anger"
-	line "left for you."
-	para "If you would like"
-	line "to see GIOVANNI,"
-	para "he's right over"
-	line "there."
+	para "Ya no tengo más"
+	line "ira que descargar"
+	cont "contra ti."
+
+	para "Si quieres"
+	line "encontrarte con"
+	para "GIOVANNI, está"
+	line "justo delante."
 	done
 	
 RadioTower6FDirectorsOfficeSignText:
-	text "6F DIRECTOR'S"
-	line "   OFFICE"
+	text "P5 OFICINA DEL"
+	line "   DIRECTOR"
 	done
 	
 RadioTower6FClefableText:
 	text "CLEFABLE:"
-	line "Cleffa-fa!"
+	line "¡Clefa-ble!"
 	done
 
 ClefableScaredText:
 	text "CLEFABLE:"
-	line "Cl..cleffa?"
+	line "¿Cle… clefa?"
 	done
 	
 ClefableScaredText2:
-	text "It seems to be"
-	line "frightened…"
-	para "Also there's no"
-	line "way to talk to"
-	para "the scared cleffa,"
-	line "so you never see"
-	cont "this text…"
+	text "Parece asustado…"
+	para "Por cierto, no"
+	line "puedes hablar con"
+	para "el CLEFABLE"
+	line "asustado, así que"
+	cont "nunca verás este"
+	cont "texto…"
 	done
 
 RadioTower6fTeacherText:
-	text "This is the office"
-	line "of the DIRECTOR"
-	para "in charge of this"
-	line "whole operation!"
+	text "¡Esta es la"
+	line "oficina del"
+	para "DIRECTOR a cargo"
+	line "de toda la"
+	cont "realización!"
 	done
 	
 RadioTower6fTeacherTextTakeover:
-	text "Where'd the"
-	line "DIRECTOR go?"
-	para "I hope he's okay!"
+	text "¿Dónde ha ido el"
+	line "DIRECTOR?"
+	para "¡Espero que esté"
+	line "bien!"
 	done
 
 RadioTower6fGentlemanText:
-	text "I started the JOPM"
-	line "RADIO COMPANY to"
-	para "share my love of"
-	line "#MON!"
-	para "I hope people and"
-	line "#MON alike"
-	cont "enjoy our shows."
+	text "¡Fundé la COMPAÑÍA"
+	line "DE RADIO JOPM para"
+	para "compartir mi amor"
+	line "por los #MON!"
+
+	para "Espero que tanto"
+	line "la gente como los"
+	para "#MON disfruten"
+	line "de nuestros"
+	cont "programas."
 	done
 	
 RadioTower6fGentlemanTextTakeover:
-	text "I am missing right"
-	line "now, so you never"
-	cont "see this text"
+	text "No estoy, así que"
+	line "nunca verás este"
+	cont "texto."
 	done
 	
 

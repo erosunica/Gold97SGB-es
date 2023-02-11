@@ -55,47 +55,46 @@ Route116FruitTree:
 
 
 BugCatcherDougSeenText:
-	text "Why don't girls"
-	line "like bug #MON?"
+	text "¿Por qué a las"
+	line "chicas no les"
+	para "gustan los"
+	line "#MON bicho?"
 	done
 
 BugCatcherDougBeatenText:
-	text "No good!"
+	text "¡Muy mal!"
 	done
 
 BugCatcherDougAfterBattleText:
-	text "Bug #MON squish"
-	line "like plush toys"
+	text "Los #MON bicho"
+	line "parecen muñecos de"
+	para "goma cuando les"
+	line "aprietas la tripa."
 
-	para "when you squeeze"
-	line "their bellies."
-
-	para "I love how they"
-	line "feel!"
+	para "¡Me encanta"
+	line "tocarlos!"
 	done
-	
-
 
 HikerRussellSeenText:
-	text "I'm trying to walk"
-	line "all of NIHON!"
+	text "¡Intento cruzar"
+	line "todo NIHON!"
 	done
 
 HikerRussellBeatenText:
-	text "I'm tired!"
+	text "¡Estoy agotado!"
 	done
 
 HikerRussellAfterBattleText:
-	text "I think I'll stick"
-	line "around here and"
-	cont "rest for a while."
+	text "Creo que me pararé"
+	line "por aquí a"
+	cont "descansar un rato."
 	done
 
 Route116SignText:
-	text "ROUTE 116"
-
-	para "BIRDON TOWN -"
-	line "SANSKRIT TOWN"
+	text "RUTA 116"
+	
+	para "PUEBLO BIRDON -"
+	line "PUEBLO SÁNSCRITO"
 	done
 
 
@@ -116,4 +115,4 @@ Route116_MapEvents:
 	object_event  4, 26, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 5, TrainerBugCatcherDoug, -1
 	object_event  8, 19, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 5, TrainerHikerRussell, -1
 	object_event  4, 18, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route116SuperPotion, EVENT_ROUTE_116_MAX_POTION
-	object_event  4, 21, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route116FruitTree, -1
+	object_event  4, 21, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, Route116FruitTree, -1

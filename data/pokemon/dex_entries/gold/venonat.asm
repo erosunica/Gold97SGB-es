@@ -1,10 +1,10 @@
-	db "INSECT@" ; species name
-	dw 303, 660 ; height, weight
+	db "INSECTO@" ; species name
+	dbw 10, 300 ; height, weight
 
-	db   "The small bugs it"
-	next "eats appear only"
-	next "at night, so it"
+	db   "Los bichitos que"
+	next "come sólo salen"
+	next "por la noche, así"
 
-	page "sleeps in a hole"
-	next "in a tree until"
-	next "night falls.@"
+	page "que, durante el"
+	next "día, duerme en el"
+	next "hueco de un árbol.@"

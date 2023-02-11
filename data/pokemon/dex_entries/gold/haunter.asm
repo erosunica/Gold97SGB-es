@@ -1,10 +1,10 @@
 	db "GAS@" ; species name
-	dw 503, 2 ; height, weight
+	dbw 16, 1 ; height, weight
 
-	db   "It hides in the"
-	next "dark, planning to"
-	next "take the life of"
+	db   "Se refugia en la"
+	next "oscuridad y perma-"
+	next "nece al acecho,"
 
-	page "the next living"
-	next "thing that wanders"
-	next "close by.@"
+	page "hasta que coge por"
+	next "sorpresa a su"
+	next "próxima víctima.@"

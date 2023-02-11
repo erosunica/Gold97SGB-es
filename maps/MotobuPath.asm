@@ -63,83 +63,90 @@ MotobuPathItemball:
 	itemball EARTHEN_CLAY
 	
 MotobuYoungsterText:
-	text "The strength of"
-	line "the trainers and"
-	para "wild #MON on"
-	line "the ISLANDS amazes"
-	cont "me!"
+	text "¡Me fascina la"
+	line "fuerza de los"
+	para "entrenadores y los"
+	line "#MON salvajes"
+	cont "en las ISLAS!"
 	done
-	
+
 CooltrainermLiamSeenText:
-	text "I've raised my"
-	line "team to be ready"
-	cont "for anything!"
-	para "Bring it!"
+	text "¡He entrenado a"
+	line "mi equipo para"
+	para "que esté listo"
+	line "contra cualquier"
+	cont "oponente!"
+
+	para "¡Dalo todo!"
 	done
-	
+
 CooltrainermLiamBeatenText:
-	text "You brought it."
+	text "Sí que lo diste"
+	line "todo."
 	done
-	
+
 CooltrainermLiamAfterBattleText:
-	text "I think I might go"
-	line "for a swim…"
+	text "Creo que iré a"
+	line "nadar un rato…"
 	done
 
 SwimmerfJillSeenText:
-	text "The water is so"
-	line "nice and warm"
-	cont "around here!"
+	text "¡El agua de por"
+	line "aquí es muy agra-"
+	cont "dable y cálida!"
 	done
 
 SwimmerfJillBeatenText:
-	text "Kyah!"
+	text "¡Ay!"
 	done
 
 SwimmerfJillAfterBattleText:
-	text "Going to the"
-	line "#MON CENTER"
-	para "means I have to"
-	line "get out of the"
-	cont "water. Oh, well."
+	text "Ir al CENTRO"
+	line "#MON significa"
+	para "tener que salir"
+	line "del agua. En fin…"
 	done
 
 SwimmerfMarySeenText:
-	text "I'll swim circles"
-	line "around you!"
+	text "¡Nadaré en"
+	line "círculos alrededor"
+	cont "de ti!"
 	done
 
 SwimmerfMaryBeatenText:
-	text "I'm dizzy!"
+	text "¡Qué mareo!"
 	done
 
 SwimmerfMaryAfterBattleText:
-	text "I think I'm"
-	line "getting some heat"
-	cont "stroke out here."
+	text "Creo que me va a"
+	line "dar un golpe de"
+	cont "calor."
 	done
 
 SwimmerfKatieSeenText:
-	text "Ka-splash!"
+	text "¡Ven que te"
+	line "salpique!"
 	done
 
 SwimmerfKatieBeatenText:
-	text "Washed out!"
+	text "¡He acabado"
+	line "salpicada yo!"
 	done
 
 SwimmerfKatieAfterBattleText:
-	text "Want to see how"
-	line "long I can hold"
-	cont "my breath?"
+	text "¿Quieres ver"
+	line "cuánto aguanto la"
+	cont "respiración?"
 	done
 
 MotobuPathSign:
 	jumptext MotobuPathSignText
 	
 MotobuPathSignText:
-	text "MOTOBU PATH"
-	para "NAGO VILLAGE -"
-	line "IEJIMA TOWN"
+	text "SENDA MOTOBU"
+
+	para "VILLA NAGO -"
+	line "PUEBLO IEJIMA"
 	done
 
 
@@ -157,7 +164,7 @@ MotobuPath_MapEvents:
 	db 6 ; object events
 	object_event 27,  7, SPRITE_SWIMMER_GIRL, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 3, TrainerSwimmerfJill, -1
 	object_event 32, 12, SPRITE_SWIMMER_GIRL, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 3, TrainerSwimmerfMary, -1
-	object_event 35,  7, SPRITE_SWIMMER_GIRL, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_TRAINER, 3, TrainerSwimmerfKatie, -1
+	object_event 35,  7, SPRITE_SWIMMER_GIRL, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_TRAINER, 3, TrainerSwimmerfKatie, -1
 	object_event  6,  7, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 3, TrainerCooltrainermLiam, -1
 	object_event 14, 15, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 3, MotobuYoungsterScript, -1
 	object_event 12, 17, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, MotobuPathItemball, EVENT_MOTOBU_PATH_ITEMBALL

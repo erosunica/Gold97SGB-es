@@ -93,10 +93,10 @@ DollSalesmanFridayMenu:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "VOLTORB     ¥5000@"
-	db "WEEDLE      ¥5000@"
-	db "GEODUDE     ¥5000@"
-	db "CANCEL@"
+	db "VOLTORB     5000¥@"
+	db "WEEDLE      5000¥@"
+	db "GEODUDE     5000¥@"
+	db "SALIR@"
 	
 DollSalesmanFriday_FinishScript:
 	waitsfx
@@ -119,49 +119,56 @@ DollSalesmanFridayNoMoney:
 	end
 	
 SendItemToPCTextDollFriday:
-	text "Send this DOLL to"
-	line "your bedroom PC?"
+	text "¿Quieres enviar"
+	line "este MUÑECO al PC"
+	cont "de tu dormitorio?"
 	done
 
 AlreadyHaveDecorItemTextSalesmanFriday:
-	text "You already have"
-	line "this DOLL!"
+	text "¡Ya tienes este"
+	line "MUÑECO!"
 	done
 
 DollSalesmanFriday_HereYouGoText:
-	text "Here you go!"
+	text "¡Listo!"
 	done
 	
 DollSalesmanFridayComeAgain:
-	text "Hope to see you"
-	line "again somewhere!"
+	text "¡Espero que"
+	line "volvamos a vernos!"
 	done
 	
 DollSalesmanFridayNoMoneyText:
-	text "Sorry, you'll"
-	line "need more money!"
+	text "¡Lo siento, no"
+	line "tienes suficiente"
+	cont "dinero!"
 	done
 	
 DollSalesmanTextFriday:
-	text "Hiya!"
-	para "I'm a traveling"
-	line "DOLL salesman!"
-	para "What does that"
-	line "mean?"
-	para "It means that I'm"
-	line "who you talk to"
-	para "if you want to"
-	line "deck out your"
-	cont "bedroom!"
-	para "My stock and my"
-	line "location change"
-	para "daily, so keep an"
-	line "eye out for me!"
+	text "¡Hola!"
+	
+	para "¡Soy un vendedor"
+	line "de MUÑECOS"
+	cont "ambulante!"
+	
+	para "¿Sabes lo que"
+	line "significa?"
+	
+	para "¡Que soy la"
+	line "persona que buscas"
+	para "si quieres decorar"
+	line "tu dormitorio!"
+	
+	para "¡Mi ubicación y lo"
+	line "que vendo cambia a"
+	para "diario, así que no"
+	line "me pierdas de"
+	cont "vista!"
 	done
 	
 DollSalesmanTextFriday_AskWhichPrizeText:
-	text "Now which DOLL"
-	line "would you like?"
+	text "¿Qué MUÑECO"
+	line "quieres?"
 	done
 	
 ;---------------------------------
@@ -208,45 +215,51 @@ AbraScript:
 
 
 AmamiPortPassageTeacherText:
-	text "The S.S.AQUA sails"
-	line "to WESTPORT on"
-	para "Wednesdays and"
-	line "Sundays."
+	text "El S.S. AQUA zarpa"
+	line "hacia PONIENTE"
+	cont "los miércoles y"
+	cont "domingos."
 	done
-	
 
 TeleportGuyText1:
-	text "Don't feel like"
-	line "taking the ship?"
-	para "Or maybe it isn't"
-	line "running today?"
-	para "Well look here!"
-	para "My beloved ABRA"
-	line "can send you back"
-	para "to the mainland in"
-	line "an instant!"
-	para "I got a buddy"
-	line "waiting at the"
-	cont "WESTPORT DOCK."
-	para "I'll send you to"
-	line "him!"
-	para "How about it?"
+	text "¿No quieres subir"
+	line "al barco?"
+
+	para "¿O es que hoy no"
+	line "va a zarpar?"
+
+	para "Bueno, escucha."
+
+	para "¡Mi querido ABRA"
+	line "puede llevarte de"
+	para "vuelta al"
+	line "continente en un"
+	cont "instante!"
+
+	para "Tengo a un amigo"
+	line "esperándome en el"
+	cont "MUELLE PONIENTE."
+
+	para "¡Te enviaré con"
+	line "él!"
+
+	para "¿Qué me dices?"
 	done
-	
+
 TeleportGuyText1_2:
-	text "Want to go to"
-	line "WESTPORT CITY?"
+	text "¿Quieres ir a"
+	line "CIUDAD PONIENTE?"
 	done
 
 TeleportGuyYesText:
-	text "OK, OK. Picture"
-	line "WESTPORT CITY in"
-	cont "your mind…"
+	text "Vale. Concéntrate"
+	line "en la imagen de"
+	cont "CIUDAD PONIENTE…"
 	done
 
 TeleportGuyNoText:
-	text "OK, OK. I'll be"
-	line "here!"
+	text "Vale, vale."
+	line "¡Aquí estaré!"
 	done
 
 AbraText:
@@ -269,7 +282,7 @@ AmamiPortPassage_MapEvents:
 	db 0 ; bg events
 
 	db 4 ; object events
-	object_event 18,  2, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, AmamiPortPassageTeacherScript, EVENT_TELEPORT_GUY
+	object_event 18,  2, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, AmamiPortPassageTeacherScript, EVENT_TELEPORT_GUY
 	object_event 13,  1, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, TeleportGuyScript, EVENT_TELEPORT_GUY
 	object_event 14,  1, SPRITE_JYNX, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, AbraScript, EVENT_TELEPORT_GUY
 	object_event  5, 13, SPRITE_CLERK, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, 0, TravelingDollSalesmanFriday, EVENT_DOLL_SALESMAN_FRIDAY

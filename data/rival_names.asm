@@ -7,13 +7,13 @@ RivalNameMenuHeader:
 .Names:
 	db STATICMENU_CURSOR | STATICMENU_PLACE_TITLE | STATICMENU_DISABLE_B ; flags
 	db 5 ; items
-	db "NEW NAME@"
+	db "NUEVO N.@"
 
 RivalNameArray:
-	db "SILVER@"
+	db "PLATA@"
 	db "KAMON@"
-	db "OSCAR@"
+	db "ÓSCAR@"
 	db "MAX@"
 
 	db 2
-	db "NAME@" ; title
+	db "NOMBRE@" ; title

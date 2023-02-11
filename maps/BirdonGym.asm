@@ -129,38 +129,34 @@ PostRematchScriptMorty:
 	end
 
 MortyRematchText:
-	text "Am I seeing a"
-	line "ghost, or have"
-	para "you returned to"
-	line "my GYM once more?"
+	text "¿Estoy viendo un"
+	line "fantasma o es que"
+	para "has vuelto a mi"
+	line "GIMNASIO?"
 	
-	para "if it be true,"
-	line "then please"
-	para "indulge me in a"
-	line "battle once"
-	para "again so I may"
-	line "further my"
-	cont "training!"
+	para "Si es así,"
+	line "¡concédeme un"
+	para "combate una vez"
+	line "más para avanzar"
+	para "con mi"
+	line "entrenamiento!"
 	done
 
 MortyRematchWinText:
-	text "Impeccable…"
+	text "Impecable…"
 	done
 
 MortyAfterRematchText:
-	text "That rainbow bird"
-	line "of legend… did"
-	para "you ever witness"
-	line "it during your"
-	cont "travels?"
+	text "El ave arcoíris"
+	line "de la leyenda…"
+	para "¿La has visto"
+	line "durante tu viaje?"
 	
-	para "If it were to"
-	line "appear for anyone,"
-	para "I would think it"
-	line "to be you."
+	para "Si llegase a"
+	line "aparecer frente a"
+	para "alguien, creo que"
+	line "sería frente a ti."
 	done
-
-
 
 BirdonGymActivateRockets:
 	ifequal 7, .RadioTowerRockets
@@ -218,170 +214,166 @@ BirdonGymGrampsSlowStepDownMovement:
 	step_end
 
 MortyIntroText:
-	text "Good of you to"
-	line "have come."
+	text "Me alegro de que"
+	line "hayas venido."
 
-	para "Here in BIRDON,"
-	line "#MON have been"
-	cont "revered."
+	para "Aquí en BIRDON,"
+	line "los #MON son"
+	cont "venerados."
 
-	para "It's said that a"
-	line "rainbow-colored"
+	para "Se dice que un"
+	line "#MON de llamas"
+	para "del color del arco"
+	line "iris bajará ante"
+	para "un verdadero"
+	line "entrenador."
 
-	para "#MON of flame"
-	line "will come down"
+	para "Yo creo en esa"
+	line "historia y, por"
+	para "eso, llevo entre-"
+	line "nándome aquí toda"
+	cont "mi vida."
 
-	para "before a truly"
-	line "powerful trainer."
+	para "Así que ahora"
+	line "puedo ver cosas"
+	cont "que otros no ven."
 
-	para "I believed that"
-	line "tale, so I have"
+	para "Sólo un poco más…"
 
-	para "secretly trained"
-	line "here all my life."
+	para "Con un poco más,"
+	line "podría ser yo"
+	para "quien viera al"
+	line "#MON de los"
+	para "colores del arco"
+	line "iris."
 
-	para "As a result, I can"
-	line "now see what"
-	cont "others cannot."
-
-	para "Just a bit more…"
-
-	para "With a little"
-	line "more, I could see"
-
-	para "a future in which"
-	line "I meet the #MON"
-	cont "of rainbow colors."
-
-	para "You're going to"
-	line "help me reach that"
-	cont "level!"
+	para "¡Ayúdame a alcan-"
+	line "zar ese nivel!"
 	done
 
 MortyWinLossText:
-	text "I'm not good"
-	line "enough yet…"
+	text "Aún no soy lo"
+	line "bastante bueno…"
 
-	para "All right. This"
-	line "BADGE is yours."
+	para "De acuerdo. Esta"
+	line "MEDALLA es tuya."
 	done
 
 Text_ReceivedFogBadge:
-	text "<PLAYER> received"
-	line "FOGBADGE."
+	text "<PLAYER> recibió la"
+	line "MEDALLA NIEBLA."
 	done
 
 MortyText_FogBadgeSpeech:
-	text "By having FOG-"
-	line "BADGE, #MON up"
+	text "Con la MEDALLA"
+	line "NIEBLA, te obede-"
+	cont "cerán todos los"
+	cont "#MON hasta el"
+	cont "nivel 50."
 
-	para "to L50 will obey"
-	line "you."
+	para "Y los #MON que"
+	line "sepan SURF podrán"
+	para "usarlo en"
+	line "cualquier momento."
 
-	para "Also, #MON that"
-	line "know SURF will be"
-
-	para "able to use that"
-	line "move anytime."
-
-	para "I want you to have"
-	line "this too."
+	para "Quédate con esto"
+	line "también."
 	done
 
 MortyText_ShadowBallSpeech:
-	text "It's SHADOW BALL."
-	line "It causes damage"
+	text "Es BOLA SOMBRA."
+	line "Causa daños y"
+	para "puede reducir la"
+	line "DEFENSA ESPECIAL."
 
-	para "and may reduce"
-	line "SPCL.DEF."
-
-	para "Use it if it"
-	line "appeals to you."
+	para "Úsala si te gusta."
 	done
 
 MortyFightDoneText:
-	text "I see…"
+	text "Entiendo…"
 
-	para "Your journey has"
-	line "taken you to far-"
-	cont "away places."
+	para "Tu viaje te ha"
+	line "llevado a tierras"
+	cont "lejanas."
 
-	para "And you have wit-"
-	line "nessed much more"
-	cont "than I."
+	para "Y has presenciado"
+	line "muchas más cosas"
+	cont "que yo."
 
-	para "I envy you for"
-	line "that…"
+	para "¡Cómo te envidio…!"
 	done
 
-
 MediumRebeccaSeenText:
-	text "The power of all"
-	line "those you defeated"
-	cont "comes to me!"
+	text "¡El poder de todos"
+	line "a los que venciste"
+	cont "está en mí!"
 	done
 
 MediumRebeccaBeatenText:
-	text "Strong…"
-	line "Far too strong…"
+	text "Fuerte…"
+	line "Muy fuerte…"
 	done
 
 MediumRebeccaAfterBattleText:
-	text "What is the source"
-	line "of your power?"
+	text "¿De dónde proviene"
+	line "tu poder?"
 	done
 
 BirdonGymGuyText:
-	text "The GYM here is"
-	line "full of holes that"
-	para "will send you back"
-	line "to the entrance."
-	para "But some can be"
-	line "walked over to get"
-	cont "by."
-	para "Watch your step!"
+	text "Este GIMNASIO está"
+	line "repleto de"
+	para "agujeros que te"
+	line "enviarán de vuelta"
+	cont "a la entrada."
+
+	para "Pero hay algunos"
+	line "por los que puedes"
+	cont "caminar."
+
+	para "¡Vigila tus pasos!"
 	done
 
 BirdonGymGuyWinText:
-	text "Whew, <PLAYER>."
-	line "You did great!"
+	text "¡Uauu, <PLAYER>!"
+	line "¡Genial!"
 
-	para "I was cowering in"
-	line "the corner out of"
-	cont "pure terror!"
+	para "¡Me escondí en el"
+	line "rincón muerto de"
+	cont "miedo!"
 	done
 
 SageYureiSeenText:
-	text "Can you prove that"
-	line "you are alive?"
+	text "¿Puedes demostrar"
+	line "que estás vivo?"
 	done
 	
 SageYureiBeatenText:
-	text "I see…"
+	text "Entiendo…"
 	done
 	
 SageYureiAfterBattleText:
-	text "Can you prove that"
-	line "I am even alive?"
+	text "¿Puedes demostrar"
+	line "que estoy vivo?"
 	done
 
 MediumDorisSeenText:
-	text "Fufufufu…"
-	line "I see it clearly."
+	text "¡Fufufufu…!"
+	line "Lo veo claramente."
 
-	para "I can see into"
-	line "your soul!"
+	para "¡Puedo ver lo que"
+	line "encierra tu alma!"
 	done
 
 MediumDorisBeatenText:
-	text "Though I read you,"
-	line "I still lost…"
+	text "A pesar de leerte"
+	line "el pensamiento,"
+	cont "he perdido…"
 	done
 
 MediumDorisAfterBattleText:
-	text "Darn! I forgot"
-	line "that I predicted I"
-	cont "would lose to you."
+	text "¡Maldición! Olvidé"
+	line "que predije mi"
+	cont "derrota contra ti."
 	done
 
 BirdonGym_MapEvents:

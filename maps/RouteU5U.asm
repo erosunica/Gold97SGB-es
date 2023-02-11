@@ -10,7 +10,7 @@ RouteU5UHiddenRareCandy:
 	hiddenitem RARE_CANDY, EVENT_ROUTE_U5U_HIDDEN_RARE_CANDY
 
 RouteU5USignText:
-	text "ROUTE 28"
+	text "RUTA 28"
 	done
 
 RouteU5U_MapEvents:

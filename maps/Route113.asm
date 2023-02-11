@@ -108,115 +108,114 @@ Route113HiddenSuperPotion:
 
 
 CamperTodd1SeenText:
-	text "I'm confident in"
-	line "my ability to"
-	cont "raise #MON."
+	text "Confío en mi"
+	line "capacidad para"
+	cont "criar #MON."
 
-	para "Want to see?"
+	para "¿Quieres verlo?"
 	done
 
 CamperTodd1BeatenText:
-	text "Did I screw up my"
-	line "training?"
+	text "¿He fallado en mi"
+	line "entrenamiento?"
 	done
 
 CamperTodd1AfterText:
-	text "Maybe I should"
-	line "start a special"
-	cont "training schedule."
+	text "A lo mejor debería"
+	line "empezar un plan de"
+	cont "entrenamiento"
+	cont "especial."
 	done
 
-
-
 OfficerKeithSeenText:
-	text "Who goes there?"
-	line "You're not one of"
-	para "those TEAM ROCKET"
-	line "members, right?"
+	text "¿Quién anda ahí?"
+	line "No perteneces al"
+	cont "TEAM ROCKET,"
+	cont "¿verdad?"
 	done
 
 OfficerKeithWinText:
-	text "You're a tough"
-	line "little kid."
+	text "Eres un chiquillo"
+	line "duro de pelar."
 	done
 
 OfficerKeithAfterText:
-	text "Yep, I see nothing"
-	line "wrong today. We"
-	para "had some problems"
-	line "with TEAM ROCKET"
-	para "recently, but they"
-	line "seem to be gone."
+	text "Hoy no veo nada"
+	line "sospechoso. Últi-"
+	para "mamente tuvimos"
+	line "problemas con el"
+	para "TEAM ROCKET, pero"
+	line "parece que ya se"
+	cont "han ido."
 	done
 
 OfficerKeithDaytimeText:
-	text "I'm on patrol for"
-	line "suspicious indi-"
-	cont "viduals."
+	text "Estoy buscando"
+	line "individuos"
+	cont "sospechosos."
 	done
 
 PokefanmBrandonSeenText:
-	text "I think I could"
-	line "be strong enough"
-	para "to take on the"
-	line "LEAGUE someday."
+	text "Creo que algún día"
+	line "seré lo bastante"
+	para "fuerte para desa-"
+	line "fiar a la LIGA."
 	done
 
 PokefanmBrandonBeatenText:
-	text "Why does it end"
-	line "this way?"
+	text "¿Por qué acaba"
+	line "así?"
 	done
 
 PokefanmBrandonAfterText:
-	text "I don't think I"
-	line "have enough"
-	para "motivation to go"
-	line "through with a"
-	cont "LEAGUE challenge."
+	text "No creo tener el"
+	line "valor suficiente"
+	para "para afrontar el"
+	line "desafío de la"
+	cont "LIGA."
 	done
 
 
 Route113JadeForestSignText:
 ; unused
-	text "JADE FOREST"
-	line "THROUGH THE GATE"
+	text "BOSQUE JADE"
+	line "Tras el acceso"
 	done
 
 Route113SignText:
-	text "ROUTE 113"
+	text "RUTA 113"
 
-	para "STAND CITY -"
-	line "KANTO REGION"
+	para "CIUDAD ENHIESTA -"
+	line "KANTO"
 	done
 
 Route113TrainerTipsText:
-	text "TRAINER TIPS"
+	text "PISTAS ENTRENADOR"
 
-	para "BERRY trees grow"
-	line "new BERRIES"
-	cont "every day."
+	para "Todos los días"
+	line "crecen BAYAS en"
+	cont "los árboles."
 
-	para "Make a note of"
-	line "which trees bear"
-	cont "which BERRIES."
+	para "Toma nota de los"
+	line "tipos de BAYAS que"
+	cont "tiene cada árbol"
 	done
 	
 SoldierGeraldSeenText:
-	text "You need to stop"
-	line "here and challenge"
-	cont "me to a battle!"
-	para "And that's an"
-	line "order!"
-	done	
-	
-SoldierGeraldBeatenText:
-	text "Dismissed!"
+	text "¡Firme! ¡Rétame a"
+	line "un combate!"
+
+	para "¡Es una orden!"
 	done
-	
+
+SoldierGeraldBeatenText:
+	text "¡Despedido!"
+	done
+
 SoldierGeraldAfterText:
-	text "A good battle"
-	line "always raises"
-	cont "one's spirits!"
+	text "¡Un buen combate"
+	line "siempre levanta el"
+	cont "ánimo!"
 	done
 
 
@@ -243,4 +242,4 @@ Route113_MapEvents:
 	object_event 14, 47, SPRITE_POKEFAN_M, SPRITEMOVEDATA_SPINCOUNTERCLOCKWISE, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_TRAINER, 3, TrainerPokefanmBrandon, -1
 	object_event 19, 18, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route113Nugget, EVENT_ROUTE_113_NUGGET
 	object_event 17, 44, SPRITE_STAND_CITY_IMPOSTOR, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 1, SoldierGeraldScript, -1
-	object_event 12, 13, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route113Tree, -1
+	object_event 12, 13, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, Route113Tree, -1

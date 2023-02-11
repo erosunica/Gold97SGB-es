@@ -1,10 +1,10 @@
-	db "WILD BULL@" ; species name
-	dw 407, 1950 ; height, weight
+	db "TORO BRAVO@" ; species name
+	dbw 14, 884 ; height, weight
 
-	db   "These violent"
-	next "#MON fight"
-	next "with other mem-"
+	db   "Los miembros de"
+	next "esta especie lu-"
+	next "chan entre sí para"
 
-	page "bers of their herd"
-	next "in order to prove"
-	next "their strength.@"
+	page "medir la fuerza"
+	next "que tienen frente"
+	next "a la manada.@"

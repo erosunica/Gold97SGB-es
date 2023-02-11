@@ -1,10 +1,10 @@
-	db "MYSTIC@" ; species name
-	dw 411, 330 ; height, weight
+	db "MÍSTICO@" ; species name
+	dbw 15, 150 ; height, weight
 
-	db   "Once it begins to"
-	next "meditate at sun-"
-	next "rise, the entire"
+	db   "Cuando se pone a"
+	next "meditar al ama-"
+	next "necer, pierde la"
 
-	page "day will pass"
-	next "before it will"
-	next "move again.@"
+	page "noción del tiempo."
+	next "Puede pasarse así"
+	next "todo el día.@"

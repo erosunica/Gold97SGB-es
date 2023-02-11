@@ -1,10 +1,10 @@
-	db "MOUSE@" ; species name
-	dw 207, 660 ; height, weight
+	db "RATÓN@" ; species name
+	dbw 8, 300 ; height, weight
 
-	db   "If its electric"
-	next "pouches run empty,"
-	next "it raises its tail"
+	db   "Cuando descarga"
+	next "los mofletes,"
+	next "levanta la cola y"
 
-	page "to gather electri-"
-	next "city from the"
-	next "atmosphere.@"
+	page "absorbe la carga"
+	next "eléctrica que hay"
+	next "en el ambiente.@"

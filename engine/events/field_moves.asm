@@ -298,7 +298,7 @@ FlyFromAnim:
 	xor a
 	ld [wVramState], a
 	call FlyFunction_InitGFX
-	depixel 10, 10, 4, 0
+	depixel 10, 10, 8, 0 ;erosunica: align sprite to the tile grid (before "depixel 10, 10, 4, 0")
 	ld a, SPRITE_ANIM_INDEX_RED_WALK
 	call InitSpriteAnimStruct
 	ld hl, SPRITEANIMSTRUCT_TILE_ID

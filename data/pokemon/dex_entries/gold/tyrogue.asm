@@ -1,10 +1,10 @@
-	db "SCUFFLE@" ; species name
-	dw 204, 460 ; height, weight
+	db "PELEÓN@" ; species name
+	dbw 7, 210 ; height, weight
 
-	db   "To brush up on its"
-	next "fighting skills,"
-	next "it will challenge"
+	db   "Para mejorar sus"
+	next "técnicas de lucha,"
+	next "desafiará a"
 
-	page "anyone. It has a"
-	next "very strong com-"
-	next "petitive spirit.@"
+	page "cualquiera. Tiene"
+	next "un espíritu muy"
+	next "competitivo.@"

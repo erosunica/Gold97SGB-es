@@ -1,10 +1,10 @@
-	db "SLUDGE@" ; species name
-	dw 211, 660 ; height, weight
+	db "LODO@" ; species name
+	dbw 9, 300 ; height, weight
 
-	db   "When two of these"
-	next "#MON's bodies"
-	next "are combined"
+	db   "Cuando se une"
+	next "a otro compañero"
+	next "de su especie,"
 
-	page "together, new"
-	next "poisons are"
-	next "created.@"
+	page "se generan nuevos"
+	next "tipos de sustancia"
+	next "venenosa.@"

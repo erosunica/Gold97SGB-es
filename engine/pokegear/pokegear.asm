@@ -101,7 +101,7 @@ PokeGear:
 	ld [wPokegearRadioChannelAddr + 1], a
 	call Pokegear_InitJumptableIndices
 	call InitPokegearTilemap
-	ld b, SCGB_POKEGEAR_PALS
+	ld b, SCGB_BETA_POKEGEAR_PALS
 	call GetSGBLayout
 	call SetPalettes
 	ldh a, [hCGB]
@@ -316,7 +316,7 @@ InitPokegearTilemap:
 	
 
 .switch
-	db " NEXT▶@"
+	db " SIG.▶@"
 
 
 .Map:
@@ -335,12 +335,21 @@ InitPokegearTilemap:
 	farcall PokegearMap
 	ld a, [wPokegearMapCursorLandmark]
 	call PokegearMap_UpdateLandmarkName
+	ld de, MapTilemapRLE
+	call Pokegear_LoadTilemapRLE
+	ld b, SCGB_BETA_POKEGEAR_PALS
+	call GetSGBLayout
+	call SetPalettes
 	call Pokegear_UpdateClock_Map
 	ret
 
 .Radio:
+	ldh a, [hCGB]
 	ld de, RadioTilemapRLE
 	call Pokegear_LoadTilemapRLE
+	ld b, SCGB_BETA_POKEGEAR_RADIO_PALS
+	call GetSGBLayout
+	call SetPalettes
 	call Pokegear_UpdateClock_Radio
 	hlcoord 0, 12
 	lb bc, 4, 18
@@ -348,7 +357,7 @@ InitPokegearTilemap:
 	ret
 
 .Phone:
-	ld de, PhoneTilemapRLE
+	ld de, ClockTilemapRLE
 	call Pokegear_LoadTilemapRLE
 	call Pokegear_UpdateClock_Phone
 	hlcoord 0, 12
@@ -512,8 +521,6 @@ Pokegear_UpdateClock:
 	bccoord 6, 6
 	call PlaceHLTextAtBC
 	ret
-	db "ごぜん@"
-	db "ごご@"
 
 .GearTodayText:
 	text_far _GearTodayText
@@ -823,9 +830,6 @@ Pokegear_UpdateClock_Radio:
 	farcall PrintHoursMins2
 	ret
 
-	db "ごぜん@"
-	db "ごご@"
-
 PokegearPhone_Init:
 	ld hl, wJumptableIndex
 	inc [hl]
@@ -935,9 +939,6 @@ Pokegear_UpdateClock_Phone:
 	decoord 13, 1
 	farcall PrintHoursMins2
 	ret
-
-	db "ごぜん@"
-	db "ごご@"
 
 PokegearPhone_MakePhoneCall:
 	call GetMapPhoneService
@@ -1304,9 +1305,9 @@ PokegearPhoneContactSubmenu:
 .CallDeleteCancelStrings:
 	dwcoord 10, 6
 	db 3
-	db   "CALL"
-	next "DELETE"
-	next "CANCEL"
+	db   "LLAMAR"
+	next "BORRAR"
+	next "SALIR"
 	db   "@"
 
 .CallDeleteCancelJumptable:
@@ -1317,8 +1318,8 @@ PokegearPhoneContactSubmenu:
 .CallCancelStrings:
 	dwcoord 10, 8
 	db 2
-	db   "CALL"
-	next "CANCEL"
+	db   "LLAMAR"
+	next "SALIR"
 	db   "@"
 
 .CallCancelJumptable:
@@ -1411,8 +1412,8 @@ INCBIN "gfx/pokegear/pokegear_sprites.2bpp.lz"
 
 RadioTilemapRLE:
 INCBIN "gfx/pokegear/radio.tilemap.rle"
-PhoneTilemapRLE:
-INCBIN "gfx/pokegear/phone.tilemap.rle"
+MapTilemapRLE:
+INCBIN "gfx/pokegear/map.tilemap.rle"
 ClockTilemapRLE:
 INCBIN "gfx/pokegear/clock.tilemap.rle"
 
@@ -1768,21 +1769,20 @@ NoRadioStation:
 	ldh [hBGMapMode], a
 	ret
 
-OaksPKMNTalkName:     db "KEN's <PK><MN> Talk@"
-PokedexShowName:      db "#DEX Show@"
-PokemonMusicName:     db "#MON Music@"
-LuckyChannelName:     db "Lucky Channel@"
-UnownStationName:     db "?????@"
+OaksPKMNTalkName:     db "La Hora de KEN@"
+PokedexShowName:      db "Ver #DEX@"
+PokemonMusicName:     db "Música #MON@"
+LuckyChannelName:     db "Canal Suerte@"
+UnownStationName:     db "¿¿??@"
 
-PlacesAndPeopleName:  db "Places & People@"
-LetsAllSingName:      db "Let's All Sing!@"
-PokeFluteStationName: db "# FLUTE@"
+PlacesAndPeopleName:  db "Lugares y Gente@"
+LetsAllSingName:      db "Cantemos todos@"
+PokeFluteStationName: db "FLAUTA #MON@"
 
 RadioInstructions:
-	text "Hold the A button"
-	line "to tune!"
+	text "¡Mantén el botón A"
+	line "para sintonizar!"
 	done
-
 
 _TownMap:
 	ld hl, wOptions
@@ -2232,6 +2232,10 @@ TownMapBubble2:; this has to be the worst way to clear out the new Pokegear HUD 
 
 TownMapBubble:
 ; Draw the bubble containing the location text in the town map HUD
+	hlcoord 0, 17
+	ld bc, SCREEN_WIDTH
+	ld a, $18
+	call ByteFill
 
 ; Top-left corner
 	hlcoord 0, 0
@@ -2280,7 +2284,7 @@ TownMapBubble:
 	ret
 
 .Where:
-	db "Where?@"
+	db "¿Dónde?@"
 
 .Name:
 ; We need the map location of the default flypoint
@@ -2567,21 +2571,26 @@ Pokedex_GetArea:
 	ld bc, SCREEN_WIDTH * 3
 	ld a, $18
 	call ByteFill
-	hlcoord 0, 17
+	hlcoord 0, 0
 	ld bc, SCREEN_WIDTH
 	ld a, " "
 	call ByteFill
+	hlcoord 0, 17
+	ld bc, SCREEN_WIDTH
+	ld a, $18
+	call ByteFill
 	call GetPokemonName
-	hlcoord 1, 17
-	call PlaceString
-	ld h, b
-	ld l, c
+	hlcoord 1, 0
 	ld de, .String_SNest
+	call PlaceString
+	push bc
+	call GetPokemonName
+	pop hl
 	call PlaceString
 	ret
 
 .String_SNest:
-	db "'S NEST@"
+	db "NIDO DE @"
 
 .GetAndPlaceNest:
 	ld [wTownMapCursorLandmark], a

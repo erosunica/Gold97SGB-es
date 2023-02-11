@@ -1,10 +1,10 @@
-	db "ARMOR BIRD@" ; species name
-	dw 507, 1110 ; height, weight
+	db "CORAZA-AVE@" ; species name
+	dbw 17, 505 ; height, weight
 
-	db   "The feathers that"
-	next "it sheds are very"
-	next "sharp. It is said"
+	db   "Tiene unas plumas"
+	next "en las alas muy"
+	next "afiladas. Dicen"
 
-	page "that people once"
-	next "used the feathers"
-	next "as swords.@"
+	page "que, antiguamente,"
+	next "se utilizaban a"
+	next "modo de espadas.@"

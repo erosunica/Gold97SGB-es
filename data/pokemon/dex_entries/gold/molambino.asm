@@ -1,10 +1,10 @@
-	db "TOUGH FISH@" ; species name
-	dw 305, 270 ; height, weight
-
-	db   "Its skin is very"
-	next "scaly and tough."
-	next "This #MON is"
-
-	page "most often found"
-	next "in open waters out"
-	next "in the sea.@"
+	db "PEZ DURO@" ; species name
+	dbw 11, 122 ; height, weight
+	
+	db   "Su piel es muy"
+	next "dura y escamosa."
+	next "Este #MON se"
+	
+	page "suele encontrar en"
+	next "aguas abiertas y"
+	next "en el mar.@"

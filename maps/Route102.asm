@@ -48,7 +48,7 @@ Route102_MapScripts:
 .Route102TreeCut:
 	checkevent EVENT_ROUTE_102_TREE_CUT
 	iffalse .R102TreeThere
-	changeblock  33, 7, $6D ; notree
+	changeblock  33, 13, $6D ; notree
 	return
 	
 .R102TreeThere
@@ -222,7 +222,7 @@ ArthurNotThursdayScript:
 Route102SilverScript:
 	applymovement PLAYER, Movement_36DownOne
 	playsound SFX_EXIT_BUILDING
-	moveobject ROUTE102_SILVER, 6, 5
+	moveobject ROUTE102_SILVER, 6, 11
 	appear ROUTE102_SILVER
 	applymovement ROUTE102_SILVER, Movement_36SilverDownOne
 	special FadeOutMusic
@@ -345,225 +345,232 @@ Route102RivalBattleExitMovement:
 	step_end
 	
 Route102SilverWinText:
-	text "Wow! Looks like"
-	line "you've been"
-	para "working hard to"
-	line "raise your"
+	text "¡Hala! ¡Se ve que"
+	line "has trabajado duro"
+	cont "entrenando a tus"
 	cont "#MON!"
 	done
 	
 Route102SilverLossText:
-	text "My team is the"
-	line "best!"
+	text "¡Mi equipo es el"
+	line "mejor!"
 	done
 	
 Route102RivalBeforeText:
-	text "<PLAYER>!"
-	para "You gotta check"
-	line "out WESTPORT CITY!"
-	para "There's a giant"
-	line "MART and a RADIO"
-	cont "TOWER, and…"
-	para "Oh, yeah!"
-	para "I've started the"
-	line "LEAGUE challenge!"
-	para "I heard you have,"
-	line "too, <PLAYER>!"
-	para "This will be a"
-	line "great way to show"
-	para "the world how"
-	line "my team is the"
-	para "strongest there"
-	line "is!"
-	para "I've also been out"
-	line "catching some"
+	text "¡<PLAYER>!"
+	
+	para "¡Tienes que"
+	line "pasarte por CIUDAD"
+	cont "PONIENTE!"
+	
+	para "Hay un CENTRO"
+	line "COMERCIAL, una"
+	cont "TORRE de RADIO, y…"
+	
+	para "¡Ah, sí!"
+	
+	para "¡He empezado el"
+	line "desafío de la"
+	cont "LIGA!"
+	
+	para "¡Oí que tú"
+	line "también, <PLAYER>!"
+	
+	para "¡Será la mejor"
+	line "manera de enseñar-"
+	cont "le al mundo que mi"
+	cont "equipo es el más"
+	cont "fuerte que hay!"
+	
+	para "¡También he estado"
+	line "capturando algunos"
 	cont "#MON!"
-	para "Have you? Let's"
-	line "battle to see"
-	cont "whose are better!"
+	
+	para "¿Y tú? ¡Vamos a"
+	line "combatir para ver"
+	para "quién los ha"
+	line "entrenado mejor!"
 	done
 	
 Route102RivalAfterText:
-	text "Whew! It was good"
-	line "catching up with"
-	cont "you, <PLAYER>!"
-	para "I'm heading back"
-	line "into the city!"
-	para "See you around!"
+	text "¡Uf! ¡Ha estado"
+	line "bien encontrarme"
+	cont "contigo, <PLAYER>!"
+	
+	para "¡Voy a regresar a"
+	line "la ciudad!"
+	
+	para "¡Nos vemos!"
 	done
 
-
 Route102LassText:
-	text "A small tree is"
-	line "blocking the way"
-	cont "to WESTPORT CITY."
+	text "Un arbusto bloquea"
+	line "el paso a CIUDAD"
+	cont "PONIENTE."
 
-	para "If you need to"
-	line "get through, a"
-	para "#MON could"
-	line "probably CUT the"
-	cont "tree."
+	para "Si necesitas"
+	line "pasar, un #MON"
+	cont "podría CORTAR el"
+	cont "árbol."
 	done
 
 PsychicMarkSeenText:
-	text "I'm going to read"
-	line "your thoughts!"
+	text "¡Te voy a leer"
+	line "el pensamiento!"
 	done
 
 PsychicMarkBeatenText:
-	text "I misread you!"
+	text "¡Te he leído"
+	line "mal!"
 	done
 
 PsychicMarkAfterBattleText:
-	text "I'd be strong if"
-	line "only I could tell"
-
-	para "what my opponent"
-	line "was thinking."
+	text "Sería fuerte si"
+	line "pudiera saber lo"
+	para "que está pensando"
+	line "mi rival."
 	done
 
 SchoolboyAlan1SeenText:
-	text "Thanks to my stud-"
-	line "ies, I'm ready for"
-	cont "any #MON!"
+	text "¡Gracias a mis"
+	line "estudios, estoy"
+	para "preparado para"
+	line "cualquier #MON!"
 	done
 
 SchoolboyAlan1BeatenText:
-	text "Oops! Computation"
-	line "error?"
+	text "¡Ups! ¿Error de"
+	line "cálculo?"
 	done
 
 SchoolboyAlanBooksText:
-	text "Darn. I study five"
-	line "hours a day too."
+	text "Yo también estudio"
+	line "5 horas al día."
 
-	para "There's more to"
-	line "learning than just"
-	cont "reading books."
+	para "Leyendo libros"
+	line "puedes aprender"
+	cont "muchas cosas."
 	done
 
 MeetArthurText:
-	text "ARTHUR: Who are"
-	line "you?"
+	text "JOSUÉ: ¿Quién"
+	line "eres tú?"
 
-	para "I'm ARTHUR of"
-	line "Thursday."
+	para "Soy JOSUÉ, por"
+	line "jueves."
 	done
 
 ArthurGivesGiftText:
-	text "Here. You can have"
-	line "this."
+	text "Toma. Coge esto."
 	done
 
 ArthurGaveGiftText:
-	text "ARTHUR: A #MON"
-	line "that uses rock-"
+	text "JOSUÉ: Debería"
+	line "usarlo un #MON"
+	para "con habilidades de"
+	line "tipo roca."
 
-	para "type moves should"
-	line "hold on to that."
-
-	para "It pumps up rock-"
-	line "type attacks."
+	para "Mejora los ataques"
+	line "de tipo roca."
 	done
 
 ArthurThursdayText:
-	text "ARTHUR: I'm ARTHUR"
-	line "of Thursday. I'm"
-
-	para "the second son out"
-	line "of seven children."
+	text "JOSUÉ: Soy JOSUÉ,"
+	line "por jueves. Soy el"
+	cont "cuarto de siete"
+	cont "hermanos."
 	done
 
 ArthurNotThursdayText:
-	text "ARTHUR: Today's"
-	line "not Thursday. How"
-	cont "disappointing."
+	text "JOSUÉ: Hoy no es"
+	line "jueves."
+	cont "¡Qué desilusión!"
 	done
 
 Route102SignText:
-	text "ROUTE 102"
-	para "PAGOTA CITY -"
-	line "WESTPORT CITY"
+	text "RUTA 102"
+	
+	para "CIUDAD PAGOTA -"
+	line "CIUDAD PONIENTE"
 	done
 
 SanskritRuinsNorthSignText:
-	text "RUINS OF ALPH"
-	line "NORTH ENTRANCE"
+	text "Entrada norte de"
+	line "las RUINAS ALFA"
 	done
 
 Route102TrainerTips1Text:
-	text "TRAINER TIPS"
+	text "PISTAS ENTRENADOR"
 
-	para "#MON stats"
-	line "vary--even within"
-	cont "the same species."
+	para "Las habilidades de"
+	line "los #MON varían"
+	para "incluso dentro de"
+	line "una misma especie."
 
-	para "Their stats may be"
-	line "similar at first."
+	para "Al principio, sus"
+	line "habilidades pueden"
+	cont "parecerse."
 
-	para "However, differ-"
-	line "ences will become"
-
-	para "pronounced as the"
-	line "#MON grow."
+	para "Sin embargo, las"
+	line "diferencias surgen"
+	para "a medida que el"
+	line "#MON crece."
 	done
 
 Route102TrainerTips2Text:
-	text "TRAINER TIPS"
+	text "PISTAS ENTRENADOR"
 
-	para "Use DIG to return"
-	line "to the entrance of"
-	cont "any place."
+	para "Usa EXCAVAR para"
+	line "volver a la"
+	cont "entrada."
 
-	para "It is convenient"
-	line "for exploring"
-
-	para "caves and other"
-	line "landmarks."
+	para "Es útil para"
+	line "explorar cuevas y"
+	cont "otros lugares."
 	done
 	
 Route102GameHouseText:
-	text "Come and take a"
-	line "break!"
-	para "GAME HOUSE"
+	text "SALÓN RECREATIVO"
+	para "¡Pasa a echar el"
+	line "rato!"
 	done
-	
-
 
 YoungsterSamuelSeenText:
-	text "This is where I do"
-	line "my training!"
+	text "¡Aquí es donde"
+	line "me entreno!"
 	done
 
 YoungsterSamuelBeatenText:
-	text "Beaten by a"
-	line "passing stranger!"
+	text "¡Me han"
+	line "derrotado!"
 	done
 
 YoungsterSamuelAfterText:
-	text "I'm going to train"
-	line "even harder."
+	text "Voy a entrenarme"
+	line "mucho más."
 
-	para "After all, I'm"
-	line "trying to become"
-	cont "a GYM LEADER."
+	para "Después de todo,"
+	line "intento ser un"
+	cont "LÍDER de GIMNASIO."
 	done
 
 YoungsterIanSeenText:
-	text "I'm the best in my"
-	line "class at #MON."
-	para "It's honestly not"
-	line "even close."
+	text "Soy el mejor de mi"
+	line "clase en #MON."
+	
+	para "Te falta mucho"
+	line "para ser como yo."
 	done
 
 YoungsterIanBeatenText:
-	text "No! There are bet-"
-	line "ter trainers…"
+	text "¡No! Hay mejores"
+	line "entrenadores…"
 	done
 
 YoungsterIanAfterText:
-	text "I guess I gotta"
-	line "try even harder."
+	text "Supongo que debo"
+	line "esforzarme aún"
+	cont "más."
 	done
 	
 WateredWeirdTreeScript::
@@ -574,25 +581,25 @@ Route102_MapEvents:
 	db 0, 0 ; filler
 
 	db 2 ; warp events
-	warp_event  6,  5, ROUTE_102_WEST_GATE, 4
-	warp_event 15,  4, ROUTE_102_GAME_HOUSE, 1
+	warp_event  6, 11, ROUTE_102_WEST_GATE, 4
+	warp_event 15, 10, ROUTE_102_GAME_HOUSE, 1
 
 	db 2 ; coord events
-	coord_event  6,  6, SCENE_ROUTE102_SILVER, Route102SilverScript
-	coord_event 33,  6, SCENE_DEFAULT, Route102TreeCut
+	coord_event  6, 12, SCENE_ROUTE102_SILVER, Route102SilverScript
+	coord_event 33, 12, SCENE_DEFAULT, Route102TreeCut
 
 	db 4 ; bg events
-	bg_event 22, 10, BGEVENT_READ, Route102TrainerTips2
-	bg_event 50, 10, BGEVENT_READ, Route102Sign
-	bg_event 32, 10, BGEVENT_READ, Route102TrainerTips1
-	bg_event 14,  5, BGEVENT_READ, Route102GameHouse
+	bg_event 22, 16, BGEVENT_READ, Route102TrainerTips2
+	bg_event 50, 16, BGEVENT_READ, Route102Sign
+	bg_event 32, 16, BGEVENT_READ, Route102TrainerTips1
+	bg_event 14, 11, BGEVENT_READ, Route102GameHouse
 
 	db 8 ; object events
-	object_event  6, 10, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_TRAINER, 3, TrainerPsychicMark, -1
-	object_event 29,  6, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 5, TrainerSchoolboyAlan1, -1
-	object_event 50,  7, SPRITE_LASS, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, Route102LassScript, -1
-	object_event 38,  4, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route102FruitTree, -1
-	object_event 40,  8, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, ArthurScript, EVENT_ROUTE_102_ARTHUR_OF_THURSDAY
-	object_event  1,  1, SPRITE_SILVER, SPRITEMOVEDATA_STANDING_DOWN, 1, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Route102SilverTalkScript, EVENT_ROUTE_102_SILVER
-	object_event 12, 11, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GRAY, OBJECTTYPE_TRAINER, 3, TrainerYoungsterSamuel, -1
-	object_event 20,  8, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_FAST, 1, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 4, TrainerYoungsterIan, -1
+	object_event  6, 16, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_TRAINER, 3, TrainerPsychicMark, -1
+	object_event 29, 12, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 5, TrainerSchoolboyAlan1, -1
+	object_event 50, 13, SPRITE_LASS, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, Route102LassScript, -1
+	object_event 38, 10, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, Route102FruitTree, -1
+	object_event 40, 14, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, ArthurScript, EVENT_ROUTE_102_ARTHUR_OF_THURSDAY
+	object_event  1,  7, SPRITE_SILVER, SPRITEMOVEDATA_STANDING_DOWN, 1, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Route102SilverTalkScript, EVENT_ROUTE_102_SILVER
+	object_event 12, 17, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GRAY, OBJECTTYPE_TRAINER, 3, TrainerYoungsterSamuel, -1
+	object_event 20, 14, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_FAST, 1, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 4, TrainerYoungsterIan, -1

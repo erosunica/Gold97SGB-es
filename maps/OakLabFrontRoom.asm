@@ -33,16 +33,15 @@ OakLabFrontRoom_MapScripts:
 	end
 	
 .SceneHeadToTheBack2
-	turnobject OAK2ENTRANCE_BLUE, DOWN
-	turnobject PLAYER, UP
-	opentext
-	writetext Text_InBack
-	waitbutton
-	closetext
 	applymovement PLAYER, PlayerLabDummyMovement
 	follow OAK2ENTRANCE_BLUE, PLAYER
 	applymovement OAK2ENTRANCE_BLUE, Movement_BlueToBack
 	stopfollow
+	turnobject OAK2ENTRANCE_SILVER2, UP
+	opentext
+	writetext Text_InBack
+	waitbutton
+	closetext
 	showemote EMOTE_SHOCK, OAK2ENTRANCE_OAK, 15
 	opentext
 	writetext Oak2Text_Intro
@@ -57,6 +56,10 @@ OakLabFrontRoom_MapScripts:
 	pause 15
 	opentext
 	writetext Text_OakSpeech
+	yesorno
+	iffalse .No
+.Yes
+	writetext Text_OakSpeechYes
 	waitbutton
 	closetext
 	showemote EMOTE_SHOCK, OAK2ENTRANCE_SILVER2, 15
@@ -77,7 +80,17 @@ OakLabFrontRoom_MapScripts:
 	disappear OAK2ENTRANCE_SILVER2
 	setscene SCENE_OAK_LAB_FRONT_ROOM_GO_SEE_OAK
 	setevent EVENT_BLUE_IN_OAK_LAB_BACK_ROOM
+	applymovement PLAYER, PlayerGoesIntoBackMovement
+	playsound SFX_ENTER_DOOR
+	special FadeBlackQuickly
+	warpfacing UP, OAK_LAB_BACK_ROOM, 4, 7
 	end
+
+.No
+	writetext Text_OakSpeechNo
+	yesorno
+	iffalse .No
+	jump .Yes
 
 .SceneOakLabFrontRoomNothing:
 	end
@@ -311,7 +324,7 @@ DaisyStopsScript1:
 	end
 
 .mapcardname
-	db "MAP CARD@"
+	db "TARJ. MAPA@"
 	
 
 DaisyStopsScript2:
@@ -345,7 +358,7 @@ DaisyStopsScript2:
 	end
 
 .mapcardname
-	db "MAP CARD@"
+	db "TARJ. MAPA@"
 	
 DaisyScript_ReceiveTheBalls:
 	jumpstd ReceiveItemScript
@@ -415,7 +428,12 @@ OakLabFrontRoomAideScript:
 	jumptextfaceplayer OakLabFrontRoomAideText
 	
 OakLabFrontRoomComputerScript:
+	checkevent EVENT_FOUGHT_HO_OH
+	iftrue .OakLabFrontRoomComputer2Script
 	jumptext OakLabFrontRoomComputerText
+
+.OakLabFrontRoomComputer2Script:
+	jumptext OakLabFrontRoomComputer2Text
 	
 OakLabFrontRoomBookshelf:
 	jumpstd DifficultBookshelfScript
@@ -454,6 +472,13 @@ SilverGoesIntoBackMovement:
 	big_step UP
 	big_step UP
 	big_step RIGHT
+	big_step UP
+	big_step UP
+	step_end
+	
+PlayerGoesIntoBackMovement:
+	big_step UP
+	big_step UP
 	big_step UP
 	big_step UP
 	step_end
@@ -527,366 +552,442 @@ BlueGoesToGetDex6Movement:
 	
 
 Oak2Text_Accepted:
-	text "Thanks, <PLAYER>!"
+	text "¡Gracias, <PLAYER>!"
 
-	para "I appreciate you"
-	line "helping out my"
-	cont "grandpa."
+	para "Aprecio que estés"
+	line "ayudando a mi"
+	cont "abuelo."
 	done
 
 Oak2Text_Accepted2:
-	text "How are things"
-	line "now that you've"
-	cont "beat the LEAGUE?"
-	para "I hope they're"
-	line "going well."
-	para "Have you seen"
-	line "<RIVAL> lately?"
-	para "I know he's out"
-	line "training with his"
-	cont "#MON."
-	para "I think he's"
-	line "learned how to"
-	para "work together with"
-	line "them as a team."
+	text "¿Cómo va todo"
+	line "ahora que has"
+	cont "ganado la LIGA?"
+	para "Espero que bien."
+
+	para "¿Has visto"
+	line "últimamente a"
+	cont "<RIVAL>?"
+	para "Sé que está en"
+	line "alguna parte,"
+	para "entrenando con"
+	line "sus #MON."
+
+	para "Creo que ha"
+	line "aprendido cómo"
+	para "trabajar en equipo"
+	line "con ellos."
 	done
 	
 Oak2Text_Accepted3:
-	text "Hi <PLAYER>!"
-	para "Thanks for that"
-	line "incredible battle!"
-	para "Me and my #MON"
-	line "felt as fired up"
-	cont "as we ever had!"
+	text "¡Hola, <PLAYER>!"
+
+	para "¡Gracias por ese"
+	line "increíble combate!"
+
+	para "¡Mis #MON y yo"
+	line "nos hemos sentido"
+	para "más emocionados"
+	line "que nunca!"
 	done
 	
-	
 OakLabFrontRoomSilverText2:
-	text "My #MON will be"
-	line "the best ever!"
+	text "¡Mi #MON va a"
+	line "ser el mejor de"
+	cont "todos!"
 	done
 	
 Oak2DirectionsText3:
 	text "<PLAYER>."
+
 	para "<RIVAL>."
-	para "I'm counting on"
-	line "you both!"
+
+	para "¡Cuento con"
+	line "vosotros!"
 	done
 
 Oak2DirectionsText1:
-	text "OAK: With that"
-	line "#DEX, you're"
-	para "ready to begin the"
-	line "adventure of a"
-	cont "lifetime!"
+	text "OAK: Con esa"
+	line "#DEX, ¡estás a"
+	para "punto de empezar"
+	line "la aventura de"
+	cont "tu vida!"
 	
-	para "ROUTE 101 and"
-	line "SILENT HILLS would"
+	para "La RUTA 101 y las"
+	line "COLINAS SILENTES"
+	para "son buenos sitios"
+	line "para empezar a"
+	cont "capturar #MON."
 	
-	para "be great places to"
-	line "start looking for"
-	cont "#MON."
+	para "Si quieres"
+	line "# BALLS,"
+	para "deberías dirigirte"
+	line "a CIUDAD PAGOTA y"
+	para "comprar algunas"
+	line "en su TIENDA."
 	
-	para "If you want to get"
-	line "some # BALLS,"
-	para "you should head"
-	line "towards PAGOTA"
-	para "CITY nearby to"
-	line "pick some up at"
-	cont "their MART."
-	
-	para "If your #MON is"
-	line "hurt, you should"
+	para "Si tu #MON"
+	line "resulta herido,"
+	para "puedes curarlo en"
+	line "el CENTRO #MON"
+	para "detrás del"
+	line "laboratorio."
 
-	para "heal it with the"
-	line "#MON CENTER"
+	para "Úsalo siempre que"
+	line "lo necesites."
 	
-	para "just behind the"
-	line "lab."
+	para "¡Estoy seguro que"
+	line "lo harás genial!"
 
-	para "Feel free to use"
-	line "it anytime."
+	para "Pero por si acaso,"
+	line "aquí tienes mi"
+	para "número de"
+	line "teléfono."
 
-	
-	para "I'm sure you'll do"
-	line "great!"
-
-	para "But just in case,"
-	line "here's my phone"
-	cont "number."
-
-	para "Call me if any-"
-	line "thing comes up!"
+	para "¡Llámame si"
+	line "ocurre algo!"
 	done
 	
 
 GotOak2sNumberText:
-	text "<PLAYER> got OAK's"
-	line "phone number."
+	text "<PLAYER> registró"
+	line "el número de OAK."
 	done
 	
 	
 Lab_GetDexText:
-	text "<PLAYER> received"
-	line "#DEX!"
+	text "¡<PLAYER> recibió"
+	line "una #DEX!"
 	done
 
 
 BlueText_Pokedex:
-	text "BLUE: I used to"
-	line "want to be the"
-	para "world's best"
-	line "#MON trainer."
-	para "But when I got"
-	line "too arrogant…"
-	para "There was someone"
-	line "who showed me"
-	cont "humility."
-	para "<PLAYER>, you"
-	line "remind me of him."
-	para "And <RIVAL>!"
-	line "You remind me of"
-	cont "myself!"
-	para "Right, though!"
-	para "Here! Take this"
-	line "#DEX!"
-	para "It automatically"
-	line "records data on"
-	para "#MON you've"
-	line "seen or caught!"
+	text "AZUL: Quería"
+	line "ser el mejor"
+	para "entrenador #MON"
+	line "del mundo."
+
+	para "Pero cuando me"
+	line "pasé de arrogante…"
+	para "Hubo alguien que"
+	line "me enseñó"
+	cont "humildad."
+
+	para "Me recuerdas a él,"
+	line "<PLAYER>."
+
+	para "¡Y tú, <RIVAL>,"
+	line "me recuerdas a mí!"
+
+	para "¡En fin!"
+
+	para "¡Aquí tenéis"
+	line "vuestras #DEX!"
+
+	para "¡Guarda"
+	line "automáticamente"
+	para "datos de los"
+	line "#MON que hayáis"
+	cont "visto o capturado!"
 	done
 
 
 	
 BlueWillGiveDexText:
-	text "BLUE: Ah, I see"
-	line "you both got a"
-	cont "#MON!"
-	para "Here, I have"
-	line "something else"
-	cont "for you!"
+	text "AZUL: ¡Anda, veo"
+	line "que los dos tenéis"
+	cont "un #MON!"
+
+	para "¡Pues tengo algo"
+	line "más para vosotros!"
 	done
 
 Text_GoSeeOak:
-	text "BLUE: Gramps is"
-	line "waiting for you in"
-	cont "the back!"
+	text "AZUL: ¡Mi abuelo"
+	line "os está esperando"
+	cont "en la sala de"
+	cont "atrás!"
 	done
 
 Text_Interesting:
-	text "<RIVAL>: Hey,"
+	text "<RIVAL>: ¡Eh,"
 	line "<PLAYER>!"
 
-	para "This just got"
-	line "interesting!"
-
+	para "¡Esto se pone"
+	line "interesante!"
 	done
 
 Text_OakSpeechComeToBack:
-	text "OAK: Won't you two"
-	line "follow me to the"
-	cont "back?"
+	text "OAK: ¿Podéis"
+	line "seguirme a la"
+	cont "sala de atrás?"
 	done
 	
 Text_OakSpeech:
-	text "OAK: Indeed! I am"
-	line "PROF.OAK! You've"
-	para "got quite the"
-	line "mouth on you!"
-	para "Won't you listen"
-	line "for a while?"
-	para "One year ago, in"
-	line "KANTO, I entrusted"
-	para "two boys with a"
-	line "#MON and a"
-	para "#DEX each to"
-	line "assist in my"
-	cont "research."
-	para "In the end, they"
-	line "did an astounding"
-	cont "job!"
-	para "They succeeded in"
-	line "documenting 150"
-	para "species of"
-	line "#MON!"
-	para "However, new"
-	line "#MON are being"
-	para "found all over"
-	line "NIHON!"
-	para "Therefore, I moved"
-	line "my lab from KANTO"
-	para "to here, SILENT"
-	line "TOWN, to further"
-	cont "my research."
-	para "My grandson BLUE"
-	line "and my AIDES help,"
-	para "but it's not quite"
-	line "enough!"
-	para "<PLAYER>!"
-	para "<RIVAL>!"
-	para "Please help me"
-	line "research #MON!"
+	text "OAK: ¡Vaya boquita"
+	line "tienes!"
+	para "¡En efecto, soy"
+	line "el PROF. OAK!"
+
+	para "¿Os importaría"
+	line "escucharme un"
+	cont "momento?"
 	done
+
+Text_OakSpeechNo:
+	text "OAK: Vaya. Quizás"
+	line "no tengo tan buen"
+	cont "ojo como pensaba…"
 	
+	para "¡No puede ser!"
+	line "¡Mis ojos no se"
+	cont "equivocan!"
 	
+	para "Me vais a"
+	line "escuchar, ¿no?"
+	done
+
+Text_OakSpeechYes:
+	text "Hace un año, en"
+	line "KANTO, le confié a"
+	para "dos chicos un"
+	line "#MON y una"
+	para "#DEX para"
+	line "ayudarme con"
+	cont "mi investigación."
+
+	para "¡Acabaron haciendo"
+	line "un trabajo"
+	cont "impresionante!"
+
+	para "¡Consiguieron"
+	line "registrar datos de"
+	para "150 especies de"
+	line "#MON!"
+
+	para "Sin embargo, ¡se"
+	line "están encontrando"
+	para "aún más especies"
+	line "por todo NIHON!"
+
+	para "Así que trasladé"
+	line "mi laboratorio de"
+	para "KANTO aquí, a"
+	line "PUEBLO SILENTE,"
+	para "para continuar con"
+	line "mi investigación."
+
+	para "¡Aunque mi nieto"
+	line "AZUL y mis"
+	para "AYUDANTES me están"
+	line "echando una mano,"
+	cont "no es suficiente!"
+
+	para "¡<PLAYER>!"
+
+	para "¡<RIVAL>!"
+
+	para "¡Os ruego que me"
+	line "ayudéis a seguir"
+	cont "investigando a los"
+	cont "#MON!"
+	done
 
 Oak2Text_Intro:
-	text "OAK: <PLAYER>!"
-	line "There you are!"
-
+	text "OAK: ¡Buen"
+	line "trabajo!"
 	done	
-	
+
 Text_OakIsOld:
-	text "<RIVAL>: I can't"
-	line "believe this old"
-	para "geezer is PROF."
-	line "OAK…"
+	text "<RIVAL>: No me"
+	line "puedo creer que"
+	para "este vejestorio"
+	line "sea el PROF. OAK…"
 	done
 	
 WhatIsDexText:
-	text "What is this?"
-	para "Some sort of"
-	line "encyclopedia?"
+	text "¿Qué es esto?"
+	para "¿Algún tipo de"
+	line "enciclopedia?"
 	done
 	
 OakLabFrontRoomSignText:
-	text "Remember to SAVE"
-	line "your progress!"
+	text "¡Pulsa START para"
+	line "abrir el MENÚ!"
 	done	
 	
 OakLabFrontRoomComputerText:
-	text "It's a paper on"
-	line "#MON habitats."
-	done
+	text "¡Hay un correo a"
+	line "la vista!"
+
+	para "…"
 	
+	para "¡PROF. OAK! ¡Todo"
+	line "el mundo está muy"
+	para "preocupado por su"
+	line "paradero!"
+	
+	para "En cuanto al"
+	line "#MON que me"
+	para "pidió que buscara,"
+	line "todavía no he"
+	para "encontrado ni una"
+	line "sola pista… y"
+	cont "mucho menos su"
+	cont "escondite."
+	
+	para "Supongo que era"
+	line "de esperar…"
+	para "Al fin y al cabo,"
+	line "está en lo alto"
+	cont "del cielo."
+	
+	para "Atentamente,"
+	line "Su AYUDANTE"
+	done
+
+OakLabFrontRoomComputer2Text:
+	text "Es un informe"
+	line "sobre los hábitats"
+	cont "de los #MON."
+	done
+
 Text_RootingText:
-	text "I'll be rooting"
-	line "for you!"
+	text "¡Estaré"
+	line "animándote!"
 	done
 	
 DaisySpeechText:
-	text "The boy who"
-	line "brought you"
-	para "here is my little"
-	line "brother."
-	para "In other words…"
-	para "I'm PROF.OAK's"
-	line "granddaughter!"
-	para "Grandpa's a"
-	line "fantastic"
-	cont "researcher!"
-	para "…But he can be a"
-	line "little forgetful."
-	para "He was also"
-	line "supposed to give"
-	cont "you this!"
+	text "El chico que te ha"
+	line "traído hasta aquí"
+	para "es mi hermano"
+	line "pequeño."
+
+	para "En otras palabras…"
+
+	para "¡Soy la nieta del"
+	line "PROF. OAK!"
+
+	para "¡El abuelo es un"
+	line "gran investigador!"
+
+	para "Aunque… a veces"
+	line "puede ser"
+	cont "olvidadizo."
+
+	para "¡Se suponía que"
+	line "tenía que darte"
+	cont "esto!"
 	done
 
 DaisySpeechText2:
-	text "A POTION helps"
-	line "restore your"
-	para "#MON's health"
-	line "if you're not at"
-	cont "a #MON CENTER!"
-	para "I'll also throw"
-	line "in a few"
-	para "# BALLS to"
-	line "help out."
+	text "¡Una POCIÓN puede"
+	line "restaurar la"
+	para "salud de tu"
+	line "#MON si no"
+	para "estás en un CENTRO"
+	line "#MON!"
+
+	para "También te he"
+	line "puesto unas"
+	para "cuantas # BALLS"
+	line "para ayudarte."
 	done
 
 DaisySpeechText3:
-	text "But like Grandpa"
-	line "said, if you need"
-	para "more # BALLS,"
-	line "you can find them"
-	para "at just about any"
-	line "MART."
-	para "Also, we can't"
-	line "have your family"
-	para "worrying, so make"
-	line "sure to say"
-	para "goodbye to your"
-	line "MOM and KEN before"
-	cont "you leave town!"
-	para "I'll be rooting"
-	line "for you!"
+	text "Pero como dijo mi"
+	line "abuelo, si"
+	para "necesitas más"
+	line "# BALLS puedes"
+	para "comprarlas en"
+	line "cualquier TIENDA."
+
+	para "Además, no puedes"
+	line "dejar a tu familia"
+	para "preocupada, ¡así"
+	line "que antes de"
+	para "partir, no olvides"
+	line "despedirte de tu"
+	cont "MAMÁ y de KEN!"
+
+	para "¡Estaré"
+	line "animándote!"
 	done
 
 SilverEntranceWinText:
-	text "Wow! I thought my"
-	line "#MON would have"
-	para "been the best!"
+	text "¡Uau! ¡Creí que mi"
+	line "#MON sería el"
+	cont "mejor!"
 	done
 
 EntranceRivalText_YouLost:
-	text "<PLAYER>! I'm"
-	line "so ready to show"
-	para "the world how"
-	line "great my #MON"
-	cont "is!"
-	para "I'll see you"
-	line "around soon!"
+	text "¡<PLAYER>! ¡No"
+	line "puedo esperar a"
+	para "enseñarle al mundo"
+	line "lo genial que es"
+	cont "mi #MON!"
+
+	para "¡Ya nos veremos!"
 	done
 
 SilverEntranceLossText:
-	text "Alright! My"
-	line "#MON rules!"
+	text "¡Sí! ¡Cómo mola"
+	line "mi #MON!"
 	done
 
 EntranceRivalText_YouWon:
-	text "<PLAYER>! I'm"
-	line "so ready to show"
-	para "the world how"
-	line "great my #MON"
-	cont "is!"
-	para "I'll see you"
-	line "around soon!"
+	text "¡<PLAYER>! ¡No"
+	line "puedo esperar a"
+	para "enseñarle al mundo"
+	line "lo genial que es"
+	cont "mi #MON!"
+
+	para "¡Ya nos veremos!"
 	done
 	
 TimeToBattle:
-	text "<PLAYER>!"
-	para "You're not getting"
-	line "off that easy!"
-	para "OAK gave us these"
-	line "#MON, so now"
-	para "we gotta battle"
-	line "them!"
-	para "I'm not gonna hold"
-	line "back!"
+	text "¡<PLAYER>!"
+
+	para "¿A dónde vas tan"
+	line "deprisa?"
+	para "¡OAK nos ha dado"
+	line "estos #MON, así"
+	para "que vamos a"
+	line "combatir!"
+
+	para "¡No me voy a"
+	line "contener!"
 	done
 	
 Text_InBack:
-	text "PROF.OAK just got"
-	line "back in. He's"
-	para "waiting to see"
-	line "you!"
+	text "¡Abuelo! ¡Mira a"
+	line "quién te traigo!"
 	done
 
 OakLabFrontRoomAideText:
-	text "I'm one of PROF."
-	line "OAK's AIDES."
-	para "Of course, we"
-	line "respect each other"
-	cont "greatly."
+	text "Soy uno de los"
+	line "AYUDANTES del"
+	cont "PROF. OAK."
+
+	para "Nos tenemos gran"
+	line "respeto el uno"
+	cont "al otro."
 	done
 	
 DoorLockedText:
-	text "The door seems to"
-	line "be locked…"
+	text "La puerta parece"
+	line "estar cerrada…"
 	done
 	
 OakLabFrontRoomSilverText:
-	text "Yo, <PLAYER>!"
+	text "¡Hola, <PLAYER>!"
 	
-	para "Looks like PROF."
-	line "OAK isn't here!"
+	para "¡Parece que el"
+	line "PROF. OAK no está!"
 	
-	para "I wonder when"
-	line "he would have"
-	
-	para "expected us to"
-	line "show up!"
-	
+	para "¡A saber cuándo"
+	line "pensaba que"
+	cont "llegaríamos!"	
 	done
 	
 DaisyLeftMovement:
@@ -954,7 +1055,7 @@ Movement_BlueToBack:
 	slow_step RIGHT
 	turn_head UP
 	step_end
-	
+
 Movement_BlueThroughDoor:
 	step UP
 	step_end
@@ -1009,7 +1110,7 @@ OakLabFrontRoom_MapEvents:
 	object_event  1,  1, SPRITE_POKEDEX, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, OakLabFrontRoomDexScript, EVENT_OAK_LAB_DEX_TABLE
 	object_event  0,  1, SPRITE_POKEDEX, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, OakLabFrontRoomDexScript, EVENT_OAK_LAB_DEX_TABLE
 	object_event  4,  2, SPRITE_OAK, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GRAY, OBJECTTYPE_SCRIPT, 0, OakLabFrontRoomDexScript, EVENT_OAK_OAK_LAB_FRONT_ROOM
-	object_event  3,  4, SPRITE_SILVER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, OakLabFrontRoomSilverScript, EVENT_RIVAL_OAK_LAB_FRONT_ROOM_2
+	object_event  3,  4, SPRITE_SILVER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, OakLabFrontRoomSilverScript, EVENT_RIVAL_OAK_LAB_FRONT_ROOM_2
 	object_event  1,  3, SPRITE_BLUE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, OakLabFrontRoomBlueScript, EVENT_BLUE_OAK_LAB_FRONT_ROOM_2
 
 	

@@ -1,10 +1,10 @@
-	db "FLOWER@" ; species name
-	dw 104, 130 ; height, weight
+	db "FLOR@" ; species name
+	dbw 4, 58 ; height, weight
 
-	db   "When these dance"
-	next "together, their"
-	next "petals rub against"
+	db   "Si los BELLOSSOM"
+	next "se ponen a bailar"
+	next "juntos, el roce de"
 
-	page "each other,"
-	next "making pretty,"
-	next "relaxing sounds.@"
+	page "los pétalos produ-"
+	next "ce unos sonidos"
+	next "muy relajantes.@"

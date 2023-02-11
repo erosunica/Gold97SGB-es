@@ -12,13 +12,15 @@ MountFujiSign:
 	jumptext MountFujiSignText
 
 MountFujiSignText:
-	text "MT.FUJI"
+	text "MT. FUJI"
 
-	para "The Ultimate Goal"
-	line "for Trainers!"
+	para "¡El objetivo"
+	line "final de los"
+	cont "entrenadores!"
 
-	para "NIHON #MON"
-	line "LEAGUE HQ"
+	para "El CG de la"
+	line "LIGA #MON"
+	cont "de NIHON"
 	done
 
 FujiSummit_MapEvents:

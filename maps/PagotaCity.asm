@@ -110,99 +110,97 @@ KurtsDoorLocked_Movement:
 
 	
 KurtsDoorLockedText:
-	text "It's locked…"
+	text "Está cerrado…"
 	done
-
 	
 PagotaCityLassText:
-	text "Ghosts are rumored"
-	line "to appear in"
-	cont "5 FLOOR TOWER."
+	text "Dicen que en la"
+	line "TORRE GODAI hay"
+	cont "fantasmas."
 
-	para "They said normal-"
-	line "type #MON moves"
-
-	para "had no effect on"
-	line "ghosts."
+	para "Y que los #MON"
+	line "de tipo normal no"
+	para "afectan a los"
+	line "fantasmas."
 	done
 
 PagotaCitySuperNerdText:
-	text "Hey, you're a"
-	line "#MON trainer?"
+	text "¿Entrenas #MON?"
 
-	para "If you beat the"
-	line "GYM LEADER here,"
-
-	para "you'll be ready"
-	line "for prime time!"
+	para "¡Si ganas a este"
+	line "LÍDER de GIMNASIO,"
+	para "estarás en el"
+	line "camino del éxito!"
 	done
 
 PagotaCityGrampsText:
-	text "FALKNER, from the"
-	line "PAGOTA CITY"
+	text "¡PEGASO, del"
+	line "GIMNASIO #MON"
+	para "de CIUDAD PAGOTA,"
+	line "es magnífico!"
 
-	para "GYM, is a fine"
-	line "trainer!"
-
-	para "His flying-type"
-	line "bird #MON are"
-	para "trained to perform"
-	line "in parades and"
-	cont "other events."
+	para "Sus #MON de"
+	line "tipo volador están"
+	para "entrenados para"
+	line "actuar en desfiles"
+	cont "y otros eventos."
 	done
 
 PagotaCityYoungsterTextTree:
-	text "Behind me is the"
-	line "5 FLOOR TOWER!"
-	para "But getting to it"
-	line "can be difficult"
-	para "because of this"
-	line "tree that's in the"
-	cont "way."
+	text "¡Detrás de mí está"
+	line "la TORRE GODAI!"
+
+	para "Pero pasar es"
+	line "difícil por este"
+	cont "árbol en mitad del"
+	cont "camino."
 	done
 	
 PagotaCityYoungsterTextNoTree:
-	text "Cool! Now that the"
-	line "tree is gone, I"
-	para "can go play in the"
-	line "tower!"
+	text "¡Muy bien! ¡Ahora"
+	line "que el árbol ya no"
+	para "está, puedo ir a"
+	line "jugar a la torre!"
 	done
 
 PagotaCitySignText:
-	text "PAGOTA CITY"
+	text "CIUDAD PAGOTA"
 
-	para "Timeless As the"
-	line "Stars Above"
+	para "Tan eterna como"
+	line "las estrellas"
+	cont "sobre ella"
 	done
 
 PagotaGymSignText:
-	text "PAGOTA CITY"
-	line "#MON GYM"
-	cont "LEADER: FALKNER"
+	text "LÍDER DEL GIMNASIO"
+	line "#MON DE CIUDAD"
+	cont "PAGOTA: PEGASO"
 
-	para "The Elegant Master"
-	line "of Flying #MON"
+	para "El elegante"
+	line "maestro de los"
+	cont "#MON voladores"
 	done
 
 FiveFloorTowerSignText:
-	text "5 FLOOR TOWER"
+	text "TORRE GODAI"
 
-	para "Experience the"
-	line "Way of #MON"
+	para "Experimenta el"
+	line "Camino de los"
+	cont "#MON"
 	done
 
 PagotaPokemonAcademySignText:
-	text "EARL'S ART HOUSE"
+	text "GALERÍA DE ARTE"
+	line "DE GABRIEL"
 	done
 	
 KurtsHouseSignText:
-	text "KURT'S HOUSE"
+	text "CASA DE CÉSAR"
 	done
 	
 EarlsMuseumSign2Text:
-	text "BILL'S HOUSE"
+	text "CASA DE BILL"
 	done
-	
 
 
 PagotaCity_MapEvents:
@@ -241,11 +239,11 @@ PagotaCity_MapEvents:
 	bg_event 26, 22, BGEVENT_READ, EarlsMuseumSign2
 
 	db 9 ; object events
-	object_event 26, 30, SPRITE_LASS, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 2, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, PagotaCityLassScript, -1
+	object_event 26, 30, SPRITE_LASS, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 2, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, PagotaCityLassScript, -1
 	object_event 24, 18, SPRITE_SUPER_NERD, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, PagotaCitySuperNerdScript, -1
 	object_event 15, 25, SPRITE_GRAMPS, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PagotaCityGrampsScript, -1
 	object_event 10, 21, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, PagotaCityYoungsterScript, -1
-	object_event 17, 17, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, PagotaCityFruitTree, -1
+	object_event 17, 17, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, PagotaCityFruitTree, -1
 	object_event 14, 11, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, PagotaCityPPUp, EVENT_PAGOTA_CITY_PP_UP
 	object_event 23,  5, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, PagotaCityRareCandy, EVENT_PAGOTA_CITY_RARE_CANDY
 	object_event 16,  4, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, PagotaCityStimulusOrb, EVENT_PAGOTA_CITY_STIMULUS_ORB

@@ -1,10 +1,10 @@
-	db "ICE MONSTER@" ; species name
-	dw 504, 2230 ; height, weight
-
-	db   "Its fur isn't"
-	next "warmed by its"
-	next "body heat, as it"
-
-	page "stays as cold as"
-	next "the environment it"
-	next "lives in.@"
+	db "MON. HIELO@" ; species name
+	dbw 16, 1012 ; height, weight
+	
+	db   "Su pelaje, aun con"
+	next "su calor corporal,"
+	next "se mantiene tan"
+	
+	page "frío como el"
+	next "entorno en el que"
+	next "habita.@"

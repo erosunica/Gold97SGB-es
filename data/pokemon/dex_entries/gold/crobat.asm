@@ -1,10 +1,10 @@
-	db "BAT@" ; species name
-	dw 511, 1650 ; height, weight
+	db "MURCIÉLAGO@" ; species name
+	dbw 18, 750 ; height, weight
 
-	db   "As a result of its"
-	next "pursuit of faster,"
-	next "yet more silent"
+	db   "Como está siempre"
+	next "intentando volar"
+	next "más rápido y"
 
-	page "flight, a new set"
-	next "of wings grew on"
-	next "its hind legs.@"
+	page "silenciosamente,"
+	next "ha desarrollado"
+	next "otro par de alas.@"

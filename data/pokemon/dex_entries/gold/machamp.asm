@@ -1,10 +1,10 @@
-	db "SUPERPOWER@" ; species name
-	dw 503, 2870 ; height, weight
+	db "SUPERPODER@" ; species name
+	dbw 16, 1300 ; height, weight
 
-	db   "With four arms"
-	next "that react more"
-	next "quickly than it"
+	db   "Puede dar varios"
+	next "puñetazos de una"
+	next "sola vez, gracias"
 
-	page "can think, it can"
-	next "execute many"
-	next "punches at once.@"
+	page "a sus cuatro bra-"
+	next "zos. Golpea más"
+	next "rápido que piensa.@"

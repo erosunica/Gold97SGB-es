@@ -44,61 +44,69 @@ CrownCityTrainerHouseLassScript:
 	
 
 IejimaTownDreamEaterFisherText:
-	text "Yawn!"
+	text "¡Qué sueño!"
 
-	para "I've been training"
-	line "so much lately…"
-	para "I'm so tired, I"
-	line "could fall asleep."
-	
-	para "Did you know"
-	line "there's a move"
-	para "that's only"
-	line "effective against"
-	cont "sleeping #MON?"
-	para "Here, check this"
-	line "out."
+	para "He estado entre-"
+	line "nando mucho"
+	cont "últimamente…"
+
+	para "Estoy tan cansada"
+	line "que podría dormir-"
+	cont "me aquí mismo."
+
+	para "¿Sabías que hay un"
+	line "movimiento que"
+	para "solo es efectivo"
+	line "contra #MON"
+	cont "dormidos?"
+
+	para "Toma, compruébalo."
 	done
 
 IejimaTownDreamEaterFisherGotDreamEaterText:
-	text "TM42 contains"
-	line "DREAM EATER…"
+	text "MT42 contiene"
+	line "COMESUEÑOS…"
 
-	para "…Zzzzz…"
+	para "¡Zzzzz…!"
 	done
 
 	
 CrownCityTrainerHouseRockerText:
-	text "Which of my #-"
-	line "MON are tough"
-	para "enough to take on"
-	line "the LEAGUE?"
+	text "¿Cuál de mis"
+	line "#MON es lo"
+	para "bastante fuerte"
+	line "para enfrentarse a"
+	cont "la LIGA?"
 	done
-	
+
 CrownCityTrainerHouseCooltrainermText:
-	text "I'm ready!"
-	para "I can do this!"
-	para "Just psyching"
-	line "myself up."
+	text "¡Estoy listo!"
+
+	para "¡Puedo hacerlo!"
+
+	para "Solo me estoy"
+	line "mentalizando."
 	done
 
 CrownCityTrainerHouseSuperNerdText:
-	text "I hear there are"
-	line "trainers in the"
-	para "LEAGUE that use"
-	line "psychic, poison,"
-	para "ghost, water, and"
-	line "dragon types."
+	text "He oído que en la"
+	line "LIGA hay entrena-"
+	para "dores que usan los"
+	line "tipos psíquico,"
+	para "veneno, fantasma,"
+	line "agua y dragón."
 	done
-	
+
 CrownCityTrainerHouseCooltrainerfText:
-	text "I had a tough time"
-	line "getting eight"
-	cont "BADGES."
-	para "I might need to"
-	line "train more before"
-	para "I take on the"
-	line "LEAGUE."
+	text "Tuve que esforzar-"
+	line "me mucho para"
+	cont "conseguir las ocho"
+	cont "MEDALLAS."
+
+	para "Creo que debo"
+	line "entrenar más antes"
+	cont "de desafiar a la"
+	cont "LIGA."
 	done
 
 CrownCityTrainerHouse_MapEvents:
@@ -118,7 +126,7 @@ CrownCityTrainerHouse_MapEvents:
 
 	db 5 ; object events
 	object_event  2,  3, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CrownCityTrainerHouseSuperNerdScript, -1
-	object_event  1,  6, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, CrownCityTrainerHouseCooltrainerfScript, -1
+	object_event  1,  6, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, CrownCityTrainerHouseCooltrainerfScript, -1
 	object_event  4,  5, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CrownCityTrainerHouseCooltrainermScript, -1
 	object_event 10,  3, SPRITE_ROCKER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 1, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, CrownCityTrainerHouseRockerScript, -1
 	object_event 13,  6, SPRITE_LASS, SPRITEMOVEDATA_STANDING_RIGHT, 1, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, CrownCityTrainerHouseLassScript, -1

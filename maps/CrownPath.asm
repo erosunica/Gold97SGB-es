@@ -99,23 +99,31 @@ UndergroundSilverLeavesMovement:
 	step_end
 	
 UndergroundSilverBeforeText:
-	text "Hi, <PLAYER>!"
+	text "¡Hola, <PLAYER>!"
+
 	para "…"
-	para "You're about to"
-	line "climb MT.FUJI,"
-	cont "right?"
-	para "It's been a long"
-	line "journey."
-	para "We've both been"
-	line "through a lot."
-	para "Are your #MON"
-	line "ready?"
-	para "Are my #MON"
-	line "ready?"
-	para "Let's face off,"
-	line "right here!"
-	para "A battle between"
-	line "friends!"
+
+	para "Vas a escalar el"
+	line "MT. FUJI, ¿no?"
+
+	para "Ha sido un largo"
+	line "viaje."
+
+	para "Hemos pasado por"
+	line "muchas cosas."
+
+	para "¿Están tus #MON"
+	line "listos?"
+
+	para "¿Lo están los"
+	line "míos?"
+
+	para "¡Vamos a compro-"
+	line "barlo, aquí y"
+	cont "ahora!"
+
+	para "¡Un combate entre"
+	line "amigos!"
 	done
 	
 UndergroundSilverWinText:
@@ -127,63 +135,78 @@ UndergroundSilverLossText:
 	done
 	
 UndergroundSilverAfterText:
-	text "You know what I've"
-	line "realized?"
-	para "I was so excited"
-	line "to challenge the"
-	cont "LEAGUE."
-	para "I wanted to have"
-	line "the strongest"
-	cont "#MON."
-	para "I wanted to be the"
-	line "toughest trainer"
-	cont "there is."
-	para "I only wanted to"
-	line "defeat other"
-	para "trainers to prove"
-	line "how good I am."
-	para "But dealing with"
-	line "TEAM ROCKET has"
-	cont "made me think."
-	para "They only saw"
-	line "#MON as tools"
-	cont "to be used."
-	para "And while their"
-	line "ambitions were"
-	para "evil, and mine had"
-	line "only been selfish,"
-	para "I realized that"
-	line "the way I thought"
-	para "about #MON was"
-	line "similar."
-	para "I saw my team only"
-	line "as a way to have"
-	cont "strength."
-	para "And training"
-	line "#MON shouldn't"
-	cont "be about that."
-	para "I've realized I"
-	line "need to treat my"
-	cont "team with love."
-	para "And I don't think"
-	line "I'm quite ready to"
-	para "face the LEAGUE"
-	line "until I've worked"
-	para "on that more, and"
-	line "made sure my"
-	para "#MON are ready"
-	line "for the challenge."
-	para "So I'm going to do"
-	line "some more training"
-	cont "first."
-	para "I'm going to make"
-	line "sure me and my"
-	para "#MON are ready"
-	line "for the challenge,"
-	para "so we can battle"
-	line "as a team!"
-	para "I'll see you"
-	line "around soon."
+	text "¿Sabes de qué me"
+	line "he dado cuenta?"
+
+	para "Me emocionaba"
+	line "desafiar a la"
+	cont "LIGA."
+
+	para "Quería tener los"
+	line "#MON más"
+	cont "fuertes."
+
+	para "Quería ser el"
+	line "entrenador más"
+	cont "poderoso."
+
+	para "Solo quería"
+	line "derrotar a otros"
+	para "entrenadores para"
+	line "demostrar lo bueno"
+	cont "que soy."
+
+	para "Pero lidiar con el"
+	line "TEAM ROCKET me"
+	cont "hizo pensar."
+
+	para "Ellos solo ven a"
+	line "los #MON como"
+	cont "herramientas que"
+	cont "usar."
+
+	para "Y aunque sus"
+	line "ambiciones eran"
+	para "malvadas y las"
+	line "mías solo egoís-"
+	para "tas, me he dado"
+	line "cuenta de que veía"
+	para "a los #MON de"
+	line "una manera pareci-"
+	cont "da a la de ellos."
+
+	para "He visto a mi"
+	line "equipo solo como"
+	para "una manera de"
+	line "tener fuerza."
+
+	para "Y entrenar #MON"
+	line "no debería ser"
+	cont "algo así."
+
+	para "Tengo que tratar-"
+	line "los con cariño."
+
+	para "Y creo que no"
+	line "estoy preparado"
+	para "para desafiar a la"
+	line "LIGA hasta que lo"
+	para "haya hecho y me"
+	line "asegure de que"
+	para "están listos para"
+	line "el desafío."
+
+	para "Así que primero"
+	line "voy a entrenar"
+	cont "algo más."
+
+	para "¡Me aseguraré de"
+	line "que mis #MON y"
+	para "yo estemos listos"
+	line "para la LIGA, com-"
+	cont "batiendo juntos!"
+
+	para "Ya nos veremos."
 	done
 
 CrownPath_MapEvents:

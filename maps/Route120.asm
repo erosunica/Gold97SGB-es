@@ -136,104 +136,106 @@ Route120SuperRepel:
 	itemball SUPER_REPEL
 	
 Route120GrampsText:
-	text "Oh, good! You're"
-	line "here!"
-	para "Please help me"
-	line "out."
-	para "My granddaughter"
-	line "could be trapped"
-	cont "in there!"
+	text "¡Ah, bien!"
+	line "¡Ya estás aquí!"
+
+	para "Ayúdame, por"
+	line "favor."
+
+	para "¡Mi nieta podría"
+	line "estar atrapada ahí"
+	cont "dentro!"
 	done
-	
 
 LassConnie1SeenText:
-	text "I don't know why"
-	line "I hang out with"
-	cont "DUDLEY or JOEY."
+	text "No sé por qué"
+	line "salgo con CHEMA y"
+	cont "JULIO."
 
-	para "You're probably"
-	line "cooler than either"
-	cont "of them!"
+	para "¡Seguro que tú"
+	line "eres mejor que"
+	cont "ellos!"
 	done
 
 LassConnie1BeatenText:
-	text "Aaack! My #MON!"
+	text "¡Ay! ¡Mi #MON!"
 	done
 
 LassConnie1AfterBattleText:
-	text "Well, I lost, but"
-	line "that battle was"
-	para "more fun than"
-	line "anything those"
-	para "two could be up"
-	line "to."
+	text "He perdido, pero"
+	line "ha sido un mejor"
+	para "combate que"
+	line "cualquiera que"
+	para "hubiera tenido"
+	line "contra esos dos."
 	done
 
-	
 SchoolboyDudleySeenText:
-	text "This route is"
-	line "where all of my"
-	para "friends meet after"
-	line "school!"
+	text "¡Esta ruta es"
+	line "donde se reúnen"
+	para "mis amigos después"
+	line "del cole!"
 	done
 
 SchoolboyDudleyBeatenText:
-	text "Whoo! Good stuff."
+	text "¡Uau! Muy bien."
 	done
 
 SchoolboyDudleyAfterBattleText:
-	text "I did my best."
-	line "I have no regrets."
+	text "Hice lo que pude."
+	line "No me arrepiento."
 	done
 	
 YoungsterJoey1SeenText:
-	text "It's fun to play"
-	line "in the MINE."
-	para "But don't tell"
-	line "our parents!"
+	text "Me gusta jugar en"
+	line "la MINA."
+
+	para "¡Pero no se lo"
+	line "digas a mis"
+	cont "padres!"
 	done
 
 YoungsterJoey1BeatenText:
-	text "Ack! I lost!"
-	line "Doggone it!"
+	text "¡Argh!"
+	line "¡He perdido!"
 	done
 
 YoungsterJoey1AfterText:
-	text "Do I have to have"
-	line "more #MON in"
+	text "¿Debo tener más"
+	line "#MON para poder"
+	cont "luchar mejor?"
 
-	para "order to battle"
-	line "better?"
-
-	para "No! I'm sticking"
-	line "with this one no"
-	cont "matter what!"
+	para "¡No! ¡Continuaré"
+	line "sólo con éste,"
+	cont "pase lo que pase!"
 	done
 
-
 YoungsterJoeyText_GiveHPUpAfterBattle:
-	text "I lost again…"
-	line "Gee, you're tough!"
+	text "Perdí otra vez…"
+	line "¡Eres fuerte!"
 
-	para "Oh yeah, I almost"
-	line "forgot that I had"
-	cont "to give you this."
+	para "Oh. Casi olvido"
+	line "que tenía que"
+	cont "darte esto."
 
-	para "Use it to get even"
-	line "tougher, OK?"
+	para "Úsalo para hacerte"
+	line "aún más fuerte,"
+	cont "¿vale?"
 
-	para "I'm going to get"
-	line "tougher too."
+	para "Yo también seré"
+	line "más fuerte."
 	done
 
 Route120BoulderMineSignText:
-	text "BOULDER MINE"
-	para "Dangerous mining"
-	line "area!"
-	para "Please do not"
-	line "enter without"
-	para "#MON for"
-	line "protection."
+	text "MINA PEÑASCO"
+	
+	para "¡Área para minar"
+	line "peligrosa!"
+
+	para "Por favor, no"
+	line "entrar sin un"
+	para "#MON como"
+	line "protección."
 	done
 
 Route120_MapEvents:
@@ -248,9 +250,9 @@ Route120_MapEvents:
 	bg_event 10,  6, BGEVENT_READ, Route120BoulderMineSign
 
 	db 6 ; object events
-	object_event 42,  5, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route120FruitTree, -1
+	object_event 42,  5, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, Route120FruitTree, -1
 	object_event 12, 10, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_TRAINER, 4, TrainerYoungsterJoey, -1
-	object_event 24,  4, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_TRAINER, 4, TrainerSchoolboyDudley, -1
+	object_event 24,  4, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_TRAINER, 4, TrainerSchoolboyDudley, -1
 	object_event 12,  6, SPRITE_LASS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 1, TrainerLassConnie, -1
 	object_event  8,  7, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, Route120GrampsScript, EVENT_GRAMPS_AT_MINE
 	object_event 21, 10, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route120SuperRepel, EVENT_PICKED_UP_ROUTE_120_SUPER_REPEL

@@ -1,6 +1,6 @@
 SaveMenu:
 	call LoadStandardMenuHeader
-	lb de, 4, 0
+	lb de, 2, 0
 	farcall DisplayNormalContinueData
 	call SpeechTextbox
 	call UpdateSprites
@@ -198,7 +198,7 @@ SaveTheGame_yesorno:
 	ld b, BANK(WouldYouLikeToSaveTheGameText)
 	call MapTextbox
 	call LoadMenuTextbox
-	lb bc, 0, 7
+	lb bc, 0, 9
 	call PlaceYesNoBox
 	ld a, [wMenuCursorY]
 	dec a

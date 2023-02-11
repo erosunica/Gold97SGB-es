@@ -34,7 +34,6 @@ SwarmGrassWildMons:
 	map_id ROUTE_106
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 
-	IF DEF(_GOLD)
 	; morn
 	db 18, PARAS
 	db 18, EEVEE
@@ -59,33 +58,6 @@ SwarmGrassWildMons:
 	db 18, EEVEE
 	db 16, PIKACHU
 	db 18, EEVEE
-
-	ELIF DEF(_SILVER)
-	; morn
-	db 15, EEVEE
-	db 15, EEVEE
-	db 14, EEVEE
-	db 15, EEVEE
-	db 15, EEVEE
-	db 14, EEVEE
-	db 15, EEVEE
-	; day
-	db 15, EEVEE
-	db 15, EEVEE
-	db 14, EEVEE
-	db 15, EEVEE
-	db 15, EEVEE
-	db 14, EEVEE
-	db 15, EEVEE
-	; nite
-	db 15, EEVEE
-	db 15, EEVEE
-	db 14, EEVEE
-	db 15, EEVEE
-	db 15, EEVEE
-	db 14, EEVEE
-	db 15, EEVEE
-	ENDC
 
 ; Paraspor swarm
 	map_id AMPARE_CAVERN_B1F

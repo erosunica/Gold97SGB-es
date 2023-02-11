@@ -41,61 +41,60 @@ WestportDeptStore2FElevatorButton:
 
 WestportDeptStore2FUnusedText1:
 ; unused
-	text "We intend to sell"
-	line "items for #MON"
-	cont "to hold."
+	text "Vendemos objetos"
+	line "para los #MON."
 
-	para "This is a free"
-	line "gift. Have a #-"
-	cont "MON hold it."
+	para "Esto es un regalo."
+	line "Dáselo a un"
+	cont "#MON."
 	done
 
 WestportDeptStore2FUnusedText2:
 ; unused
-	text "By giving #MON"
-	line "items to hold, I"
-
-	para "bet trainers will"
-	line "develop new battle"
-	cont "techniques."
+	text "Si equipas a tus"
+	line "#MON con"
+	para "objetos, podrías"
+	line "salir ganando en"
+	cont "el combate."
 	done
 
 WestportDeptStore2FYoungsterText:
-	text "#GEAR can store"
-	line "up to ten phone"
-	cont "numbers."
+	text "El #GEAR puede"
+	line "almacenar hasta"
+	cont "diez números."
 
-	para "It's hard to de-"
-	line "cide which numbers"
-	cont "to keep."
+	para "Es difícil decidir"
+	line "qué números debes"
+	cont "guardar."
 	done
 
 WestportDeptStore2FCooltrainerFText:
-	text "A # DOLL is"
-	line "useful to have"
-	para "when you're having"
-	line "trouble escaping"
-	cont "a wild #MON."
+	text "Un # MUÑECO es"
+	line "muy útil si tienes"
+	para "problemas para"
+	line "huir de un #MON"
+	cont "salvaje."
 	done
 
 WestportDeptStore2FGentlemanText:
-	text "This DEPT.STORE"
-	line "makes me realize"
+	text "Este CENTRO"
+	line "COMERCIAL indica"
+	para "que CIUDAD"
+	line "PONIENTE está"
+	cont "creciendo"
+	cont "rápidamente."
 
-	para "that WESTPORT CITY"
-	line "is growing fast."
-
-	para "The selection here"
-	line "is unmatched any-"
-	cont "where else."
+	para "Su gama de"
+	line "productos no tiene"
+	cont "rival."
 	done
 
 WestportDeptStore2FDirectoryText:
-	text "Your Travel"
-	line "Companion"
+	text "Tu Compañero"
+	line "de Viaje"
 
-	para "2F TRAINER'S"
-	line "   MARKET"
+	para "P1 TIENDA DE"
+	line "   ENTRENADORES"
 	done
 
 WestportDeptStore2F_MapEvents:

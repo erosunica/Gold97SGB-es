@@ -51,46 +51,55 @@ CrownCityJanineScript:
 	jumptextfaceplayer CrownCityJanineText
 	
 CrownCityJanineText:
-	text "My older brother"
-	line "challenged the"
-	cont "LEAGUE once."
-	para "He couldn't de-"
-	line "feat them."
+	text "Mi hermano mayor"
+	line "desafió una vez a"
+	cont "la LIGA."
+
+	para "No pudo"
+	line "derrotarles."
 	done
-	
+
 CrownCityRockerText:
-	text "As imposing as"
-	line "MT.FUJI is, this"
-	para "town at the base"
-	line "of the mountain"
-	cont "is really scenic."
+	text "A pesar de lo"
+	line "imponente que es"
+	para "el MT. FUJI, esta"
+	line "ciudad en la"
+	para "ladera de la mon-"
+	line "taña es realmente"
+	cont "pintoresca."
 	done
-	
+
 CrownCitySign2Text:
-	text "CROWN CITY"
-	line "TRAINER HOUSE"
+	text "CASA DEL"
+	line "ENTRENADOR"
 	done
-	
+
 CrownCitySignText:
-	text "CROWN CITY"
-	para "The Base Camp For"
-	line "LEAGUE Challengers"
+	text "CIUDAD CORONA"
+
+	para "El campamento para"
+	line "los aspirantes de"
+	cont "la LIGA"
 	done
-	
+
 GoTrainerText:
-	text "Trainer!"
-	para "You are here"
-	line "because you have"
-	para "committed to"
-	line "climbing MT.FUJI!"
-	para "Gather your best"
-	line "team of #MON"
-	para "and all of your"
-	line "strength!"
-	para "Ascend the water-"
-	line "fall and begin"
-	cont "your climb!"
-	para "The LEAGUE awaits!"
+	text "¡Entrenador!"
+
+	para "¡Estás aquí porque"
+	line "te has comprometi-"
+	cont "do a escalar el"
+	cont "MT. FUJI!"
+
+	para "¡Reúne tu mejor"
+	line "equipo #MON y"
+	cont "todo tu poder!"
+
+	para "¡Sube por la"
+	line "cascada y comienza"
+	cont "a escalar!"
+
+	para "¡La LIGA te"
+	line "espera!"
 	done
 
 CrownCity_MapEvents:
@@ -118,5 +127,5 @@ CrownCity_MapEvents:
 
 	db 3 ; object events
 	object_event  9, 16, SPRITE_LASS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CrownCityLassScript, -1
-	object_event 12, 19, SPRITE_ROCKER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 1, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, CrownCityRockerScript, -1
+	object_event 12, 19, SPRITE_ROCKER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 1, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, CrownCityRockerScript, -1
 	object_event  4, 19, SPRITE_JANINE, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, CrownCityJanineScript, -1

@@ -1,10 +1,10 @@
-	db "BEAK@" ; species name
-	dw 311, 840 ; height, weight
+	db "PICO@" ; species name
+	dbw 12, 380 ; height, weight
 
-	db   "It uses its long"
-	next "beak to attack. It"
-	next "has a surprisingly"
+	db   "Utiliza el largo"
+	next "pico que tiene"
+	next "para atacar. Logra"
 
-	page "long reach, so it"
-	next "must be treated"
-	next "with caution.@"
+	page "un alcance sor-"
+	next "prendente, así que"
+	next "mucho ojo con él.@"

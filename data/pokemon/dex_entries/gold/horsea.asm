@@ -1,10 +1,10 @@
-	db "DRAGON@" ; species name
-	dw 104, 180 ; height, weight
+	db "DRAGÓN@" ; species name
+	dbw 4, 80 ; height, weight
 
-	db   "When they're in a"
-	next "safe location,"
-	next "they can be seen"
+	db   "Cuando están en un"
+	next "lugar seguro, se"
+	next "ponen a juguetear"
 
-	page "playfully tangling"
-	next "their tails"
-	next "together.@"
+	page "y a enroscarse"
+	next "entre ellos por"
+	next "las colas.@"

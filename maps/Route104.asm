@@ -203,209 +203,216 @@ Route104TMEndure:
 
 
 Route104LassText:
-	text "Pant, pant…"
+	text "Uf, uf…"
 
-	para "It's a long walk"
-	line "just to get this"
-	cont "far."
-	para "But there's still"
-	line "a long way to go"
-	cont "to ALLOY CITY."
-	para "JADE FOREST is a"
-	line "maze."
-	para "I need to make"
-	line "sure I'm ready."
+	para "Menuda caminata"
+	line "para llegar hasta"
+	cont "aquí."
+
+	para "Pero aún queda"
+	line "mucho para llegar"
+	cont "a CIUDAD ALEAR."
+
+	para "El BOSQUE JADE es"
+	line "un laberinto."
+
+	para "Será mejor que me"
+	line "prepare."
 	done
 
 Route104TeacherText:
-	text "I'm confused."
-	para "I came through"
-	line "this route by"
-	para "hopping down this"
-	line "ledge."
-	para "But I can't figure"
-	line "out my way back"
-	cont "to BIRDON TOWN."
-	para "There's got to be"
-	line "a way around…"
+	text "No lo entiendo."
+
+	para "Vine a esta ruta"
+	line "saltando por esta"
+	cont "cornisa."
+
+	para "Pero ahora no sé"
+	line "cómo volver a"
+	cont "PUEBLO BIRDON."
+
+	para "Tiene que haber"
+	line "una manera…"
 	done
 
 DontStepFlowers:
-	text "Hey!"
-	para "Don't step there!"
-	para "I work really hard"
-	line "getting my garden"
-	para "to look nice in"
-	line "such a dry area!"
-	para "Don't trample my"
-	line "flowers!"
+	text "¡Eh!"
+
+	para "¡No pises ahí!"
+
+	para "¡He trabajado"
+	line "mucho para tener"
+	para "un bonito jardín"
+	line "en una zona tan"
+	cont "seca!"
+
+	para "¡No arruines mis"
+	line "flores!"
 	done
 
 LaDiDa:
-	text "La-Di-Da!"
-	para "Oh, how I enjoy"
-	line "tending to my"
-	cont "garden!"
+	text "Lalala, lalalala."
+
+	para "¡Cómo me gusta"
+	line "cuidar mi jardín!"
 	done
 
-
 SupernerdSamSeenText:
-	text "Do you collect"
-	line "rare #MON?"
+	text "¿Coleccionas"
+	line "#MON raros?"
 	done
 
 SupernerdSamBeatenText:
-	text "Oi!"
+	text "¡Oye!"
 	done
 
 SupernerdSamAfterBattleText:
-	text "I collect rare"
-	line "#MON."
-	para "Or at least, I"
-	line "wish I did."
+	text "Colecciono #MON"
+	line "raros."
+
+	para "O eso me gustaría"
+	line "decir."
 	done
 	
 HikerDanielSeenText:
-	text "I'm setting out"
-	line "on a long hike."
-	para "Let's see how"
-	line "prepared I am!"
+	text "Voy de camino a"
+	line "una gran escalada."
+
+	para "¡Veamos lo"
+	line "preparado que"
+	cont "estoy!"
 	done
 
 HikerDanielBeatenText:
-	text "Foot cramps!"
+	text "¡Calambre en los"
+	line "pies!"
 	done
 
 HikerDanielAfterBattleText:
-	text "Looks like I need"
-	line "to make sure I'm"
-	para "up for the long"
-	line "journey."
+	text "Tendré que"
+	line "prepararme mejor"
+	cont "para este viaje."
 	done
 
 FirebreatherBurtSeenText:
-	text "Can you take the"
-	line "heat that I'm"
-	cont "about to give?"
+	text "¿Podrás aguantar"
+	line "el calor que puedo"
+	cont "dar?"
 	done
 
 FirebreatherBurtBeatenText:
-	text "Ow, hot!"
+	text "¡Quema, quema!"
 	done
 
 FirebreatherBurtAfterBattleText:
-	text "This ROUTE is too"
-	line "hot!"
+	text "¡Vaya calor hace"
+	line "en esta RUTA!"
 	done
 
-
 CamperElliotSeenText:
-	text "I'm on my way"
-	line "to go camping"
-	cont "in the FOREST!"
+	text "¡Voy de camino a"
+	line "acampar en el"
+	cont "BOSQUE!"
 	done
 
 CamperElliotBeatenText:
-	text "I'm beat!"
+	text "¡Me has vencido!"
 	done
 
 CamperElliotAfterBattleText:
-	text "This area is"
-	line "pretty dry."
-	para "But the FOREST up"
-	line "ahead is a lot"
-	cont "less arid."
+	text "Esta zona es muy"
+	line "seca."
+
+	para "Pero el BOSQUE que"
+	line "hay más adelante"
+	cont "es mucho más"
+	cont "fértil."
 	done
 	
 
 OfficerDirkSeenText:
-	text "Danger lurks in"
-	line "the night!"
+	text "¡El peligro acecha"
+	line "por la noche!"
 	done
 
 OfficerDirkBeatenText:
-	text "Whoops!"
+	text "¡Uy!"
 	done
 
 OfficerDirkAfterBattleText:
-	text "You know, night-"
-	line "time is fun in its"
-	cont "own ways."
+	text "Ya sabes, la noche"
+	line "es divertida a su"
+	cont "manera."
 
-	para "But don't overdo"
-	line "it, OK?"
+	para "Pero no te pases,"
+	line "¿vale?"
 	done
 
 OfficerDirkPrettyToughText:
-	text "Your #MON look"
-	line "pretty tough."
+	text "Tus #MON son"
+	line "bastante fuertes."
 
-	para "You could go any-"
-	line "where safely."
+	para "Estarás a salvo en"
+	line "cualquier parte."
 	done
 
 Route104SignText:
-	text "GEOFFREY the"
-	line "Gardener's house"
+	text "CASA DE GODOFREDO"
+	line "EL JARDINERO"
 	done
 	
 Route104SignActualText:
-	text "ROUTE 104"
-	para "BIRDON TOWN -"
-	line "ALLOY CITY"
-	done
+	text "RUTA 104"
 	
+	para "PUEBLO BIRDON -"
+	line "CIUDAD ALEAR"
+	done	
 
 MeetTuscanyText:
-	text "TUSCANY: I do be-"
-	line "lieve that this is"
+	text "MARTA: Creo que es"
+	line "la primera vez que"
+	cont "nos vemos."
 
-	para "the first time"
-	line "we've met?"
-
-	para "Please allow me to"
-	line "introduce myself."
-
-	para "I am TUSCANY of"
-	line "Tuesday."
+	para "Déjame que me"
+	line "presente. Soy"
+	cont "MARTA, por martes."
 	done
 
 TuscanyGivesGiftText:
-	text "By way of intro-"
-	line "duction, please"
-
-	para "accept this gift,"
-	line "a PINK BOW."
+	text "Como presentación,"
+	line "por favor, toma"
+	para "este regalo:"
+	line "un LAZO ROSA."
 	done
 
 TuscanyGaveGiftText:
-	text "TUSCANY: Wouldn't"
-	line "you agree that it"
-	cont "is most adorable?"
+	text "MARTA: ¿No crees"
+	line "que es adorable?"
 
-	para "It strengthens"
-	line "normal-type moves."
+	para "Fortalece los"
+	line "movimientos de"
+	cont "tipo normal."
 
-	para "I am certain it"
-	line "will be of use."
+	para "Seguro que te"
+	line "será muy útil."
 	done
 
 TuscanyTuesdayText:
-	text "TUSCANY: Have you"
-	line "met MONICA, my"
-	cont "older sister?"
+	text "MARTA: ¿Has visto"
+	line "a LUNA, mi hermana"
+	cont "mayor?"
 
-	para "Or my younger"
-	line "brother, WESLEY?"
+	para "¿O a mi hermano"
+	line "pequeño, MIGUEL?"
 
-	para "I am the second of"
-	line "seven children."
+	para "Soy la segunda de"
+	line "siete hermanos."
 	done
 
 TuscanyNotTuesdayText:
-	text "TUSCANY: Today is"
-	line "not Tuesday. That"
-	cont "is unfortunate…"
+	text "MARTA: Hoy no es"
+	line "martes."
+	cont "¡Qué pena…!"
 	done
 
 Route104_MapEvents:
@@ -424,10 +431,10 @@ Route104_MapEvents:
 
 	db 11 ; object events
 	object_event 88,  7, SPRITE_LASS, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Route104LassScript, -1
-	object_event 61,  7, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route104FruitTree, -1
+	object_event 61,  7, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, Route104FruitTree, -1
 	object_event 52, 11, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route104GardenerWateringScript, EVENT_ROCKETS_IN_BOAT_AT_SUNPOINT
 	object_event 59,  2, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 4, TrainerSupernerdSam, -1
-	object_event 12, 12, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_TRAINER, 2, TrainerHikerDaniel, -1
+	object_event 12, 12, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_TRAINER, 2, TrainerHikerDaniel, -1
 	object_event 82, 13, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 3, TrainerFirebreatherBurt, -1
 	object_event 45,  8, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 2, TrainerCamperElliot, -1
 	object_event 24, 13, SPRITE_TEACHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Route104TeacherScript, -1

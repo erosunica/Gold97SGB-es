@@ -320,123 +320,134 @@ SilverRunsIntoStairsMovement:
 	step_end
 	
 SilverActuallyShowsUpNow1:
-	text "Wait for me!"
+	text "¡Espérame!"
 	done
-	
+
 SilverActuallyShowsUpNow2:
-	text "<RIVAL>: I'm"
-	line "strong, too!"
-	para "It's time for me"
-	line "to show TEAM"
-	cont "ROCKET who's boss!"
+	text "<RIVAL>: ¡Yo tam-"
+	line "bién soy fuerte!"
+
+	para "¡Va siendo hora de"
+	line "que le enseñe al"
+	cont "TEAM ROCKET quién"
+	cont "manda!"
 	done
-	
+
 SilverActuallyShowsUpNow3:
-	text "OKERA: Um, sure."
-	para "The more, the"
-	line "merrier, I guess."
+	text "VELASCO: Esto…"
+	line "claro."
+
+	para "Cuantos más,"
+	line "mejor, supongo."
 	done
-	
+
 SilverActuallyShowsUpNow4:
-	text "<RIVAL>: Okay!"
-	para "<PLAYER>, let's"
-	line "go!"
+	text "<RIVAL>: ¡Bien!"
+
+	para "¡Vamos, <PLAYER>!"
 	done
-	
+
 SilverActuallyShowsUpNow5:
-	text "You better follow"
-	line "him down before"
-	para "he runs himself"
-	line "right into"
-	cont "trouble."
-	para "I'm going to go"
-	line "try to help out"
-	para "with the sick"
-	line "#MON over at"
-	cont "the ZOO."
+	text "Será mejor que lo"
+	line "acompañes antes de"
+	cont "que se meta en"
+	cont "problemas."
+
+	para "Intentaré echar"
+	line "una mano con los"
+	cont "#MON enfermos"
+	cont "del ZOO."
 	done
-	
+
 StandCityRocketHouse1FTVText:
-	text "It's not turned"
-	line "on…"
+	text "No está encendido…"
 	done
-	
+
 StandCityRocketHouse1FPosterText:
-	text "All #MON are"
-	line "for the profit of"
-	cont "TEAM ROCKET!"
+	text "¡Todo #MON"
+	line "existe para el"
+	cont "beneficio del TEAM"
+	cont "ROCKET!"
 	done
-	
+
 SilverLetsGoDownThere:
-	text "How are your"
-	line "#MON feeling?"
-	para "Mine aren't doing"
-	line "so hot. I think"
-	para "whatever TEAM"
-	line "ROCKET is up to"
-	para "is starting to"
-	line "make them sick!"
+	text "¿Cómo se sienten"
+	line "tus #MON?"
+	para "Los míos no lo"
+	line "están dando todo."
+
+	para "¡Creo que lo que"
+	line "está tramando el"
+	para "TEAM ROCKET les"
+	line "está afectando!"
+
 	para "…"
-	para "Show me that it"
-	line "wasn't a fluke"
-	para "that I lost to"
-	line "you!"
-	para "Go down there and"
-	line "kick these guys"
-	cont "outta my town!"
+	para "¡Demuéstrame que"
+	line "no me ganaste por"
+	cont "pura suerte!"
+
+	para "¡Ve allí y sácalos"
+	line "a patadas de mi"
+	cont "ciudad!"
 	done
-	
+
 SilverTellsYouAboutHiddenStairs2:
-	text "Right here!"
-	para "TEAM ROCKET is"
-	line "hiding out down"
-	cont "here!"
+	text "¡Aquí!"
+
+	para "¡El TEAM ROCKET se"
+	line "esconde aquí"
+	cont "abajo!"
 	done
-	
+
 SilverShowsUpInBase:
-	text "OKERA: <PLAYER>!"
-	para "Wait, don't leave!"
+	text "VELASCO: ¡<PLAYER>!"
+
+	para "¡Espera, no te"
+	line "vayas!"
 	done
-	
+
 SilverTellsYouAboutHiddenStairs:
-	text "I don't know what"
-	line "these TEAM ROCKET"
-	para "thugs are doing"
-	line "showing up in my"
-	para "town, but they're"
-	line "up to no good!"
-	para "I heard one of"
-	line "them talking about"
-	para "a hidden basement"
-	line "in this building."
+	text "No sé qué están"
+	line "haciendo esos del"
+	para "TEAM ROCKET en mi"
+	line "ciudad, ¡pero no"
+	cont "puede ser nada"
+	cont "bueno!"
+
+	para "Le escuché decir a"
+	line "uno de ellos que"
+	para "tienen una base"
+	line "secreta en este"
+	cont "edificio."
 	done
-	
+
 ShockedRocketWinText:
-	text "Argh!"
+	text "¡Argh!"
 	done
 
 ShockedRocketLossText:
-	text "Argh?"
+	text "¿Argh?"
 	done
 
 RocketShockedText:
-	text "And who are you?"
-	para "I hope you didn't"
-	line "think you could"
-	cont "sneak past me!"
-	para "No one sneaks past"
-	line "me!"
+	text "¿Y tú quién eres?"
+	para "¡Espero que no"
+	line "pensases que"
+	para "podrías pasar a"
+	line "través de mí!"
+
+	para "¡Nadie puede"
+	line "hacerlo!"
 	done
-	
+
 WardensGranddaughterText1:
-	text "You might not be"
-	line "able to sneak"
-	cont "past me,"
-	para "but you sure can"
-	line "just walk on by"
-	para "if you've got"
-	line "#MON that"
-	cont "strong…"
+	text "Puede que no seas"
+	line "capaz de pasar a"
+	para "través de mí, pero"
+	line "desde luego puedes"
+	para "seguir si tienes"
+	line "#MON tan"
+	cont "fuertes…"
 	done
 
 

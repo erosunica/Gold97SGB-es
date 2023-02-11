@@ -244,170 +244,191 @@ SlowpokeWellB2FCovenantOrb:
 
 	
 ElderAsksToSeeYou:
-	text "Oho!"
-	para "It seems those"
-	line "men are no longer"
-	para "hurting our poor"
-	line "SLOWPOKE!"
-	para "In my younger days"
-	line "I would have taken"
-	cont "care of it myself!"
-	para "But I'm too old"
-	line "for such things"
-	cont "any more."
-	para "So I must thank"
-	line "you for your help!"
-	para "Please, come by my"
-	line "house to see me."
-	para "I'll have a gift"
-	line "for you."
+	text "¡Jojo!"
+
+	para "¡Veo que esos"
+	line "hombres ya no"
+	para "están torturando a"
+	line "nuestros pobres"
+	cont "SLOWPOKE!"
+
+	para "¡En mis tiempos"
+	line "mozos yo mismo me"
+	cont "habría encargado"
+	cont "de ellos!"
+
+	para "Pero ya estoy muy"
+	line "viejo para esas"
+	cont "cosas."
+
+	para "¡Debo darte las"
+	line "gracias por tu"
+	cont "ayuda!"
+
+	para "Por favor, pasa a"
+	line "verme a mi casa."
+
+	para "Tengo un regalo"
+	line "para ti."
 	done
 
 SlowpokeWellB2FGymGuyText:
-	text "I'm waiting to see"
-	line "SLOWPOKE's moment"
-	cont "of evolution."
+	text "Me gustaría ver"
+	line "cómo evolucionan"
+	cont "los SLOWPOKE."
 
-	para "Through observa-"
-	line "tion, I made a new"
-	cont "discovery."
+	para "Observándolos he"
+	line "hecho un nuevo"
+	cont "descubrimiento."
 
-	para "A SLOWPOKE with a"
-	line "KING'S ROCK often"
+	para "Un SLOWPOKE con"
+	line "una ROCA DEL REY"
+	para "suele ser mordido"
+	line "por un DISTURBAN."
 
-	para "gets bitten by a"
-	line "DISTURBAN."
-
-	para "Here, I'll share a"
-	line "KING'S ROCK with"
-	cont "you."
+	para "Toma, compartiré"
+	line "una ROCA DEL REY"
+	cont "contigo."
 	done
 
 SlowpokeWellB2FGymGuyText_GotKingsRock:
-	text "I'm going to be"
-	line "like SLOWPOKE."
+	text "Voy a ser como"
+	line "SLOWPOKE."
 
-	para "I'll wait patient-"
-	line "ly, so I can see"
-	cont "one evolve."
+	para "Tendré paciencia"
+	line "y a ver si"
+	cont "evoluciona alguno."
 	done
 	
 OakSpeechText:
-	text "OAK: Well…"
+	text "OAK: Bueno…"
 	
-	para "This research trip"
-	line "didn't go as"
-	cont "planned…"
+	para "El viaje de inves-"
+	line "tigación no ha ido"
+	cont "como planeamos…"
 	
-	para "Regardless…"
+	para "Pero de todos"
+	line "modos…"
 	
-	para "We have rescued"
-	line "the SLOWPOKE."
+	para "Hemos rescatado a"
+	line "los SLOWPOKE."
 	
-	para "Now they can live"
-	line "without losing"
-	para "their TAILS to"
-	line "TEAM ROCKET."
+	para "Ahora pueden vivir"
+	line "sin que el TEAM"
+	para "ROCKET les corte"
+	line "sus COLAS."
 	
-	para "But TEAM ROCKET"
-	line "returning…"
+	para "Pero que el TEAM"
+	line "ROCKET haya"
+	cont "regresado…"
 	
-	para "It can't be a"
-	line "good thing."
+	para "Son malas"
+	line "noticias."
 	
-	para "BLUE, we best re-"
-	line "turn to the lab"
-	cont "and investigate."
+	para "AZUL, será mejor"
+	line "que regresemos al"
+	cont "laboratorio a"
+	cont "investigar."
 	
-	para "<PLAYER>, <RIVAL>!"
-	line "You two should go"	
-	para "ahead and continue"
-	line "your journey."
+	para "¡<PLAYER>, <RIVAL>!"
+	line "Vosotros dos"
+	para "deberíais seguir"
+	line "con vuestro viaje."
 	
-	para "If you need me,"
-	line "you know where"
-	cont "I'll be."
+	para "Si me necesitáis,"
+	line "ya sabéis dónde"
+	cont "estoy."
 	done
 	
 BlueOutText:
-	text "BLUE: Thanks for"
-	line "your help today,"
-	cont "guys."
+	text "AZUL: Gracias por"
+	line "vuestra ayuda hoy,"
+	cont "chicos."
 	done
 	
 SilverOutText:
-	text "<RIVAL>: See ya"
-	line "around, <PLAYER>!"
-	para "Don't fall too far"
-	line "behind!"
+	text "<RIVAL>: ¡Nos"
+	line "vemos, <PLAYER>!"
+
+	para "¡No te quedes muy"
+	line "atrás!"
 	done
 
 RocketsPlan:
-	text "This doesn't"
-	line "really matter."
-	para "TEAM ROCKET is"
-	line "already so far"
-	para "along with our"
-	line "plan that small"
-	para "setbacks like this"
-	line "mean nothing!"
-	para "You'll soon see"
-	line "the fruits of our"
-	para "labor when all"
-	line "#MON are under"
-	cont "our control!"
-	para "Team, retreat!"
+	text "No importa."
+
+	para "¡El TEAM ROCKET ha"
+	line "avanzado tanto con"
+	para "su plan que no"
+	line "significan nada"
+	para "pequeños contra-"
+	line "tiempos como este!"
+
+	para "¡Pronto comproba-"
+	line "rás los frutos de"
+	para "nuestro trabajo"
+	line "cuando todos los"
+	cont "#MON estén bajo"
+	para "nuestro control!"
 	done
 
 GruntM4SeenText:
-	text "ARGH! Beaten by"
-	line "children?"
+	text "¡Agh! ¿Derrotado"
+	line "por un niño?"
 	done
 
 GruntM4BeatenText:
-	text "Ha! Told ya!"
+	text "¡Já! ¡Te lo dije!"
 	done
 
 WeDoWhatWeWantText:
-	text "TEAM ROCKET will"
-	line "do what it wants!"
-	para "You can't stop us!"
+	text "¡El TEAM ROCKET"
+	line "hará lo que"
+	cont "quiera!"
+
+	para "¡No puedes"
+	line "detenernos!"
 	done
 	
 WeAreAllTrainersText:
-	text "<RIVAL>: BLUE,"
-	line "<PLAYER>, and I"
-	cont "are trainers!"
-	para "We sure could stop"
-	line "you!"
-	para "My #MON are"
-	line "stronger than"
-	cont "anyone else's!"
+	text "<RIVAL>: ¡AZUL,"
+	line "<PLAYER> y yo somos"
+	cont "entrenadores!"
+
+	para "¡Claro que podemos"
+	line "deteneros!"
+
+	para "¡Mis #MON son"
+	line "más fuertes que"
+	cont "los de los demás!"
 	done
 	
 WellSeeText:
-	text "Ha!"
-	para "We'll see about"
-	line "that!"
+	text "¡Já!"
+
+	para "¡Ya lo veremos!"
 	done
 
 BlueProblemText:
-	text "BLUE: <PLAYER>!"
-	line "It's a good thing"
-	para "you and <RIVAL>"
-	line "showed up!"
-	para "We've got a"
-	line "problem!"
+	text "AZUL: ¡<PLAYER>!"
+	line "¡Menos mal que"
+	para "habéis aparecido"
+	line "<RIVAL> y tú!"
+
+	para "¡Tenemos un"
+	line "problema!"
 	done
 
 OakStopThisText:
-	text "OAK: You people"
-	line "are hurting these"
-	cont "innocent SLOWPOKE!"
-	para "It's not right to"
-	line "cut their TAILS"
-	para "off to sell them"
-	line "for profit!"
+	text "OAK: ¡Estáis"
+	line "haciendo daño a"
+	cont "estos inocentes"
+	cont "SLOWPOKE!"
+
+	para "¡No está bien"
+	line "cortar sus COLAS y"
+	para "venderlas en"
+	line "beneficio propio!"
 	done
 
 SlowpokeWellB2F_MapEvents:

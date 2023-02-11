@@ -1,10 +1,10 @@
-	db "ARMOR@" ; species name
-	dw 307, 2650 ; height, weight
+	db "CORAZA@" ; species name
+	dbw 11, 1200 ; height, weight
 
-	db   "Because this"
-	next "#MON's skin is"
-	next "so tough, a normal"
+	db   "Como la piel de"
+	next "este #MON es"
+	next "demasiado dura,"
 
-	page "attack won't even"
-	next "leave a scratch on"
-	next "it.@"
+	page "un ataque normal"
+	next "no logrará"
+	next "ni arañarle.@"

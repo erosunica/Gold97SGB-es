@@ -139,7 +139,7 @@ RyukyuTheaterCoinsGuy:
 	end
 
 .coinname
-	db "COIN@"
+	db "FICHAS@"
 
 .NoCoinCase:
 	writetext CoinsGuyNoCoinCaseText
@@ -191,243 +191,248 @@ RyukyuTheatreSuperNerdScript:
 	jumptextfaceplayer RyukyuTheatreSuperNerdText
 	
 RyukyuTheatreSuperNerdText:
-	text "This show is"
-	line "great!"
+	text "¡Qué buen"
+	line "espectáculo!"
 	done
 
 RyukyuTheatrePokefanMText:
-	text "My wife loves to"
-	line "stay at the RYUKYU"
-	cont "HOTEL!"
+	text "¡A mi mujer le"
+	line "encanta estar en"
+	cont "el HOTEL RYUKYU!"
 	done
-	
+
 RyukyuTheatrePokefanFText:
-	text "What a lovely"
-	line "vacation this has"
-	cont "been!"
+	text "¡Han sido unas"
+	line "vacaciones"
+	cont "espléndidas!"
 	done
-	
+
 RyukyuTheatreJanineText:
-	text "Nothing beats"
-	line "dinner and a show"
-	para "when I visit"
-	line "RYUKYU CITY!"
+	text "¡Nada mejor que"
+	line "una buena cena y"
+	para "venir al teatro"
+	line "cuando visito el"
+	cont "HOTEL RYUKYU!"
 	done
-	
+
 CoinsGuyNoCoinCaseText:
-	text "Oh, what's this?"
-	para "You have no COIN"
-	line "CASE!"
+	text "Oh, ¿qué es esto?"
+
+	para "¡No tienes"
+	line "MONEDERO!"
 	done
-	
+
 CoinsGuyFullCoinCaseText:
-	text "Well, lad. Looks"
-	line "like your case is"
-	cont "already full!"
+	text "Vaya, muchacho."
+	line "¡Parece que tu"
+	cont "MONEDERO está"
+	cont "lleno!"
 	done
-	
+
 CoinsGuyGotCoins:
-	text "Go get yourself"
-	line "something nice"
-	para "from any of the"
-	line "GAME CORNERS all"
-	cont "around NIHON!"
+	text "¡Ve a por algún"
+	line "premio en"
+	para "cualquiera de los"
+	line "CASINOS que hay"
+	cont "por todo NIHON!"
 	done
 
 KimonoGirlNaokoSeenText:
-	text "You have lovely"
-	line "#MON. May I see"
-	cont "them in battle?"
+	text "Tus #MON son"
+	line "encantadores."
+	cont "¿Cómo luchan?"
 	done
 
 KimonoGirlNaokoBeatenText:
-	text "Oh, you are very"
-	line "strong."
+	text "¡Oh! ¡Eres muy"
+	line "fuerte!"
 	done
 
 KimonoGirlNaokoAfterBattleText:
-	text "I enjoyed that"
-	line "bout. I would like"
-	cont "to see you again."
+	text "Me ha gustado el"
+	line "combate. Espero"
+	cont "volver a verte."
 	done
 
 KimonoGirlSayoSeenText:
-	text "I always dance"
-	line "with my #MON."
+	text "Yo siempre bailo"
+	line "con mis #MON."
 
-	para "Of course, I also"
-	line "train them."
+	para "Y también los"
+	line "entreno, claro."
 	done
 
 KimonoGirlSayoBeatenText:
-	text "Oh, so close!"
-	line "I almost had you."
+	text "¡Estuve cerca!"
+	line "Por poco te venzo."
 	done
 
 KimonoGirlSayoAfterBattleText:
-	text "Rhythm is impor-"
-	line "tant for both"
-
-	para "dancing and #-"
-	line "MON."
+	text "El ritmo es muy"
+	line "importante para la"
+	cont "danza y para los"
+	cont "#MON."
 	done
 
 KimonoGirlKyokoSeenText:
-	text "Dancing is a"
-	line "great stress-"
-	cont "reliever."
+	text "Bailar ayuda a"
+	line "liberar estrés."
 	done
 
 KimonoGirlKyokoBeatenText:
-	text "I believe I have"
-	line "been defeated."
+	text "Me temo que he"
+	line "sido derrotada."
 	done
 
 KimonoGirlKyokoAfterBattleText:
-	text "We learn a new"
-	line "dance each month."
+	text "Cada mes aprende-"
+	line "mos una nueva"
+	cont "danza."
 	done
 
 KimonoGirlZukiSeenText:
-	text "Isn't my barrette"
-	line "pretty?"
+	text "¿Te gusta mi"
+	line "pasador?"
 
-	para "Oh. A #MON"
-	line "battle?"
+	para "¡Ah! ¿Un combate"
+	line "#MON?"
 	done
 
 KimonoGirlZukiBeatenText:
-	text "I don't have any"
-	line "#MON left…"
+	text "No me queda"
+	line "ningún #MON…"
 	done
 
 KimonoGirlZukiAfterBattleText:
-	text "I put a different"
-	line "flower in my bar-"
-	cont "rette every month."
+	text "Cada mes pongo una"
+	line "flor nueva en mi"
+	cont "pasador."
 	done
 
 KimonoGirlKuniSeenText:
-	text "Oh, you're a cute"
-	line "trainer. Would you"
-	cont "like to battle?"
+	text "¡Oh! ¡Eres tan"
+	line "guay!"
+	cont "¿Quieres luchar?"
 	done
 
 KimonoGirlKuniBeatenText:
-	text "You're stronger"
-	line "than you look."
+	text "Eres más fuerte de"
+	line "lo que pareces."
 	done
 
 KimonoGirlKuniAfterBattleText:
-	text "I trained a lot,"
-	line "so I thought I was"
-
-	para "a capable trainer."
-	line "I guess I'm not."
+	text "He entrenado mucho"
+	line "y creía que tenía"
+	para "posibilidades,"
+	line "pero no."
 	done
 
 KimonoGirlMikiSeenText:
-	text "Do you like my"
-	line "dancing? I'm good"
-	cont "at #MON too."
+	text "¿Te gusta cómo"
+	line "bailo? También"
+	cont "soy hábil con los"
+	cont "#MON."
 	done
 
 KimonoGirlMikiBeatenText:
-	text "Ooh, you're good"
-	line "at #MON too."
+	text "¡Oh! ¡Tú también"
+	line "eres genial!"
 	done
 
 KimonoGirlMikiAfterBattleText:
-	text "I can keep dancing"
-	line "because there are"
+	text "Sigo bailando"
+	line "porque hay gente a"
+	para "la que le gusta lo"
+	line "que hago."
 
-	para "people who enjoy"
-	line "what I do."
-
-	para "My #MON keep my"
-	line "spirits up too."
+	para "Mis #MON me"
+	line "animan."
 	done
 
 CoinsGuyNeverLeftAScratchText:
-	text "Not only are the"
-	line "KIMONO GIRLS great"
+	text "Las CHICAS KIMONO"
+	line "no sólo bailan."
 
-	para "dancers, they're"
-	line "also skilled at"
-	cont "#MON."
+	para "También son"
+	line "extraordinarias"
+	cont "con los #MON."
 
-	para "I always challenge"
-	line "them, but I've"
-
-	para "never even left a"
-	line "scratch…"
+	para "Yo siempre las"
+	line "desafío pero nunca"
+	cont "les he hecho ni un"
+	cont "rasguño…"
 	done
 
 CoinsGuyLadGiftText:
-	text "Lad! I've had a"
-	line "bout of good luck"
-	para "at the games of"
-	line "chance upstairs!"
-	para "If you can show me"
-	line "that you can"
-	para "defeat all of the"
-	line "KIMONO GIRLS, I'll"
-	para "fill your COIN"
-	line "CASE to the brim!"
+	text "¡Muchacho!"
+
+	para "¡He tenido una"
+	line "racha de buena"
+	para "suerte en los"
+	line "juegos de azar de"
+	cont "la planta de"
+	cont "arriba!"
+
+	para "¡Si eres capaz de"
+	line "derrotar a todas"
+	para "las CHICAS KIMONO,"
+	line "llenaré tu"
+	cont "MONEDERO hasta los"
+	cont "topes!"
 	done
 
 CoinsGuyLikeADanceText:
-	text "The way you bat-"
-	line "tled, it was like"
-	cont "watching a dance."
+	text "Verte luchar ha"
+	line "sido como ver una"
+	cont "danza."
 
-	para "It was a rare"
-	line "treat to see!"
+	para "¡Ha sido un"
+	line "combate extraño!"
 
-	para "Here, lad, as I"
-	line "promised!"
+	para "¡Toma muchacho,"
+	line "tal y como te"
+	cont "prometí!"
 	done
 
 CoinsGuyElegantKimonoGirlsText:
-	text "I wish my #MON"
-	line "were as elegant as"
-	cont "the KIMONO GIRLS…"
+	text "Ojalá mis #MON"
+	line "fueran tan"
+	para "elegantes como las"
+	line "CHICAS KIMONO…"
 	done
 
 RhydonText:
-	text "RHYDON: Gugooh"
-	line "gugogooh!"
+	text "RHYDON: ¡Rhydo,"
+	line "rhydo!"
 	done
 
 RyukyuTheatreCooltrainerMText:
-	text "The KIMONO GIRLS'"
-	line "dances are so"
-	cont "mesmerizing…"
+	text "Las danzas de las"
+	line "CHICAS KIMONO son"
+	cont "tan hipnóticas…"
 	done
 
 RyukyuTheatreGrannyText:
-	text "The KIMONO GIRLS"
-	line "are so beautiful…"
+	text "Las CHICAS KIMONO"
+	line "son tan guapas…"
 
-	para "But they have to"
-	line "go through rigor-"
-	cont "ous training."
+	para "Pero tienen que"
+	line "entrenarse mucho."
 
-	para "And they have to"
-	line "learn to follow"
+	para "Y deben aprender"
+	line "los distintos"
+	para "bailes antes de"
+	line "actuar."
 
-	para "customs before ap-"
-	line "pearing in public."
-
-	para "But if you love"
-	line "something, any-"
-	cont "thing is possible."
+	para "Pero si te gusta"
+	line "algo, todo es"
+	cont "posible."
 	done
 
 RyukyuTheatreFancyPanelText:
-	text "It's a fancy panel"
-	line "that's decorated"
-	cont "with flowers."
+	text "Es un elegante"
+	line "panel decorado con"
+	cont "flores."
 	done
 
 RyukyuTheatre_MapEvents:
@@ -445,17 +450,17 @@ RyukyuTheatre_MapEvents:
 
 	db 14 ; object events
 	object_event  1,  3, SPRITE_KIMONO_GIRL, SPRITEMOVEDATA_SPINCOUNTERCLOCKWISE, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 0, TrainerKimonoGirlNaoko, -1
-	object_event  4,  2, SPRITE_KIMONO_GIRL, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_TRAINER, 0, TrainerKimonoGirlSayo, -1
+	object_event  4,  2, SPRITE_KIMONO_GIRL, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_TRAINER, 0, TrainerKimonoGirlSayo, -1
 	object_event  7,  3, SPRITE_KIMONO_GIRL, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 0, TrainerKimonoGirlZuki, -1
 	object_event 10,  2, SPRITE_KIMONO_GIRL, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 0, TrainerKimonoGirlKuni, -1
-	object_event 13,  3, SPRITE_KIMONO_GIRL, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_TRAINER, 0, TrainerKimonoGirlMiki, -1
+	object_event 13,  3, SPRITE_KIMONO_GIRL, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_TRAINER, 0, TrainerKimonoGirlMiki, -1
 	object_event 16,  2, SPRITE_KIMONO_GIRL, SPRITEMOVEDATA_SPINCOUNTERCLOCKWISE, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 0, TrainerKimonoGirlKyoko, -1
 	object_event  3,  9, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, RyukyuTheaterCoinsGuy, -1
 	object_event  2,  9, SPRITE_MONSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GRAY, OBJECTTYPE_SCRIPT, 0, RyukyuTheaterRhydon, -1
 	object_event 11, 13, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, RyukyuTheatreCooltrainerMScript, -1
 	object_event  7,  9, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, RyukyuTheatreGrannyScript, -1
 	object_event 14,  9, SPRITE_JANINE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, RyukyuTheatreJanineScript, -1
-	object_event  6, 13, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, RyukyuTheatrePokefanMScript, -1
+	object_event  6, 13, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, RyukyuTheatrePokefanMScript, -1
 	object_event  7, 13, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, RyukyuTheatrePokefanFScript, -1
 	object_event 12, 17, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, RyukyuTheatreSuperNerdScript, -1
 

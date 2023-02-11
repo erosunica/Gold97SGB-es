@@ -155,67 +155,67 @@ OldMahoganyMart1FLanceGoDownStairsMovement:
 	step_end
 
 OldMahoganyMart1FRageCandyBarText: ; unreferenced
-	text "Hello, youngster!"
+	text "¡Hola, joven!"
 
-	para "How would you like"
-	line "some RAGECANDYBAR?"
+	para "¿Quieres un"
+	line "CARAMELO FURIA?"
 
-	para "It's the thing to"
-	line "eat in SANSKRIT!"
+	para "¡Es lo que comemos"
+	line "en PUEBLO"
+	cont "SÁNSCRITO!"
 	done
 
 OldMahoganyMart1FPharmacistText_LanceEntered:
-	text "Arrgh… You found"
-	line "the secret stair-"
-	cont "way…"
+	text "¡Arrgh…!"
+	line "Has encontrado la"
+	cont "escalera secreta."
 	done
 
 OldMahoganyMart1FBlackBeltText:
-	text "Heheh! The experi-"
-	line "ment worked like a"
-	cont "charm."
+	text "El experimento"
+	line "funcionó a las mil"
+	cont "maravillas."
 
-	para "MAGIKARP are just"
-	line "worthless, but"
-
-	para "GYARADOS are big"
-	line "moneymakers."
+	para "Los MAGIKARP no"
+	line "valen nada, pero"
+	para "los GYARADOS son"
+	line "muy productivos."
 	done
 
 OldMahoganyMart1FBlackBeltText_LanceEntered:
-	text "Urrgh…"
+	text "¡Urrg…!"
 
-	para "That guy's dragon"
-	line "#MON are tough…"
+	para "Los #MON dragón"
+	line "de ese chico"
+	cont "son muy fuertes…"
 	done
 
 OldMahoganyMart1FLanceDragoniteHyperBeamText:
 	text "LANCE: DRAGONITE,"
-	line "HYPER BEAM."
+	line "HIPERRAYO."
 	done
 
 OldMahoganyMart1FLanceRadioText:
-	text "What took you,"
-	line "<PLAYER>?"
+	text "¡Ya estás aquí,"
+	line "<PLAYER>!"
 
-	para "Just as I thought,"
-	line "that strange radio"
-
-	para "signal is coming"
-	line "from here."
+	para "Tal y como creía,"
+	line "esa extraña señal"
+	para "de radio proviene"
+	line "de aquí."
 	done
 
 OldMahoganyMart1FLanceStairsText:
-	text "The stairs are"
-	line "right here."
+	text "Las escaleras"
+	line "están justo aquí."
 	done
 
 OldMahoganyMart1FLanceSplitUpText:
-	text "LANCE: <PLAYER>, we"
-	line "should split up to"
-
-	para "check this place."
-	line "I'll go first."
+	text "LANCE: <PLAYER>,"
+	line "debemos separarnos"
+	para "para inspeccionar"
+	line "el lugar."
+	cont "Iré primero."
 	done
 
 OldMahoganyMart1F_MapEvents:

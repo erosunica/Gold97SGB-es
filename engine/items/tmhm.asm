@@ -328,11 +328,8 @@ TMHM_DisplayPocketItems:
 	ld a, [wBattleType]
 	cp BATTLETYPE_TUTORIAL
 	jp z, Tutorial_TMHMPocket
-	
-	
-
 	hlcoord 2, 2
-	lb bc, 8, 13
+	lb bc, 8, 14
 	ld a, " "
 	call Textbox
 	call TMHM_GetCurrentPocketPosition
@@ -462,13 +459,13 @@ PlaceMoveNameAfterTMHMName: ; unreferenced
 	ret
 
 TMHM_CancelString:
-	db "CANCEL@"
+	db "SALIR@"
 	
 TM_HM_TMString:
-	db "TM@"
+	db "MT@"
 	
 TM_HM_HMString:
-	db "HM@"	
+	db "MO@"	
 
 TMHM_GetCurrentPocketPosition:
 	ld hl, wTMsHMs

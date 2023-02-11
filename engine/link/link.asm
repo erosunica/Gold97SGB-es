@@ -18,11 +18,11 @@ LinkCommunications:
 	call LoadTradeScreenBorder
 	call SetTradeRoomBGPals
 	call WaitBGMap
-	hlcoord 3, 8
+	hlcoord 4, 8
 	ld b, 2
-	ld c, 12
+	ld c, 10
 	call LinkTextboxAtHL
-	hlcoord 4, 10
+	hlcoord 5, 10
 	ld de, String_PleaseWait
 	call PlaceString
 	ld hl, wce5d
@@ -484,7 +484,7 @@ ExchangeBytes:
 	ret
 
 String_PleaseWait:
-	db "PLEASE WAIT!@"
+	db "¡ESPERA.…!@"
 
 ClearLinkData:
 	ld hl, wLinkData
@@ -1366,7 +1366,7 @@ Function2884a:
 	text_end
 
 .String_Stats_Trade:
-	db "STATS     TRADE@"
+	db "ESTADO    TRATO@"
 
 .LinkAbnormalMonText:
 	text_far _LinkAbnormalMonText
@@ -1431,7 +1431,7 @@ Function28a16:
 	jp PlaceString
 
 .CancelString:
-	db "CANCEL@"
+	db "SALIR@"
 
 Function28a3c:
 	ld a, [wOtherPlayerLinkMode]
@@ -1776,19 +1776,19 @@ Function28d3c:
 	jp InitTradeMenuDisplay
 
 String28d44:
-	db   "TRADE"
-	next "CANCEL@"
+	db   "TRATO"
+	next "CANCELAR@"
 
 LinkAskTradeForText:
 	text_far _LinkAskTradeForText
 	text_end
 
 String28d56:
-	db   "Trade completed!@"
+	db   "TRATO COMPLETADO@"
 
 String_TooBadTheTradeWasCanceled:
-	db   "Too bad! The trade"
-	next "was canceled!@"
+	db   "¡Mal! ¡El trato"
+	next "está cancelado!@"
 
 LinkTextboxAtHL:
 	push hl

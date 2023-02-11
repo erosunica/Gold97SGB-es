@@ -1,10 +1,10 @@
-	db "LICKING@" ; species name
-	dw 409, 1720 ; height, weight
-
-	db   "Its tongue is the"
-	next "strongest muscle"
-	next "in its body."
-
-	page "Is able to knock"
-	next "foes out with the"
-	next "force of a lick.@"
+	db "LAMETAZO@" ; species name
+	dbw 14, 780 ; height, weight
+	
+	db   "Su lengua es el"
+	next "músculo más fuerte"
+	next "de su cuerpo."
+	
+	page "Puede noquear a"
+	next "sus rivales de un"
+	next "solo lametazo.@"

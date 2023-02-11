@@ -118,10 +118,10 @@ DoMysteryGift:
 	ret
 
 .String_PressAToLink_BToCancel:
-	db   "Press A to"
-	next "link IR-Device"
-	next "Press B to"
-	next "cancel it."
+	db   "Pulsa A para"
+	next "enlace IR."
+	next "Pulsa B para"
+	next "cancelar.@"
 	db   "@"
 
 .MysteryGiftCanceledText:
@@ -331,7 +331,7 @@ Function2a07c:
 	ldh a, [hPrintNumBuffer]
 	cp $96
 	jp nz, Function2a160
-	ld a, $90
+	ld a, $96
 	ldh [hPrintNumBuffer], a
 	call Function2a166
 	ret nz

@@ -166,16 +166,16 @@
 	const MEW        ; 97
 NIHON_POKEMON EQU const_value
 	const CHIKORITA  ; 98
-	const BLOSSOMOLE    ; 99
-	const BLOSSOMITE   ; 9a
-	const CUBBURN  ; 9b
-	const FLAMBEAR    ; 9c
-	const BRUINUS ; 9d
-	const PALSSIO   ; 9e
-	const PRESSIO   ; 9f
-	const DONMARIN ; a0
+	const BLOSSOMOLE ; 99
+	const BLOSSOMITE ; 9a
+	const CUBBURN    ; 9b
+	const FLAMBEAR   ; 9c
+	const BRUINUS    ; 9d
+	const PALSSIO    ; 9e
+	const PRESSIO    ; 9f
+	const DONMARIN   ; a0
 	const BURGELA    ; a1
-	const JUNGELA     ; a2
+	const JUNGELA    ; a2
 	const HOOTHOOT   ; a3
 	const NOCTOWL    ; a4
 	const LEDYBA     ; a5
@@ -183,13 +183,13 @@ NIHON_POKEMON EQU const_value
 	const SPINARAK   ; a7
 	const ARIADOS    ; a8
 	const CROBAT     ; a9
-	const TYKER   ; aa
-	const STRAIGAR    ; ab
+	const TYKER      ; aa
+	const STRAIGAR   ; ab
 	const PICHU      ; ac
 	const CLEFFA     ; ad
 	const IGGLYBUFF  ; ae
 	const TOGEPI     ; af
-	const KOLTA    ; b0
+	const KOLTA      ; b0
 	const NATU       ; b1
 	const XATU       ; b2
 	const MAREEP     ; b3
@@ -197,45 +197,45 @@ NIHON_POKEMON EQU const_value
 	const AMPHAROS   ; b5
 	const BELLOSSOM  ; b6
 	const MARILL     ; b7
-	const GRENMAR  ; b8
+	const GRENMAR    ; b8
 	const BELLIGNAN  ; b9
 	const POLITOED   ; ba
 	const HOPPIP     ; bb
 	const SKIPLOOM   ; bc
 	const JUMPLUFF   ; bd
 	const AIPOM      ; be
-	const ORFRY    ; bf
+	const ORFRY      ; bf
 	const SUNFLORA   ; c0
-	const MOLAMBINO      ; c1
+	const MOLAMBINO  ; c1
 	const ANGORE     ; c2
-	const LURREEL   ; c3
+	const LURREEL    ; c3
 	const ESPEON     ; c4
 	const UMBREON    ; c5
 	const MURKROW    ; c6
 	const SLOWKING   ; c7
-	const VULPIII ; c8
+	const VULPIII    ; c8
 	const UNOWN      ; c9
-	const BIPULLA  ; ca
+	const BIPULLA    ; ca
 	const GIRAFARIG  ; cb
-	const DISTURBAN     ; cc
-	const SMUJJ ; cd
-	const PARASPOR  ; ce
+	const DISTURBAN  ; cc
+	const SMUJJ      ; cd
+	const PARASPOR   ; ce
 	const MIMMEO     ; cf
 	const STEELIX    ; d0
 	const SNUBBULL   ; d1
 	const QUAGSIRE   ; d2
 	const TRICULES   ; d3
 	const SCIZOR     ; d4
-	const MOIBELLE    ; d5
-	const BELLEDAM  ; d6
+	const MOIBELLE   ; d5
+	const BELLEDAM   ; d6
 	const SNEASEL    ; d7
-	const QWILFISH  ; d8
-	const KAZAPPELIN   ; d9
-	const COINPUR     ; da
-	const LUXWAN   ; db
-	const STROMEN     ; dc
+	const QWILFISH   ; d8
+	const KAZAPPELIN ; d9
+	const COINPUR    ; da
+	const LUXWAN     ; db
+	const STROMEN    ; dc
 	const PHANDARIN  ; dd
-	const PUPPERON    ; de
+	const PUPPERON   ; de
 	const REMORAID   ; df
 	const OCTILLERY  ; e0
 	const DELIBIRD   ; e1
@@ -247,24 +247,24 @@ NIHON_POKEMON EQU const_value
 	const PHANPY     ; e7
 	const DONPHAN    ; e8
 	const PORYGON2   ; e9
-	const BALLERINE   ; ea
+	const BALLERINE  ; ea
 	const SMEARGLE   ; eb
 	const TYROGUE    ; ec
 	const HITMONTOP  ; ed
 	const SMOOCHUM   ; ee
 	const ELEKID     ; ef
 	const MAGBY      ; f0
-	const DODAERIE    ; f1
+	const DODAERIE   ; f1
 	const MILTANK    ; f2
 	const RAIKOU     ; f3
 	const ENTEI      ; f4
 	const SUICUNE    ; f5
-	const WARFURS   ; f6
-	const WEARLYCAN    ; f7
+	const WARFURS    ; f6
+	const WEARLYCAN  ; f7
 	const LICKILORD  ; f8
-	const BLISSEY      ; f9
+	const BLISSEY    ; f9
 	const HO_OH      ; fa
-	const LEAFEON     ; fb
+	const LEAFEON    ; fb
 NUM_POKEMON EQU const_value - 1
 	const MON_FC     ; fc
 	const EGG        ; fd

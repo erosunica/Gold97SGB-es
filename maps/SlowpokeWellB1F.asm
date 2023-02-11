@@ -100,61 +100,68 @@ SlowpokeWellB1FSilverScript:
 	end
 ;<……>
 BurnedTowerSilver_BeforeText:
-	text "<PLAYER>!"
-	para "PROF.OAK and BLUE"
-	line "are waiting for"
-	para "us deeper in the"
-	line "well."
-	para "But I wanted to"
-	line "wait here, cause"
-	para "I knew you'd be"
-	line "showing up soon!"
-	para "My team is so"
-	line "much stronger than"
-	para "it was last time"
-	line "I saw you."
-	para "Here! Let me show"
-	line "you!"
+	text "¡<PLAYER>!"
+
+	para "El PROF. OAK y"
+	line "AZUL nos esperan"
+	cont "bajo el pozo."
+
+	para "¡Pero si vine es"
+	line "porque sabía que"
+	cont "tú lo harías!"
+
+	para "Mi equipo es mucho"
+	line "más fuerte que la"
+	para "última vez que nos"
+	line "vimos."
+
+	para "¡Mira, te lo"
+	line "demostraré!"
 	done
 
 BurnedTowerSilver_WinText:
-	text "Huh."
+	text "Vaya."
 
-	para "I've raised my"
-	line "team to be the"
-	para "strongest, but"
-	line "still I lose…"
+	para "He entrenado a mi"
+	line "equipo para que"
+	para "sea el mejor, y"
+	line "aun así he"
+	cont "perdido…"
 	done
+
 BurnedTowerSilver_AfterText1:
-	text "Ah, whatever."
-	para "I just gotta make"
-	line "them even stronger"
-	cont "than they are now!"
-	para "Anyways, we should"
-	line "probably go on"
-	para "ahead to meet up"
-	line "with the others!"
+	text "Qué más da."
+
+	para "¡Solo tengo que"
+	line "hacerlos aún más"
+	cont "fuertes!"
+
+	para "¡Bueno, mejor"
+	line "bajemos ya y"
+	cont "reunámonos con los"
+	cont "demás!"
 	done
 
 BurnedTowerSilver_LossText:
-	text "Yeah!"
-	para "I'm the best!"
+	text "¡Toma!"
+
+	para "¡Soy el mejor!"
 	done
 
 BurnedTowerSilver_AfterText2:
-	text "Humph!"
+	text "¡Bah!"
 
-	para "What are you doing"
-	line "falling into a"
+	para "¿Qué haces cayén-"
+	line "dote por un"
+	para "agujero? ¡Menudo"
+	line "genio estás hecho!"
 
-	para "hole? Some genius"
-	line "you are!"
-
-	para "Serves you right!"
+	para "¡Te está bien"
+	line "empleado!"
 	done
 	
 Text_RivalGreets:
-	text "yo"
+	text "¡Hola!"
 	done
 
 

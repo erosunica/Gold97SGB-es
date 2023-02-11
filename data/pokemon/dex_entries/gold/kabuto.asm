@@ -1,10 +1,10 @@
-	db "SHELLFISH@" ; species name
-	dw 108, 250 ; height, weight
+	db "ARMAZÓN@" ; species name
+	dbw 5, 115 ; height, weight
 
-	db   "Three hundred"
-	next "million years ago,"
-	next "it hid on the sea"
+	db   "Hace 300 millones"
+	next "de años permanecía"
+	next "escondido en el"
 
-	page "floor. It also has"
-	next "eyes on its back"
-	next "that glow.@"
+	page "fondo del mar."
+	next "Tenía unos ojos"
+	next "resplandecientes.@"

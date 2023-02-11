@@ -1,240 +1,248 @@
 MomPhoneGreetingText:
-	text "Hello?"
+	text "¿Dígame?"
 
-	para "Oh, hi, <PLAYER>!"
-	line "Working hard?"
+	para "¡Hola, <PLAYER>!"
+	line "¿Trabajando mucho?"
 	done
 
 MomPhoneLandmarkText:
-	text "Oh, so you're in"
+	text "Oh, estás en"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Isn't that where"
+	para "¿Ahí no está"
 	line "@"
 	text_ram wStringBuffer4
-	text_start
-	para "is? Did you go"
-	line "take a look?"
+	text "?"
+
+	para "¿Has ido a echar"
+	line "un vistazo?"
 	done
 
 MomPhoneGenericAreaText:
-	text "Really, you're in"
+	text "¿Sí? ¿Estás en"
 	line "@"
 	text_ram wStringBuffer3
 	text "?"
 
-	para "I've never gone"
-	line "there. That's kind"
-	cont "of neat, <PLAYER>."
+	para "Nunca he estado"
+	line "allí. ¡Genial,"
+	cont "<PLAYER>!"
 	done
 	
 MomPhoneKantoText:
-	text "Wow! You're in"
+	text "¡Uau! ¿Estás en"
 	line "@"
 	text_ram wStringBuffer3
 	text "?"
 
-	para "There's so much to"
-	line "do there!"
+	para "¡Hay mucho que"
+	line "poder hacer allí!"
 	done
 	
 MomPhoneKikaiText:
-	text "Wow! You're in"
+	text "¡Uau! ¿Estás en"
 	line "@"
 	text_ram wStringBuffer3
 	text "?"
 
-	para "Is the CALDERA as"
-	line "big as everyone"
-	cont "says it is?"
+	para "¿De verdad es tan"
+	line "grande como dicen?"
 	done
 	
 MomPhoneRyukyuText:
-	text "Wow! You're in"
+	text "¡Uau! ¿Estás en"
 	line "@"
 	text_ram wStringBuffer3
 	text "?"
 
-	para "Are you sure you"
-	line "aren't just on a"
-	cont "vacation?"
+	para "¿Seguro que no"
+	line "estás de"
+	cont "vacaciones??"
 	done
 	
 MomPhoneIejimaText:
-	text "Wow! You're in"
+	text "¡Uau! ¿Estás en"
 	line "@"
 	text_ram wStringBuffer3
 	text "?"
 
-	para "Isn't there a huge"
-	line "waterfall there?"
-	para "Take pictures!"
+	para "¿No hay una"
+	line "gran cascada allí?"
+	para "¡Haz fotos!"
 	done
 
 MomPhoneFrostpointText:
-	text "Wow! You're in"
+	text "¡Uau! ¿Estás en"
 	line "@"
 	text_ram wStringBuffer3
 	text "?"
 
-	para "You have a jacket,"
-	line "right?"
+	para "Irás abrigado,"
+	line "¿no?"
 	done
 	
 MomPhoneKobanText:
-	text "Wow! You're on"
+	text "¡Uau! ¿Estás en"
 	line "@"
 	text_ram wStringBuffer3
 	text "?"
 
-	para "Did you see the"
-	line "DRAGON'S MAW?"
-	para "Sounds scary!"
+	para "¿Ya has visto la"
+	line "MANDÍBULA DRAGÓN?"
+	para "¡Qué miedo!"
 	done
 
 MomPhoneSilentText:
-	text "What? You're in"
+	text "¿Qué? ¿Estás en"
 	line "@"
 	text_ram wStringBuffer3
 	text "?"
 
-	para "Come see your MOM"
-	line "sometime!"
+	para "¡Ven a verme"
+	line "cuando quieras!"
 	done
 	
 MomPhoneAmamiText:
-	text "Wow! You're in"
+	text "¡Uau! ¿Estás en"
 	line "@"
 	text_ram wStringBuffer3
 	text "?"
 
-	para "I've never visited"
-	line "the ISLANDS."
-	para "Sounds exciting!"
+	para "Nunca he estado"
+	line "en las ISLAS."
+	para "¡Suena"
+	line "emocionante!"
 	done
 
 MomPhoneCrownText:
-	text "You're visiting"
+	text "¿Estás visitando a"
 	line "@"
 	text_ram wStringBuffer3
 	text "?"
 
-	para "How about coming"
-	line "home for a bit?"
+	para "¿Por qué no vienes"
+	line "un rato a casa?"
 	done
 
 MomOtherAreaText:
-	text "Wow, you're in"
+	text "¡Uau! ¿Estás en"
 	line "@"
 	text_ram wStringBuffer3
 	text "?"
 
-	para "Good luck on your"
-	line "#MON quest!"
+	para "¡Suerte en tu"
+	line "aventura #MON!"
 	done
 
 MomDeterminedText:
-	text "That sounds really"
-	line "tough."
+	text "Eso parece"
+	line "bastante duro."
 
-	para "But, <PLAYER>, I"
-	line "know you're really"
+	para "Pero, <PLAYER>, sé"
+	line "que puedes hacerlo"
 
-	para "determined. You'll"
-	line "be OK, right?"
+	para "y que te irá bien,"
+	line "¿de acuerdo?"
 	done
 
 MomCheckBalanceText:
-	text "By the way, you've"
-	line "saved up ¥@"
+	text "Por cierto, has"
+	line "ahorrado @"
 	text_ram wStringBuffer3
-	text "."
+	text "¥."
 
-	para "Do you want to"
-	line "keep on saving?"
+	para "¿Quieres seguir"
+	line "ahorrando dinero?"
 	done
 
 MomImportantToSaveText:
-	text "It's important to"
-	line "save your money."
+	text "Es importante que"
+	line "ahorres dinero."
 	done
 
 MomYoureNotSavingText:
-	text "Oh, <PLAYER>,"
-	line "you're not saving"
+	text "¡Oh, <PLAYER>!"
+	line "No estás ahorrando"
 
-	para "any money. Would"
-	line "you like to save?"
+	para "dinero. ¿Quieres"
+	line "ahorrar?"
 	done
 
 MomYouveSavedText:
-	text "By the way, you've"
-	line "saved up ¥@"
+	text "Por cierto, has"
+	line "ahorrado @"
 	text_ram wStringBuffer3
-	text "."
+	text "¥."
 
-	para "Want to start"
-	line "saving again?"
+	para "¿Quieres seguir"
+	line "ahorrando?"
 	done
 
 MomOKIllSaveText:
-	text "OK. I'll save your"
-	line "money."
+	text "Vale. Te guardaré"
+	line "el dinero."
 	done
 
 MomPhoneStopSavingMoneyText:
-	text "OK. I'll stop"
-	line "saving your money."
+	text "Vale. Dejaré de"
+	line "guardarte dinero."
 	done
 
 MomPhoneHangUpText:
-	text "<PLAYER>, keep it"
-	line "up! I'm rooting"
-	cont "for you, baby!"
+	text "¡Sigue así,"
+	line "<PLAYER>!"
+	cont "¡Estoy contigo!"
 	done
 
 MomPhoneNoPokemonText:
-	text "Hello?"
+	text "¿Diga?"
 
-	para "Oh, hi, <PLAYER>!"
-	line "Wasn't PROF.OAK"
-	cont "waiting for you?"
+	para "Oh, hola, <PLAYER>."
+
+	para "¿No te estaba"
+	line "esperando el"
+	cont "PROF. OAK?"
 	done
 
 MomPhoneNoPokedexText:
-	text "Hello?"
+	text "¿Diga?"
 
-	para "Oh, hi, <PLAYER>!"
-	line "You're on a big"
+	para "Oh, hola, <PLAYER>."
 
-	para "mission for PROF."
-	line "OAK? Be good!"
+	para "¿Estás en una gran"
+	line "misión para el"
+	cont "PROF. OAK?"
+
+	para "¡Pórtate bien!"
 	done
 
 MomPhoneNoGymQuestText:
-	text "Hello?"
+	text "¿Diga?"
 
-	para "Hi, <PLAYER>! If"
-	line "you're done with"
+	para "Oh, hola, <PLAYER>."
 
-	para "your errand come"
-	line "on home, dear."
+	para "Cuando acabes tu"
+	line "recado ven a casa."
 	done
 
 MomPhoneLectureText:
-	text "Hello?"
+	text "¿Diga?"
 
-	para "…… <PLAYER>?"
-	line "I heard from PROF."
+	para "…"
+	line "¿<PLAYER>…?"
 
-	para "OAK that you went"
-	line "on a long trip."
+	para "Me ha dicho el"
+	line "PROF. OAK que te"
 
-	para "I wish you would"
-	line "have told me…"
+	para "has ido para hacer"
+	line "un largo viaje."
 
-	para "What about money?"
-	line "Should I save it?"
+	para "Me hubiera gustado"
+	line "que me lo dijeras…"
+
+	para "Tu dinero…"
+	line "¿Quieres que te lo"
+	cont "guarde?"
 	done

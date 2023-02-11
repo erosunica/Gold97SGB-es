@@ -108,3 +108,9 @@ AnimateHPBar:
 	call _AnimateHPBar
 	call WaitBGMap
 	ret
+
+PartyAnimateHPBar: ; erosunica: new
+	call WaitBGMap
+	call _PartyAnimateHPBar
+	call WaitBGMap
+	ret

@@ -1,10 +1,10 @@
-	db "WEED@" ; species name
-	dw 108, 120 ; height, weight
+	db "HIERBAJO@" ; species name
+	dbw 5, 54 ; height, weight
 
-	db   "During the day, it"
-	next "stays in the cold"
-	next "underground to"
+	db   "Durante el día, se"
+	next "agazapa en el frío"
+	next "subsuelo huyendo"
 
-	page "avoid the sun."
-	next "It grows by bath-"
-	next "ing in moonlight.@"
+	page "del sol. La luz de"
+	next "la luna le hace"
+	next "crecer mucho.@"

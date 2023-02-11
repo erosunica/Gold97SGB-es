@@ -85,69 +85,67 @@ TrainerEngineerMarkson:
 	end
 
 FirebreatherOtisSeenText:
-	text "Ah! The weather's"
-	line "as fine as ever."
+	text "¡Ah! Hace un"
+	line "tiempo estupendo."
 	done
 
 FirebreatherOtisBeatenText:
-	text "It's sunny, but"
-	line "I'm all wet…"
+	text "Hace sol, pero"
+	line "estoy mojado…"
 	done
 
 FirebreatherOtisAfterBattleText:
-	text "When it rains,"
-	line "it's hard to get"
-	cont "ignition…"
+	text "Cuando llueve,"
+	line "es difícil"
+	cont "encenderlo…"
 	done
 
 YoungsterWarrenSeenText:
-	text "Hmmm… This tree is"
-	line "kinda interesting…"
+	text "Mmm… Este árbol es"
+	line "de lo más"
+	cont "interesante…"
 	done
 
 YoungsterWarrenBeatenText:
-	text "I knew I'd lose…"
+	text "Sabía que"
+	line "perdería…"
 	done
 
 YoungsterWarrenAfterBattleText:
-	text "You looked strong."
+	text "Parecías fuerte."
 
-	para "I was afraid to"
-	line "take you on…"
+	para "Me daba miedo"
+	line "desafiarte…"
 	done
 
 YoungsterJimmySeenText:
-	text "I can run like the"
-	line "wind!"
+	text "¡Puedo correr como"
+	line "el viento!"
 	done
 
 YoungsterJimmyBeatenText:
-	text "Blown away!"
+	text "¡He perdido!"
 	done
 
 YoungsterJimmyAfterBattleText:
-	text "I wear shorts the"
-	line "whole year round."
+	text "Siempre llevo"
+	line "pantalones cortos."
 
-	para "That's my fashion"
-	line "policy."
+	para "Ésa es mi forma"
+	line "de vestir."
 	done
 
-
-
 EngineerMarksonSeenText:
-	text "Have you seen"
-	line "my wrench?"
+	text "¿Has visto mi"
+	line "llave inglesa?"
 	done
 
 EngineerMarksonBeatenText:
-	text "Oh! It's right"
-	line "here!"
+	text "¡Oh! ¡Ahí está!"
 	done
 
 EngineerMarksonAfterText:
-	text "That was"
-	line "embarassing…"
+	text "Qué vergüenza…"
 	done
 
 Route117_MapEvents:
@@ -171,7 +169,7 @@ Route117_MapEvents:
 	object_event  8, 13, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 3, TrainerYoungsterWarren, -1
 	object_event 12, 11, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 1, TrainerYoungsterJimmy, -1
 	object_event 47,  9, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_RIGHT, 1, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 4, TrainerEngineerMarkson, -1
-	object_event 29,  5, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route117FruitTree, -1
+	object_event 29,  5, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, Route117FruitTree, -1
 	object_event 31,  5, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route116DireHit, EVENT_ROUTE_116_DIRE_HIT
 	object_event 24,  4, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route116Carbos, EVENT_ROUTE_116_CARBOS
 	object_event 16,  9, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route116Elixer, EVENT_ROUTE_116_ELIXER

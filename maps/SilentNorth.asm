@@ -20,7 +20,8 @@ ShinyPokeScript:
 	end
 	
 ShinyPokeText:
-	text "Shiny #MON test"
+	text "Prueba de #MON"
+	line "variocolor"
 	done
 	
 

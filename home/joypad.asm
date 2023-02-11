@@ -433,7 +433,7 @@ PromptButton::
 	jr .load_cursor_state
 
 .cursor_off
-	ld a, "─"
+	ld a, " " ; erosunica: replaced from ─, to mimic SW97
 
 .load_cursor_state
 	ldcoord_a 18, 17
@@ -455,7 +455,7 @@ BlinkCursor::
 	dec a
 	ldh [hObjectStructIndexBuffer], a
 	ret nz
-	ld a, "─"
+	ld a, " " ; erosunica: replaced from ─, to mimic SW97
 	ld [hl], a
 	ld a, -1
 	ldh [hMapObjectIndexBuffer], a

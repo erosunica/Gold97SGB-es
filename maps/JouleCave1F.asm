@@ -78,57 +78,58 @@ JouleCave1FHiddenMaxRepel:
 	hiddenitem MAX_REPEL, EVENT_JOULE_CAVE_1F_HIDDEN_MAX_REPEL
 	
 HikerErikSeenText:
-	text "Be prepared for"
-	line "anything!"
+	text "¡Prepárate para"
+	line "cualquier cosa!"
 
-	para "Let me see if your"
-	line "#MON have been"
-	cont "raised properly!"
+	para "¡Déjame ver si has"
+	line "entrenado bien a"
+	cont "tus #MON!"
 	done
 
 HikerErikBeatenText:
-	text "Oh, I lost that!"
+	text "¡Oh, he perdido!"
 	done
 
 HikerErikAfterBattleText:
-	text "I'll train here"
-	line "until I get"
-	cont "stronger!"
+	text "¡Seguiré entrenan-"
+	line "do hasta que sea"
+	cont "más fuerte!"
 	done
 
 PokemaniacMillerSeenText:
-	text "I'm not losing"
-	line "to you!"
+	text "¡No perderé contra"
+	line "ti!"
 	done
 
 PokemaniacMillerBeatenText:
-	text "I lost to some"
-	line "kid…?"
+	text "¿He perdido"
+	line "contra un niño…?"
 	done
 
 PokemaniacMillerAfterBattleText:
-	text "I heard that a"
-	line "rare bird some-"
-	para "times roosts in"
-	line "this mountain."
-	para "I haven't been"
-	line "able to find it,"
-	cont "though."
+	text "He oído que un ave"
+	line "misteriosa se posa"
+	cont "a veces en esta"
+	cont "montaña."
+
+	para "Aun así, no he po-"
+	line "dido encontrarla."
 	done
 
 SupernerdMarkusSeenText:
-	text "Hey! Woah!"
+	text "¡Oye! ¡Uau!"
 	done
 
 SupernerdMarkusBeatenText:
-	text "You startled me…"
+	text "Me sorprendiste…"
 	done
 
 SupernerdMarkusAfterBattleText:
-	text "I came to explore"
-	line "JOULE CAVE, but"
-	para "I haven't found"
-	line "anything cool."
+	text "He venido a"
+	line "explorar la CUEVA"
+	para "JULIO, pero no he"
+	line "encontrado nada"
+	cont "interesante."
 	done
 
 JouleCave1F_MapEvents:

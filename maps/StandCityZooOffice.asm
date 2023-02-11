@@ -58,63 +58,66 @@ SafariOfficePokefanMScript:
 	end
 
 SafariOfficeSuperNerdText:
-	text "Hello. This is the"
-	line "office for the"
-	cont "STAND CITY ZOO."
-	para "We are very busy"
-	line "working on"
-	para "researching why"
-	line "our #MON are"
-	cont "feeling ill."
-	para "The ZOO is closed"
-	line "until further"
-	cont "notice."
+	text "Hola. Esta es la"
+	line "oficina del ZOO de"
+	cont "CIUDAD ENHIESTA."
+
+	para "Estamos muy ocupa-"
+	line "dos investigando"
+	para "por qué nuestros"
+	line "#MON están"
+	cont "enfermos."
+
+	para "Hasta nuevo aviso,"
+	line "el ZOO permanecerá"
+	cont "cerrado."
 	done
-	
+
 SafariOfficeSuperNerdText2:
-	text "Welcome to the"
-	line "STAND CITY ZOO"
-	cont "office!"
-	para "We are hard at"
-	line "work examining the"
-	para "data we gather"
-	line "from our #MON"
-	para "in order to learn"
-	line "more about them."
+	text "¡Bienvenido a la"
+	line "oficina del ZOO de"
+	cont "CIUDAD ENHIESTA!"
+
+	para "Trabajamos duro"
+	line "analizando los da-"
+	para "tos que recogemos"
+	line "de nuestros"
+	para "#MON para"
+	line "aprender más sobre"
+	cont "ellos."
 	done
-	
+
 SafariOfficeRockerText:
-	text "It seems that the"
-	line "#MON are"
-	para "suffering from"
-	line "headaches…"
-	para "That's the inital"
-	line "symptom."
+	text "Parece que los"
+	line "#MON están su-"
+	cont "friendo jaquecas…"
+	para "Es el primer"
+	line "síntoma."
 	done
 
 SafariOfficeRockerText2:
-	text "We frequently take"
-	line "the #MON over"
-	para "to NATIONAL PARK"
-	line "so they have a"
-	para "chance to spend"
-	line "time outside of"
-	cont "the exhibit."
+	text "Solemos llevar a"
+	line "los #MON al"
+	para "PARQUE NACIONAL"
+	line "para que se"
+	para "tomen un respiro"
+	line "fuera de las"
+	cont "exhibiciones."
 	done
-	
+
 SafariOfficePokefanMText:
-	text "I've never seen"
-	line "anything like"
-	cont "this…"
+	text "Nunca he visto"
+	line "nada igual…"
 	done
 
 SafariOfficePokefanMText2:
-	text "The research from"
-	line "this ZOO has led"
-	para "to many break-"
-	line "throughs on proper"
-	para "nutrition for"
-	line "#MON."
+	text "La investigación"
+	line "de este ZOO ha"
+	para "permitido realizar"
+	line "muchos avances en"
+	para "la nutrición"
+	line "adecuada de los"
+	cont "#MON."
 	done
 
 StandCityZooOffice_MapEvents:

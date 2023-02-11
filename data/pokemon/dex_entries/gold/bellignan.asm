@@ -1,10 +1,10 @@
-	db "FLYCATCHER@" ; species name
-	dw 403, 270 ; height, weight
-
-	db   "A surprisingly"
-	next "speedy plant. Able"
-	next "to move on the"
-
-	page "ground much more"
-	next "quickly than its"
-	next "previous forms.@"
+	db "MATAMOSCAS@" ; species name
+	dbw 13, 122 ; height, weight
+	
+	db   "Una planta que es"
+	next "sorprendentemente"
+	next "veloz. Se mueve"
+	
+	page "por tierra mucho"
+	next "más rápido que sus"
+	next "preevoluciones.@"

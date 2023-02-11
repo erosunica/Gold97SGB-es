@@ -1,10 +1,10 @@
-	db "IRON SNAKE@" ; species name
-	dw 3002, 8820 ; height, weight
+	db "SERPFÉRREA@" ; species name
+	dbw 92, 4000 ; height, weight
 
-	db   "The many small"
-	next "metal particles"
-	next "that cover this"
+	db   "Las minúsculas"
+	next "partículas de"
+	next "metal que recubren"
 
-	page "#MON's body"
-	next "reflect bright"
-	next "light well.@"
+	page "la superficie de"
+	next "su cuerpo reflejan"
+	next "la luz.@"

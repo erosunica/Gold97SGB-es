@@ -44,70 +44,74 @@ ItemFinderHouseRadio:
 	jumpstd Radio2Script
 
 TeknosItemfinderAdventureText:
-	text "I can't thank you"
-	line "enough for finding"
-	cont "my granddaughter!"
-	para "She needs to be"
-	line "more mindful in"
-	para "the future, but"
-	line "right now I'm"
-	para "just glad she's"
-	line "okay!"
-	para "You handled"
-	line "yourself very well"
-	cont "in the MINE."
-	para "If you know where"
-	line "to look, you can"
-	para "find a lot of"
-	line "interesting items"
-	para "hidden in caves"
-	line "like that."
-	para "If you want, I can"
-	line "give you something"
-	para "that could help"
-	line "you find more"
-	cont "items."
+	text "¡No puedo agrade-"
+	line "certe lo suficien-"
+	cont "te que hayas"
+	cont "encontrado a mi"
+	cont "nieta!"
+	
+	para "Tiene que ser más"
+	line "consciente de aquí"
+	para "a la próxima,"
+	line "¡pero ahora mismo"
+	para "me alegro de que"
+	line "esté bien!"
+	
+	para "Te las has"
+	line "ingeniado muy bien"
+	cont "en la MINA."
+	
+	para "Si sabes dónde"
+	line "mirar, podrás"
+	para "encontrar muchos"
+	line "objetos interesan-"
+	cont "tes ocultos en"
+	cont "cuevas como esa."
+	
+	para "Puedo darte algo"
+	line "que te ayudará a"
+	cont "encontrar más"
+	cont "objetos."
+	
+	para "¿Lo quieres?"
 	done
 
 TeknosItemfinderTrueSpiritText:
-	text "Here you go! Take"
-	line "this with you."
+	text "¡Toma! Lleva esto"
+	line "contigo."
 	done
 
 ItemfinderExplanationText:
-	text "There are many"
-	line "items lying about"
+	text "Por aquí hay"
+	line "muchos objetos que"
+	para "no se ven tan"
+	line "fácilmente."
 
-	para "that aren't ob-"
-	line "vious."
+	para "Utiliza el"
+	line "BUSCAOBJETOS para"
+	para "saber si hay algún"
+	line "objeto cerca."
 
-	para "Use ITEMFINDER to"
-	line "check if there is"
-
-	para "an item on the"
-	line "ground near you."
-
-	para "It doesn't show"
-	line "the exact spot,"
-
-	para "so you'll have to"
-	line "look yourself."
+	para "Éste no indica el"
+	line "lugar exacto, así"
+	para "que tú tendrás que"
+	line "encontrarlo."
 	done
 
 TeknosItemfinderToEachHisOwnText:
-	text "You sure? I think"
-	line "you'd find this"
-	cont "useful."
+	text "¿Seguro? Yo creo"
+	line "que te será muy"
+	cont "útil."
 	done
 
 TeknosHistoryBookText:
-	text "Grandpa doesn't"
-	line "want me playing in"
-	cont "the MINE."
-	para "I guess that makes"
-	line "sense. He just"
-	para "wants me to be"
-	line "safe."
+	text "El abuelo no"
+	line "quiere que juegue"
+	cont "en la MINA."
+	
+	para "Supongo que tiene"
+	line "sentido. Quiere"
+	cont "que esté a salvo."
 	done
 
 

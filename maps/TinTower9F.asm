@@ -5,12 +5,12 @@ TinTower9F_MapScripts:
 
 TinTower9FUnusedHoOhText:
 ; unused
-	text "HO-OH: Shaoooh!"
+	text "HO-OH: ¡Hooo-ooh!"
 	done
 
 TinTower9FUnusedBlisseyText:
 ; unused
-	text "BLISSEY: Gyaaan!"
+	text "BLISSEY: ¡Bliisii!"
 	done
 
 TinTower9F_MapEvents:

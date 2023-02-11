@@ -224,95 +224,88 @@ DudeMovementData2b:
 	step_end
 	
 DebugSignText:
-	text "Debug sign"
+	text "Cartel Debug"
 	done
 
 CatchingTutorialBoxFullText:
-	text "#MON hide in"
-	line "the grass. Who"
-
-	para "knows when they'll"
-	line "pop out…"
+	text "Los #MON se"
+	line "esconden en la"
+	para "hierba. Nadie sabe"
+	line "cuándo salen…"
 	done
 
 CatchingTutorialIntroText:
-	text "Well, hey now!"
+	text "¡Oye, chico!"
 
-	para "You sure look like"
-	line "a rookie trainer!"
+	para "¡Pareces un"
+	line "entrenador novato!"
 	
-	para "I bet you'll be"
-	line "wanting to catch"
-	cont "some #MON!"
+	para "¡Seguro que"
+	line "quieres atrapar"
+	cont "algunos #MON!"
 
-	para "Would you like me"
-	line "to show you how to"
-	cont "catch #MON?"
+	para "¿Quieres que te"
+	line "enseñe cómo"
+	cont "atrapar #MON?"
 	done
 
 CatchingTutorialDebriefText:
-	text "That's how you do"
-	line "it."
+	text "Así es como se"
+	line "hace."
 
-	para "If you weaken them"
-	line "first, #MON are"
-	cont "easier to catch."
+	para "Las # BALLS"
+	line "sólo deben usarse"
+	para "después de"
+	line "debilitar al"
+	cont "#MON salvaje."
 	done
 
 CatchingTutorialDeclinedText:
-	text "Oh. Fine, then."
+	text "¡Ah! ¡Muy bien!"
 
-	para "Anyway, if you"
-	line "want to catch"
-
-	para "#MON, you have"
-	line "to walk a lot."
+	para "Pero si quieres"
+	line "atrapar #MON,"
+	para "tendrás que"
+	line "caminar mucho."
 	done
 
 CatchingTutorialRepeatText:
-	text "Huh? You want me"
-	line "to show you how to"
-	cont "catch #MON?"
+	text "¿Eh? ¿Quieres que"
+	line "te enseñe a"
+	cont "atrapar #MON?"
 	done
 
 Route101YoungsterText:
-	text "Yo. How are your"
-	line "#MON?"
-
-	para "If they're weak"
-	line "and not ready for"
-
-	para "battle, keep out"
-	line "of the grass."
+	text "Una noche, cuando"
+	line "volvía de clase,"
+	cont "¡vi un #MON"
+	cont "desconocido!"
 	done
 
 Route101TeacherText:
-	text "See that ledge?"
-	line "It's scary to jump"
-	cont "off of it."
+	text "¿Ves esa cornisa?"
+	line "Da miedo saltarla."
 
-	para "But you can jump"
-	line "down them as a"
-
-	para "shortcut in many"
-	line "places."
+	para "Pero puedes saltar"
+	line "por encima de"
+	para "ellas para usarlas"
+	line "de atajo en muchos"
+	cont "sitios."
 	done
 
 Route101Sign1Text:
-	text "ROUTE 101"
+	text "RUTA 101"
 
-	para "SILENT TOWN -"
-	line "PAGOTA CITY"
-	
-	para "SILENT HILLS"
-	line "In Between"
+	para "PUEBLO SILENTE -"
+	line "CIUDAD PAGOTA"
 	done
 
 SilentHillsEntranceSignText:
-	text "SILENT HILLS"
+	text "Hacia el este las"
+	line "COLINAS SILENTES."
 	
-	para "Entrance to the"
-	line "left."
+	para "Cuidado con los"
+	line "#MON salvajes."
 	done
 
 Route101_MapEvents:
@@ -335,5 +328,5 @@ Route101_MapEvents:
 	object_event 23, 11, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, CatchingTutorialDudeScript, -1
 	object_event 12,  5, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route101YoungsterScript, -1
 	object_event 17,  7, SPRITE_TEACHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Route101TeacherScript, -1
-	object_event 22,  5, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route101FruitTree, -1
+	object_event 22,  5, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, Route101FruitTree, -1
 	object_event 23,  4, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route101Potion, EVENT_ROUTE_101_POTION

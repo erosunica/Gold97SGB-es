@@ -14,17 +14,17 @@ Route119SunpointGateFishScript:
 	jumptextfaceplayer Route119SunpointGateFishText
 
 Route119SunpointGateFishText:
-	text "I think I'll head"
-	line "to the shore to do"
-	cont "some fishing."
+	text "Creo que iré a la"
+	line "costa a pescar un"
+	cont "poco."
 	done
 
 Route119SunpointGateOfficerText:
-	text "You're working on"
-	line "a #DEX? That's"
+	text "¿Estás trabajando"
+	line "en una #DEX?"
 
-	para "really something."
-	line "Don't give up!"
+	para "Es muy importante."
+	line "¡No te rindas!"
 	done
 
 Route119SunpointGate_MapEvents:

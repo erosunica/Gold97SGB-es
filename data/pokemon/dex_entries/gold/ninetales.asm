@@ -1,10 +1,10 @@
-	db "FOX@" ; species name
-	dw 307, 440 ; height, weight
+	db "ZORRO@" ; species name
+	dbw 11, 199 ; height, weight
 
-	db   "It is said to live"
-	next "a thousand years,"
-	next "and each of its"
+	db   "Cuentan que llega"
+	next "a vivir hasta mil"
+	next "años y que cada"
 
-	page "tails is loaded"
-	next "with supernatural"
-	next "powers.@"
+	page "una de las colas"
+	next "posee poderes"
+	next "sobrenaturales.@"

@@ -97,37 +97,37 @@ MomPhonePalette1:
 	getstring STRING_BUFFER_4, .text_sprout_tower
 	sjump MomPhoneLandmark
 .text_sprout_tower
-	db "5 FLOOR TOWER@"
+	db "TORRE GODAI@"
 
 .birdon
 	getstring STRING_BUFFER_4, .text_slowpoke_well
 	sjump MomPhoneLandmark
 .text_slowpoke_well
-	db "SLOWPOKE WELL@"
+	db "POZO SLOWPOKE@"
 
 .westport
 	getstring STRING_BUFFER_4, .text_radio_tower
 	sjump MomPhoneLandmark
 .text_radio_tower
-	db "RADIO TOWER@"
+	db "TORRE RADIO@"
 	
 .teknos
 	getstring STRING_BUFFER_4, .text_aquarium
 	sjump MomPhoneLandmark
 .text_aquarium
-	db "the AQUARIUM@"
+	db "el ACUARIO@"
 	
 .sunpoint
 	getstring STRING_BUFFER_4, .text_magma_shaft
 	sjump MomPhoneLandmark
 .text_magma_shaft
-	db "the MAGMA SHAFT@"
+	db "el EJE MAGMA@"
 	
 .stand
 	getstring STRING_BUFFER_4, .text_stand_zoo
 	sjump MomPhoneLandmark
 .text_stand_zoo
-	db "the #MON ZOO@"
+	db "el ZOO #MON@"
 
 MomPhonePalette2:
 	writetext MomOtherAreaText

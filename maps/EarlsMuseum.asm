@@ -151,143 +151,165 @@ ArtHousePokefanMScript:
 	jumptextfaceplayer ArtHousePokefanMText
 	
 ArtHousePokefanMText:
-	text "This guy's work"
-	line "is really impress-"
-	cont "ive!"
+	text "¡Las obras de este"
+	line "artista son"
+	cont "impresionantes!"
 	done
 	
 ArtHouseLassText:
-	text "You know, I like"
-	line "this EGG one the"
-	cont "best."
+	text "Para serte"
+	line "sincera, el HUEVO"
+	cont "es mi estatua"
+	cont "favorita."
 	done
 
 EggStatueText:
-	text "#MON EGG STATUE"
-	line "by EARL"
+	text "ESTATUA DE"
+	line "HUEVO #MON,"
+	cont "hecha por GABRIEL"
 	done
 	
 ArtSignText:
-	text "EARL'S ART HOUSE"
-	para "Please look, but"
-	line "do not touch."
+	text "GALERÍA DE ARTE"
+	line "DE GABRIEL"
+	para "No tocar, por"
+	line "favor."
 	done
 
 ArtistEarlIntroText:
-	text "Oh, boo."
-	para "I'm a failure."
-	para "Don't ask why!"
-	para "Alright, I'll tell"
-	line "you."
-	para "My name is EARL,"
-	line "and I'm an artist."
-	para "Or at least, I"
-	line "wish I was a"
-	cont "decent one."
-	para "I never feel"
-	line "inspired."
-	para "I opened this"
-	line "ART HOUSE to"
-	para "show off my work,"
-	line "but the only"
-	para "sculpture I've"
-	line "ever finished is"
-	para "a sculpture of a"
-	line "#MON EGG."
-	para "I need to do"
-	line "something"
-	cont "impressive!"
-	para "I've been working"
-	line "on a statue of the"
-	para "#MON LUXWAN,"
-	line "but it's not quite"
-	para "finished."
+	text "Oh, soy un"
+	line "fracasado."
+
+	para "¡No preguntes"
+	line "por qué!"
+
+	para "Vale, te lo diré."
+
+	para "Soy GABRIEL, y soy"
+	line "un artista."
+
+	para "O al menos,"
+	line "desearía que me"
+	cont "vieran como uno."
+
+	para "Nunca me siento"
+	line "inspirado."
+
+	para "Abrí esta GALERÍA"
+	line "de ARTE para"
+	para "mostrar mis obras,"
+	line "pero la única"
+	para "escultura que he"
+	line "logrado terminar"
+	para "es una de un HUEVO"
+	line "#MON."
+
+	para "¡Tengo que hacer"
+	line "algo que"
+	cont "impresione!"
+
+	para "He estado"
+	line "trabajando en una"
+	para "estatua del"
+	line "#MON LUXWAN,"
+	para "pero aún no la he"
+	line "terminado."
 	done
 
 ArtistEarlAskToSeeMonText:
-	text "If you have that"
-	line "#MON, may I see"
-	cont "it, please?"
+	text "Si tienes ese"
+	line "#MON, ¿me"
+	cont "dejas verlo?"
 	done
 
 ArtistEarlExcitedToSeeText:
-	text "You will show me?"
-	line "How good of you!"
+	text "¿Me lo dejas ver?"
+	line "¡Qué amable eres!"
 	done
 
 ArtistEarlYouDontHaveItTextText:
-	text "You don't have it?"
-	line "That's too bad…"
+	text "¿No lo tienes?"
+	line "¡Qué pena…!"
 	done
 
 ArtistEarlShownPokemonText:
-	text "Ah, yes! That is"
+	text "¡Ah, sí! ¡Es un"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Thank you so much!"
-	line "I feel inspired!"
+	para "¡Muchas gracias!"
+
+	para "¡Me siento"
+	line "inspirado!"
 	done
 
 ArtistEarlTokenOfAppreciationText:
-	text "This is a token of"
-	line "my appreciation."
+	text "Toma esto como"
+	line "agradecimiento."
 	done
 
 ArtistEarlComeAgainText:
-	text "Come by again"
-	line "sometime."
+	text "Vuelve cuando"
+	line "quieras."
 	done
 
 ArtistEarlShownAllThePokemonText:
-	text "Thanks for showing"
-	line "me those #MON."
-	para "With your help,"
-	line "I've made great"
-	para "progress on my"
-	line "dream!"
+	text "Gracias por"
+	line "enseñarme ese"
+	cont "#MON."
+
+	para "¡Con tu ayuda,"
+	line "ahora estoy mucho"
+	para "más cerca de"
+	line "cumplir mi sueño!"
 	done
 
 ArtistEarlWrongPokemonText:
-	text "Hm?"
+	text "¿Eh?"
 
-	para "That's not the"
-	line "#MON that I was"
-	cont "thinking about."
+	para "Ese no es el"
+	line "#MON en que"
+	cont "estaba pensando."
 	done
 
 ArtistEarlLickitungText:
-	text "If I could only"
-	line "see a LUXWAN in"
-	para "person, I might"
-	line "feel inspired to"
-	cont "finish my statue."
+	text "Si pudiera ver un"
+	line "LUXWAN en persona,"
+	para "me sentiría"
+	line "inspirado para"
+	cont "terminar mi"
+	cont "estatua."
 	done
 	
 
 ArtistEarlOddishText:
-	text "I've finished my"
-	line "LUXWAN statue!"
-	para "Now I'd like to"
-	line "finish my statue"
-	cont "of a DRATINI."
-	para "If I could only"
-	line "see a DRATINI in"
-	para "person, I might"
-	line "feel inspired to"
-	cont "finish my statue."
+	text "¡He terminado mi"
+	line "estatua de LUXWAN!"
+
+	para "Ahora, me gustaría"
+	line "terminar mi"
+	cont "estatua de"
+	cont "DRATINI."
+
+	para "Si pudiera ver un"
+	line "DRATINI en"
+	para "persona, me"
+	line "sentiría inspirado"
+	cont "para terminar mi"
+	cont "estatua."
 	done
 
-	
 BirdText:
-	text "LUXWAN STATUE"
-	line "by EARL"
+	text "ESTATUA DE"
+	line "LUXWAN,"
+	cont "hecha por GABRIEL"
 	done
 	
 DragonText:
-	text "DRATINI STATUE"
-	line "by EARL"
+	text "ESTATUA DE"
+	line "DRATINI,"
+	cont "hecha por GABRIEL"
 	done
 
 EarlsMuseum_MapEvents:

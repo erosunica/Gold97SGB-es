@@ -79,81 +79,87 @@ RyukyuArboretumHouseYoungsterScript:
 	jumptextfaceplayer RyukyuArboretumHouseYoungsterText
 	
 RyukyuArboretumHouseYoungsterText:
-	text "This place is"
-	line "neat!"
-	para "Grass #MON seem"
-	line "to love it here!"
+	text "¡Este lugar es"
+	line "genial!"
+
+	para "¡Parece que a los"
+	line "#MON planta les"
+	cont "encanta estar"
+	cont "aquí!"
 	done
-	
+
 RyukyuMagnetTrainParasText:
-	text "PARAS:"
-	line "Paraa…"
+	text "PARAS: Paraa…"
 	done
-	
+
 RyukyuMagnetTrainBulbasaurText:
-	text "BULBASAUR:"
-	line "Bulba!"
+	text "BULBASAUR: ¡Bulba!"
 	done
-	
+
 RyukyuMagnetTrainOddishText:
-	text "ODDISH:"
-	line "Oddd?"
+	text "ODDISH: ¿Oodd?"
 	done
-	
+
 UnknownText_0x7e355ab:
-	text "<PLAYER> received"
+	text "<PLAYER> recibió a"
 	line "BULBASAUR."
 	done
-	
+
 AlreadyGotBulbasaurText:
-	text "I have many tree"
-	line "species from"
-	cont "around NIHON!"
+	text "¡Tengo muchas"
+	line "especies arbóreas"
+	cont "de todo NIHON!"
 	done
-	
+
 PartyFullBulbasaurText:
-	text "You've already got"
-	line "too many #MON"
-	cont "with you!"
+	text "¡Ya llevas muchos"
+	line "#MON en tu"
+	cont "equipo!"
 	done
-	
+
 NoBulbasaurText:
-	text "I understand."
-	para "I'll be here if"
-	line "you change your"
-	cont "mind!"
+	text "Entiendo."
+
+	para "¡Estaré por aquí"
+	line "si cambias de"
+	cont "idea!"
 	done
-	
 
 ILoveBulbasaurText:
-	text "Hi there!"
-	para "I'm running an"
-	line "arboretum."
-	para "That means I take"
-	line "care of trees!"
-	para "This building is"
-	line "full of windows"
-	para "that let light in"
-	line "for the trees."
-	para "It's also full of"
-	line "grass #MON to"
-	cont "take care of them!"
-	para "I can only keep so"
-	line "many #MON here,"
-	cont "though."
-	para "I've got a"
-	line "BULBASAUR that I"
-	para "need to find a"
-	line "good home for."
-	para "Would you be"
-	line "willing to take"
-	cont "it?"
+	text "¡Hola!"
+
+	para "Estoy al cargo de"
+	line "este arboreto."
+
+	para "¡Lo que significa"
+	line "que cuido árboles!"
+
+	para "Este recinto está"
+	line "lleno de ventanas"
+	cont "por las que pasa"
+	cont "la luz."
+
+	para "¡Y también hay"
+	line "muchos #MON"
+	cont "planta que cuidan"
+	cont "de ellos!"
+
+	para "Aunque yo no puedo"
+	line "cuidar de todos"
+	cont "ellos."
+
+	para "Tengo un BULBASAUR"
+	line "que me gustaría"
+	cont "dejar en mejores"
+	cont "manos."
+
+	para "¿Te gustaría"
+	line "llevártelo?"
 	done
-	
+
 GiveBulbasaurText:
-	text "I'm sure you'll"
-	line "take great care"
-	cont "of it!"
+	text "¡No dudo de que lo"
+	line "cuidarás muy bien!"
 	done
 
 

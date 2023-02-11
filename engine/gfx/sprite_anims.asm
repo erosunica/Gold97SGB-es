@@ -104,17 +104,17 @@ DoAnimFrame:
 	cp $1
 	jr z, .load_minus_one
 .load_zero
-	xor a
+	ld a, 1 ;  ; erosunica: it was xor a. modded to match its new location
 	ld [hl], a
 	ret
 
 .load_minus_one
-	ld a, -1
+	ld a, 0 ; erosunica: it was -1. modded to match its new location
 	ld [hl], a
 	ret
 
 .load_minus_two
-	ld a, -2
+	ld a, -1 ; erosunica: it was -2. modded to match its new location
 	ld [hl], a
 	ret
 
@@ -781,15 +781,9 @@ DoAnimFrame:
 	ld hl, SPRITEANIMSTRUCT_0C
 	add hl, bc
 	ld a, [hl]
-IF DEF(_GOLD)
 	inc a
 	ld [hl], a
 	ld d, $2
-ELIF DEF(_SILVER)
-	dec a
-	ld [hl], a
-	ld d, $8
-ENDC
 	call .Sprites_Sine
 
 	ld hl, SPRITEANIMSTRUCT_YOFFSET
@@ -1380,7 +1374,7 @@ ENDC
 	ld hl, SPRITEANIMSTRUCT_YCOORD
 	add hl, bc
 	ld a, [hl]
-	cp 10 * 8 + 4
+	cp 10 * 8 + 8 ;erosunica: align sprite to the tile grid (before "cp 10 * 8 + 4")
 	ret z
 
 	ld hl, SPRITEANIMSTRUCT_YCOORD

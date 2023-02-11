@@ -1,10 +1,10 @@
-	db "LIVE COAL@" ; species name
-	dw 204, 470 ; height, weight
+	db "ASCUAS@" ; species name
+	dbw 7, 214 ; height, weight
 
-	db   "It naturally spits"
-	next "an 1100-degree"
-	next "flame. It is said"
+	db   "Su naturaleza le"
+	next "permite lanzar"
+	next "llamas a 600°. Se"
 
-	page "when many appear,"
-	next "it heralds a"
-	next "volcanic eruption.@"
+	page "dice que si hay"
+	next "muchos, un volcán"
+	next "hará erupción.@"

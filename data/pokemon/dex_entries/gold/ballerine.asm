@@ -1,10 +1,10 @@
-	db "BARRIER@" ; species name
-	dw 205, 430 ; height, weight
-
-	db   "Is able to stop"
-	next "foes in their"
-	next "tracks by using"
-
-	page "its mind to fool"
-	next "them into losing"
-	next "their orientation.@"
+	db "BARRERA@" ; species name
+	dbw 7, 195 ; height, weight
+	
+	db   "Tiene la habilidad"
+	next "de detener a sus"
+	next "oponentes en seco"
+	
+	page "usando su mente"
+	next "para entorpecer su"
+	next "orientación.@"

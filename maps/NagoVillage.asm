@@ -26,26 +26,29 @@ NagoVillageFishingGuruScript:
 	jumptextfaceplayer NagoVillageFishingGuruText
 	
 NagoVillageFishingGuruText:
-	text "If nothing else,"
-	line "this town is great"
-	cont "for fishing!"
+	text "¡Si algo tiene"
+	line "este pueblo, es"
+	para "que es estupendo"
+	line "para pescar!"
 	done
-	
+
 NagoVillageTeacherText:
-	text "And just as soon"
-	line "as you get to this"
-	para "town, you can pass"
-	line "through it."
-	para "There's really not"
-	line "much here, but I"
-	para "hope you at least"
-	line "find it charming."
+	text "Tan pronto como"
+	line "llegas a este"
+	para "pueblo, puedes"
+	line "pasarlo de largo."
+
+	para "No tiene mucho que"
+	line "ofrecer, pero"
+	para "espero que al"
+	line "menos te guste."
 	done
-	
+
 NagoVillageSignText:
-	text "NAGO VILLAGE"
-	para "A Quiet Seaside"
-	line "Settlement"
+	text "VILLA NAGO"
+
+	para "Un sosegado lugar"
+	line "costero"
 	done
 
 NagoVillage_MapEvents:

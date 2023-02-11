@@ -134,143 +134,150 @@ PlayerWalksUpToWhitneyAfterRocketsMovement:
 	
 
 WhitneyWayToGoText:
-	text "Way to go,"
+	text "¡Estupendo,"
 	line "<PLAYER>!"
 	
-	para "You really showed"
-	line "them who's boss!"
+	para "¡Les has enseñado"
+	line "quién manda!"
 	
-	para "TEAM ROCKET won't"
-	line "hurt any of these"
-	cont "aquatic #MON"
-	cont "anymore."
+	para "El TEAM ROCKET no"
+	line "volverá a hacer"
+	cont "daño a estos"
+	cont "#MON acuáticos."
 	
-	para "Hey…"
+	para "Oye…"
 	
-	para "You're actually"
-	line "pretty strong!"
+	para "¡Eres muy fuerte!"
 
-	para "Why don't you come"
-	line "by my GYM later?"
+	para "¿Por qué no te"
+	line "pasas más tarde"
+	cont "por mi GIMNASIO?"
 	
-	para "I would love to"
-	line "battle you!"
+	para "¡Me encantaría"
+	line "combatir contigo!"
 	
-	para "Speaking of which,"
-	line "I better get back"
-	cont "over there!"
+	para "Hablando de eso,"
+	line "¡será mejor que"
+	cont "vuelva!"
 	
-	para "See ya!"
+	para "¡Nos vemos!"
 	done
-	
 
 Aqua2FExhibit1Text:
-	text "ORFRY are among"
-	line "the smallest of"
-	para "all aquatic"
-	line "#MON."
+	text "Los ORFRY son uno"
+	line "de los #MON"
+	cont "acuáticos más"
+	cont "pequeños."
 	done
 
 Aqua2FExhibit2Text:
-	text "NEW EXHIBIT COMING"
-	line "SOON"
+	text "NUEVA EXHIBICIÓN"
+	line "PRÓXIMAMENTE"
 	done
 	
 Aqua2FExhibit3Text:
-	text "DISTURBAN can"
-	line "survive on land"
-	cont "and underwater."
-	para "It has a unique"
-	line "relationship with"
-	cont "the SLOWPOKE line."
+	text "Los DISTURBAN"
+	line "pueden sobrevivir"
+	para "en tierra firme y"
+	line "bajo el agua."
+
+	para "Tienen una simbio-"
+	line "sis única con la"
+	cont "familia de los"
+	cont "SLOWPOKE."
 	done
 
 GruntM1SeenText:
-	text "What do you want?"
+	text "¿Qué quieres?"
 
-	para "If you interrupt"
-	line "our work, don't"
-	cont "expect any mercy!"
+	para "¡Si nos molestas,"
+	line "no esperes"
+	cont "misericordia!"
 	done
 
 GruntM1BeatenText:
-	text "You did OK today,"
-	line "but wait till next"
-	cont "time!"
+	text "Lo hiciste bien"
+	line "hoy, pero… ¡espera"
+	cont "a la próxima vez!"
 	done
 
 TrainerGruntM1WhenTalkText:
-	text "Yeah, TEAM ROCKET"
-	line "was broken up"
-	cont "a year ago."
+	text "Sí, el TEAM ROCKET"
+	line "se separó hace"
+	cont "un año."
 
-	para "But we continued"
-	line "our activities"
-	cont "underground."
+	para "Pero seguimos"
+	line "clandestinamente"
+	para "con nuestras"
+	line "actividades."
 
-	para "Now you can have"
-	line "fun watching us"
-	cont "stir up trouble!"
+	para "¡Diviértete ahora"
+	line "con nuestras"
+	cont "fechorías!"
 	
-	para "We don't need this"
-	line "place! There are"
-	para "plenty of other"
-	line "avenues for us to"
-	cont "make some money."
-	para "Our ambitions are"
-	line "bigger than cash,"
-	cont "though!"
-	para "You haven't seen"
-	line "the last of us!"
+	para "¡Ya no nos hace"
+	line "falta seguir aquí!"
+	
+	para "Tenemos muchas"
+	line "otras formas de"
+	cont "conseguir dinero."
+	
+	para "¡Nuestras ambicio-"
+	line "nes van más allá"
+	para "del dinero, de"
+	line "todos modos!"
+	
+	para "¡Aún no has visto"
+	line "lo peor!"
 	done
-	
 
 GruntM3SeenText:
-	text "We'll show you"
-	line "how scary we are!"
+	text "¡Ya veréis qué"
+	line "horribles somos!"
 	done
 
 GruntM3BeatenText:
-	text "Too strong! We"
-	line "must watch you…"
+	text "¡Demasiado fuerte!"
+	line "Te vigilaremos…"
 	done
 
 GruntM3AfterBattleText:
-	text "You're too strong."
+	text "Eres muy fuerte."
 
-	para "Our plan for here"
-	line "isn't the most"
-	para "important part of"
-	line "our plan."
-	para "You're merely a"
-	line "distraction."
+	para "Lo que hagamos"
+	line "aquí no es la"
+	para "parte más"
+	line "importante de"
+	cont "nuestro plan."
+
+	para "Eres simplemente"
+	line "una distracción."
 	done
 	
 AquaPokefanMRocketsText:
-	text "I reckon these"
-	line "troublemakers do"
-	cont "not belong here."
+	text "Asumo que estos"
+	line "canallas no"
+	cont "trabajan aquí."
 	done
 	
 AquaPokefanMNoRocketsText:
-	text "Were those guys"
-	line "part of TEAM"
-	cont "ROCKET?"
-	para "I thought they'd"
-	line "been taken care"
-	cont "of last year."
+	text "¿Esos tipos eran"
+	line "del TEAM ROCKET?"
+	para "Creía que se"
+	line "habían disuelto el"
+	cont "año pasado."
 	done
 	
 AquaPokefanFRocketsText:
-	text "Oh dear, so much"
-	line "for a peaceful"
-	cont "day."
+	text "Demasiado para lo"
+	line "que iba a ser un"
+	cont "día tranquilo."
 	done
 	
 AquaPokefanFNoRocketsText:
-	text "I've never been"
-	line "a huge fan of"
-	cont "fish anyways."
+	text "Nunca me gustaron"
+	line "tanto los peces de"
+	cont "todas formas."
 	done
 
 TeknosAquarium2F_MapEvents:
@@ -289,6 +296,6 @@ TeknosAquarium2F_MapEvents:
 	db 5 ; object events
 	object_event 14,  7, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GRAY, OBJECTTYPE_TRAINER, 0, TrainerGruntM1, EVENT_ROCKETS_TAKE_OVER_AQUARIUM
 	object_event  5,  3, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GRAY, OBJECTTYPE_TRAINER, 4, TrainerGruntM3, EVENT_ROCKETS_TAKE_OVER_AQUARIUM
-	object_event  7,  6, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, AquaPokefanMScript, -1
+	object_event  7,  6, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, AquaPokefanMScript, -1
 	object_event 10,  4, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_RIGHT, 1, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, AquaPokefanFScript, -1
 	object_event 17, -4, SPRITE_WHITNEY, SPRITEMOVEDATA_STANDING_RIGHT, 1, 0, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_WHITNEY_AQUARIUM_2F

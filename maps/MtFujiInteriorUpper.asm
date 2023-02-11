@@ -162,222 +162,239 @@ TrainerCooltrainerfCybil:
 	end
 
 BirdkeeperRoySeenText:
-	text "My birds don't"
-	line "have much room to"
-	cont "fly in this cave."
+	text "Mis pájaros no"
+	line "tienen mucho"
+	para "espacio para volar"
+	line "en esta cueva."
 	done
 
 BirdkeeperRoyBeatenText:
-	text "Grounded!"
+	text "¡Me quedo en"
+	line "tierra!"
 	done
 
 BirdkeeperRoyAfterBattleText:
-	text "My birds always"
-	line "do their best."
+	text "Mis pájaros"
+	line "siempre dan lo"
+	cont "mejor de sí."
 	done
 
 CooltrainerfJennSeenText:
-	text "Let me see if you"
-	line "have what it takes"
-	para "to challenge the"
-	line "LEAGUE."
+	text "Déjame comprobar"
+	line "si tienes lo que"
+	para "hace falta para"
+	line "desafiar a la"
+	cont "LIGA."
 	done
 
 CooltrainerfJennBeatenText:
-	text "I'd say you do…"
+	text "Diría que lo"
+	line "tienes…"
 	done
 
 CooltrainerfJennAfterBattleText:
-	text "To defeat the"
-	line "LEAGUE, you'll"
-	para "have to face the"
-	line "ELITE FOUR all in"
-	cont "a row."
-	para "And the CHAMPION"
-	line "after that."
-	para "It takes a lot."
-	para "You better be"
-	line "ready!"
+	text "Para ganar la"
+	line "LIGA, tendrás que"
+	para "enfrentarte al"
+	line "ALTO MANDO, uno"
+	cont "tras otro."
+
+	para "Y después, al"
+	line "CAMPEÓN."
+
+	para "Requiere mucho"
+	line "esfuerzo."
+
+	para "¡Mejor que estés"
+	line "preparado!"
 	done
-	
 
 SwimmermKirkSeenText:
-	text "The water is calm"
-	line "in here."
-	para "It's kind of un-"
-	line "settling."
+	text "El agua aquí es"
+	line "muy tranquila."
+
+	para "Es un tanto"
+	line "inquietante."
 	done
 
 SwimmermKirkBeatenText:
-	text "I'm sunk!"
+	text "¡Hundido!"
 	done
 
 SwimmermKirkAfterBattleText:
-	text "It must be nice"
-	line "riding on a"
+	text "Debe ser agradable"
+	line "montar sobre un"
 	cont "#MON."
 	done
 
 SoldierAntonioSeenText:
-	text "It takes a real"
-	line "trooper to make it"
-	cont "through this cave!"
+	text "¡Un auténtico"
+	line "soldado es capaz"
+	cont "de atravesar esta"
+	cont "cueva!"
 	done
-	
+
 SoldierAntonioBeatenText:
-	text "Keep pushing"
-	line "forward!"
+	text "¡Sigue así!"
 	done
-	
+
 SoldierAntonioAfterBattleText:
-	text "It's time for you"
-	line "to march on!"
+	text "¡Es hora de que"
+	line "avances!"
 	done
-	
+
 CooltrainermAndySeenText:
-	text "Which path is the"
-	line "right path?"
+	text "¿Qué camino es el"
+	line "correcto?"
 	done
 
 CooltrainermAndyBeatenText:
-	text "Guess it wasn't"
-	line "this one."
+	text "Supongo que este"
+	line "no."
 	done
 
 CooltrainermAndyAfterBattleText:
-	text "That was a serious"
-	line "question."
-	para "I don't want to"
-	line "get lost in here."
-	done	
+	text "Lo preguntaba en"
+	line "serio."
+
+	para "No quiero perderme"
+	line "aquí."
+	done
 
 PsychicRichardSeenText:
-	text "I know your deep-"
-	line "est desires!"
+	text "¡Conozco tus"
+	line "deseos más"
+	cont "ocultos!"
 	done
 
 PsychicRichardBeatenText:
-	text "Good battle!"
+	text "¡Buena batalla!"
 	done
 
 PsychicRichardAfterBattleText:
-	text "You desire to make"
-	line "your way out of"
-	cont "this cave!"
-	para "…I guess that"
-	line "one is pretty"
-	cont "obvious."
+	text "¡Tu deseo es salir"
+	line "de esta cueva!"
+
+	para "Supongo que eso"
+	line "era obvio…"
 	done
-	
+
 FirebreatherWaltSeenText:
-	text "I like my caves"
-	line "nice and warm."
-	para "This one is not."
+	text "Me gusta que las"
+	line "cuevas sean cáli-"
+	cont "das y agradables."
+
+	para "Esta no lo es."
 	done
-	
+
 FirebreatherWaltBeatenText:
-	text "Ow, hot!"
+	text "¡Ay, qué calor!"
 	done
 
 FirebreatherWaltAfterBattleText:
-	text "It's pretty chilly"
-	line "in here."
-	para "Have you ever been"
-	line "in MAGMA SHAFT?"
-	para "It's much more"
-	line "toasty there!"
+	text "Hace bastante frío"
+	line "aquí."
+
+	para "¿Has estado en el"
+	line "EJE MAGMA?"
+
+	para "¡Allí sí que se"
+	line "pasa calor!"
 	done
 
 HikerMichaelSeenText:
-	text "Yo! You're spunky!"
-	line "But you know what?"
+	text "¡Eres valiente!"
+	line "Pero…"
 
-	para "When it comes to"
-	line "sheer spunkiness,"
-	cont "I'm the man!"
+	para "¿Sabes qué?"
+	line "Para valiente,"
+	cont "¡yo!"
 	done
 
 HikerMichaelBeatenText:
-	text "My #MON weren't"
-	line "spunky enough!"
+	text "¡A mis #MON les"
+	line "faltaron agallas!"
 	done
 
 HikerMichaelAfterBattleText:
-	text "Boy, do I love"
-	line "HP UP! Mmmm, yum!"
+	text "¡Cómo me gusta"
+	line "MÁS PS! ¡Mmmm!"
 
-	para "I keep drinking my"
-	line "#MON's!"
+	para "¡Me bebo la de mis"
+	line "#MON!"
 
-	para "I can't help it!"
+	para "No puedo evitarlo."
 	done
 
-
 HikerKennySeenText:
-	text "I should catch"
-	line "myself an ONIX."
+	text "Debería capturar"
+	line "un ONIX."
 	done
 
 HikerKennyBeatenText:
-	text "I lost…"
+	text "He perdido…"
 	done
 
 HikerKennyAfterBattleText:
-	text "Geological fea-"
-	line "tures don't appear"
-	cont "to change."
+	text "Parece que las"
+	line "formas geológicas"
+	cont "no cambian."
 
-	para "But they actually"
-	line "change, little by"
-	cont "little."
+	para "Pero sí que"
+	line "cambian, aunque"
+	cont "poco a poco."
 	
-	para "MT.FUJI would have"
-	line "been shorter many"
-	cont "millennia ago."
+	para "El MT. FUJI"
+	line "tendría menos"
+	para "altitud hace"
+	line "varios milenios."
 	done
 	
 CooltrainermTylerSeenText:
-	text "This is the last"
-	line "section before the"
-	cont "summit!"
-	para "Can you make it?"
+	text "¡Este es el último"
+	line "tramo antes de la"
+	cont "cima!"
+
+	para "¿Podrás lograrlo?"
 	done
 
 CooltrainermTylerBeatenText:
-	text "I think you've got"
-	line "this."
+	text "Creo que podrás"
+	line "hacerlo."
 	done
 
 CooltrainermTylerAfterBattleText:
-	text "You're close to"
-	line "facing the LEAGUE."
-	para "How does that make"
-	line "you feel?"
+	text "Ya casi has"
+	line "llegado a la LIGA."
+
+	para "¿Cómo te hace"
+	line "sentir eso?"
 	done
-	
 
 CooltrainerfCybilSeenText:
-	text "You look strong."
+	text "Pareces fuerte."
 
-	para "Good trainers seek"
-	line "tough opponents"
-	cont "instinctively."
+	para "Los buenos"
+	line "entrenadores"
+	para "siempre buscan"
+	line "buenos rivales."
 	done
 
 CooltrainerfCybilBeatenText:
-	text "Nope! This won't"
-	line "do at all."
+	text "¡No! Esto no"
+	line "servirá para nada."
 	done
 
 CooltrainerfCybilAfterBattleText:
-	text "We all get better"
-	line "by experiencing"
-	cont "many battles."
+	text "Todos mejoramos"
+	line "luchando muchas"
+	cont "veces."
 
-	para "I battled a lot to"
-	line "become what I am"
-	cont "today--an elite."
-	done	
+	para "He luchado mucho"
+	line "para llegar a ser"
+	para "lo que soy hoy:"
+	line "una campeona."
+	done
 
 MtFujiInteriorUpper_MapEvents:
 	db 0, 0 ; filler
@@ -397,12 +414,12 @@ MtFujiInteriorUpper_MapEvents:
 	db 14 ; object events
 	object_event 26, 45, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 3, TrainerCooltrainerfJenn, -1
 	object_event 15, 45, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 2, TrainerBirdkeeperRoy, -1
-	object_event  7, 47, SPRITE_SWIMMER_GUY, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_TRAINER, 3, TrainerSwimmermKirk, -1
+	object_event  7, 47, SPRITE_SWIMMER_GUY, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_TRAINER, 3, TrainerSwimmermKirk, -1
 	object_event 13, 31, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 3, TrainerSoldierAntonio, -1
 	object_event 18, 29, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 1, TrainerCooltrainermAndy, -1
 	object_event 21, 24, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 1, TrainerPsychicRichard, -1
 	object_event 14, 17, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 1, TrainerFirebreatherWalt, -1
-	object_event 26, 12, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_TRAINER, 2, TrainerHikerMichael, -1
+	object_event 26, 12, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_TRAINER, 2, TrainerHikerMichael, -1
 	object_event 15,  8, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 1, TrainerHikerKenny, -1
 	object_event 36, 14, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 1, TrainerCooltrainermTyler, -1
 	object_event  8, 15, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_TRAINER, 1, TrainerCooltrainerfCybil, -1

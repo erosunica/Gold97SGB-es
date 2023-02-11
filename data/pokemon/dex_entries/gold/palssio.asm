@@ -1,10 +1,10 @@
-	db "SMOOTH SEAL@" ; species name
-	dw 207, 310 ; height, weight
-
-	db   "Its body is very"
-	next "moist and slick"
-	next "and is able to"
-
-	page "keep its skin wet"
-	next "even while out of"
-	next "water for a time.@"
+	db "FOCA MANSA@" ; species name
+	dbw 8, 141 ; height, weight
+	
+	db   "Su cuerpo es muy"
+	next "húmedo y lábil."
+	next "Fuera del agua,"
+	
+	page "puede mantener su"
+	next "piel sin secarse"
+	next "por un tiempo.@"

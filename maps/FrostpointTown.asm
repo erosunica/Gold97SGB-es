@@ -43,48 +43,51 @@ FrostpointTownTeacherScript:
 	jumptextfaceplayer FrostpointTownTeacherText
 	
 FrostpointTownTwinText:
-	text "I love the snow!"
-	para "I also love"
-	line "swimming, but it's"
-	para "too cold here to"
-	line "spend too long"
-	cont "in the water."
+	text "¡Me encanta la"
+	line "nieve!"
+
+	para "Y nadar también,"
+	line "pero aquí hace"
+	para "demasiado frío"
+	line "para eso."
 	done
-	
+
 FrostpointTownRockerText:
-	text "The air is so"
-	line "crisp and clean"
-	cont "here."
-	para "I could never live"
-	line "in a smoggy city."
+	text "El aire de aquí es"
+	line "muy fresco y"
+	cont "limpio."
+
+	para "Nunca podría vivir"
+	line "en una ciudad"
+	cont "contaminada."
 	done
-	
+
 FrostpointTownTeacherText:
-	text "Did you come"
-	line "through the"
-	cont "DEEPWATER PASSAGE?"
-	para "It's difficult to"
-	line "get here by water"
-	para "because of the"
-	line "whirlpools along"
-	cont "the way."
-	para "PRYCE's wife knows"
-	line "a secret technique"
-	para "that allows"
-	line "#MON to cross"
-	cont "whirlpools."
+	text "¿Has venido por el"
+	line "PASAJE ABISAL?"
+	para "Es difícil llegar"
+	line "así hasta aquí por"
+	para "los remolinos que"
+	line "hay en el agua."
+
+	para "La esposa de FREDO"
+	line "conoce una técnica"
+	para "secreta que le"
+	line "permite a los"
+	para "#MON"
+	line "atravesarlos."
 	done
 
 FrostpointTownDeepwaterSignText:
-	text "DEEPWATER PASSAGE"
-	line "North Entrance"
+	text "Entrada norte del"
+	line "PASAJE ABISAL"
 	done
 
 FrostpointTownSignText:
-	text "FROSTPOINT TOWN"
+	text "PUEBLO ESCARCHA"
 
-	para "The Frigid Land"
-	line "of Hardy People"
+	para "La gélida tierra"
+	line "de la gente fuerte"
 	done
 
 FrostpointTown_MapEvents:
@@ -108,5 +111,5 @@ FrostpointTown_MapEvents:
 
 	db 3 ; object events
 	object_event  8, 11, SPRITE_TWIN, SPRITEMOVEDATA_SPINRANDOM_SLOW, 1, 2, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, FrostpointTownTwinScript, -1
-	object_event 13,  7, SPRITE_ROCKER, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, FrostpointTownRockerScript, -1
+	object_event 13,  7, SPRITE_ROCKER, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, FrostpointTownRockerScript, -1
 	object_event  6,  9, SPRITE_TEACHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, FrostpointTownTeacherScript, -1

@@ -185,193 +185,211 @@ MovementData_0x76010:
 	step_end
 	
 SSCaptain_NoRoomText:
-	text "Why, you have no"
-	line "room for my gift!"
+	text "¡Vaya, no tienes"
+	line "sitio para mi"
+	cont "regalo!"
 	done
-	
+
 SSAquaCaptainThankYouText:
-	text "Ah, it's you!"
-	para "The kid who helped"
-	line "fix the ship!"
-	para "Thank you so very"
-	line "much!"
-	para "As a token of my"
-	line "gratitude, I'd"
-	para "like you to have"
-	line "this."
+	text "¡Ah, eres tú!"
+
+	para "¡El chico que"
+	line "ayudó a reparar el"
+	cont "barco!"
+
+	para "¡Muchísimas"
+	line "gracias!"
+
+	para "Me gustaría darte"
+	line "esto como muestra"
+	cont "de mi gratitud."
 	done
-	
-	
+
 SSAquaCaptainShipIsBrokenText:
-	text "Oh, dear."
-	para "We're in a serious"
-	line "predicament here."
-	para "The rough weather"
-	line "damaged the ship's"
-	cont "main FUEL LINE."
-	para "We have reserves"
-	line "that can get us"
-	cont "to AMAMI TOWN."
-	para "But we won't be"
-	line "able to make the"
-	para "return trip until"
-	line "this gets fixed!"
-	para "It might be asking"
-	line "too much, but"
-	para "could you help us"
-	line "out?"
-	para "There's a guy"
-	line "over in KUME CITY"
-	cont "who repairs ships."
-	para "He'll have the"
-	line "part we need."
-	para "When we dock,"
-	line "could you please"
-	para "help us out by"
-	line "going to get the"
-	cont "part?"
-	para "We won't be able"
-	line "to return to the"
-	para "mainland until it"
-	line "gets fixed!"
+	text "Oh, vaya."
+
+	para "Estamos en un"
+	line "serio aprieto."
+
+	para "Este mal tiempo"
+	line "ha dañado el"
+	para "principal TUBO"
+	line "COMBUSTIBLE del"
+	cont "barco."
+
+	para "Tenemos reservas"
+	line "para llegar hasta"
+	cont "PUEBLO AMAMI."
+
+	para "¡Pero no podremos"
+	line "hacer el viaje de"
+	para "vuelta hasta que"
+	line "esté reparado!"
+
+	para "¿Es mucho pedir"
+	line "que nos eches una"
+	cont "mano?"
+
+	para "Hay un tipo en"
+	line "CIUDAD KUME"
+	para "especializado en"
+	line "reparar barcos."
+
+	para "Él tendrá la pieza"
+	line "que necesitamos."
+
+	para "Cuando atraquemos,"
+	line "¿podrías pasarte"
+	para "por allí para"
+	line "conseguir el"
+	cont "reemplazo?"
+
+	para "¡No podremos"
+	line "volver a tierra"
+	cont "firme hasta que lo"
+	cont "reparemos!"
 	done
 
 SSAquaCaptainExhaustingText:
-	text "Won't you please"
-	line "help us out?"
+	text "¿Nos ayudarías,"
+	line "por favor?"
 	done
 
 SSAquaCaptainHowDoYouLikeText:
-	text "How do you like"
-	line "S.S.AQUA's ride?"
+	text "¿Te gusta viajar"
+	line "en el S.S. AQUA?"
 
-	para "She practically"
-	line "skates across the"
-	cont "waves."
+	para "Prácticamente"
+	line "vuela por encima"
+	cont "de las olas."
 	done
 
 PokefanmColinSeenText:
-	text "Hey, kid! Want to"
-	line "battle with me?"
+	text "¡Hola, peque!"
+	line "¿Quieres luchar?"
 	done
 
 PokefanmColinBeatenText:
-	text "You're strong!"
+	text "¡Eres fuerte!"
 	done
 
 PokefanmColinAfterBattleText:
-	text "You're traveling"
-	line "all alone?"
+	text "¿Viajas sin"
+	line "compañía?"
 
-	para "Isn't your mom"
-	line "worried?"
+	para "¿Tu madre no está"
+	line "preocupada?"
 	done
 
 TwinsMegandpeg1SeenText:
-	text "You think I'm a"
-	line "baby?"
-	cont "That's not fair!"
+	text "¿Crees que soy un"
+	line "bebé?"
+	cont "¡No es justo!"
 	done
 
 TwinsMegandpeg1BeatenText:
-	text "Oh! We lost!"
+	text "¡Oh! ¡Perdimos!"
 	done
 
 TwinsMegandpeg1AfterBattleText:
-	text "Baby is a rude"
-	line "name to call us"
-	cont "girls!"
+	text "¡No deberías"
+	line "llamarnos bebé a"
+	cont "las chicas!"
 	done
 
 TwinsMegandpeg2SeenText:
-	text "I'm not a baby!"
+	text "¡No soy un bebé!"
 
-	para "That's not nice to"
-	line "say to a lady!"
+	para "¡Y no deberías"
+	line "llamar así a"
+	para "una señorita!"
 	done
 
 TwinsMegandpeg2BeatenText:
-	text "Oh! We lost!"
+	text "¡Oh! ¡Perdimos!"
 	done
 
 TwinsMegandpeg2AfterBattleText:
-	text "Sometimes, kids"
-	line "are smarter than"
-	cont "grown-ups!"
+	text "A veces, los niños"
+	line "son más listos que"
+	cont "los adultos."
 	done
 
 PsychicRodneySeenText:
-	text "Ssh! My brain is"
-	line "picking up radio"
-	cont "signals!"
+	text "¡Ssh! ¡Mi cerebro"
+	line "está captando"
+	cont "señales de radio!"
 	done
 
 PsychicRodneyBeatenText:
-	text "…I hear some-"
-	line "thing!"
+	text "¡Escucho algo…!"
 	done
 
 PsychicRodneyAfterBattleText:
-	text "I get it. You can"
-	line "hear NIHON's"
-	cont "radio on here."
+	text "Entiendo. Puedes"
+	line "oír la radio de"
+	cont "NIHON aquí."
 	done
 
 PokefanmJeremySeenText:
-	text "What do you think?"
-	line "My #MON are"
-	cont "beautiful, yes?"
+	text "¿Qué opinas? Mis"
+	line "#MON son"
+	cont "bonitos, ¿verdad?"
 	done
 
 PokefanmJeremyBeatenText:
-	text "Oh, no! My beauti-"
-	line "ful #MON!"
+	text "¡Oh, no! ¡Mis"
+	line "preciosos #MON!"
 	done
 
 PokefanmJeremyAfterBattleText:
-	text "I must go to the"
-	line "#MON SALON and"
-	cont "fix them up nice!"
+	text "¡Debo ir a la"
+	line "PELUQUERÍA #MON"
+	cont "para ponerlos"
+	cont "guapos!"
 	done
 
 PokefanfGeorgiaSeenText:
-	text "I'm going to shop"
-	line "at the DEPT.STORE"
-	cont "and then…"
+	text "Me voy de compras"
+	line "al C. COMERCIAL"
+	cont "y luego…"
 	done
 
 PokefanfGeorgiaBeatenText:
-	text "What was I going"
-	line "to do?"
+	text "¿Qué es lo que"
+	line "iba a hacer?"
 	done
 
 PokefanfGeorgiaAfterBattleText:
-	text "Oh, yes! I have to"
-	line "get my #MON out"
-	cont "of DAY-CARE!"
+	text "¡Ah, sí! Tengo que"
+	line "ir a buscar a mis"
+
+	para "#MON a la"
+	line "GUARDERÍA."
 	done
 
 SupernerdShawnSeenText:
-	text "What kinds of #"
-	line "BALLS do you have"
-	cont "with you?"
+	text "¿Qué tipos de"
+	line "# BALL llevas"
+	cont "contigo?"
 	done
 
 SupernerdShawnBeatenText:
-	text "Wait! Stop! Don't!"
-	line "Please!"
+	text "¡Espera! ¡Detente!"
+	line "¡No, por favor!"
 	done
 
 SupernerdShawnAfterBattleText:
-	text "You should use the"
-	line "right BALLS to fit"
-	cont "the situation."
+	text "Deberías usar las"
+	line "BALL adecuadas"
+	para "para cada"
+	line "situación."
 	done
 
 SSAquaHasArrivedAmamiText:
-	text "FAST SHIP S.S.AQUA"
-	line "has arrived in"
-	cont "AMAMI TOWN."
+	text "El FERRY S.S. AQUA"
+	line "ha llegado a"
+	cont "PUEBLO AMAMI."
 	done
 
 FastShipCabins_SE_SSE_CaptainsCabin_MapEvents:

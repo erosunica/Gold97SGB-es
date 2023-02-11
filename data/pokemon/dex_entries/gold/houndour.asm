@@ -1,10 +1,10 @@
-	db "DARK@" ; species name
-	dw 200, 240 ; height, weight
+	db "SINIESTRO@" ; species name
+	dbw 6, 108 ; height, weight
 
-	db   "Around dawn, its"
-	next "ominous howl"
-	next "echoes through the"
+	db   "Al amanecer,"
+	next "resuena por la"
+	next "zona su inquietan-"
 
-	page "area to announce"
-	next "that this is its"
-	next "territory.@"
+	page "te aullido para"
+	next "anunciar que es su"
+	next "territorio.@"

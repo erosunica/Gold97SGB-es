@@ -1,10 +1,10 @@
-	db "TADPOLE@" ; species name
-	dw 200, 270 ; height, weight
+	db "RENACUAJO@" ; species name
+	dbw 6, 124 ; height, weight
 
-	db   "The swirl on its"
-	next "belly is its"
-	next "insides showing"
+	db   "La espiral que"
+	next "tiene en la panza"
+	next "es el dibujo de"
 
-	page "through the skin."
-	next "It looks clearer"
-	next "after it eats.@"
+	page "sus tripas. Es más"
+	next "nítido cuando"
+	next "acaba de comer.@"

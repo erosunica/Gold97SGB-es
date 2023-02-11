@@ -36,36 +36,38 @@ KantoCafeFisher1:
 	jumptextfaceplayer KantoCafeFisher1Text
 	
 KantoCafeFisher1Text:
-	text "I run the GAME"
-	line "CORNER."
-	para "Test your luck and"
-	line "you could be a big"
-	cont "winner!"
+	text "Dirijo el CASINO."
+
+	para "¡Prueba tu suerte"
+	line "y podrás ser un"
+	cont "gran ganador!"
 	done
-	
+
 KantoCafeChefText1:
-	text "I couldn't finish"
-	line "my lunch."
-	para "Your #MON might"
-	line "want it."
+	text "No he podido"
+	line "terminar mi"
+	cont "comida."
+
+	para "A lo mejor tus"
+	line "#MON la"
+	cont "quieren."
 	done
 
 AlreadyGotLeftovers:
-	text "I don't have"
-	line "anything else to"
-	cont "give you."
+	text "No tengo nada más"
+	line "que darte."
 	done
 
 FoundLeftoversText:
-	text "<PLAYER> found"
+	text "<PLAYER> encontró"
 	line "@"
 	text_ram wStringBuffer3
-	text "!"
+	text "."
 	done
 
 NoRoomForLeftoversText:
-	text "But <PLAYER> can't"
-	line "hold another item…"
+	text "Pero <PLAYER> no"
+	line "tiene espacio…"
 	done
 
 KantoCafe_MapEvents:

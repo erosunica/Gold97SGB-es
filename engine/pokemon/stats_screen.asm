@@ -494,20 +494,20 @@ LoadPinkPage:
 	ret
 
 .Status_Type:
-	db   "STATUS/"
-	next "TYPE/@"
+	db   "ESTADO/"
+	next "TIPO/@"
 
 .OK_str:
 	db "OK @"
 
 .ExpPointStr:
-	db "EXP POINTS@"
+	db "PUNTOS EXP@"
 
 .LevelUpStr:
-	db "LEVEL UP@"
+	db "MÁS NIVEL@"
 
 .ToStr:
-	db "TO@"
+	db "A@"
 
 .PkrsStr:
 	db "#RUS@"
@@ -527,7 +527,7 @@ Function50f4d: ; unreferenced
 StatsScreen_PlaceHorizontalDivider:
 	hlcoord 0, 7
 	ld b, SCREEN_WIDTH
-	ld a, $62 ; horizontal divider (empty HP/exp bar)
+	ld a, $33 ; horizontal divider (empty HP/exp bar)
 .loop
 	ld [hli], a
 	dec b
@@ -536,9 +536,9 @@ StatsScreen_PlaceHorizontalDivider:
 
 StatsScreen_PlacePageSwitchArrows:
 	hlcoord 12, 6
-	ld [hl], "◀"
+	ld [hl], $32
 	hlcoord 19, 6
-	ld [hl], "▶"
+	ld [hl], $35
 	ret
 
 StatsScreen_PlaceShinyIcon:
@@ -575,7 +575,7 @@ LoadGreenPage:
 	ld [wNamedObjectIndexBuffer], a
 	call GetItemName
 .got_item_name
-	hlcoord 6, 8
+	hlcoord 8, 8
 	call PlaceString
 ; move info
 	ld hl, wTempMonMoves
@@ -607,13 +607,13 @@ LoadGreenPage:
 	ret
 
 .Item:
-	db "ITEM@"
+	db "OBJETO@"
 
 .ThreeDashes:
 	db "---@"
 
 .Move:
-	db "MOVE@"
+	db "MOVIM.@"
 
 LoadBluePage:
 	push bc
@@ -628,7 +628,7 @@ LoadBluePage:
 	lb bc, 10, 20
 	call ClearBox
 	call .PlaceOTInfo
-	hlcoord 10, 8
+	hlcoord 9, 8
 	ld de, SCREEN_WIDTH
 	ld b, 10
 	ld a, $31 ; vertical divider
@@ -637,7 +637,7 @@ LoadBluePage:
 	add hl, de
 	dec b
 	jr nz, .vertical_divider
-	hlcoord 11, 8
+	hlcoord 10, 8
 	ld bc, 6
 	call PrintTempMonStats
 
@@ -713,10 +713,10 @@ LoadBluePage:
 	dw wBufferMonOT
 
 IDNoString:
-	db "<ID>№.@"
+	db "№<ID>/@"
 
 OTString:
-	db "OT/@"
+	db "EO/@"
 
 StatsScreen_PlaceFrontpic:
 	push bc
@@ -793,31 +793,33 @@ EggStatsScreen:
 	ret
 
 EggString:
-	db "EGG@"
+	db "HUEVO@"
 
 FiveQMarkString:
-	db "?????@"
+	db "¿¿??@"
 
 EggSoonString:
-	db   "It's making sounds"
-	next "inside. It's going"
-	next "to hatch soon!@"
+	db   "Se oyen ruidos"
+	next "dentro. ¡Pronto"
+	next "se abrirá!@"
 
 EggCloseString:
-	db   "It moves around"
-	next "inside sometimes."
-	next "It must be close"
-	next "to hatching.@"
+	db   "A veces se"
+	next "mueve. Debe de"
+	next "estar a punto"
+	next "de abrirse.@"
 
 EggMoreTimeString:
-	db   "Wonder what's"
-	next "inside? It needs"
-	next "more time, though.@"
+	db   "¿Qué habrá"
+	next "dentro? Tendrás"
+	next "que esperar un"
+	next "poco más.@"
 
 EggALotMoreTimeString:
-	db   "This EGG needs a"
-	next "lot more time to"
-	next "hatch.@"
+	db   "Este HUEVO"
+	next "necesita mucho"
+	next "más tiempo"
+	next "para abrirse.@"
 
 StatsScreen_LoadPageIndicators:
 	hlcoord 13, 5

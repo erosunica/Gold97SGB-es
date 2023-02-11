@@ -34,20 +34,26 @@ RockTunnelWhitneyScript:
 	end
 
 RockTunnelWhitneyText:
-	text "WHITNEY: Hi, I'm"
-	line "WHITNEY, leader of"
-	cont "the TEKNOS GYM."
-	para "I heard rumor that"
-	line "there could be a"
-	para "missing girl lost"
-	line "somewhere in here."
-	para "I'm doing my best"
-	line "to help locate"
-	cont "her."
-	para "Making sure she's"
-	line "safe is more"
-	para "important than GYM"
-	line "battles right now."
+	text "BLANCA: Hola, soy"
+	line "BLANCA, la LÍDER"
+	cont "del GIMNASIO"
+	cont "TEKNOS."
+	
+	para "Escuché el rumor"
+	line "de que podría"
+	para "haber una niña"
+	line "perdida por aquí."
+	
+	para "Estoy haciendo lo"
+	line "que puedo para"
+	cont "encontrarla."
+	
+	para "Asegurarme de que"
+	line "está sana y salva"
+	para "es más importante"
+	line "que los combates"
+	cont "de GIMNASIO ahora"
+	cont "mismo."
 	done
 
 BoulderMineB2F_MapEvents:

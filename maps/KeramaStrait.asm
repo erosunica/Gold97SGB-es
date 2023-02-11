@@ -57,88 +57,90 @@ KeramaStraitSign:
 
 
 SwimmermTuckerSeenText:
-	text "Pant, pant…"
-	line "Just… a little…"
-
-	para "farther… to…"
-	line "KUME…"
+	text "(Resoplido…)"
+	line "Un… poco más…"
+	para "y… llegaré…"
+	line "hasta KUME…"
 	done
 
 SwimmermTuckerBeatenText:
-	text "I'm drowning!"
+	text "¡Me ahogo!"
 	done
 
 SwimmermTuckerAfterBattleText:
-	text "I… asked my girl-"
-	line "friend to swim to"
-	cont "KUME… Gasp…"
+	text "Le… pedí a mi"
+	line "novia que nadara"
+	cont "hacia KUME…"
 	done
 
 SwimmerfDawnSeenText:
-	text "I'm disgusted by"
-	line "wimpy people!"
+	text "¡No me gustan los"
+	line "blandengues!"
 	done
 
 SwimmerfDawnBeatenText:
-	text "I could beat you"
-	line "at swimming…"
+	text "Podría ganarte"
+	line "nadando…"
 	done
 
 SwimmerfDawnAfterBattleText:
-	text "It's a quick swim"
-	line "to KUME CITY…"
+	text "No hay que nadar"
+	line "mucho hasta CIUDAD"
+	cont "KUME…"
 
-	para "Sheesh, some big"
-	line "man my boyfriend"
-
-	para "is! What a wimp!"
+	para "¡Con lo grande que"
+	line "es mi novio,"
+	cont "menudo blandengue!"
 	done
 
 SwimmermJeromeSeenText:
-	text "Swimming?"
-	line "It's my favorite"
-	cont "thing."
+	text "¿Natación?"
+	line "Es lo que más me"
+	cont "gusta."
 	done
 
 SwimmermJeromeBeatenText:
-	text "I thought I could"
-	line "win."
+	text "Creía que podía"
+	line "ganar."
 	done
 
 SwimmermJeromeAfterBattleText:
-	text "I'm great at"
-	line "swimming, and I"
-	cont "love the sea!"
+	text "Se me da muy bien"
+	line "nadar y me encanta"
+	cont "el mar."
 	done
 
 KeramaStraitFisher1Text:
-	text "The FISHERS who"
-	line "say the east side"
-	para "of the STRAIT is"
-	line "the best fishing"
-	cont "spot are wrong."
-	para "The FISHERS who"
-	line "say the west side"
-	para "of the STRAIT is"
-	line "the best fishing"
-	cont "spot are wrong."
-	para "It's here in the"
-	line "middle that's the"
-	cont "best spot!"
+	text "Los PESCADORES que"
+	line "dicen que el lado"
+	para "este del ESTRECHO"
+	line "es el mejor punto"
+	cont "de pesca se"
+	cont "equivocan."
+
+	para "Los PESCADORES que"
+	line "dicen que el lado"
+	para "oeste del ESTRECHO"
+	line "es el mejor punto"
+	cont "de pesca se"
+	cont "equivocan."
+
+	para "¡El mejor está"
+	line "justo aquí en el"
+	cont "centro!"
 	done
 
 KeramaStraitFisher2Text:
-	text "This here is"
-	line "definitely the"
-	cont "best spot."
+	text "No hay duda de que"
+	line "este es el mejor"
+	cont "punto de pesca."
 	done
 
-
 KeramaStraitSignText:
-	text "KERAMA STRAIT"
+	text "ESTRECHO KERAMA"
 
-	para "RYUKYU CITY -"
-	line "KUME CITY"
+	para "CIUDAD RYUKYU -"
+	line "CIUDAD KUME"
 	done
 
 

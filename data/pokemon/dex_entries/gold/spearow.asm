@@ -1,10 +1,10 @@
-	db "TINY BIRD@" ; species name
-	dw 100, 40 ; height, weight
+	db "PAJARITO@" ; species name
+	dbw 3, 20 ; height, weight
 
-	db   "To protect its"
-	next "territory, it"
-	next "flies around"
+	db   "Para proteger"
+	next "su territorio,"
+	next "revolotea sin"
 
-	page "ceaselessly,"
-	next "making high-"
-	next "pitched cries.@"
+	page "cesar, piando con"
+	next "chillidos bastante"
+	next "fuertes.@"

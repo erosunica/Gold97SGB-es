@@ -35,43 +35,40 @@ RyukyuPokecenter1FYoungsterScript:
 	jumptextfaceplayer RyukyuPokecenter1FYoungsterText
 
 RyukyuPokecenter1FTeacherText:
-	text "What are the"
-	line "mainland's #MON"
-	cont "CENTERS like?"
+	text "¿Cómo son los"
+	line "CENTROS #MON"
+	cont "del continente?"
 
-	para "…Oh, I see. So"
-	line "they're not much"
+	para "Ya veo…"
 
-	para "different from the"
-	line "ones here."
+	para "Así que no son"
+	line "muy distintos a"
+	cont "los de aquí."
 
-	para "I can take a trip"
-	line "without worrying,"
-	cont "then!"
+	para "¡Entonces puedo"
+	line "viajar sin"
+	cont "preocupaciones!"
 	done
 
-
-
 RyukyuPokecenter1FFisherText:
-	text "I just happened to"
-	line "come from AMAMI"
-	cont "TOWN."
-	para "I heard something"
-	line "was up with the"
-	cont "S.S.AQUA?"
+	text "Yo vengo de"
+	line "PUEBLO AMAMI."
+
+	para "¿Pasa algo con el"
+	line "S.S.AQUA?"
 	done
 
 RyukyuPokecenter1FFisherReturnedMachinePartText:
-	text "Looks like trips"
-	line "from AMAMI TOWN"
-	para "have resumed their"
-	line "normal schedules."
+	text "Parece que los"
+	line "viajes hacia"
+	para "PUEBLO AMAMI se"
+	line "han reanudado."
 	done
 
 RyukyuPokecenter1FYoungsterText:
-	text "This city is a"
-	line "popular tourist"
-	cont "atttraction."
+	text "Esta ciudad es una"
+	line "atracción turís-"
+	cont "tica muy popular."
 	done
 
 RyukyuPokecenter1F_MapEvents:

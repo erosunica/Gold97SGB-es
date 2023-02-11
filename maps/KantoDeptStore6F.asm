@@ -86,10 +86,10 @@ KantoDeptStore6FVendingMachine:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "FRESH WATER  ¥200@"
-	db "SODA POP     ¥300@"
-	db "LEMONADE     ¥350@"
-	db "CANCEL@"
+	db "AGUA FRESCA  200¥@"
+	db "REFRESCO     300¥@"
+	db "LIMONADA     350¥@"
+	db "SALIR@"
 
 KantoDeptStore6FDirectory:
 	jumptext KantoDeptStore6FDirectoryText
@@ -99,48 +99,48 @@ KantoDeptStore6FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 KantoVendingText:
-	text "A vending machine!"
-	line "Here's the menu."
+	text "¡Una máquina"
+	line "expendedora!"
 	done
 
 KantoClangText:
-	text "Clang!"
+	text "¡Clang!"
 
-	para "@"
+	para "Salió"
+	line "@"
 	text_ram wStringBuffer3
-	text_start
-	line "popped out."
+	text "."
 	done
 
 KantoVendingNoMoneyText:
-	text "Oops, not enough"
-	line "money…"
+	text "¡Uups, no tienes"
+	line "bastantes fichas!"
 	done
 
 KantoVendingNoSpaceText:
-	text "There's no more"
-	line "room for stuff…"
+	text "No hay sitio"
+	line "para nada más…"
 	done
 
 KantoDeptStore6FSuperNerdText:
-	text "A vending machine"
-	line "with a prize rou-"
-	cont "lette…"
+	text "Una máquina expen-"
+	line "dedora con una"
+	cont "ruleta de premios…"
 
-	para "You never see"
-	line "those anymore."
+	para "Nunca verás"
+	line "nada igual."
 	done
 
 KantoDeptStore6FYoungsterText:
-	text "Aww! There's no"
-	line "games here!"
+	text "¡Auu! ¡Aquí no"
+	line "hay juegos!"
 
-	para "I wanted to play…"
+	para "Quería jugar…"
 	done
 
 KantoDeptStore6FDirectoryText:
-	text "6F: ROOFTOP SQUARE"
-	line "VENDING MACHINES"
+	text "P5: AZOTEA"
+	line "EXPENDEDORAS"
 	done
 
 KantoDeptStore6F_MapEvents:

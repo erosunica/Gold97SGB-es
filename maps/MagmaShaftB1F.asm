@@ -79,8 +79,8 @@ MagmaShaftB1FHiddenMaxPotion:
 	hiddenitem MAX_POTION, EVENT_MAGMA_SHAFT_B1F_HIDDEN_MAX_POTION
 
 IcePathBoulderFellThroughText:
-	text "The boulder fell"
-	line "through."
+	text "La piedra cayó por"
+	line "el agujero."
 	done
 
 MagmaShaftB1F_MapEvents:

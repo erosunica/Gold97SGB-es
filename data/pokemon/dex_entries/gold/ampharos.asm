@@ -1,10 +1,10 @@
-	db "LIGHT@" ; species name
-	dw 407, 1360 ; height, weight
+	db "LUZ@" ; species name
+	dbw 14, 615 ; height, weight
 
-	db   "When it gets dark,"
-	next "the light from its"
-	next "bright, shiny tail"
+	db   "Al anochecer, la"
+	next "luz intensa que se"
+	next "desprende del ex-"
 
-	page "can be seen from"
-	next "far away on the"
-	next "ocean's surface.@"
+	page "tremo de la cola,"
+	next "puede apreciarse"
+	next "desde muy lejos.@"

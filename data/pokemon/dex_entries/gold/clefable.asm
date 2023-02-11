@@ -1,10 +1,10 @@
-	db "FAIRY@" ; species name
-	dw 403, 880 ; height, weight
+	db "HADA@" ; species name
+	dbw 13, 400 ; height, weight
 
-	db   "Said to live in"
-	next "quiet, remote"
-	next "mountains, this"
+	db   "Se dice que este"
+	next "#MON hada vive"
+	next "en la montaña en"
 
-	page "type of fairy has"
-	next "a strong aversion"
-	next "to being seen.@"
+	page "zonas tranquilas"
+	next "y lejanas. Odia"
+	next "que le vean.@"

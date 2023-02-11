@@ -1,10 +1,10 @@
-	db "WATER FISH@" ; species name
-	dw 407, 1650 ; height, weight
+	db "PEZ AGUA@" ; species name
+	dbw 14, 750 ; height, weight
 
-	db   "Its body is always"
-	next "slimy. It often"
-	next "bangs its head on"
+	db   "Es resbaladizo."
+	next "Suele chocarse"
+	next "contra el suelo al"
 
-	page "the river bottom"
-	next "as it swims but"
-	next "seems not to care.@"
+	page "tirarse al río de"
+	next "cabeza, pero no le"
+	next "importa demasiado.@"

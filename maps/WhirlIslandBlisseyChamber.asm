@@ -23,7 +23,7 @@ Blissey:
 	end
 
 BlisseyText:
-	text "Gyaaas!"
+	text "¡Gyaaas!"
 	done
 
 WhirlIslandBlisseyChamber_MapEvents:

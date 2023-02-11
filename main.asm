@@ -41,6 +41,7 @@ INCLUDE "engine/events/overworld.asm"
 INCLUDE "engine/items/items.asm"
 INCLUDE "engine/overworld/player_step.asm"
 INCLUDE "engine/battle/anim_hp_bar.asm"
+INCLUDE "engine/battle/anim_hp_bar_party.asm" ; erosunica: new
 INCLUDE "engine/pokemon/move_mon.asm"
 INCLUDE "engine/pokemon/bills_pc_top.asm"
 INCLUDE "engine/pokemon/breedmon_level_growth.asm"
@@ -175,10 +176,10 @@ INCLUDE "engine/battle/core.asm"
 INCLUDE "data/battle/effect_command_pointers.asm"
 
 
-SECTION "bank10", ROMX
+SECTION "bank10", ROMX 
 
 INCLUDE "engine/pokedex/pokedex.asm"
-INCLUDE "data/moves/moves.asm"
+; INCLUDE "data/moves/moves.asm" ; erosunica: moved to "Move Descriptions"
 INCLUDE "engine/pokemon/evolve.asm"
 
 
@@ -255,18 +256,8 @@ INCLUDE "engine/games/slot_machine.asm"
 
 SECTION "bank26", ROMX
 
-IF DEF(_GOLD)
-TitleScreenGFX1:
-INCBIN "gfx/title/logo_bottom_gold.2bpp.lz"
 TitleScreenGFX2:
 INCBIN "gfx/title/logo_top_gold.2bpp.lz"
-
-ELIF DEF(_SILVER)
-TitleScreenGFX1:
-INCBIN "gfx/title/logo_bottom_silver.2bpp.lz"
-TitleScreenGFX2:
-INCBIN "gfx/title/logo_top_silver.2bpp.lz"
-ENDC
 
 TitleScreenTilemap:
 INCBIN "gfx/title/logo.tilemap"
@@ -308,12 +299,6 @@ INCLUDE "engine/battle_anims/helpers.asm"
 INCLUDE "data/battle_anims/framesets.asm"
 INCLUDE "data/battle_anims/oam.asm"
 INCLUDE "data/battle_anims/object_gfx.asm"
-
-
-SECTION "Font Inversed", ROMX
-
-FontInversed:
-INCBIN "gfx/font/font_inversed.1bpp"
 
 
 SECTION "bank38", ROMX
@@ -405,6 +390,7 @@ INCLUDE "data/moves/names.asm"
 SECTION "Move Descriptions", ROMX
 
 INCLUDE "data/moves/descriptions.asm"
+INCLUDE "data/moves/moves.asm" ; erosunica: moved from "bank10"
 
 
 SECTION "Item Descriptions", ROMX
@@ -436,8 +422,4 @@ INCLUDE "data/credits_strings.asm"
 
 SECTION "Stadium Data", ROMX
 
-IF DEF(_GOLD)
 INCBIN "data/stadium/stadium_gold.bin"
-ELIF DEF(_SILVER)
-INCBIN "data/stadium/stadium_silver.bin"
-ENDC

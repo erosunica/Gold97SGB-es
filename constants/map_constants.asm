@@ -227,7 +227,7 @@ ENDM
 
 	newgroup                                                      ; 10
 
-	map_const ROUTE_102,                                    30,  9 ;  3
+	map_const ROUTE_102,                                    30,  12 ;  3
 	map_const PAGOTA_CITY,                                 20, 18 ;  5
 	map_const PAGOTA_MART,                                  8,  4 ;  6
 	map_const PAGOTA_GYM,                                   5,  8 ;  7

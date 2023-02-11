@@ -24,29 +24,30 @@ SunpointDocksGateOfficerScript:
 	end
 
 SunpointDocksGateOfficerRocketsText:
-	text "There's something"
-	line "strange going on"
-	cont "out at the DOCKS."
-	para "Mysterious figures"
-	line "have been bringing"
-	para "lots of covered"
-	line "shipments through"
-	cont "this gate."
-	para "They don't seem to"
-	line "be breaking any"
-	para "laws, so I guess"
-	line "it's none of my"
-	cont "business…"
-	para "But they make me"
-	line "uneasy…"
+	text "Está pasando algo"
+	line "raro en el MUELLE."
+
+	para "Unos tipos miste-"
+	line "riosos han estado"
+	para "trayendo bastante"
+	line "carga cubierta por"
+	cont "este acceso."
+
+	para "No parece nada en"
+	line "contra de la ley,"
+	para "así que no deberia"
+	line "meterme en esto…"
+	para "Pero me ponen de"
+	line "los nervios…"
 	done
 
 SunpointDocksGateOfficerGoodText:
-	text "SUNPOINT CITY"
-	line "DOCKS are always"
-	cont "bustling."
-	para "It's a great place"
-	line "to people-watch."
+	text "El MUELLE CALORINA"
+	line "siempre está hasta"
+	cont "arriba de gente."
+
+	para "Es muy buen lugar"
+	line "para verla pasar."
 	done
 
 SunpointDocksGate_MapEvents:

@@ -107,111 +107,109 @@ BlueForestMartSign:
 	jumpstd MartSignScript
 
 BlackBeltText_WeirdRadio:
-	text "PRYCE is the GYM"
-	line "LEADER here."
-	para "He puts on a cold"
-	line "as ice exterior,"
-	para "but he has a heart"
-	line "of gold."
+	text "FREDO es nuestro"
+	line "LÍDER de GIMNASIO."
+
+	para "Puede parecer frío"
+	line "por fuera, pero"
+	cont "tiene un corazón"
+	cont "de oro."
 	done
 
 BlueForestCooltrainerF1Text:
-	text "Are you going to"
-	line "make your #MON"
-	cont "forget some moves?"
-	para "The MOVE DELETER's"
-	line "house is just west"
-	cont "of here."
+	text "¿Vas a hacer que"
+	line "tus #MON"
+	para "olviden algunos"
+	line "movimientos?"
+	para "La casa del QUITA-"
+	line "MOVIMIENTOS está"
+	cont "al oeste de aquí."
 	done
 
 BlueForestYoungsterText:
-	text "There are lots of"
-	line "ice-type #MON"
-	para "in the DEEPWATER"
-	line "PASSAGE."
+	text "Hay muchos #MON"
+	line "de tipo hielo en"
+	cont "el PASAJE ABISAL."
 	done
 
 MeetSantosText:
-	text "SANTOS: …"
+	text "SABINO: …"
 
-	para "It's Saturday…"
+	para "Es sábado…"
 
-	para "I'm SANTOS of"
-	line "Saturday…"
+	para "Soy SABINO, por"
+	line "sábado…"
 	done
 
 SantosGivesGiftText:
-	text "You can have this…"
+	text "Toma esto…"
 	done
 
 SantosGaveGiftText:
-	text "SANTOS: …"
+	text "SABINO: …"
 
-	para "SPELL TAG…"
+	para "HECHIZO…"
 
-	para "Ghost-type moves"
-	line "get stronger…"
+	para "Mejora los"
+	line "movimientos de"
+	cont "tipo fantasma."
 
-	para "It will frighten"
-	line "you…"
+	para "Te voy a asustar…"
 	done
 
 SantosSaturdayText:
-	text "SANTOS: …"
+	text "SABINO: …"
 
-	para "See you again on"
-	line "another Saturday…"
+	para "Nos vemos otro"
+	line "sábado…"
 
-	para "I won't have any"
-	line "more gifts…"
+	para "Pero ya no tendré"
+	line "más regalos…"
 	done
 
 SantosNotSaturdayText:
-	text "SANTOS: Today's"
-	line "not Saturday…"
+	text "SABINO: Hoy no es"
+	line "sábado…"
 	done
 
 BlueForestCooltrainerF2Text:
-	text "Wow, you went"
-	line "through the"
-	cont "DEEPWATER PASSAGE?"
-	para "You must be a real"
-	line "hotshot trainer!"
+	text "¿En serio has"
+	line "cruzado el PASAJE"
+	cont "ABISAL?"
+	para "¡Sí que das la"
+	line "talla como"
+	cont "entrenador!"
 	done
-	
+
 BlueForestCooltrainerF2TextNotWow:
-	text "I've never gone up"
-	line "to FROSTPOINT"
-	cont "TOWN."
-	para "Traveling through"
-	line "the DEEPWATER"
-	para "PASSAGE is too"
-	line "intimidating."
+	text "Nunca he ido a"
+	line "PUEBLO ESCARCHA."
+
+	para "Atravesar el"
+	line "PASAJE ABISAL me"
+	cont "echa para atrás."
 	done
 
 BlueForestSignText:
-	text "BLUE FOREST"
+	text "BOSQUE AZUL"
 
-	para "A Quiet Snowy"
-	line "Retreat"
+	para "Un tranquilo"
+	line "retiro nevado"
 	done
 
 BlueForestGymSignText:
-	text "BLUE FOREST"
-	line "#MON GYM"
-	cont "LEADER: PRYCE"
+	text "LÍDER DEL GIMNASIO"
+	line "#MON DE BOSQUE"
+	cont "AZUL: FREDO"
 
-	para "The Icy Chill"
-	line "Elder"
+	para "El maestro del"
+	line "crudo invierno"
 	done
-
 
 DeepwaterPassageSignText:
-	text "DEEPWATER PASSAGE"
-	line "South Entrance"
+	text "Entrada sur del"
+	line "PASAJE ABISAL"
 	done
-
-
 
 BlueForest_MapEvents:
 	db 0, 0 ; filler
@@ -242,5 +240,5 @@ BlueForest_MapEvents:
 	object_event 26, 23, SPRITE_GRAMPS, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, BlueForestBlackBeltScript, -1
 	object_event 16, 23, SPRITE_TEACHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, BlueForestCooltrainerF1Script, -1
 	object_event 13, 14, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, BlueForestYoungsterScript, -1
-	object_event 16,  7, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, SantosScript, EVENT_BLUE_FOREST_SANTOS_OF_SATURDAY
+	object_event 16,  7, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, SantosScript, EVENT_BLUE_FOREST_SANTOS_OF_SATURDAY
 	object_event 25, 16, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, BlueForestCooltrainerF2Script, -1

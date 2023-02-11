@@ -1,10 +1,10 @@
-	db "WORM@" ; species name
-	dw 100, 60 ; height, weight
+	db "GUSANO@" ; species name
+	dbw 3, 29 ; height, weight
 
-	db   "It crawls into"
-	next "foliage where it"
-	next "camouflages itself"
+	db   "Se agazapa en el"
+	next "follaje donde se"
+	next "camufla entre las"
 
-	page "among leaves that"
-	next "are the same color"
-	next "as its body.@"
+	page "hojas que son del"
+	next "mismo color que"
+	next "su cuerpo.@"

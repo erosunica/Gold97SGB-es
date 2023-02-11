@@ -1,10 +1,10 @@
-	db "LONG NOSE@" ; species name
-	dw 108, 740 ; height, weight
+	db "NARIZOTAS@" ; species name
+	dbw 5, 335 ; height, weight
 
-	db   "During the desert-"
-	next "ed morning hours,"
-	next "it comes ashore"
+	db   "A primera hora de"
+	next "la mañana, se"
+	next "acerca al agua y"
 
-	page "where it deftly"
-	next "uses its trunk to"
-	next "take a shower.@"
+	page "se vale de la"
+	next "trompa para"
+	next "ducharse.@"

@@ -1,10 +1,10 @@
-	db "PUPPY@" ; species name
-	dw 204, 420 ; height, weight
+	db "PERRITO@" ; species name
+	dbw 7, 190 ; height, weight
 
-	db   "It controls a big"
-	next "territory. If it"
-	next "detects an unknown"
+	db   "Tiene marcado un"
+	next "vasto territorio."
+	next "Si detecta un olor"
 
-	page "smell, it roars"
-	next "loudly to force"
-	next "out the intruder.@"
+	page "extraño, RUGE con"
+	next "fuerza para ahu-"
+	next "yentar al enemigo.@"

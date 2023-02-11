@@ -103,157 +103,150 @@ Route109HiddenNugget:
 	
 
 BugCatcherEdSeenText:
-	text "You use any bug"
-	line "#MON?"
+	text "¿Usas algún"
+	line "#MON bicho?"
 	done
 
 BugCatcherEdBeatenText:
-	text "Bugs are all I"
-	line "use!"
+	text "¡Solo uso bichos!"
 	done
 
 BugCatcherEdAfterBattleText:
-	text "Every trainer"
-	line "should have some"
-	cont "bug #MON!"
+	text "¡Todo entrenador"
+	line "debería tener un"
+	cont "#MON bicho!"
 	done
 
-
 PokefanmDerekSeenText:
-	text "This is a good"
-	line "time to brag about"
-	cont "my PIKACHU!"
+	text "¡Es buen momento"
+	line "para alardear de"
+	cont "mi PIKACHU!"
 	done
 
 PokefanmDerekBeatenText:
-	text "I had no time to"
-	line "show off PIKACHU…"
+	text "No tuve tiempo de"
+	line "presumir de mi"
+	cont "PIKACHU…"
 	done
 
 PokefanMDerekText_NotBragging:
-	text "I'm not listening"
-	line "to your bragging!"
+	text "¡No te estoy"
+	line "escuchando!"
 
-	para "We # FANS have"
-	line "a policy of not"
-
-	para "listening to other"
-	line "people brag!"
+	para "¡Los #FANS"
+	line "tenemos por norma"
+	para "no escuchar a la"
+	line "gente presumida!"
 	done
 
 PokefanfRuthSeenText:
-	text "Such darling"
-	line "#MON."
+	text "¡Qué #MON más"
+	line "encantadores!"
 
-	para "Let's show our"
-	line "#MON together"
-	cont "at the same time."
+	para "Enseñemos nuestros"
+	line "#MON al mismo"
+	cont "tiempo."
 	done
 
 PokefanfRuthBeatenText:
-	text "I don't mind"
-	line "losing."
+	text "No me importa"
+	line "perder."
 	done
 
 PokefanfRuthAfterBattleText:
-	text "Do you know about"
-	line "baby #MON?"
+	text "¿Sabes algo sobre"
+	line "los #MON bebés?"
 
-	para "They're all so"
-	line "adorable!"
+	para "¡Son todos tan"
+	line "adorables!"
 	done
 
 PokefanMDerekPikachuIsItText:
-	text "PIKACHU is it!"
-	line "Don't you agree?"
+	text "¡PIKACHU es lo"
+	line "más! ¿No crees?"
 	done
 
 PsychicNormanSeenText:
-	text "Let me see what"
-	line "your #MON are"
-	cont "capable of."
+	text "Déjame ver de qué"
+	line "son capaces tus"
+	cont "#MON."
 	done
 
 PsychicNormanBeatenText:
-	text "Ooh, your #MON"
-	line "have potential."
+	text "¡Ooh! Tus #MON"
+	line "tienen potencial."
 	done
 
 PsychicNormanAfterBattleText:
-	text "You know how #-"
-	line "MON have different"
-	cont "abilities?"
+	text "¿Sabes que los"
+	line "#MON tienen"
+	para "distintas"
+	line "habilidades?"
 
-	para "People are like"
-	line "that too. Every-"
-	cont "one has different"
-	cont "potential."
+	para "Son como las"
+	line "personas. Cada uno"
+	para "tiene su propio"
+	line "potencial."
 	done
 
 PokefanfJaimeHopeItGetsDarkText:
-	text "Ufufufu… I hope it"
-	line "gets dark soon."
+	text "Jujujuju… Espero"
+	line "que oscurezca"
+	cont "pronto."
 	done
 
 PokefanfJaimeSeenText:
-	text "You came at just"
-	line "the right time."
+	text "Llegas justo a"
+	line "tiempo."
 
-	para "Let's battle."
+	para "Luchemos."
 	done
 
 PokefanfJaimeBeatenText:
-	text "Oh, how disap-"
-	line "pointing…"
+	text "Oh, qué"
+	line "decepcionante…"
 	done
 
 PokefanfJaimeAfterBattleText:
-	text "I met my PONYTA at"
-	line "night, right here"
-	cont "on ROUTE 109."
+	text "Encontré mi PONYTA"
+	line "aquí por la noche,"
+	cont "en la RUTA 109."
 
-	para "I'm not sure why,"
-	line "but it seems to"
+	para "No estoy segura,"
+	line "pero parece que"
+	para "le gusta que me"
+	line "entrene aquí."
 
-	para "like it when I"
-	line "train here."
-
-	para "It seems to become"
-	line "friendlier by"
-
-	para "training here than"
-	line "anywhere else."
+	para "Cuando estamos por"
+	line "esta zona, se"
+	cont "vuelve más cari-"
+	cont "ñoso."
 	done
 
 
 BeautyValerieSeenText:
-	text "Hi! Aren't you a"
-	line "cute trainer!"
+	text "¡Hola! ¡Tienes"
+	line "buen aspecto!"
 
-	para "May I see your"
-	line "#MON?"
+	para "¿Me dejas ver a"
+	line "tus #MON?"
 	done
 
 BeautyValerieBeatenText:
-	text "I'm glad I got to"
-	line "see your #MON!"
+	text "Encantada de haber"
+	line "visto a tus"
+	cont "#MON."
 	done
 
 BeautyValerieAfterBattleText:
-	text "When I see #-"
-	line "MON, it seems to"
-	cont "soothe my nerves."
+	text "Cuando veo #MON"
+	line "me tranquilizo."
 	done
-	
-	
-
 
 Route109PokecenterSignText:
-	text "Heal Your #MON!"
-	line "#MON CENTER"
+	text "CENTRO #MON"
+	line "Cura a tus #MON"
 	done
-
-
 
 Route109_MapEvents:
 	db 0, 0 ; filler
@@ -274,7 +267,7 @@ Route109_MapEvents:
 	object_event  4, 63, SPRITE_LASS, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 4, TrainerBeautyValerie, -1
 ;	object_event  9, 52, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_TRAINER, 4, TrainerPokefanmDerek, -1
 	object_event 14, 36, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_TRAINER, 1, TrainerPokefanfRuth, -1
-	object_event  5, 31, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_TRAINER, 3, TrainerPsychicNorman, -1
-	object_event 10, 23, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route109FruitTree, -1
+	object_event  5, 31, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_TRAINER, 3, TrainerPsychicNorman, -1
+	object_event 10, 23, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, Route109FruitTree, -1
 	object_event  4, 49, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, TrainerPokefanfJaime, -1
 	object_event  9, 84, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 4, TrainerBugCatcherEd, -1

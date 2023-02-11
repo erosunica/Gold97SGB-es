@@ -51,36 +51,36 @@ SanskritRuinsKabutoChamberDescriptionSign:
 	jumptext SanskritRuinsKabutoChamberDescriptionText
 
 SanskritRuinsKabutoChamberReceptionistText:
-	text "Welcome to this"
-	line "chamber."
+	text "Bienvenidos a esta"
+	line "cámara."
 
-	para "There are sliding"
-	line "panels that depict"
+	para "Hay paneles móvi-"
+	line "les que muestran"
+	para "a un #MON"
+	line "dibujado por los"
+	cont "antepasados."
 
-	para "a #MON drawn by"
-	line "the ancients."
+	para "Mueve los paneles"
+	line "para formar el"
+	cont "dibujo."
 
-	para "Slide the panels"
-	line "around to form the"
-	cont "picture."
-
-	para "To the right is a"
-	line "description of the"
-	cont "#MON."
+	para "A la derecha hay"
+	line "una descripción"
+	cont "del #MON."
 	done
 
 SanskritRuinsKabutoChamberAncientReplicaText:
-	text "It's a replica of"
-	line "an ancient #-"
-	cont "MON."
+	text "Es una réplica de"
+	line "un #MON"
+	cont "antiguo."
 	done
 
 SanskritRuinsKabutoChamberDescriptionText:
-	text "A #MON that hid"
-	line "on the sea floor."
+	text "Un #MON que se"
+	line "oculta en el mar."
 
-	para "Eyes on its back"
-	line "scanned the area."
+	para "Con sus ojos"
+	line "explora la zona."
 	done
 
 SanskritRuinsKabutoChamber_MapEvents:

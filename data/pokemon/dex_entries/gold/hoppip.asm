@@ -1,10 +1,10 @@
-	db "COTTONWEED@" ; species name
-	dw 104, 10 ; height, weight
+	db "ALGADÓN@" ; species name
+	dbw 4, 5 ; height, weight
 
-	db   "It can be carried"
-	next "away on even the"
-	next "gentlest breeze."
+	db   "Es tan ligero, que"
+	next "la brisa más leve"
+	next "se lo puede llevar"
 
-	page "It may even float"
-	next "all the way to the"
-	next "next town.@"
+	page "por delante. Puede"
+	next "ir flotando de una"
+	next "ciudad a otra.@"

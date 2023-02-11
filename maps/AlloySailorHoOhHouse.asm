@@ -109,117 +109,131 @@ ElderWalksOutMovement:
 	step_end
 	
 HoOhCryText:
-	text "HO-OH: Shaooh!"
+	text "HO-OH: ¡Hooh!"
 	done
-	
+
 SometimesYouLiveLongEnough:
-	text "Sometimes you live"
-	line "long enough to"
-	para "witness things you"
-	line "never thought you"
-	cont "would see."
-	para "I had an encounter"
-	line "with the bird of"
-	cont "legend."
-	para "Truly a magical"
-	line "event."
+	text "A veces vives lo"
+	line "suficiente para"
+	para "ser testigo de"
+	line "cosas que nunca"
+	cont "esperarías ver."
+
+	para "Tuve un encuentro"
+	line "con el ave de la"
+	cont "leyenda."
+
+	para "Un suceso verdade-"
+	line "ramente mágico."
+
 	para "…"
-	para "You know, you"
-	line "should search"
-	para "NIHON for the"
-	line "legendary beasts."
-	para "If HO-OH returned,"
-	line "anything is"
-	cont "possible."
-	done
 	
+	para "Deberías ir por"
+	line "NIHON en busca de"
+	cont "las bestias"
+	cont "legendarias."
+
+	para "Si HO-OH ha"
+	line "vuelto, todo es"
+	cont "posible."
+	done
+
 AlloyElderStoryText:
-	text "Listen closely…"
-	para "Many years ago,"
-	line "NIHON was guarded"
-	para "by a noble bird,"
-	line "whose wings burned"
-	cont "hot as fire."
-	para "This bird made its"
-	line "nest at the top"
-	para "of the 5 FLOOR"
-	line "TOWER over in"
-	cont "PAGOTA CITY."
-	para "This is where it"
-	line "roosted for many"
-	cont "years."
-	para "Some say it sat"
-	line "for centuries."
-	para "However, the bird"
-	line "became restless,"
-	para "and one fateful"
-	line "day, left the top"
-	cont "of the tower."
-	para "As it flew, ashes"
-	line "fell from its"
-	cont "wings."
-	para "From these ashes"
-	line "rose three beasts,"
-	para "who were meant to"
-	line "keep watch over"
-	para "NIHON while the"
-	line "bird was away."
-	para "The beasts"
-	line "scattered, and"
-	para "no one has seen"
-	line "them since."
-	para "But it is known"
-	line "that they have"
-	para "remained in NIHON,"
-	line "watching over it"
-	cont "in secret."
-	para "It is said that"
-	line "one day, the bird"
-	cont "shall return."
+	text "Escucha"
+	line "atentamente…"
+	para "Antaño, NIHON era"
+	line "protegido por una"
+	para "noble ave, cuyas"
+	line "alas ardían como"
+	cont "el fuego."
+
+	para "Esta ave hizo su"
+	line "nido en la cima de"
+	para "la TORRE GODAI en"
+	line "CIUDAD PAGOTA."
+
+	para "Reposó allí duran-"
+	line "te muchos años."
+
+	para "Hay quien dice"
+	line "que fue durante"
+	cont "siglos."
+
+	para "Sin embargo, un"
+	line "día aciago, algo"
+	para "inquietó al ave y"
+	line "se marchó de la"
+	cont "torre."
+
+	para "Mientras lo hacía,"
+	line "cayeron cenizas de"
+	cont "sus alas."
+
+	para "Y de esas cenizas"
+	line "nacieron tres"
+	para "bestias, consagra-"
+	line "das a velar por"
+	para "NIHON mientras el"
+	line "ave no volviese."
+
+	para "Las bestias se"
+	line "dispersaron, y"
+	cont "nadie ha vuelto a"
+	cont "verlas."
+
+	para "Pero se sabe que"
+	line "han permanecido en"
+	para "NIHON, protegién-"
+	line "dolo desde las"
+	cont "sombras."
+
+	para "Se dice que, un"
+	line "día, el ave"
+	cont "regresará."
 	done
-	
+
 AlloyElderStoryText2:
-	text "Could it be!?"
-	para "Has the fateful"
-	line "day arrived?"
+	text "¡¿Será posible?!"
+
+	para "¿Ha llegado el"
+	line "fatídico día?"
 	done
-	
+
 AlloySailorHoOhHouseElderAnotherTime:
-	text "Another time,"
-	line "then."
+	text "Será en otra"
+	line "ocasión."
 	done
 
 AlloySailorHoOhHouseElderText2:
-	text "Do you want to"
-	line "hear the story of"
-	cont "the bird?"
+	text "¿Quieres escuchar"
+	line "la historia del"
+	cont "ave?"
 	done
-	
+
 AlloySailorHoOhHouseElderIntroText:
-	text "One day I hope I"
-	line "can experience the"
-	para "conclusion of the"
-	line "legend."
+	text "Espero saber la"
+	line "conclusión de esta"
+	cont "leyenda algún día."
 	done
 
 AlloySailorHoOhHouseElderEvilText:
-	text "I sense an evil"
-	line "presence looming"
-	cont "over NIHON."
-	para "Surely the bird"
-	line "shall not return"
-	cont "until it is gone."
+	text "Siento una"
+	line "presencia maligna"
+	cont "acechando a NIHON."
+
+	para "El ave no regresa-"
+	line "rá hasta que haya"
+	cont "desaparecido."
 	done
-	
+
 AlloySailorHoOhHouseElderNotBlessedText:
-	text "The time could be"
-	line "any day now, yet"
-	para "I do not sense"
-	line "that you are the"
-	para "type of trainer"
-	line "that the bird"
-	para "would present"
-	line "itself to."
+	text "El momento podría"
+	line "llegar cualquier"
+	para "día, pero no creo"
+	line "que seas el tipo"
+	para "de entrenador ante"
+	line "el que se presen-"
+	cont "taría el ave."
 	done
 
 AlloySailorHoOhHouse_MapEvents:

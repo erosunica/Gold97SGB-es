@@ -37,44 +37,42 @@ SuperRodHouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 OfferSuperRodText:
-	text "I can see that you"
-	line "like fishing."
+	text "Veo que te gusta"
+	line "pescar."
 
-	para "There's no doubt"
-	line "in my mind at all!"
+	para "¡No tengo ninguna"
+	line "duda!"
 
-	para "So? I know I'm"
-	line "right."
+	para "¿A que tengo"
+	line "razón?"
 	done
 
 GiveSuperRodText:
-	text "Yes, yes. Just as"
-	line "I thought!"
+	text "Sí, sí. ¡Justo lo"
+	line "que pensaba!"
 
-	para "Here, fishing fan!"
-	line "Take this--it's a"
-	cont "SUPER ROD."
+	para "¡Aquí tienes!"
+	line "Toma esto. Es"
+	cont "una SÚPERCAÑA."
 	done
 
 GaveSuperRodText:
-	text "Try your hand at"
-	line "fishing wherever"
-	cont "there is water."
+	text "Intenta pescar"
+	line "allí donde veas"
+	cont "agua."
 
-	para "Remember--you can"
-	line "catch different"
-
-	para "#MON using"
-	line "different RODS."
+	para "Recuerda: puedes"
+	line "capturar #MON"
+	para "diferentes usando"
+	line "distintas CAÑAS."
 	
-	para "The SUPER ROD is"
-	line "the best of them"
-	cont "all!"
+	para "La SÚPERCAÑA es"
+	line "la mejor de todas."
 	done
 
 DontWantSuperRodText:
-	text "Huh? My own eyes"
-	line "deceived me?"
+	text "¿Eh? ¿Me engañan"
+	line "mis ojos?"
 	done
 
 AmamiTownSuperRodHouse_MapEvents:

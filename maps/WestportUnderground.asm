@@ -400,271 +400,282 @@ WestportUndergroundClerkScript:
 	jumptextfaceplayer WestportUndergroundClerkText
 	
 WestportUndergroundClerkText:
-	text "Welcome."
-	para "Here you can find"
-	line "unique stores run"
-	cont "by vendors."
-	para "These stores are"
-	line "open only at"
-	cont "particular times,"
-	para "so you may need to"
-	line "come by later if"
-	para "you want to buy"
-	line "from someone."
+	text "Bienvenido."
+	
+	para "Aquí puedes"
+	line "encontrar tiendas"
+	para "únicas llevadas"
+	line "por autónomos."
+	
+	para "Estas tiendas solo"
+	line "abren cada tanto"
+	para "tiempo, así que"
+	line "deberías pasarte"
+	para "de vez en cuando"
+	line "si quieres"
+	cont "comprarle algo a"
+	cont "alguien."
 	done
 	
 WestportUndergroundJanineText:
-	text "This place has"
-	line "some interesting"
-	cont "shops."
-	para "But the dimly-lit"
-	line "halls attract some"
-	para "seedy trainers"
-	line "looking to battle!"
+	text "Este sitio tiene"
+	line "tiendas interesan-"
+	cont "tes."
+	
+	para "¡Pero los pasillos"
+	line "poco iluminados"
+	para "atraen a entrena-"
+	line "dores indecentes"
+	cont "que buscan"
+	cont "combates!"
 	done
 
 SupernerdEricSeenText:
-	text "The DEPT. STORE"
-	line "employees don't"
-	para "want me hanging"
-	line "around down here"
-	cont "anymore."
-	para "You better not"
-	line "tell them that I'm"
-	cont "here!"
+	text "Los empleados del"
+	line "CENTRO COMERCIAL"
+	para "no quieren que"
+	line "siga merodeando"
+	cont "aquí abajo."
+	
+	para "¡Más te vale no"
+	line "decirles que me"
+	cont "has visto aquí!"
 	done
 
 SupernerdEricBeatenText:
-	text "…Grumble…"
+	text "¡Caray…!"
 	done
 
 SupernerdEricAfterBattleText:
-	text "I guess I should"
-	line "just behave"
-	cont "better…"
+	text "Supongo que"
+	line "debería"
+	cont "comportarme mejor…"
 	done
 
 SupernerdTeruSeenText:
-	text "Do you consider"
-	line "type alignments in"
-	cont "battle?"
+	text "¿Tienes en cuenta"
+	line "los tipos durante"
+	cont "el combate?"
 
-	para "If you know your"
-	line "type advantages,"
-
-	para "you'll do better"
-	line "in battle."
+	para "Si conoces bien"
+	line "los distintos"
+	para "tipos, rendirás"
+	line "más en combate."
 	done
 
 SupernerdTeruBeatenText:
-	text "Ow, ow, ow!"
+	text "¡Oh, oh, oh!"
 	done
 
 SupernerdTeruAfterBattleText:
-	text "I know my #MON"
-	line "type alignments."
+	text "Conozco mis tipos"
+	line "de #MON."
 
-	para "But I only use one"
-	line "type of #MON."
+	para "Pero sólo uso un"
+	line "tipo de #MON."
 	done
 
 PokemaniacIssacSeenText:
-	text "My #MON just"
-	line "got a haircut!"
+	text "¡Les corté el pelo"
+	line "a mis #MON!"
 
-	para "I'll show you how"
-	line "strong it is!"
+	para "¡Ahora verás lo"
+	line "fuertes que son!"
 	done
 
 PokemaniacIssacBeatenText:
-	text "Aiyeeee!"
+	text "¡Ayyyy!"
 	done
 
 PokemaniacIssacAfterBattleText:
-	text "Your #MON will"
-	line "like you more if"
-
-	para "you give them"
-	line "haircuts."
+	text "Los #MON serán"
+	line "más amigos tuyos"
+	para "si los llevas a"
+	line "cortarse el pelo."
 	done
 
 PokemaniacDonaldSeenText:
-	text "I think you have"
-	line "some rare #MON"
-	cont "with you."
+	text "Creo que tienes"
+	line "algunos #MON"
+	cont "muy raros."
 
-	para "Let me see them!"
+	para "¡Déjame verlos!"
 	done
 
 PokemaniacDonaldBeatenText:
-	text "Gaah! I lost!"
-	line "That makes me mad!"
+	text "¡Bah! ¡He perdido!"
+	line "¡Qué rabia me da!"
 	done
 
 PokemaniacDonaldAfterBattleText:
-	text "Are you making a"
-	line "#DEX? Here's a"
-	cont "hot tip."
+	text "¿Tienes una"
+	line "#DEX? Pues te"
+	cont "daré una pista."
 
-	para "Some trainers will"
-	line "phone you if they"
-	para "see any rare"
-	line "#MON."
-	para "You'll have to"
-	line "figure out who"
-	cont "they are."
+	para "Algunos entrenado-"
+	line "res te llamarán si"
+	para "ven algún #MON"
+	line "raro."
+	
+	para "Tendrás que"
+	line "descubrir quiénes"
+	cont "son."
 	done
 
 
 UnknownText_0x7c5b01:
-	text "DEPT.STORE"
-	line "ELEVATOR"
+	text "CENTRO COMERCIAL"
+	line "ASCENSOR"
 	done
 
 
 UnknownText_0x7c5f9:
-	text "Welcome!"
+	text "¡Hola! ¡Yo dirijo"
+	line "la PELUQUERÍA"
+	cont "#MON!"
 
-	para "I run the #MON"
-	line "SALON!"
+	para "Soy el mayor y"
+	line "el mejor de los"
+	para "dos HERMANOS"
+	line "PELUQUEROS."
 
-	para "I'm the older and"
-	line "better of the two"
-	cont "HAIRCUT BROTHERS."
+	para "Puedo poner guapos"
+	line "a tus #MON por"
+	cont "sólo 500¥."
 
-	para "I can make your"
-	line "#MON beautiful"
-	cont "for just ¥500."
-
-	para "Would you like me"
-	line "to do that?"
+	para "¿Quieres que les"
+	line "corte el pelo?"
 	done
 
 UnknownText_0x7c69a:
-	text "Which #MON"
-	line "should I work on?"
+	text "¿A qué #MON"
+	line "le corto el pelo?"
 	done
 
 UnknownText_0x7c6b8:
-	text "OK! Watch it"
-	line "become beautiful!"
+	text "¡Vale! ¡Verás lo"
+	line "bien que queda!"
 	done
 
 UnknownText_0x7c6d8:
-	text "There! All done!"
+	text "¡Bien! ¡Ya está!"
 	done
 
 UnknownText_0x7c6ea:
-	text "Is that right?"
-	line "That's a shame!"
+	text "¿De verdad?"
+	line "¡Qué pena!"
 	done
 
 UnknownText_0x7c709:
-	text "You'll need more"
-	line "money than that."
+	text "Necesitarás más"
+	line "dinero."
 	done
 
 UnknownText_0x7c72b:
-	text "I do only one"
-	line "haircut a day. I'm"
-	cont "done for today."
+	text "Sólo corto el pelo"
+	line "una vez al día."
+	cont "Ya vale por hoy."
 	done
 
 UnknownText_0x7c75c:
-	text "Welcome to the"
-	line "#MON SALON!"
+	text "¡Bienvenido a la"
+	line "PELUQUERÍA!"
 
-	para "I'm the younger"
-	line "and less expen-"
-	cont "sive of the two"
-	cont "HAIRCUT BROTHERS."
+	para "Soy el más joven y"
+	line "el más novato de"
+	para "los dos HERMANOS"
+	line "PELUQUEROS."
 
-	para "I'll spiff up your"
-	line "#MON for just"
-	cont "¥300."
+	para "Pondré guapos a"
+	line "tus #MON por"
+	cont "sólo 300¥."
 
-	para "So? How about it?"
+	para "¿Qué dices?"
 	done
 
 UnknownText_0x7c7f1:
-	text "OK, which #MON"
-	line "should I do?"
+	text "¿A qué #MON"
+	line "le corto el pelo?"
 	done
 
 UnknownText_0x7c80e:
-	text "OK! I'll make it"
-	line "look cool!"
+	text "¡Vale! Ya verás lo"
+	line "bien que queda."
 	done
 
 UnknownText_0x7c82a:
-	text "There we go!"
-	line "All done!"
+	text "¡Muy bien!"
+	line "¡Ya está!"
 	done
 
 UnknownText_0x7c842:
-	text "No? "
-	line "How disappointing!"
+	text "¿No?"
+	line "¡Qué lástima!"
 	done
 
 UnknownText_0x7c85b:
-	text "You're a little"
-	line "short on funds."
+	text "No te queda mucho"
+	line "dinero."
 	done
 
 UnknownText_0x7c87b:
-	text "I can do only one"
-	line "haircut a day."
+	text "Sólo corto el pelo"
+	line "una vez al día."
 
-	para "Sorry, but I'm all"
-	line "done for today."
+	para "Perdona, pero hoy"
+	line "no trabajo más."
 	done
 
 HaircutBrosText_SlightlyHappier:
 	text_ram wStringBuffer3
-	text " looks a"
-	line "little happier."
+	text_start
+	line "parece un poco"
+	cont "más feliz."
 	done
 
 HaircutBrosText_Happier:
 	text_ram wStringBuffer3
-	text " looks"
-	line "happy."
+	text_start
+	line "parece feliz."
 	done
 
 HaircutBrosText_MuchHappier:
+	text "¡@"
 	text_ram wStringBuffer3
-	text " looks"
-	line "delighted!"
+	text_start
+	line "está encantado!"
 	done
 
 UnknownText_0x7c904:
-	text "We're not open"
-	line "today."
+	text "Lo siento,"
+	line "hemos cerrado."
 	done
 
 WestportUndergroundNoEntryText:
-	text "The World is a"
-	line "Cycle Path!"
-	cont "BIKE SHOP"
+	text "¡El mundo es un"
+	line "camino de bicis!"
+	cont "TIENDA DE BICIS"
 	done
 	
 WestportUndergroundSalonText:
-	text "HAIRCUT BROTHERS"
-	line "#MON SALON"
-	para "CLOSED MONDAYS"
+	text "HERMANOS"
+	line "PELUQUEROS"
+	para "PELUQUERÍA #MON"
+	line "CERRADO LOS LUNES"
 	done
 	
 WestportUndergroundBitterText:
-	text "NATURAL REMEDIES"
-	para "OPEN SATURDAY AND"
-	line "SUNDAY ALL DAY"
+	text "REMEDIOS NATURALES"
+	para "ABIERTO LOS FINES"
+	line "DE SEMANA TODO EL"
+	cont "DÍA"
 	done
 	
 WestportUndergroundGrampsText:
-	text "GRAMPS' BARGAINS"
-	para "OPEN MONDAY"
-	line "MORNINGS AND"
-	cont "WEDNESDAY ALL DAY"
+	text "GANGAS DEL ABUELO"
+	para "ABIERTO LUNES POR"
+	line "LA MAÑANA Y MIÉRC."
+	cont "TODO EL DÍA"
 	done
 
 WestportUnderground_MapEvents:

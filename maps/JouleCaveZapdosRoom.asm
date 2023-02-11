@@ -39,7 +39,7 @@ ZapdosScript:
 	end
 	
 ZapdosText:
-	text "Zyah!"
+	text "¡Dooos!"
 	done
 	
 
@@ -58,4 +58,4 @@ JouleCaveZapdosRoom_MapEvents:
 	bg_event  3,  4, BGEVENT_ITEM, ZapdosHiddenBrightPowder
 
 	db 1 ; object events
-	object_event  7,  5, SPRITE_MOLTRES, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, ZapdosScript, EVENT_ZAPDOS_IN_JOULE_CAVE
+	object_event  7,  5, SPRITE_MOLTRES, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, ZapdosScript, EVENT_ZAPDOS_IN_JOULE_CAVE

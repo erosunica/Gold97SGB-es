@@ -1,10 +1,10 @@
-	db "BALL@" ; species name
-	dw 311, 1470 ; height, weight
+	db "BOLA@" ; species name
+	dbw 12, 666 ; height, weight
 
-	db   "The more energy it"
-	next "charges up, the"
-	next "faster it gets."
+	db   "Cuanta más energía"
+	next "almacena, mayor"
+	next "velocidad alcanza."
 
-	page "But this also"
-	next "makes it more"
-	next "likely to explode.@"
+	page "Aunque, el riesgo"
+	next "de que explote es"
+	next "también mayor.@"

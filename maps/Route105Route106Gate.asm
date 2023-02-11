@@ -99,10 +99,10 @@ DollSalesmanWednesdayMenu:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "SQUIRTLE    ¥5000@"
-	db "MAGIKARP    ¥5000@"
-	db "ODDISH      ¥5000@"
-	db "CANCEL@"
+	db "SQUIRTLE    5000¥@"
+	db "MAGIKARP    5000¥@"
+	db "ODDISH      5000¥@"
+	db "SALIR@"
 	
 DollSalesmanWednesday_FinishScript:
 	waitsfx
@@ -125,69 +125,80 @@ DollSalesmanWednesdayNoMoney:
 	end
 	
 SendItemToPCTextDollWednesday:
-	text "Send this DOLL to"
-	line "your bedroom PC?"
+	text "¿Quieres enviar"
+	line "este MUÑECO al PC"
+	cont "de tu dormitorio?"
 	done
 
 AlreadyHaveDecorItemTextSalesmanWednesday:
-	text "You already have"
-	line "this DOLL!"
+	text "¡Ya tienes este"
+	line "MUÑECO!"
 	done
 
 DollSalesmanWednesday_HereYouGoText:
-	text "Here you go!"
+	text "¡Listo!"
 	done
 	
 DollSalesmanWednesdayComeAgain:
-	text "Hope to see you"
-	line "again somewhere!"
+	text "¡Espero que"
+	line "volvamos a vernos!"
 	done
 	
 DollSalesmanWednesdayNoMoneyText:
-	text "Sorry, you'll"
-	line "need more money!"
+	text "¡Lo siento, no"
+	line "tienes suficiente"
+	cont "dinero!"
 	done
 	
 DollSalesmanTextWednesday:
-	text "Hiya!"
-	para "I'm a traveling"
-	line "DOLL salesman!"
-	para "What does that"
-	line "mean?"
-	para "It means that I'm"
-	line "who you talk to"
-	para "if you want to"
-	line "deck out your"
-	cont "bedroom!"
-	para "My stock and my"
-	line "location change"
-	para "daily, so keep an"
-	line "eye out for me!"
+	text "¡Hola!"
+	
+	para "¡Soy un vendedor"
+	line "de MUÑECOS"
+	cont "ambulante!"
+	
+	para "¿Sabes lo que"
+	line "significa?"
+	
+	para "¡Que soy la"
+	line "persona que buscas"
+	para "si quieres decorar"
+	line "tu dormitorio!"
+	
+	para "¡Mi ubicación y lo"
+	line "que vendo cambia a"
+	para "diario, así que no"
+	line "me pierdas de"
+	cont "vista!"
 	done
 	
 DollSalesmanTextWednesday_AskWhichPrizeText:
-	text "Now which DOLL"
-	line "would you like?"
+	text "¿Qué MUÑECO"
+	line "quieres?"
 	done
 	
 ;---------------------------------
 
 
 Route105Route106GateOfficerText:
-	text "JADE FOREST is"
-	line "a mysterious area."
-	para "Be sure to treat"
-	line "it with respect."
+	text "El BOSQUE JADE"
+	line "es una zona"
+	cont "misteriosa."
+
+	para "Debes tratarla con"
+	line "respeto."
 	done
 
 Route105Route106GateRockerText:
-	text "I like going for"
-	line "peaceful walks in"
-	cont "JADE FOREST."
-	para "It's a lot less"
-	line "scary in there"
-	para "once you know your"
-	line "way around."
+	text "Me gusta dar"
+	line "paseos tranquilos"
+	cont "por el BOSQUE"
+	cont "JADE."
+
+	para "Da mucho menos"
+	line "miedo cuando"
+	cont "conoces bien el"
+	cont "camino."
 	done
 
 Route105Route106Gate_MapEvents:

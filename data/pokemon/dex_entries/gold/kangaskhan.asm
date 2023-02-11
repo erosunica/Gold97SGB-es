@@ -1,10 +1,10 @@
-	db "PARENT@" ; species name
-	dw 703, 1760 ; height, weight
+	db "MATERNAL@" ; species name
+	dbw 22, 800 ; height, weight
 
-	db   "To avoid"
-	next "crushing the"
-	next "baby it carries in"
+	db   "Tiene la costumbre"
+	next "de dormir de pie"
+	next "para no aplastar"
 
-	page "its pouch, it"
-	next "always sleeps"
-	next "standing up.@"
+	page "a la cría que"
+	next "lleva acurrucada"
+	next "en la bolsa.@"

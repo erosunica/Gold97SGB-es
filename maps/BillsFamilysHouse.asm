@@ -131,139 +131,147 @@ EarlsMuseumRadio:
 	jumpstd Radio2Script
 	
 BillGoGetBadge:
-	text "Hm! You shouldn't"
-	line "see this text!"
-	para "I changed the"
-	line "sequence of events"
-	para "so that I shouldnt"
-	line "be here if you"
-	para "don't have the"
-	line "BADGE. So"
-	para "somethings wrong"
-	line "here!"
+	text "¡No deberías poder"
+	line "leer este texto!"
+	
+	para "Cambié la"
+	line "secuencia de"
+	para "eventos. Yo no"
+	line "debería de estar"
+	para "aquí si no tienes"
+	line "la MEDALLA. ¡Así"
+	cont "que aquí pasa algo"
+	cont "raro!"
 	done
 
 BillTakeThisCutText:
-	text "BILL: Hello!"
-	line "Well, now allow"
-	para "me to introduce"
-	line "myself!"
-	para "I'm BILL! I made"
-	line "the PC system that"
-	para "trainers use to"
-	line "store #MON in!"
-	para "I hope you find it"
-	line "useful."
-	para "If you're planning"
-	line "on traveling"
-	para "around, though,"
-	line "I have something"
-	para "else that you may"
-	line "find useful."
-	para "Won't you take"
-	line "this?"
+	text "BILL: ¡Hola!"
+	line "Bueno, permite"
+	cont "que me presente."
+	
+	para "¡Soy BILL! ¡Yo"
+	line "creé el Sistema de"
+	para "Almacenamiento"
+	line "#MON de los PC!"
+	
+	para "Espero que te sea"
+	line "útil."
+	
+	para "Por cierto, si"
+	line "piensas hacer un"
+	para "largo viaje, tengo"
+	line "algo que podría"
+	cont "ayudarte."
+	
+	para "¿Podrías"
+	line "aceptarlo?"
 	done
 
 BillImCountingOnYouText:
-	text "CUT allows your"
-	line "#MON to chop"
-	cont "away small trees!"
-	para "It may prove"
-	line "indespensible!"
-	para "And remember,"
-	line "unlike a TM, an HM"
-	para "can be reused as"
-	line "many times as you"
-	cont "want to!"
-	para "Well, good luck on"
-	line "your pursuits as"
-	cont "a trainer!"
-	para "I'll be around!"
+	text "¡CORTE permite que"
+	line "tu #MON corte"
+	cont "arbustos!"
+	
+	para "¡Es algo"
+	line "indispensable!"
+	
+	para "Y recuerda que,"
+	line "a diferencia de"
+	para "las MT, ¡puedes"
+	line "usar las MO las"
+	cont "veces que quieras!"
+	
+	para "¡Buena suerte en"
+	line "tus objetivos como"
+	cont "entrenador!"
+	
+	para "¡Nos vemos!"
 	done
 
 ReceivedEeveeText:
-	text "<PLAYER> received"
-	line "EEVEE!"
+	text "¡<PLAYER> recibió"
+	line "a EEVEE!"
 	done
 
 BillEeveeMayEvolveText:
-	text "BILL: PROF.OAK2"
-	line "claims EEVEE may"
-
-	para "evolve in new and"
-	line "unknown ways."
+	text "BILL: OAK dice que"
+	line "EEVEE evoluciona"
+	para "en formas nuevas y"
+	line "desconocidas."
 	done
 
 BillPartyFullText:
-	text "Whoa, wait. You"
-	line "can't carry any"
-	cont "more #MON."
+	text "No, espera."
+	line "No puedes llevar"
+	cont "más #MON."
 	done
 
 BillNoEeveeText:
-	text "Oh… Well you might"
-	line "need this at some"
-	cont "point…"
+	text "Oh… Bueno, quizá"
+	line "necesites esto en"
+	cont "algún momento…"
 	done
 
 BillPopWontWorkText:
-	text "BILL: Hi, <PLAYER>!"
-	line "I hope your"
-	para "adventures are"
-	line "going well!"
+	text "BILL: ¡Hola,"
+	line "<PLAYER>!"
+	
+	para "¡Espero que tus"
+	line "aventuras estén"
+	cont "yendo bien!"
 	done
 
 BillsPopText:
-	text "Oh, you collect"
-	line "#MON? My son"
-	cont "BILL is an expert."
+	text "Anda, ¿coleccionas"
+	line "#MON? Mi hijo"
+	cont "BILL es todo un"
+	cont "experto."
 	done
 
 BillsMomText:
-	text "My husband was"
-	line "once known as a"
+	text "Mi marido era"
+	line "conocido como un"
 
-	para "#MANIAC."
-	line "BILL must have"
-
-	para "taken after his"
-	line "father."
+	para "#MANÍACO."
+	line "BILL ha debido de"
+	para "seguir los pasos"
+	line "de su padre."
 	done
 
 BillsSisterUsefulNumberText:
-	text "Are you a trainer?"
-
-	para "I've got a useful"
-	line "phone number for"
-	cont "you."
+	text "¿Entrenas #MON?"
+	line "Tengo un número de"
+	para "teléfono que te"
+	line "será útil."
 	done
 
 RecordedBillsNumberText:
-	text "<PLAYER> recorded"
-	line "BILL's number."
+	text "<PLAYER> grabó el"
+	line "n.° de BILL."
 	done
 
 BillsSisterRefusedNumberText:
-	text "My brother made"
-	line "the PC #MON"
-	cont "storage system."
+	text "Mi hermano creó el"
+	line "Sistema de"
 
-	para "I was going to"
-	line "give you BILL's"
-	cont "number…"
+	para "Almacenamiento de"
+	line "#MON del PC."
+
+	para "Te iba a dar el"
+	line "teléfono de BILL…"
 	done
 
 BillsSisterPhoneFullText:
-	text "You can't record"
-	line "any more numbers."
+	text "No puedes grabar"
+	line "ningún número más."
 	done
 
 BillsSisterStorageSystemText:
-	text "My big brother"
-	line "BILL made the PC"
+	text "Mi hermano BILL"
+	line "creó el Sistema de"
 
-	para "#MON storage"
-	line "system."
+	para "Almacenamiento de"
+	line "los #MON."
 	done
 
 BillsFamilysHouse_MapEvents:

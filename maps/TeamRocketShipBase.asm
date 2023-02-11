@@ -339,349 +339,391 @@ ImposterLeavesRoom:
 	step_end
 	
 TrashCanBoatText:
-	text "There's nothing in"
-	line "here…"
+	text "Aquí dentro no"
+	line "hay nada…"
 	done
 
 GruntM22SeenText:
-	text "You're pretty far"
-	line "into the ship."
-	para "But you'll go no"
-	line "further!"
+	text "Te has adentrado"
+	line "mucho en el barco."
+
+	para "¡Pero no llegarás"
+	line "más lejos!"
 	done
 
 GruntM22BeatenText:
-	text "The CAPTAIN won't"
-	line "like this…"
+	text "Al CAPITÁN no le"
+	line "va a gustar esto…"
 	done
 
 GruntM22AfterBattleText:
-	text "Ha! Just cause you"
-	line "beat me doesn't"
-	para "mean I'll let you"
-	line "pass!"
-	para "Mainly because I"
-	line "can't!"
-	para "The door's locked"
-	line "and I don't have"
-	cont "a SHIP KEY!"
-	para "Actually, I don't"
-	line "think anyone on"
-	para "this boat other"
-	line "than the CAPTAIN"
-	cont "has one."
-	para "And you can't get"
-	line "to him without it!"
-	para "Looks like you'll"
-	line "have to get one"
-	para "off some TEAM"
-	line "ROCKET member from"
-	cont "somewhere else!"
+	text "¡Já! ¡No te voy a"
+	line "dejar pasar solo"
+	cont "porque me hayas"
+	cont "derrotado!"
+
+	para "¡Más que nada"
+	line "porque no puedo!"
+
+	para "¡La puerta está"
+	line "cerrada y no tengo"
+	cont "la LLAVE del"
+	cont "BARCO!"
+
+	para "En realidad, creo"
+	line "que aparte del"
+	para "CAPITÁN, nadie más"
+	line "tiene una en el"
+	cont "barco."
+
+	para "¡Y no podrás"
+	line "llegar hasta él"
+	cont "sin una!"
+
+	para "¡Parece que se la"
+	line "tendrás que quitar"
+	para "a otro miembro del"
+	line "TEAM ROCKET!"
 	done
 
 GruntM11SeenText:
-	text "What are you doing"
-	line "here?"
-	para "Don't get in my"
-	line "way!"
+	text "¿Qué haces aquí?"
+	para "¡Fuera de mi"
+	line "camino!"
 	done
 
 GruntM11BeatenText:
-	text "You're getting in"
-	line "my way!"
+	text "¡Estás en mi"
+	line "camino!"
 	done
 
 GruntM11AfterBattleText:
-	text "Really, I'm not up"
-	line "to anything"
-	cont "important."
-	para "I just like being"
-	line "a part of the ship"
-	para "crew so I can ride"
-	line "on it."
+	text "En serio, no me"
+	line "traigo nada entre"
+	cont "manos."
+
+	para "Es solo que me"
+	line "gusta ser parte de"
+	para "la tripulación"
+	line "porque así puedo"
+	cont "ir en barco."
 	done
 
 GruntM25SeenText:
-	text "Ha! I bet you"
-	line "weren't expecting"
-	cont "me here!"
-	para "Too bad, cause"
-	line "here I am!"
+	text "¡Já! ¡Apuesto a"
+	line "que no me espera-"
+	cont "bas aquí!"
+
+	para "¡Muy mal, porque"
+	line "aquí estoy!"
 	done
 
 GruntM25BeatenText:
-	text "I think I'll stay"
-	line "in this closet…"
+	text "Creo que seguiré"
+	line "en este armario…"
 	done
 
 GruntM25AfterBattleText:
-	text "No one bothers"
-	line "me back here."
+	text "Aquí dentro nadie"
+	line "me molesta."
 	done
 
 GruntM13SeenText:
-	text "I don't care if"
-	line "you're lost."
+	text "¡Qué me importa si"
+	line "te has perdido!"
 
-	para "You show up here,"
-	line "you're nothing but"
-	cont "a victim!"
+	para "Apareciste aquí,"
+	line "¡eres sólo una"
+	cont "víctima!"
 	done
 
 GruntM13BeatenText:
-	text "Urk! Yeah, think"
-	line "you're cool, huh?"
+	text "¡Seguro! Te crees"
+	line "genial, ¿verdad?"
 	done
 
 GruntM13AfterBattleText:
-	text "You must have ice"
-	line "in your veins to"
-	cont "dis TEAM ROCKET."
+	text "Debes de tener"
+	line "hielo en las venas"
+	para "para enfrentarte"
+	line "al TEAM ROCKET."
 	done
 
 UnknownText_0x7c5b0:
-	text "The door's locked…"
+	text "Puerta cerrada…"
 	done
 
 UnknownText_0x7c5c3:
-	text "The door is open."
+	text "Puerta abierta."
 	done
 
 UnknownText_0x7c5d6:
-	text "The SHIP KEY"
-	line "opened the door."
+	text "Puerta abierta con"
+	line "LLAVE del BARCO."
 	done
 
 CaptainRBeforeText:
-	text "I'm impressed that"
-	line "you've reached me."
-	para "And I'm"
-	line "disappointed that"
-	para "none of my crew"
-	line "could stop you."
-	para "Useless, they are."
-	para "But our operations"
-	line "here are finished."
-	para "We're retreating"
-	line "back to our base."
-	para "Our plan will"
-	line "continue as"
-	cont "scheduled."
+	text "Me impresiona que"
+	line "hayas llegado"
+	cont "hasta mí."
+
+	para "Y me decepciona"
+	line "que mi tripulación"
+	cont "no haya podido"
+	cont "detenerte."
+
+	para "Son un puñado de"
+	line "inútiles."
+
+	para "Pero ya hemos"
+	line "terminado nuestras"
+	cont "operaciones."
+
+	para "Regresaremos a"
+	line "nuestra base."
+
+	para "Nuestro plan"
+	line "continuará según"
+	cont "lo establecido."
 	done
-	
+
 CaptainRTellsImposterOff:
-	text "IMPOSTOR OAK!"
+	text "¡OAK IMPOSTOR!"
 	done
-	
+
 ImposterOakIsShocked:
-	text "IMPOSTOR OAK: Yes,"
-	line "sir!"
+	text "OAK IMPOSTOR: ¡Sí,"
+	line "señor!"
 	done
-	
+
 CaptainRTellsImposterOff2:
-	text "CAPTAIN: Leave me"
-	line "now."
-	para "I wish to be alone"
-	line "with our friend."
+	text "CAPITÁN: Retírate."
+
+	para "Quiero estar a"
+	line "solas con nuestro"
+	cont "amigo."
 	done
-	
+
 ImposterOakIsShocked2:
-	text "IMPOSTOR OAK: Aye,"
-	line "CAPTAIN!"
+	text "OAK IMPOSTOR: ¡Sí,"
+	line "CAPITÁN!"
 	done
-	
+
 CaptainRFinishesSpeech:
 	text "…"
-	para "And I see you've"
-	line "met our IMPOSTOR"
-	cont "OAK."
-	para "I know you're not"
-	line "fooled."
-	para "I wouldn't expect"
-	line "you to be."
-	para "But it's not you"
-	line "I have to"
-	cont "convince."
-	para "He'll be of more"
-	line "use to us soon."
-	para "As for now, we're"
-	line "about to set sail."
-	para "But not before I"
-	line "dispose of you!"
+	para "Veo que has"
+	line "conocido a nuestro"
+	cont "OAK IMPOSTOR."
+
+	para "Sé que no pudo"
+	line "engañarte."
+
+	para "No esperaba que lo"
+	line "lograse."
+
+	para "Pero no es a ti"
+	line "a quien debo"
+	cont "convencer."
+
+	para "Pronto nos será"
+	line "de mucha utilidad."
+
+	para "Por ahora, estamos"
+	line "a punto de zarpar."
+
+	para "¡Pero no sin antes"
+	line "deshacerme de ti!"
 	done
 
 CaptainRWinText:
-	text "You're good."
-	done
-	
-CaptainRLossText:
-	text "Ha!"
-	done
-	
-CaptainRAfterText:
-	text "Hm. I see what a"
-	line "challenge you can"
-	cont "pose."
-	para "But our shipments"
-	line "are complete."
-	para "We have the"
-	line "materials we need"
-	para "to begin the"
-	line "construction of"
-	para "our ultimate"
-	line "weapon!"
-	para "And this weapon"
-	line "does no physical"
-	cont "damage, no."
-	para "But soon, it will"
-	line "empower us to take"
-	para "control of all"
-	line "#MON!"
-	para "And you've slowed"
-	line "that plan."
-	para "But you haven't"
-	line "stopped it!"
-	para "You'll be hearing"
-	line "more from us soon!"
-	para "In fact, everyone"
-	line "will!"
+	text "Eres bueno."
 	done
 
+CaptainRLossText:
+	text "¡Já!"
+	done
+
+CaptainRAfterText:
+	text "Ya he comprobado"
+	line "que puedes suponer"
+	cont "todo un desafío."
+
+	para "Pero ya tenemos"
+	line "todo lo que"
+	cont "necesitamos."
+
+	para "¡Los materiales"
+	line "para empezar a"
+	para "construir nuestra"
+	line "arma definitiva!"
+
+	para "No es un arma que"
+	line "haga daño físico,"
+	cont "no."
+
+	para "¡Pero muy pronto"
+	line "nos dará el poder"
+	para "para controlar a"
+	line "todos los #MON!"
+
+	para "Has entorpecido el"
+	line "plan."
+
+	para "¡Pero no lo has"
+	line "arruinado!"
+
+	para "¡Pronto sabrás más"
+	line "de nosotros!"
+
+	para "¡De hecho, todo el"
+	line "mundo lo hará!"
+	done
 
 NotGonnaStandByText:
-	text "I see you scared"
-	line "off our guard."
-	para "But you're dumber"
-	line "than you look if"
-	para "you think I'm"
-	line "just gonna let you"
-	para "walk right on in"
-	line "here!"
-	para "Just try to get"
-	line "past me!"
+	text "Veo que has"
+	line "asustado a nuestro"
+	cont "guarda."
+
+	para "¡Pero debes ser"
+	line "más tonto de lo"
+	para "que pareces si"
+	line "crees que te voy"
+	para "a dejar pasar así"
+	line "sin más!"
+
+	para "¡Inténtalo si es"
+	line "que puedes!"
 	done
-	
+
 RocketEntranceShip_WinText:
-	text "You're tougher"
-	line "than you look!"
+	text "¡Eres más duro de"
+	line "lo que pensaba!"
 	done
-	
+
 RocketEntranceShip_LossText:
-	text "Ha!"
+	text "¡Já!"
 	done
-	
+
 RocketEntranceShip_AfterText:
-	text "Argh!"
-	para "I better go warn"
-	line "the CAPTAIN about"
-	cont "you."
-	para "He'll take care"
-	line "of your meddling"
-	cont "ways!"
+	text "¡Agh!"
+
+	para "Mejor advierto al"
+	line "CAPITÁN sobre ti."
+
+	para "¡Él se hará cargo"
+	line "de tu intrusión!"
 	done
 
 GruntF3SeenText:
-	text "What do you have"
-	line "against TEAM"
-	cont "ROCKET?"
+	text "¿Qué tienes contra"
+	line "el TEAM ROCKET?"
 	done
 
 GruntF3BeatenText:
-	text "Our plans are"
-	line "still bigger than"
-	cont "you know!"
+	text "¡Nuestros planes"
+	line "siguen siendo más"
+	cont "grandes de lo que"
+	cont "crees!"
 	done
 
 GruntF3AfterBattleText:
-	text "We're getting"
-	line "ready to head out"
-	cont "of here anyways."
+	text "Ya estamos a punto"
+	line "de irnos de todos"
+	cont "modos."
 	done
 
-
 BurglarEddieSeenText:
-	text "Shh! I'm not a"
-	line "part of TEAM"
-	cont "ROCKET!"
+	text "¡Ssh! ¡No soy del"
+	line "TEAM ROCKET!"
 
-	para "I'm searching for"
-	line "loot."
+	para "Estoy en busca del"
+	line "botín."
 	done
 
 BurglarEddieBeatenText:
-	text "Over the top!"
+	text "¡Impresionante!"
 	done
 
 BurglarEddieAfterBattleText:
-	text "Does stealing from"
-	line "bad guys make me"
-	cont "a good guy?"
+	text "¿Robar a los malos"
+	line "me convierte en"
+	cont "alguien bueno?"
 	done
-	
+
 Text_EndDemo:
-	text "Also, thanks a ton"
-	line "for playing!"
-	para "This point is"
-	line "where the demo"
-	cont "ends."
-	para "You've completed"
-	line "what's available"
-	cont "of the story."
-	para "But feel free to"
-	line "spend time"
-	para "exploring and"
-	line "catching #MON!"
-	para "I've got a few"
-	line "things for you"
-	para "that will make"
-	line "exploring easier."
-	para "HM02 FLY and the"
-	line "BADGE you need to"
-	cont "use it!"
+	text "¡Muchas gracias"
+	line "por jugar!"
+
+	para "Aquí es donde"
+	line "acaba la demo."
+
+	para "Has completado"
+	line "lo que hay de"
+	cont "historia hasta"
+	cont "ahora."
+
+	para "¡Pero sigue"
+	line "explorando y"
+	cont "capturando"
+	cont "#MON!"
+
+	para "Tengo varias cosas"
+	line "que te ayudarán a"
+	cont "explorar más"
+	cont "fácilmente."
+
+	para "¡La MO02 VUELO y"
+	line "la MEDALLA que"
+	cont "necesitas para"
+	cont "usarlo!"
 	done
 	
 Text_ReceivedMineralBadgeDemo:
-	text "<PLAYER> received"
-	line "MINERALBADGE."
+	text "<PLAYER> recibió la"
+	line "MEDALLA MINERAL."
 	done
 	
 Text_EndDemo2:
-	text "Alright, see ya!"
+	text "¡Bien, nos vemos!"
 	done
-	
+
 GruntM22HowdGetKey:
-	text "How'd you get that"
-	line "key!?"
+	text "¡¿Cómo has conse-"
+	line "guido esa llave?!"
 	done
-	
+
 ImposterGreetingText:
-	text "Well, who do we"
-	line "have here?"
+	text "¿Pero a quién"
+	line "tenemos aquí?"
 	done
-	
+
 ImposterGreetingText2:
-	text "Don't you"
-	line "recognize me?"
-	para "It's me, PROF.OAK!"
-	para "I'm working with"
-	line "TEAM ROCKET now!"
-	para "…Nah, I know"
-	line "you're not buying"
-	cont "it."
+	text "¿No me reconoces?"
+	para "¡Soy yo, el PROF."
+	line "OAK!"
+
+	para "¡Ahora trabajo"
+	line "para el TEAM"
+	cont "ROCKET!"
+
+	para "Debí suponer"
+	line "que no te lo"
+	cont "tragarías…"
 	done
-	
+
 ImposterTellsCaptainText:
-	text "Hey, CAPTAIN!"
-	line "We got some kid"
-	cont "here!"
-	para "I bet it's the one"
-	line "we've been hearing"
-	cont "about!"
+	text "¡Eh, CAPITÁN!"
+	line "¡Tenemos un niño a"
+	cont "bordo!"
+
+	para "¡Debe ser el mismo"
+	line "del que hemos"
+	cont "oído hablar!"
 	done
-	
+
 CaptainBeckons:
-	text "CAPTAIN: Come"
-	line "here, kid!"
+	text "CAPITÁN: ¡Ven"
+	line "aquí, niño!"
 	done
 
 TeamRocketShipBase_MapEvents:

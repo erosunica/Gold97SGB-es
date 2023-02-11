@@ -1,10 +1,10 @@
-	db "DRILL@" ; species name
-	dw 407, 1370 ; height, weight
+	db "TALADRO@" ; species name
+	dbw 14, 620 ; height, weight
 
-	db   "It uses its thick"
-	next "arms, legs and"
-	next "tail to attack"
+	db   "Está dotado de"
+	next "fornidas extremi-"
+	next "dades y gruesa"
 
-	page "forcefully. Melee"
-	next "combat is its"
-	next "specialty.@"
+	page "cola. Fulmina a su"
+	next "enemigo arreme-"
+	next "tiendo contra él.@"

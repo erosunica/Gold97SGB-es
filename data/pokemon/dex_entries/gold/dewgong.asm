@@ -1,10 +1,10 @@
-	db "SEA LION@" ; species name
-	dw 507, 2650 ; height, weight
+	db "LEÓN MAR.@" ; species name
+	dbw 17, 1200 ; height, weight
 
-	db   "It sleeps under"
-	next "shallow ocean"
-	next "waters during the"
+	db   "Duerme en aguas"
+	next "poco profundas"
+	next "durante el día"
 
-	page "day, then looks"
-	next "for food at night"
-	next "when it's cold.@"
+	page "y por la noche,"
+	next "cuando hace frío,"
+	next "busca comida.@"

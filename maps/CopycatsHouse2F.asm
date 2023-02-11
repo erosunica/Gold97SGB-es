@@ -125,120 +125,120 @@ CopycatSpinAroundMovementData:
 	step_end
 
 CopycatText_Male_1:
-	text "<PLAYER>: Hi! Do"
-	line "you like #MON?"
+	text "<PLAYER>: ¿Te"
+	line "gustan los"
+	cont "#MON?"
 
-	para "<PLAYER>: Uh, no, I"
-	line "just asked you."
+	para "<PLAYER>: No, yo"
+	line "sólo preguntaba."
 
-	para "<PLAYER>: Huh?"
-	line "You're strange!"
+	para "<PLAYER>: ¿Eh?"
+	line "¡Qué rara eres!"
 	done
 
 CopycatText_QuickMimicking:
-	text "COPYCAT: Hmm?"
-	line "Quit mimicking?"
+	text "COPIONA: ¿Cómo?"
+	line "¿Que no imite?"
 
-	para "But that's my"
-	line "favorite hobby!"
+	para "¡Pero si es mi"
+	line "hobby favorito!"
 	done
 
 CopycatText_Male_2:
-	text "<PLAYER>: Hi!"
-	line "I heard that you"
+	text "<PLAYER>: ¡Hola!"
+	line "Oí que habías"
+	para "perdido tu #"
+	line "MUÑECO favorito."
 
-	para "lost your favorite"
-	line "# DOLL."
+	para "<PLAYER>: Si lo"
+	line "encuentro, ¿me"
+	para "darás un PASE para"
+	line "el tren?"
 
-	para "<PLAYER>: If I find"
-	line "it, you'll give me"
-	cont "a rail PASS?"
+	para "<PLAYER>: Iré a"
+	line "buscarlo para ti."
 
-	para "<PLAYER>: I'll go"
-	line "find it for you."
-
-	para "You think you lost"
-	line "it when you went"
-	cont "to AMAMI TOWN?"
+	para "¿Crees que lo"
+	line "perdiste en"
+	cont "PUEBLO AMAMI?"
 	done
 
 CopycatText_Worried:
-	text "COPYCAT: Pardon?"
+	text "COPIONA: ¿Perdona?"
 
-	para "I shouldn't decide"
-	line "what you should"
-	cont "do?"
+	para "¿No tendría que"
+	line "decirte yo lo"
+	cont "que debes hacer?"
 
-	para "But I'm really"
-	line "worried… What if"
-	cont "someone finds it?"
+	para "Estoy preocupada."
+	line "¿Y si alguien lo"
+	cont "encuentra?"
 	done
 
 CopycatText_GiveDoll:
-	text "COPYCAT: Yay!"
-	line "That's my CLEFAIRY"
-	cont "# DOLL!"
+	text "COPIONA: ¡Sí! ¡Ése"
+	line "es mi # MUÑECO"
+	cont "CLEFAIRY!"
 
-	para "See the tear where"
-	line "the right leg is"
-
-	para "sewn on? That's"
-	line "proof!"
+	para "¿Ves el descosido"
+	line "que tiene en la"
+	para "pata derecha?"
+	line "¡Ésa es la prueba!"
 	done
 
 CopycatText_GivePass:
-	text "OK. Here's the"
-	line "MAGNET TRAIN PASS"
-	cont "like I promised!"
+	text "Está bien. ¡Aquí"
+	line "tienes el PASE del"
+	para "MAGNETOTRÉN que"
+	line "te prometí!"
 	done
 
 CopycatText_ExplainPass:
-	text "COPYCAT: That's"
-	line "the PASS for the"
-	cont "MAGNET TRAIN."
+	text "COPIONA: Ése es"
+	line "el PASE para el"
+	cont "MAGNETOTRÉN."
 
-	para "The rail company"
-	line "man gave me that"
-
-	para "when they tore"
-	line "down our old house"
-	cont "for the STATION."
+	para "La empresa de"
+	line "ferrocarriles me"
+	para "lo dio cuando"
+	line "derribaron nuestra"
+	para "casa para edificar"
+	line "la ESTACIÓN."
 	done
 
 CopycatText_Male_3:
-	text "<PLAYER>: Hi!"
-	line "Thanks a lot for"
-	cont "the rail PASS!"
+	text "<PLAYER>: ¡Hola!"
+	line "Muchas gracias por"
+	cont "el PASE de tren."
 
-	para "<PLAYER>: Pardon?"
+	para "<PLAYER>: ¿Perdona?"
 
-	para "<PLAYER>: Is it"
-	line "that fun to mimic"
-	cont "my every move?"
+	para "<PLAYER>: ¿Tanto"
+	line "te divierte imitar"
+	cont "todo lo que hago?"
 	done
 
 CopycatText_ItsAScream:
-	text "COPYCAT: You bet!"
-	line "It's a scream!"
+	text "COPIONA: ¿Apuestas"
+	line "algo? ¡Es genial!"
 	done
 
 CopycatsDodrioText1:
-	text "DODRIO: Gii giii!"
+	text "DODRIO: ¡Dodrii!"
 	done
 
 CopycatsDodrioText2:
-	text "MIRROR, MIRROR ON"
-	line "THE WALL, WHO'S"
-
-	para "THE FAIREST ONE OF"
-	line "ALL?"
+	text "Espejito, espeji-"
+	line "to… ¿Quién es la"
+	cont "más guapa de"
+	cont "todas?"
 	done
 
 CopycatsHouse2FDollText:
-	text "This is a rare"
-	line "#MON! Huh?"
+	text "¡Qué #MON más"
+	line "raro!"
 
-	para "It's only a doll…"
+	para "Es un muñeco…"
 	done
 
 CopycatsHouse2F_MapEvents:

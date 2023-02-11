@@ -123,117 +123,135 @@ RyukyuHotelJanine:
 	jumptextfaceplayer RyukyuHotelJanineText
 	
 RyukyuHotelYoungsterText:
-	text "I've never stayed"
-	line "in such a huge"
-	cont "hotel before!"
+	text "¡Nunca antes había"
+	line "estado en un hotel"
+	cont "tan grande!"
 	done
-	
+
 RyukyuHotelBugCatcherText:
-	text "I want to go out"
-	line "to the beach!"
+	text "¡Quiero ir a la"
+	line "playa!"
 	done
-	
+
 RyukyuHotelTeacherText:
-	text "Our hotel suite"
-	line "is so cozy!"
+	text "¡Nuestra habita-"
+	line "ción del hotel es"
+	cont "muy acogedora!"
 	done
 
 RyukyuHotelLassText:
-	text "Which floor is my"
-	line "room on?"
+	text "¿En qué planta"
+	line "está mi"
+	cont "habitación?"
 	done
-	
+
 RyukyuHotelJanineText:
-	text "The weather here"
-	line "is beautiful!"
+	text "¡El clima aquí es"
+	line "una maravilla!"
 	done
-	
+
 RyukyuHotelElevatorNeedsPassText:
-	text "It requires a ROOM"
-	line "PASS to access…"
+	text "Se necesita un"
+	line "PASE HOTEL para"
+	cont "pasar…"
 	done
-	
+
 RyukyuHotelClerkText:
-	text "I'm terribly"
-	line "sorry, but I can"
-	para "only allow access"
-	line "to those with a"
-	cont "ROOM PASS."
+	text "Lo siento mucho,"
+	line "pero solo puedo"
+	para "dejar pasar a"
+	line "quien tenga un"
+	cont "PASE HOTEL."
 	done
-	
+
 RyukyuHotelClerk2Text:
-	text "Welcome!"
-	para "Many of our guests"
-	line "are experienced"
-	para "#MON trainers"
-	line "who are waiting"
-	para "to battle in"
-	line "their suites!"
+	text "¡Bienvenido!"
+
+	para "¡Muchos de nues-"
+	line "tros inquilinos"
+	para "son entrenadores"
+	line "#MON expertos,"
+	para "esperando a"
+	line "combatir en sus"
+	cont "habitaciones!"
 	done
-	
+
 HotelReceptionistNoSaleText:
-	text "Not interested?"
-	para "The offer will"
-	line "be waiting."
+	text "¿No te interesa?"
+
+	para "La oferta sigue"
+	line "en pie."
 	done
-	
+
 HotelReceptionistNoMoneyText:
-	text "Oh, I would have"
-	line "assumed the CHAMP-"
-	para "ION could have"
-	line "afforded this."
+	text "Vaya, creía que el"
+	line "CAMPEÓN podría"
+	cont "permitirse esto."
 	done
-	
+
 HotelReceptionist_GotPass:
-	text "Here you go!"
-	para "Your room is on"
-	line "the 5th floor."
+	text "¡Aquí tienes!"
+
+	para "Tu habitación está"
+	line "en la quinta"
+	cont "planta."
 	done
-	
 
 HotelReceptionistText:
-	text "…Say, aren't you"
+	text "Oye… ¿Tú no eres"
 	line "<PLAYER>?"
-	para "As NIHON's CHAMP-"
-	line "ION, surely you'd"
-	para "want to book a"
-	line "room with us."
-	para "May I offer you"
-	line "a discounted ROOM"
-	cont "PASS?"
-	para "It's good for the"
-	line "year for only"
-	cont "¥10000."
+
+	para "Siendo el CAMPEÓN"
+	line "de NIHON, seguro"
+	para "que te interesa"
+	line "reservar una de"
+	cont "nuestras"
+	cont "habitaciones."
+ 
+	para "Te podemos ofrecer"
+	line "un PASE HOTEL,"
+	para "válido para todo"
+	line "el año, por solo"
+	cont "10000¥."
+
+	para "¿Te interesa"
+	line "nuestra oferta?"
 	done
-	
+
 HotelReceptionistText2:
-	text "Welcome to RYUKYU"
-	line "HOTEL!"
-	para "We are a major"
-	line "tourist hotspot"
-	cont "for all of NIHON!"
-	para "We often have some"
-	line "well-known faces"
-	cont "booking with us!"
+	text "¡Bienvenido al"
+	line "HOTEL RYUKYU!"
+
+	para "¡Somos la mejor"
+	line "zona turística de"
+	cont "todo NIHON!"
+
+	para "¡Varias caras muy"
+	line "conocidas han"
+	para "reservado habita-"
+	line "ciones en nuestro"
+	cont "hotel!"
 	done
 
 HotelReceptionistText3:
-	text "You know PROF.OAK,"
-	line "correct?"
-	para "He's recently"
-	line "started booking"
-	cont "weekends here."
+	text "Conoces al PROF."
+	line "OAK, ¿verdad?"
+
+	para "Últimamente ha"
+	line "venido a pasar"
+	cont "aquí los fines de"
+	cont "semana."
 	done
-	
+
 HotelReceptionistText4:
-	text "Though if what I"
-	line "hear about the"
-	para "S.S.AQUA being out"
-	line "of service is"
-	para "true, it may dis-"
-	line "rupt the travel"
-	para "plans of some of"
-	line "our future guests…"
+	text "Si es cierto el"
+	line "rumor de que el"
+	para "S.S.AQUA está"
+	line "fuera de servicio,"
+	para "podría arruinar"
+	line "los planes de"
+	para "viaje de nuestros"
+	line "futuros huéspedes…"
 	done
 
 RyukyuHotel_MapEvents:
@@ -264,6 +282,6 @@ RyukyuHotel_MapEvents:
 	object_event 28,  1, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, RyukyuHotelClerk2, EVENT_HOTEL_UPSTAIRS_IS_NOT_BLOCKED
 	object_event 14,  2, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, RyukyuHotelYoungster, -1
 	object_event 24,  7, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GRAY, OBJECTTYPE_SCRIPT, 0, RyukyuHotelBugCatcher, -1
-	object_event 25,  7, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, RyukyuHotelTeacher, -1
+	object_event 25,  7, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, RyukyuHotelTeacher, -1
 	object_event 21,  1, SPRITE_LASS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, RyukyuHotelLass, -1
 	object_event 18,  6, SPRITE_JANINE, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, RyukyuHotelJanine, -1

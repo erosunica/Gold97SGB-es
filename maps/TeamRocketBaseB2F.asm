@@ -104,105 +104,112 @@ TrainerGruntM21:
 	end
 	
 GruntM21SeenText:
-	text "The ZOO #MON"
-	line "getting sick is"
-	para "just a step away"
-	line "from them being"
-	para "fully under our"
-	line "control!"
+	text "¡Que los #MON"
+	line "del ZOO estén"
+	para "enfermos es solo"
+	line "el paso previo a"
+	para "que estén bajo"
+	line "nuestro control!"
 	done
-	
+
 GruntM21BeatenText:
-	text "Gasp!"
+	text "¡Ay!"
 	done
-	
+
 GruntM21AfterBattleText:
-	text "You wouldn't be"
-	line "able to defeat me"
-	para "if your #MON"
-	line "were under our"
+	text "¡No podrías"
+	line "derrotarme si tus"
+	para "#MON estuvieran"
+	line "bajo nuestro"
 	cont "control!"
 	done
-	
+
 GruntM20SeenText:
-	text "Finding what"
-	line "you're looking"
-	cont "for?"
+	text "¿Has encontrado lo"
+	line "que buscabas?"
 	done
-	
+
 GruntM20BeatenText:
-	text "Grrr!"
+	text "¡Grrr!"
 	done
-	
+
 GruntM20AfterBattleText:
-	text "There's probably"
-	line "some useful stuff"
-	para "lying around that"
-	line "you could just"
-	cont "take."
-	para "You didn't hear it"
-	line "from me, though."
+	text "Hay cosas de"
+	line "utilidad por aquí"
+	para "que podrías"
+	line "quedarte."
+
+	para "No digas que te lo"
+	line "he contado."
 	done
-	
+
 GruntM19SeenText:
-	text "What's this big"
-	line "machine do?"
-	para "Oh, only allows"
-	line "complete control"
-	cont "of any #MON!"
+	text "¿Que qué hace esta"
+	line "máquina grande?"
+	para "¡Ah, sólo permite"
+	line "controlar comple-"
+	cont "tamente a"
+	cont "cualquier #MON!"
 	done
-	
+
 GruntM19BeatenText:
-	text "Ouch!"
+	text "¡Auch!"
 	done
-	
+
 GruntM19AfterBattleText:
-	text "This machine is"
-	line "controlled by a"
-	cont "computer upstairs."
-	para "It's really noisy"
-	line "standing right"
-	cont "here by it."
+	text "Esta máquina la"
+	line "controla un"
+	para "ordenador que hay"
+	line "más arriba."
+
+	para "Es muy ruidosa"
+	line "estando aquí al"
+	cont "lado."
 	done
-	
+
 GruntM18SeenText:
-	text "What are you"
-	line "doing here?"
+	text "¿Qué haces aquí?"
 	done
-	
+
 GruntM18BeatenText:
-	text "That's what you're"
-	line "doing here…"
+	text "Con que eso haces"
+	line "aquí…"
 	done
-	
+
 GruntM18AfterBattleText:
-	text "I don't really"
-	line "know what I'm"
-	cont "doing here."
-	para "TEAM ROCKET can be"
-	line "disorganized."
-	para "I was almost left"
-	line "behind on the"
-	cont "cargo ship…"
+	text "No sé muy bien qué"
+	line "hago aquí."
+
+	para "El TEAM ROCKET"
+	line "parece desorgan-"
+	cont "izado."
+
+	para "Casi me dejan"
+	line "atrás en el barco"
+	cont "con cargamento…"
 	done
-	
+
 GruntM17SeenText:
-	text "I'm GRUNT number"
-	line "17!"
-	para "That's all that"
-	line "the EXECUTIVE ever"
-	cont "refers to me as…"
+	text "¡Soy el SOLDADO"
+	line "número 17!"
+
+	para "Es la única forma"
+	line "en que el"
+	para "EJECUTIVO se"
+	line "refiere a mí…"
 	done
-	
+
 GruntM17BeatenText:
-	text "I expected this."
+	text "Ya me lo"
+	line "esperaba."
 	done
-	
+
 GruntM17AfterBattleText:
-	text "None of the"
-	line "leadership bothers"
-	para "to learn any of"
-	line "our names."
+	text "Ninguno de"
+	line "nuestros líderes"
+	para "se molesta en"
+	line "aprenderse"
+	cont "nuestros nombres."
 	done
 
 

@@ -26,7 +26,7 @@ MewtwoScript:
 	
 
 MewtwoText:
-	text "Gyargh!"
+	text "¡Mew!"
 	done
 	
 IsenLabBack_MapEvents:

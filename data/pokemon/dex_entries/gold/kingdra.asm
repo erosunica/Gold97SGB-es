@@ -1,10 +1,10 @@
-	db "DRAGON@" ; species name
-	dw 511, 3350 ; height, weight
+	db "DRAGÓN@" ; species name
+	dbw 18, 1520 ; height, weight
 
-	db   "It stores energy"
-	next "by sleeping at"
-	next "underwater depths"
+	db   "Almacena energía"
+	next "durmiendo en las"
+	next "profundidades"
 
-	page "at which no other"
-	next "life forms can"
-	next "survive.@"
+	page "submarinas, allá"
+	next "donde no llegan"
+	next "otros seres.@"

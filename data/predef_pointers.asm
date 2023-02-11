@@ -74,6 +74,6 @@ PredefPointers::
 	add_predef CheckTypeMatchup
 	add_predef ConvertMon_1to2
 	add_predef NewPokedexEntry
-	add_predef UnusedFrontpicPredef
 	add_predef UpdateTimePredef
+	add_predef PartyAnimateHPBar ; erosunica: new
 	dbw -1, InexplicablyEmptyFunction ; ???

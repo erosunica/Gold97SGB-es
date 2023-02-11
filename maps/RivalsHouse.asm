@@ -21,6 +21,8 @@ RivalsPCScript:
 	opentext
 	checkevent EVENT_GOT_A_POKEMON_FROM_OAK
 	iftrue .RivalPCIsOff
+	checkevent EVENT_READ_RIVAL_OAKS_EMAIL
+	iftrue .RivalsPCJournal
 	writetext AnEmailForRivalText
 	yesorno
 	iftrue .PlayerReadsRivalsMail
@@ -35,64 +37,92 @@ RivalsPCScript:
 	closetext
 	end
 
+.RivalsPCJournal
+	writetext RivalsPCJournalText
+	waitbutton
+	closetext
+	end	
+
 .PlayerReadsRivalsMail
 	writetext RivalsEmailText
 	waitbutton
 	closetext
+	setevent EVENT_READ_RIVAL_OAKS_EMAIL
 	end
 	
 AnEmailForRivalText:
-	text "What's this?"
-	para "An e-mail for"
-	line "<RIVAL>?"
-	para "Want to read it?"
+	text "¿Eh? ¡Parece que"
+	line "hay un nuevo"
+	para "correo dirigido a"
+	line "<RIVAL>! ¿Leerlo?"
 	done
-	
+
 PlayerDoesntReadMailText:
-	text "Right, it's not"
-	line "good to read"
-	para "other people's"
-	line "mail…"
+	text "No está bien leer"
+	line "el correo de los"
+	cont "demás…"
 	done
 
 RivalPCIsOffText:
-	text "It appears to be"
-	line "powered off…"
+	text "Parece que está"
+	line "apagado…"
 	done
 	
 RivalsEmailText:
-	text "…"
+	text "Espero que me"
+	line "disculpes por"
+	para "enviarte un correo"
+	line "tan de repente,"
+	para "pero hay algo que"
+	line "me gustaría"
+	cont "entregarte."
 	
-	para "I hope you'll"
-	line "excuse the sudden"
-	para "e-mail, but there"
-	line "is something that"
-	para "I would like to"
-	line "entrust you with."
+	para "¿Te importaría"
+	line "venir a recogerlo?"
 	
-	para "Won't you come by"
-	line "to collect it?"
+	para "OAK, investigador"
+	line "#MON"
+	done
+
+RivalsPCJournalText:
+	text "DIARIO #MON"
+	line "PÁGINA DE INICIO"
 	
-	para "#MON researcher"
-	line "OAK"
+	para "…"
 	
+	para "¡Se ha descubierto"
+	line "un nuevo #MON!"
+	
+	para "Sus fuertes alas "
+	line "son duras como el"
+	para "acero. No sólo es"
+	line "de tipo volador,"
+	para "¡sino que también"
+	line "forma parte del"
+	cont "nuevo tipo acero!"
+	
+	para "Se están llevando"
+	line "a cabo más"
+	cont "investigaciones…"
 	done
 
 RivalsMomText:
-	text "Hi, <PLAYER>! My"
-	line "son's always so"
-	cont "energetic."
-	para "When he gets his"
-	line "mind set on"
-	para "something, he'll"
-	line "just go at it,"
-	cont "full speed ahead."
+	text "¡Hola, <PLAYER>!"
+
+	para "Mi hijo no para"
+	line "quieto."
+
+	para "Cuando se le mete"
+	line "algo en la cabeza,"
+	para "va a por ello sin"
+	line "que nada lo"
+	cont "detenga."
 	done
 
 RivalsBrotherText:
-	text "The other day, I"
-	line "saw a strangely-"
-	cont "colored PIDGEY!"
+	text "¡El otro día vi"
+	line "un PIDGEY de un"
+	cont "color raro!"
 	done
 
 

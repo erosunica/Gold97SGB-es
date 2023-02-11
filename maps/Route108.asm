@@ -55,127 +55,129 @@ Route108FruitTree:
 	fruittree FRUITTREE_TREE_ROUTE_108
 
 BirdKeeperTobySeenText:
-	text "Fly high into the"
-	line "sky, my beloved"
-	cont "bird #MON!"
+	text "¡Vuela alto hacia"
+	line "el cielo, querido"
+	cont "pájaro #MON!"
 	done
 
 BirdKeeperTobyBeatenText:
-	text "I feel like just"
-	line "flying away now."
+	text "¡Me apetece salir"
+	line "volando ahora!"
 	done
 
 BirdKeeperTobyAfterBattleText:
-	text "I plan to train in"
-	line "ALLOY CITY at"
-	cont "the FIGHTING DOJO."
-	para "Flying #MON are"
-	line "strong against"
-	cont "fighting-type."
-	para "…Is that an"
-	line "unfair advantage?"
+	text "Estoy pensando en"
+	line "entrenar en el"
+	para "DOJO KARATE de"
+	line "CIUDAD ALEAR."
+
+	para "Los #MON vola-"
+	line "dores son fuertes"
+	para "contra los del"
+	line "tipo lucha…"
+	para "¿No es una ventaja"
+	line "injusta?"
 	done
 
 
 UnknownText_0x1a200e:
-	text "I have to take so"
-	line "many tests, I"
+	text "Tengo que hacer"
+	line "muchos exámenes y"
+	para "no tengo tiempo"
+	line "para los #MON."
 
-	para "don't have much"
-	line "time for #MON."
-
-	para "So when I do get"
-	line "to play, I really"
-	cont "concentrate."
+	para "Así que, cuando"
+	line "puedo jugar, me"
+	cont "concentro mucho."
 	done
 
 LassDana1SeenText:
-	text "You seem to be"
-	line "good at #MON."
+	text "Parece que sabes"
+	line "de #MON."
 
-	para "If you are, how"
-	line "about giving me"
-	cont "some advice?"
+	para "Si es así, ¿por"
+	line "qué no me das"
+	cont "algún consejo?"
 	done
 
 LassDana1BeatenText:
-	text "I see. So you can"
-	line "battle that way."
+	text "Ya veo. De modo"
+	line "que luchas así."
 	done
 
 UnknownText_0x1a20ec:
-	text "I know something"
-	line "good!"
+	text "¡Tengo una buena"
+	line "noticia!"
 
-	para "MOOMOO MILK is"
-	line "a nutritious drink"
-	cont "for #MON!"
-	para "You can buy it"
-	line "over in STAND"
-	cont "CITY."
+	para "¡La LECHE MU-MU es"
+	line "una bebida nutri-"
+	cont "tiva para los"
+	cont "#MON!"
+
+	para "Puedes comprarla"
+	line "en CIUDAD"
+	cont "ENHIESTA."
 	done
 
-
 SailorHarrySeenText:
-	text "I've been over-"
-	line "seas, so I know"
-
-	para "about all sorts of"
-	line "#MON!"
+	text "He estado en el"
+	line "extranjero. ¡Así"
+	para "que conozco todo"
+	line "tipo de #MON!"
 	done
 
 SailorHarryBeatenText:
-	text "Your skill is"
-	line "world class!"
+	text "¡Tu destreza es de"
+	line "categoría mundial!"
 	done
 
 SailorHarryAfterBattleText:
-	text "All kinds of peo-"
-	line "ple around the"
-
-	para "world live happily"
-	line "with #MON."
+	text "Gentes de todo el"
+	line "mundo viven"
+	cont "felices con los"
+	cont "#MON."
 	done
 
 BeautyOliviaSeenText:
-	text "Don't you think my"
-	line "#MON and I are"
-	cont "beautiful?"
+	text "¿No crees que mis"
+	line "#MON y yo"
+	cont "somos bonitos?"
 	done
 
 BeautyOliviaBeatenText:
-	text "I keep my #MON"
-	line "prim and proper."
+	text "Mantengo a mi"
+	line "#MON como es"
+	cont "debido."
 	done
 
 BeautyOliviaAfterBattleText:
-	text "Have you ever had"
-	line "your #MON's"
-	para "hair cut in"
-	line "WESTPORT CITY?"
+	text "¿Alguna vez has"
+	line "estado en la pelu-"
+	cont "quería #MON de"
+	cont "CIUDAD PONIENTE?"
 	done
 
 Route108SignText:
-	text "ROUTE 108"
-
-	para "ALLOY CITY -"
-	line "BLUE FOREST"
+	text "RUTA 108"
+	
+	para "CIUDAD ALEAR -"
+	line "BOSQUE AZUL"
 	done
 
 Route108TrainerTipsText:
-	text "TRAINER TIPS"
+	text "PISTAS ENTRENADOR"
 
-	para "If a #MON is"
-	line "trying to evolve,"
-	cont "you can stop it."
+	para "Si un #MON"
+	line "va a evolucionar,"
+	cont "puedes pararlo."
 
-	para "Press the B But-"
-	line "ton during evolu-"
-	cont "tion."
+	para "Pulsa el Botón B"
+	line "mientras intenta"
+	cont "evolucionar."
 
-	para "That startles the"
-	line "#MON and stops"
-	cont "its evolution."
+	para "Esto asusta al"
+	line "#MON y detiene"
+	cont "su evolución."
 	done
 
 Route108_MapEvents:
@@ -196,5 +198,5 @@ Route108_MapEvents:
 ;	object_event  8,  7, SPRITE_LASS, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 2, TrainerLassDana1, -1
 	object_event  7, 12, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 1, TrainerBirdKeeperToby, -1
 ;	object_event 24,  4, SPRITE_SAILOR, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 2, TrainerSailorHarry, -1
-	object_event 28,  5, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route108FruitTree, -1
+	object_event 28,  5, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, Route108FruitTree, -1
 	object_event 18, 11, SPRITE_LASS, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 3, TrainerBeautyOlivia, -1

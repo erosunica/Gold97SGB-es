@@ -1,10 +1,10 @@
-	db "DRILL@" ; species name
-	dw 403, 1320 ; height, weight
+	db "TALADRO@" ; species name
+	dbw 13, 600 ; height, weight
 
-	db   "The hard scales"
-	next "that cover its"
-	next "strong body serve"
+	db   "Las duras escamas"
+	next "que le recubren"
+	next "el cuerpo son una"
 
-	page "as excellent"
-	next "protection from"
-	next "any attack.@"
+	page "protección"
+	next "excelente contra"
+	next "cualquier ataque.@"

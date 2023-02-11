@@ -1,10 +1,10 @@
-	db "KICKING@" ; species name
-	dw 411, 1100 ; height, weight
+	db "PATADA@" ; species name
+	dbw 15, 498 ; height, weight
 
-	db   "It is also called"
-	next "the Kick Master."
-	next "It uses its"
+	db   "Se le conoce como"
+	next "el Maestro de las"
+	next "Patadas. Utiliza"
 
-	page "elastic legs to"
-	next "execute every"
-	next "known kick.@"
+	page "la elasticidad que"
+	next "tiene para dar sus"
+	next "famosas patadas.@"

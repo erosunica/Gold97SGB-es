@@ -1,10 +1,10 @@
-	db "VINE@" ; species name
-	dw 303, 770 ; height, weight
+	db "ENREDADERA@" ; species name
+	dbw 10, 350 ; height, weight
 
-	db   "During battle, it"
-	next "constantly moves"
-	next "the vines that"
+	db   "Durante el combate"
+	next "no deja de mover"
+	next "los tentáculos que"
 
-	page "cover its body in"
-	next "order to annoy its"
-	next "opponent.@"
+	page "cubren su cuerpo"
+	next "para molestar a"
+	next "sus enemigos.@"

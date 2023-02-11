@@ -288,116 +288,128 @@ MovementData_0x74efe:
 	step_end
 	
 ThanksForTheFuelLine:
-	text "Thanks, kid!"
-	para "The S.S.AQUA is"
-	line "back to being"
-	cont "fully operational!"
-	para "We can't thank you"
-	line "enough!"
-	para "Talk to the"
-	line "CAPTAIN next time"
-	cont "you're onboard."
-	para "I'm sure he'll"
-	line "have some way to"
-	cont "show his thanks!"
+	text "¡Gracias, chico!"
+
+	para "¡El S.S. AQUA"
+	line "vuelve a funcionar"
+	cont "perfectamente!"
+
+	para "¡No te lo podemos"
+	line "agradecer lo"
+	cont "suficiente!"
+
+	para "Habla con el"
+	line "CAPITÁN la próxima"
+	cont "vez que estés a"
+	cont "bordo."
+
+	para "¡Seguro que podrá"
+	line "darte las gracias"
+	cont "de algún modo!"
 	done
-	
+
 YouHaveTheFuelLine:
-	text "Ah, the FUEL LINE!"
-	para "Wow!"
-	para "Let me go bring"
-	line "this to the ship"
-	cont "crew!"
+	text "¡Ah, el TUBO"
+	line "COMBUSTIBLE!"
+
+	para "¡Uau!"
+
+	para "¡Déjame llevárselo"
+	line "a la tripulación!"
 	done
-	
+
 GoGetThePart:
-	text "Alright, kid. We"
-	line "need a new FUEL"
-	cont "LINE."
-	para "There's a guy in"
-	line "KUME CITY who'll"
-	cont "have what we need."
-	para "Bring it back here"
-	line "when you have it!"
+	text "Vale, escucha."
+	line "Necesitamos un"
+	cont "nuevo TUBO"
+	cont "COMBUSTIBLE."
+
+	para "Hay un tipo en"
+	line "CIUDAD KUME que"
+	cont "tiene lo que"
+	cont "necesitamos."
+
+	para "¡Tráelo aquí"
+	line "cuando lo tengas!"
 	done
 
 UnknownText_0x74f06:
-	text "We're departing"
-	line "soon. Please get"
-	cont "on board."
+	text "El barco va a"
+	line "zarpar. Por favor,"
+	cont "sube a bordo."
 	done
 
 UnknownText_0x74f31:
-	text "Sorry. You can't"
-	line "board now."
+	text "Lo siento. No"
+	line "puedes embarcar."
 	done
 
 UnknownText_0x74f4d:
-	text "Welcome to the"
-	line "AMAMI DOCKS."
+	text "Bienvenido al"
+	line "MUELLE AMAMI."
 
-	para "Will you be board-"
-	line "ing the FAST SHIP"
-	para "to WESTPORT CITY"
-	line "today?"
+	para "¿Subirás a bordo"
+	line "del FERRY que"
+	cont "zarpa hoy a CIUDAD"
+	cont "PONIENTE?"
 	done
 
 UnknownText_0x74f8b:
-	text "May I see your"
-	line "S.S.TICKET?"
+	text "¿Puedo ver tu"
+	line "TICKET BARCO?"
 	done
 
 UnknownText_0x74fa7:
-	text "We hope to see you"
-	line "again!"
+	text "¡Esperamos volver"
+	line "a verte!"
 	done
 
 AmamiPortSSTicketText:
-	text "<PLAYER> flashed"
-	line "the S.S.TICKET."
+	text "<PLAYER> enseña"
+	line "el TICKET BARCO."
 
-	para "That's it."
-	line "Thank you!"
+	para "Muy bien."
+	line "¡Gracias, joven!"
 	done
 
 UnknownText_0x74ff2:
-	text "<PLAYER> tried to"
-	line "show the S.S."
-	cont "TICKET…"
+	text "<PLAYER> intentó"
+	line "enseñar el TICKET"
+	cont "BARCO…"
 
-	para "…But no TICKET!"
+	para "¡Pero no lo tiene!"
 
-	para "Sorry!"
-	line "You may board only"
-
-	para "if you have an"
-	line "S.S.TICKET."
+	para "¡Lo siento!"
+	line "Sólo puedes subir"
+	para "si tienes un"
+	line "TICKET BARCO."
 	done
 
 UnknownText_0x75059:
-	text "Sorry, but the"
-	line "next boat to"
-	para "WESTPORT CITY"
-	line "will set sail on"
-	cont "Wednesday."
+	text "Lo siento, pero el"
+	line "siguiente barco a"
+	para "CIUDAD PONIENTE"
+	line "zarpará el"
+	cont "miércoles."
 	done
 
 UnknownText_0x75080:
-	text "Sorry, but the"
-	line "next boat to"
-	para "WESTPORT CITY"
-	line "will set sail on"
-	cont "Sunday."
+	text "Lo siento, pero el"
+	line "siguiente barco a"
+	para "CIUDAD PONIENTE"
+	line "zarpará el"
+	cont "domingo."
 	done
 
 UnknownText_0x750a6:
-	text "You came from"
-	line "the mainland?"
+	text "¿Vienes del"
+	line "continente?"
 
-	para "I hear many rare"
-	line "#MON live over"
-	cont "there."
+	para "He oído que allí"
+	line "viven muchos"
+	cont "#MON raros."
 	done
+
 
 AmamiPort_MapEvents:
 	db 0, 0 ; filler

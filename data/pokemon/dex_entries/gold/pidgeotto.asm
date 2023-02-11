@@ -1,10 +1,10 @@
-	db "BIRD@" ; species name
-	dw 307, 660 ; height, weight
+	db "PÁJARO@" ; species name
+	dbw 11, 300 ; height, weight
 
-	db   "It slowly flies in"
-	next "a circular pat-"
-	next "tern, all the"
+	db   "Vuela en círculos,"
+	next "muy despacio,"
+	next "mientras busca con"
 
-	page "while keeping a"
-	next "sharp lookout for"
-	next "prey.@"
+	page "atención a la que"
+	next "será su próxima"
+	next "presa.@"

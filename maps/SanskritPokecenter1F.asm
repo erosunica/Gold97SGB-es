@@ -35,44 +35,45 @@ SanskritPokecenter1FCooltrainerFScript:
 	jumptextfaceplayer SanskritPokecenter1FCooltrainerFText
 
 SanskritPokecenter1FPokefanMText:
-	text "Good riddance to"
-	line "TEAM ROCKET!"
-	para "They have no place"
-	line "in our town!"
-	done
-	
-SanskritPokecenter1FPokefanMText2:
-	text "What's this? TEAM"
-	line "ROCKET has come"
-	cont "back?"
+	text "¡Adiós al TEAM"
+	line "ROCKET!"
 
-	para "There's a house in"
-	line "town that sure"
-	para "seems to have"
-	line "several members"
-	cont "in it."
-	para "I wonder what"
-	line "they're up to…"
+	para "¡No tienen cabida"
+	line "en nuestro pueblo!"
+	done
+
+SanskritPokecenter1FPokefanMText2:
+	text "¿Qué es esto? ¿Ha"
+	line "vuelto el TEAM"
+	cont "ROCKET?"
+	
+	para "Hay una casa en"
+	line "el pueblo en la"
+	cont "que hay muchos"
+	cont "miembros."
+
+	para "Me pregunto qué"
+	line "están tramando…"
 	done
 
 SanskritPokecenter1FYoungsterText:
-	text "I stop my #MON"
-	line "from evolving too"
-	cont "early."
+	text "No permito que mis"
+	line "#MON evolu-"
+	cont "cionen demasiado"
+	cont "pronto."
 
-	para "I make them learn"
-	line "certain moves be-"
-	cont "fore I let them"
-	cont "evolve."
+	para "Antes de dejarles"
+	line "evolucionar, les"
+	para "enseño algunos"
+	line "movimientos."
 	done
 
 SanskritPokecenter1FCooltrainerFText:
-	text "#MON do become"
-	line "stronger when they"
-
-	para "evolve, but they"
-	line "also learn moves"
-	cont "more slowly."
+	text "Al evolucionar,"
+	line "los #MON se"
+	para "fortalecen, pero"
+	line "tardan más en"
+	cont "aprender ataques."
 	done
 
 SanskritPokecenter1F_MapEvents:

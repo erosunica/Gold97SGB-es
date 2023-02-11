@@ -1,12 +1,15 @@
-; pokegold requires rgbds 0.4.0 or newer.
+;Make this project require rgbds 0.5.2.
 MAJOR EQU 0
-MINOR EQU 4
-PATCH EQU 0
+MINOR EQU 5
+PATCH EQU 2
 
-if !DEF(__RGBDS_MAJOR__) || !DEF(__RGBDS_MINOR__) || !DEF(__RGBDS_PATCH__)
-	fail "pokegold requires rgbds {MAJOR}.{MINOR}.{PATCH} or newer."
-elif (__RGBDS_MAJOR__ < MAJOR) || \
+IF !DEF(__RGBDS_MAJOR__) || !DEF(__RGBDS_MINOR__) || !DEF(__RGBDS_PATCH__)
+	FAIL "This project requires rgbds {MAJOR}.{MINOR}.{PATCH} to be installed"
+ELIF (__RGBDS_MAJOR__ < MAJOR) || \
 	(__RGBDS_MAJOR__ == MAJOR && __RGBDS_MINOR__ < MINOR) || \
 	(__RGBDS_MAJOR__ == MAJOR && __RGBDS_MINOR__ == MINOR && __RGBDS_PATCH__ < PATCH)
-	fail "pokegold requires rgbds {MAJOR}.{MINOR}.{PATCH} or newer."
-endc
+	FAIL "This project requires that rgbds be upgraded to the {MAJOR}.{MINOR}.{PATCH} release."
+ELIF (__RGBDS_MAJOR__ > MAJOR) || \
+	(__RGBDS_MAJOR__ == MAJOR && __RGBDS_MINOR__ > MINOR)
+	FAIL "This project requires that rgbds be downgraded to {MAJOR}.{MINOR}.{PATCH} at most."
+ENDC

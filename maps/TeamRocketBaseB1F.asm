@@ -404,10 +404,10 @@ TeamRocketBaseB1FComputerConsoleMenu:
 .MenuDataConsole:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "ABOUT SYSTEM@"
-	db "CURRENT STATUS@"
-	db "POWER SETTINGS@"
-	db "SIGN OUT@"
+	db "SOBRE EL SISTEMA@"
+	db "ESTADO ACTUAL@"
+	db "AJUSTAR ENERGÍA@"
+	db "SALIR@"
 	
 TeamRocketBaseB1FComputerConsolePowerMenu:
 	db MENU_BACKUP_TILES ; flags
@@ -418,10 +418,10 @@ TeamRocketBaseB1FComputerConsolePowerMenu:
 .MenuDataPowerConsole:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "INCREASE POWER@"
-	db "DECREASE POWER@"
-	db "SHUT DOWN POWER@"
-	db "PREVIOUS MENU@"
+	db "MÁS ENERGÍA@"
+	db "MENOS ENERGÍA@"
+	db "APAGAR SISTEMA@"
+	db "MENÚ ANTERIOR@"
 	
 TeamRocketBaseB1FComputerConsole_cancel:
 	writetext TeamRocketBaseB1FComputerConsoleCancelText
@@ -497,158 +497,183 @@ StraigarJumpsDown:
 	step_end
 	
 WaitGottaFindOut:
-	text "<RIVAL>: Wait!"
-	line "There's still"
-	cont "more!?"
-	para "Come on,"
-	line "<PLAYER>!"
-	para "I'm going to find"
-	line "out what that"
-	cont "means!"
-	para "You should come"
-	line "too!"
-	para "We have to take"
-	line "these guys out,"
-	cont "once and for all!"
+	text "<RIVAL>: ¡Espera!"
+	line "¡¿Aún hay más?!"
+
+	para "¡Vamos, <PLAYER>!"
+
+	para "¡Voy a averiguar"
+	line "qué significa"
+	cont "esto!"
+
+	para "¡Deberías venir tú"
+	line "también!"
+
+	para "¡Tenemos que en-"
+	line "cargarnos de estos"
+	para "tipos de una vez"
+	line "por todas!"
 	done
-	
+
 WhatHaveYouDoneText:
-	text "EXECUTIVE: No!"
-	para "What have you"
-	line "done?!"
-	para "You've destroyed"
-	line "all of our hard"
-	cont "work!"
-	para "GIOVANNI is"
-	line "going to be"
-	para "furious when he"
-	line "finds out!"
-	para "But he'll be even"
-	line "more furious at"
-	para "you two if he ever"
-	line "meets you!"
+	text "EJECUTIVO: ¡No!"
+
+	para "¡¿Qué has hecho?!"
+
+	para "¡Has destruido"
+	line "todo nuestro duro"
+	cont "trabajo!"
+
+	para "¡GIOVANNI se"
+	line "enfurecerá cuando"
+	cont "lo sepa!"
+
+	para "¡Y sobre todo con"
+	line "vosotros si llega"
+	cont "a encontraros!"
 	done
-	
+
 WhatHaveYouDoneText2:
 	text "…"
-	para "I had hoped it"
-	line "wouldn't have to"
-	cont "come to this."
-	para "But TEAM ROCKET is"
-	line "not out yet!"
-	para "We have one final"
+	para "No creí que llega-"
+	line "ríamos a esto."
+
+	para "¡Pero el TEAM"
+	line "ROCKET no se"
+	cont "rendirá!"
+
+	para "Tenemos un último"
 	line "plan."
-	para "And we intend to"
-	line "use it!"
+
+	para "¡Y lo llevaremos a"
+	line "cabo!"
 	done
-	
+
 StraigarDestroyedTheThing:
-	text "<RIVAL>: Great"
-	line "job, STRAIGAR!"
-	para "You did it!"
+	text "<RIVAL>: ¡Buen"
+	line "trabajo, STRAIGAR!"
+
+	para "¡Así se hace!"
 	done
-	
+
 StraigarDestroyedTheThing2:
-	text "Now this thing"
-	line "will never hurt"
-	cont "another #MON!"
+	text "¡Ahora esta cosa"
+	line "nunca volverá a"
+	cont "dañar a los"
+	cont "#MON!"
 	done
-	
+
 StraigarDestroysTheThing:
 	text "STRAIGAR:"
-	line "Raiiiii!!"
+	line "¡Straiiii!"
 	done
-	
+
 StraigarDestroyThisThing:
-	text "Go! STRAIGAR!"
+	text "¡Adelante,"
+	line "STRAIGAR!"
 	done
-	
+
 StraigarDestroyThisThing2:
-	text "Hop on up there"
-	line "and destroy this"
-	para "thing with your"
-	line "best THUNDERBOLT"
-	cont "attack!"
+	text "¡Ve y destruye"
+	line "esta cosa con tu"
+	cont "mejor ataque RAYO!"
 	done
-	
+
 WowItsShuttingDown:
-	text "<RIVAL>: Wow,"
+	text "<RIVAL>: ¡Uau,"
 	line "<PLAYER>!"
-	para "You got it to turn"
-	line "off!"
-	para "You know what I've"
-	line "found out?"
-	para "This machine was"
-	line "going to be able"
-	para "to control the"
-	line "minds of #MON!"
-	para "That's what TEAM"
-	line "ROCKET's plan was"
-	cont "all along!"
-	para "I can't believe"
-	line "that's what they"
-	cont "were going to do!"
-	para "It's terrible!"
-	para "I don't think"
-	line "it's enough to"
-	para "just turn this"
-	line "thing off!"
-	para "It needs to be"
-	line "destroyed!"
+
+	para "¡Has conseguido"
+	line "apagarlo!"
+
+	para "¿Sabes lo que he"
+	line "averiguado?"
+	para "¡Esta máquina iba"
+	line "a controlar la"
+	cont "mente de los"
+	cont "#MON!"
+
+	para "¡Eso es lo que el"
+	line "TEAM ROCKET ha"
+	para "estado tramando"
+	line "todo este tiempo!"
+
+	para "¡No puedo creer"
+	line "que fueran a hacer"
+	cont "eso!"
+
+	para "¡Es terrible!"
+
+	para "¡No creo que sea"
+	line "suficiente con"
+	cont "apagar esta cosa!"
+
+	para "¡Hay que"
+	line "destruirla!"
 	done
-	
+
 HowDidYouKidsGetDownHereText:
-	text "IMPOSTOR OAK: Hey!"
-	line "How'd you kids get"
-	cont "down here!"
-	para "No one who is un-"
-	line "authorized should"
-	para "be anywhere near"
-	line "this machine!"
-	para "It is a very"
-	line "powerful antenna,"
-	para "and it takes a"
-	line "very long time to"
-	cont "reach full power!"
-	para "Well, I guess it"
-	line "doesn't matter,"
-	para "since you can't"
-	line "turn it off unless"
-	para "you know the"
-	line "password!"
-	para "And there's no way"
-	line "you could figure"
-	cont "that out!"
-	para "I gotta tell the"
-	line "boss that we have"
-	cont "intruders!"
+	text "OAK IMPOSTOR:"
+	line "¡Pero bueno, cómo"
+	para "habéis llegado"
+	line "hasta aquí!"
+
+	para "¡Nadie sin autori-"
+	line "zación debería"
+	para "estar cerca de"
+	line "esta máquina!"
+
+	para "¡Es una antena muy"
+	line "potente, y necesi-"
+	cont "ta mucho tiempo"
+	cont "para cargarse al"
+	cont "máximo!"
+
+	para "Supongo que no"
+	line "importa, ¡porque"
+	para "no podéis apagarla"
+	line "si no sabéis la"
+	cont "contraseña!"
+
+	para "¡Y no tenéis mane-"
+	line "ra de averiguar"
+	cont "cuál es!"
+
+	para "¡Le diré al jefe"
+	line "que tenemos"
+	cont "intrusos!"
 	done
-	
+
 SilverHeyWaitWhatsGoingOnText:
-	text "Hey, wait!"
-	para "What's this all"
-	line "about!?"
-	para "I demand answers!"
+	text "¡Oye, espera!"
+
+	para "¡¿De qué va todo"
+	line "esto?!"
+
+	para "¡Exijo una"
+	line "respuesta!"
 	done
-	
+
 YoureNotOakCompScene:
-	text "<RIVAL>: Wait!"
-	para "What's going on"
-	line "here!?"
-	para "You're not PROF."
-	line "OAK!"
+	text "<RIVAL>: ¡Espera!"
+
+	para "¡¿Qué está pasando"
+	line "aquí?!"
+
+	para "¡Tú no eres el"
+	line "PROF. OAK!"
 	done
-	
+
 SystemAlreadyOff:
-	text "The system makes"
-	line "no noise and seems"
-	cont "inoperable…"
+	text "El sistema no hace"
+	line "ruido y parece"
+	cont "inoperativo…"
 	done
-	
+
 SystemShuttingDown:
-	text "REQUEST CONFIRMED"
-	para "SYSTEM POWER"
-	line "SHUTTING DOWN"
+	text "SOLICITUD"
+	line "CONFIRMADA"
+	para "APAGANDO SISTEMA"
 	para "---------"
 	para "--------"
 	para "-------"
@@ -659,244 +684,251 @@ SystemShuttingDown:
 	para "--"
 	para "-"
 	done
-	
+
 AreYouSurePowerText:
-	text "ARE YOU ABSOLUTELY"
-	line "SURE?"
+	text "¿ESTÁ TOTALMENTE"
+	line "SEGURO?"
 	done
-	
+
 ReturningToPowerMenu:
-	text "RETURNING TO"
-	line "PREVIOUS MENU…"
+	text "VOLVIENDO AL MENÚ"
+	line "ANTERIOR…"
 	done
-	
+
 PasswordEntered:
-	text "<PLAYER> entered"
-	line "the password…"
-	para "'HAIL GIOVANNI'"
+	text "<PLAYER> introdujo"
+	line "la contraseña…"
+	para "“VIVA GIOVANNI”"
 	para "…"
-	para "WARNING!"
-	line "THE ACTION YOU ARE"
-	para "ABOUT TO TAKE CAN-"
-	line "NOT BE EASILY"
-	cont "REVERSED!"
-	para "PLEASE CONFIRM"
-	line "INTENT AGAIN."
-	para "DO YOU WISH TO"
-	line "SHUT DOWN ALL"
-	cont "SYSTEM POWER?"
+	para "¡ADVERTENCIA! ¡EL"
+	line "COMANDO QUE VA A"
+	cont "EJECUTAR NO PUEDE"
+	cont "DESHACERSE!"
+
+	para "POR FAVOR,"
+	line "CONFIRME DE NUEVO"
+	cont "SU INTENCIÓN."
+
+	para "¿QUIERE APAGAR"
+	line "TODO EL SISTEMA?"
 	done
-	
+
 ConsoleWhatDoPower:
-	text "SELECT POWER"
-	line "ADJUSTMENTS"
+	text "SELECCIONE LOS"
+	line "AJUSTES DE LA"
+	cont "ENERGÍA"
 	done
-	
+
 ConsolePowerMenu1Text:
-	text "POWER IS ALREADY"
-	line "INCREASING!"
+	text "¡LA ENERGÍA ESTÁ"
+	line "AUMENTANDO!"
 	done
-	
+
 ConsolePowerMenu2Text:
-	text "THIS FUNCTION IS"
-	line "NOT CURRENTLY"
-	cont "AVAILABLE"
+	text "ESTA FUNCIÓN NO"
+	line "ESTÁ DISPONIBLE"
 	done
-	
+
 ConsolePowerMenu3Text:
-	text "PASSWORD REQUIRED"
-	line "FOR THIS FUNCTION"
+	text "SE REQUIERE UNA"
+	line "CONTRASEÑA PARA"
+	cont "ESTA FUNCIÓN"
 	done
-	
+
 ConsoleWhatDo:
-	text "MAIN MENU -"
-	line "SELECT ACTION"
+	text "MENÚ PRINCIPAL -"
+	line "SELECCIONAR"
+	cont "COMANDO"
 	done
-	
+
 ConsoleMenu1Text:
-	text "MIND CONTROL"
-	line "SYSTEM SOFTWARE"
-	cont "VERSION 1.03"	
+	text "SISTEMA DE"
+	line "CONTROL MENTAL"
+	cont "VERSIÓN 1.03"
 	done
-	
+
 ConsoleMenu2Text:
-	text "CURRENT CAPACITY-"
-	line "74 PERCENT…"
+	text "CAPACIDAD ACTUAL:"
+	line "74 POR CIENTO…"
 	done
-	
+
 ConsoleMenu3Text:
-	text "ENTERING POWER"
-	line "SETTINGS MENU"
+	text "ACCEDIENDO AL MENÚ"
+	line "DE AJUSTAR ENERGÍA"
 	done
-	
+
 TeamRocketBaseB1FComputerConsoleCancelText:
-	text "SIGNING OUT OF"
-	line "CONSOLE…"
+	text "SALIENDO DE LA"
+	line "CONSOLA…"
 	done
-	
+
 TeamRocketBaseB1FComputerConsoleIntroText:
-	text "BOOTING TEAM"
-	line "ROCKET #MON"
-	cont "CONTROL CONSOLE"
+	text "ENCENDIENDO"
+	line "CONSOLA DE CONTROL"
+	cont "#MON DEL TEAM"
+	cont "ROCKET"
 	done
 
 ScientistMitchSeenText:
-	text "Our mind control"
-	line "wave will allow"
-	para "us to take over"
-	line "the world!"
-	done
-	
-ScientistMitchBeatenText:
-	text "As soon as it's"
-	line "fully functional."
-	done
-	
-ScientistMitchAfterBattleText:
-	text "TEAM ROCKET's"
-	line "scientific"
-	para "accomplishments"
-	line "are incredible!"
+	text "¡Nuestra señal de"
+	line "control mental nos"
+	para "permitirá dominar"
+	line "el mundo!"
 	done
 
+ScientistMitchBeatenText:
+	text "Tan pronto como"
+	line "funcione por"
+	cont "completo."
+	done
+
+ScientistMitchAfterBattleText:
+	text "¡Los logros"
+	line "científicos del"
+	cont "TEAM ROCKET son"
+	cont "increíbles!"
+	done
 
 ScientistRossSeenText:
-	text "What are we"
-	line "doing here, you"
-	cont "ask?"
-	para "Nothing much."
-	para "Only on the brink"
-	line "of taking control"
-	para "of every #MON"
-	line "in the world!"
+	text "Te preguntarás"
+	line "qué hacemos aquí."
+	para "Nada en especial."
+
+	para "¡Solo estamos a"
+	line "punto de controlar"
+	para "a todos los"
+	line "#MON del mundo!"
 	done
-	
+
 ScientistRossBeatenText:
-	text "Yours clearly"
-	line "aren't under our"
+	text "Los tuyos"
+	line "claramente no"
+	cont "están bajo nuestro"
 	cont "control…"
 	done
-	
+
 ScientistRossAfterBattleText:
-	text "The antenna isn't"
-	line "at full power yet."
-	para "It takes a very"
-	line "long time to"
-	cont "reach full power."
+	text "La antena aún no"
+	line "está totalmente"
+	cont "cargada."
+
+	para "Necesita mucho"
+	line "tiempo para car-"
+	cont "garse al máximo."
 	done
 
 GruntM16SeenText:
-	text "You again?"
-	para "I'm really tired"
-	line "of seeing you"
-	cont "around."
-	done
-	
-GruntM16BeatenText:
-	text "I'm really tired"
-	line "of losing, too."
-	done
-	
-GruntM16AfterBattleText:
-	text "I'm kinda tired"
-	line "of working for"
-	para "TEAM ROCKET as"
-	line "well."
+	text "¿Tú otra vez?"
+	para "Ya me estoy"
+	line "cansando de veros."
 	done
 
+GruntM16BeatenText:
+	text "También me estoy"
+	line "cansando de"
+	cont "perder."
+	done
+
+GruntM16AfterBattleText:
+	text "Sobre todo, me"
+	line "estoy cansando de"
+	para "trabajar para el"
+	line "TEAM ROCKET."
+	done
 
 GruntM15SeenText:
-	text "You're a real"
-	line "pain, you know"
-	cont "that?"
-	done
-	
-GruntM15BeatenText:
-	text "This was also"
-	line "painful!"
-	done
-	
-GruntM15AfterBattleText:
-	text "You know, we all"
-	line "get in trouble"
-	para "after you kids"
-	line "come in here and"
-	cont "walk all over us."
+	text "Eres todo un"
+	line "incordio, ¿lo"
+	cont "sabías?"
 	done
 
+GruntM15BeatenText:
+	text "¡Lo que digo, un"
+	line "incordio!"
+	done
+
+GruntM15AfterBattleText:
+	text "Estamos todos en"
+	line "problemas desde"
+	para "que habéis venido"
+	line "y arrasado con"
+	cont "nosotros."
+	done
 
 GruntM14SeenText:
-	text "We're all really"
-	line "excited about"
-	para "what's about to"
-	line "happen!"
-	para "I don't want to"
-	line "see some kid get"
-	cont "in the way!"
-	done
-	
-GruntM14BeatenText:
-	text "How dare you!"
-	done
-	
-GruntM14AfterBattleText:
-	text "Just try to stop"
-	line "our operations!"
+	text "¡Estamos emociona-"
+	line "dos con lo que"
+	cont "está a punto de"
+	cont "suceder!"
+
+	para "¡No te metas en"
+	line "medio, mocoso!"
 	done
 
+GruntM14BeatenText:
+	text "¡Cómo te atreves!"
+	done
+
+GruntM14AfterBattleText:
+	text "¡A ver si puedes"
+	line "detenernos!"
+	done
 
 GruntM10SeenText:
-	text "I'll show you what"
-	line "happens when you"
-	cont "get in my way!"
+	text "¡Te enseñaré lo"
+	line "que pasa cuando te"
+	cont "metes en mi"
+	cont "camino!"
 	done
-	
+
 GruntM10BeatenText:
-	text "I lose…"
+	text "He perdido…"
 	done
-	
+
 GruntM10AfterBattleText:
-	text "Apparently I get"
-	line "defeated when you"
-	cont "get in my way…"
+	text "Parece que pierdo"
+	line "cuando te metes en"
+	cont "mi camino…"
 	done
 
 GruntM9SeenText:
-	text "I'm the one who"
-	line "is really going to"
-	cont "stop you!"
+	text "¡Yo voy a ser"
+	line "quien te detenga!"
 	done
-	
+
 GruntM9BeatenText:
-	text "Why did I expect"
-	line "anything else?"
+	text "¿Para qué digo"
+	line "nada?"
 	done
-	
+
 GruntM9AfterBattleText:
-	text "We GRUNTS don't"
-	line "really get much"
-	para "time to raise our"
-	line "#MON."
+	text "Los SOLDADOS no"
+	line "tenemos mucho"
+	para "tiempo para criar"
+	line "a nuestros"
+	cont "#MON."
 	done
-	
+
 GruntM8SeenText:
-	text "You don't belong"
-	line "in here!"
-	para "TEAM ROCKET"
-	line "members only!"
+	text "¡No deberías estar"
+	line "aquí!"
+
+	para "¡Aquí solo entran"
+	line "miembros del TEAM"
+	cont "ROCKET!"
 	done
-	
+
 GruntM8BeatenText:
-	text "You still don't"
-	line "belong…"
+	text "Aún así no"
+	line "deberías estar…"
 	done
-	
+
 GruntM8AfterBattleText:
-	text "Go on ahead, I"
-	line "suppose."
-	para "I don't care to"
-	line "do anything else"
-	cont "to stop you."
+	text "Sigue adelante,"
+	line "supongo."
+
+	para "No puedo hacer más"
+	line "para detenerte."
 	done
 
 TeamRocketBaseB1F_MapEvents:

@@ -63,44 +63,51 @@ BirdonTownHiddenFullHeal:
 
 
 BirdonTownGrampsTextBefore:
-	text "ENOKI, the GYM"
-	line "LEADER here, is a"
-	cont "mysterious man."
-	para "Not much is known"
-	line "about him."
-	para "However, it is"
-	line "known that he"
-	para "studies NIHON's"
-	line "myths and legends."
-	para "He is also, of"
-	line "course, an"
-	cont "excellent trainer."
+	text "Nuestro LÍDER de"
+	line "GIMNASIO, ORFEO,"
+	para "es un hombre"
+	line "envuelto en"
+	cont "misterio."
+
+	para "No se sabe mucho"
+	line "sobre él."
+
+	para "Aunque estamos al"
+	line "tanto de que"
+	para "estudia los mitos"
+	line "y leyendas de"
+	cont "NIHON."
+
+	para "Y, por supuesto,"
+	line "es un excelente"
+	cont "entrenador."
 	done
 
 BirdonTownTeacherText:
-	text "We get very little"
-	line "rain here."
-	para "The SLOWPOKE WELL"
-	line "is an important"
-	para "part of our"
-	line "ecosystem."
+	text "Apenas llueve"
+	line "aquí."
+
+	para "El POZO SLOWPOKE"
+	line "es una parte esen-"
+	cont "cial de nuestro"
+	cont "ecosistema."
 	done
 
 BirdonTownYoungsterText:
-	text "EAST of here, a"
-	line "far ways down the"
-	para "road, is the JADE"
-	line "FOREST."
+	text "Lejos de aquí,"
+	line "hacia el este, se"
+	cont "llega al BOSQUE"
+	cont "JADE."
 
-	para "Past that is"
-	line "ALLOY CITY."
+	para "Y al cruzarlo, se"
+	line "llega a CIUDAD"
+	cont "ALEAR."
 	
-	para "The journey there"
-	line "is long."
+	para "Es un viaje largo."
 	
-	para "Rest here if you"
-	line "plan on making"
-	cont "your way there."
+	para "Descansa aquí si"
+	line "piensas ir hacia"
+	cont "allí."
 	done
 
 BirdonTownSlowpokeText1:
@@ -110,42 +117,39 @@ BirdonTownSlowpokeText1:
 	done
 
 BirdonTownSlowpokeText2:
-	text "<……> <……>Yawn?"
+	text "(Bostezo)<……>"
 	done
 
 
 BirdonTownSignText:
-	text "BIRDON TOWN"
-	para "Desolate In Plant"
-	line "Growth, But Not In"
-	cont "Friendship"
+	text "PUEBLO BIRDON"
+	
+	para "De suelo árido,"
+	line "pero amistad"
+	cont "fértil"
 	done
 
-
 WestportGymSignText:
-	text "BIRDON TOWN"
-	line "#MON GYM"
-	cont "LEADER: BUGSY"
+	text "LÍDER DEL GIMNASIO"
+	line "#MON DE PUEBLO"
+	cont "BIRDON: ANTÓN"
 
-	para "The Walking"
-	line "Bug #MON"
-	cont "Encyclopedia"
+	para "La enciclopedia"
+	line "andante de los"
+	cont "#MON bicho"
 	done
 
 SlowpokeWellSignText:
-	text "SLOWPOKE WELL"
+	text "POZO SLOWPOKE"
 
-	para "An Oasis For"
-	line "SLOWPOKE In an"
-	cont "Arid Environment"
+	para "El oasis de los"
+	line "SLOWPOKE"
 	done
 
 
 BirdonTownJadeForestSignText:
-	text "JADE FOREST"
-
-	para "Enter through the"
-	line "gate."
+	text "Acceso hacia el"
+	line "BOSQUE JADE"
 	done
 
 BirdonTown_MapEvents:
@@ -178,5 +182,5 @@ BirdonTown_MapEvents:
 	db 4 ; object events
 	object_event 14, 11, SPRITE_GRAMPS, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BirdonTownGrampsScript, -1
 	object_event 10,  7, SPRITE_TEACHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 1, 1, 1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, BirdonTownTeacherScript, -1
-	object_event  3, 11, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, BirdonTownYoungsterScript, -1
-	object_event 14,  8, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, FruitTreeBirdonTown, -1
+	object_event  3, 11, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, BirdonTownYoungsterScript, -1
+	object_event 14,  8, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, FruitTreeBirdonTown, -1

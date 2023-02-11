@@ -7,13 +7,13 @@ NameMenuHeader:
 .Names:
 	db STATICMENU_CURSOR | STATICMENU_PLACE_TITLE | STATICMENU_DISABLE_B ; flags
 	db 5 ; items
-	db "NEW NAME@"
+	db "NUEVO N.@"
 
 PlayerNameArray:
-	db "GOLD@"
+	db "ORO@"
 	db "HIRO@"
-	db "TAYLOR@"
-	db "KARL@"
+	db "TOMÁS@"
+	db "CARLOS@"
 
 	db 2
-	db "NAME@" ; title
+	db "NOMBRE@" ; title

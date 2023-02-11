@@ -45,47 +45,48 @@ AlloyLighthouse5FHiddenHyperPotion:
 	hiddenitem HYPER_POTION, EVENT_ALLOY_LIGHTHOUSE_5F_HIDDEN_HYPER_POTION
 
 SailorErnestSeenText:
-	text "I wanted to battle"
-	line "JASMINE, but she's"
-
-	para "not up to it now."
-	line "So, how about you?"
+	text "Quería luchar con"
+	line "YASMINA, pero no"
+	para "está disponible."
+	line "¿Y tú, qué…?"
 	done
 
 SailorErnestBeatenText:
-	text "Whoa, whoa. You're"
-	line "overwhoak2ing!"
+	text "¡Uauu! ¡Eres"
+	line "increíble!"
 	done
 
 SailorErnestAfterBattleText:
-	text "A GYM LEADER isn't"
-	line "just about being"
+	text "Ser LÍDER de"
+	line "GIMNASIO no es"
+	para "sólo cuestión"
+	line "de fuerza. Todo"
 
-	para "strong. A LEADER"
-	line "also needs to be"
-	cont "compassionate."
+	para "LÍDER también debe"
+	line "ser compasivo."
 	done
 
 BirdKeeperDenisSeenText:
-	text "We're pretty high"
-	line "up here. My bird"
+	text "Estamos a gran"
+	line "altura aquí. Mis"
 
-	para "#MON are in"
-	line "prime form."
+	para "#MON pájaro"
+	line "están en forma."
 	done
 
 BirdKeeperDenisBeatenText:
-	text "Oops…They crashed…"
+	text "¡Uups…!"
+	line "¡Se estrellaron!"
 	done
 
 BirdKeeperDenisAfterBattleText:
-	text "My #MON learned"
-	line "how to use FLY in"
-	cont "SUNPOINT."
+	text "Mi #MON"
+	line "aprendió VUELO en"
+	cont "CALORINA."
 
-	para "Well, since I'm a"
-	line "loser, I'll FLY"
-	cont "across the sea…"
+	para "Y como soy un"
+	line "perdedor, cruzaré"
+	cont "el mar VOLANDO…"
 	done
 
 AlloyLighthouse5F_MapEvents:

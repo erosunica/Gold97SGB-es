@@ -1,355 +1,359 @@
 PhoneMaleAnswerMornText:
-	text "Hello. This is"
+	text "Hola. Soy"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Good morning,"
+	para "¡Buenos días,"
 	line "<PLAYER>!"
 	done
 
 PhoneMaleAnswerDayText:
-	text "Hello. This is"
+	text "Hola. Soy"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "How's it going,"
+	para "¿Qué tal vas,"
 	line "<PLAYER>?"
 	done
 
 PhoneMaleAnswerNiteText:
-	text "Hello. This is"
+	text "Hola. Soy"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Good evening,"
+	para "¡Buenas noches,"
 	line "<PLAYER>!"
 	done
 
 PhoneFemaleAnswerMornText:
-	text "Hi. This is"
+	text "Hola, soy"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Hi, <PLAYER>!"
-	line "Good morning."
+	para "¡Hola, <PLAYER>!"
+	line "Buenos días."
 	done
 
 PhoneFemaleAnswerDayText:
-	text "Hi. This is"
+	text "Hola, soy"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Hi, <PLAYER>!"
-	line "How are you?"
+	para "¡Hola, <PLAYER>!"
+	line "¿Qué tal estás?"
 	done
 
 PhoneFemaleAnswerNiteText:
-	text "Hi. This is"
+	text "Hola, soy"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Hi, <PLAYER>!"
-	line "Good evening."
+	para "¡Hola, <PLAYER>!"
+	line "Buenas noches."
 	done
 
 PhoneMaleGreetMornText:
-	text "<PLAYER>, good"
-	line "morning!"
+	text "¡<PLAYER>, buenos"
+	line "días!"
 
-	para "It's me, @"
+	para "Soy yo, @"
 	text_ram wStringBuffer3
 	text "."
-	line "How are you doing?"
+	line "¿Qué tal vas?"
 	done
 
 PhoneMaleGreetDayText:
-	text "<PLAYER>, howdy!"
+	text "¡Hola, <PLAYER>!"
 
-	para "It's me, @"
+	para "Soy yo, @"
 	text_ram wStringBuffer3
 	text "."
-	line "Isn't it nice out?"
+	line "¿A que hace un día"
+	cont "estupendo?"
 	done
 
 PhoneMaleGreetNiteText:
-	text "<PLAYER>, good"
-	line "evening!"
+	text "¡Buenas noches,"
+	line "<PLAYER>!"
 
-	para "It's me, @"
+	para "¡Soy @"
 	text_ram wStringBuffer3
-	text "."
-	line "Got a minute?"
+	text "!"
+	line "¿Estás libre?"
 	done
 
 PhoneFemaleGreetMornText:
-	text "Good morning,"
+	text "Buenos días,"
 	line "<PLAYER>."
 
-	para "This is @"
+	para "Soy @"
 	text_ram wStringBuffer3
 	text "."
-	line "Did I wake you?"
+	line "¿Te he despertado?"
 	done
 
 PhoneFemaleGreetDayText:
-	text "Hello, <PLAYER>."
-
-	para "This is @"
+	text "Hola, <PLAYER>."
+	line "Soy @"
 	text_ram wStringBuffer3
 	text "."
-	line "How are things?"
+
+	para "¿Qué tal te van"
+	line "las cosas?"
 	done
 
 PhoneFemaleGreetNiteText:
-	text "Good evening,"
+	text "Buenas noches,"
 	line "<PLAYER>."
 
-	para "This is @"
+	para "Soy yo, @"
 	text_ram wStringBuffer3
 	text "."
-	line "Were you awake?"
+	line "¿Estabas"
+	cont "durmiendo?"
 	done
 
 PhoneMaleReallyEnergeticText:
-	text "How are your"
-	line "#MON doing?"
+	text "¿Qué tal están"
+	line "tus #MON?"
 
-	para "My @"
+	para "Mi @"
 	text_ram wStringBuffer4
-	text "'s"
-	line "really energetic."
-	cont "It's a handful!"
+	text_start
+	line "tiene mucha"
+	cont "energía. ¡Genial!"
 	done
 
 PhoneFemaleTopShapeText:
-	text "How are your"
-	line "#MON doing?"
+	text "¿Qué tal están"
+	line "tus #MON?"
 
-	para "I always keep my"
-	line "@"
+	para "Mi @"
 	text_ram wStringBuffer4
-	text " in top"
-
-	para "shape by going to"
-	line "#MON CENTERS."
+	text_start
+	line "está en forma"
+	
+	para "porque lo llevo al"
+	line "CENTRO #MON."
 	done
 
 PhoneMaleLookingAwesomeText:
-	text "My @"
+	text "Mi @"
 	text_ram wStringBuffer4
-	text "'s"
-	line "looking awesome."
-
-	para "I wish I could"
-	line "show you."
+	text_start
+	line "tiene un aspecto"
+	
+	para "increíble. Ojalá"
+	line "pudieras verlo."
 	done
 
 PhoneFemaleDressedUpText:
-	text "I dressed up my"
+	text "He vestido a mi"
 	line "@"
 	text_ram wStringBuffer4
 	text "."
 
-	para "It looks even"
-	line "cuter than before."
+	para "Tiene mucho mejor"
+	line "aspecto que antes."
 	done
 
 PhoneMaleManagedToBeatText:
-	text "Oh, yeah, I man-"
-	line "aged to beat a"
-	cont "tough @"
+	text "¡Sí! He ganado"
+	line "a un fuerte"
+	cont "@"
 	text_ram wStringBuffer4
 	text "."
 
-	para "I need to make my"
-	line "party stronger."
+	para "Debo fortalecer"
+	line "a mi equipo."
 	done
 
 PhoneFemaleTypeAdvantageText:
-	text "You have to hear"
-	line "this! I battled"
-
-	para "@"
+	text "¡Tienes que oír"
+	line "esto! El otro día"
+	
+	para "derroté a"
+	line "@"
 	text_ram wStringBuffer4
-	text " the"
-	line "other day."
+	text "."
 
-	para "It was easy! I had"
-	line "a type advantage."
+	para "¡Fue sencillo!"
+	line "Tuve ventaja."
 	done
 
 PhoneMaleAlmostCaughtText:
-	text "Hey, listen!"
-	line "I almost caught"
-
+	text "¡Eh, escucha!"
+	line "Casi atrapo a"
+	
 	para "@"
 	text_ram wStringBuffer4
-	text " the"
-	line "other day."
+	text " el"
+	line "otro día."
 
-	para "Oh, it was soooo"
-	line "close too!"
+	para "¡Oh, estuve"
+	line "muy cerca!"
 	done
 
 PhoneFemaleMissedCatchingText:
-	text "Guess what happen-"
-	line "ed the other day."
+	text "¿Sabes lo que me"
+	line "pasó el otro día?"
 
-	para "I missed catching"
-	line "@"
+	para "Se me volvió"
+	line "a escapar"
+	cont "@"
 	text_ram wStringBuffer4
-	text " again."
-
-	para "Maybe I'm not very"
-	line "good at this…"
+	text "."
+	
+	para "Quizá no sea tan"
+	line "guay en esto…"
 	done
 
 PhoneMaleWantsToBattleText:
-	text "Want to battle?"
-	line "It's not going to"
+	text "¿Quieres luchar?"
+	line "No volverá a"
 
-	para "be a repeat of the"
-	line "last time we met."
+	para "ocurrir lo de la"
+	line "última vez."
 
-	para "I'll be around"
+	para "Estaré por"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 	done
 
 PhoneFemaleWantsToBattleText:
-	text "Do you want to"
-	line "battle? I'm going"
-	cont "to win this time!"
+	text "¿Quieres luchar?"
+	line "¡Esta vez ganaré!"
 
-	para "I'll be waiting"
-	line "for you around"
-
+	para "Te estaré"
+	line "esperando por"
+	
 	para "@"
 	text_ram wStringBuffer5
 	text "."
-	line "Look for me, OK?"
+	line "Búscame, ¿vale?"
 	done
 
 PhoneWrongNumberKazText:
-	text "Hello? This is"
+	text "¿Hola? Soy"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Uh-oh… You're not"
-	line "KAZ! Sorry, wrong"
-	cont "number."
+	para "¡Oh, oh…! ¡Tú no"
+	line "eres MATEO! ¡Vaya,"
+	cont "me he equivocado!"
 	done
 
 PhoneWrongNumberAudreyText:
-	text "Hello, this is"
+	text "Hola, soy"
 	line "@"
 	text_ram wStringBuffer3
-	text ". How are"
-	cont "you doing, AUDREY?"
+	text ". ¿Cómo"
+	cont "estás, ARIADNA?"
 
-	para "Huh? <PLAYER>?"
-	line "Oops! My mistake!"
+	para "¿Eh? ¿<PLAYER>?"
+	line "¡Me he equivocado!"
 	done
 
 PhoneSeeYouLaterText:
-	text "See you later!"
+	text "¡Hasta luego!"
 	done
 
 PhoneByeByeText:
-	text "Bye-bye!"
+	text "¡Adiós!"
 	done
 
 PhoneSwarmGrassText:
-	text "You have to see"
-	line "this! It's wild!"
+	text "¡Tienes que ver"
+	line "esto! ¡Es salvaje!"
 
-	para "A whole bunch of"
-	line "@"
+	para "¡Ha aparecido"
+	line "un grupo de"
+	
+	para "@"
 	text_ram wStringBuffer4
-	text " have"
-
-	para "shown up around"
-	line "@"
+	text_start
+	line "alrededor de"
+	cont "@"
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 PhoneSwarmFishText:
-	text "It's amazing!"
+	text "¡Es increíble!"
 
-	para "On @"
+	para "En @"
 	text_ram wStringBuffer5
 	text ","
-	line "@"
+	line "están picando"
+	
+	para "@"
 	text_ram wStringBuffer4
-	text " are"
+	text " como si"
+	line "no hubiera mañana."
 
-	para "biting like there"
-	line "is no tomorrow."
-
-	para "<PLAYER>, bring"
-	line "your ROD, buddy!"
+	para "¡<PLAYER>, trae"
+	line "tu CAÑA, tío!"
 	done
 
 PhoneSwarmCaveText:
-	text "A friend just told"
-	line "me this."
+	text "Un amigo me lo"
+	line "acaba de decir."
 
-	para "He saw a lot of"
+	para "Ha visto muchos"
 	line "@"
 	text_ram wStringBuffer4
-	text " in"
+	text " en"
 	cont "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "<PLAYER>, you ought"
-	line "to go look."
+	para "<PLAYER>, deberías"
+	line "ir a verlo."
 	done
 
 PhoneBugCatchingContestText:
-	text "They're holding"
-	line "the Bug-Catching"
-
-	para "Contest today at"
-	line "the PARK."
-
-	para "<PLAYER>, are you"
-	line "going to go?"
+	text "Hoy se celebra el"
+	line "Concurso de"
+          
+	para "Captura de Bichos"
+	line "en el PARQUE."
+          
+	para "¿Vas a ir,"
+	line "<PLAYER>?"
 	done
 
 IrwinRocketTakeoverRumorText:
-	text "<PLAYER>, did you"
-	line "know?"
-
-	para "I hear WESTPORT's"
-	line "RADIO TOWER was"
-
-	para "taken over by TEAM"
-	line "ROCKET."
-
-	para "But what exactly"
-	line "is TEAM ROCKET?"
+	text "¿Sabes qué,"
+	line "<PLAYER>?"
+          
+	para "Dicen que el TEAM"
+	line "ROCKET ha asaltado"
+          
+	para "la TORRE RADIO de"
+	line "CIUDAD PONIENTE."
+          
+	para "¿Pero qué es el"
+	line "TEAM ROCKET?"
 	done
 
 GinaRocketTakeoverRumorText:
-	text "<PLAYER>, did you"
-	line "hear the news?"
-
-	para "TEAM ROCKET has"
-	line "taken over the"
-
-	para "RADIO TOWER in"
-	line "WESTPORT CITY."
-
-	para "I wonder if the"
-	line "workers are OK…"
+	text "¿<PLAYER>, has"
+	line "oído las noticias?"
+          
+	para "El TEAM ROCKET ha"
+	line "asaltado la"
+          
+	para "TORRE RADIO de"
+	line "CIUDAD PONIENTE."
+          
+	para "¿Estarán bien"
+	line "los trabajadores?"
 	done

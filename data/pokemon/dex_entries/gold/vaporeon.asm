@@ -1,10 +1,10 @@
-	db "BUBBLE JET@" ; species name
-	dw 303, 640 ; height, weight
+	db "BURBUJA@" ; species name
+	dbw 10, 290 ; height, weight
 
-	db   "As it uses the"
-	next "fins on the tip"
-	next "of its tail to"
+	db   "Como puede usar"
+	next "las aletas que"
+	next "tiene en la punta"
 
-	page "swim, it blends"
-	next "with the water"
-	next "perfectly.@"
+	page "de la cola, sinto-"
+	next "niza muy bien con"
+	next "el medio acuático.@"

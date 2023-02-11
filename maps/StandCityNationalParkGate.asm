@@ -482,379 +482,364 @@ MovementData_0x6add1:
 	step_end
 
 UnknownText_0x6add5:
-	text "Today's @"
+	text "Hoy es @"
 	text_ram wStringBuffer3
 	text "."
-	line "That means the"
+	line "Eso significa que"
+	para "hoy es el Concurso"
+	line "Captura de Bichos."
 
-	para "Bug-Catching Con-"
-	line "test is on today."
+	para "Las reglas son"
+	line "sencillas."
 
-	para "The rules are sim-"
-	line "ple."
+	para "Usa uno de tus"
+	line "#MON y captura"
+	para "un #MON bicho"
+	line "para ganar."
 
-	para "Using one of your"
-	line "#MON, catch a"
-
-	para "bug #MON to be"
-	line "judged."
-
-	para "Would you like to"
-	line "give it a try?"
+	para "¿Te gustaría"
+	line "intentarlo?"
 	done
 
 UnknownText_0x6ae87:
-	text "Here are the PARK"
-	line "BALLS for the"
-	cont "Contest."
+	text "Aquí tienes las"
+	line "PARQUE BALL para"
+	cont "el Concurso."
 	done
 
 UnknownText_0x6aeb1:
-	text "<PLAYER> received"
-	line "20 PARK BALLS."
+	text "<PLAYER> recibió"
+	line "20 PARQUE BALL."
 	done
 
 UnknownText_0x6aecc:
-	text "The person who"
-	line "gets the strong-"
-	cont "est bug #MON"
-	cont "is the winner."
+	text "Aquel que consiga"
+	line "el #MON bicho"
+	para "más fuerte será el"
+	line "ganador."
 
-	para "You have 20"
-	line "minutes."
+	para "Tienes 20 minutos."
 
-	para "If you run out of"
-	line "PARK BALLS, you're"
-	cont "done."
+	para "Si te quedas sin"
+	line "PARQUE BALL, ya no"
+	cont "puedes seguir."
 
-	para "You can keep the"
-	line "last #MON you"
-	cont "catch as your own."
+	para "Puedes quedarte"
+	line "el último #MON"
+	cont "que captures."
 
-	para "Go out and catch"
-	line "the strongest bug"
-
-	para "#MON you can"
-	line "find!"
+	para "¡Sal y captura"
+	line "el #MON bicho"
+	para "más fuerte que"
+	line "encuentres!"
 	done
 
 UnknownText_0x6afb0:
-	text "Uh-oh…"
+	text "¡Oh, oh…!"
 
-	para "You have more than"
-	line "one #MON."
+	para "Tienes más de un"
+	line "#MON."
 
-	para "You'll have to use"
-	line "@"
+	para "Tendrás que usar"
+	line "a @"
 	text_ram wStringBuffer3
-	text ", the"
+	text ","
 
-	para "first #MON in"
-	line "your party."
+	para "el primer #MON"
+	line "de tu equipo."
 
-	para "Is that OK with"
-	line "you?"
+	para "¿Te parece bien?"
 	done
 
 UnknownText_0x6b021:
-	text "Fine, we'll hold"
-	line "your other #MON"
-	cont "while you compete."
+	text "Bien, guardaremos"
+	line "los otros #MON"
+	cont "mientras compites."
 	done
 
 UnknownText_0x6b055:
-	text "<PLAYER>'s #MON"
-	line "were left with the"
-	cont "CONTEST HELPER."
+	text "Los #MON de"
+	line "<PLAYER> se quedan"
+	cont "con el AYUDANTE."
 	done
 
 UnknownText_0x6b081:
-	text "Please choose the"
-	line "#MON to be used"
+	text "Elige el #MON"
+	line "que usarás en el"
 
-	para "in the Contest,"
-	line "then come see me."
+	para "Concurso y luego"
+	line "ven a verme."
 	done
 
 UnknownText_0x6b0c6:
-	text "OK. We hope you'll"
-	line "take part in the"
-	cont "future."
+	text "Muy bien."
+	line "Esperamos verte"
+	cont "pronto por aquí."
 	done
 
 UnknownText_0x6b0f2:
-	text "Uh-oh…"
-	line "The first #MON"
+	text "¡Oh, oh…!"
+	line "El primer #MON"
+	para "de tu equipo no"
+	line "puede luchar."
 
-	para "in your party"
-	line "can't battle."
-
-	para "Please switch it"
-	line "with the #MON"
-
-	para "you want to use,"
-	line "then come see me."
+	para "Sustitúyelo por"
+	line "el #MON que"
+	para "quieras usar y"
+	line "luego ven a verme."
 	done
 
 UnknownText_0x6b166:
-	text "Uh-oh…"
-	line "Both your party"
+	text "¡Oh, oh…!"
+	line "Tu equipo y tu"
 
-	para "and your PC BOX"
-	line "are full."
+	para "CAJA del PC están"
+	line "llenos."
 
-	para "You have no room"
-	line "to put the bug"
-	cont "#MON you catch."
+	para "No tienes sitio"
+	line "para guardar el"
+	cont "#MON bicho."
 
-	para "Please make room"
-	line "in your party or"
+	para "Haz sitio en tu"
+	line "equipo o en la"
 
-	para "your PC BOX, then"
-	line "come see me."
+	para "CAJA del PC y"
+	line "luego ven a verme."
 	done
 
 UnknownText_0x6b209:
-	text "Uh-oh…"
-	line "You have an EGG as"
+	text "¡Oh, oh…! Tienes"
+	line "un HUEVO como"
+	para "primer #MON"
+	line "de tu equipo."
 
-	para "the first #MON"
-	line "in your party."
-
-	para "Please switch it"
-	line "with the #MON"
-
-	para "you want to use,"
-	line "then come see me."
+	para "Sustitúyelo por"
+	line "el #MON que"
+	para "quieras usar y"
+	line "luego ven a verme."
 	done
 
 UnknownText_0x6b284:
-	text "You still have @"
+	text "Aún te quedan"
+	line "@"
 	text_ram wStringBuffer3
-	text_start
-	line "minute(s) left."
+	text " minuto(s)."
 
-	para "Do you want to"
-	line "finish now?"
+	para "¿Quieres terminar"
+	line "ahora?"
 	done
 
 UnknownText_0x6b2c5:
-	text "OK. Please wait"
-	line "here for the"
-
-	para "announcement of"
-	line "the winners."
+	text "Bien. Por favor,"
+	line "espera aquí a que"
+	para "se anuncien los"
+	line "ganadores."
 	done
 
 UnknownText_0x6b300:
-	text "OK. Please go back"
-	line "outside and finish"
-	cont "up."
+	text "Bien. Por favor,"
+	line "vuelve fuera y"
+	cont "termina."
 	done
 
 UnknownText_0x6b32b:
-	text "Today's Contest is"
-	line "over. We hope you"
-
-	para "will participate"
-	line "in the future."
+	text "El Concurso ha"
+	line "acabado. Esperamos"
+	para "volver a veros por"
+	line "aquí muy pronto."
 	done
 
 UnknownText_0x6b370:
-	text "Some #MON can"
-	line "only be seen in"
-	cont "the PARK."
+	text "Algunos #MON"
+	line "sólo aparecen en"
+	cont "el PARQUE."
 	done
 
 BugCatchingContestant1BText:
-	text "DON: Wow, you beat"
-	line "me. You're pretty"
-	cont "good."
+	text "RAFA: ¡Uau!"
+	line "Me has vencido."
+	cont "No está mal."
 	done
 
 BugCatchingContestant1BStillCompetingText:
-	text "DON: Luck plays a"
-	line "big part in this."
+	text "RAFA: La suerte"
+	line "cuenta mucho."
 
-	para "You never know"
-	line "what #MON will"
-	cont "appear."
+	para "Nunca se sabe qué"
+	line "#MON va a"
+	cont "aparecer."
 	done
 
 BugCatchingContestant2BText:
-	text "ED: I envy you."
-	line "I just couldn't"
-	cont "do it this time."
+	text "SAM: Te envidio."
+	line "Esta vez no"
+	cont "lo he conseguido."
 	done
 
 BugCatchingContestant2BStillCompetingText:
-	text "ED: Maybe you win"
-	line "with big #MON?"
+	text "SAM: A lo mejor es"
+	line "que has ganado"
+	para "porque tus #MON"
+	line "son grandes…"
 	done
 
 BugCatchingContestant3BText:
-	text "NICK: Well done!"
-	line "I'm going to raise"
-	cont "my #MON better."
+	text "NANO: ¡Eso es!"
+	line "Voy a entrenar"
+	cont "mejor a mis"
+	cont "#MON."
 	done
 
 BugCatchingContestant3BStillCompetingText:
-	text "NICK: Maybe you"
-	line "get a higher score"
+	text "NANO: Quizá ganes"
+	line "más puntos por un"
 
-	para "for a #MON of"
-	line "an unusual color."
+	para "#MON de un"
+	line "color inusual."
 	done
 
 BugCatchingContestant4BText:
-	text "WILLIAM: You're"
-	line "the winner? What"
-	cont "did you catch?"
+	text "GUILLE: ¿Ganaste?"
+	line "¿Qué has atrapado?"
 	done
 
 BugCatchingContestant4BStillCompetingText:
-	text "WILLIAM: Well, I'm"
-	line "satisfied because"
+	text "GUILLE: Me alegra"
+	line "haber atrapado el"
 
-	para "I caught a #MON"
-	line "that I wanted."
+	para "#MON que"
+	line "quería."
 	done
 
 BugCatchingContestant5BText:
-	text "BENNY: Congrats!"
-	line "You have earned my"
-	cont "respect!"
+	text "TINO: Enhorabuena."
+	line "¡Te has ganado mi"
+	cont "respeto!"
 	done
 
 BugCatchingContestant5BStillCompetingText:
-	text "BENNY: I caught a"
-	line "SCYTHER before,"
-	cont "but I didn't win."
+	text "TINO: He atrapado"
+	line "un SCYTHER, pero"
+	cont "he perdido."
 	done
 
 BugCatchingContestant6BText:
-	text "BARRY: That #-"
-	line "MON you caught…"
-	cont "it's awesome!"
+	text "BENITO: El #MON"
+	line "que has atrapado…"
+	cont "es impresionante."
 	done
 
 BugCatchingContestant6BStillCompetingText:
-	text "BARRY: It's easier"
-	line "to win if you get"
+	text "BENITO: Es más"
+	line "fácil ganar con"
+	para "un #MON bicho"
+	line "de nivel alto."
 
-	para "a high-level bug"
-	line "#MON."
-
-	para "But I think they"
-	line "also consider some"
-	cont "other points."
+	para "Pero creo que"
+	line "también cuentan"
+	cont "otros aspectos."
 	done
 
 BugCatchingContestant7BText:
-	text "CINDY: You won?"
-	line "That's great!"
+	text "CINDY: ¿Ganaste?"
+	line "¡Qué bien!"
 
-	para "Do you feel like"
-	line "looking for bug"
-	cont "#MON with me?"
+	para "¿Te apetece buscar"
+	line "#MON bicho"
+	cont "conmigo?"
 	done
 
 BugCatchingContestant7BStillCompetingText:
-	text "CINDY: I really"
-	line "love bug #MON!"
+	text "CINDY: ¡Adoro los"
+	line "#MON bicho!"
 	done
 
 BugCatchingContestant8BText:
-	text "JOSH: I… I can't"
-	line "believe I lost at"
-	cont "bug-catching…"
+	text "KAI: ¡No…!"
+	line "No me puedo creer"
+	cont "que haya perdido."
 	done
 
 BugCatchingContestant8BStillCompetingText:
-	text "JOSH: I heard that"
-	line "somebody won with"
-	cont "a CATERPIE!"
+	text "KAI: ¡Dicen que"
+	line "alguien ha ganado"
+	cont "con un CATERPIE!"
 	done
 
 BugCatchingContestant9BText:
-	text "SAMUEL: Next time,"
-	line "I'm going to win."
+	text "SAMUEL: La próxima"
+	line "vez ganaré yo."
 	done
 
 BugCatchingContestant9BStillCompetingText:
-	text "SAMUEL: Darn."
-	line "I thought I would"
-	cont "score higher…"
+	text "SAMUEL: Vaya, creí"
+	line "que obtendría más"
+	cont "puntos…"
 	done
 
 BugCatchingContestant10BText:
-	text "KIPP: Could you"
-	line "give me some tips?"
+	text "KOLDO: ¿Me das"
+	line "algún consejo?"
 
-	para "I want to study"
-	line "your style."
+	para "Quiero estudiar"
+	line "tu estilo."
 	done
 
 BugCatchingContestant10BStillCompetingText:
-	text "KIPP: I study a"
-	line "lot, but that's"
-
-	para "not good enough to"
-	line "win."
+	text "KOLDO: He"
+	line "estudiado mucho,"
+	para "pero eso no vale"
+	line "para ganar."
 	done
 
 UnusedBellignanText:
 ; This text is unused and unreferenced in the final game.
 ; The tree Pokémon is Bellignan.
 ; The Silph Scope 2 was later reworked into the Squirtbottle.
-	text "I hear there's a"
-	line "#MON that looks"
-	cont "just like a tree."
+	text "Dicen que hay"
+	line "un #MON que"
+	cont "parece un árbol."
 
-	para "You can reveal its"
-	line "identity using a"
-	cont "SILPHSCOPE 2."
+	para "Se puede descubrir"
+	line "su identidad con"
+	cont "el SCOPE SILPH 2."
 	done
 
 UnusedBugCatchingContestExplanationText:
 ; duplicate of BugCatchingContestExplanationText in Route103NationalParkGate.asm
-	text "The Bug-Catching"
-	line "Contest is held on"
+	text "El Concurso de"
+	line "Captura de Bichos"
+	para "es los martes,"
+	line "jueves y sábados."
 
-	para "Tuesday, Thursday"
-	line "and Saturday."
-
-	para "Not only do you"
-	line "earn a prize just"
-
-	para "for participating,"
-	line "you also get to"
-
-	para "keep the bug"
-	line "#MON you may"
-
-	para "have at the end of"
-	line "the contest."
+	para "No sólo ganas un"
+	line "premio por"
+	para "participar,"
+	line "sino que también"
+	para "te quedarás con el"
+	line "#MON bicho"
+	cont "que tengas cuando"
+	cont "termine."
 	done
 
 UnknownText_0x6b910:
-	text "Uh-oh… Your PACK"
-	line "is full."
+	text "¡Vaya…! Tu MOCHILA"
+	line "está llena."
 
-	para "We'll hold on to"
-	line "your prize, but"
-	cont "only for today."
+	para "Guardaremos tu"
+	line "premio, pero sólo"
+	cont "hoy."
 
-	para "Please make room,"
-	line "then come see me."
+	para "Haz sitio en ella"
+	line "y ven a verme."
 	done
 
 UnknownText_0x6b97f:
-	text "<PLAYER>?"
+	text "¿<PLAYER>?"
 
-	para "Here's the prize"
-	line "we were holding"
-	cont "for you."
+	para "Aquí tienes el"
+	line "premio que te"
+	cont "guardábamos."
 	done
 
 StandCityNationalParkGate_MapEvents:

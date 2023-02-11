@@ -1,10 +1,10 @@
-	db "ELECTRIC@" ; species name
-	dw 307, 660 ; height, weight
+	db "ELÉCTRICO@" ; species name
+	dbw 11, 300 ; height, weight
 
-	db   "When two"
-	next "ELECTABUZZ touch,"
-	next "they control the"
+	db   "Al rozarse con"
+	next "otro ELECTABUZZ,"
+	next "controla las co-"
 
-	page "electric currents"
-	next "to communicate"
-	next "their feelings.@"
+	page "rrientes eléctri-"
+	next "cas que comunican"
+	next "sus sentimientos.@"

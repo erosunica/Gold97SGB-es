@@ -96,89 +96,94 @@ OneStepUpNoEntryYet:
 	step_end
 	
 NoEntryYetText:
-	text "We have a team of"
-	line "researchers out"
-	para "on the SOUTHERN"
-	line "ISLANDS doing a"
-	para "controlled study"
-	line "of #MON."
-	para "We cannot allow"
-	line "any entry, even"
-	para "from those who"
-	line "would normally be"
-	cont "qualified."
-	para "Please come by"
-	line "later if you have"
-	para "proper credentials"
-	line "for clearance."
+	text "Tenemos un equipo"
+	line "de investigadores"
+	para "en las ISLAS DEL"
+	line "SUR realizando un"
+	para "estudio controlado"
+	line "sobre los #MON."
+
+	para "No podemos dejar"
+	line "entrar a nadie, ni"
+	para "siquiera a quienes"
+	line "suelen estar"
+	cont "cualificados."
+
+	para "Vuelve más tarde"
+	line "si tienes las"
+	para "credenciales"
+	line "adecuadas para tu"
+	cont "autorización."
 	done
 
 EventCopHALT:
-	text "HALT!"
+	text "¡ALTO!"
 	done
 
 EventCopText:
-	text "This is a"
-	line "restricted area!"
-	
-	para "No #MON"
-	line "trainers are"
-	cont "allowed past this"
-	cont "poin-"
-	
-	para "Wait."
-	
-	para "… … …"
-	line "… … …"
-	
-	para "Are you…"
-	
-	para "<PLAYER>, the"
-	line "NIHON LEAGUE's"
-	cont "new CHAMPION?"
-	
-	para "You are!"
-	line "My apologies!"
-	
-	para "The two SOUTHERN"
-	line "ISLANDS are off"
-	para "limits to members"
-	line "of the general"
-	para "public, but"
-	line "someone of your"
-	para "high level of"
-	line "clearance I'll"
-	cont "allow through."
-	
-	para "These islands are"
-	line "natural #MON"
-	para "paradises, fully"
-	line "unspoiled by man."
-	
-	para "As such they are"
-	line "highly valuable"
-	para "for scientific"
-	line "research."
-	
-	para "I assume you"
-	line "must have been"
-	cont "informed by BLUE."
-	
-	para "He passed through"
-	line "on his way to"
-	para "conduct research"
-	line "on RAINBOW ISLAND"
-	cont "to the west."
-	
-	para "Now, carry on!"
+	text "¡Esta es una zona"
+	line "restringida!"
+
+	para "No se permiten"
+	line "entrenadores"
+	cont "#MON a partir"
+	cont "de…"
+
+	para "Un momento."
+
+	para "<……>"
+	line "<……>"
+
+	para "Eres…"
+
+	para "¿<PLAYER>, el"
+	line "nuevo CAMPEÓN de"
+	cont "la LIGA de NIHON?"
+
+	para "¡En efecto!"
+	line "¡Mis disculpas!"
+
+	para "No se permite el"
+	line "paso a las ISLAS"
+	para "DEL SUR a gente de"
+	line "a pie, pero puedo"
+	para "permitir que viaje"
+	line "hasta allí alguien"
+	para "con una autoridad"
+	line "como la tuya."
+
+	para "Esas ISLAS son"
+	line "paraísos naturales"
+	para "de los #MON,"
+	line "libres de la"
+	cont "intervención"
+	cont "humana."
+
+	para "Es por ese motivo"
+	line "que tienen un gran"
+	para "valor para la"
+	line "investigación"
+	cont "científica."
+
+	para "Supongo que AZUL"
+	line "te ha informado"
+	cont "sobre ello."
+
+	para "Fue hacia allí"
+	line "para realizar una"
+	para "investigación en"
+	line "la ISLA ARCOÍRIS,"
+	cont "al oeste."
+
+	para "¡Puedes continuar!"
 	done
 
 FSGCopScript:
 	jumptextfaceplayer FSGCopNormalText
 	
 FSGCopNormalText:
-	text "<PLAYER>!"
-	line "You may proceed!"
+	text "¡<PLAYER>!"
+	line "¡Puedes pasar!"
 	done
 
 
@@ -186,35 +191,39 @@ FSGScientist1Script:
 	jumptextfaceplayer FSGScientist1Text
 	
 FSGScientist1Text:
-	text "TROPICAL ISLAND"
-	line "to the east is"
-	para "full of rare"
-	line "#MON species!"
-	
-	para "I'm researching"
-	line "the potential"
-	para "of a NEW SPECIES"
-	line "on the island."
+	text "¡La ISLA TROPICAL,"
+	line "al este, está"
+	para "llena de especies"
+	line "raras de #MON!"
+
+	para "Estoy investigando"
+	line "una potencial"
+	para "NUEVA ESPECIE en"
+	line "la isla."
 	done
 
 FSGScientist2Script:
 	jumptextfaceplayer FSGScientist2Text
 	
 FSGScientist2Text:
-	text "I'm one of the"
-	line "lucky few that"
-	para "could obtain the"
-	line "clearance needed"
-	para "to study the"
-	line "SOUTHERN ISLANDS."
-	
-	para "They're even"
-	line "printing a promo"
-	para "card set with"
-	line "the incredible"
-	para "#MON photos"
-	line "taken during our"
-	cont "research tour!"
+	text "Soy una de las"
+	line "pocas personas que"
+	para "ha tenido la"
+	line "suerte de obtener"
+	para "una autorización"
+	line "para estudiar las"
+	cont "ISLAS DEL SUR."
+
+	para "¡Incluso están"
+	line "imprimiendo un"
+	para "conjunto de tarje-"
+	line "tas promocionales"
+	para "con las increíbles"
+	line "fotos que tomamos"
+	para "a los #MON"
+	line "durante nuestro"
+	cont "viaje de"
+	cont "investigación!"
 	done
 
 
@@ -222,19 +231,20 @@ FSGScientist3Script:
 	jumptextfaceplayer FSGScientist3Text
 	
 FSGScientist3Text:
-	text "There's ancient"
-	line "manuscripts that"
-	para "describe RAINBOW"
-	line "ISLAND as a"
-	para "miraculous site"
-	line "cloaked always in"
-	cont "rainbow light."
-	
-	para "I wonder if that"
-	line "was just a legend"
-	para "or if the island"
-	line "really had some"
-	cont "special power…"
+	text "Existen antiguos"
+	line "manuscritos que"
+	para "describen la ISLA"
+	line "ARCOÍRIS como un"
+	para "lugar milagroso"
+	line "que siempre está"
+	para "envuelto en una"
+	line "luz iridiscente."
+
+	para "Me pregunto si es"
+	line "solo una leyenda o"
+	para "si realmente la"
+	line "isla tiene algún"
+	cont "poder especial…"
 	done
 
 TropicalSign:
@@ -244,13 +254,13 @@ RainbowSign:
 	jumptext RainbowSignText
 	
 TropicalSignText:
-	text "TROPICAL ISLAND"
-	line "AHEAD TO EAST"
+	text "Hacia el este"
+	line "ISLA TROPICAL"
 	done
-	
+
 RainbowSignText:
-	text "RAINBOW ISLAND"
-	line "AHEAD TO WEST"
+	text "Hacia el oeste"
+	line "ISLA ARCOÍRIS"
 	done
 
 

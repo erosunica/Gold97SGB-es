@@ -1,10 +1,10 @@
-	db "LOUDCAT@" ; species name
-	dw 207, 410 ; height, weight
-
-	db   "The ring from its"
-	next "tail alerts foes"
-	next "to its position."
-
-	page "However, it moves"
-	next "too quickly for"
-	next "foes to catch it.@"
+	db "GATO RUIDO@" ; species name
+	dbw 8, 186 ; height, weight
+	
+	db   "El cascabel de su"
+	next "cola alerta a sus"
+	next "enemigos de su"
+	
+	page "posición. Aun así,"
+	next "es lo bastante"
+	next "escurridizo.@"

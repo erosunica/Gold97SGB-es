@@ -198,160 +198,160 @@ TrainerSportsmanBryson:
 
 
 FisherChrisSeenText:
-	text "Let me demonstrate"
-	line "the power of the"
-	cont "#MON I caught!"
+	text "¡Déjame que te"
+	line "enseñe el poder de"
+	cont "mis #MON!"
 	done
 
 FisherChrisBeatenText:
-	text "What? That's not"
-	line "right."
+	text "¿Qué? Eso no está"
+	line "bien."
 	done
 
 FisherChrisAfterBattleText:
-	text "I want to become"
-	line "the trainer CHAMP"
+	text "Quiero convertirme"
+	line "en un CAMPEÓN con"
+	para "los #MON que"
+	line "he atrapado."
 
-	para "using the #MON"
-	line "I caught."
-
-	para "That's the best"
-	line "part of fishing!"
+	para "¡Eso es lo mejor"
+	line "de la pesca!"
 	done
-	
 
 SportsmanBrysonSeenText:
-	text "Whew!"
+	text "¡Uf!"
 
-	para "Nothing like a"
-	line "good jog along the"
-	cont "beach!"
+	para "¡Nada como correr"
+	line "un poco por la"
+	cont "playa!"
 	done
 
 SportsmanBrysonBeatenText:
-	text "Sand in my shoe!"
+	text "¡Tengo arena en"
+	line "las zapatillas!"
 	done
 
 SportsmanBrysonAfterText:
-	text "Sand isn't really"
-	line "the best surface"
-	cont "to run on."
+	text "En realidad, la"
+	line "playa no es el"
+	cont "mejor sitio para"
+	cont "correr."
 	done
 
 FisherJustinSeenText:
-	text "Whoa!"
+	text "¡Vaya!"
 
-	para "You made me lose"
-	line "that fish!"
+	para "¡Se me escapó ese"
+	line "pez por tu culpa!"
 	done
 
 FisherJustinBeatenText:
-	text "Sploosh!"
+	text "¡Chas!"
 	done
 
 FisherJustinAfterText:
-	text "Calm, collected…"
-	line "The essence of"
-
-	para "fishing and #-"
-	line "MON is the same."
+	text "Paciencia… La"
+	line "base de la pesca"
+	para "y de los #MON"
+	line "es la misma."
 	done
 
 FisherRalph1SeenText:
-	text "I'm really good at"
-	line "both fishing and"
-	cont "#MON."
+	text "Soy muy bueno,"
+	line "tanto pescando"
+	para "como con los"
+	line "#MON."
 
-	para "I'm not about to"
-	line "lose to any kid!"
+	para "¡No voy a perder"
+	line "con alguien tan"
+	cont "joven!"
 	done
 
 FisherRalph1BeatenText:
-	text "Tch! I tried to"
-	line "rush things…"
+	text "Intenté acelerar"
+	line "las cosas…"
 	done
 
 FisherRalphAfterText:
-	text "Fishing is a life-"
-	line "long passion."
-
-	para "#MON are life-"
-	line "long friends!"
+	text "¡Pescar es una"
+	line "pasión eterna y"
+	para "los #MON son"
+	line "amigos eternos!"
 	done
 
 FisherRalphSwarmText:
-	text "One, two, three…"
-	line "Muahahaha, what a"
+	text "Uno, dos, tres…"
+	line "¡Jajajajaja!"
 
-	para "great haul!"
-	line "I'm done! Go ahead"
+	para "¡Qué gran botín!"
 
-	para "and catch as many"
-	line "as you can, kid!"
+	para "¡Vale! ¡Sigue y"
+	line "atrapa tantos como"
+	cont "puedas!"
 	done
 
 Route119CrownPathSignText:
-	text "ROUTE 119"
-	para "TEKNOS CITY -"
-	line "SUNPOINT CITY"
+	text "RUTA 119"
+	
+	para "CIUDAD TEKNOS -"
+	line "CIUDAD CALORINA"
 	done
 
 Route119LockedDoorText:
-	text "Go Through Gate"
-	line "For SUNPOINT CITY"
+	text "Cruza el acceso"
+	line "para llegar a"
+	cont "CIUDAD CALORINA"
 	done
 	
 Route119Rocket1Text:
-	text "Fufufufu…"
-	para "Why are we even"
-	line "stationed here?"
+	text "Jujujuju…"
+	para "¿Por qué se supone"
+	line "que estamos aquí?"
 	done
 	
 Route119Rocket2Text:
-	text "Hehehehe…"
-	para "I don't think the"
-	line "boss likes us"
-	cont "very much…"
+	text "Jejejeje…"
+	para "Creo que no le"
+	line "caemos muy bien al"
+	cont "jefe…"
 	done
 	
 MeetWesleyText:
-	text "WESLEY: Well, how"
-	line "do you do?"
+	text "MIGUEL: Hola,"
+	line "¿qué tal estás?"
 
-	para "Seeing as how it's"
-	line "Wednesday today,"
-
-	para "I'm WESLEY of"
-	line "Wednesday."
+	para "Hoy es miércoles"
+	line "y yo soy MIGUEL,"
+	para "por lo de"
+	line "miércoles."
 	done
 
 WesleyGivesGiftText:
-	text "Pleased to meet"
-	line "you. Please take a"
-	cont "souvenir."
+	text "Encantado de"
+	line "conocerte. Toma"
+	cont "un recuerdo."
 	done
 
 WesleyGaveGiftText:
-	text "WESLEY: BLACKBELT"
-	line "beefs up the power"
-	cont "of fighting moves."
+	text "MIGUEL: CINTURÓN"
+	line "NEGRO potencia los"
+	cont "ataques de lucha."
 	done
 
 WesleyWednesdayText:
-	text "WESLEY: Since you"
-	line "found me, you must"
+	text "MIGUEL: Si me"
+	line "has encontrado,"
+	para "habrás visto a"
+	line "mis hermanos."
 
-	para "have met my broth-"
-	line "ers and sisters."
-
-	para "Or did you just"
-	line "get lucky?"
+	para "¿O es que has"
+	line "tenido suerte?"
 	done
 
 WesleyNotWednesdayText:
-	text "WESLEY: Today's"
-	line "not Wednesday."
-	cont "That's too bad."
+	text "MIGUEL: Hoy no es"
+	line "miércoles."
+	cont "¡Qué pena!"
 	done
 
 

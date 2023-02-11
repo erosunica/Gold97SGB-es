@@ -1,10 +1,10 @@
-	db "HUMANSHAPE@" ; species name
-	dw 407, 900 ; height, weight
+	db "F. HUMANA@" ; species name
+	dbw 14, 406 ; height, weight
 
-	db   "It has several"
-	next "different cry pat-"
-	next "terns, each of"
+	db   "Uno de sus rasgos"
+	next "es el amplio aba-"
+	next "nico de alaridos"
 
-	page "which seems to"
-	next "have its own"
-	next "meaning.@"
+	page "que tiene. Según"
+	next "parece, cada uno"
+	next "significa algo.@"

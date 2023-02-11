@@ -1,10 +1,10 @@
-	db "NEW SPECIE@" ; species name
-	dw 104, 90 ; height, weight
+	db "NUEVA ESP.@" ; species name
+	dbw 4, 40 ; height, weight
 
-	db   "Because it can"
-	next "learn any move,"
-	next "some people began"
+	db   "Como es capaz de"
+	next "aprender todos los"
+	next "movimientos,"
 
-	page "research to see if"
-	next "it is the ancestor"
-	next "of all #MON.@"
+	page "se piensa que es"
+	next "el ancestro de"
+	next "todos los #MON.@"

@@ -1,10 +1,10 @@
-	db "BIVALVE@" ; species name
-	dw 100, 90 ; height, weight
+	db "BIVALVO@" ; species name
+	dbw 3, 40 ; height, weight
 
-	db   "Clamping on to an"
-	next "opponent reveals"
-	next "its vulnerable"
+	db   "Cuando utiliza la"
+	next "TENAZA en combate,"
+	next "se vuelve vulnera-"
 
-	page "parts, so it uses"
-	next "this move only as"
-	next "a last resort.@"
+	page "ble. Por eso sólo"
+	next "la usa como último"
+	next "recurso.@"

@@ -1,10 +1,10 @@
-	db "RAT@" ; species name
-	dw 204, 410 ; height, weight
+	db "RATÓN@" ; species name
+	dbw 7, 185 ; height, weight
 
-	db   "The webs on its"
-	next "hind legs enable"
-	next "it to cross"
+	db   "Con las membranas"
+	next "de las patas"
+	next "traseras, puede"
 
-	page "rivers. It search-"
-	next "es wide areas for"
-	next "food.@"
+	page "atravesar ríos."
+	next "Busca su alimento"
+	next "en zonas extensas.@"

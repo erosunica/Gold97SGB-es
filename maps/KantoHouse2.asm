@@ -68,85 +68,87 @@ KantoHouse2PokefanMScript:
 	jumptextfaceplayer KantoHouse2PokefanMText
 
 KantoHouse2PokefanMText:
-	text "Well, hi there!"
-	para "We just love"
-	line "having visitors."
-	para "My wife can talk"
-	line "anyone's ear off"
-	cont "over some tea."
+	text "¡Anda, hola!"
+
+	para "Nos encanta"
+	line "recibir visitas."
+
+	para "A mi esposa le"
+	line "encanta charlar"
+	cont "tomando el té."
 	done
 
 DaisyHelloText:
-	text "Oh, hello, dearie."
-	para "I love meeting new"
-	line "people."
-	para "Maybe stop by one"
-	line "afternoon and we"
-	cont "can have some tea."
+	text "Oh, hola, querido."
+
+	para "Adoro conocer"
+	line "gente nueva."
+
+	para "Podrías pasar por"
+	line "aquí alguna tarde"
+	para "para que podamos"
+	line "tomar el té."
 	done
 
 DaisyOfferGroomingText:
-	text "Hello! Oh, good"
-	line "timing. I'm about"
-	cont "to have some tea."
+	text "¡Llegas a tiempo!"
+	line "Iba a tomar un té."
 
-	para "Would you like to"
-	line "join me?"
+	para "¿Quieres"
+	line "tomarte uno?"
 
-	para "Oh, your #MON"
-	line "are a bit dirty."
+	para "Tus #MON están"
+	line "un poco sucios."
 
-	para "Would you like me"
-	line "to groom one?"
+	para "¿Quieres que"
+	line "limpie a uno?"
 	done
 
 DaisyWhichMonText:
-	text "Which one should"
-	line "I groom?"
+	text "¿Qué #MON"
+	line "limpio?"
 	done
 
 DaisyAlrightText:
-	text "OK, I'll get it"
-	line "looking nice in no"
-	cont "time."
+	text "Vale, haré que"
+	line "mejore su aspecto"
+	cont "enseguida."
 	done
 
 GroomedMonLooksContentText:
 	text_ram wStringBuffer3
-	text " looks"
-	line "content."
+	text_start
+	line "parece contento."
 	done
 
 DaisyAllDoneText:
-	text "There you go!"
-	line "All done."
+	text "¡Ya está! ¡Listo!"
 
-	para "See? Doesn't it"
-	line "look nice?"
+	para "¿Qué? ¿Tiene buen"
+	line "aspecto o no?"
 
-	para "It's such a cute"
-	line "#MON."
+	para "¡Qué #MON"
+	line "más mono!"
 	done
 
 DaisyAlreadyGroomedText:
-	text "I always have tea"
-	line "around this time."
-	para "Feel free to join"
-	line "me."
+	text "Siempre tomo té a"
+	line "esta hora. Ven"
+	cont "cuando quieras."
 	done
 
 DaisyRefusedText:
-	text "You don't want to"
-	line "have one groomed?"
+	text "¿No quieres que"
+	line "limpie a un"
 
-	para "OK, we'll just"
-	line "have tea."
+	para "#MON? Vale, tan"
+	line "sólo tomaremos té."
 	done
 
 DaisyCantGroomEggText:
-	text "Oh, sorry."
-	para "I honestly can't"
-	line "groom an EGG."
+	text "Lo siento. No"
+	line "puedo limpiar un"
+	cont "HUEVO."
 	done
 
 KantoHouse2_MapEvents:

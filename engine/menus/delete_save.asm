@@ -23,7 +23,7 @@ _DeleteSaveData:
 
 .NoYesMenuHeader:
 	db 0 ; flags
-	menu_coords 14, 7, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
+	menu_coords 15, 7, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
 	dw .MenuData
 	db 1 ; default option
 
@@ -31,4 +31,4 @@ _DeleteSaveData:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 2 ; items
 	db "NO@"
-	db "YES@"
+	db "SÍ@"

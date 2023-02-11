@@ -22,32 +22,33 @@ AmamiPokecenter1FBugCatcherScript:
 	jumptextfaceplayer AmamiPokecenter1FBugCatcherText
 
 AmamiPokecenter1FFishingGuruText:
-	text "It has been said"
-	line "that a legendary"
-	para "trio of elemental"
-	line "birds will reveal"
-	para "themselves to he"
-	line "who holds the key."
-	para "I wonder what that"
-	line "key is?"
-	para "And who are those"
+	text "Se dice que un"
+	line "legendario trío de"
+	para "aves elementales"
+	line "se aparecerá"
+	para "frente a quien"
+	line "posea la llave."
+
+	para "¿Pero qué llave se"
+	line "supone que es?"
+
+	para "¿Y cuáles son esos"
 	line "#MON?"
 	done
 
-
 AmamiPokecenter1FSailorText:
-	text "The FAST SHIP is a"
-	line "great place to"
-
-	para "meet and battle"
-	line "trainers."
+	text "El FERRY es un"
+	line "buen lugar para"
+	para "luchar y conocer"
+	line "entrenadores."
 	done
 
 AmamiPokecenter1FBugCatcherText:
-	text "Oh? You have many"
-	line "BADGES."
-	para "You say you"
-	line "beat the LEAGUE?"
+	text "¿Y eso? Tienes"
+	line "muchas MEDALLAS."
+
+	para "¿Dices que has"
+	line "ganado la LIGA?"
 	done
 
 AmamiPokecenter1F_MapEvents:
@@ -63,7 +64,7 @@ AmamiPokecenter1F_MapEvents:
 	db 0 ; bg events
 
 	db 4 ; object events
-	object_event  5,  1, SPRITE_NURSE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, AmamiPokecenter1FNurseScript, -1
+	object_event  5,  1, SPRITE_NURSE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, AmamiPokecenter1FNurseScript, -1
 	object_event 10,  1, SPRITE_FISHING_GURU, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, AmamiPokecenter1FFishingGuruScript, -1
 	object_event  8,  5, SPRITE_SAILOR, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, AmamiPokecenter1FSailorScript, -1
 	object_event  1,  5, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, AmamiPokecenter1FBugCatcherScript, -1

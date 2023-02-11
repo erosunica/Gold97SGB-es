@@ -18,24 +18,22 @@ NagoPokecenter1FGymGuyScript:
 	jumptextfaceplayer NagoPokecenter1FGymGuyText
 
 NagoPokecenter1FSuperNerdText:
-	text "For battles, I'd"
-	line "much rather use"
-
-	para "#MON I've been"
-	line "raising, even if"
-
-	para "they're weaker"
-	line "than some newly"
-	cont "caught #MON."
+	text "Prefiero combatir"
+	line "con #MON que he"
+	para "entrenado, incluso"
+	line "si son más débiles"
+	para "que algún #MON"
+	line "recién capturado."
 	done
 
-
 NagoPokecenter1FGymGuyText:
-	text "Not many people"
-	line "live in this town."
-	para "RYUKYU CITY is a"
-	line "much more busy"
-	cont "place to be."
+	text "No mucha gente"
+	line "vive en este"
+	cont "pueblo."
+
+	para "El bullicio lo"
+	line "encontrarás en"
+	cont "CIUDAD RYUKYU."
 	done
 
 NagoPokecenter1F_MapEvents:

@@ -15,7 +15,7 @@ MomSpriteGFX::                 INCBIN "gfx/sprites/mom.2bpp"
 BlaineSpriteGFX::              INCBIN "gfx/sprites/blaine.2bpp"
 RedsMomSpriteGFX::             INCBIN "gfx/sprites/reds_mom.2bpp"
 DaisySpriteGFX::               INCBIN "gfx/sprites/daisy.2bpp"
-Oak2SpriteGFX::                 INCBIN "gfx/sprites/oak2.2bpp"
+Oak2SpriteGFX::                INCBIN "gfx/sprites/oak2.2bpp"
 WillSpriteGFX::                INCBIN "gfx/sprites/will.2bpp"
 FalknerSpriteGFX::             INCBIN "gfx/sprites/falkner.2bpp"
 WhitneySpriteGFX::             INCBIN "gfx/sprites/whitney.2bpp"
@@ -104,9 +104,10 @@ SilverTrophySpriteGFX::        INCBIN "gfx/sprites/silver_trophy.2bpp"
 SECTION "Sprites 3", ROMX
 MinelrSpriteGFX::			   INCBIN "gfx/sprites/minelr.2bpp"
 MineudSpriteGFX::			   INCBIN "gfx/sprites/mineud.2bpp"
-StandingYoungsterSpriteGFX::		   INCBIN "gfx/sprites/standing_youngster.2bpp"
+StandingYoungsterSpriteGFX::   INCBIN "gfx/sprites/standing_youngster.2bpp"
 PlaceholderSpriteGFX::		   INCBIN "gfx/sprites/placeholder.2bpp"
 
 
 SECTION "Sprites 4", ROMX
 RivalsMomSpriteGFX::		   INCBIN "gfx/sprites/rivals_mom.2bpp"
+SouthSpriteGFX::		       INCBIN "gfx/sprites/south.2bpp"

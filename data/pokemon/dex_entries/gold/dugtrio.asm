@@ -1,10 +1,10 @@
-	db "MOLE@" ; species name
-	dw 204, 730 ; height, weight
+	db "TOPO@" ; species name
+	dbw 7, 333 ; height, weight
 
-	db   "These DIGLETT"
-	next "triplets dig over"
-	next "60 miles below sea"
+	db   "Estos trillizos"
+	next "DIGLETT cavan"
+	next "más de 100 km"
 
-	page "level. No one"
-	next "knows what it's"
-	next "like underground.@"
+	page "bajo el mar. Nunca"
+	next "se sabe lo que hay"
+	next "bajo tierra.@"

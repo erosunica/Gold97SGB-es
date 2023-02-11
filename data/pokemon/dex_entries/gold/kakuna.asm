@@ -1,10 +1,10 @@
-	db "COCOON@" ; species name
-	dw 200, 220 ; height, weight
+	db "CAPULLO@" ; species name
+	dbw 6, 100 ; height, weight
 
-	db   "Nearly incapable"
-	next "of movement, it"
-	next "leans against"
+	db   "Casi incapaz de"
+	next "moverse, descansa"
+	next "apoyado en"
 
-	page "stout trees while"
-	next "waiting for its"
-	next "evolution.@"
+	page "robustos árboles"
+	next "a la espera de"
+	next "su evolución.@"

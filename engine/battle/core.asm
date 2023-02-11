@@ -1596,9 +1596,9 @@ HandleScreens:
 	jp CopyName2
 
 .Your:
-	db "Your@"
+	db "tu@"
 .Enemy:
-	db "Enemy@"
+	db "enemigo@"
 
 .LightScreenTick:
 	ld a, [de]
@@ -5462,9 +5462,9 @@ MoveInfoBox:
 	ret
 
 .Disabled:
-	db "Disabled!@"
+	db "¡Desact.!@"
 .Type:
-	db "TYPE/@"
+	db "TIPO/@"
 
 ParseEnemyAction:
 	ld a, [wEnemyIsSwitching]
@@ -7023,12 +7023,12 @@ GiveExperiencePoints:
 	xor a ; PARTYMON
 	ld [wMonType], a
 	predef CopyMonToTempMon
-	hlcoord 9, 0
+	hlcoord 9, 0 ;level up stats window frame
 	ld b, 10
 	ld c, 9
 	call Textbox
-	hlcoord 11, 1
-	ld bc, 4
+	hlcoord 10, 1 ;level up stats window text
+	ld bc, 5 ; stats digits x position
 	predef PrintTempMonStats
 	ld c, 30
 	call DelayFrames
@@ -8046,11 +8046,11 @@ ShowLinkBattleParticipantsAfterEnd:
 	ret
 
 .YouWin:
-	db "YOU WIN@"
+	db "    GANAS     @"
 .YouLose:
-	db "YOU LOSE@"
+	db "   PIERDES    @"
 .Draw:
-	db "  DRAW@"
+	db "    EMPATE    @"
 
 LINK_BATTLE_RECORD_LENGTH EQUS "(sLinkBattleRecord1End - sLinkBattleRecord1)" ; 18
 NUM_LINK_BATTLE_RECORDS EQUS "((sLinkBattleStatsEnd - sLinkBattleRecord) / LINK_BATTLE_RECORD_LENGTH)" ; 5
@@ -8196,11 +8196,11 @@ ReadAndPrintLinkBattleRecord:
 	db "  ---  <LF>"
 	db "         -    -    -@"
 .Record:
-	db "<PLAYER>'s RECORD@"
+	db "RÉCORD de <PLAYER>@"
 .Result:
-	db "RESULT WIN LOSE DRAW@"
+	db "RESULT  GAN PERD EMP@"
 .Total:
-	db "TOTAL  WIN LOSE DRAW@"
+	db "TOTAL   GAN PERD EMP@"
 
 BattleEnd_HandleRoamMons:
 	ld a, [wBattleType]

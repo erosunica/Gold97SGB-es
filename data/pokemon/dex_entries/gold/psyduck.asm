@@ -1,10 +1,10 @@
-	db "DUCK@" ; species name
-	dw 207, 430 ; height, weight
+	db "PATO@" ; species name
+	dbw 8, 196 ; height, weight
 
-	db   "The only time it"
-	next "can use its psy-"
-	next "chic power is when"
+	db   "Está dotado de un"
+	next "poder psíquico que"
+	next "no podrá usar"
 
-	page "its sleeping brain"
-	next "cells happen to"
-	next "wake.@"
+	page "si no tiene las"
+	next "neuronas despier-"
+	next "tas del todo.@"

@@ -87,58 +87,64 @@ AgathasRoom_EnterMovement:
 	step_end
 
 AgathaScript_AgathaBeforeText:
-	text "Oho!"
+	text "¡Jojo!"
 
-	para "So, old OAK has"
-	line "sent another child"
-	cont "on one of his"
-	cont "foolish errands…"
+	para "Así que el viejo"
+	line "OAK ya le ha"
+	para "encargado a otro"
+	line "niño uno de sus"
+	cont "inútiles recados…"
 
-	para "I am AGATHA of"
-	line "the ELITE FOUR."
-	
-	para "My years have seen"
-	line "many travels and"
-	cont "turmoil."
-	
-	para "That old fool OAK"
-	line "just lives in his"
-	cont "childhood dreams."
-	
-	para "#MON have"
-	line "always been for"
-	cont "battling!"
+	para "Yo soy AGATHA del"
+	line "ALTO MANDO."
 
-	para "Tell me, child."
+	para "He visto muchos"
+	line "viajes y tumultos"
+	cont "a lo largo de los"
+	cont "años."
 
-	para "How far will your"
-	line "resolve take you"
-	para "in your journey"
-	line "to complete the"
+	para "Ese necio vejesto-"
+	line "rio de OAK solo"
+	cont "vive en sus sueños"
+	cont "infantiles."
+
+	para "¡Los #MON"
+	line "siempre han sido"
+	cont "para combatir!"
+
+	para "Dime, chico."
+
+	para "¿Hasta dónde te"
+	line "llevará tu"
+	para "determinación en"
+	line "tu viaje para"
+	cont "completar la"
 	cont "#DEX?"
-	
-	para "Let's find out."
-    line "Fufufufu…"
+
+	para "Vamos a averiguar-"
+	line "lo. Jujujuju…"
 	done
 
 AgathaScript_BrunoBeatenText:
-	text "My gracious!"
-	
-	para "You certainly have"
-	line "it, my child."
+	text "¡Dichoso seas!"
+
+	para "Desde luego,"
+	line "tienes determina-"
+	cont "ción, chico."
 	done
 
 AgathaScript_AgathaDefeatText:
-	text "Hmm…"
-	
-	para "Perhaps that old"
-	line "fool does know"
-	cont "your potential."
-	
-	para "Run along now."
-	
-	para "Your journey is"
-	line "not yet over."
+	text "Mmm…"
+
+	para "A lo mejor ese"
+	line "viejo inútil"
+	cont "conoce tu"
+	cont "potencial."
+
+	para "Sigue adelante."
+
+	para "Tu viaje aún no"
+	line "termina."
 	done
 
 AgathasRoom_MapEvents:

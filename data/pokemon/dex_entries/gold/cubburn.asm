@@ -1,10 +1,10 @@
-	db "FIRE BEAR@" ; species name
-	dw 201, 220 ; height, weight
-
-	db   "The fire that"
-	next "spouts from its"
-	next "ears burns hottest"
-
-	page "when it is angry."
-	next "The flaring flames"
-	next "intimidate foes.@"
+	db "OSO FUEGO@" ; species name
+	dbw 6, 100 ; height, weight
+	
+	db   "Cuando se enfada,"
+	next "dispara un fuego"
+	next "infernal por sus"
+	
+	page "orejas. Intimida a"
+	next "sus rivales con"
+	next "las llamaradas.@"

@@ -3,7 +3,7 @@ CreditsScript:
 ; Clear the banner.
 	db CREDITS_CLEAR
 
-; Pokemon Gold/Silver Version Staff
+; Pokemon Gold Version Staff
 	db                STAFF, 0
 
 	db CREDITS_WAIT, 8
@@ -23,20 +23,23 @@ CreditsScript:
 
 	db CREDITS_WAIT, 12
 
-	db          SUBDIRECTOR, 1
-	db       JUNICHI_MASUDA, 2
+	db          SUBDIRECTOR, 0
+	db       JUNICHI_MASUDA, 1
+	db                LVL_3, 2
 
 	db CREDITS_WAIT, 12
 
 	db          PROGRAMMERS, 0
 	db     TETSUYA_WATANABE, 1
 	db     SHIGEKI_MORIMOTO, 2
+	db       SOUSUKE_TAMADA, 3
 
 	db CREDITS_WAIT, 12
 
 	db          PROGRAMMERS, 0
-	db       SOUSUKE_TAMADA, 1
-	db        TAKENORI_OOTA, 2
+	db        TAKENORI_OOTA, 1
+	db                LVL_3, 2
+	db            EROSUNICA, 3
 
 	db CREDITS_WAIT, 12
 
@@ -108,12 +111,14 @@ CreditsScript:
 	db          GAME_DESIGN, 0
 	db       JUNICHI_MASUDA, 1
 	db     KENJI_MATSUSHIMA, 2
+	db                LVL_3, 3
 
 	db CREDITS_WAIT, 12
 
 	db        GAME_SCENARIO, 0
 	db  TOSHINOBU_MATSUMIYA, 1
 	db     KENJI_MATSUSHIMA, 2
+	db                LVL_3, 3
 
 	db CREDITS_WAIT, 12
 
@@ -149,7 +154,12 @@ CreditsScript:
 	db           MAP_DESIGN, 0
 	db         TETSUJI_OOTA, 1
 	db        KOHJI_NISHINO, 2
-	db        NOBUHIRO_SEYA, 3
+
+	db CREDITS_WAIT, 12
+
+	db           MAP_DESIGN, 0
+	db        NOBUHIRO_SEYA, 1
+	db                LVL_3, 2
 
 	db CREDITS_WAIT, 12
 
@@ -177,50 +187,67 @@ CreditsScript:
 ; Update the banner.
 	db CREDITS_SCENE, 3 ; Burgela
 
-	db     US_VERSION_STAFF, 1
+	db     EU_VERSION_STAFF, 1
 
 	db CREDITS_WAIT, 12
 
-	db      US_COORDINATION, 0
-	db          GAIL_TILDEN, 1
-	db        HIRO_NAKAMURA, 2
+	db      EU_COORDINATION, 0
+	db              KAI_ZEH, 1
+	db      HIROYUKI_UESUGI, 2
 
 	db CREDITS_WAIT, 12
 
-	db      US_COORDINATION, 0
+	db      EU_COORDINATION, 0
 	db       JUNICHI_MASUDA, 1
 	db       NAOKO_KAWAKAMI, 2
+	db      KUNIMI_KAWAMURA, 3
 
 	db CREDITS_WAIT, 12
 
-	db      US_COORDINATION, 0
-	db          JEFF_KALLES, 1
-	db        WILLIAM_GIESE, 2
+	db      EU_COORDINATION, 0
+	db           TANJA_BAAR, 1
+	db          KAI_NEUMANN, 2
+	db            EROSUNICA, 3
 
 	db CREDITS_WAIT, 12
 
-	db     TEXT_TRANSLATION, 1
-	db        NOB_OGASAWARA, 2
+	db     TEXT_TRANSLATION, 0
+	db          SUSA_ALCAMI, 1
+	db          RUTH_GARCIA, 2
+	db     INFANTE_MONTILLA, 3
+
+	db CREDITS_WAIT, 12
+
+	db     TEXT_TRANSLATION, 0
+	db        HOSHI_NO_BANI, 1
+	db            EROSUNICA, 2
 
 	db CREDITS_WAIT, 12
 
 	db          PROGRAMMERS, 0
 	db      TERUKI_MURAKAWA, 1
 	db      KAZUYOSHI_OSAWA, 2
+	db            EROSUNICA, 3
 
 	db CREDITS_WAIT, 12
 
-	db         PAAD_TESTING, 0
-	db       RANDY_SHOEMAKE, 1
-	db      KATHY_HUGUENARD, 2
-	db           JOEL_SIMON, 3
-
+	db      PRODUCT_TESTING, 0
+	db           POKEMON_NE, 1
+	db      MAURICE_TISDALE, 2
+	db       EHLERT_DIESING, 3
+	
 	db CREDITS_WAIT, 12
 
 	db      PRODUCT_TESTING, 0
 	db NCL_SUPER_MARIO_CLUB, 1
 	db          KENJI_SAIKI, 2
 	db         ATSUSHI_TADA, 3
+
+	db CREDITS_WAIT, 12
+
+	db      PRODUCT_TESTING, 0
+	db            EROSUNICA, 1
+	db        HOSHI_NO_BANI, 2
 
 	db CREDITS_WAIT, 12
 

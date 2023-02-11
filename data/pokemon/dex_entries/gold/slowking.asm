@@ -1,10 +1,10 @@
-	db "ROYAL@" ; species name
-	dw 607, 1750 ; height, weight
-
-	db   "Every time it ya-"
-	next "wns, DISTURBAN"
-	next "clamps down more"
-
-	page "tightly. The"
-	next "pressure makes it"
-	next "more intelligent.@"
+	db "REGIO@" ; species name
+	dbw 20, 794 ; height, weight
+	
+	db   "Cada vez que"
+	next "bosteza, DISTURBAN"
+	next "se aferra más."
+	
+	page "Así, se vuelve"
+	next "cada vez más"
+	next "inteligente.@"

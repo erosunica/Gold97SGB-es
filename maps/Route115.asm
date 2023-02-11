@@ -466,196 +466,208 @@ LeaveMovement:
 	step_end
 	
 Route115FisherLoveThisJobText:
-	text "Wahaha!"
+	text "¡Jajaja!"
 	
-	para "I love this job!"
+	para "¡Me encanta este"
+	line "trabajo!"
 	done
 	
 Route115LookieText:
-	text "Oh! Looky there!"
+	text "¡Anda, mira!"
 	
-	para "Looks like some-"
-	line "thing was inside"
-	cont "that boulder."
+	para "Parece que había"
+	line "algo dentro de esa"
+	cont "roca."
 
-	para "Why don't you take"
-	line "take it?"
+	para "¿Por qué no te lo"
+	line "quedas?"
 	done
 	
 Route115ThatWasGreatText:
-	text "That was great!"
+	text "¡Genial!"
 	
-	para "The path to"
-	line "SILENT TOWN is"
-	cont "finally clear."
+	para "Por fin está"
+	line "despejado el"
+	para "camino a PUEBLO"
+	line "SILENTE."
 
-	para "Well, take care,"
-	line "kid!"
+	para "¡Cuídate mucho,"
+	line "chico!"
 	done
 
 	
 Route115FisherSettingUpText:
-	text "These rocks have"
-	line "been blocking the"
-	cont "path to SILENT"
-	cont "TOWN for months!"
+	text "¡Esas rocas han"
+	line "estado bloqueando"
+	para "el camino a PUEBLO"
+	line "SILENTE durante"
+	cont "meses!"
 	
-	para "But don't worry,"
-	line "I will blast em'"
-	cont "away soon!"
+	para "¡No te preocupes,"
+	line "pienso quitarlas"
+	cont "de en medio!"
 	
-	para "I just need some"
-	line "time to set up"
-	cont "the explosives."
+	para "Sólo necesito un"
+	line "poco de tiempo"
+	para "para preparar los"
+	line "explosivos."
 	
-	para "Why don't you go"
-	line "challenge the GYM"
-	cont "in KANTO while"
-	cont "you wait?"
+	para "¿Por qué no"
+	line "desafías el"
+	para "GIMNASIO de KANTO"
+	line "mientras tanto?"
 	done
 	
 Route115FisherReadyToBlowText:
-	text "Ah, just in time!"
+	text "¡Justo a tiempo!"
 	
-	para "These rocks are"
-	line "ready to blow!"
+	para "¡Esas rocas están"
+	line "a punto de"
+	cont "explotar!"
 	
-	para "We need to get to"
-	line "a safe distance!"
+	para "¡Pongámonos a"
+	line "cubierto!"
 	done
 	
 Route115FisherRocksGoneText:
-	text "What a nice clear"
-	line "path this is!"
+	text "¡Qué bien sienta"
+	line "ver el camino"
+	cont "despejado!"
 	done
 	
 IFoundThisInTheRubble2:
-	text "I'm so glad the"
-	line "path is clear."
-	para "Sometimes, if you"
-	line "want something"
-	para "done, you gotta"
-	line "do it yourself!"
+	text "Me alegra que ya"
+	line "podamos pasar."
+
+	para "¡A veces, si"
+	line "quieres algo bien"
+	para "hecho, tienes que"
+	line "hacerlo tú mismo!"
 	done
 
 CooltrainermBlakeSeenText:
-	text "You look pretty"
-	line "strong."
-	cont "Let me battle you!"
+	text "Pareces muy"
+	line "fuerte. ¡Déjame"
+	cont "combatir contigo!"
 	done
 
 CooltrainermBlakeBeatenText:
-	text "Yow!"
+	text "¡Auch!"
 	done
 
 CooltrainermBlakeAfterBattleText:
-	text "You making your"
-	line "way to MT.FUJI?"
+	text "¿Te diriges al"
+	line "MT. FUJI?"
 	done
 
 CooltrainermBrianSeenText:
-	text "Hm? You're good,"
-	line "aren't you?"
+	text "¿Cómo se te da"
+	line "esto?"
 	done
 
 CooltrainermBrianBeatenText:
-	text "Just as I thought!"
+	text "¡Justo como"
+	line "pensaba!"
 	done
 
 CooltrainermBrianAfterBattleText:
-	text "A good trainer can"
-	line "recognize other"
-	cont "good trainers."
+	text "Un buen entrenador"
+	line "puede reconocer a"
+	para "otros buenos"
+	line "entrenadores."
 	done
 
 CooltrainerfReenaSeenText:
-	text "You shouldn't"
-	line "underestimate the"
-
-	para "wild #MON in"
-	line "these parts."
+	text "No deberías"
+	line "subestimar a los"
+	para "#MON salvajes"
+	line "que hay por aquí."
 	done
 
 CooltrainerfReenaBeatenText:
-	text "Oh! You're much"
-	line "too strong!"
+	text "¡Oh! ¡Qué fuerte"
+	line "eres!"
 	done
 
 CooltrainerfReenaAfterBattleText:
-	text "You're just a kid,"
-	line "but you're not to"
-
-	para "be underestimated"
-	line "either."
+	text "Eres solo un niño,"
+	line "pero nadie debería"
+	cont "subestimarte."
 	done
 
 CooltrainerfMeganSeenText:
-	text "What brings you"
-	line "out here?"
-	para "Are you training"
-	line "on your own?"
+	text "¿Qué te trae por"
+	line "aquí?"
+	para "¿Estás entrenando"
+	line "por tu cuenta?"
 	done
 
 CooltrainerfMeganBeatenText:
-	text "Oh! You're really"
-	line "strong!"
+	text "¡Sí que eres"
+	line "fuerte!"
 	done
 
 CooltrainerfMeganAfterBattleText:
-	text "I'm checking out"
-	line "pre- and post-"
-	cont "evolution #MON."
+	text "Me estoy"
+	line "informando sobre"
+	para "los #MON antes"
+	line "y después de"
+	cont "evolucionar."
 
-	para "Evolution really"
-	line "does make #MON"
-	cont "stronger."
+	para "Los #MON"
+	line "evolucionados son"
+	cont "más fuertes."
 
-	para "But evolved forms"
-	line "also learn moves"
-	cont "later on."
+	para "Pero tardan más"
+	line "en aprender"
+	cont "movimientos."
 	done
 
 PsychicGilbertSeenText:
-	text "Don't say a thing!"
+	text "¡No digas nada!"
 
-	para "Let me guess what"
-	line "you're thinking."
+	para "Déjame adivinar en"
+	line "qué estás"
+	cont "pensando."
 
-	para "Mmmmmmm…"
+	para "Mmm…"
 
-	para "I got it! You're"
-	line "on the #MON"
-	cont "LEAGUE challenge!"
+	para "¡Lo tengo! ¡Estás"
+	line "afrontando el"
+	cont "desafío de la LIGA"
+	cont "#MON!"
 	done
 
 PsychicGilbertBeatenText:
-	text "You're too much!"
+	text "¡Eres demasiado!"
 	done
 
 PsychicGilbertAfterBattleText:
-	text "With your skills,"
-	line "you'll do well at"
-	cont "the LEAGUE."
+	text "Con tus"
+	line "habilidades, lo"
+	para "harás bien en la"
+	line "LIGA."
 
-	para "That's what my"
-	line "premonition says."
+	para "Eso es lo que"
+	line "presiento."
 	done
 
 BirdKeeperJose2SeenText:
-	text "Tweet! Tweet!"
-	line "Tetweet!"
+	text "¡Pío! ¡Pío!"
+	line "¡Pío, pío!"
 	done
 
 BirdKeeperJose2BeatenText:
-	text "Tweet!"
+	text "¡Pío!"
 	done
 
 BirdKeeperJose2AfterBattleText:
-	text "BIRD KEEPERS like"
-	line "me mimic bird"
-
-	para "whistles to com-"
-	line "mand #MON."
+	text "Los ORNITÓLOGOS"
+	line "como yo imitamos"
+	para "el canto de los"
+	line "pájaros para"
+	para "entrenar a"
+	line "nuestros #MON."
 	done
 
 

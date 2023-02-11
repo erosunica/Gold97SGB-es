@@ -1,4 +1,4 @@
-; Pics are defined in gfx/pics_gold.asm and gfx/pics_silver.asm
+; Pics are defined in gfx/pics_gold.asm
 
 PokemonPicPointers::
 ; entries correspond to Pokémon species, two apiece

@@ -38,7 +38,7 @@ MoltresScript:
 	end
 	
 MoltresText:
-	text "Moa!"
+	text "¡Moool!"
 	done
 
 

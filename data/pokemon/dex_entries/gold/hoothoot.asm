@@ -1,10 +1,10 @@
-	db "OWL@" ; species name
-	dw 204, 470 ; height, weight
+	db "BÚHO@" ; species name
+	dbw 7, 212 ; height, weight
 
-	db   "It begins to hoot"
-	next "at the same time"
-	next "every day. Some"
+	db   "Todos los días"
+	next "empieza a ulular a"
+	next "la misma hora."
 
-	page "trainers use them"
-	next "in place of"
-	next "clocks.@"
+	page "Hay entrenadores"
+	next "que los usan a"
+	next "modo de reloj.@"

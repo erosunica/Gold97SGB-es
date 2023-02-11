@@ -236,157 +236,163 @@ Route113MovementData_DayCareManWalksBackInside_WalkAroundPlayer:
 	step_end
 	
 BugCatcherRobSeenText:
-	text "Did you see any"
-	line "cool bugs in the"
-	cont "FOREST?"
-	done
-	
-BugCatcherRobBeatenText:
-	text "My bugs are down!"
-	done
-	
-BugCatcherRobAfterBattleText:
-	text "That was a trick"
-	line "question."
-	para "All bugs are cool."
+	text "¿Has visto algún"
+	line "bicho guay en el"
+	cont "BOSQUE?"
 	done
 
+BugCatcherRobBeatenText:
+	text "¡Mis bichos han"
+	line "caído!"
+	done
+
+BugCatcherRobAfterBattleText:
+	text "Era una pregunta"
+	line "con trampa."
+
+	para "Todos los bichos"
+	line "son guais."
+	done
 
 SchoolboyChad1SeenText:
-	text "I'm studying rare"
-	line "#MON."
+	text "Estoy estudiando"
+	line "#MON raros."
 	done
 
 SchoolboyChad1BeatenText:
-	text "I didn't study"
-	line "enough, I guess."
+	text "Creo que no"
+	line "estudié bastante."
 	done
 
 SchoolboyChadSoManyTestsText:
-	text "Have you ever"
-	line "heard of EEVEE?"
-	para "Rumor has it they"
-	line "live right here!"
-	para "I've never seen"
-	line "one though."
-	para "I'd definitely"
-	line "let you know if"
-	cont "I ever saw any."
+	text "¿Has oído hablar"
+	line "de EEVEE?"
+	para "¡Se rumorea que"
+	line "viven aquí!"
+
+	para "Yo nunca he visto"
+	line "uno."
+
+	para "Si alguna vez veo"
+	line "uno, te lo haré"
+	cont "saber."
 	done
 
 FledglingPaulsonSeenText:
-	text "I battle right"
-	line "by the #MON"
-	cont "CENTER."
-	para "That way it's easy"
-	line "to heal after I"
-	cont "lose."
+	text "Suelo combatir al"
+	line "lado del CENTRO"
+	cont "#MON."
+
+	para "Así es más fácil"
+	line "curar a mis"
+	cont "#MON cuando"
+	cont "pierdo."
 	done
 
 FledglingPaulsonBeatenText:
-	text "Not again!"
+	text "¡Otra vez no!"
 	done
 
 FledglingPaulsonAfterText:
-	text "My #MON are"
-	line "getting stronger,"
-	cont "slowly but surely."
+	text "Mis #MON se"
+	line "están fortalecien-"
+	cont "do, poco a poco."
 	done
-	
-
 
 Route106CooltrainerMText:
-	text "Have you ever used"
-	line "a #MON DAYCARE?"
-	para "The friendly old"
-	line "couple in that"
-	para "house will raise"
-	line "your #MON."
+	text "¿Has usado alguna"
+	line "vez una GUARDERÍA"
+	cont "#MON?"
+	para "La agradable"
+	line "pareja de ancianos"
+	para "de esa casa criará"
+	line "a tus #MON."
 	done
 
 BugCatcherWade1SeenText:
-	text "I caught a bunch"
-	line "of #MON. Let me"
-	cont "battle with you!"
+	text "He atrapado un"
+	line "montón de #MON."
+	cont "¡Luchemos!"
 	done
 
 BugCatcherWade1BeatenText:
-	text "Awwwww…"
+	text "¡Auuuu…!"
 	done
 
 BugCatcherWade1AfterText:
-	text "You can catch"
-	line "#MON even if"
+	text "Puedes atrapar"
+	line "#MON aunque"
+	para "ya lleves seis"
+	line "contigo."
 
-	para "you have six with"
-	line "you."
-
-	para "If you catch one,"
-	line "it'll go to your"
-	cont "BOX automatically."
+	para "Si atrapas alguno"
+	line "más, será enviado"
+	cont "a la CAJA."
 	done
 
-
 Route106YoungsterText:
-	text "I found a good"
-	line "#MON in JADE"
-	cont "FOREST."
+	text "He encontrado un"
+	line "buen #MON en"
+	cont "el BOSQUE JADE."
 
-	para "I'm going to raise"
-	line "it to take on"
-	cont "JASMINE."
+	para "Voy a criarlo"
+	line "para enfrentarme"
+	cont "a YASMINA."
 
-	para "She's the leader"
-	line "of ALLOY CITY's"
-	cont "GYM."
+	para "Es la LÍDER del"
+	line "GIMNASIO de CIUDAD"
+	cont "ALEAR."
 	done
 
 Route106SignText:
-	text "ROUTE 106"
+	text "RUTA 106"
 
-	para "ALLOY CITY -"
-	line "BIRDON TOWN"
+	para "CIUDAD ALEAR -"
+	line "PUEBLO BIRDON"
 	done
 
 DarkCaveSignText:
-	text "#MON DAYCARE"
-	para "Let us raise your"
-	line "#MON!"
+	text "GUARDERÍA #MON"
+	
+	para "¡Déjanos criar a"
+	line "tus #MON!"
 	done
 
 JadeSignText:
-	text "JADE FOREST"
-	para "Entrance to the"
-	line "Right"
+	text "BOSQUE JADE"
+	
+	para "Entrada a la"
+	line "derecha"
 	done
 
 HikerAnthony2SeenText:
-	text "I came through the"
-	line "forest, but I"
-
-	para "still have plenty"
-	line "of energy left."
+	text "Crucé el bosque y"
+	line "todavía me queda"
+	cont "mucha energía."
 	done
 
 HikerAnthony2BeatenText:
-	text "Whoa! You've got"
-	line "more zip than me!"
+	text "¡Guau! ¡Tienes más"
+	line "fuerza que yo!"
 	done
 
 HikerAnthony2AfterText:
-	text "We HIKERS are at"
-	line "our best when"
-	para "we're free to"
-	line "explore endlessly."
+	text "Los MONTAÑEROS"
+	line "somos felices"
+	para "cuando tenemos"
+	line "la libertad de"
+	cont "explorar sin"
+	cont "parar."
 	done
 
 HikerAnthonyParaText:
-	text "Hey, did you get"
-	line "an EEVEE?"
+	text "Hola, ¿ya tienes"
+	line "un EEVEE?"
 
-	para "I caught one too."
+	para "Yo también he"
+	line "capturado uno."
 
-	para "They're so fluffy!"
+	para "¡Son tan suaves!"
 	done
 
 Route106_MapEvents:
@@ -416,7 +422,7 @@ Route106_MapEvents:
 	object_event  7, 13, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route106YoungsterScript, -1
 	object_event 24,  5, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 4, TrainerBugCatcherRob, -1
 	object_event 42, 12, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route106CooltrainerMScript, -1
-	object_event  4, 11, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route106FruitTree, -1
+	object_event  4, 11, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, Route106FruitTree, -1
 	object_event 11,  6, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route106SuperPotion, EVENT_ROUTE_106_POTION
 	object_event 33, 13, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route106GreatBall, EVENT_ROUTE_106_GREAT_BALL
 	object_event 38,  6, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DayCareManScript_Outside, EVENT_DAY_CARE_MAN_ON_ROUTE_113

@@ -18,30 +18,31 @@ Route112RuinsOfAlphGateYoungsterScript:
 	jumptextfaceplayer Route112RuinsOfAlphGateYoungsterText
 
 Route112RuinsOfAlphGateOfficerText:
-	text "RUINS OF ALPH"
+	text "RUINAS ALFA"
 
-	para "A Look-and-Touch"
-	line "Tourist Site"
+	para "Lugar turístico"
+	line "para observar y"
+	cont "tocar."
 
-	para "Try the sliding"
-	line "stone panels!"
+	para "¡Intenta mover los"
+	line "paneles de piedra!"
 	done
 
 Route112RuinsOfAlphGatePokefanMText:
-	text "You're studying"
-	line "the RUINS?"
+	text "¿Estás estudiando"
+	line "las RUINAS?"
 
-	para "I see a scientist"
-	line "in the making."
+	para "Podrías dedicarte"
+	line "a la ciencia."
 	done
 
 Route112RuinsOfAlphGateYoungsterText:
-	text "There are drawings"
-	line "on stone panels."
+	text "Hay dibujos en los"
+	line "paneles de piedra."
 
-	para "I tried moving"
-	line "them. I wonder"
-	cont "what they are."
+	para "Intenté moverlos."
+	line "Me pregunto qué"
+	cont "serán."
 	done
 
 Route112RuinsOfAlphGate_MapEvents:

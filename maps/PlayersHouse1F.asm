@@ -62,14 +62,14 @@ MeetMomScript:
 	yesorno
 	iffalse .WrongDay
 	special InitialSetDSTFlag
-	yesorno
-	iffalse .SetDayOfWeek
+;	yesorno
+;	iffalse .SetDayOfWeek
 	jump .DayOfWeekDone
 
 .WrongDay:
 	special InitialClearDSTFlag
-	yesorno
-	iffalse .SetDayOfWeek
+;	yesorno
+;	iffalse .SetDayOfWeek
 .DayOfWeekDone:
 	writetext GearIsActiveText1
 	waitbutton
@@ -95,9 +95,6 @@ MeetMomScript:
 .FinishPhone:
 	writetext InstructionsNextText
 	waitbutton
-;	closetext
-;	special NameRival
-;	opentext
 	writetext FinalMomText
 	waitbutton
 	closetext
@@ -209,178 +206,151 @@ MomWalksBackMovement:
 	step_end
 	
 GearIsActiveText1:
-	text "That's it!"
-	para "I think it's all"
-	line "working!"
+	text "¡Ya está! ¡Creo"
+	line "que ya funciona!"
 	done
 	
 GearIsActiveText2:
-	text "<PLAYER>'s #GEAR"
-	line "is now set up!"
+	text "¡El #GEAR de"
+	line "<PLAYER> ya está"
+	cont "listo!"
 	done
 
 FinalMomText:
-	;text "That's right,"
-	;line "<RIVAL> is"
-	;cont "his name!"
+	text "Por cierto, tu"
+	line "amigo ha venido"
+	para "para ver si"
+	line "estabas."
 
-	text "By the way, that"
-	line "friend of yours"
+	para "Debería estar aún"
+	line "por aquí cerca."
 
-	para "stopped by looking"
-	line "for you."
-
-	para "He's probably still"
-	line "close by. I'm sure"
-
-	para "you'll bump into"
-	line "him soon."
+	para "Seguro que te"
+	line "lo acabas"
+	cont "encontrando."
 	done
 
 Oak2sLookingForYouText:
-	text "Oh, <PLAYER>…!"
-	line "Your new #MON"
+	text "¡Ah, <PLAYER>…!"
+	line "¡Aún no has"
+	para "configurado tu"
+	line "#MON GEAR!"
 
-	para "GEAR isn't set up"
-	line "yet!"
-
-	para "Let's get that"
-	line "done before you"
-	cont "head out!"
+	para "El #MON GEAR o"
+	line "sólo #GEAR es"
+	para "básico para ser un"
+	line "buen entrenador."
 	done
 
 MomGivesPokegearText:
-	text "#MON GEAR, or"
-	line "just #GEAR."
-
-	para "It's essential if"
-	line "you want to be a"
-	cont "good trainer."
-
-	para "The time isn't"
-	line "adjusted yet."
-
-	para "You mustn't forget"
-	line "that!"
+	text "¡Hagámoslo antes"
+	line "de que te vayas!"
 	done
 
 IsItDSTText:
-	text "Is it Daylight"
-	line "Saving Time now?"
+	text "¿Es horario de"
+	line "verano?"
 	done
 
 ComeHomeForDSTText:
-	text "Come home to"
-	line "adjust your clock"
+	text "Vuelve a casa"
+	line "para ajustar tu"
+	para "reloj al horario"
+	line "de verano."
 
-	para "for Daylight"
-	line "Saving Time."
-
-	para "By the way, do you"
-	line "know how to use"
-	cont "the PHONE?"
+	para "Por cierto…"
+	
+	line "¿Sabes cómo usar"
+	cont "el TELÉFONO?"
 	done
 
 KnowTheInstructionsText:
-	text "Don't you just"
-	line "turn the #GEAR"
-
-	para "on and select the"
-	line "PHONE icon?"
+	text "¿Recuerdas que"
+	line "hay que encender"
+	para "el #GEAR y"
+	line "elegir el"
+	cont "TELÉFONO?"
 	done
 
 DontKnowTheInstructionsText:
-	text "I'll read the"
-	line "instructions."
+	text "Te leeré las"
+	line "instrucciones."
 
-	para "Turn the #GEAR"
-	line "on and select the"
-	cont "PHONE icon."
+	para "Enciende el"
+	line "#GEAR y elige"
+	cont "el TELÉFONO."
 	done
 
 InstructionsNextText:
-	text "Phone numbers are"
-	line "stored in memory."
+	text "Los números están"
+	line "en la memoria."
 
-	para "Just choose a name"
-	line "you want to call."
+	para "Elige el nombre"
+	line "que quieras."
 
-	para "Gee, isn't that"
-	line "convenient?"
-
-	;para "By the way, that"
-	;line "friend of yours"
-
-	;para "stopped by looking"
-	;line "for you."
-
-	;para "I can't remember"
-	;line "his name though…"
-
+	para "¿No te parece"
+	line "estupendo?"
 	done
 
 HurryUpOak2IsWaitingText:
-	text "PROF.OAK told me"
-	line "he wanted to talk"
+	text "El PROF. OAK te"
+	line "está esperando."
 
-	para "to you. You should"
-	line "go see him when"
-	cont "you get a chance."
-
+	para "¡Date prisa!"
 	done
 
 SoWhatWasProfOak2sErrandText:
-	text "So, what was PROF."
-	line "OAK's request?"
+	text "¿Qué quería el"
+	line "PROF. OAK?"
 
 	para "…"
 
-	para "That does sound"
-	line "challenging."
+	para "Parece muy"
+	line "difícil."
 
-	para "But, you should be"
-	line "proud that people"
-	cont "rely on you."
+	para "Deberías estar"
+	line "orgulloso de que"
+	cont "la gente confíe"
+	cont "en ti."
 	done
 
 ImBehindYouText:
-	text "<PLAYER>, do it!"
+	text "¡Adelante,"
+	line "<PLAYER>!"
 
-	para "I'm behind you all"
-	line "the way!"
+	para "¡Estoy contigo"
+	line "hasta el final!"
 	done
 
 
 StoveText:
-	text "Mom's specialty!"
-
-	para "SUNPOINT VOLCANO"
-	line "BURGER!"
+	text "La cocina está"
+	line "apagada."
+	
+	para "¡La seguridad es"
+	line "lo primero!"
 	done
 
 SinkText:
-	text "The sink is spot-"
-	line "less. Mom likes it"
-	cont "clean."
+	text "El fregadero está"
+	line "impecable."
+	
+	para "¿Qué habrá para"
+	line "cenar esta noche?"
 	done
 
 FridgeText:
-	text "Let's see what's"
-	line "in the fridge…"
-
-	para "FRESH WATER and"
-	line "tasty LEMONADE!"
+	text "El interior… está"
+	line "casi vacío."
 	done
 
 TVText:
-	text "There's a movie on"
-	line "TV: Stars dot the"
+	text "¡Primape está"
+	line "furioso y Ash"
+	cont "huye!"
 
-	para "sky as two boys"
-	line "ride on a train…"
-
-	para "I'd better get"
-	line "rolling too!"
+	para "¡Es el anime de"
+	line "#MON!"
 	done
 
 PlayersHouse1F_MapEvents:

@@ -3,7 +3,6 @@ SECTION "Map Blocks 1", ROMX
 RyukyuRestaurant_Blocks:
 	INCBIN "maps/RyukyuRestaurant.blk"
 
-
 RadioTower1F_Blocks:
 	INCBIN "maps/RadioTower1F.blk"
 
@@ -15,7 +14,6 @@ RadioTower3F_Blocks:
 
 ForkedStraitGate_Blocks:
 	INCBIN "maps/ForkedStraitGate.blk"
-
 
 ForkedStraitWest_Blocks:
 	INCBIN "maps/ForkedStraitWest.blk"
@@ -53,13 +51,9 @@ Route110_Blocks:
 Route102_Blocks:
 	INCBIN "maps/Route102.blk"
 
-
 RouteU7U_Blocks:; made unused
 KikaiStrait_Blocks:
 	INCBIN "maps/KikaiStrait.blk"
-
-
-
 
 BetaPlayersHouse2F_Blocks:;made unused
 KantoRegion_Blocks:
@@ -74,10 +68,8 @@ Route116_Blocks:
 RivalsHouse_Blocks:
 	INCBIN "maps/RivalsHouse.blk"
 
-
 MotobuPath_Blocks:
 	INCBIN "maps/MotobuPath.blk"
-
 
 RouteU11U_Blocks:;made unused
 KeramaStrait_Blocks:
@@ -129,20 +121,17 @@ MeridianPath_Blocks:
 KumePoint_Blocks:
 	INCBIN "maps/KumePoint.blk"
 
-
 Route117_Blocks:
 	INCBIN "maps/Route117.blk"
 
 KumeCity_Blocks:
 	INCBIN "maps/KumeCity.blk"
 
-
 UrasoeTrail_Blocks:
 	INCBIN "maps/UrasoeTrail.blk"
 
 IsenStrait_Blocks:
 	INCBIN "maps/IsenStrait.blk"
-
 
 BetaPokecenter_Blocks:
 
@@ -172,7 +161,6 @@ EarlsMuseum_Blocks:
 	
 BillsFamilysHouse_Blocks:
 	INCBIN "maps/BillsFamilysHouse.blk"
-
 
 AlloyTimsHouse_Blocks:
 AlloyPunishmentSpeechHouse_Blocks:
@@ -280,7 +268,6 @@ RouteU12U_Blocks:
 Route107_Blocks:
 	INCBIN "maps/Route107.blk"
 
-
 WeatheredTrail_Blocks:
 	INCBIN "maps/WeatheredTrail.blk"
 
@@ -328,26 +315,12 @@ TropicalIslandJungle_Blocks:
 SunpointDocks_Blocks:
 	INCBIN "maps/SunpointDocks.blk"
 
-
 FightingDojo_Blocks:
 	INCBIN "maps/FightingDojo.blk"
 
 
-BetaHouse_Blocks:
-	INCBIN "maps/unused/BetaHouse.blk"
-
-	
-
-
-
-
-
 SECTION "Map Blocks 2", ROMX
 
-
-
-
-	
 RadioTower4F_Blocks:
 	INCBIN "maps/RadioTower4F.blk"
 
@@ -408,7 +381,6 @@ CrownPokecenter1F_Blocks:
 Kanto2Pokecenter1F_Blocks:
 	INCBIN "maps/Pokecenter1F.blk"
 
-
 PagotaPokemonAcademy_Blocks:
 	INCBIN "maps/PagotaPokemonAcademy.blk"
 
@@ -459,7 +431,6 @@ KantoGameCorner_Blocks:
 KantoGameCornerPrizeRoom_Blocks:
 	INCBIN "maps/KantoGameCornerPrizeRoom.blk"
 
-
 TradeCenter_Blocks:
 TimeCapsule_Blocks:
 	INCBIN "maps/TradeCenter.blk"
@@ -475,7 +446,6 @@ WestportPPSpeechHouse_Blocks:
 AlloySailorHoOhHouse_Blocks:
 IejimaHouse2_Blocks:
 	INCBIN "maps/House3.blk"
-
 
 BoulderMineB1F_Blocks:
 	INCBIN "maps/BoulderMineB1F.blk"
@@ -503,7 +473,6 @@ KantoHotel_Blocks:
 SanskritRuinsOutside_Blocks:
 	INCBIN "maps/SanskritRuinsOutside.blk"
 
-
 SanskritRuinsHoOhChamber_Blocks:
 SanskritRuinsKabutoChamber_Blocks:
 SanskritRuinsOmanyteChamber_Blocks:
@@ -512,10 +481,6 @@ SanskritRuinsAerodactylChamber_Blocks:
 
 SanskritRuinsInnerChamber_Blocks:
 	INCBIN "maps/SanskritRuinsInnerChamber.blk"
-
-
-
-
 	
 RadioTower6F_Blocks:
 	INCBIN "maps/RadioTower6F.blk"
@@ -598,7 +563,6 @@ FiveFloorTower5F_Blocks:
 ForkedStraitNorth_Blocks:
 	INCBIN "maps/ForkedStraitNorth.blk"
 
-
 ForkedStraitEast_Blocks:
 	INCBIN "maps/ForkedStraitEast.blk"
 
@@ -613,7 +577,6 @@ BurnedTower1F_Blocks:
 
 BurnedTowerB1F_Blocks:
 	INCBIN "maps/BurnedTowerB1F.blk"
-
 
 CharredSummitCave_Blocks:
 	INCBIN "maps/CharredSummitCave.blk"
@@ -678,7 +641,6 @@ RyukyuHotel5F_Blocks:
 RyukyuHotelRooms_Blocks:
 	INCBIN "maps/RyukyuHotelRooms.blk"
 
-
 OldMahoganyMart1F_Blocks:
 BoulderMineB4FGiftShop_Blocks:
 	INCBIN "maps/GiftShop.blk"
@@ -691,7 +653,6 @@ TeamRocketBaseB1F_Blocks:
 
 TeamRocketBaseB2F_Blocks:
 	INCBIN "maps/TeamRocketBaseB2F.blk"
-
 
 MountFujiPokecenter1F_Blocks:
 	INCBIN "maps/MountFujiPokecenter1F.blk"
@@ -756,8 +717,8 @@ AlloyLighthouse5F_Blocks:
 AlloyLighthouse6F_Blocks:
 	INCBIN "maps/AlloyLighthouse6F.blk"
 
-SECTION "Map Blocks 3", ROMX
 
+SECTION "Map Blocks 3", ROMX
 
 KikaiCaldera1F_Blocks:
 	INCBIN "maps/KikaiCaldera1F.blk"
@@ -851,8 +812,6 @@ PokemonFanClub_Blocks:
 	
 StandCityRocketHouse2F_Blocks:
 	INCBIN "maps/StandCityRocketHouse2F.blk"
-
-
 
 SilphCo1F_Blocks:
 	INCBIN "maps/SilphCo1F.blk"
@@ -981,7 +940,6 @@ StandPoke_Blocks:
 	
 DeepwaterPassageEastCavern_Blocks:
 	INCBIN "maps/DeepwaterPassageEastCavern.blk"
-
 
 FiveFloorTower2F_Blocks:
 	INCBIN "maps/FiveFloorTower2F.blk"

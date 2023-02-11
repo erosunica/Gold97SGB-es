@@ -1,10 +1,10 @@
-	db "SLEEPING@" ; species name
-	dw 611, 10140 ; height, weight
+	db "DORMILÓN@" ; species name
+	dbw 21, 4600 ; height, weight
 
-	db   "This #MON's"
-	next "stomach is so"
-	next "strong, even"
+	db   "Este #MON tiene"
+	next "un estómago a"
+	next "prueba de bomba."
 
-	page "eating moldy or"
-	next "rotten food will"
-	next "not affect it.@"
+	page "Aunque coma algo"
+	next "en mal estado, no"
+	next "le afectará.@"

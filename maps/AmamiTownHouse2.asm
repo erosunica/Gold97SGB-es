@@ -10,15 +10,16 @@ AmamiTownHouse2GentlemanScript:
 	jumptextfaceplayer AmamiTownHouse2GentlemanText
 
 AmamiTownHouse2GentlemanText:
-	text "Over many years,"
-	line "a long time ago,"
-	para "people from the"
-	line "mainland sailed"
-	para "here and settled"
-	line "on the islands."
-	para "I feel our culture"
-	line "is slightly more"
-	cont "relaxed here."
+	text "Hace mucho tiempo,"
+	line "la gente del"
+	para "continente navegó"
+	line "hasta aquí y se"
+	cont "asentó en las"
+	cont "ISLAS."
+
+	para "Diría que nuestro"
+	line "estilo de vida es"
+	cont "más tranquilo."
 	done
 
 AmamiTownHouse2_MapEvents:

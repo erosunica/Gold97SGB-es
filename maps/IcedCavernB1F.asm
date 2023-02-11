@@ -44,7 +44,7 @@ ArticunoScript:
 	end
 	
 ArticunoText:
-	text "Aie!"
+	text "¡Artiii!"
 	done
 
 

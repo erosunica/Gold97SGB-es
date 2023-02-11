@@ -171,110 +171,135 @@ NanjoForestSign2:
 	jumptext NanjoForestSign2Text
 	
 NanjoForestSignText:
-	text "'NO LITTERING'"
-	para "Please pick up"
-	line "after yourself."
+	text "“PROHIBIDO TIRAR"
+	line "BASURA”"
+
+	para "Por favor,"
+	line "recógela tú mismo."
 	done
-	
+
 NanjoForestSign2Text:
-	text "Exit here for"
-	line "GREAT EAST STRAIT"
+	text "Salida hacia el"
+	line "GRAN CANAL LEVANTE"
 	done
-	
+
 NanjoForestSilverBefore:
-	text "<RIVAL>: Hey,"
+	text "<RIVAL>: ¡Hola,"
 	line "<PLAYER>!"
-	para "It's been a while!"
-	para "I'm here out on"
-	line "the ISLANDS to"
-	para "continue training"
-	line "and bonding with"
-	cont "my #MON."
-	para "I've learned more"
-	line "about how to work"
-	para "with them as a"
-	line "team."
-	para "We've grown a lot"
-	line "closer recently."
-	para "But we've also"
-	line "grown a lot"
-	cont "stronger!"
-	para "You know what that"
-	line "means!"
+
+	para "¡Cuánto tiempo!"
+
+	para "He venido a las"
+	line "ISLAS a seguir"
+	para "entrenando y"
+	line "estrechando lazos"
+	cont "con mis #MON."
+
+	para "He aprendido más"
+	line "sobre cómo"
+	cont "trabajar en equipo"
+	cont "con ellos."
+
+	para "Nos hemos unido"
+	line "mucho últimamente."
+
+	para "¡Pero también nos"
+	line "hemos hecho mucho"
+	cont "más fuertes!"
+
+	para "¡Ya sabes lo que"
+	line "eso significa!"
 	done
-	
+
 NanjoForestSilverTextWin:
-	text "You got me!"
+	text "¡Me has ganado!"
 	done
-	
+
 NanjoForestSilverTextLoss:
-	text "Alright!"
+	text "¡Bien!"
 	done
-	
+
 NanjoForestSilverAfter:
-	text "Whew, that was a"
-	line "great battle."
-	para "I think I'm about"
-	line "done training"
-	cont "here."
-	para "Maybe I'll catch"
-	line "you around some-"
-	cont "place else!"
+	text "Uf, menudo"
+	line "combate."
+
+	para "Creo que ya he"
+	line "entrenado lo"
+	cont "suficiente por"
+	cont "aquí."
+
+	para "¡A lo mejor"
+	line "volvemos a vernos"
+	cont "en alguna otra"
+	cont "parte!"
 	done
-	
+
 WhatDoesLuckyEggDoText:
-	text "I wonder where it"
-	line "came from."
-	para "Can #MON use"
-	line "it?"
+	text "Me pregunto de"
+	line "dónde viene."
+
+	para "¿Podrá usarlo un"
+	line "#MON?"
 	done
-	
+
 HeresLuckyEggText:
-	text "Hey, check this"
-	line "out!"
-	para "I found something!"
-	para "It's some sort"
-	line "of EGG?"
-	para "Not sure what it"
-	line "is, but you can"
-	cont "have it!"
+	text "¡Oye, mira esto!"
+
+	para "¡He encontrado"
+	line "algo!"
+
+	para "¿Será un HUEVO?"
+
+	para "Ni idea, pero"
+	line "puedes quedártelo."
 	done
-	
+
 AlreadyGaveLuckyEggText:
-	text "You never know"
-	line "what you'll find"
-	cont "here."
+	text "Nunca sabes qué te"
+	line "podrás encontrar"
+	cont "por aquí."
 	done
-	
+
 NoLuckyEggYetText:
-	text "I'm looking for"
-	line "interesting things"
-	para "that wash up on"
-	line "the shore."
-	para "I find lots of"
-	line "items like POTIONS"
-	cont "and FULL HEALS."
-	para "Once I even found"
-	line "a NUGGET!"
-	para "You can find some"
-	line "cool stuff here."
-	para "Come back and"
-	line "check with me"
-	cont "sometime."
-	para "I'll share some-"
-	line "thing I find"
-	cont "with you."
+	text "Estoy buscando"
+	line "cosas interesantes"
+	cont "que llegan a la"
+	cont "orilla."
+
+	para "Encuentro muchos"
+	line "objetos como"
+	cont "POCIONES y CURA"
+	cont "TOTAL."
+
+	para "¡Una vez incluso"
+	line "encontré una"
+	cont "PEPITA!"
+
+	para "Seguro que tú"
+	line "también encuentras"
+	cont "algo que merezca"
+	cont "la pena."
+
+	para "Vuelve en otra"
+	line "ocasión para"
+	cont "buscar conmigo."
+
+	para "Compartiré algo de"
+	line "lo que encuentre"
+	cont "contigo."
 	done
-	
+
 LuckyEggBugCatcherText:
-	text "My brother and I"
-	line "find lots of cool"
-	para "things that wash"
-	line "up on the shore!"
-	para "We don't think of"
-	line "it as trash,"
-	para "because sometimes"
-	line "we find treasure!"
+	text "¡Mi hermano y yo"
+	line "encontramos un"
+	para "montón de cosas"
+	line "chulas que llegan"
+	cont "a la orilla!"
+
+	para "¡No todo es"
+	line "basura, a veces"
+	cont "encontramos"
+	cont "tesoros!"
 	done	
 
 NanjoForest_MapEvents:
@@ -300,5 +325,5 @@ NanjoForest_MapEvents:
 	object_event 12,  4, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, NanjoForestUltraBall, EVENT_PICKED_UP_ULTRA_BALL_FROM_NANJO_FOREST
 	object_event  8, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, NanjoForestFullHeal, EVENT_PICKED_UP_FULL_HEAL_FROM_NANJO_FOREST
 	object_event 16, 20, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, NanjoForestFullRestore, EVENT_PICKED_UP_FULL_RESTORE_FROM_NANJO_FOREST
-	object_event 33, 29, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, NanjoFruitTree1, -1
-	object_event 10, 23, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, NanjoFruitTree2, -1
+	object_event 33, 29, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, NanjoFruitTree1, -1
+	object_event 10, 23, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, NanjoFruitTree2, -1

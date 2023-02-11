@@ -1,10 +1,10 @@
 	db "MANTIS@" ; species name
-	dw 411, 1230 ; height, weight
+	dbw 15, 560 ; height, weight
 
-	db   "It's very proud of"
-	next "its speed. It"
-	next "moves so fast that"
+	db   "Está orgulloso de"
+	next "la velocidad que"
+	next "alcanza. Sus"
 
-	page "its opponent does"
-	next "not even know what"
-	next "knocked it down.@"
+	page "ataques son tan"
+	next "rápidos que ni ves"
+	next "que te ha dado.@"

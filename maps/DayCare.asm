@@ -74,83 +74,78 @@ DayCareBookshelf:
 	jumpstd DifficultBookshelfScript
 
 Text_GrampsLookingForYou:
-	text "Gramps was looking"
-	line "for you."
+	text "El abuelo te"
+	line "estaba buscando."
 	done
 
 Text_DayCareManTalksAboutEggTicket:
-	text "I'm the DAY-CARE"
-	line "MAN."
+	text "Soy el ENCARGADO"
+	line "de la GUARDERÍA."
 
-	para "There's something"
-	line "new in WESTPORT"
+	para "Hay algo nuevo en"
+	line "PONIENTE llamado"
+	cont "CENTRO DE CAMBIO."
 
-	para "called the TRADE"
-	line "CORNER."
+	para "Me dieron un"
+	line "TICKET HUEVO que"
+	para "puede ser cambiado"
+	line "por un HUEVO RARO."
 
-	para "I was given an EGG"
-	line "TICKET that can be"
-
-	para "traded in for a"
-	line "ODD EGG."
-
-	para "But since we run a"
-	line "DAY-CARE, we don't"
-
-	para "need it. You may"
-	line "as well have it."
+	para "Pero como tengo"
+	line "una GUARDERÍA, no"
+	para "lo necesito. Mejor"
+	line "te lo quedas tú."
 	done
 
 DayCareManText_GiveOddEgg:
-	text "I'm the DAY-CARE"
-	line "MAN."
+	text "Soy el ENCARGADO"
+	line "de la GUARDERÍA."
 
-	para "Do you know about"
-	line "EGGS?"
+	para "¿Sabes algo acerca"
+	line "de los HUEVOS?"
 
-	para "I was raising"
-	line "#MON with my"
-	cont "wife, you see."
+	para "He estado cuidando"
+	line "#MON junto con"
+	cont "mi esposa."
 
-	para "We were shocked to"
-	line "find an EGG!"
+	para "¡Y hemos consegui-"
+	line "do un HUEVO!"
 
-	para "How incredible is"
-	line "that?"
+	para "¿A que es"
+	line "increíble?"
 
-	para "Well, wouldn't you"
-	line "like this EGG?"
+	para "¿Qué? ¿Te gusta"
+	line "este HUEVO?"
 
-	para "Then fine, this is"
-	line "yours to keep!"
+	para "¡Entonces,"
+	line "quédatelo!"
 	done
 
 DayCareText_ComeAgain:
-	text "Come again."
+	text "Vuelve cuando"
+	line "quieras."
 	done
 
 DayCareText_GotOddEgg:
-	text "<PLAYER> received"
-	line "ODD EGG!"
+	text "¡<PLAYER> recibió"
+	line "el HUEVO RARO!"
 	done
 
 DayCareText_DescribeOddEgg:
-	text "I found that when"
-	line "I was caring for"
+	text "Lo encontré"
+	line "mientras cuidaba"
+	para "el #MON de"
+	line "alguien."
 
-	para "someone's #MON"
-	line "before."
-
-	para "But the trainer"
-	line "didn't want the"
-
-	para "EGG, so I'd kept"
-	line "it around."
+	para "Pero el entrenador"
+	line "no quiso el HUEVO,"
+	para "así que lo dejé"
+	line "por aquí."
 	done
 
 DayCareText_PartyFull:
-	text "You've no room for"
-	line "this."
+	text "No tienes sitio"
+	line "para esto."
 	done
 
 DayCare_MapEvents:

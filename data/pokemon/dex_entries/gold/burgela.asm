@@ -1,10 +1,10 @@
-	db "VINE@" ; species name
-	dw 205, 440 ; height, weight
-
-	db   "The unruly vines"
-	next "hanging from its"
-	next "head often obscure"
-
-	page "its vision. Is"
-	next "able to camouflage"
-	next "itself in shrubs.@"
+	db "ENREDADERA@" ; species name
+	dbw 7, 200 ; height, weight
+	
+	db   "No ve bien a causa"
+	next "de las enredaderas"
+	next "revueltas que"
+	
+	page "cuelgan sobre su"
+	next "cabeza. Se camufla"
+	next "entre arbustos.@"

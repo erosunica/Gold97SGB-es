@@ -1,10 +1,10 @@
-	db "KISS@" ; species name
-	dw 104, 130 ; height, weight
+	db "BESO@" ; species name
+	dbw 4, 60 ; height, weight
 
-	db   "The sensitivity of"
-	next "its lips develops"
-	next "most quickly."
+	db   "Sus labios son la"
+	next "parte más sensible"
+	next "de su cuerpo."
 
-	page "It uses them to"
-	next "try to identify"
-	next "unknown objects.@"
+	page "Los utiliza para"
+	next "tratar de identi-"
+	next "ficar objetos.@"

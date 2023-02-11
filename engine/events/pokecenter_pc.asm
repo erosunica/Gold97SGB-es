@@ -61,11 +61,11 @@ PokemonCenterPC:
 	dw HallOfFamePC, .String_HallOfFame
 	dw TurnOffPC,    .String_TurnOff
 
-.String_PlayersPC:  db "<PLAYER>'s PC@"
-.String_BillsPC:    db "BILL's PC@"
-.String_OaksPC:     db "PROF.OAK's PC@"
-.String_HallOfFame: db "HALL OF FAME@"
-.String_TurnOff:    db "TURN OFF@"
+.String_PlayersPC:  db "PC DE <PLAYER>@"
+.String_BillsPC:    db "PC DE BILL@"
+.String_OaksPC:     db "PC PROF. OAK@"
+.String_HallOfFame: db "HALL DE FAMA@"
+.String_TurnOff:    db "DESCONEXIÓN@"
 
 .WhichPC:
 ; entries correspond to PCPC_* constants
@@ -233,6 +233,12 @@ _PlayersPC:
 	ld [wWhichIndexSet], a
 	ld hl, PlayersPCAskWhatDoText
 	call PC_DisplayTextWaitMenu
+;;; erosunica: clear DESCONEXIÓN text from the window behind if PCPC_POSTGAME
+	ld a, [wHallOfFameCount]
+	and a
+	ld a, PCPC_POSTGAME
+	call nz, ClearPlayersPCBG
+;;;
 	call Function159ec
 	call ExitMenu
 	ret
@@ -281,13 +287,13 @@ PlayersPCMenuData:
 	dw PlayerLogOffMenu,       .LogOff
 	dw PlayerLogOffMenu,       .TurnOff
 
-.WithdrawItem: db "WITHDRAW ITEM@"
-.DepositItem:  db "DEPOSIT ITEM@"
-.TossItem:     db "TOSS ITEM@"
-.MailBox:      db "MAIL BOX@"
-.Decoration:   db "DECORATION@"
-.TurnOff:      db "TURN OFF@"
-.LogOff:       db "LOG OFF@"
+.WithdrawItem: db "SACAR OBJETO@"
+.DepositItem:  db "DEJAR OBJETO@"
+.TossItem:     db "TIRAR OBJETO@"
+.MailBox:      db "BUZÓN@"
+.Decoration:   db "DECORACIÓN@"
+.TurnOff:      db "DESCONEXIÓN@"
+.LogOff:       db "DESCONEXIÓN@"
 
 .WhichPC:
 ; entries correspond to PLAYERSPC_* constants
@@ -321,13 +327,20 @@ PC_DisplayTextWaitMenu:
 	ld [wOptions], a
 	ret
 
+ClearPlayersPCBG: ; erosunica: new, used in _PlayersPC
+	hlcoord 1, 10
+	ld bc, 12
+	ld a, " "
+	call ByteFill
+	ret
+
 PlayersPCAskWhatDoText:
 	text_far _PlayersPCAskWhatDoText
 	text_end
 
 PlayerWithdrawItemMenu:
 	call LoadStandardMenuHeader
-	farcall ClearPCItemScreen
+	farcall ClearPlayersHousePCScreen
 .loop
 	call PCItemsJoypad
 	jr c, .quit
@@ -403,7 +416,7 @@ PlayerWithdrawItemMenu:
 
 PlayerTossItemMenu:
 	call LoadStandardMenuHeader
-	farcall ClearPCItemScreen
+	farcall ClearPlayersHousePCScreen
 .loop
 	call PCItemsJoypad
 	jr c, .quit
@@ -636,7 +649,7 @@ PCItemsJoypad:
 
 .PCItemsMenuData:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 4, 1, 18, 10
+	menu_coords 3, 1, 18, 10
 	dw .MenuData
 	db 1 ; default option
 
@@ -652,6 +665,26 @@ PCItemsJoypad:
 PC_DisplayText:
 	call MenuTextbox
 	call ExitMenu
+	ret
+
+ClearPlayersHousePCScreen:
+	call DisableSpriteUpdates
+	xor a
+	ldh [hBGMapMode], a
+	call ClearBGPalettes
+	call ClearSprites
+	hlcoord 0, 0
+	ld bc, SCREEN_HEIGHT * SCREEN_WIDTH
+	ld a, " "
+	call ByteFill
+	hlcoord 0, 0
+	lb bc, 10, 18
+	call Textbox
+	hlcoord 0, 12
+	lb bc, 4, 18
+	call Textbox
+	call WaitBGMap2
+	call SetPalettes ; load regular palettes?
 	ret
 
 PokecenterPCTurnOnText:

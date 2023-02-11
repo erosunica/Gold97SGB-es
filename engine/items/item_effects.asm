@@ -1349,11 +1349,11 @@ StatStrings:
 	dw .speed
 	dw .special
 
-.health  db "HEALTH@"
-.attack  db "ATTACK@"
-.defense db "DEFENSE@"
-.speed   db "SPEED@"
-.special db "SPECIAL@"
+.health  db "SALUD@"
+.attack  db "ATAQUE@"
+.defense db "DEFENSA@"
+.speed   db "VELOCID.@"
+.special db "ESPECIAL@"
 
 GetStatExpRelativePointer:
 	ld a, [wCurItem]
@@ -1465,8 +1465,8 @@ RareCandyEffect:
 	ld c, 9
 	call Textbox
 
-	hlcoord 11, 1
-	ld bc, 4
+	hlcoord 10, 1 ;level up stats window text
+	ld bc, 5 ; stats digits x position
 	predef PrintTempMonStats
 
 	call WaitPressAorB_BlinkCursor
@@ -1803,12 +1803,12 @@ HealHP_SFX_GFX:
 	call WaitPlaySFX
 	pop de
 	ld a, [wCurPartyMon]
-	hlcoord 11, 0
+	hlcoord 4, 1 ; erosunica: was 11, 0
 	ld bc, SCREEN_WIDTH * 2
 	call AddNTimes
 	ld a, $4
 	ld [wWhichHPBar], a
-	predef_jump AnimateHPBar
+	predef_jump PartyAnimateHPBar ; erosunica: modded
 
 UseItem_SelectMon:
 	call .SelectMon

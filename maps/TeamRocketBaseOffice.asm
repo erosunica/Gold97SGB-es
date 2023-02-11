@@ -121,169 +121,195 @@ ExecutiveLeavesOffice:
 	step_end
 	
 RocketBossRoomGrunt1Text:
-	text "This is the final"
-	line "preparation"
-	para "meeting before our"
-	line "machine becomes"
-	cont "fully functional."
-	para "I'm sure there"
-	line "isn't anything"
-	para "that can get in"
-	line "the way of our"
-	cont "plan now!"
+	text "Estos son los úl-"
+	line "timos preparativos"
+	para "antes de que"
+	line "nuestra máquina"
+	cont "esté totalmente"
+	cont "lista."
+
+	para "¡Estoy seguro de"
+	line "que ya no hay nada"
+	para "que pueda interpo-"
+	line "nerse en nuestro"
+	cont "plan!"
 	done
-	
+
 RocketBossRoomGrunt2Text:
-	text "IMPOSTOR OAK did a"
-	line "great job"
-	para "convincing the"
-	line "people of STAND"
-	para "CITY to not worry"
-	line "about our"
-	cont "operations here."
+	text "El OAK IMPOSTOR"
+	line "hizo un gran tra-"
+	para "bajo convenciendo"
+	line "a la gente de"
+	para "CIUDAD ENHIESTA de"
+	line "que no se preocu-"
+	cont "pasen por lo que"
+	cont "hiciésemos aquí."
 	done
-	
+
 RocketBossRoomGrunt3Text:
-	text "The EXECUTIVE is"
-	line "the only person"
-	para "who knows the"
-	line "password to shut"
-	para "down the mind"
-	line "control antenna."
-	para "He can also be"
-	line "very forgetful…"
+	text "El EJECUTIVO es la"
+	line "única persona que"
+	para "conoce la contra-"
+	line "seña para apagar"
+	para "la antena de"
+	line "control mental."
+
+	para "Aunque es muy"
+	line "olvidadizo…"
 	done
-	
+
 RocketBossRoomGrunt4Text:
-	text "The world won't"
-	line "know what hit them"
-	para "when our machine"
-	line "is at full power"
-	para "and we summon all"
-	line "of their #MON"
-	cont "to do our work!"
+	text "¡El mundo no sabe"
+	line "lo que le espera"
+	para "cuando nuestra"
+	line "máquina esté"
+	para "cargada al máximo"
+	line "y hagamos que"
+	para "todos los #MON"
+	line "trabajen para"
+	cont "nosotros!"
 	done
-	
+
 RocketBossRoomGrunt5Text:
-	text "According to my"
-	line "calculations, the"
-	para "mind control"
-	line "signal should be"
-	para "at full strength"
-	line "within the next"
-	cont "week!"
+	text "¡Según mis"
+	line "cálculos, la señal"
+	para "de control mental"
+	line "debería estar a"
+	para "pleno rendimiento"
+	line "la semana que"
+	cont "viene!"
 	done
-	
+
 BadSecurityPractices:
-	text "What's this?"
-	para "The EXECUTIVE has"
-	line "a note stuck to"
-	cont "his computer…"
-	para "It's the password"
-	line "to the console!"
+	text "¿Qué es esto?"
+	para "El EJECUTIVO tiene"
+	line "una nota pegada al"
+	cont "ordenador…"
+	para "¡Es la contraseña"
+	line "de la consola!"
+
 	para "…"
-	para "<PLAYER>"
-	line "remembered the"
-	cont "password!"
+	para "¡<PLAYER> memorizó"
+	line "la contraseña!"
 	done
-	
+
 ExecutiveSceneAfterBattleText:
-	text "Argh!"
-	para "You may have"
-	line "defeated me in"
-	para "battle, but that"
-	line "means little now."
-	para "Our machine is"
-	line "inching ever"
-	para "closer to full"
-	line "power!"
-	para "Your #MON may"
-	line "have defeated mine"
-	para "now, but it won't"
-	line "matter soon when"
-	para "even they are"
-	line "under my control!"
-	para "Now if you'll"
-	line "excuse me, I've"
-	para "got some very"
-	line "important business"
-	cont "to attend to!"
+	text "¡Argh!"
+
+	para "Me habrás ganado"
+	line "en un combate,"
+	cont "pero poco importa."
+
+	para "¡A nuestra máquina"
+	line "le falta cada vez"
+	para "menos para que se"
+	line "cargue al máximo!"
+
+	para "Tus #MON me"
+	line "habrán derrotado"
+	para "ahora, ¡pero no"
+	line "importará cuando"
+	cont "estén bajo mi"
+	cont "control!"
+
+	para "Ahora, si me"
+	line "disculpas, ¡tengo"
+	para "asuntos importan-"
+	line "tes que atender!"
 	done
-	
+
 ExecutiveWinText:
-	text "I can't believe"
-	line "this!"
+	text "¡No me lo puedo"
+	line "creer!"
 	done
-	
+
 ExecutiveLossText:
-	text "HA!"
+	text "¡JÁ!"
 	done
-	
+
 TheExecutiveGreeting:
-	text "Do you understand"
-	line "what you've gotten"
-	cont "yourself into?"
-	para "Clearly you don't,"
-	line "or you wouldn't be"
-	cont "here."
+	text "¿Entiendes en el"
+	line "lío que te has"
+	cont "metido?"
+	para "Está claro que no,"
+	line "porque de lo"
+	para "contrario, no"
+	line "estarías aquí."
+
 	para "…"
-	para "You remember me,"
-	line "right?"
-	para "I was the CAPTAIN"
-	line "of our cargo ship."
-	para "But primarily, I'm"
-	line "the lead EXECUTIVE"
-	cont "of TEAM ROCKET."
-	para "Second only to our"
-	line "leader, GIOVANNI."
-	para "Am I right to"
-	line "assume you've"
-	para "figured out what"
-	line "we're doing here?"
-	para "All of the money"
-	line "and supplies we've"
-	para "gathered have been"
-	line "used for this one"
-	cont "ultimate goal!"
-	para "We've built a"
-	line "device that can"
-	para "emit a powerful"
-	line "wave which can be"
-	para "used to control"
-	line "the minds of"
-	cont "#MON!"
-	para "Soon, all #MON"
-	line "will be under the"
-	para "command of TEAM"
-	line "ROCKET!"
-	para "We'll make better"
-	line "use of them than"
-	cont "anyone ever has!"
-	para "I refuse to let"
-	line "you get in the way"
-	para "of TEAM ROCKET any"
-	line "longer!"
+	para "Me recuerdas,"
+	line "¿verdad?"
+	para "Fui el CAPITÁN del"
+	line "barco de"
+	cont "cargamento."
+
+	para "Pero por encima de"
+	line "todo, soy el prin-"
+	cont "cipal EJECUTIVO"
+	cont "del TEAM ROCKET."
+
+	para "Solo estoy por"
+	line "detrás de nuestro"
+	cont "líder, GIOVANNI."
+
+	para "¿Me equivoco si"
+	line "asumo que has"
+	para "averiguado lo que"
+	line "estamos haciendo"
+	cont "aquí?"
+	para "¡Todo el dinero y"
+	line "los recursos que"
+	para "hemos reunido los"
+	line "hemos usado para"
+	para "este, nuestro"
+	line "objetivo final!"
+
+	para "¡Hemos fabricado"
+	line "un dispositivo que"
+	para "emite una potente"
+	line "onda que puede"
+	para "usarse para"
+	line "controlar la mente"
+	cont "de los #MON!"
+
+	para "¡Muy pronto, todos"
+	line "los #MON obede-"
+	cont "cerán las órdenes"
+	cont "del TEAM ROCKET!"
+
+	para "¡Les daremos mejor"
+	line "uso del que nadie"
+	cont "podría darles!"
+
+	para "¡Me niego a dejar"
+	line "que te sigas"
+	para "interponiendo en"
+	line "nuestro camino!"
 	done
-	
-	
+
 ImposterTellsYouToSeeExecutive:
-	text "Looks like none"
-	line "of our GRUNTS"
-	cont "could stop you."
-	para "But honestly, we"
-	line "expected that by"
-	cont "this point."
-	para "I think you need"
-	line "to go see the"
-	cont "EXECUTIVE."
-	para "But I know you"
-	line "were planning on"
-	cont "doing that anyway."
-	para "He's not too"
-	line "happy about this"
-	cont "whole situation."
-	para "I'd be worried"
-	line "if I were you."
+	text "Parece que ninguno"
+	line "de nuestros"
+	cont "SOLDADOS pudo"
+	cont "detenerte."
+
+	para "Pero honestamente,"
+	line "ya lo esperábamos"
+	cont "a estas alturas."
+
+	para "Deberías ir a ver"
+	line "al EJECUTIVO."
+
+	para "Aunque sé que lo"
+	line "ibas a hacer de"
+	cont "todos modos."
+
+	para "No está muy"
+	line "contento con esta"
+	cont "situación."
+
+	para "Si yo fuese tú, me"
+	line "preocuparía."
 	done
 
 

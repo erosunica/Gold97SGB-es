@@ -1,10 +1,10 @@
-	db "SHADOW@" ; species name
-	dw 411, 890 ; height, weight
+	db "SOMBRA@" ; species name
+	dbw 15, 405 ; height, weight
 
-	db   "Hiding in people's"
-	next "shadows at night,"
-	next "it absorbs their"
+	db   "De noche, se ocul-"
+	next "ta en las sombras"
+	next "y absorbe el calor"
 
-	page "heat. The chill it"
-	next "causes makes the"
-	next "victims shake.@"
+	page "de la gente. El"
+	next "frío que transmite"
+	next "es estremecedor.@"

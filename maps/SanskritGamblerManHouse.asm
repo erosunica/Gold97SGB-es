@@ -38,49 +38,55 @@ SanskritGamblerManHouseGamblerManScript:
 
 
 SanskritGamblerManHouseGamblerManText_Question:
-	text "SANSKRIT TOWN has"
-	line "never had a high-"
-	cont "profile venue for"
-	cont "entertainment."
-	para "That is, until the"
-	line "GAME CORNER opened"
-	cont "near here."
-	para "I've spent way too"
-	line "much time there."
-	para "It actually might"
-	line "be becoming a bit"
-	cont "of an issue."
-	para "Here! You should"
-	line "take this from me!"
-	done
+	text "PUEBLO SÁNSCRITO"
+	line "nunca ha destacado"
+	cont "por sus activida-"
+	cont "des de ocio."
 
+	para "Hasta que abrieron"
+	line "el CASINO MARÍTIMO"
+	cont "aquí cerca, claro."
+
+	para "Paso mucho tiempo"
+	line "allí."
+
+	para "Creo que está"
+	line "empezando a ser un"
+	cont "problema."
+
+	para "¡Ya sé! ¡Deberías"
+	line "quedarte esto!"
+	
+	para "¿Podrías"
+	line "aceptarlo?"
+	done
+	
 SanskritGamblerManHouseGamblerManText_Yes:
-	text "Great! Maybe you"
-	line "will be more"
-	para "responsible than"
-	line "me!"
+	text "¡Bien! ¡Quizá tú"
+	line "serás más respon-"
+	cont "sable que yo!"
 	done
-
+	
 SanskritGamblerManHouseGamblerManText_GiveCoinCase:
-	text "The GAME CORNER"
-	line "is tons of fun!"
-	para "But be careful,"
-	line "and don't let it"
-	para "become too much"
-	line "fun."
-	done
+	text "¡El CASINO"
+	line "MARÍTIMO es"
+	cont "divertidísimo!"
 
+	para "Pero ten cuidado,"
+	line "no dejes que sea"
+	cont "una adicción."
+	done
+	
 SanskritGamblerManHouseGamblerManText_No:
-	text "Oh. I guess I"
-	line "should work on my"
-	para "own self-restraint"
-	line "instead…"
+	text "Vaya. Creo que más"
+	line "bien debería"
+	para "trabajar en mi"
+	line "autocontrol…"
 	done
-
+	
 SanskritGamblerManHouseGamblerManText_After:
-	text "Ah, a burden has"
-	line "been lifted from"
-	cont "me."
+	text "Vaya peso me he"
+	line "quitado de encima."
 	done
 
 

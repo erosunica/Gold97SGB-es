@@ -28,29 +28,27 @@ SilphCoOfficerScript:
 	end
 
 SilphCoReceptionistText:
-	text "Welcome. This is"
-	line "SILPH CO.'s HEAD"
-	cont "OFFICE BUILDING."
+	text "Ésta es la"
+	line "OFICINA CENTRAL"
+	cont "de SILPH S.A."
 	done
 
 SilphCoOfficerText:
-	text "Only employees are"
-	line "permitted to go"
-	cont "upstairs."
+	text "Al piso de arriba"
+	line "sólo pueden subir"
+	cont "los empleados."
 
-	para "But since you came"
-	line "such a long way,"
-
-	para "have this neat"
-	line "little souvenir."
+	para "Pero como has"
+	line "venido desde tan"
+	para "lejos, toma este"
+	line "pequeño recuerdo."
 	done
 
 SilphCoOfficerText_GotUpGrade:
-	text "It's SILPH CO.'s"
-	line "latest product."
-
-	para "It's not for sale"
-	line "anywhere yet."
+	text "Es lo último de"
+	line "SILPH S.A. Aún"
+	para "no se encuentra"
+	line "a la venta."
 	done
 
 SilphCo1F_MapEvents:

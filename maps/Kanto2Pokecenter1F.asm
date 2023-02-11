@@ -22,27 +22,29 @@ Kanto2PokecenterYoungsterScript:
 	jumptextfaceplayer Kanto2PokecenterYoungsterText
 	
 Kanto2PokecenterCooltrainerMText:
-	text "There's a lot to"
-	line "see and do around"
-	cont "here."
-	para "Have you gone to"
-	line "the GYM to battle"
-	cont "RED?"
+	text "Hay mucho que ver"
+	line "y hacer por aquí."
+
+	para "¿Ya has ido al"
+	line "GIMNASIO para"
+	cont "combatir contra"
+	cont "ROJO?"
 	done
-	
+
 Kanto2PokecenterGrannyText:
-	text "There are a lot of"
-	line "tough trainers"
-	para "that come through"
-	line "this town looking"
-	cont "to battle RED."
+	text "Hay muchos entre-"
+	line "nadores fuertes"
+	para "que vienen hasta"
+	line "este pueblo para"
+	cont "combatir contra"
+	cont "ROJO."
 	done
-	
+
 Kanto2PokecenterYoungsterText:
-	text "I heard there's a"
-	line "#MON daycare"
-	para "over near ALLOY"
-	line "CITY."
+	text "He oído que hay"
+	line "una guardería"
+	para "#MON cerca de"
+	line "CIUDAD ALEAR."
 	done
 
 Kanto2Pokecenter1F_MapEvents:

@@ -144,194 +144,198 @@ TrainerCooltrainerfQuinn:
 	end
 
 CooltrainermErickSeenText:
-	text "Getting tired yet?"
+	text "¿Ya estás cansado?"
 	done
 
 CooltrainermErickBeatenText:
-	text "Looks like I'm"
-	line "pretty tired."
+	text "Creo que yo sí"
+	line "estoy cansado."
 	done
 
 CooltrainermErickAfterBattleText:
-	text "There's still a"
-	line "long way to go"
-	cont "before the top."
-	para "I hear the last"
-	line "part is like a"
-	cont "maze."
+	text "Todavía queda un"
+	line "trecho hasta la"
+	cont "cima."
+
+	para "He oído que el"
+	line "último tramo es"
+	cont "como un laberinto."
 	done
 
-
 CooltrainermJakeSeenText:
-	text "I'm making my"
-	line "final preparations"
-
-	para "for the #MON"
-	line "LEAGUE."
+	text "Estoy haciendo"
+	line "los últimos"
+	para "preparativos para"
+	line "la LIGA #MON."
 	done
 
 CooltrainermJakeBeatenText:
-	text "I blew it!"
+	text "¡Caramba!"
 	done
 
 CooltrainermJakeAfterBattleText:
-	text "It's going to be"
-	line "tough to win at"
-	cont "the LEAGUE."
+	text "Va a ser difícil"
+	line "ganar en la LIGA."
 
-	para "I need to do some"
-	line "more training."
+	para "Tengo que entre-"
+	line "narme mucho más."
 
-	para "I hear that the"
-	line "LEAGUE's ELITE"
-
-	para "FOUR are tougher"
-	line "than GYM LEADERS."
+	para "Dicen que el ALTO"
+	line "MANDO es más duro"
+	cont "que los LÍDERES de"
+	cont "GIMNASIO."
 	done
 
 CooltrainerfJoyceSeenText:
-	text "Since you've come"
-	line "this far, you must"
-	cont "be good."
+	text "Si has llegado tan"
+	line "lejos, debes de"
+	cont "ser el no va más."
 
-	para "I'm going to give"
-	line "this battle every-"
-	cont "thing I've got!"
+	para "¡Voy a dar todo"
+	line "lo que tengo en"
+	cont "este combate!"
 	done
 
 CooltrainerfJoyceBeatenText:
-	text "No! I don't"
-	line "believe this!"
+	text "¡No! ¡No puedo"
+	line "creerlo!"
 	done
 
 CooltrainerfJoyceAfterBattleText:
-	text "I've defeated"
-	line "eight GYM LEADERS,"
+	text "Como había vencido"
+	line "a ocho LÍDERES de"
 
-	para "so I was feeling"
-	line "confident."
+	para "GIMNASIO, me"
+	line "confié demasiado."
 
-	para "I'll have to try"
-	line "harder next time."
+	para "Tendré que"
+	line "esforzarme más."
 	done
 
 InstructorGeoffSeenText:
-	text "The trainers here"
-	line "are very strong."
-	para "Each battle can be"
-	line "a good learning"
-	cont "experience."
-	done
-	
-InstructorGeoffBeatenText:
-	text "I definitely"
-	line "learned something"
-	cont "here."
-	done
-	
-InstructorGeoffAfterBattleText:
-	text "The wild #MON"
-	line "here are very"
-	cont "strong as well."
+	text "Aquí los entrena-"
+	line "dores son muy"
+	cont "fuertes."
+
+	para "Cada combate puede"
+	line "ser una gran"
+	para "experiencia de la"
+	line "que aprender."
 	done
 
+InstructorGeoffBeatenText:
+	text "De aquí me llevo"
+	line "algo aprendido."
+	done
+
+InstructorGeoffAfterBattleText:
+	text "Los #MON"
+	line "salvajes de aquí"
+	cont "también son muy"
+	cont "fuertes."
+	done
 
 SwimmermHaroldSeenText:
-	text "You're using a"
-	line "#MON to get you"
-	cont "through the cave?"
-	para "If you were ready"
-	line "for the LEAGUE,"
-	cont "you'd swim!"
+	text "¿Estás usando un"
+	line "#MON para"
+	cont "cruzar la cueva?"
+
+	para "¡Si estuvieras"
+	line "listo para la"
+	cont "LIGA, irías"
+	cont "nadando!"
 	done
 
 SwimmermHaroldBeatenText:
-	text "Glub…"
+	text "¡Glup…!"
 	done
 
 SwimmermHaroldAfterBattleText:
-	text "I guess swimming"
-	line "ability doesn't"
-	para "mean much in a"
-	line "#MON battle."
+	text "Supongo que saber"
+	line "nadar no significa"
+	para "mucho en un"
+	line "combate #MON."
 	done
 
 SwimmerfLisaSeenText:
-	text "The water is"
-	line "warmer than I'd"
-	cont "expected it to be."
+	text "El agua es más"
+	line "cálida de lo que"
+	cont "me esperaba."
 	done
 
 SwimmerfLisaBeatenText:
-	text "I'm sunk!"
+	text "¡Hundida!"
 	done
 
 SwimmerfLisaAfterBattleText:
-	text "I prefer swimming"
-	line "in caves to the"
-	cont "outdoors."
-	done
-	
-EngineerDavidsonSeenText:
-	text "I'm going to find"
-	line "a faster way to"
-	para "the summit than"
-	line "walking through"
-	cont "these caves!"
-	done
-	
-EngineerDavidsonBeatenText:
-	text "Maybe I'll just"
-	line "walk."
-	done
-	
-EngineerDavidsonAfterBattleText:
-	text "You're pretty"
-	line "tough."
-	para "Don't lose at the"
-	line "LEAGUE, or I'll"
-	para "feel worse about"
-	line "losing to you!"
+	text "Prefiero nadar en"
+	line "cuevas que al aire"
+	cont "libre."
 	done
 
+EngineerDavidsonSeenText:
+	text "¡Encontraré una"
+	line "manera de llegar"
+	para "más rápido a la"
+	line "cima que caminando"
+	cont "por esas cuevas!"
+	done
+
+EngineerDavidsonBeatenText:
+	text "Creo que iré"
+	line "caminando."
+	done
+
+EngineerDavidsonAfterBattleText:
+	text "Eres bastante"
+	line "fuerte."
+
+	para "¡No pierdas en la"
+	line "LIGA o me sentiré"
+	para "peor de haber"
+	line "perdido contra ti!"
+	done
 
 CooltrainermCodySeenText:
-	text "MT.FUJI is very"
-	line "large."
-	para "You better be pre-"
-	line "pared, because"
-	para "you're gonna be"
-	line "here for a while!"
+	text "El MT. FUJI es muy"
+	line "grande."
+
+	para "¡Será mejor que"
+	line "estés preparado,"
+	para "porque vas a estar"
+	line "por aquí un buen"
+	cont "rato!"
 	done
 
 CooltrainermCodyBeatenText:
-	text "Rats! If only I"
-	line "had better #-"
-	cont "MON!"
+	text "¡Maldición!"
+	line "¡Ojalá tuviera"
+	cont "mejores #MON!"
 	done
 
 CooltrainermCodyAfterBattleText:
-	text "This mountain is"
-	line "divided into five"
-	cont "different parts."
-	para "This here is just"
-	line "part one!"
+	text "Esta montaña está"
+	line "dividida en cinco"
+	cont "partes distintas."
+
+	para "¡Esta es solo la"
+	line "primera!"
 	done
 	
 CooltrainerfQuinnSeenText:
-	text "You there!"
-	line "Want to battle?"
+	text "¡Estás ahí!"
+	line "¿Quieres luchar?"
 	done
 
 CooltrainerfQuinnBeatenText:
-	text "Down and out…"
+	text "He perdido…"
 	done
 
 CooltrainerfQuinnAfterBattleText:
-	text "You're strong."
+	text "Eres fuerte."
 
-	para "You obviously must"
-	line "have trained hard."
+	para "Seguro que te has"
+	line "entrenado mucho."
 	done
 
 
@@ -365,7 +369,7 @@ MtFujiInteriorLower_MapEvents:
 	object_event 31, 44, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 1, TrainerCooltrainermJake, -1
 	object_event 24, 46, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 4, TrainerCooltrainerfJoyce, -1
 	object_event 18, 49, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerInstructorGeoff, -1
-	object_event 10, 24, SPRITE_SWIMMER_GUY, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_TRAINER, 3, TrainerSwimmermHarold, -1
+	object_event 10, 24, SPRITE_SWIMMER_GUY, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_TRAINER, 3, TrainerSwimmermHarold, -1
 	object_event 18, 25, SPRITE_SWIMMER_GIRL, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerSwimmerfLisa, -1
 	object_event 28, 24, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_TRAINER, 3, TrainerEngineerDavidson, -1
 	object_event  3,  6, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 2, TrainerCooltrainermErick, -1

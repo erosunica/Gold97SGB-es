@@ -56,27 +56,30 @@ TeknosPortSailorAtGangwayScript:
 	end
 	
 TeknosPortToWestText:
-	text "Welcome to the"
-	line "TEKNOS CITY DOCKS."
-	para "Would you like to"
-	line "take a ferry to"
-	cont "WESTPORT CITY?"
+	text "Bienvenido al"
+	line "MUELLE TEKNOS."
+
+	para "¿Te gustaría ir en"
+	line "barco hasta CIUDAD"
+	cont "PONIENTE?"
 	done
 	
 TeknosPortToWestText2:
-	text "Okay! Departing to"
-	line "WESTPORT CITY."
+	text "¡Muy bien!"
+
+	para "Zarpamos a CIUDAD"
+	line "PONIENTE."
 	done
 	
 NotGoingToWestText:
-	text "Please join us"
-	line "another time!"
+	text "¡Esperamos volver"
+	line "a verte!"
 	done
 	
 UnknownText_0x74a551:
-	text "We're departing"
-	line "soon. Please get"
-	cont "on board."
+	text "El barco va a"
+	line "zarpar. Por favor,"
+	cont "sube a bordo."
 	done
 	
 MovementData_0x74a371:

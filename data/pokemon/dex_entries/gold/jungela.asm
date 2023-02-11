@@ -1,10 +1,10 @@
-	db "JUNGLE@" ; species name
-	dw 504, 1220 ; height, weight
-
-	db   "Its vision is very"
-	next "poor. However, its"
-	next "other senses are"
-
-	page "hightened and it"
-	next "uses its vines to"
-	next "observe around it.@"
+	db "SELVA@" ; species name
+	dbw 16, 553 ; height, weight
+	
+	db   "Aunque tiene muy"
+	next "mala vista, sus"
+	next "otros sentidos son"
+	
+	page "muy agudos y usa"
+	next "sus enredaderas"
+	next "para orientarse.@"

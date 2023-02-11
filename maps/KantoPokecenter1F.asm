@@ -35,30 +35,34 @@ KantoPokecenter1FPharmacistScript:
 	jumptextfaceplayer KantoPokecenter1FPharmacistText
 
 KantoPokecenter1FCooltrainerFText2:
-	text "Wow! You defeated"
-	line "RED?"
-	para "You must be tough!"
+	text "¡Uau! ¿Has"
+	line "derrotado a ROJO?"
+
+	para "¡Debes ser muy"
+	line "fuerte!"
 	done
 
 KantoPokecenter1FCooltrainerFText:
-	text "RED is a master of"
-	line "all #MON."
-	para "You better be"
-	line "ready to challenge"
-	cont "him."
+	text "ROJO es un maestro"
+	line "de todos los"
+	cont "#MON."
+
+	para "Será mejor que"
+	line "estés preparado"
+	cont "para desafiarlo."
 	done
 
 KantoPokecenter1FPharmacistText:
-	text "Have you been to"
-	line "the DEPT.STORE"
-	cont "here?"
-	para "They have a"
-	line "better selection"
-	para "than the one in"
-	line "WESTPORT CITY, I"
-	cont "think."
-	done
+	text "¿Ya has estado"
+	line "en el CENTRO"
+	cont "COMERCIAL?"
 
+	para "Diría que tienen"
+	line "una mejor selec-"
+	cont "ción de artículos"
+	cont "que el de CIUDAD"
+	cont "PONIENTE."
+	done
 
 KantoPokecenter1F_MapEvents:
 	db 0, 0 ; filler

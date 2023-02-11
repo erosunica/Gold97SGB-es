@@ -210,85 +210,92 @@ MovementData_0x75238:
 	step_end
 	
 CaptainSpeakingText:
-	text "Um, hello, every-"
-	line "one."
-	para "This is your"
-	line "CAPTAIN speaking."
-	para "We've hit some un-"
-	line "expected rough"
-	cont "weather."
-	para "But everything is"
-	line "fine!"
-	para "Um, nothing is"
-	line "wrong at all!"
-	para "We will arrive as"
-	line "planned."
-	para "Uh… That is all."
+	text "¡Ejem! Hola a"
+	line "todos."
+
+	para "Os habla vuestro"
+	line "CAPITÁN."
+
+	para "Nos hemos topado"
+	line "con un clima"
+	cont "inesperado."
+
+	para "¡Pero no pasa"
+	line "nada!"
+
+	para "Esto… ¡Todo va a"
+	line "salir bien!"
+
+	para "Llegaremos tal y"
+	line "como estaba"
+	cont "previsto."
+
+	para "Y… Eso es todo."
 	done
 
 
 FastShip1FSailor1Text_ToAmami:
-	text "FAST SHIP S.S.AQUA"
-	line "is en route to"
-	cont "AMAMI TOWN."
+	text "El FERRY S.S. AQUA"
+	line "se dirige a"
+	cont "PUEBLO AMAMI."
 
-	para "We will make an"
-	line "announcement when"
-	cont "we arrive."
+	para "Daremos un aviso"
+	line "cuando lleguemos."
 	done
 
 FastShip1FSailor1Text_ToAlloy:
-	text "FAST SHIP S.S.AQUA"
-	line "is en route to"
-	cont "WESTPORT CITY."
+	text "El FERRY S.S. AQUA"
+	line "se dirige a"
+	cont "CIUDAD PONIENTE."
 
-	para "We will make an"
-	line "announcement when"
-	cont "we arrive."
+	para "Daremos un aviso"
+	line "cuando lleguemos."
 	done
 
 FastShip1FSailor2Text_FirstTime:
-	text "Here's your cabin."
+	text "Éste es tu"
+	line "camarote."
 
-	para "If your #MON"
-	line "are hurt, take a"
-	cont "nap in the bed."
+	para "Si están cansados"
+	line "tus #MON,"
 
-	para "That will heal"
-	line "them."
+	para "échate una"
+	line "siestecita."
+
+	para "Eso los curará."
 	done
 
 FastShip1FSailor2Text:
-	text "Here's your cabin."
+	text "Es tu camarote."
 
-	para "You can heal your"
-	line "#MON by taking"
-	cont "a nap in the bed."
+	para "Puedes curar a tus"
+	line "#MON durmiendo"
+	cont "una siesta."
 
-	para "The ship will"
-	line "arrive while"
-	cont "you're sleeping."
+	para "El barco llegará"
+	line "a su destino"
+	cont "mientras duermes."
 	done
 
 FastShip1FSailor3Text:
-	text "The passengers are"
-	line "all trainers."
+	text "Los pasajeros son"
+	line "entrenadores."
 
-	para "They're all itch-"
-	line "ing to battle in"
-	cont "their cabins."
+	para "Están deseando"
+	line "luchar en sus"
+	cont "camarotes."
 	done
 
 FastShip1FSailor1Text_InAlloy:
-	text "FAST SHIP S.S.AQUA"
-	line "has arrived in"
-	cont "WESTPORT CITY."
+	text "El FERRY S.S. AQUA"
+	line "ha llegado a"
+	cont "CIUDAD PONIENTE."
 	done
 
 FastShip1FSailor1Text_InAmami:
-	text "FAST SHIP S.S.AQUA"
-	line "has arrived in"
-	cont "AMAMI TOWN."
+	text "El FERRY S.S. AQUA"
+	line "ha llegado a"
+	cont "PUEBLO AMAMI."
 	done
 
 FastShip1F_MapEvents:

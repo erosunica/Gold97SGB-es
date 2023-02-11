@@ -1,10 +1,10 @@
-	db "FLAME@" ; species name
-	dw 307, 420 ; height, weight
+	db "LLAMA@" ; species name
+	dbw 11, 190 ; height, weight
 
-	db   "If it becomes"
-	next "agitated during"
-	next "battle, it spouts"
+	db   "Si se inquieta en"
+	next "combate, expulsa"
+	next "intensas"
 
-	page "intense flames,"
-	next "incinerating its"
-	next "surroundings.@"
+	page "llamaradas que"
+	next "incineran los"
+	next "alrededores.@"

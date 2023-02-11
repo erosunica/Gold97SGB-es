@@ -1,10 +1,10 @@
-	db "HAIRY BUG@" ; species name
-	dw 100, 70 ; height, weight
+	db "ORUGA@" ; species name
+	dbw 3, 32 ; height, weight
 
-	db   "The barb on top of"
-	next "its head secretes"
-	next "a strong poison."
+	db   "El cuerno de la"
+	next "cabeza segrega un"
+	next "potente veneno,"
 
-	page "It uses this toxic"
-	next "barb to protect"
-	next "itself.@"
+	page "algo que le"
+	next "resulta muy útil"
+	next "para protegerse.@"

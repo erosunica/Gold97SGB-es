@@ -1,10 +1,10 @@
-	db "JET@" ; species name
-	dw 200, 260 ; height, weight
+	db "REACTOR@" ; species name
+	dbw 6, 120 ; height, weight
 
-	db   "To escape from an"
-	next "attacker, it may"
-	next "shoot water out of"
+	db   "Para escapar de su"
+	next "oponente, puede"
+	next "echar agua por la"
 
-	page "its mouth, then"
-	next "use that force to"
-	next "swim backward.@"
+	page "boca. Además,"
+	next "usa el impulso"
+	next "para retroceder.@"

@@ -1,10 +1,10 @@
-	db "JELLYFISH@" ; species name
-	dw 503, 1210 ; height, weight
+	db "MEDUSA@" ; species name
+	dbw 16, 550 ; height, weight
 
-	db   "When its 80 feel-"
-	next "ers absorb water,"
-	next "it stretches to"
+	db   "Al chupar agua con"
+	next "sus 80 tentáculos,"
+	next "se estira formando"
 
-	page "become like a net"
-	next "to entangle its"
-	next "prey.@"
+	page "una red para"
+	next "atrapar a su"
+	next "víctima en ella.@"

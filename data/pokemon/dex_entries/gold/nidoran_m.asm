@@ -1,10 +1,10 @@
-	db "POISON PIN@" ; species name
-	dw 108, 200 ; height, weight
+	db "PIN VENENO@" ; species name
+	dbw 5, 90 ; height, weight
 
-	db   "It constantly"
-	next "moves its large"
-	next "ears in many"
+	db   "Tiene unas orejas"
+	next "enormes que mueve"
+	next "sin parar para"
 
-	page "directions in"
-	next "order to detect"
-	next "danger right away.@"
+	page "detectar cualquier"
+	next "peligro que pueda"
+	next "presentarse.@"

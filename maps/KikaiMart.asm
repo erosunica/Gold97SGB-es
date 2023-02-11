@@ -21,20 +21,22 @@ KikaiMartWomanScript:
 	jumptextfaceplayer KikaiMartWomanText
 	
 KikaiMartBlackbeltText:
-	text "I need to stock up"
-	line "on supplies for"
-	para "my long training"
-	line "session in the"
-	cont "CALDERA!"
+	text "¡Tengo que aprovi-"
+	line "sionarme para mi"
+	para "larga sesión de"
+	line "entrenamiento en"
+	cont "la CALDERA!"
 	done
 
 KikaiMartWomanText:
-	text "HYPER POTIONS are"
-	line "big sellers here."
-	para "They're necessary"
-	line "if you want to"
-	para "spend a long time"
-	line "in the CALDERA."
+	text "Las HÍPERPOCIONES"
+	line "se venden mucho"
+	cont "aquí."
+
+	para "Las necesitarás si"
+	line "quieres quedarte"
+	cont "un tiempo en la"
+	cont "CALDERA."
 	done
 
 KikaiMart_MapEvents:

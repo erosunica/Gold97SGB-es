@@ -204,7 +204,7 @@ RyukyuGymPokefanMScript:
 	end
 	
 .eggname2
-	db "EGG@"
+	db "HUEVO@"
 	
 Trainer1Scene:
 	playmusic MUSIC_BEAUTY_ENCOUNTER
@@ -342,301 +342,385 @@ RyukyuGymGuyScript:
 	end
 
 GymGuyFakeGymAfterText:
-	text "It's always fun to"
-	line "face off against"
-	para "a GYM, whether or"
-	line "not you actually"
-	cont "get a BADGE."
+	text "Desafiar un"
+	line "GIMNASIO siempre"
+	para "resulta divertido,"
+	line "consigas una"
+	cont "MEDALLA o no."
 	done
-	
+
 GymGuyFireText:
-	text "What's this?"
-	para "A #MON GYM?"
-	para "Well, not quite."
-	para "BAILEY here has"
-	line "always wanted to"
-	cont "be a GYM LEADER."
-	para "It's a long and"
-	line "difficult process"
-	para "to make it"
-	line "official, though."
-	para "But we're here,"
-	line "playing the part"
-	para "until he can do it"
-	line "for real!"
-	para "Oh, yeah. He uses"
-	line "fire #MON."
-	para "I'm sure you know"
-	line "what you'd need to"
-	cont "do to win."
+	text "¿Qué es esto?"
+
+	para "¿Un GIMNASIO"
+	line "#MON?"
+
+	para "Bueno, no del"
+	line "todo."
+
+	para "SERGI siempre"
+	line "quiso ser LÍDER de"
+	cont "GIMNASIO."
+
+	para "Aunque serlo de"
+	line "manera oficial es"
+	cont "un proceso largo y"
+	cont "tedioso."
+
+	para "¡Pero aquí"
+	line "estamos, haciendo"
+	para "lo que nos toca"
+	line "hasta que pueda"
+	cont "serlo de verdad!"
+
+	para "Ah, sí. Usa"
+	line "#MON de tipo"
+	cont "fuego."
+
+	para "Seguro que ya"
+	line "sabes qué necesi-"
+	cont "tas para ganar."
 	done
-	
+
 GymGuyWaterText:
-	text "What's this?"
-	para "A #MON GYM?"
-	para "Well, not quite."
-	para "TREVOR here has"
-	line "always wanted to"
-	cont "be a GYM LEADER."
-	para "It's a long and"
-	line "difficult process"
-	para "to make it"
-	line "official, though."
-	para "But we're here,"
-	line "playing the part"
-	para "until he can do it"
-	line "for real!"
-	para "Oh, yeah. He uses"
-	line "water #MON."
-	para "I'm sure you know"
-	line "what you'd need to"
-	cont "do to win."
+	text "¿Qué es esto?"
+
+	para "¿Un GIMNASIO"
+	line "#MON?"
+
+	para "Bueno, no del"
+	line "todo."
+
+	para "TIMOTEO siempre"
+	line "quiso ser LÍDER de"
+	cont "GIMNASIO."
+
+	para "Aunque serlo de"
+	line "manera oficial es"
+	cont "un proceso largo y"
+	cont "tedioso."
+
+	para "¡Pero aquí"
+	line "estamos, haciendo"
+	para "lo que nos toca"
+	line "hasta que pueda"
+	cont "serlo de verdad!"
+
+	para "Ah, sí. Usa"
+	line "#MON de tipo"
+	cont "agua."
+
+	para "Seguro que ya"
+	line "sabes qué necesi-"
+	cont "tas para ganar."
 	done
-	
+
 GymGuyGrassText:
-	text "What's this?"
-	para "A #MON GYM?"
-	para "Well, not quite."
-	para "CARTER here has"
-	line "always wanted to"
-	cont "be a GYM LEADER."
-	para "It's a long and"
-	line "difficult process"
-	para "to make it"
-	line "official, though."
-	para "But we're here,"
-	line "playing the part"
-	para "until he can do it"
-	line "for real!"
-	para "Oh, yeah. He uses"
-	line "grass #MON."
-	para "I'm sure you know"
-	line "what you'd need to"
-	cont "do to win."
+	text "¿Qué es esto?"
+
+	para "¿Un GIMNASIO"
+	line "#MON?"
+
+	para "Bueno, no del"
+	line "todo."
+
+	para "MAGNO siempre"
+	line "quiso ser LÍDER de"
+	cont "GIMNASIO."
+
+	para "Aunque serlo de"
+	line "manera oficial es"
+	cont "un proceso largo y"
+	cont "tedioso."
+
+	para "¡Pero aquí"
+	line "estamos, haciendo"
+	para "lo que nos toca"
+	line "hasta que pueda"
+	cont "serlo de verdad!"
+
+	para "Ah, sí. Usa"
+	line "#MON de tipo"
+	cont "planta."
+
+	para "Seguro que ya"
+	line "sabes qué necesi-"
+	cont "tas para ganar."
 	done
-	
+
 RyukyuGymLassText:
-	text "Isn't this fun?"
-	para "It's just like a"
-	line "real GYM!"
+	text "¿A que mola?"
+
+	para "¡Es como un"
+	line "GIMNASIO de"
+	cont "verdad!"
 	done
-	
+
 Trainer2AfterFireText:
-	text "BAILEY has always"
-	line "wanted to be a GYM"
-	cont "LEADER."
-	para "But it's tough to"
-	line "get the proper"
-	cont "accreditation."
+	text "SERGI siempre"
+	line "quiso ser LÍDER de"
+	cont "GIMNASIO."
+
+	para "Pero es complicado"
+	line "conseguir la"
+	cont "acreditación."
 	done
-	
+
 Trainer2AfterGrassText:
-	text "CARTER has always"
-	line "wanted to be a GYM"
-	cont "LEADER."
-	para "But it's tough to"
-	line "get the proper"
-	cont "accreditation."
+	text "MAGNO siempre"
+	line "quiso ser LÍDER de"
+	cont "GIMNASIO."
+
+	para "Pero es complicado"
+	line "conseguir la"
+	cont "acreditación."
 	done
-	
+
 Trainer2AfterWaterText:
-	text "TREVOR has always"
-	line "wanted to be a GYM"
-	cont "LEADER."
-	para "But it's tough to"
-	line "get the proper"
-	cont "accreditation."
+	text "TIMOTEO siempre"
+	line "quiso ser LÍDER de"
+	cont "GIMNASIO."
+
+	para "Pero es complicado"
+	line "conseguir la"
+	cont "acreditación."
 	done
 
 TakeGoodCareOfStarter2:
-	text "Take good care of"
-	line "that #MON!"
-	para "It's one of my"
-	line "favorite kinds!"
+	text "¡Cuida bien de ese"
+	line "#MON!"
+
+	para "¡Es uno de mis"
+	line "favoritos!"
 	done
-	
+
 HaveStarter2Egg:
-	text "Wow! That was a"
-	line "great battle!"
-	para "I feel like a real"
-	line "GYM LEADER, even"
-	cont "though I lost."
-	para "I can't give you"
-	line "a BADGE, but I've"
-	para "got an EGG of a"
-	line "rare #MON of"
-	cont "my favorite type!"
-	para "Here, have this!"
+	text "¡Guau! ¡Menudo"
+	line "combate!"
+
+	para "Me siento como"
+	line "todo un LÍDER de"
+	para "GIMNASIO, incluso"
+	line "aunque haya"
+	cont "perdido."
+
+	para "¡Como no puedo"
+	line "darte una MEDALLA,"
+	para "te daré un HUEVO"
+	line "de un #MON"
+	cont "raro de mi tipo"
+	cont "favorito!"
+
+	para "¡Esto es para ti!"
 	done
-	
+
 NoRoomForStarter2:
-	text "Oh, wait! You need"
-	line "to make room!"
+	text "¡Espera!"
+	line "¡Necesitas hacerle"
+	cont "un hueco!"
 	done
-	
-	
+
 PokefanMBeforeTextWater:
-	text "Hey there!"
-	para "Welcome to my GYM!"
-	para "…Well, it's not"
-	line "an official one."
-	para "But one day!"
-	para "I'm going to be a"
-	line "GYM LEADER!"
-	para "As for now though,"
-	line "I can at least act"
-	cont "the part."
-	para "And there's"
-	line "nothing more I"
-	para "love than a good"
-	line "battle!"
-	para "Water-type #MON"
-	line "are my favorite!"
-	para "They'll drench you"
-	line "if you take them"
-	cont "on!"
-	para "Are you ready?"
+	text "¡Hola!"
+
+	para "¡Bienvenido a mi"
+	line "GIMNASIO!"
+
+	para "Aunque no es uno"
+	line "oficial…"
+
+	para "¡Pero ya verás!"
+
+	para "¡Un día seré LÍDER"
+	line "de GIMNASIO!"
+
+	para "Por ahora, solo"
+	line "puedo actuar como"
+	cont "tal."
+
+	para "¡Y no hay nada que"
+	line "me guste más que"
+	cont "un buen combate!"
+
+	para "¡Los #MON de"
+	line "tipo agua son mis"
+	cont "favoritos!"
+
+	para "¡Te dejarán"
+	line "empapado si los"
+	cont "enfrentas!"
+
+	para "¿Estás listo?"
 	done
 
 PokefanMLossTextFake:
-	text "I'm good at this!"
+	text "¡Esto se me da"
+	line "bien!"
 	done
-	
+
 PokefanMWinTextFake:
-	text "Bahah! What a good"
-	line "time that was!"
+	text "¡Jaja! ¡Qué buena"
+	line "experiencia!"
 	done
 
-	
 PokefanMBeforeTextGrass:
-	text "Hey there!"
-	para "Welcome to my GYM!"
-	para "…Well, it's not"
-	line "an official one."
-	para "But one day!"
-	para "I'm going to be a"
-	line "GYM LEADER!"
-	para "As for now though,"
-	line "I can at least act"
-	cont "the part."
-	para "And there's"
-	line "nothing more I"
-	para "love than a good"
-	line "battle!"
-	para "Grass-type #MON"
-	line "are my favorite!"
-	para "Their vines and"
-	line "leaves will beat"
-	cont "you down!"
-	para "Are you ready?"
+	text "¡Hola!"
+
+	para "¡Bienvenido a mi"
+	line "GIMNASIO!"
+
+	para "Aunque no es uno"
+	line "oficial…"
+
+	para "¡Pero ya verás!"
+
+	para "¡Un día seré LÍDER"
+	line "de GIMNASIO!"
+
+	para "Por ahora, solo"
+	line "puedo actuar como"
+	cont "tal."
+
+	para "¡Y no hay nada que"
+	line "me guste más que"
+	cont "un buen combate!"
+
+	para "¡Los #MON de"
+	line "tipo planta son"
+	cont "mis favoritos!"
+
+	para "¡Sus hojas y sus"
+	line "cepas acabarán"
+	cont "contigo!"
+
+	para "¿Estás listo?"
 	done
 
-
-	
 PokefanMBeforeTextFire:
-	text "Hey there!"
-	para "Welcome to my GYM!"
-	para "…Well, it's not"
-	line "an official one."
-	para "But one day!"
-	para "I'm going to be a"
-	line "GYM LEADER!"
-	para "As for now though,"
-	line "I can at least act"
-	cont "the part."
-	para "And there's"
-	line "nothing more I"
-	para "love than a good"
-	line "battle!"
-	para "Fire-type #MON"
-	line "are my favorite!"
-	para "They'll burn you"
-	line "if you take them"
-	cont "on!"
-	para "Are you ready?"
+	text "¡Hola!"
+
+	para "¡Bienvenido a mi"
+	line "GIMNASIO!"
+
+	para "Aunque no es uno"
+	line "oficial…"
+
+	para "¡Pero ya verás!"
+
+	para "¡Un día seré LÍDER"
+	line "de GIMNASIO!"
+
+	para "Por ahora, solo"
+	line "puedo actuar como"
+	cont "tal."
+
+	para "¡Y no hay nada que"
+	line "me guste más que"
+	cont "un buen combate!"
+
+	para "¡Los #MON de"
+	line "tipo fuego son mis"
+	cont "favoritos!"
+
+	para "¡Acabarás chamus-"
+	line "cado si los"
+	cont "enfrentas!"
+
+	para "¿Estás listo?"
 	done
-	
+
 YoungsterTextBeforeWater:
-	text "You ever been"
-	line "swimming?"
-	para "My #MON have."
+	text "¿Has nadado alguna"
+	line "vez?"
+
+	para "Mis #MON sí."
 	done
-	
+
 YoungsterLossTextWater:
-	text "Wahoo!"
+	text "¡Uau!"
 	done
-	
+
 YoungsterWinTextWater:
-	text "Looks like you can"
-	line "tread water!"
+	text "¡Sí que sabes"
+	line "moverte por el"
+	cont "agua!"
 	done
 
 YoungsterTextBeforeFire:
-	text "Can you handle the"
-	line "heat in here?"
+	text "¿Puedes soportar"
+	line "el calor de este"
+	cont "lugar?"
 	done
-	
+
 YoungsterLossTextFire:
-	text "Wahoo!"
+	text "¡Uau!"
 	done
-	
+
 YoungsterWinTextFire:
-	text "Looks like I got"
-	line "scorched!"
+	text "¡Me has"
+	line "chamuscado!"
 	done
 
 YoungsterTextBeforeGrass:
-	text "Don't trip over"
-	line "my #MON's"
-	cont "vines!"
+	text "¡Cuidado con las"
+	line "cepas de mis"
+	cont "#MON!"
 	done
-	
+
 YoungsterLossTextGrass:
-	text "Wahoo!"
+	text "¡Uau!"
 	done
-	
+
 YoungsterWinTextGrass:
-	text "I stumbled!"
+	text "¡He tropezado!"
 	done
-	
+
 LassTextBeforeGrass:
-	text "Isn't it lovely"
-	line "in here?"
-	para "I brought snacks"
-	line "for a picnic!"
+	text "¿No es un sitio"
+	line "encantador?"
+
+	para "¡He traído comida"
+	line "para un picnic!"
 	done
-	
+
 LassLossTextGrass:
-	text "Wahoo!"
-	
+	text "¡Uau!"
+	done
+
 LassWinTextGrass:
-	text "At least the air"
-	line "is still sweet."
+	text "Al menos sigue"
+	line "corriendo la"
+	cont "brisa."
 	done
-	
+
 LassTextBeforeWater:
-	text "Careful, the floor"
-	line "can get slick!"
+	text "¡Cuidado, podrías"
+	line "resbalarte con el"
+	cont "suelo!"
 	done
-	
+
 LassLossTextWater:
-	text "Wahoo!"
-	
+	text "¡Uau!"
+	done
+
 LassWinTextWater:
-	text "I slipped!"
+	text "¡Me he resbalado!"
 	done
-	
+
 LassTextBeforeFire:
-	text "Nothing is better"
-	line "for a hot room"
-	cont "than a hot battle!"
+	text "¡Nada mejor que un"
+	line "combate ardiente"
+	cont "en un lugar"
+	cont "ardiente!"
 	done
-	
+
 LassLossTextFire:
-	text "Wahoo!"
-	
+	text "¡Uau!"
+	done
+
 LassWinTextFire:
-	text "Too hot!"
+	text "¡Demasiado"
+	line "ardiente!"
 	done
 	
 RyukyuGym_MapEvents:

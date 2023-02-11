@@ -37,26 +37,31 @@ OfficerScript_GuardWithSnore:
 
 
 OfficerText_FoundTM:
-	text "Zzzz…"
-	para "Hm?"
-	para "Oh, yeah, I can"
-	line "still keep watch"
-	para "when I'm asleep,"
-	line "trust me."
-	para "Your #MON can"
-	line "also attack while"
-	cont "asleep, with this."
+	text "(Ronquido…)"
+
+	para "¿Eh?"
+
+	para "Ah, sí, puedo"
+	line "seguir atento"
+	cont "mientras duermo,"
+	cont "en serio."
+
+	para "Con esto, tus"
+	line "#MON podrán"
+	cont "atacar mientras"
+	cont "duermen."
 	done
 
 Text_ReceivedTM30:
-	text "<PLAYER> received"
-	line "TM35."
+	text "¡<PLAYER> recibió"
+	line "MT35!"
 	done
 
 OfficerText_AvoidGrass:
-	text "Zzz…"
-	para "Be careful out"
-	line "there…"
+	text "(Ronquido…)"
+
+	para "Ten cuidado ahí"
+	line "fuera…"
 	done
 
 BoardwalkGate_MapEvents:

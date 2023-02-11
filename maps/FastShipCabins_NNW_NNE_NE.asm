@@ -132,134 +132,134 @@ FastShipLazySailorLeavesMovement2:
 	step_end
 
 CooltrainermSeanSeenText:
-	text "I'm going to the"
-	line "ISLANDS to test my"
-	cont "skills."
+	text "Voy a las ISLAS"
+	line "para poner a"
+	cont "prueba mis"
+	cont "habilidades."
 	done
 
 CooltrainermSeanBeatenText:
-	text "I wanted to win!"
+	text "¡Quería ganar!"
 	done
 
 CooltrainermSeanAfterBattleText:
-	text "I should battle"
-	line "more GYM LEADERS"
-	cont "first…"
+	text "Debería haber"
+	line "combatido contra"
+	cont "más LÍDERES de"
+	cont "GIMNASIO…"
 	done
 
 CooltrainerfCarolSeenText:
-	text "I'm training to"
-	line "defeat the LEAGUE!"
+	text "¡Estoy entrenando"
+	line "para ganar la"
+	cont "LIGA!"
 	done
 
 CooltrainerfCarolBeatenText:
-	text "What's so differ-"
-	line "ent between us?"
+	text "¿En qué somos"
+	line "tan diferentes?"
 	done
 
 CooltrainerfCarolAfterBattleText:
-	text "I'm going to beat"
-	line "you someday!"
+	text "¡Te ganaré un"
+	line "día de éstos!"
 	done
 
 PokemaniacEthanSeenText:
-	text "Do you know MARY?"
-	line "She's the best"
-	cont "radio DJ."
+	text "¿Conoces a ROSA?"
+	line "Es la mejor"
+	cont "locutora de radio."
 	done
 
 PokemaniacEthanBeatenText:
-	text "Gyaaaah!"
+	text "¡Yaaaa!"
 	done
 
 PokemaniacEthanAfterBattleText:
-	text "The mainland's"
-	line "radio programs"
-	para "are just as"
-	line "popular on the"
-	cont "ISLANDS."
+	text "Los programas de"
+	line "radio del conti-"
+	cont "nente son igual de"
+	cont "populares en las"
+	cont "ISLAS."
 	done
 
 HikerNolandSeenText:
-	text "Are you alone?"
-	line "Then let's battle!"
+	text "¿Estás aquí?"
+	line "¡Pues luchemos!"
 	done
 
 HikerNolandBeatenText:
-	text "That's too much to"
-	line "handle!"
+	text "¡Es demasiado!"
 	done
 
 HikerNolandAfterBattleText:
-	text "I wonder if there"
-	line "are any mountains"
-
-	para "worth climbing on"
-	line "the ISLANDS."
+	text "Me pregunto si en"
+	line "las ISLAS habrá"
+	para "montañas que valga"
+	line "la pena escalar."
 	done
 
 SailorStanlySeenText:
-	text "Yeah, I'm a sail-"
-	line "or, all right."
+	text "Sí, es verdad,"
+	line "soy un marinero."
 
-	para "I wasn't goofing"
-	line "off!"
+	para "¡No hacía nada"
+	line "malo!"
 
-	para "This cabin was"
-	line "vacant, so I just"
-	cont "took a quick nap!"
+	para "Como el camarote"
+	line "estaba vacío, me"
+	cont "eché un sueñecito."
 
-	para "Ah, forget it!"
-	line "Let's battle!"
+	para "¡Ah! ¡Olvídalo!"
+	line "¡Luchemos!"
 	done
 
 SailorStanlyBeatenText:
-	text "Sorry! It's all my"
-	line "fault!"
+	text "¡Lo siento! ¡Todo"
+	line "es culpa mía!"
 	done
 
 SailorStanlyAfterBattleText:
-	text "Being a sailor, I"
-	line "have to do phys-"
-	cont "ical labor. It's"
-	cont "exhausting!"
+	text "Los marineros"
+	line "hacemos mucho"
+	para "trabajo físico."
+	line "¡Es agotador!"
 	done
 
 GentlemanEdwardSeenText:
-	text "Oh, no. I've lost"
-	line "something that's"
-	cont "very important."
+	text "¡Oh, no! He"
+	line "perdido algo"
+	cont "muy importante."
 	done
 
 GentlemanEdwardBeatenText:
-	text "I… I can't find"
-	line "it…"
+	text "No… No lo"
+	line "encuentro…"
 	done
 
 GentlemanEdwardAfterBattleText:
-	text "I give up."
-	line "You don't have to"
-
-	para "look. Just forget"
-	line "about it!"
+	text "Me rindo."
+	line "No tienes por qué"
+	para "buscarlo."
+	line "¡Olvídalo!"
 	done
 
 BurglarCoreySeenText:
-	text "Yeehaw!"
-	line "Lucky!"
+	text "¡Yujuu!"
+	line "¡Qué suerte!"
 	done
 
 BurglarCoreyBeatenText:
-	text "How unlucky!"
-	line "I lost!"
+	text "¡Qué mala suerte!"
+	line "¡He perdido!"
 	done
 
 BurglarCoreyAfterBattleText:
-	text "I found a pretty"
-	line "coin here."
+	text "He encontrado una"
+	line "moneda muy bonita."
 
-	para "Someone must have"
-	line "lost it…"
+	para "Alguien debe de"
+	line "haberla perdido…"
 	done
 
 FastShipCabins_NNW_NNE_NE_MapEvents:

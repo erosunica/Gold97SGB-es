@@ -1,10 +1,10 @@
-	db "FIVE STAR@" ; species name
-	dw 303, 240 ; height, weight
+	db "5ESTRELLAS@" ; species name
+	dbw 10, 108 ; height, weight
 
-	db   "It is timid and"
-	next "clusters together"
-	next "with others. The"
+	db   "Es muy tímido y"
+	next "se refugia con los"
+	next "de su especie."
 
-	page "fluid secreted by"
-	next "its feet indicates"
-	next "its location.@"
+	page "Al caminar, deja"
+	next "una estela que"
+	next "indica dónde está.@"

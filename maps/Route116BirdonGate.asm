@@ -39,42 +39,47 @@ Route116BirdonGateScientistScript:
 	end
 	
 Route116BirdonGateRocket1Text:
-	text "Fufufufu…"
-	para "Our SLOWPOKE team"
-	line "should be back"
-	para "with the next"
-	line "batch of TAILS"
-	cont "soon…"
+	text "Jujujuju…"
+	para "Nuestro equipo de"
+	line "caza de SLOWPOKE"
+	para "debería volver"
+	line "pronto con el"
+	cont "siguiente lote de"
+	cont "COLAS…"
 	done
 	
 Route116BirdonGateRocket2Text:
-	text "Hehehehe…"
-	para "No one will even"
-	line "notice the TAILS"
-	para "missing from those"
-	line "SLOWPOKE until"
-	cont "it's too late…"
+	text "Jejejeje…"
+	para "Nadie se dará"
+	line "cuenta de que le"
+	para "faltan COLAS a los"
+	line "SLOWPOKE hasta que"
+	cont "sea demasiado"
+	cont "tarde…"
 	done
 
 Route116BirdonGateScientistText:
-	text "These men look"
-	line "like members of"
-	cont "TEAM ROCKET."
-	para "Could they really"
-	line "be?"
-	para "I wish they'd stop"
-	line "blocking the gate,"
-	para "but they kind of"
-	line "scare me…"
+	text "Esos hombres"
+	line "parecen miembros"
+	cont "del TEAM ROCKET."
+
+	para "¿De verdad lo son?"
+	para "Ojalá dejasen de"
+	line "bloquear el paso,"
+	cont "pero les tengo"
+	cont "miedo…"
 	done
 	
 Route116BirdonGateScientistTextNoRockets:
-	text "Past here is a"
-	line "winding maze of"
-	para "trees and a tough"
-	line "cave to traverse."
-	para "Make sure you're"
-	line "prepared!"
+	text "Si sigues por"
+	line "aquí, hay un"
+	para "sinuoso laberinto"
+	line "de árboles y una"
+	cont "cueva difícil de"
+	cont "atravesar."
+
+	para "¡Asegúrate de"
+	line "estar preparado!"
 	done
 
 Route116BirdonGate_MapEvents:

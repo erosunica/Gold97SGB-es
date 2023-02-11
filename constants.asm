@@ -1,3 +1,5 @@
+MGB EQU 0 ; erosunica: this applies a palette similar to the Game Boy Pocket screen to the entire game (experimental)
+
 INCLUDE "charmap.asm"
 
 INCLUDE "macros.asm"

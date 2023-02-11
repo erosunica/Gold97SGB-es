@@ -1,0 +1,8 @@
+lvl_3: original hack
+ZumiIsawhat?: porting of misc features from SW97
+Seasick: PokeGear and Pack redesigns to resemble SW97
+FrenchOrange: diploma and credits graphics
+pret: pokegold disassembly
+teamspaceworld: pokegold-spaceworld disassembly
+hoshi no bani: Spanish version translation
+erosunica: Spanish version hacking

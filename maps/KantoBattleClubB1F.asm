@@ -747,407 +747,465 @@ PlayerWalksToOtherSideDown:
 	step_end
 	
 PartyFullTogepiText:
-	text "Oh, wait!"
-	para "You gotta make"
-	line "room!"
-	done
-	
-NoTogepiText:
-	text "You sure?"
-	para "I'd have thought"
-	line "you'd like this."
-	done
-	
-GiveTogepiText:
-	text "I'm sure you're"
-	line "the best person to"
-	cont "take care of it."
-	done
-	
-IHaveAWeirdEggText:
-	text "Wow! You really"
-	line "beat that super"
-	cont "tough COOLTRAINER?"
-	para "That's incredible!"
-	para "Hey, listen. I had"
-	line "this weird #MON"
-	cont "EGG."
-	para "It hatched the"
-	line "other day, but"
-	para "it still looks"
-	line "like an EGG!"
-	para "It's a very odd"
-	line "#MON."
-	para "I think an expert"
-	line "trainer such as"
-	para "yourself would be"
-	line "better suited to"
-	cont "take care of it."
-	para "You want it?"
-	done
-	
-PlayerGotTogepiText:
-	text "<PLAYER> received"
-	line "TOGEPI."
-	done
-	
-BattleClubYoungsterTextBeat:
-	text "Seriously, how did"
-	line "you beat that guy?"
-	para "It's incredible!"
-	done
-	
-	
-BattleClubGrannyText:
-	text "I was once a"
-	line "strong trainer."
-	para "I don't battle so"
-	line "much myself,"
-	cont "anymore."
-	para "But it's always a"
-	line "good time to come"
-	para "here and watch"
-	line "today's strong"
-	cont "trainers battle."
-	done
-	
-BattleClubYoungster2Text:
-	text "I'm here to"
-	line "support my younger"
-	cont "brother."
-	para "He's new at this."
-	para "Maybe if you have"
-	line "some weaker"
-	para "#MON, you could"
-	line "battle him with"
-	cont "those?"
-	done
-	
-BattleClubLassText:
-	text "This place has"
-	line "different trainers"
-	para "stop by every day"
-	line "of the week."
-	para "Stronger trainers"
-	line "tend to show up"
-	cont "late in the week."
-	done
-	
-BattleClubRockerText:
-	text "I'm all tired from"
-	line "all of these"
-	cont "battles."
-	para "If you want a"
-	line "challenge now, I"
-	para "think there's a"
-	line "SPORTSMAN over"
-	cont "there."
-	done
-	
-BattleClubGentlemanText:
-	text "I say, this"
-	line "establishment is"
-	para "great for the"
-	line "trainer who"
-	para "doesn't like to"
-	line "travel much but"
-	para "still wants new"
-	line "challenges."
-	done
-	
-BattleClubYoungsterText:
-	text "There was a"
-	line "COOLTRAINER here"
-	cont "the other day."
-	para "His #MON were"
-	line "incredibly tough."
-	para "I didn't stand a"
-	line "chance."
-	para "I think he comes"
-	line "by on Saturdays."
-	para "Could you beat"
-	line "him?"
-	para "Let me know once"
-	line "you have!"
-	done
-	
-BattleClubJanineText:
-	text "Some of the"
-	line "trainers here are"
-	cont "too tough!"
-	para "I gotta get"
-	line "stronger."
-	done
-	
-BattleClubPokefanMText:
-	text "Everyone loves a"
-	line "good battle!"
-	para "Sometimes it's fun"
-	line "to just watch!"
-	done
-	
-BattleClubReceptionistText:
-	text "Welcome to the"
-	line "KANTO BATTLE CLUB."
-	para "We attract serious"
-	line "trainers of all"
-	cont "skill levels."
-	para "Some very tough"
-	line "trainers frequent"
-	cont "here."
-	para "Don't be afraid to"
-	line "challenge them!"
-	done
-	
-NoBattleNowSundayText:
-	text "Aw, man!"
-	para "Maybe another"
-	line "time."
-	done
-	
-SundayAfterYourDefeatText:; backwards
-	text "I'm not tough yet"
-	line "but I'm working on"
-	cont "it!"
-	done
-	
-SundayAfterVictoriousText:; backwards
-	text "My #MON get"
-	line "stronger every"
-	cont "day!"
-	done
-	
-SundayWinText:
-	text "Wow, you're tough!"
-	done
-	
-SundayLossText:
-	text "I won! Wow!"
+	text "¡Espera!"
+
+	para "¡Tienes que"
+	line "hacerle un hueco!"
 	done
 
-	
-SundayTrainerGreeting:
-	text "Hi there! I'm new"
-	line "at #MON and I'm"
-	cont "new at battling!"
-	para "But it's my dream"
-	line "to one day be a"
-	cont "great trainer!"
-	para "I use #MON"
-	line "around level 10."
-	para "Do you want to"
-	line "battle?"
+NoTogepiText:
+	text "¿Seguro?"
+
+	para "Pensé que te"
+	line "gustaría."
 	done
-	
+
+GiveTogepiText:
+	text "Estoy seguro que"
+	line "eres quien mejor"
+	cont "podría criarlo."
+	done
+
+IHaveAWeirdEggText:
+	text "¡Guau! ¿Has"
+	line "vencido a ese"
+	para "ENTRENADOR GUAY"
+	line "tan fuerte?"
+
+	para "¡Es increíble!"
+
+	para "Oye, escucha."
+	line "Tengo un HUEVO"
+	cont "#MON raro."
+
+	para "Eclosionó el otro"
+	line "día, ¡pero sigue"
+	cont "pareciendo un"
+	cont "HUEVO!"
+
+	para "Es un #MON muy"
+	line "raro."
+
+	para "Creo que un"
+	line "entrenador experto"
+	para "como tú está más"
+	line "capacitado para"
+	cont "criarlo."
+
+	para "¿Lo quieres?"
+	done
+
+PlayerGotTogepiText:
+	text "<PLAYER> recibió a"
+	line "TOGEPI."
+	done
+
+BattleClubYoungsterTextBeat:
+	text "En serio, ¿cómo"
+	line "has podido derro-"
+	cont "tar a ese tipo?"
+
+	para "¡Aún no me lo"
+	line "creo!"
+	done
+
+BattleClubGrannyText:
+	text "Hace tiempo,"
+	line "fui una gran"
+	cont "entrenadora."
+
+	para "Ya no combato"
+	line "apenas."
+
+	para "Pero siempre paso"
+	line "un buen rato"
+	para "cuando vengo a ver"
+	line "combatir a los"
+	para "grandes entrenado-"
+	line "res de hoy en día."
+	done
+
+BattleClubYoungster2Text:
+	text "Estoy aquí para"
+	line "apoyar a mi"
+	cont "hermano pequeño."
+
+	para "Acaba de empezar a"
+	line "ser entrenador."
+
+	para "Si tienes #MON"
+	line "más débiles,"
+	para "¿podrías combatir"
+	line "contra él"
+	cont "usándolos?"
+	done
+
+BattleClubLassText:
+	text "Cada día, vienen"
+	line "entrenadores"
+	cont "distintos a este"
+	cont "lugar."
+
+	para "Los más fuertes"
+	line "suelen venir los"
+	cont "últimos días de la"
+	cont "semana."
+	done
+
+BattleClubRockerText:
+	text "Ya me estoy"
+	line "cansando de tantos"
+	cont "combates."
+
+	para "Si quieres desafi-"
+	line "ar a alguien, creo"
+	para "que hay un"
+	line "DEPORTISTA por"
+	cont "allí."
+	done
+
+BattleClubGentlemanText:
+	text "Este local es"
+	line "perfecto para los"
+	para "entrenadores que"
+	line "no les gusta via-"
+	cont "jar pero quieren"
+	cont "nuevos desafíos."
+	done
+
+BattleClubYoungsterText:
+	text "El otro día vino"
+	line "un ENTRENADOR"
+	cont "GUAY."
+
+	para "Sus #MON eran"
+	line "realmente"
+	cont "formidables."
+
+	para "No pude hacer"
+	line "nada."
+
+	para "Creo que viene los"
+	line "sábados."
+
+	para "¿Serías capaz de"
+	line "derrotarlo?"
+
+	para "¡Si lo logras,"
+	line "dímelo!"
+	done
+
+BattleClubJanineText:
+	text "¡Algunos entrena-"
+	line "dores aquí son"
+	cont "demasiado fuertes!"
+
+	para "Tengo que seguir"
+	line "entrenando."
+	done
+
+BattleClubPokefanMText:
+	text "¡A todo el mundo"
+	line "le encanta un buen"
+	cont "combate!"
+
+	para "¡A veces basta con"
+	line "verlos para"
+	cont "divertirse!"
+	done
+
+BattleClubReceptionistText:
+	text "Bienvenido al CLUB"
+	line "BATALLA de KANTO."
+
+	para "Contamos con"
+	line "entrenadores de"
+	cont "toda clase y"
+	cont "nivel."
+
+	para "Suelen venir"
+	line "algunos bastante"
+	cont "fuertes."
+
+	para "¡No dudes en"
+	line "desafiarlos!"
+	done
+
+NoBattleNowSundayText:
+	text "¡Oh, vaya!"
+
+	para "Será para la"
+	line "próxima."
+	done
+
+SundayAfterYourDefeatText:; backwards
+	text "¡Aún no soy"
+	line "fuerte, pero estoy"
+	cont "en ello!"
+	done
+
+SundayAfterVictoriousText:; backwards
+	text "¡Mis #MON son"
+	line "cada día más"
+	cont "fuertes!"
+	done
+
+SundayWinText:
+	text "¡Vaya, eres"
+	line "fuerte!"
+	done
+
+SundayLossText:
+	text "¡Uau! ¡He ganado!"
+	done
+
+SundayTrainerGreeting:
+	text "¡Hola! ¡Acabo de"
+	line "empezar como"
+	cont "entrenador"
+	cont "#MON!"
+
+	para "¡Pero mi sueño es"
+	line "ser algún día un"
+	cont "gran entrenador!"
+
+	para "Uso #MON"
+	line "alrededor del"
+	cont "nivel 10."
+
+	para "¿Quieres combatir?"
+	done
+
 NoBattleNowMondayText:
-	text "I'll be here if"
-	line "you change your"
-	cont "mind!"
+	text "¡Estaré aquí si"
+	line "cambias de"
+	cont "opinión!"
 	done
 
 MondayAfterYourDefeatText:; backwards
-	text "Looks like I need"
-	line "to keep training!"
-	done
-	
-MondayAfterVictoriousText:; backwards
-	text "My training is"
-	line "paying off!"
-	done
-	
-MondayWinText:
-	text "Dude, you're good!"
-	done
-	
-MondayLossText:
-	text "Oh yeah!"
-	done
-	
-MondayTrainerGreeting:
-	text "Yo, you want to"
-	line "battle?"
-	para "I'm getting kind"
-	line "of good at this,"
-	cont "I think."
-	para "I use #MON"
-	line "around level 20."
-	para "Wanna battle?"
-	done
-	
-NoBattleNowTuesdayText:
-	text "I guess I'm too"
-	line "good, huh?"
-	done
-	
-TuesdayAfterYourDefeatText:; backwards
-	text "Wow, looks like"
-	line "you're the tough"
-	cont "one here!"
-	done
-	
-TuesdayAfterVictoriousText:; backwards
-	text "I'm getting good"
-	line "at this!"
-	done
-	
-TuesdayWinText:
-	text "Woah, now!"
-	done
-	
-TuesdayLossText:
-	text "I got this!"
+	text "¡Parece que debo"
+	line "seguir entrenando!"
 	done
 
-	
+MondayAfterVictoriousText:; backwards
+	text "¡Mi entrenamiento"
+	line "está dando"
+	cont "resultado!"
+	done
+
+MondayWinText:
+	text "¡Esto se te da muy"
+	line "bien!"
+	done
+
+MondayLossText:
+	text "¡Toma ya!"
+	done
+
+MondayTrainerGreeting:
+	text "Hola, ¿quieres"
+	line "combatir?"
+
+	para "Creo que me estoy"
+	line "volviendo bueno en"
+	cont "esto."
+
+	para "Uso #MON"
+	line "alrededor del"
+	cont "nivel 20."
+
+	para "Entonces,"
+	line "¿combatimos?"
+	done
+
+NoBattleNowTuesdayText:
+	text "Supongo que soy"
+	line "demasiado para ti,"
+	cont "¿no?"
+	done
+
+TuesdayAfterYourDefeatText:; backwards
+	text "¡Se nota que eres"
+	line "el más fuerte"
+	cont "aquí!"
+	done
+
+TuesdayAfterVictoriousText:; backwards
+	text "¡Pues no se me da"
+	line "nada mal!"
+	done
+
+TuesdayWinText:
+	text "¡Pero bueno!"
+	done
+
+TuesdayLossText:
+	text "¡Toma eso!"
+	done
+
 TuesdayTrainerGreeting:
-	text "Hi there!"
-	para "I'm looking to"
-	line "battle!"
-	para "I think I'm pretty"
-	line "tough."
-	para "I use #MON"
-	line "around level 30."
-	para "Think you can take"
-	line "me on?"
+	text "¡Hola!"
+
+	para "¡Estoy buscando"
+	line "con quién"
+	cont "combatir!"
+
+	para "Creo que soy"
+	line "bastante fuerte."
+
+	para "Uso #MON"
+	line "alrededor del"
+	cont "nivel 30."
+
+	para "¿Crees que puedes"
+	line "derrotarme?"
 	done
-	
-	
+
 NoBattleNowWednesdayText:
-	text "That's okay!"
-	para "I'll stick around"
-	line "for a bit."
+	text "¡No pasa nada!"
+
+	para "Me quedaré por"
+	line "aquí un rato."
 	done
-	
+
 WednesdayAfterYourDefeatText:; backwards
-	text "Hey, looks like"
-	line "you're good at"
-	cont "this too!"
+	text "¡Esto también se"
+	line "te da bien!"
 	done
-	
+
 WednesdayAfterVictoriousText:; backwards
-	text "My #MON are"
-	line "always up for a"
-	cont "battle!"
+	text "¡Mis #MON"
+	line "siempre están"
+	cont "listos para"
+	cont "combatir!"
 	done
-	
+
 WednesdayWinText:
-	text "Hey, good one!"
+	text "¡Buen combate!"
 	done
-	
+
 WednesdayLossText:
-	text "What a workout!"
+	text "¡Vaya despliegue!"
 	done
 
 WednesdayTrainerGreeting:
-	text "Hi! I'm stopping"
-	line "by here after a"
-	para "run with my"
-	line "#MON!"
-	para "I'm pretty good at"
-	line "battling."
-	para "My #MON are"
-	line "around level 40."
-	para "Wanna send a"
-	line "challenge my way?"
-	done
-	
-	
-NoBattleNowThursdayText:
-	text "That's fine, then."
-	done
-	
-ThursdayAfterYourDefeatText:; backwards
-	text "This was a good"
-	line "challenge."
-	done
-	
-ThursdayAfterVictoriousText:; backwards
-	text "My #MON prove"
-	line "their strength."
-	done
-	
-ThursdayWinText:
-	text "Very good."
-	done
-	
-ThursdayLossText:
-	text "Ah, victory."
+	text "¡Hola! ¡Vengo de"
+	line "una maratón con"
+	cont "mis #MON!"
+
+	para "Soy bastante bueno"
+	line "combatiendo."
+
+	para "Uso #MON"
+	line "alrededor del"
+	cont "nivel 40."
+
+	para "¿Quieres"
+	line "desafiarme?"
 	done
 
-	
-ThursdayTrainerGreeting:
-	text "Good day."
-	para "I am experienced"
-	line "in battling."
-	para "I have a party"
-	line "of #MON around"
-	cont "level 50."
-	para "Want to have a go"
-	line "at a battle?"
+NoBattleNowThursdayText:
+	text "Vale, está bien."
 	done
-	
+
+ThursdayAfterYourDefeatText:; backwards
+	text "Ha sido un buen"
+	line "desafío."
+	done
+
+ThursdayAfterVictoriousText:; backwards
+	text "Mis #MON han"
+	line "demostrado su"
+	cont "fuerza."
+	done
+
+ThursdayWinText:
+	text "Muy bien."
+	done
+
+ThursdayLossText:
+	text "Victoria."
+	done
+
+ThursdayTrainerGreeting:
+	text "Buen día."
+
+	para "Tengo mucha"
+	line "experiencia en"
+	cont "combate."
+
+	para "Uso #MON"
+	line "alrededor del"
+	cont "nivel 50."
+
+	para "¿Te animas a un"
+	line "combate?"
+	done
 
 NoBattleNowFridayText:
-	text "It's okay, most"
-	line "people can't."
-	done
-	
-FridayAfterYourDefeatText:; backwards
-	text "Wow, you beat me!"
-	done
-	
-FridayAfterVictoriousText:; backwards
-	text "Another victory"
-	line "for my team!"
-	done
-	
-FridayWinText:
-	text "I'm shocked!"
-	done
-	
-FridayLossText:
-	text "Way to go, me!"
+	text "No pasa nada, la"
+	line "mayoría no puede."
 	done
 
-	
-FridayTrainerGreeting:
-	text "Well, hello!"
-	para "I try not to brag,"
-	line "but I'm pretty"
-	cont "darn good."
-	para "I have #MON"
-	line "around level 60."
-	para "Think you can"
-	line "handle them?"
+FridayAfterYourDefeatText:; backwards
+	text "¡Vaya, me has"
+	line "derrotado!"
 	done
-	
+
+FridayAfterVictoriousText:; backwards
+	text "¡Una victoria más"
+	line "para mi equipo!"
+	done
+
+FridayWinText:
+	text "¡Estoy impactado!"
+	done
+
+FridayLossText:
+	text "¡Qué bueno soy!"
+	done
+
+FridayTrainerGreeting:
+	text "¡Anda, hola!"
+
+	para "No quiero presu-"
+	line "mir, pero soy muy"
+	cont "fuerte."
+
+	para "Uso #MON"
+	line "alrededor del"
+	cont "nivel 60."
+
+	para "¿Crees que puedes"
+	line "contra ellos?"
+	done
 
 NoBattleNowSaturdayText:
-	text "One day, you might"
-	line "be strong enough"
-	para "to accept my"
-	line "challenge."
+	text "Un día, quizá seas"
+	line "lo bastante fuerte"
+	cont "para aceptar mi"
+	cont "desafío."
 	done
-	
+
 SaturdayAfterYourDefeatText:; backwards
-	text "You're among a"
-	line "select few who"
-	cont "have defeated me."
-	para "Well done."
+	text "Eres de los pocos"
+	line "que ha conseguido"
+	cont "derrotarme."
+
+	para "Bien hecho."
 	done
-	
+
 SaturdayAfterVictoriousText:; backwards
-	text "This was the"
-	line "expected outcome."
+	text "Ya me lo esperaba."
 	done
-	
+
 SaturdayWinText:
-	text "Unbelievable!"
+	text "¡Increíble!"
 	done
-	
+
 SaturdayLossText:
-	text "Victory for me"
-	line "once more!"
+	text "¡Una vez más, la"
+	line "victoria es mía!"
 	done
 
 	
@@ -1160,34 +1218,39 @@ SaturdayLossText:
 ;	done
 
 SaturdayTrainerGreeting:
-	text "It's not often I"
-	line "come across a"
-	para "trainer to match"
-	line "my skill."
-	para "My #MON are"
-	line "around level 70."
-	para "So tell me, do you"
-	line "think you're"
-	para "someone who can"
-	line "match me in"
-	cont "battle?"
+	text "No suelo encontrar"
+	line "entrenadores"
+	para "capaces de"
+	line "competir conmigo."
+
+	para "Uso #MON"
+	line "alrededor del"
+	cont "nivel 70."
+
+	para "Así que dime,"
+	line "¿crees que puedes"
+	cont "hacerme frente en"
+	cont "combate?"
 	done
-	
-	
+
 TrainerAcceptsChallenge:
-	text "Okay!"
-	para "Just stand over on"
-	line "the opposite side"
-	cont "and we can begin!"
+	text "¡De acuerdo!"
+
+	para "¡Colócate en el"
+	line "lado opuesto y"
+	cont "podremos comenzar!"
 	done
-	
+
 TrainerClubDone:
-	text "Whew!"
-	para "I'm not up for any"
-	line "more battles now."
-	para "Come back tomorrow"
-	line "and battle someone"
-	cont "new!"
+	text "¡Uf!"
+
+	para "No estoy para más"
+	line "combates por hoy."
+
+	para "¡Vuelve mañana y"
+	line "combate contra"
+	cont "nuevos"
+	cont "entrenadores!"
 	done
 	
 
@@ -1205,7 +1268,7 @@ KantoBattleClubB1F_MapEvents:
 	object_event 16,  8, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, BattleClubScriptSun, EVENT_SWITCH_1
 	object_event 14, 14, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, BattleClubScriptMon, EVENT_SWITCH_2
 	object_event 16,  8, SPRITE_LASS, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, BattleClubScriptTues, EVENT_SWITCH_3
-	object_event 16,  8, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_SCRIPT, 0, BattleClubScriptWed, EVENT_SWITCH_4
+	object_event 16,  8, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, BattleClubScriptWed, EVENT_SWITCH_4
 	object_event  6, 10, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, BattleClubScriptThurs, EVENT_SWITCH_5
 	object_event 14, 14, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, BattleClubScriptFri, EVENT_SWITCH_6
 	object_event  6, 10, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, 0, BattleClubScriptSat, EVENT_SWITCH_7

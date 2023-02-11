@@ -1,10 +1,10 @@
-	db "SCISSORS@" ; species name
-	dw 511, 2600 ; height, weight
+	db "TIJERAS@" ; species name
+	dbw 18, 1180 ; height, weight
 
-	db   "This #MON's"
-	next "pincers, which"
-	next "contain steel, can"
+	db   "Las pinzas que po-"
+	next "see tienen acero."
+	next "Con ellas, no hay"
 
-	page "crush any hard"
-	next "object it gets a"
-	next "hold of into bits.@"
+	page "nada que se le re-"
+	next "sista. Rompen todo"
+	next "lo que pillan.@"

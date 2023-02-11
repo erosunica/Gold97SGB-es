@@ -1,10 +1,10 @@
-	db "FAIRY@" ; species name
-	dw 200, 170 ; height, weight
+	db "HADA@" ; species name
+	dbw 6, 75 ; height, weight
 
-	db   "Though rarely"
-	next "seen, it becomes"
-	next "easier to spot,"
+	db   "Aunque no es muy"
+	next "común, se le puede"
+	next "ver por la noche."
 
-	page "for some reason,"
-	next "on the night of a "
-	next "full moon.@"
+	page "Curiosamente,"
+	next "ocurre en noches"
+	next "de luna llena.@"

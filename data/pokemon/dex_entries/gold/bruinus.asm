@@ -1,10 +1,10 @@
-	db "DEEP FLAME@" ; species name
-	dw 511, 2180 ; height, weight
-
-	db   "The heat from its"
-	next "body causes the"
-	next "air around it to"
-
-	page "become incredibly"
-	next "hot. Can inflict"
-	next "burns by vicinity.@"
+	db "GRAN LLAMA@" ; species name
+	dbw 18, 989 ; height, weight
+	
+	db   "Su calor corporal"
+	next "provoca que el"
+	next "aire que le rodea"
+	
+	page "se vuelva tórrido."
+	next "Acercársele puede"
+	next "causar quemaduras.@"

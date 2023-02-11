@@ -10,14 +10,16 @@ SunpointMagmaShaftSpeechHouseFishingGuruScript:
 	jumptextfaceplayer SunpointFishGuruText
 
 SunpointFishGuruText:
-	text "The MAGMA SHAFT"
-	line "on the west side"
-	para "of town is"
-	line "dangerously hot"
-	cont "inside."
-	para "Fire #MON are"
-	line "said to be"
-	cont "attracted to it."
+	text "El calor que hace"
+	line "en el EJE MAGMA,"
+	para "al oeste de la"
+	line "ciudad, es"
+	cont "peligroso."
+
+	para "Los #MON de"
+	line "fuego se sienten"
+	cont "atraídos por ese"
+	cont "calor."
 	done
 
 SunpointMagmaShaftSpeechHouse_MapEvents:

@@ -43,11 +43,6 @@ PrintDexEntry:
 	ld a, [wPrinterQueueLength]
 	push af
 
-	;ld hl, vTiles1
-	;ld de, FontInversed
-	;lb bc, BANK(FontInversed), $80
-	;call Request1bpp
-
 	xor a
 	ldh [hPrinter], a
 	call Printer_PlayMusic
@@ -603,7 +598,7 @@ Function847b9: ; unreferenced
 	ret
 
 String_PressBToCancel:
-	db "Press B to Cancel@"
+	db "B para cancelar@"
 
 PrinterStatusStringPointers:
 	dw GBPrinterString_Null ; @
@@ -652,7 +647,7 @@ PrintPCBox_Page1:
 	ret
 
 .String_PokemonList:
-	db "#MON LIST@"
+	db "LISTA #MON@"
 
 PrintPCBox_Page2:
 	hlcoord 0, 0

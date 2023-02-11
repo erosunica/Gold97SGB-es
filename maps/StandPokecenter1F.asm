@@ -65,53 +65,58 @@ StandPokecenter1FJanineImpersonatorScript:
 	end
 
 StandPokecenter1FCooltrainerMText:
-	text "I'm worried about"
-	line "my #MON getting"
-	cont "sick."
+	text "Me preocupa que"
+	line "mi #MON se"
+	cont "enferme."
 	done
-	
+
 StandPokecenter1FCooltrainerMText2:
-	text "The staff for the"
-	line "STAND CITY ZOO do"
-	para "a lot of work"
-	line "making sure the"
-	para "#MON are"
-	line "healthy."
+	text "Los trabajadores"
+	line "del ZOO de CIUDAD"
+	para "ENHIESTA se están"
+	line "esforzando mucho"
+	para "para que los"
+	line "#MON estén"
+	cont "sanos."
 	done
 
 StandPokecenter1FCooltrainerFText:
-	text "What's going on in"
-	line "this town right"
-	cont "now?"
-	para "Things are usually"
-	line "so peaceful."
+	text "¿Qué está pasando"
+	line "en esta ciudad?"
+	para "Normalmente está"
+	line "todo muy"
+	cont "tranquilo."
 	done
-	
+
 StandPokecenter1FCooltrainerFText2:
-	text "You have a lot of"
-	line "GYM BADGES!"
-	para "Have you taken on"
-	line "the LEAGUE?"
-	para "One day I want to"
-	line "climb MT.FUJI"
-	cont "myself."
+	text "¡Tienes un montón"
+	line "de MEDALLAS!"
+
+	para "¿Ya has ido a la"
+	line "LIGA?"
+	para "Un día quiero"
+	line "escalar el MT."
+	cont "FUJI."
 	done
 
 StandPokecenter1FJanineImpersonatorText1:
-	text "I came to visit"
-	line "STAND CITY to see"
-	para "the NATIONAL PARK"
-	line "and all of the"
-	cont "#MON."
-	para "I'm kind of upset"
-	line "I can't do any of"
-	cont "that right now…"
+	text "Vine de visita a"
+	line "CIUDAD ENHIESTA"
+	para "para ver el PARQUE"
+	line "NACIONAL y todos"
+	cont "sus #MON."
+
+	para "Qué rabia que no"
+	line "pueda hacer nada"
+	cont "de eso ahora"
+	cont "mismo…"
 	done
 
 StandPokecenter1FJanineImpersonatorText2:
-	text "STAND CITY has so"
-	line "many interesting"
-	cont "things to see!"
+	text "¡CIUDAD ENHIESTA"
+	line "tiene tantas cosas"
+	cont "interesantes que"
+	cont "ver!"
 	done
 
 StandPokecenter1F_MapEvents:

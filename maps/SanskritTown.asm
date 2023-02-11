@@ -61,58 +61,65 @@ SanskritTownPokecenterSign:
 	jumpstd PokecenterSignScript
 	
 SanskritTownLassText:
-	text "I love the"
-	line "atmosphere of this"
-	cont "town."
-	para "It almost makes me"
-	line "feel as though"
-	para "I've traveled back"
-	line "in time."
+	text "Me encanta el"
+	line "ambiente de este"
+	cont "pueblo."
+
+	para "Casi me hace"
+	line "sentir como si"
+	para "hubiera viajado"
+	line "atrás en el"
+	cont "tiempo."
 	done
-	
+
 SanskritTownYoungsterText:
-	text "This fountain is"
-	line "so mysterious."
-	para "No one knows who"
-	line "built it."
-	para "But it's clear"
-	line "that it's from the"
-	para "same era as the"
-	line "RUINS just north"
-	cont "of town."
+	text "Esta fuente es de"
+	line "lo más misteriosa."
+
+	para "Nadie sabe quién"
+	line "la construyó."
+
+	para "Pero está claro"
+	line "que es de la misma"
+	para "época que las"
+	line "RUINAS al norte"
+	cont "del pueblo."
 	done
 
 SanskritTownMonsterText:
-	text "DONPHAN: PHYUUU!"
+	text "DONPHAN: ¡Phaaan!"
 	done
 
 SanskritTownCooltrainermText:
-	text "My DONPHAN doesn't"
-	line "listen to me."
-	para "I got him in a"
-	line "trade from a pal,"
-	para "but I don't have"
-	line "enough BADGES for"
-	cont "him to obey me."
+	text "Mi DONPHAN no me"
+	line "hace caso."
+
+	para "Lo obtuve por"
+	line "intercambio con un"
+	para "amigo, pero no"
+	line "tengo suficientes"
+	para "MEDALLAS para que"
+	line "me obedezca."
 	done
 
 SanskritTownSignText:
-	text "SANSKRIT TOWN"
-
-	para "A Link To NIHON's"
-	line "Past"
+	text "PUEBLO SÁNSCRITO"
+	
+	para "Un vínculo a los"
+	line "albores de NIHON"
 	done
 
 SanskritTownRagecandybarSignText:
-	text "While visiting"
-	line "SANSKRIT TOWN, try"
-	cont "a RAGECANDYBAR!"
+	text "¡Mientras estás de"
+	line "visita en PUEBLO"
+	para "SÁNSCRITO, prueba"
+	line "un CARAM. FURIA!"
 	done
 
 SanskritResearchSignText:
-	text "SANSKRIT TOWN"
-	line "RUINS RESEARCH"
-	cont "CENTER"
+	text "C. INVESTIGACIÓN"
+	line "DE LAS RUINAS"
+	cont "SÁNSCRITAS"
 	done
 
 SanskritTown_MapEvents:

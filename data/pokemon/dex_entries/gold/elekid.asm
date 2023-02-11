@@ -1,10 +1,10 @@
-	db "ELECTRIC@" ; species name
-	dw 200, 520 ; height, weight
+	db "ELÉCTRICO@" ; species name
+	dbw 6, 235 ; height, weight
 
-	db   "It loves violent"
-	next "thunder. The space"
-	next "between its horns"
+	db   "Adora los rayos"
+	next "más violentos. La"
+	next "cavidad entre sus"
 
-	page "flickers bluish-"
-	next "white when it is"
-	next "charging energy.@"
+	page "cuernos vibra"
+	next "cuando está"
+	next "cargando energía.@"
