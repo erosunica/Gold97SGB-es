@@ -2,7 +2,7 @@
 
 > <font size="4">Estamos en Kyoto, Japón, faltan pocas semanas para que el año cambie de digito y demos la bienvenida a 1998. El pasado noviembre nos quedamos con ganas de más tras poder jugar a la anticipada secuela de Pokémon Edición Roja y Azul en la feria <b>Spaceworld</b> que organizó Nintendo.</font>
 > 
-> <img src="images/sw97-1.gif" alt="SW97 1" width="264"/><img src="images/sw97-2.jpg" alt="SW97 2" width="264"/><img src="images/sw97-3.gif" alt="SW97 3" width="264"/>
+> <img src="images/sw97-1.gif" alt="SW97 1" width="33.33%"/><img src="images/sw97-2.jpg" alt="SW97 2" width="33.33%"/><img src="images/sw97-3.gif" alt="SW97 3" width="33.33%"/>
 > 
 > <font size="4">Y hoy, por fin, <b>Pokémon Edición Oro</b> llega a las tiendas de todo el país.</font>
 > 
@@ -10,7 +10,7 @@
 
 ## ¡El Profesor Oak te convoca para visitarle en su nuevo laboratorio! ¿Qué sorpresas te aguardan al llegar?
 
-<img src="images/logos.png" alt="LOGOS" width="542"/><br />
+<img src="images/logos.png" alt="LOGOS" width="53.6%"/><br />
 
 <b>¡Explora Nihon montado en tu nuevo monopatín!</b> ¡Un mundo nuevo en el que capturar, entrenar y luchar con nuevos Pokémon! Consigue el nuevo PokéGear, que incluye un mapa, una radio, un teléfono móvil y un reloj. ¡Pon tu reloj en hora y verás como anochece! ¡Todo ocurre en tiempo real!
 
@@ -20,7 +20,7 @@
 - ¡Detén al Team Rocket e impide que tomen control sobre los Pokémon!
 - ¡Descubre el minijuego secreto de Pikachu!<br />
 
-<img src="images/info1.png" alt="GBC" width="276"/><img src="images/info2.png" alt="SGB" width="276"/><img src="images/info3.png" alt="GB" width="276"/>
+<img src="images/info1.png" alt="GBC" width="33.33%"/><img src="images/info2.png" alt="SGB" width="33.33%"/><img src="images/info3.png" alt="GB" width="33.33%"/>
 
 ## Descarga
 
@@ -28,17 +28,17 @@ Para instalar el repositorio, consulta [INSTALL.md](INSTALL.md).
 
 Compila la siguiente ROM:
 
-* pokegold97-es.gbc  `md5: a9a9379abdc82e28e13ba2cc5f7eeedb`
+* pokegold97-es.gbc  `md5: 0d15dc186d6a8c4598eaff075316d1f6`
 
 Si no puedes compilar el repositorio por ti mismo, puedes descargar este parche IPS y aplicarlo a una ROM limpia con una herramienta como [Flips](https://github.com/Alcaro/Flips).
 
-* [**pokegold97-es_v1.0.0.ips**](patches/pokegold97-es_v1.0.0.ips): aplicar a Pokemon - Edicion Oro (Spain) (SGB Enhanced) (GB Compatible).gbc `md5: 9462bc81907e38c59acccd739690e6f9`
+* [**pokegold97-es_v1.0.1.ips**](patches/pokegold97-es_v1.0.1.ips): aplicar a Pokemon - Edicion Oro (Spain) (SGB Enhanced) (GB Compatible).gbc `md5: 9462bc81907e38c59acccd739690e6f9`
 
-***Última actualización: 11 de febrero de 2023***
+***Última actualización: 12 de febrero de 2023***
 
 ## ¡Guía maestra disponible! (en inglés)
 
-<img src="images/guide-1.png" alt="Guide 1" width="138"/><img src="images/guide-2.png" alt="Guide 2" width="138"/><img src="images/guide-3.png" alt="Guide 3" width="138"/><img src="images/guide-4.png" alt="Guide 4" width="138"/><img src="images/guide-5.png" alt="Guide 5" width="138"/><img src="images/guide-6.png" alt="Guide 6" width="138"/>
+<img src="images/guide-1.png" alt="Guide 1" width="16.66%"/><img src="images/guide-2.png" alt="Guide 2" width="16.66%"/><img src="images/guide-3.png" alt="Guide 3" width="16.66%"/><img src="images/guide-4.png" alt="Guide 4" width="16.66%"/><img src="images/guide-5.png" alt="Guide 5" width="16.66%"/><img src="images/guide-6.png" alt="Guide 6" width="16.66%"/>
 
 - [**Discord**][discord]: Únete al servidor de la versión en inglés para acceder a un PDF de 300 páginas que contiene una guía completa, la Pokédex y todo tipo de información sobre Super Oro 97.
 - **Mapas** (versión en español): [Nihon](images/mapa_nihon.jpg) / [Islas Ponientes](images/mapa_islas_ponientes.jpg).
@@ -71,7 +71,7 @@ Si encuentras algún bug, problema en el juego o error en la traducción, puedes
 ![4-1](screenshots/ss4-1.png)
 ![4-2](screenshots/ss4-2.png)
 ![4-3](screenshots/ss4-3.png)
-![4-4](screenshots/ss4-4.png)
+![4-4](screenshots/ss4-4_v2.png)
 
 ![5-1](screenshots/ss5-1.png)
 ![5-2](screenshots/ss5-2.png)
