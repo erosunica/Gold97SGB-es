@@ -569,8 +569,17 @@ Pokedex_InitSearchScreen:
 	ld a, SCGB_POKEDEX_SEARCH_OPTION
 	call Pokedex_GetSGBLayout
 ;;;
+	call LoadOBPPal
 	farcall DoDexSearchSlowpokeFrame
 	call Pokedex_IncrementDexPointer
+	ret
+
+LoadOBPPal:
+	ldh a, [hCGB]
+	and a
+	ret nz
+	ld a, %11100100
+	ldh [rOBP0], a
 	ret
 
 Pokedex_UpdateSearchScreen:

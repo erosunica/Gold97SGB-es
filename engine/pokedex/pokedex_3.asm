@@ -29,7 +29,6 @@ DrawPokedexListWindow: ; erosunica: modded to mimic sw97 pokédex
 	ld b, SCREEN_HEIGHT - 2
 	call Pokedex_FillColumn2
 	ld [hl], $38
-.Done:
 	ret
 
 ; erosunica: DrawPokedexSearchResultsWindow and DrawDexEntryScreenRightEdge are no longer needed
