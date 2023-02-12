@@ -200,8 +200,11 @@ LoadSGBLayout:
 	ret
 
 .SGB_Pokedex:
+	ld hl, PalPacket_Pokedex
+	ld de, BlkPacket_Pokedex_PC
+	ret
+
 .SGB_PokedexEntry:
-.SGB_PokedexIntoEntry:
 	ld hl, PalPacket_a155
 	ld de, wSGBPals
 	ld bc, PALPACKET_LENGTH
@@ -225,7 +228,12 @@ LoadSGBLayout:
 	ld a, [hl]
 	ld [wSGBPals + 12], a
 	ld hl, wSGBPals
-	ld de, BlkPacket_Pokedex_PC
+	ld de, BlkPacket_PokedexEntry
+	ret
+
+.SGB_PokedexIntoEntry:
+	ld hl, PalPacket_Pokedex
+	ld de, BlkPacket_PokedexIntoEntry
 	ret
 
 .SGB_BetaPokegearRadioPals:
