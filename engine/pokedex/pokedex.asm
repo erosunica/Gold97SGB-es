@@ -400,6 +400,8 @@ DexEntryScreen_MenuActionJumptable:
 	call Pokedex_BlackOutBG
 	call DelayFrame
 	call Pokedex_ResetBGMapMode
+	ld a, $90
+	ldh [hWY], a
 	call Pokedex_RedisplayDexEntry
 	call Pokedex_LoadSelectedMonTiles
 	call Pokedex_PlaceFrontpicTopLeftCorner
