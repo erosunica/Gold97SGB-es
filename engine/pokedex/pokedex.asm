@@ -33,7 +33,6 @@ Pokedex:
 	
 	ld a, $1
 	ldh [hInMenu], a
-	ld [wBoxAlignment], a
 	xor a
 	ldh [hMapAnims], a
 	call InitPokedex
@@ -742,6 +741,8 @@ Pokedex_UpdateSearchResultsScreen:
 	ret
 
 Pokedex_InitUnownMode:
+	xor a
+	ld [wBoxAlignment], a
 	call Pokedex_LoadUnownFont
 	call Pokedex_DrawUnownModeBG
 	xor a
@@ -776,6 +777,8 @@ Pokedex_UpdateUnownMode:
 	call DecompressRequest2bpp
 
 .done
+	ld a, $1
+	ld [wBoxAlignment], a
 	ret
 
 Pokedex_UnownModeHandleDPadInput:
@@ -1324,8 +1327,6 @@ Pokedex_PlaceFrontpicTopRightCorner:
 Pokedex_PlaceFrontpicAtHL:
 	lb bc, 7, 7
 	predef PlaceGraphic
-	xor a
-	ld [wBoxAlignment], a
 	ret
 
 Pokedex_PlaceString:
@@ -2290,8 +2291,6 @@ Pokedex_LoadSelectedMonTiles:
 	ld a, [wTempSpecies]
 	ld [wCurPartySpecies], a
 	call GetBaseData
-	ld a, $1
-	ld [wBoxAlignment], a
 	ld de, vTiles2
 	predef GetMonFrontpic
 	ret
@@ -2389,8 +2388,6 @@ Pokedex_LoadUnownFrontpicTiles:
 	ld [wUnownLetter], a
 	ld a, UNOWN
 	ld [wCurPartySpecies], a
-	ld a, $1
-	ld [wBoxAlignment], a
 	call GetBaseData
 	ld de, vTiles2 tile $00
 	predef GetMonFrontpic
