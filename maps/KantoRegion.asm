@@ -14,8 +14,18 @@
 KantoRegion_MapScripts:
 	db 0 ; scene scripts
 
-	db 1 ; callbacks
+	db 2 ; callbacks
 	callback MAPCALLBACK_NEWMAP, .FlyPoint
+	callback MAPCALLBACK_TILES, .RedsHouseLocked
+
+.RedsHouseLocked:
+	checkevent EVENT_BEAT_ACTUALLY_RED
+	iftrue .RedsHouseUnlocked
+	changeblock  5, 39, $30 ; locked door
+	return
+	
+.RedsHouseUnlocked
+	return
 
 .FlyPoint:
 	setflag ENGINE_FLYPOINT_KANTO
@@ -66,6 +76,21 @@ KantoBattleClubSign:
 PokemonTowerSign:
 	jumptext PokemonTowerSignText
 	
+RedsHouseLockedSign:
+	opentext
+	checkevent EVENT_BEAT_ACTUALLY_RED
+	iftrue .RedsDoorUnlocked
+	writetext Text_Reds_Door_Locked
+	waitbutton
+	closetext
+	end
+	
+.RedsDoorUnlocked
+	writetext Text_Reds_Door_Unocked
+	waitbutton
+	closetext
+	end
+	
 KantoCooltrainerMScript:
 	jumptextfaceplayer KantoCooltrainerMText
 	
@@ -82,13 +107,35 @@ KantoSuperNerdScript:
 	jumptextfaceplayer KantoSuperNerdText
 	
 KantoYoungsterScript:
-	jumptextfaceplayer KantoYoungsterText
+	faceplayer
+	opentext
+	checkevent EVENT_BEAT_ACTUALLY_RED
+	iftrue .YoungsterAfterScript
+	writetext KantoYoungsterText
+	waitbutton
+	closetext
+	end
+	
+.YoungsterAfterScript
+	writetext KantoYoungsterTextAfter
+	waitbutton
+	closetext
+	end	
 	
 KantoFisher2Script:
 	jumptextfaceplayer KantoFisher2Text
 	
 KantoLass2Script:
 	jumptextfaceplayer KantoLass2Text
+
+Text_Reds_Door_Locked:
+	text "La puerta está"
+	line "cerrada…"
+	done
+	
+Text_Reds_Door_Unocked:
+	text "Está abierto."
+	done
 	
 KantoFisher3Text:
 	text "¿Volver a un lugar"
@@ -118,16 +165,27 @@ KantoFisher2Text:
 	done
 
 KantoYoungsterText:
-	text "Un día, quiero ser"
-	line "tan fuerte como"
-	cont "ROJO."
+	text "Un día, quiero"
+	line "poder ganar en"
+	cont "este GIMNASIO."
 
 	para "Aunque no creo que"
 	line "lo consiga."
 
 	para "Muy pocos logran"
 	line "ser tan buenos"
-	cont "como él."
+	cont "como el LÍDER de"
+	cont "GIMNASIO."
+	done
+
+KantoYoungsterTextAfter:
+	text "¿Has vencido a"
+	line "ROJO?"
+
+	para "¡Impresionante!"
+	
+	para "¡Debes de ser muy"
+	line "fuerte!"
 	done
 
 KantoSuperNerdText:
@@ -188,12 +246,8 @@ KantoSignText:
 	done
 
 KantoGymSignText:
-	text "LÍDER DEL GIMNASIO"
-	line "#MON DE KANTO:"
-	cont "ROJO"
-
-	para "El veterano"
-	line "entrenador experto"
+	text "GIMNASIO #MON"
+	line "DE KANTO"
 	done
 
 KobanIslandSignText2:
@@ -320,7 +374,7 @@ KantoRegion_MapEvents:
 
 	db 0 ; coord events
 
-	db 13 ; bg events
+	db 14 ; bg events
 	bg_event 46, 18, BGEVENT_READ, KantoSign
 	bg_event 14,  4, BGEVENT_READ, KantoPokecenterSign
 	bg_event 50, 30, BGEVENT_READ, KantoPokecenterSign
@@ -334,6 +388,7 @@ KantoRegion_MapEvents:
 	bg_event 26, 19, BGEVENT_READ, KantoMansionSign
 	bg_event 42,  4, BGEVENT_READ, KantoBattleClubSign
 	bg_event 54,  8, BGEVENT_READ, PokemonTowerSign
+	bg_event  5, 38, BGEVENT_READ, RedsHouseLockedSign
 
 	db 11 ; object events
 	object_event 14, 46, SPRITE_FISHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, KantoFisherScript, -1

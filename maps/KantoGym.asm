@@ -67,7 +67,7 @@ PostRematchScriptRed:
 KantoGymStatue:
 	checkflag ENGINE_RISINGBADGE
 	iftrue .Beaten
-	jumpstd GymStatue1Script
+	jump HaventBeatenRedScript
 .Beaten:
 	trainertotext ERIKA, ERIKA1, MEM_BUFFER_1
 	jumpstd GymStatue2Script
@@ -212,7 +212,14 @@ KantoGymGuyScript2:
 	waitbutton
 	closetext
 	end
-	
+
+HaventBeatenRedScript:
+	opentext
+	writetext TextRedIsAMysteryStatue
+	waitbutton
+	closetext
+	end
+
 RedDummyDummyMovement:
 	step_end
 	
@@ -240,6 +247,16 @@ RedDummyWalksToSpotLeft:
 	step UP
 	step UP
 	step_end
+
+TextRedIsAMysteryStatue:
+	text "GIMNASIO #MON"
+	line "DE KANTO"
+	
+	para "LÍDER: ???"
+	
+	para "GANADORES:"
+	line "<RIVAL>"
+	done
 	
 KantoGymGuyWinText2:
 	text "¡Menudo combate!"
@@ -260,12 +277,13 @@ KantoGymGuyRedNotHereText2:
 	text "¡Hola, joven"
 	line "promesa!"
 
-	para "Sabes quién es"
-	line "ROJO, ¿verdad?"
+	para "¿Ya sabes quién"
+	line "es el LÍDER de"
+	cont "GIMNASIO?"
 
-	para "No solo es LÍDER"
-	line "de GIMNASIO, sino"
-	para "que además fue"
+	para "No solo es el"
+	line "LÍDER, sino que"
+	para "además fue"
 	line "CAMPEÓN de la"
 	cont "LIGA."
 
@@ -298,8 +316,7 @@ CooltrainerfFranBeatenText:
 CooltrainerfFranAfterBattleText:
 	text "Quizá tengas lo"
 	line "que hace falta"
-	cont "para derrotar a"
-	cont "ROJO."
+	cont "para ganar aquí."
 	done
 
 CooltrainerfLolaSeenText:
@@ -341,10 +358,9 @@ CooltrainermMikeAfterBattleText:
 	done
 
 CooltrainermPaulSeenText:
-	text "Enfrentar a ROJO"
-	line "será seguramente"
-	cont "tu combate más"
-	cont "duro."
+	text "Enfrentarte al"
+	line "LÍDER será tu"
+	cont "combate más duro."
 
 	para "¡Pero yo no me"
 	line "quedo atrás!"

@@ -25,19 +25,22 @@ Kanto2PokecenterCooltrainerMText:
 	text "Hay mucho que ver"
 	line "y hacer por aquí."
 
-	para "¿Ya has ido al"
-	line "GIMNASIO para"
-	cont "combatir contra"
-	cont "ROJO?"
+	para "¿Ya has estado en"
+	line "el GIMNASIO?"
 	done
 
 Kanto2PokecenterGrannyText:
 	text "Hay muchos entre-"
 	line "nadores fuertes"
 	para "que vienen hasta"
-	line "este pueblo para"
-	cont "combatir contra"
-	cont "ROJO."
+	line "aquí para probar"
+	para "sus habilidades en"
+	line "nuestro GIMNASIO."
+	
+	para "El LÍDER del"
+	line "GIMNASIO es un"
+	para "entrenador con"
+	line "mucho talento."
 	done
 
 Kanto2PokecenterYoungsterText:

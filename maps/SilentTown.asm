@@ -464,11 +464,12 @@ SilentTownRivalText2:
 	line "recibiste uno?!"
 	cont "¡Venga ya!"
 	
-	para "Bueno, bueno, eh…"
+	para "Mmm… bueno…"
+	line "pues… eh…"
 	
-	para "¿Y tú cómo decías"
+	para "¡¿Y tú cómo decías"
 	line "que llamabas a tu"
-	cont "madre?"
+	cont "madre?!"
 	done
 	
 SilentTownRivalText3:

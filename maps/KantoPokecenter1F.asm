@@ -18,14 +18,14 @@ KantoPokecenter1FGentlemanScript:
 KantoPokecenter1FCooltrainerFScript:
 	faceplayer
 	opentext
-	checkevent EVENT_BEAT_CLAIR
-	iftrue .KantoPokeCenter1FCooltrainerBeatClair
+	checkevent EVENT_BEAT_ACTUALLY_RED
+	iftrue .KantoPokeCenter1FCooltrainerBeatRed
 	writetext KantoPokecenter1FCooltrainerFText
 	waitbutton
 	closetext
 	end
 	
-.KantoPokeCenter1FCooltrainerBeatClair
+.KantoPokeCenter1FCooltrainerBeatRed
 	writetext KantoPokecenter1FCooltrainerFText2
 	waitbutton
 	closetext
@@ -43,13 +43,16 @@ KantoPokecenter1FCooltrainerFText2:
 	done
 
 KantoPokecenter1FCooltrainerFText:
-	text "ROJO es un maestro"
-	line "de todos los"
-	cont "#MON."
+	text "Estás de camino"
+	line "al GIMNASIO."
+	
+	para "Puedo verlo en"
+	line "tus ojos."
 
-	para "Será mejor que"
-	line "estés preparado"
-	cont "para desafiarlo."
+	para "Un entrenador como"
+	line "tú siempre está"
+	para "listo para luchar"
+	line "con los #MON."	
 	done
 
 KantoPokecenter1FPharmacistText:
@@ -57,10 +60,10 @@ KantoPokecenter1FPharmacistText:
 	line "en el CENTRO"
 	cont "COMERCIAL?"
 
-	para "Diría que tienen"
+	para "Diría que tiene"
 	line "una mejor selec-"
-	cont "ción de artículos"
-	cont "que el de CIUDAD"
+	para "ción de artículos"
+	line "que el de CIUDAD"
 	cont "PONIENTE."
 	done
 

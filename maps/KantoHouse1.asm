@@ -9,8 +9,21 @@ KantoHouse1_MapScripts:
 	db 0 ; callbacks
 
 KantoHouse1Twin:
-	jumptextfaceplayer KantoHouse1TwinText
-	
+	faceplayer
+	opentext
+	checkevent EVENT_BEAT_ACTUALLY_RED
+	iftrue .KantoHouse1TwinPost
+	writetext KantoHouse1TwinText
+	waitbutton
+	closetext
+	end
+
+.KantoHouse1TwinPost
+	writetext KantoHouse1TwinPostText
+	waitbutton
+	closetext
+	end
+
 KantoHouse1BugCatcher:
 	jumptextfaceplayer KantoHouse1BugCatcherText
 	
@@ -18,6 +31,12 @@ KantoHouse1Teacher:
 	jumptextfaceplayer KantoHouse1TeacherText
 	
 KantoHouse1TwinText:
+	text "¡Un día, seré más"
+	line "fuerte que un"
+	cont "LÍDER de GIMNASIO!"
+	done
+	
+KantoHouse1TwinPostText:
 	text "¡Un día, seré más"
 	line "fuerte que ROJO!"
 	done
