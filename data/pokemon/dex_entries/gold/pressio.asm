@@ -1,4 +1,4 @@
-	db "FOCA MANSA@" ; species name
+	db "FOCA SUAVE@" ; species name
 	dbw 10, 413 ; height, weight
 	
 	db   "Su piel es un buen"

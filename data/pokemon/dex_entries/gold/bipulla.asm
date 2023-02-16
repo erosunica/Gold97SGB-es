@@ -1,4 +1,4 @@
-	db "GEMELOS@" ; species name
+	db "DÚO@" ; species name
 	dbw 5, 14 ; height, weight
 	
 	db   "Un embrión"

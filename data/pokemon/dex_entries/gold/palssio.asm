@@ -1,4 +1,4 @@
-	db "FOCA MANSA@" ; species name
+	db "FOCA SUAVE@" ; species name
 	dbw 8, 141 ; height, weight
 	
 	db   "Su cuerpo es muy"
