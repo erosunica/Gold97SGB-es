@@ -59,7 +59,6 @@ SilentTown_RivalGreets:
 	showemote EMOTE_SHOCK, SILENTTOWN_SILVER, 15
 	opentext
 	writetext SilentTownRivalText2
-	promptbutton
 	special NameMomS
 	setevent EVENT_NAMED_MOM_CHECK_FOR_SAVES
 	showemote EMOTE_SHOCK, SILENTTOWN_SILVER, 15
@@ -467,9 +466,8 @@ SilentTownRivalText2:
 	para "Mmm… bueno…"
 	line "pues… eh…"
 	
-	para "¡¿Y tú cómo decías"
-	line "que llamabas a tu"
-	cont "madre?!"
+	para "¿Cómo dices que"
+	line "llamas a tu madre?"
 	done
 	
 SilentTownRivalText3:
