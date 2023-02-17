@@ -1991,9 +1991,8 @@ Pokedex_PutOldModeCursorOAM:
 	dbsprite  3,  4, -1,  0, $0d, 7
 	dbsprite  4,  4, -1,  0, $0d, 7
 	dbsprite  5,  4, -1,  0, $0d, 7
-	dbsprite  6,  4, -1,  0, $0d, 7
-	;dbsprite  7,  4, -1,  0, $0d, 7
-	dbsprite  8,  4,  0,  0, $0d, 7
+	dbsprite  6,  4, -4,  0, $0d, 7
+	dbsprite  8,  4,  4,  0, $0d, 7
 	dbsprite  9,  4,  0,  0, $0d, 7
 	dbsprite 10,  4,  0,  0, $0d, 7
 	dbsprite 11,  4,  0,  0, $0d, 7
@@ -2002,9 +2001,8 @@ Pokedex_PutOldModeCursorOAM:
 	dbsprite  3,  5, -1,  0, $0d, 7 | Y_FLIP
 	dbsprite  4,  5, -1,  0, $0d, 7 | Y_FLIP
 	dbsprite  5,  5, -1,  0, $0d, 7 | Y_FLIP
-	dbsprite  6,  5, -1,  0, $0d, 7 | Y_FLIP
-	;dbsprite  7,  5, -1,  0, $0d, 7 | Y_FLIP
-	dbsprite  8,  5,  0,  0, $0d, 7 | Y_FLIP
+	dbsprite  6,  5, -4,  0, $0d, 7 | Y_FLIP
+	dbsprite  8,  5,  4,  0, $0d, 7 | Y_FLIP
 	dbsprite  9,  5,  0,  0, $0d, 7 | Y_FLIP
 	dbsprite 10,  5,  0,  0, $0d, 7 | Y_FLIP
 	dbsprite 11,  5,  0,  0, $0d, 7 | Y_FLIP
@@ -2022,9 +2020,8 @@ Pokedex_PutNewModeABCModeCursorOAM:
 	dbsprite  3,  3, -1,  3, $0d, 7
 	dbsprite  4,  3, -1,  3, $0d, 7
 	dbsprite  5,  3, -1,  3, $0d, 7
-	dbsprite  6,  3, -1,  3, $0d, 7
-	;dbsprite  7,  3, -1,  3, $0d, 7
-	dbsprite  8,  3,  0,  3, $0d, 7
+	dbsprite  6,  3, -4,  3, $0d, 7
+	dbsprite  8,  3,  4,  3, $0d, 7
 	dbsprite  9,  3,  0,  3, $0d, 7
 	dbsprite 10,  3,  0,  3, $0d, 7
 	dbsprite 11,  3,  0,  3, $0d, 7
@@ -2033,9 +2030,8 @@ Pokedex_PutNewModeABCModeCursorOAM:
 	dbsprite  3,  4, -1,  3, $0d, 7 | Y_FLIP
 	dbsprite  4,  4, -1,  3, $0d, 7 | Y_FLIP
 	dbsprite  5,  4, -1,  3, $0d, 7 | Y_FLIP
-	dbsprite  6,  4, -1,  3, $0d, 7 | Y_FLIP
-	;dbsprite  7,  4, -1,  3, $0d, 7 | Y_FLIP
-	dbsprite  8,  4,  0,  3, $0d, 7 | Y_FLIP
+	dbsprite  6,  4, -4,  3, $0d, 7 | Y_FLIP
+	dbsprite  8,  4,  4,  3, $0d, 7 | Y_FLIP
 	dbsprite  9,  4,  0,  3, $0d, 7 | Y_FLIP
 	dbsprite 10,  4,  0,  3, $0d, 7 | Y_FLIP
 	dbsprite 11,  4,  0,  3, $0d, 7 | Y_FLIP
@@ -2056,9 +2052,8 @@ Pokedex_UpdateSearchResultsCursorOAM:
 	dbsprite  3,  3, -1,  3, $0d, 7
 	dbsprite  4,  3, -1,  3, $0d, 7
 	dbsprite  5,  3, -1,  3, $0d, 7
-	dbsprite  6,  3, -1,  3, $0d, 7
-	;dbsprite  7,  3, -1,  3, $0d, 7
-	dbsprite  8,  3,  0,  3, $0d, 7
+	dbsprite  6,  3, -4,  3, $0d, 7
+	dbsprite  8,  3,  4,  3, $0d, 7
 	dbsprite  9,  3,  0,  3, $0d, 7
 	dbsprite 10,  3,  0,  3, $0d, 7
 	dbsprite 11,  3,  0,  3, $0d, 7
@@ -2067,9 +2062,8 @@ Pokedex_UpdateSearchResultsCursorOAM:
 	dbsprite  3,  4, -1,  3, $0d, 7 | Y_FLIP
 	dbsprite  4,  4, -1,  3, $0d, 7 | Y_FLIP
 	dbsprite  5,  4, -1,  3, $0d, 7 | Y_FLIP
-	dbsprite  6,  4, -1,  3, $0d, 7 | Y_FLIP
-	;dbsprite  7,  4, -1,  3, $0d, 7 | Y_FLIP
-	dbsprite  8,  4,  0,  3, $0d, 7 | Y_FLIP
+	dbsprite  6,  4, -4,  3, $0d, 7 | Y_FLIP
+	dbsprite  8,  4,  4,  3, $0d, 7 | Y_FLIP
 	dbsprite  9,  4,  0,  3, $0d, 7 | Y_FLIP
 	dbsprite 10,  4,  0,  3, $0d, 7 | Y_FLIP
 	dbsprite 11,  4,  0,  3, $0d, 7 | Y_FLIP
