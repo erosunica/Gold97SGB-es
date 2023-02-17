@@ -53,9 +53,18 @@ La versión en español inicia su numeración en la versión 1.0.0.
 - Adaptadas las secuencias y textos iniciales de la historia para que sean más similares a las de SW97.
 - Reemplazado el texto de PC del Laboratorio de Oak por el de SW97.
 
-## v1.0.1 
+## v1.0.1
 
 - Corregido el layout de color de la Pokédex al ejecutarse desde un SGB.
 - Corregida la OBP0 de la Pokédex en la pantalla Buscar, para que Slowpoke muestre los dos tonos de naranja (SGB) o gris en (GB).
 - Corregida la pantalla de la entrada de la Pokédex al volver desde Área - Islas Ponientes.
 - Asignada la paleta correcta a los sprites del Mapa, como en SW97.
+
+## v1.0.2
+
+- Corregida la orientación del frontpic en el Modo Unown de la Pokédex
+- Corregido el frontpic en la Pokédex tras ver el tutorial de captura
+- Actualizado el cursor de la Pokédex
+- Actualizadas algunas categorías de los Pokémon (de la versión EN 7.30)
+- Actualizado el blockset de Kanto (de la versión EN 7.30)
+- Cambios relacionados con el último Líder de Gimnasio (de las versiones EN 7.30 y 7.31)

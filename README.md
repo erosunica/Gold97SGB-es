@@ -28,13 +28,13 @@ Para instalar el repositorio, consulta [INSTALL.md](INSTALL.md).
 
 Compila la siguiente ROM:
 
-* pokegold97-es.gbc  `md5: 0d15dc186d6a8c4598eaff075316d1f6`
+* pokegold97-es.gbc  `md5: 765966e6d78ab01055ec594b506f738f`
 
 Si no puedes compilar el repositorio por ti mismo, puedes descargar este parche IPS y aplicarlo a una ROM limpia con una herramienta como [Flips](https://github.com/Alcaro/Flips).
 
-* [**pokegold97-es_v1.0.1.ips**](patches/pokegold97-es_v1.0.1.ips): aplicar a Pokemon - Edicion Oro (Spain) (SGB Enhanced) (GB Compatible).gbc `md5: 9462bc81907e38c59acccd739690e6f9`
+* [**pokegold97-es_v1.0.2.ips**](patches/pokegold97-es_v1.0.2.ips): aplicar a Pokemon - Edicion Oro (Spain) (SGB Enhanced) (GB Compatible).gbc `md5: 9462bc81907e38c59acccd739690e6f9`
 
-***Última actualización: 12 de febrero de 2023***
+***Última actualización: 17 de febrero de 2023***
 
 ## ¡Guía maestra disponible! (en inglés)
 
@@ -73,7 +73,7 @@ Si encuentras algún bug, problema en el juego o error en la traducción, puedes
 ![4-3](screenshots/ss4-3.png)
 ![4-4](screenshots/ss4-4_v2.png)
 
-![5-1](screenshots/ss5-1.png)
+![5-1](screenshots/ss5-1_v2.png)
 ![5-2](screenshots/ss5-2.png)
 ![5-3](screenshots/ss5-3.png)
 ![5-4](screenshots/ss5-4.png)
