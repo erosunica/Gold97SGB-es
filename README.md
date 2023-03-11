@@ -1,5 +1,9 @@
 # Pokémon Super Oro 97 (Edición Oro Spaceworld 1997)
 
+> Quiero dar respuesta a los misterios que los jugadores encontraron en los juegos anteriores. Aspiro a crear un juego aún más imaginativo y detallado dentro de los límites del hardware de Game Boy.
+>
+> — Satoshi Tajiri, "[Pokémon 2 (Título provisional)](https://web.archive.org/web/20120621104801/http://www.geocities.jp/bgrtype/gsl/words2/pokemon2/pokemon2.html)"
+
 > <font size="4">Estamos en Kyoto, Japón, faltan pocas semanas para que el año cambie de digito y demos la bienvenida a 1998. El pasado noviembre nos quedamos con ganas de más tras poder jugar a la anticipada secuela de Pokémon Edición Roja y Azul en la feria <b>Spaceworld</b> que organizó Nintendo.</font>
 > 
 > <img src="images/sw97-1.gif" alt="SW97 1" width="33.33%"/><img src="images/sw97-2.jpg" alt="SW97 2" width="33.33%"/><img src="images/sw97-3.gif" alt="SW97 3" width="33.33%"/>
