@@ -136,8 +136,10 @@ UrasoeTrailSignText:
 	done
 
 FishingSpotSignText:
-	text "Entrada al"
-	line "BOSQUE NANJO"
+	text "BOSQUE NANJO"
+	
+	para "Entrada a la"
+	line "derecha"
 	done
 
 UrasoeTrail_MapEvents:

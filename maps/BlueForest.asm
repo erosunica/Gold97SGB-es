@@ -207,7 +207,7 @@ BlueForestGymSignText:
 	done
 
 DeepwaterPassageSignText:
-	text "Entrada sur del"
+	text "ENTRADA SUR DEL"
 	line "PASAJE ABISAL"
 	done
 

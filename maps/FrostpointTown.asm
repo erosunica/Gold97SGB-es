@@ -79,7 +79,7 @@ FrostpointTownTeacherText:
 	done
 
 FrostpointTownDeepwaterSignText:
-	text "Entrada norte del"
+	text "ENTRADA NORTE DEL"
 	line "PASAJE ABISAL"
 	done
 

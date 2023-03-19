@@ -301,11 +301,13 @@ Route101Sign1Text:
 	done
 
 SilentHillsEntranceSignText:
-	text "Hacia el este las"
-	line "COLINAS SILENTES."
+	text "COLINAS SILENTES"
+	
+	para "Entrada a la"
+	line "izquierda"
 	
 	para "Cuidado con los"
-	line "#MON salvajes."
+	line "#MON salvajes"
 	done
 
 Route101_MapEvents:

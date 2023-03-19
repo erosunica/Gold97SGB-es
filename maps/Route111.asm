@@ -40,8 +40,8 @@ Route111HiddenMaxEther:
 	hiddenitem MAX_ETHER, EVENT_ROUTE_111_HIDDEN_MAX_ETHER
 
 Route111WhirlIslandSignText:
-	text "ISLA REMOLINO"
-	line "Entrada"
+	text "ENTRADA A LA"
+	line "ISLA REMOLINO"
 	done
 
 SwimmerfKayleeSeenText:

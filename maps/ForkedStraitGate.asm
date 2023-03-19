@@ -254,12 +254,12 @@ RainbowSign:
 	jumptext RainbowSignText
 	
 TropicalSignText:
-	text "Hacia el este"
+	text "HACIA EL ESTE"
 	line "ISLA TROPICAL"
 	done
 
 RainbowSignText:
-	text "Hacia el oeste"
+	text "HACIA EL OESTE"
 	line "ISLA ARCOÍRIS"
 	done
 

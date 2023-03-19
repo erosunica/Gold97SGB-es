@@ -494,9 +494,9 @@ Route102SignText:
 	line "CIUDAD PONIENTE"
 	done
 
-SanskritRuinsNorthSignText:
-	text "Entrada norte de"
-	line "las RUINAS ALFA"
+SanskritRuinsNorthSignText: ;unused
+	text "ENTRADA NORTE DE"
+	line "LAS RUINAS ALFA"
 	done
 
 Route102TrainerTips1Text:

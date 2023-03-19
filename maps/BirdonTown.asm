@@ -147,7 +147,7 @@ SlowpokeWellSignText:
 	done
 
 
-BirdonTownJadeForestSignText:
+BirdonTownJadeForestSignText: ;unused
 	text "Acceso hacia el"
 	line "BOSQUE JADE"
 	done

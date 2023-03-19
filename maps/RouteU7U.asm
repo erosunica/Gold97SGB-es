@@ -9,7 +9,7 @@ MtFujiInteriorLowerEntranceSign:
 MtFujiInteriorLowerEntranceSignText:
 	text "LIGA #MON"
 
-	para "Entrada a la"
+	para "ENTRADA A LA"
 	line "CALLE VICTORIA"
 	done
 

@@ -96,7 +96,7 @@ Route105CooltrainerFText:
 Route105SignText:
 	text "RUTA 105"
 	
-	para "En frente, el"
+	para "TRAS EL ACCESO"
 	line "BOSQUE JADE"
 	done
 

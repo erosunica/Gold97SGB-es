@@ -99,7 +99,7 @@ KumeCitySignText:
 	done
 
 UrumaCavernSignText:
-	text "Entrada a la"
+	text "ENTRADA A LA"
 	line "GRUTA HELADA"
 	done
 

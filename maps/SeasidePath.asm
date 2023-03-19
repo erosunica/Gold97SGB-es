@@ -73,7 +73,7 @@ SeasidePathSignText:
 	done
 
 JouleCaveSignText:
-	text "Entrada a la"
+	text "ENTRADA A LA"
 	line "CUEVA JULIO"
 	done
 
