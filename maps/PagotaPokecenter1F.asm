@@ -162,8 +162,8 @@ UnknownText_0x695c5:
 	
 	para "Por si no lo"
 	line "sabías, ¡él creó"
-	para "el sistema de"
-	line "almacenamiento de"
+	para "el Sistema de"
+	line "Almacenamiento de"
 	cont "los PC!"
 	
 	para "Es muy respetado"

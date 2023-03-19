@@ -188,42 +188,53 @@ AcademyGBChecker:
 	end
 
 GBText1:
-	text "Hoy leí que, si"
-	line "juegas en una"
-	cont "Game Boy Color,"
-	para "hay un ajuste en"
-	line "el menú de"
-	para "OPCIONES que te"
-	line "permite cambiar la"
-	para "paleta de colores"
-	line "del juego."
+	text "Hoy leí que según"
+	line "dónde juegues el"
+	cont "mundo se ve"
+	cont "distinto."
 	done
-	
+
 GBText2:
 	text "¡Veo que estás"
 	line "jugando en una"
 	cont "Game Boy Color!"
 
-	para "¡Prueba ese"
-	line "ajuste!"
-	done
-	
-GBText3:
-	text "Veo que hoy estás"
-	line "jugando en una"
-	cont "Game Boy original."
+	para "¡A todo color!"
 
-	para "¡Sin colores"
-	line "entonces!"
+	para "…"
+	
+	para "No me hagas mucho"
+	line "caso, solo soy un"
+	cont "niño."
+	done
+
+GBText3:
+	text "¡Veo que estás"
+	line "jugando en una"
+	cont "Game Boy!"
+
+	para "¡Autonomía total!" 
+
+	para "…"
+	
+	para "No me hagas mucho"
+	line "caso, solo soy un"
+	cont "niño."
 	done	
 
 GBText4:
-	text "¡Veo que hoy estás"
+	text "¡Veo que estás"
 	line "jugando con el"
 	cont "Super Game Boy!"
 
 	para "¡Uau! ¡Estoy en"
 	line "la tele!"
+
+	para "…"
+	
+	para "No me hagas mucho"
+	line "caso, solo soy un"
+	cont "niño."
 	done
 
 AcademyTeacherIntroText:
