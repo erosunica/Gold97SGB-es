@@ -62,9 +62,19 @@ La versión en español inicia su numeración en la versión 1.0.0.
 
 ## v1.0.2
 
-- Corregida la orientación del frontpic en el Modo Unown de la Pokédex
-- Corregido el frontpic en la Pokédex tras ver el tutorial de captura
-- Actualizado el cursor de la Pokédex
-- Actualizadas algunas categorías de los Pokémon (de la versión EN 7.30)
-- Actualizado el blockset de Kanto (de la versión EN 7.30)
-- Cambios relacionados con el último Líder de Gimnasio (de las versiones EN 7.30 y 7.31)
+- Corregida la orientación del frontpic en el Modo Unown de la Pokédex.
+- Corregido el frontpic en la Pokédex tras ver el tutorial de captura.
+- Actualizado el cursor de la Pokédex.
+- Actualizadas algunas categorías de los Pokémon (de la versión EN 7.30).
+- Actualizado el blockset de Kanto (de la versión EN 7.30).
+- Cambios relacionados con el último Líder de Gimnasio (de las versiones EN 7.30 y 7.31).
+
+## v1.1.0
+
+- Actualizadas las Ruinas Sánscritas para que sean más similares a las de SW97.
+- Arreglada la paleta del icono Porta-MT en la Mochila tras volver de enseñar una MT/MO (de la versión EN 7.33).
+- Arreglada la paleta del menú Equipo al enseñar un Movimiento en modo SGB (de la versión EN 7.33).
+- Arreglada la posición de las flechas de Brillo Impresión en el menú de Opciones (de la versión EN 7.33).
+- Tutor de Movimientos añadido al Casino Marítimo de la Pasarela (de la versión EN 7.40).
+- Listado de Movimientos actualizado en algunos Pokémon para que puedan aprender los enseñados por el Tutor (de la versión EN 7.40).
+- Cambios menores en algunos textos.

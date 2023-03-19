@@ -14,7 +14,7 @@
 
 ## ¡El Profesor Oak te convoca para visitarle en su nuevo laboratorio! ¿Qué sorpresas te aguardan al llegar?
 
-<img src="images/logos.png" alt="LOGOS" width="53.6%"/><br />
+<img src="images/logos.png" alt="LOGOS" width="75%"/><br />
 
 <b>¡Explora Nihon montado en tu nuevo monopatín!</b> ¡Un mundo nuevo en el que capturar, entrenar y luchar con nuevos Pokémon! Consigue el nuevo PokéGear, que incluye un mapa, una radio, un teléfono móvil y un reloj. ¡Pon tu reloj en hora y verás como anochece! ¡Todo ocurre en tiempo real!
 
@@ -32,13 +32,13 @@ Para instalar el repositorio, consulta [INSTALL.md](INSTALL.md).
 
 Compila la siguiente ROM:
 
-* pokegold97-es.gbc  `md5: 765966e6d78ab01055ec594b506f738f`
+* pokegold97-es.gbc  `md5: 8395834221f58fb93bf02e73050446b9`
 
-Si no puedes compilar el repositorio por ti mismo, puedes descargar este parche IPS y aplicarlo a una ROM limpia con una herramienta como [Flips](https://github.com/Alcaro/Flips).
+O si lo prefieres, puedes descargar este parche IPS y aplicarlo a una ROM limpia utilizando la web [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/). También puedes utilizar las aplicaciones [Flips (Windows)](https://www.smwcentral.net/?a=details&id=11474&p=section), [MultiPatch (macOS)](http://projects.sappharad.com/tools/multipatch.html) o [UniPatcher (Android)](https://play.google.com/store/apps/details?id=org.emunix.unipatcher&hl=en).
 
-* [**pokegold97-es_v1.0.2.ips**](patches/pokegold97-es_v1.0.2.ips): aplicar a Pokemon - Edicion Oro (Spain) (SGB Enhanced) (GB Compatible).gbc `md5: 9462bc81907e38c59acccd739690e6f9`
+* [**pokegold97-es_v1.1.0.ips**](patches/pokegold97-es_v1.1.0.ips): aplicar a Pokemon - Edicion Oro (Spain) (SGB Enhanced) (GB Compatible).gbc `md5: 9462bc81907e38c59acccd739690e6f9`
 
-***Última actualización: 17 de febrero de 2023***
+***Última actualización: 19 de marzo de 2023***
 
 ## ¡Guía maestra disponible! (en inglés)
 
@@ -105,7 +105,7 @@ Si encuentras algún bug, problema en el juego o error en la traducción, puedes
 ![10-1](screenshots/ss10-1.png)
 ![10-2](screenshots/ss10-2.png)
 ![10-3](screenshots/ss10-3.png)
-![10-4](screenshots/ss10-4.png)
+![10-4](screenshots/ss10-4_v2.png)
 
 ![11-1](screenshots/ss11-1.png)
 ![11-2](screenshots/ss11-2.png)
