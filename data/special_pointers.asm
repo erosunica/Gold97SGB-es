@@ -132,3 +132,4 @@ SpecialsPointers::
 	add_special DummySpecial_c389
 	add_special GiveOddEgg
 	add_special GiveDratini
+	add_special MoveTutor

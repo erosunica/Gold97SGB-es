@@ -200,19 +200,7 @@ WestportSilverWalksUp2:
 	step UP
 	step_end
 
-MovementData_0x198a5f:
-	step RIGHT
-	step RIGHT
-	step UP
-	step_end
 
-MovementData_0x198a63:
-	step DOWN
-	step RIGHT
-	step RIGHT
-	step UP
-	step UP
-	step_end
 	
 SilverHasItFiguredOut:
 	text "<RIVAL>: ¡<PLAYER>!"
@@ -446,66 +434,7 @@ WestportCityNameRaterSignText:
 	line "de tus #MON"
 	done
 
-UnknownText_0x199042:
-	text "Si quieres, puedo"
-	line "enseñar increíbles"
-	para "movimientos a tus"
-	line "#MON."
 
-	para "¿Le enseño un"
-	line "nuevo movimiento?"
-	done
-
-UnknownText_0x199090:
-	text "Te costará 4000"
-	line "fichas. ¿Vale?"
-	done
-
-UnknownText_0x1990b4:
-	text "Auu… Pero"
-	line "son increíbles…"
-	done
-
-UnknownText_0x1990ce:
-	text "¡Uajajaja! ¡No lo"
-	line "lamentarás!"
-
-	para "¿Qué movimiento"
-	line "debo enseñar?"
-	done
-
-UnknownText_0x199107:
-	text "Mm, qué mal."
-	line "Tendré que coger"
-	cont "algo de dinero de"
-	cont "casa…"
-	done
-
-UnknownText_0x19913a:
-	text "Si comprendes lo"
-	line "increíble de este"
-	para "movimiento, tu"
-	line "entrenamiento será"
-	cont "de alto nivel."
-	done
-
-UnknownText_0x19918b:
-	text "¡Uajajaja!"
-	line "¡Adiós!"
-	done
-
-UnknownText_0x1991a4:
-	text "Pe… Pero…"
-	done
-
-UnknownText_0x1991ac:
-	text "No tienes sufi-"
-	line "cientes fichas…"
-	done
-
-UnknownText_0x1991cf:
-	text_start
-	done
 
 WestportCity_MapEvents:
 	db 0, 0 ; filler
