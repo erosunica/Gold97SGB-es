@@ -5982,6 +5982,11 @@ LoadEnemyMon:
 	jr nz, .Moves
 
 .TreeMon:
+; Don't do anything if this isn't a tree encounter
+	ld a, [wBattleType]
+	cp BATTLETYPE_TREE
+	jr nz, .not_sleeping
+
 ; If we're headbutting trees, some monsters enter battle asleep
 	ld a, [wTempEnemyMonSpecies]
 
@@ -5991,8 +5996,8 @@ LoadEnemyMon:
 	cp NOCTOWL
 	jr z, .sleeping_if_not_nite
 
-; Pidgey/Spearow are asleep if NITE
-	cp PIDGEY
+; Natu/Spearow are asleep if NITE
+	cp NATU
 	jr z, .sleeping_if_nite
 	cp SPEAROW
 	jr z, .sleeping_if_nite
