@@ -78,3 +78,8 @@ La versión en español inicia su numeración en la versión 1.0.0.
 - Tutor de Movimientos añadido al Casino Marítimo de la Pasarela (de la versión EN 7.40).
 - Listado de Movimientos actualizado en algunos Pokémon para que puedan aprender los enseñados por el Tutor (de la versión EN 7.40).
 - Cambios menores en algunos textos.
+
+## v1.1.1
+
+- Ahora el gráfico de Copyright de la pantalla de bienvenida es igual al de SW97.
+- Arreglado el error que provocaba que Pidgey y Spearow apareciesen dormidos en la hierba si era de Noche.

@@ -3,14 +3,10 @@
 > Quiero dar respuesta a los misterios que los jugadores encontraron en los juegos anteriores. Aspiro a crear un juego aún más imaginativo y detallado dentro de los límites del hardware de Game Boy.
 >
 > — Satoshi Tajiri, "[Pokémon 2 (Título provisional)](https://web.archive.org/web/20120621104801/http://www.geocities.jp/bgrtype/gsl/words2/pokemon2/pokemon2.html)"
-
-> <font size="4">Estamos en Kyoto, Japón, faltan pocas semanas para que el año cambie de digito y demos la bienvenida a 1998. El pasado noviembre nos quedamos con ganas de más tras poder jugar a la anticipada secuela de Pokémon Edición Roja y Azul en la feria <b>Spaceworld</b> que organizó Nintendo.</font>
 > 
 > <img src="images/sw97-1.gif" alt="SW97 1" width="33.33%"/><img src="images/sw97-2.jpg" alt="SW97 2" width="33.33%"/><img src="images/sw97-3.gif" alt="SW97 3" width="33.33%"/>
 > 
-> <font size="4">Y hoy, por fin, <b>Pokémon Edición Oro</b> llega a las tiendas de todo el país.</font>
-> 
-> — Autor desconocido, Diciembre 1997
+> — Imágenes tomadas en Spaceworld '97. Kyoto, Japón.
 
 ## ¡El Profesor Oak te convoca para visitarle en su nuevo laboratorio! ¿Qué sorpresas te aguardan al llegar?
 
@@ -32,13 +28,13 @@ Para instalar el repositorio, consulta [INSTALL.md](INSTALL.md).
 
 Compila la siguiente ROM:
 
-* pokegold97-es.gbc  `md5: 8395834221f58fb93bf02e73050446b9`
+* pokegold97-es.gbc  `md5: 46c0acc855b54825eb7e25e546a994d8`
 
 O si lo prefieres, puedes descargar este parche IPS y aplicarlo a una ROM limpia utilizando la web [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/). También puedes utilizar las aplicaciones [Flips (Windows)](https://www.smwcentral.net/?a=details&id=11474&p=section), [MultiPatch (macOS)](http://projects.sappharad.com/tools/multipatch.html) o [UniPatcher (Android)](https://play.google.com/store/apps/details?id=org.emunix.unipatcher&hl=en).
 
-* [**pokegold97-es_v1.1.0.ips**](patches/pokegold97-es_v1.1.0.ips): aplicar a Pokemon - Edicion Oro (Spain) (SGB Enhanced) (GB Compatible).gbc `md5: 9462bc81907e38c59acccd739690e6f9`
+* [**pokegold97-es_v1.1.1.ips**](patches/pokegold97-es_v1.1.1.ips): aplicar a Pokemon - Edicion Oro (Spain) (SGB Enhanced) (GB Compatible).gbc `md5: 9462bc81907e38c59acccd739690e6f9`
 
-***Última actualización: 19 de marzo de 2023***
+***Última actualización: 3 de mayo de 2023***
 
 ## ¡Guía maestra disponible! (en inglés)
 
