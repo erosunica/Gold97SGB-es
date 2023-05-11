@@ -119,12 +119,17 @@ BillsPC_MovePKMNMenu:
 	farcall StartMoveMonWOMail_SaveGame
 	jr c, .quit
 	farcall _MovePKMNWithoutMail
+	ld b, SCGB_MAPPALS
+	call GetSGBLayout
+	call WaitBGMap2
 	call ReturnToMapFromSubmenu
 	call ClearPCItemScreen
 
 .quit
 	call CloseWindow
 	and a
+	farcall ResetPalettes
+	call EnableSpriteUpdates
 	ret
 
 .PCMonHoldingMailText:
