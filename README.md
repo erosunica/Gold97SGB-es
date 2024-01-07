@@ -26,15 +26,15 @@
 
 Descarga este parche IPS y aplícalo a una ROM limpia utilizando la web [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/). También puedes utilizar las aplicaciones [Flips (Windows)](https://www.smwcentral.net/?a=details&id=11474&p=section), [MultiPatch (macOS)](http://projects.sappharad.com/tools/multipatch.html) o [UniPatcher (Android)](https://play.google.com/store/apps/details?id=org.emunix.unipatcher&hl=en).
 
-* [**pokegold97-es_v1.1.1.ips**](patches/pokegold97-es_v1.1.1.ips): aplicar a Pokemon - Edicion Oro (Spain) (SGB Enhanced) (GB Compatible).gbc `md5: 9462bc81907e38c59acccd739690e6f9`
+* [**pokegold97-es_v1.1.2.ips**](patches/pokegold97-es_v1.1.2.ips): aplicar a Pokemon - Edicion Oro (Spain) (SGB Enhanced) (GB Compatible).gbc `md5: 9462bc81907e38c59acccd739690e6f9`
 
 También puedes compilar la ROM directamente instalando el repositorio, para ello consulta [INSTALL.md](INSTALL.md).
 
 Compila la siguiente ROM:
 
-* pokegold97-es.gbc  `md5: 46c0acc855b54825eb7e25e546a994d8`
+* pokegold97-es.gbc  `md5: 73b88f2f36a22bb2c9a9d4db50401fe8`
 
-***Última actualización: 3 de mayo de 2023***
+***Última actualización: 7 de enero de 2024***
 
 ## ¡Guía maestra disponible! (en inglés)
 

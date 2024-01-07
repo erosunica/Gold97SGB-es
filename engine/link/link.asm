@@ -1491,16 +1491,16 @@ LinkTrade:
 	bccoord 1, 14
 	call PlaceHLTextAtBC
 	call LoadTilemapToTempTilemap
-	hlcoord 10, 7
+	hlcoord 7, 7
 	ld b, 3
-	ld c, 7
+	ld c, 10
 	call LinkTextboxAtHL
 	ld de, String28d44
-	hlcoord 12, 8
+	hlcoord 9, 8
 	call PlaceString
 	ld a, 8
 	ld [w2DMenuCursorInitY], a
-	ld a, 11
+	ld a, 8
 	ld [w2DMenuCursorInitX], a
 	ld a, 1
 	ld [w2DMenuNumCols], a

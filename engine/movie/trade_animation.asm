@@ -352,8 +352,8 @@ TradeAnim_InitTubeAnim:
 	call GetSGBLayout
 	ld a, %11100100 ; 3,2,1,0
 	call DmgToCgbBGPals
-	ld a, %11010000
-	call DmgToCgbObjPal0
+	lb de, %11100100, %11100100 ; 3,2,1,0, 3,2,1,0
+	call DmgToCgbObjPals
 
 	call TradeAnim_IncrementJumptableIndex
 	ld a, 92

@@ -11,7 +11,7 @@ La versión en español inicia su numeración en la versión 1.0.0.
 - Modificada la película de introducción y la pantalla de título para ser más similar a la de SW97.
 - Asignada la paleta correcta a los objetos del minijuego de Pikachu.
 - Corregida la caja de texto que aparece tras dar nombre a tu madre.
-- Arregladas colisiones UP_WALL en TropicalIslandOutside.
+- Corregidas colisiones UP_WALL en TropicalIslandOutside.
 - Ahora pueden aparecer las Rutas 116-120 en La Hora de Ken.
 - La sprites del overworld que deben integrarse con el mapa, como el árbol frutal o la animación de Golpe Cabeza, ahora utilizan dos tonos en lugar de únicamente uno.
 - Añadida la pantalla que muestra la Pokédex en el segmento de elegir tu starter.
@@ -72,9 +72,9 @@ La versión en español inicia su numeración en la versión 1.0.0.
 ## v1.1.0
 
 - Actualizadas las Ruinas Sánscritas para que sean más similares a las de SW97.
-- Arreglada la paleta del icono Porta-MT en la Mochila tras volver de enseñar una MT/MO (de la versión EN 7.33).
-- Arreglada la paleta del menú Equipo al enseñar un Movimiento en modo SGB (de la versión EN 7.33).
-- Arreglada la posición de las flechas de Brillo Impresión en el menú de Opciones (de la versión EN 7.33).
+- Corregida la paleta del icono Porta-MT en la Mochila tras volver de enseñar una MT/MO (de la versión EN 7.33).
+- Corregida la paleta del menú Equipo al enseñar un Movimiento en modo SGB (de la versión EN 7.33).
+- Corregida la posición de las flechas de Brillo Impresión en el menú de Opciones (de la versión EN 7.33).
 - Tutor de Movimientos añadido al Casino Marítimo de la Pasarela (de la versión EN 7.40).
 - Listado de Movimientos actualizado en algunos Pokémon para que puedan aprender los enseñados por el Tutor (de la versión EN 7.40).
 - Cambios menores en algunos textos.
@@ -82,4 +82,11 @@ La versión en español inicia su numeración en la versión 1.0.0.
 ## v1.1.1
 
 - Ahora el gráfico de Copyright de la pantalla de bienvenida es igual al de SW97.
-- Arreglado el error que provocaba que Pidgey y Spearow apareciesen dormidos en la hierba si era de Noche.
+- Corregido el error que provocaba que Pidgey y Spearow apareciesen dormidos en la hierba si era de Noche.
+
+## v1.1.2
+
+- ¡Ya es posible realizar intercambios y combatir entre dos copias de Super Oro 97! (de la versión EN 7.41).
+- Corregido el layout y los sprites al volver de la pantalla Mover PKMN del PC de Bill en modo SGB.
+- Corregido el problema donde el entrenador atravesaba los árboles en el Parque Nacional (de la versión EN 7.41).
+- Corregida la ubicación del Antiparaliz en el Sótano del Centro Comercial de Ciudad Poniente según la Guía maestra en PDF (de la versión EN 7.41).

@@ -984,10 +984,7 @@ _CGB_OptionsMenu:
 _CGB_TradeTube:
 	ld hl, PalPacket_TradeTube + 1
 	call CopyFourPalettes
-	ld hl, PartyMenuOBPals
-	ld de, wOBPals1
-	ld bc, 1 palettes
-	call CopyBytes
+	call InitPartyMenuOBPals
 	ld de, wOBPals1 palette 7
 	ld a, PREDEFPAL_RB_BLUEMON
 	call GetPredefPal

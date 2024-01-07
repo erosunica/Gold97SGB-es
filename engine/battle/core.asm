@@ -8033,7 +8033,7 @@ ShowLinkBattleParticipantsAfterEnd:
 	ld de, .Draw
 
 .store_result
-	hlcoord 6, 8
+	hlcoord 3, 8
 	call PlaceString
 	ld c, 200
 	call DelayFrames
